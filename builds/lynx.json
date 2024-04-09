@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "oem": "Google",
+      "device": "Pixel 7a",
+      "filename": "EvolutionX-14.0-20240429-lynx-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/lynx/14/EvolutionX-14.0-20240429-lynx-v9.0-Official.zip/download",
+      "timestamp": 1714432934,
+      "md5": "668af5ceefe87594f4f40dfb5cb89f75",
+      "sha256": "111b00477141959e2be86d62ac03b937b58eb902c91ce6e038fa6c9d7e85ce68",
+      "size": 2226140680,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/closed-rom-14-0_r25-official-evolution-x-8-3-03-04-2024.4546503/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "telegram": "https://telegram.me/AnierinB"
+    }
+  ]
+}

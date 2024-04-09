@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "oem": "Google",
+      "device": "Pixel 7 Pro",
+      "filename": "EvolutionX-14.0-20240430-cheetah-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cheetah/14/EvolutionX-14.0-20240430-cheetah-v9.0-Official.zip/download",
+      "timestamp": 1714442450,
+      "md5": "4c3c2061b015e44b7477b52d68b5e3fd",
+      "sha256": "ffbab6e688169a7d1838ccaca9a99e40e2018ab2cf5eb54d62b131f10d8f67fd",
+      "size": 2209542365,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/closed-rom-14-0_r25-official-evolution-x-8-3-03-04-2024.4546503/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "telegram": "https://telegram.me/AnierinB"
+    }
+  ]
+}

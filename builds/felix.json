@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "oem": "Google",
+      "device": "Pixel Fold",
+      "filename": "EvolutionX-14.0-20240505-felix-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/felix/14/EvolutionX-14.0-20240505-felix-v9.0-Official.zip/download",
+      "timestamp": 1714870124,
+      "md5": "48b474d1d006df285ce1684db993fc87",
+      "sha256": "0bcd6e614779c71dfab75a3a19200111a081432e1515eb55d5d250a7bf48309f",
+      "size": 2378614880,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/closed-rom-14-0_r25-official-evolution-x-8-3-03-04-2024.4546503/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "telegram": "https://telegram.me/AnierinB"
+    }
+  ]
+}
