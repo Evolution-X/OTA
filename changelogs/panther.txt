@@ -1,1 +1,10 @@
-Initial release
+Actually show Google PFP on settings homepage
+Fix play integrity certification OOTB
+Revamp Evovler
+Add power menu actions to Evoler
+Add status bar quick pull down to Evolver
+Add SystemUI restart action to power menu actions
+Add on-the-go mode action to power menu actions
+Fix various bugs with Lock screen charging info
+Prompt to continue installation if signature verification fails on user builds in recovery
+Add switch slots advanced menu item of recovery
