@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "oem": "Google",
+      "device": "Pixel 8",
+      "filename": "EvolutionX-14.0-20240512-shiba-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/14/EvolutionX-14.0-20240512-shiba-v9.0-Official.zip/download",
+      "timestamp": 1715522646,
+      "md5": "e3b36411ea9d71be54fc9a279360aeb0",
+      "sha256": "a0af475a34f0b994c0c20c6a14d1a870cfbc691da1a1cd2211f10e136f680964",
+      "size": 2105429067,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "telegram": "https://telegram.me/elgordovalley"
+    }
+  ]
+}
