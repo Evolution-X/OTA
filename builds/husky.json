@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "oem": "Google",
+      "device": "Pixel 8 Pro",
+      "filename": "EvolutionX-14.0-20240512-husky-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/husky/14/EvolutionX-14.0-20240512-husky-v9.0-Official.zip/download",
+      "timestamp": 1715522052,
+      "md5": "2c1483a9278a5eca57221ca542c5afd4",
+      "sha256": "c27f8567f8035d8815a095bb480bd667b20a0c0446584461ebe3dad011aa0294",
+      "size": 2110589856,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "telegram": "https://telegram.me/elgordovalley"
+    }
+  ]
+}
