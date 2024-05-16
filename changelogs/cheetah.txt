@@ -1,4 +1,9 @@
-May 2024 Security update
-Remove saturation color mode as its presence leads to problems deactivating color inversion and color correction, even if it is not selected.
-Add Saturation fragment from PixelParts
-Evolver refinements (More features soon)
+Add island notifications
+Add udfps animations
+Add udfps icons
+Add screen-off udfps
+Add per-app volume
+Remove muted and content from monet engine (deprecated)
+More refinements to Evolver
+Fix hide developer options activity/fragment
+Update built-in Pif
