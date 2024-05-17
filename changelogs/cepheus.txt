@@ -1,0 +1,15 @@
+===== 17 May 2024 =====
+
+NOTES:
+- Clean install is required from previous official build
+- Format Data could be required in other scenarios, check the XDA thread
+
+DEVICE:
+- Kernel updated to 4.14.343 (LTS)
+- KernelSU updated to 0.9.3
+- Drop MIUI camera and ship Aperture
+
+ROM:
+- Initial 9.0 release
+- May security patch
+- User build and SeLinux Enforcing
