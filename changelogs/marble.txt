@@ -1,1 +1,56 @@
-Initial 9.0 release
+This is Android 14 with May 2024 QPR2 (r35) security patches
+
+Notes:
+==============================
+- LineageOS-based source.
+- Make sure to be on HyperOS firmware first.
+- Clean flash is required if coming from March or older builds.
+- Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
+- Play Integrity passes by default (As of 05/20/2024).
+- Includes Dolby Atmos, POCO Camera.
+- Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
+
+Device changes:
+==============================
+Add libgame_enhance blob
+Add missing Charger and Dolby Vision Blobs
+Add overlay to improve signal reception
+Build com.android.nfc_extras
+Enable Turbo Power Charging Support
+Move to AOSP NXP NFC HAL
+Remove order preference for Thermal Profiles
+Report factory light sensor brightness for now (fixes auto brightness issues)
+Update GNSS blobs from ingot-user 14 UKQ1.231121.127 127 release-keys
+Update QCC blobs from ingot-user 14 UKQ1.231121.127 127 release-keys
+Update common blobs from V816.0.8.0.ULCEUXM
+Update display blobs from ingot-user 14 UKQ1.231121.127 127 release-keys
+Update marble blobs from V816.0.5.0.UMRMIXM
+
+Notable ROM changes:
+==============================
+Evolver: Allow turning on WiFi/Bluetooth when pressing the tiles
+Evolver: BatteryBar customizations
+Evolver: Battery styles customizations
+Evolver: Disable empty Buttons category
+Evolver: Import Wi-Fi standard icon
+Evolver: QS: Add brightness slider customizations
+Evolver: Status bar clock customizations
+Evolver: Status bar Clock background chip
+GamesPropsUtils: Spoof PUBG to Samsung Galaxy S9 Tab Ultra
+PixelPropsUtils: Do not spoof unspecified packages as barbet
+Settings: Allow editing all APNs and APN types
+Settings: Fix potential NPE in WifiTetherSecurityPreferenceController
+Settings: Fix restore default apn dialog sometimes not dismissed
+Settings: Follow navbar color in base
+Settings: Hide IME Space feature
+Settings: Use seekbar to allow setting arbitrary animation values
+Settings: support per-app volume
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsProvider: Resolve google gms configurator denials
+SettingsProvider: Set device name to marketname if available
+SystemUI: Implement bouncer face unlock animation
+SystemUI: Show bluetooth dialog when during long press instead of tap
+SystemUI: Workaround for systemui crash caused by gboard
+WifiDisplaySettings: Fix some NPE
+services: Bypass shortcut enforcement for default launchers
