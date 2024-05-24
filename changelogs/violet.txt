@@ -1,0 +1,8 @@
+Device changes:
+==============================
+Initial v9.0 Release
+
+Notes:
+==============================
+- LineageOS-based source.
+- Clean flash Mandatory
