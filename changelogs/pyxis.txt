@@ -1,1 +1,5 @@
-Updated ROM Sources
+================= May 23 =======================
+Device Changes
+================================================
+sdm710-common:Remove package cache on early boot
+================================================
