@@ -3,19 +3,14 @@ This is Android 14 with May 2024 QPR2 (r35) security patches
 Notes:
 ==============================
 - LineageOS-based source.
-- Make sure to be on HyperOS firmware first.
-- Clean flash is required if coming from March or older builds.
-- Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
+- Initial 9.0 build.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- ROM is already pre-rooted with KSU.
 - Play Integrity fails (As of 05/25/2024).
-- Includes Dolby Atmos, POCO Camera.
-- Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Disable qti secure_element service on non nfc skus
-Drop double click effect
-overlay: Disable Smooth display
-overlay: Enable secure NFC functionality
+Drop Trusted User Inteface service
 
 Notable ROM changes:
 ==============================
