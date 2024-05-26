@@ -1,15 +1,54 @@
-===== 17 May 2024 =====
+===== 26 May 2024 =====
 
 NOTES:
-- Clean install is required from previous official build
+- Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
 
 DEVICE:
-- Kernel updated to 4.14.343 (LTS)
-- KernelSU updated to 0.9.3
-- Drop MIUI camera and ship Aperture
+- Support battery light
+- Move to signed builds
 
 ROM:
-- Initial 9.0 release
-- May security patch
-- User build and SeLinux Enforcing
+Evolver: BatteryBar customizations
+Evolver: Battery styles customizations
+Evolver: Disable empty Buttons category
+Evolver: Import Wi-Fi standard icon
+Evolver: QS: Add brightness slider customizations
+Evolver: Status bar clock customizations
+Evolver: Status bar Clock background chip
+Settings: Follow navbar color in base
+Settings: Hide IME Space feature
+Settings: Use seekbar to allow setting arbitrary animation values
+Settings: support per-app volume
+SettingsProvider: Set device name to marketname if available
+SystemUI: Implement bouncer face unlock animation
+ChooseLockPassword: Decrease minimum pin length for auto confirm
+Evolver: Add Pocket judge toggle
+Evolver: Add StatusBar Lyric
+Evolver: Add animations to quick settings tiles
+Evolver: Add separate tunables for navbar layout customization
+Evolver: Allow hiding QS footer data usage
+Evolver: Battery Styles: Add more styles
+Evolver: Custom statusbar logo customizations
+Evolver: Fingerprint authentication vibration
+Settings: Allow changing back gesture height
+Settings: Allow changing the length of gesture navbar
+Settings: Allow customizing volume stream steps
+Settings: Allow Configuring Navbar Radius
+Settings: Allow to hide arrow for back gesture
+Settings: Disable Navbar radius customization if hint disabled
+Settings: Hide navbar radius customization when taskbar enabled
+Settings: Also hide pill length on taskbar mode
+Settings: Incall vibration option
+Settings: Introduce App Lock
+Settings: Introduce Smart Pause
+Settings: Optional haptic feedback on back gesture
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Remove IME space under keyboard feature
+Settings: add option to enable AOD on charging only
+Settings: enable SIM card ringtone only if slot not empty
+Allow signature spoofing on user builds
+Evolver: Remove Google Photos spoof toggle (can still be enabled)
+Update translations
+certification: 05/23/2024 Update
+increase default max password length to 128
