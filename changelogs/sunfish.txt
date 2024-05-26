@@ -1,0 +1,6 @@
+Update 20240527
+- May 2024 security patch
+- KernelSU enabled by default
+- Fix ASI crashing
+- Source side: Switch to LineageOS based
+- Switch to signed build (Required for Play Integrity)
