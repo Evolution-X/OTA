@@ -1,21 +1,21 @@
 {
     "response": [
       {
-        "maintainer": "Tejas Singh",
-        "oem": "Xiaomi",
-        "device": "POCO F1",
-        "filename": "EvolutionX-14.0-20240525-beryllium-v9.0-Official.zip",
-        "download": "https://sourceforge.net/projects/evolution-x/files/beryllium/14/EvolutionX-14.0-20240525-beryllium-v9.0-Official.zip/download",
-        "timestamp": 1716644961,
-        "md5": "86013092685d5e2f6cf0a72e8f5fca6f",
-        "sha256": "da5ce75c469cb9351eead45ae731f58ffcdac32b228e15deea3ee6ab40f1fb51",
-        "size": 1878761959,
-        "version": "9.0",
-        "buildtype": "Release",
-        "forum": "https://xdaforums.com/t/rom-14-official-evolution-x-for-xiaomi-poco-f1.4637003/",
-        "firmware": "https://xmfirmwareupdater.com/firmware/beryllium/stable/V12.0.3.0.QEJMIXM/",
-        "paypal": "https://paypal.me/tejas101k",
-        "telegram": "https://t.me/tejas101k"
-      }
+      "maintainer": "Tejas Singh",
+      "oem": "Xiaomi",
+      "device": "POCO F1",
+      "filename": "EvolutionX-14.0-20240527-beryllium-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/beryllium/14/EvolutionX-14.0-20240527-beryllium-v9.0-Official.zip/download",
+      "timestamp": 1716795640,
+      "md5": "ea9c2c97e2696085ab6cd7b50e600361",
+      "sha256": "517e9581227c04d82084847d5043602a39777e66352163d8b3f7a8db86627230",
+      "size": 1879102514,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-official-evolution-x-for-xiaomi-poco-f1.4637003/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/beryllium/stable/V12.0.3.0.QEJMIXM/",
+      "paypal": "https://paypal.me/tejas101k",
+      "telegram": "https://t.me/tejas101k"
+    }
     ]
 }

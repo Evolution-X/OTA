@@ -1,14 +1,1 @@
-• Fixed leica camera crashing after auto downloading additional features
-• Fixed double tap to wake
-• Add App lock
-• Add FPS Info tile
-• Fixed issues with navigation bar and add more customization (Hide IME Space, custom length radius)
-• Fixed monet theme not applying on custom icon pack leading to launcher crash
-• Include Basic Call Recording (BCR)
-• Bring back more battery styles
-• Add separate sim ringtones
-• Allow low power refresh rate
-• Add pocket judge & Status bar logo & lyric
-• Add wifi standard icon and QS data usage
-• Add force full screen apps
-• And more customizations & fixes
+Fixed Device Integrity & Playstore certification Passes
