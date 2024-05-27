@@ -1,0 +1,13 @@
+===== 27 May 2024 =====
+
+NOTES:
+- Dirty install from previous official is fine
+- Compatible with locked bootloader
+- Builds are signed now
+
+DEVICE:
+- GCam has been replaced with Aperture
+- Kernel updated to 4.14.343 (LTS)
+
+ROM:
+- Initial 9.0 after rebasing on LOS
