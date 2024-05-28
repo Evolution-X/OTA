@@ -1,1 +1,11 @@
-Initial Build
+THIS BUILD WILL FAIL TO INSTALL VIA OTA DUE TO UPDATED KEYS!
+SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
+DIRTY INSTALLATION IS FINE OVER LAST OFFICIAL BUILD.
+
+Signed with private keys
+Update PIF
+Add pocket detection
+Add app lock
+Add status bar logo customizations
+Import LHDC and LDAC prebuilts from stock
+Shipped with Leica camera and OS1.0.3.0.UMSMIXM firmware
