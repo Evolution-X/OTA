@@ -1,1 +1,15 @@
-Initial Build
+THIS BUILD WILL FAIL TO INSTALL VIA OTA DUE TO UPDATED KEYS!
+SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
+
+Signed with private keys
+Update PIF
+Add sb/qs battery icon customizations
+Add qs brightness slider customizations
+Add status bar clock & date customizations
+Add a toggle for secure tiles on keyguard
+Add BatteryBar
+Add pocket detection
+Add app lock
+Add status bar logo customizations
+Misc fixes
+More refinements to Evolver

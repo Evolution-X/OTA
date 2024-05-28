@@ -1,8 +1,8 @@
 Device changes:
 ==============================
-Initial v9.0 Release
-
-Notes:
-==============================
-- LineageOS-based source.
-- Clean flash Mandatory
+- CTS Pass by Default
+- Use common libqti-perfd-client and power-libperfmgr
+- Increase Auto Brightness Debounce
+- Remove schedulerservice from device compatibility matrix
+- Improve In Call Loudness (kernel Side)
+- Improve in Performance & Battery-Backup (kernel Side)

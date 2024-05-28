@@ -2,59 +2,30 @@ This is Android 14 with May 2024 QPR2 (r35) security patches
 
 Notes:
 ==============================
-- LineageOS-based source.
+- LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity fails (As of 05/25/2024).
+- Play Integrity passes (As of 05/26/2024).
 - Includes Dolby Atmos, POCO Camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Disable qti secure_element service on non nfc skus
-Drop double click effect
-overlay: Disable Smooth display
-overlay: Enable secure NFC functionality
+None
 
 Notable ROM changes:
 ==============================
-ChooseLockPassword: Decrease minimum pin length for auto confirm
-Evolver: Add Pocket judge toggle
-Evolver: Add StatusBar Lyric
-Evolver: Add animations to quick settings tiles
+Add AC4Tbl params for dolby AC4 decoder
+Allow signature spoofing on user builds
 Evolver: Add separate tunables for navbar layout customization
-Evolver: Allow hiding QS footer data usage
-Evolver: Allow turning on Bluetooth on showDialog
-Evolver: Battery Styles: Add more styles
-Evolver: Custom statusbar logo customizations
-Evolver: Fingerprint authentication vibration
-Evolver: Import Wi-Fi standard icon
-Evolver: Update for edge light
-FaceEnroll: Fix circle camera view background color
-GamesPropsUtils: Spoof PUBG to ROG Gaming 8 Pro
-Settings: Add a preference controller for Double tap to Ambient
-Settings: Add option to cycle through ringer modes
-Settings: Allow changing back gesture height
-Settings: Allow changing the length of gesture navbar
-Settings: Allow customizing volume stream steps
-Settings: Allow Configuring Navbar Radius
-Settings: Allow disabling private DNS for VPN
-Settings: Allow showing Ambient instead of fully waking
-Settings: Allow to hide arrow for back gesture
-Settings: Allow to hide screen capture status from apps
+Evolver: Remove Google Photos spoof toggle (can still be enabled)
+PixelPropsUtils: Clean up and update
+PixelPropsUtils: spoofBuildGms: Support RELEASE & INCREMENTAL
+Revert "[Wi-Fi] Remove 'Do not validate' option in CA certificate spinner"
+Settings: Add a preference controller for Double tap to Ambien
 Settings: Allow user to select low power refresh rate
-Settings: Also hide pill length on taskbar mode
-Settings: Disable Navbar radius customization if hint disabled
-Settings: Double tap to trigger doze
-Settings: Hide navbar radius customization when taskbar enabled
-Settings: Implement cutout force full screen
-Settings: Incall vibration option
-Settings: Introduce App Lock
-Settings: Introduce Smart Pause
-Settings: Optional haptic feedback on back gesture
-Settings: Phone ringtone setting for Multi SIM device
-Settings: Remove IME space under keyboard feature
-Settings: add option to enable AOD on charging only
-Settings: enable SIM card ringtone only if slot not empty
-Settings: gestures: Enable Cycle through ringer modes for all
+ThemeOverlayApplier: Exclude Launcher3 and Themepicker overlays
+Update translations
+certification: 05/23/2024 Update
+increase default max password length to 128
