@@ -1,0 +1,21 @@
+{
+    "response": [
+  {
+      "maintainer": "Dr.Opto",
+      "oem": "redmi",
+      "device": "Redmi Note 12 5G/Poco X5 5G",
+      "filename": "EvolutionX-14.0-20240527-stone-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240527-stone-v9.0-Official.zip/download",
+      "timestamp": 1716808333,
+      "md5": "888a299bce13b9430e36a837692bb2fe",
+      "sha256": "d026881d75a77a3d19b132a5050b9cc9fa31fce4d7c5f8bd2f7016805c45e37a",
+      "size": 2775940286,
+      "version": "9.0",
+      "buildtype": "Monthly",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "Dr_Opto"
+    }
+  ]
+}
