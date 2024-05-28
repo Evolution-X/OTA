@@ -1,0 +1,18 @@
+Device changes:
+==============================
+- Initial v9.0 Release
+- No Mi Camera & Viper4fx
+- Fastcharging implimatations
+- Add fastcharging toggle
+- optimized some thermals
+- 120 Fps for screen recording
+- Enable BT low power adaptive control
+- Intruduce HBM & auto HBM for stone 
+
+Notes:
+==============================
+- LineageOS-based source.
+- Make sure flash region waise HyperOS firmware first.
+- Clean flash is required if coming from March or older builds.
+- Play Integrity fails (As of 05/25/2024).
+- Credits to All stone devs for trees. Malam Damai and Taki Tachibana for test
