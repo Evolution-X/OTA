@@ -1,0 +1,17 @@
+2024-05-27
+
+
+To use this release you need:
+   
+   CLEAN FLASH AND WIPE DATA !!
+   HYPEROS Global OS1.0.2.0.ULCMIXM_14.0
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Reboot recovery
+4. Format Data
+
+# Device
+
+ * Initial lineage based EvolutionX release

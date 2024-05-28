@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "yarpiin",
+      "oem": "Xiaomi",
+      "device": "Xiaomi 12",
+      "filename": "EvolutionX-14.0-20240528-cupid-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cupid/14/EvolutionX-14.0-20240528-cupid-v9.0-Official.zip/download",
+      "timestamp": 1716859185,
+      "md5": "abc1b42ba3197f8efc416e8466d73908",
+      "sha256": "73e387c9758fc8353857f146ededce63a5ffffdf43f0c01a10605cf8f065591f",
+      "size": 2865622099,
+      "version": "9.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0-xiaomi12-cupid-official-evolutionx.4591391/",
+      "firmware": "http://xmfirmwareupdater.com/firmware/cupid/stable/OS1.0.2.0.ULCMIXM/",
+      "paypal": "https://www.paypal.com/paypalme/yarpiin",
+      "telegram": ""
+    }
+  ]
+}
