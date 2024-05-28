@@ -19,5 +19,4 @@ Notes:
 - LineageOS-based source.
 - Make sure flash region waise HyperOS firmware first.
 - Clean flash is required if coming from March or older builds.
-- Play Integrity fails (As of 05/25/2024).
 - Credits to All stone devs for trees. Malam Damai and Taki Tachibana for test
