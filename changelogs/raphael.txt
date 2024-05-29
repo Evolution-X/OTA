@@ -6,14 +6,17 @@ Notes:
 - Initial 9.0 build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU.
-- Play Integrity fails (As of 05/25/2024).
+- Play Integrity passes (As of 05/29/2024).
 
 Device changes:
 ==============================
-Drop Trusted User Inteface service
+Add privapp-permissions for MiuiCamera
+Use the fragment for QTI vibrator HAL
 
 Notable ROM changes:
 ==============================
+BatteryStatsImpl: Guard against OOB
+BroadcastReceiver: Gracefully handle redundant broadcasts
 ChooseLockPassword: Decrease minimum pin length for auto confirm
 Evolver: Add Pocket judge toggle
 Evolver: Add StatusBar Lyric
@@ -27,7 +30,10 @@ Evolver: Fingerprint authentication vibration
 Evolver: Import Wi-Fi standard icon
 Evolver: Update for edge light
 FaceEnroll: Fix circle camera view background color
+Fix NPE when traversing viewgroup display list
 GamesPropsUtils: Spoof PUBG to ROG Gaming 8 Pro
+PixelPropsUtils: Remove gms check from isCallerSafetyNet
+PixelPropsUtils: Spoof Gboard and Ai Wallpapers to husky
 Settings: Add a preference controller for Double tap to Ambient
 Settings: Add option to cycle through ringer modes
 Settings: Allow changing back gesture height
@@ -40,6 +46,7 @@ Settings: Allow to hide arrow for back gesture
 Settings: Allow to hide screen capture status from apps
 Settings: Allow user to select low power refresh rate
 Settings: Also hide pill length on taskbar mode
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
 Settings: Disable Navbar radius customization if hint disabled
 Settings: Double tap to trigger doze
 Settings: Hide navbar radius customization when taskbar enabled
@@ -53,3 +60,10 @@ Settings: Remove IME space under keyboard feature
 Settings: add option to enable AOD on charging only
 Settings: enable SIM card ringtone only if slot not empty
 Settings: gestures: Enable Cycle through ringer modes for all
+SystemUI: Fix lottie malformed json crashes
+SystemUI: fix SliceView layout
+Vibrator: Force to return a non-zero duration
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+base: Introduce PowerOffAlarmService
+core: Broadcast intent when display power state changes
+increase default max password length to 128
