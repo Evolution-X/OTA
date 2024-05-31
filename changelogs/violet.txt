@@ -1,4 +1,9 @@
 Device changes:
 ==============================
-- Fix D2W
-- Fix some kernel Side issues 
+- Drop debugfs stuff
+- Replace writepid with task_profiles command for cgroup migration
+- Use TARGET_USES_MINI_GAPPS flag
+- Enable Android Dynamic Performance Framework
+- Optmize Performance 
+
+N.B: If u chnage default kernel dont report me about anything
