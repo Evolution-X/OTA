@@ -1,10 +1,10 @@
-2024-05-27
+2024-06-02
 
 
 To use this release you need:
    
    CLEAN FLASH AND WIPE DATA !!
-   HYPEROS Global OS1.0.2.0.ULCMIXM_14.0
+   HYPEROS Global OS1.0.3.0.ULCMIXM_14.0
 
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
@@ -14,4 +14,4 @@ To use this release you need:
 
 # Device
 
- * Initial lineage based EvolutionX release
+ * fixes to reduce UI lags
