@@ -1,11 +1,7 @@
-THIS BUILD WILL FAIL TO INSTALL VIA OTA DUE TO UPDATED KEYS!
-SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
-DIRTY INSTALLATION IS FINE OVER LAST OFFICIAL BUILD.
-
-Signed with private keys
-Update PIF
-Add pocket detection
-Add app lock
-Add status bar logo customizations
-Import LHDC and LDAC prebuilts from stock
-Shipped with Leica camera and OS1.0.3.0.UMSMIXM firmware
+Dirty flash is fine over last official build.
+Add BCR support
+Atomx: updated kernelSU to v0.9.4
+Atomx: Add 90hz support [ if you face flicker in low brigtness set both minimum and peak refresh rate same eg. 120hz  ]
+overalay: Adjust status bar padding from left, right and top
+Gapps: Switch to pico variant
+ 
