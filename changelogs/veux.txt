@@ -1,8 +1,6 @@
-###### Note ######
- Leica at the moment only works on Redmi(peux) if you have Poco device(veux) You are requested to wait for a few days for leica to be fixed for poco . Can be dirty flashed from latest official. OTA should work if coming from a build dated 26/05/2024
-##################
+Can be dirty flashed from latest official.
 
-Replaced MiuiCamera with Leica Camera
+Replaced Aperture with GCam. MiCam is still present
 Fixed a bug where Video lags at 60fps on Youtube and other platforms.
 Fixed Media Codecs
 Signed with private keys
