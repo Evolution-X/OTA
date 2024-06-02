@@ -1,0 +1,36 @@
+This is Android 14 with May 2024 QPR2 (r35) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity passes (As of 06/02/2024).
+- Gapps version.
+- Credits to Hakan.
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
+BatteryStatsImpl: Guard against OOB
+BroadcastReceiver: Gracefully handle redundant broadcasts
+DarkMode Settings: Use List Preference rather ugly Drop Down
+DataProcessor: Do not skip and replace screen on component with screen on time
+Fix NPE when traversing viewgroup display list
+MediaProfiles: Check before overriding media settings xml
+NightDisplay Settings: Use List Preference for NightLight settings
+Parts: Fix writing profile to NFC tag
+PixelPropsUtils: Spoof Gboard and Ai Wallpapers to husky
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+Settings: add animation to dark mode preference
+SystemUI: Fix lottie malformed json crashes
+SystemUI: fix SliceView layout
+Vibrator: Force to return a non-zero duration
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+base: Introduce PowerOffAlarmService
+core: Broadcast intent when display power state changes
+device_config: Enable additional Pixel Launcher configs
+device_config: Update Live Caption model
+increase default max password length to 128
+media: Add changes to pick target specific media xml's
