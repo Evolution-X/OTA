@@ -1,9 +1,17 @@
 Device changes:
 ==============================
-- Drop debugfs stuff
-- Replace writepid with task_profiles command for cgroup migration
-- Use TARGET_USES_MINI_GAPPS flag
-- Enable Android Dynamic Performance Framework
-- Optmize Performance 
+- Pin SystemUIGoogle
+- Update system blobs to LA.QSSI.14.0.r1-14100-qssi.0
 
-N.B: If u chnage default kernel dont report me about anything
+
+Flash Steps:
+Flash the dynamic supported recovery.
+Reboot into recovery.
+1.Wipe Dalvik and Cache (don't touch anything other than these two).
+2.Format data.
+3.Flash the ROM.
+4.Reboot into recovery.
+5.Format data.
+6.Boot into the system.
+
+N.B: If you change the default kernel and did not follow these 6 steps, do not report any issues.
