@@ -1,9 +1,7 @@
-================= June 3rd =======================================
+================= June 5th =======================================
 Device Changes
 ==================================================================
-sdm710-common: Address some denials
-sdm710-common: Use common libqti-perfd-client and power-libperfmgr
-sdm710-common: powerhint: Add DT2W
+sdm710-common: overlay: Hide vendor security patch level
 ==================================================================
 ROM Sources Updated
 ==================================================================
