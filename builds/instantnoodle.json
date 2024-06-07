@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "Oneplus",
+      "device": "Oneplus 8",
+      "filename": "EvolutionX-14.0-20240607-instantnoodle-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/14/EvolutionX-14.0-20240607-instantnoodle-v9.0-Official.zip/download",
+      "timestamp": 1717738679,
+      "md5": "907596d5f64591cd5b4ed731a82990e8",
+      "sha256": "8f028fb39900ffce0a17417557150ac4f4655e28786abb0079781a034aebc0a3",
+      "size": 2248721540,
+      "version": "9.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-official-evolution-x-9-0-07-06-24.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy"
+    }
+  ]
+}

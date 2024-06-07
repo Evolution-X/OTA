@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "Oneplus",
+      "device": "Oneplus 8 Pro",
+      "filename": "EvolutionX-14.0-20240607-instantnoodlep-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/instantnoodlep/14/EvolutionX-14.0-20240607-instantnoodlep-v9.0-Official.zip/download",
+      "timestamp": 1717740917,
+      "md5": "ef14f24b68d54c9650622962df6bde50",
+      "sha256": "ba5800dc38cd531abd0c47b04fa0b28f65940ab03411f2018aa4a4eac8645728",
+      "size": 2260994397,
+      "version": "9.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-official-evolution-x-9-0-07-06-24.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy"
+    }
+  ]
+}
