@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "Oneplus",
+      "device": "Oneplus 8T",
+      "filename": "EvolutionX-14.0-20240607-kebab-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/kebab/14/EvolutionX-14.0-20240607-kebab-v9.0-Official.zip/download",
+      "timestamp": 1717745403,
+      "md5": "ca29cf17665096adc30612d9279667a2",
+      "sha256": "4913b93e05586d6aef7c1642f68dd0c1b2cd1cd584ca17ce630d76ce0fe28db5",
+      "size": 2166460573,
+      "version": "9.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-official-evolution-x-9-0-07-06-24.4480927/",
+      "firmware": "OOS 13.1.0.582(EX01)",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "Oneplus",
+      "device": "Oneplus 9R",
+      "filename": "EvolutionX-14.0-20240607-lemonades-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/lemonades/14/EvolutionX-14.0-20240607-lemonades-v9.0-Official.zip/download",
+      "timestamp": 1717747759,
+      "md5": "8493424f57e357c47df672146b33f4a6",
+      "sha256": "777d501e29fcb43af93e29df5ee6c6fb5ebfc42434caa752f7920f0976071cd7",
+      "size": 2167454184,
+      "version": "9.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-official-evolution-x-9-0-07-06-24.4480927/",
+      "firmware": "OOS 13.1.0.583(EX01)",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy"
+    }
+  ]
+}
