@@ -4,18 +4,18 @@
       "maintainer": "Joey Huab",
       "oem": "Xiaomi",
       "device": "Mi A1",
-      "filename": "EvolutionX-14.0-20240602-tissot-v9.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/tissot/14/EvolutionX-14.0-20240602-tissot-v9.0-Official.zip/download",
-      "timestamp": 1717337111,
-      "md5": "e41f28dc5f60111c5f7f0447455634a3",
-      "sha256": "f55c9d139110078da0ae2fe1bcc8eecf838ec338a2ec697eb6540cb38e51272c",
-      "size": 1199879098,
+      "filename": "EvolutionX-14.0-20240607-tissot-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/tissot/14/EvolutionX-14.0-20240607-tissot-v9.0-Official.zip/download",
+      "timestamp": 1717781478,
+      "md5": "d911fe57d66cfa6eb92f44feac8ceb91",
+      "sha256": "5bebba924e3e88bbe0593c13e89f10da061e4fc7ababeabda168e9a7db288fc8",
+      "size": 1194037318,
       "version": "9.0",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r35-tissot-official-evolution-x-05-11-24.4666390/",
       "firmware": "https://xmfirmwareupdater.com/miui/tissot/stable/V10.0.24.0.PDHMIXM/",
-      "paypal": "https://paypal.me/joeyhuab",
-      "telegram": "https://telegram.me/joey_huab"
+      "paypal": "https://linktr.ee/joeyhuab",
+      "telegram": ""
     }
   ]
 }
