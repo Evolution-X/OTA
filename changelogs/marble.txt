@@ -6,34 +6,54 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes (As of 05/26/2024).
+- Play Integrity passes, RCS reported as broken (As of 06/07/2024).
 - Includes Dolby Atmos, POCO Camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-overlay: Drop autobrightness configuration
+Import missing media codecs from stock
+overlay: Define OEM fast charge sysfs node
+overlay: Enable volume steps settings
+overlay: Hide vendor security patch level
+overlay: Update CarrierConfig from phone1
+rootdir: move thermal profile permission to init stage
 
 Notable ROM changes:
 ==============================
-BatteryStatsImpl: Guard against OOB
-BroadcastReceiver: Gracefully handle redundant broadcasts
-DarkMode Settings: Use List Preference rather ugly Drop Down
-DataProcessor: Do not skip and replace screen on component with screen on time
-Fix NPE when traversing viewgroup display list
-MediaProfiles: Check before overriding media settings xml
-NightDisplay Settings: Use List Preference for NightLight settings
-Parts: Fix writing profile to NFC tag
-PixelPropsUtils: Spoof Gboard and Ai Wallpapers to husky
+Enable FLAG_SECURE for userdebug builds as well on keyguard
+Evolver: A11 QS UI Style
+Evolver: Add QS Panel Styles
+Evolver: Add brightness slider themes
+LineageParts: Add more device key actions
+QSPanel: Don't crash when not using media player
+QSPanel: Fix NPE in updateViewPositions()
 Settings: Ambient Music Ticker - Allow to pulse on new tracks
-Settings: add animation to dark mode preference
-SystemUI: Fix lottie malformed json crashes
-SystemUI: fix SliceView layout
-Vibrator: Force to return a non-zero duration
-apex: Prevent illegal state exception caused by GMS concurrent alarms
-base: Introduce PowerOffAlarmService
-core: Broadcast intent when display power state changes
-device_config: Enable additional Pixel Launcher configs
-device_config: Update Live Caption model
-increase default max password length to 128
-media: Add changes to pick target specific media xml's
+Settings: Forcefully enable Hotspot Speed setting
+Settings: Long press to copy wifi password
+SettingsGoogle: Remove duplicate battery saver xml
+SystemUI: Add null check for wakelock in KeyguardViewMediator
+SystemUI: Clean up for Tile layout
+SystemUI: Do not marquee QS label text
+SystemUI: Fix crashes when loading notifications
+SystemUI: Fix the bluetooth icon cannot be toggled by status tuner
+SystemUI: Fix wrong thread exception when updating QS tiles
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+SystemUI: Prevent QSPanel crash when adjusting tiles height
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: QSAnimator: Hide secondary label in QQS
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+SystemUI: Tune QS Panel bottom padding
+SystemUI: customization: Avoid NPE in ClockRegistry
+SystemUIGoogle: Adapt to A14 QPR2
+SystemUIGoogle: Add androidx.concurrent_concurrent-futures-ktx as static lib
+SystemUIGoogle: Bring back KeyguardSliceProviderGoogle
+SystemUIGoogle: Import DeskClockAction code
+SystemUIGoogle: Remove R8 optimizations
+WiFi: Remove country code checking
+extras: Add Play font package
+extras: Update HarmonyOS Sans Font
+extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
+pixel-style: overlay: Allow new SystemUI clocks
+vendor: config: props: Set default wifi country code
+vendor: flags: Enable more flags
