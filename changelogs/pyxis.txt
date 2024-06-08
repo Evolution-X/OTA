@@ -1,13 +1,7 @@
-================= June 6th =======================================
+================= June 7th =======================================
 Device Changes
 ==================================================================
-Pyxis: Enable 60 fps video in aperture
-sdm710-common: sepolicy: Rework and cleanup
-sdm710-common: overlay: Update CarrierConfig from phone1
-* From Nothing OS 2.0.4
-sdm710-common:overlay: Enable call recording
-sdm710-common: overlay: Enable volume steps settings
-sdm710-common: overlay: Enable double tap to ambient
+Pyxis:Disable Smart Pixels on UDFPS
 ==================================================================
 ROM Sources Updated
 ==================================================================
