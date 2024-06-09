@@ -1,7 +1,17 @@
 Device changes:
 ==============================
-- Pin SystemUIGoogle
-- Update system blobs to LA.QSSI.14.0.r1-14100-qssi.0
+- Fixed Battery drain issue
+- Fixed Offline charging issue 
+- Add Basic Call Recorder
+- Add Fully Working Dolby Atmos
+- Switch to Pico GApps (for Zip Size Smaller)
+- Update media configs
+- Update CarrierConfig
+- Enable zram writeback
+- Set hardcode zram size to 3GB (For Both 4GB and 6GB varient)
+- Kernel Upstream to 4.14.348
+- Enable Fast Charge by Default
+- lz4 Update to version 1.9.4
 
 
 Flash Steps:
