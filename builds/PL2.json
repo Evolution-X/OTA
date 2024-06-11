@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Akshat Singh",
+      "oem": "Nokia",
+      "device": "Nokia 6.1",
+      "filename": "EvolutionX-14.0-20240610-PL2-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/PL2/14/EvolutionX-14.0-20240610-PL2-v9.0-Official.zip/download",
+      "timestamp": 1718035705,
+      "md5": "9aa0bbeed183021906f69f886623967e",
+      "sha256": "193b76915a3af14df99c05bd68c0e2817f90f773bb8db32c04e13bdfec0d2020",
+      "size": 1473742971,
+      "version": "9.0",
+      "buildtype": "Monthly",
+      "forum": "https://xdaforums.com/t/rom-14-0_r35-pl2-official-evolution-x-06-10-24.4658982/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "https://t.me/Legendleo90"
+    }
+  ]
+}
