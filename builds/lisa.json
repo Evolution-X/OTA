@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "ZAID KHAN",
+      "oem": "Xiaomi",
+      "device": "Xiaomi 11 Lite NE 5G / Mi 11 LE",
+      "filename": "EvolutionX-14.0-20240611-lisa-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/lisa/14/EvolutionX-14.0-20240611-lisa-v9.0-Official.zip/download",
+      "timestamp": 1718120843,
+      "md5": "4354ff766f352ae101e2628b5bbcdc98",
+      "sha256": "11e59a43abb22a2d13711850e12f3959d03837d6b22e1fad9937fab2c8010855",
+      "size": 2513726187,
+      "version": "9.0",
+      "buildtype": "Monthly",
+      "forum": "https://xdaforums.com/t/rom-14-lisa-official-evolution-x-12-06-24.4616047/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/lisa/stable/OS1.0.2.0.UKOCNXM/",
+      "paypal": "https://paypal.me/zaidkhan099",
+      "telegram": "https://t.me/zaidkhan0997"
+    }
+  ]
+}
