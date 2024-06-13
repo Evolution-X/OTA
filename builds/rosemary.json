@@ -1,21 +1,21 @@
 {
   "response": [
     {
-      "maintainer": "MySelly Yusuf",
-      "oem": "Xiaomi",
-      "device": "Redmi Note 10S",
-      "filename": "EvolutionX-14.0-20240611-rosemary-v9.0-OFFICIAL.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/rosemary/14/EvolutionX-14.0-20240611-rosemary-v9.0-OFFICIAL.zip/download",
-      "timestamp": 1718135068,
-      "md5": "b6fdca41b399c20be60ea331c05ab436",
-      "sha256": "14cd9251f9cdcb68ff08d2bc586c5caac9c10ca526766e236520681163779282",
-      "size": 2157166862,
+      "maintainer": "",
+      "oem": "",
+      "device": "",
+      "filename": "EvolutionX-14.0-20240613-rosemary-v9.0-OFFICIAL.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/rosemary/14/EvolutionX-14.0-20240613-rosemary-v9.0-OFFICIAL.zip/download",
+      "timestamp": 1718270652,
+      "md5": "996e0e7827413172c163c79abb0daee9",
+      "sha256": "b8fcce36c83a854cb2dbcaa9b82b990449f98dda9e9c15178ae446667be6f300",
+      "size": 2157221529,
       "version": "9.0",
-      "buildtype": "Release",
+      "buildtype": "",
       "forum": "",
       "firmware": "",
       "paypal": "",
-      "telegram": "https://t.me/evoxyzrosemary"
+      "telegram": ""
     }
   ]
 }
