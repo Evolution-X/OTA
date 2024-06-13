@@ -1,13 +1,12 @@
+This is Android 14 with May 2024 QPR2 (r35) security patches
+
 Device changes:
 ==============================
-- Explicitly disable "Enable GL comp backpressure"
-- Add back debug.sf.disable_backpressure
-- KernelSU Included 
-- Update KernelSU Version to 11884
-- Also some Changes on kernel
+- Remove debug.sf.disable_backpressure
+- Update adreno blobs to 530.54
 
 
-Flash Steps:
+Clean Flash Steps:
 Flash the dynamic supported recovery.
 Reboot into recovery.
 1.Wipe Dalvik and Cache (don't touch anything other than these two).
@@ -17,4 +16,11 @@ Reboot into recovery.
 5.Format data.
 6.Boot into the system.
 
-N.B: If you change the default kernel and did not follow these 6 steps, do not report any issues.
+Dirty Flash Step:
+Reboot into recovery.
+1.wipe Dalvik and Cache
+2.Flash ROM
+3.Boot into the system.
+
+
+N.B: If you change the default kernel and did not follow these 6 steps while clean flash, dont report about any issues.
