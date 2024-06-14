@@ -6,8 +6,15 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
-- GCam has been replaced with Aperture
-- Kernel updated to 4.14.343 (LTS)
+- Nothing relevant
 
 ROM:
-- Initial 9.0 after rebasing on LOS
+- Evolver: A11 QS UI Style
+- Evolver: Add QS Panel Styles
+- Evolver: Add brightness slider themes
+- extras: Add Play font package
+- extras: Update HarmonyOS Sans Font
+- extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
+- Settings: Ambient Music Ticker - Allow to pulse on new tracks
+- Many fixes and tweaks under the hood
+- Add new translations
