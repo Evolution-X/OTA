@@ -2,22 +2,14 @@ This is Android 14 with May 2024 QPR2 (r35) security patches
 
 Notes:
 ==============================
-- LineageOS-based source. Signed build.
-- Make sure to be on HyperOS firmware first.
-- Clean flash is required if coming from March or older builds.
-- Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
+- LineageOS-based source. Signed build. Gapps version.
 - Play Integrity passes, RCS reported as broken (As of 06/07/2024).
-- Includes Dolby Atmos, POCO Camera.
-- Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Credits to Hakan.
 
 Device changes:
 ==============================
-Import missing media codecs from stock
-overlay: Define OEM fast charge sysfs node
-overlay: Enable volume steps settings
-overlay: Hide vendor security patch level
-overlay: Update CarrierConfig from phone1
-rootdir: move thermal profile permission to init stage
+None
 
 Notable ROM changes:
 ==============================
@@ -28,7 +20,6 @@ Evolver: Add brightness slider themes
 LineageParts: Add more device key actions
 QSPanel: Don't crash when not using media player
 QSPanel: Fix NPE in updateViewPositions()
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
 Settings: Forcefully enable Hotspot Speed setting
 Settings: Long press to copy wifi password
 SettingsGoogle: Remove duplicate battery saver xml

@@ -4,18 +4,18 @@
       "maintainer": "Joey Huab",
       "oem": "Xiaomi",
       "device": "Mi 9T Pro / Redmi K20 Pro",
-      "filename": "EvolutionX-14.0-20240524-raphael-v9.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/14/EvolutionX-14.0-20240524-raphael-v9.0-Official.zip/download",
-      "timestamp": 1716549330,
-      "md5": "362b00969a47458b727d4d9e51405416",
-      "sha256": "af36cc7f8cb11c65ba0d2ab79042adf59160957a340e0fcede9c920d6eaad6b7",
-      "size": 2740681766,
+      "filename": "EvolutionX-14.0-20240607-raphael-v9.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/14/EvolutionX-14.0-20240607-raphael-v9.0-Official.zip/download",
+      "timestamp": 1717765340,
+      "md5": "c39aa21bbf24972b5a4834e0406ffbb1",
+      "sha256": "a5bdb15db4446e27907b591db0961f286f7d6a62213de4fa5280beab614d5a80",
+      "size": 2899545531,
       "version": "9.0",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r35-raphael-official-evolution-x-05-10-24.4644402/",
       "firmware": "https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/",
-      "paypal": "https://paypal.me/joeyhuab",
-      "telegram": "https://telegram.me/joey_huab"
+      "paypal": "https://linktr.ee/joeyhuab",
+      "telegram": ""
     }
   ]
 }

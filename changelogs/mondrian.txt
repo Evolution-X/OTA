@@ -1,0 +1,8 @@
+Device changes:
+==============================
+Fix auto-brighness on AOD
+Add back original color mode
+Fix battery state
+Add BCR support
+==============================
+ROM Sources Updated

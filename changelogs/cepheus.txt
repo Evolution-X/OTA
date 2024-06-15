@@ -5,50 +5,15 @@ NOTES:
 - Format Data could be required in other scenarios, check the XDA thread
 
 DEVICE:
-- Support battery light
-- Move to signed builds
+- Nothing relevant
 
 ROM:
-Evolver: BatteryBar customizations
-Evolver: Battery styles customizations
-Evolver: Disable empty Buttons category
-Evolver: Import Wi-Fi standard icon
-Evolver: QS: Add brightness slider customizations
-Evolver: Status bar clock customizations
-Evolver: Status bar Clock background chip
-Settings: Follow navbar color in base
-Settings: Hide IME Space feature
-Settings: Use seekbar to allow setting arbitrary animation values
-Settings: support per-app volume
-SettingsProvider: Set device name to marketname if available
-SystemUI: Implement bouncer face unlock animation
-ChooseLockPassword: Decrease minimum pin length for auto confirm
-Evolver: Add Pocket judge toggle
-Evolver: Add StatusBar Lyric
-Evolver: Add animations to quick settings tiles
-Evolver: Add separate tunables for navbar layout customization
-Evolver: Allow hiding QS footer data usage
-Evolver: Battery Styles: Add more styles
-Evolver: Custom statusbar logo customizations
-Evolver: Fingerprint authentication vibration
-Settings: Allow changing back gesture height
-Settings: Allow changing the length of gesture navbar
-Settings: Allow customizing volume stream steps
-Settings: Allow Configuring Navbar Radius
-Settings: Allow to hide arrow for back gesture
-Settings: Disable Navbar radius customization if hint disabled
-Settings: Hide navbar radius customization when taskbar enabled
-Settings: Also hide pill length on taskbar mode
-Settings: Incall vibration option
-Settings: Introduce App Lock
-Settings: Introduce Smart Pause
-Settings: Optional haptic feedback on back gesture
-Settings: Phone ringtone setting for Multi SIM device
-Settings: Remove IME space under keyboard feature
-Settings: add option to enable AOD on charging only
-Settings: enable SIM card ringtone only if slot not empty
-Allow signature spoofing on user builds
-Evolver: Remove Google Photos spoof toggle (can still be enabled)
-Update translations
-certification: 05/23/2024 Update
-increase default max password length to 128
+- Evolver: A11 QS UI Style
+- Evolver: Add QS Panel Styles
+- Evolver: Add brightness slider themes
+- extras: Add Play font package
+- extras: Update HarmonyOS Sans Font
+- extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
+- Settings: Ambient Music Ticker - Allow to pulse on new tracks
+- Many fixes and tweaks under the hood
+- Add new translations

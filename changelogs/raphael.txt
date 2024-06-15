@@ -2,54 +2,51 @@ This is Android 14 with May 2024 QPR2 (r35) security patches
 
 Notes:
 ==============================
-- LineageOS-based source.
-- Initial 9.0 build.
+- LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- ROM is already pre-rooted with KSU.
-- Play Integrity fails (As of 05/25/2024).
+- ROM is already pre-rooted with KSU. Just install the KSU app.
+- Play Integrity passes, RCS reported as broken (As of 06/07/2024).
+- Includes Leica Camera.
 
 Device changes:
 ==============================
-Drop Trusted User Inteface service
+None
 
 Notable ROM changes:
 ==============================
-ChooseLockPassword: Decrease minimum pin length for auto confirm
-Evolver: Add Pocket judge toggle
-Evolver: Add StatusBar Lyric
-Evolver: Add animations to quick settings tiles
-Evolver: Add separate tunables for navbar layout customization
-Evolver: Allow hiding QS footer data usage
-Evolver: Allow turning on Bluetooth on showDialog
-Evolver: Battery Styles: Add more styles
-Evolver: Custom statusbar logo customizations
-Evolver: Fingerprint authentication vibration
-Evolver: Import Wi-Fi standard icon
-Evolver: Update for edge light
-FaceEnroll: Fix circle camera view background color
-GamesPropsUtils: Spoof PUBG to ROG Gaming 8 Pro
-Settings: Add a preference controller for Double tap to Ambient
-Settings: Add option to cycle through ringer modes
-Settings: Allow changing back gesture height
-Settings: Allow changing the length of gesture navbar
-Settings: Allow customizing volume stream steps
-Settings: Allow Configuring Navbar Radius
-Settings: Allow disabling private DNS for VPN
-Settings: Allow showing Ambient instead of fully waking
-Settings: Allow to hide arrow for back gesture
-Settings: Allow to hide screen capture status from apps
-Settings: Allow user to select low power refresh rate
-Settings: Also hide pill length on taskbar mode
-Settings: Disable Navbar radius customization if hint disabled
-Settings: Double tap to trigger doze
-Settings: Hide navbar radius customization when taskbar enabled
-Settings: Implement cutout force full screen
-Settings: Incall vibration option
-Settings: Introduce App Lock
-Settings: Introduce Smart Pause
-Settings: Optional haptic feedback on back gesture
-Settings: Phone ringtone setting for Multi SIM device
-Settings: Remove IME space under keyboard feature
-Settings: add option to enable AOD on charging only
-Settings: enable SIM card ringtone only if slot not empty
-Settings: gestures: Enable Cycle through ringer modes for all
+Enable FLAG_SECURE for userdebug builds as well on keyguard
+Evolver: A11 QS UI Style
+Evolver: Add QS Panel Styles
+Evolver: Add brightness slider themes
+LineageParts: Add more device key actions
+QSPanel: Don't crash when not using media player
+QSPanel: Fix NPE in updateViewPositions()
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+Settings: Forcefully enable Hotspot Speed setting
+Settings: Long press to copy wifi password
+SettingsGoogle: Remove duplicate battery saver xml
+SystemUI: Add null check for wakelock in KeyguardViewMediator
+SystemUI: Clean up for Tile layout
+SystemUI: Do not marquee QS label text
+SystemUI: Fix crashes when loading notifications
+SystemUI: Fix the bluetooth icon cannot be toggled by status tuner
+SystemUI: Fix wrong thread exception when updating QS tiles
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+SystemUI: Prevent QSPanel crash when adjusting tiles height
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: QSAnimator: Hide secondary label in QQS
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+SystemUI: Tune QS Panel bottom padding
+SystemUI: customization: Avoid NPE in ClockRegistry
+SystemUIGoogle: Adapt to A14 QPR2
+SystemUIGoogle: Add androidx.concurrent_concurrent-futures-ktx as static lib
+SystemUIGoogle: Bring back KeyguardSliceProviderGoogle
+SystemUIGoogle: Import DeskClockAction code
+SystemUIGoogle: Remove R8 optimizations
+WiFi: Remove country code checking
+extras: Add Play font package
+extras: Update HarmonyOS Sans Font
+extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
+pixel-style: overlay: Allow new SystemUI clocks
+vendor: config: props: Set default wifi country code
+vendor: flags: Enable more flags
