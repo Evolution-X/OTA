@@ -1,22 +1,20 @@
 Device changes:
 ==============================
-- Initial v9.0 Release
-- No Viper4fx
-- Fastcharging implimatations
-- Add fastcharging toggle
-- optimized some thermals
-- 120 Fps for screen recording
-- Enable BT low power adaptive control
-- Intruduce HBM & auto HBM for stone 
+- Drop Mi Cam for lifetime
+- Fix Gooddix fp issue
+- Enable 24-bit support for wired headphones
+- Enable TurboPower charging
+- Enable battery cycle count
+- Some battery twicks
 
 Known Bugs:
 ==============================
-- 48 MP mode crash
-- wide angle camera not working 
+- FM radio crashing
 
 Notes:
 ==============================
 - LineageOS-based source.
 - Make sure flash region waise HyperOS firmware first.
-- Clean flash is required if coming from March or older builds.
+- Dirty flash is possible over May build only.
+- No Dolby there, it's my mistake i forgot to add. sorry for it.
 - Credits to All stone devs for trees. Malam Damai and Taki Tachibana for test
