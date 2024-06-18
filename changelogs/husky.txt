@@ -1,15 +1,8 @@
-THIS BUILD WILL FAIL TO INSTALL VIA OTA DUE TO UPDATED KEYS!
-SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
-
-Signed with private keys
-Update PIF
-Add sb/qs battery icon customizations
-Add qs brightness slider customizations
-Add status bar clock & date customizations
-Add a toggle for secure tiles on keyguard
-Add BatteryBar
-Add pocket detection
-Add app lock
-Add status bar logo customizations
-Misc fixes
-More refinements to Evolver
+Add brightness slider styles
+Add QS panel styles
+Add QS tile styles
+Add QS rows/columns customizations
+Add QQS rows portrait/landscape customizations
+Add more QS battery styles
+Add a few more developer options to Settings > Evolver > Miscellaneous
+updated Carrier.pb and carrier overlays to QPR3
