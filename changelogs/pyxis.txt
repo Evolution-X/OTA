@@ -1,7 +1,8 @@
-================= June 8th =======================================
+================= June 20th =======================================
 Device Changes
 ==================================================================
-sdm710-common: correct overlay path && update Aux Cameras ID
+pyxis: Add correct Gcam buffer
+sdm710-common: Remove doze ovelay that's not needed anymore.
 ==================================================================
 ROM Sources Updated
 ==================================================================
