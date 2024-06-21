@@ -4,56 +4,44 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
-- Clean flash is required if coming from March or older builds.
+- Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS reported as broken (As of 06/07/2024).
+- Play Integrity passes, RCS works (As of 06/21/2024).
 - Includes Dolby Atmos, POCO Camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Import missing media codecs from stock
-overlay: Define OEM fast charge sysfs node
-overlay: Enable volume steps settings
-overlay: Hide vendor security patch level
-overlay: Update CarrierConfig from phone1
-rootdir: move thermal profile permission to init stage
+Add support for Dolby spatial audio
+Declare more media packages for Dolby
+Disable doze display state on 0B panel
+Enable doze auto brightness on 0B panel
+Explicitly disable "Enable GL comp backpressure"
+Pause NFC polling while using front camera
+Set default dialer package name
+Silence some spammy logging
+Update Adreno blobs from chenfeng V816.0.5.0.UNJCNXM
+Use entire DMS stack from nuwa
+audio: Add dolby volume listener
+dolby: Revert "Re-enable speaker virtualization after bootup"
+init: Move RLIMIT_MEMLOCK to system/core init
+parts: Get rid of proguard flags
+parts: Ignore face unlock and ASI front camera usage
+parts: Make NFC camera service optional
+parts: Refactor ClearSpeakerFragment code
+parts: Update overrideHdrTypes API for U
+vintf: Add more hals to fcm
 
 Notable ROM changes:
 ==============================
-Enable FLAG_SECURE for userdebug builds as well on keyguard
-Evolver: A11 QS UI Style
-Evolver: Add QS Panel Styles
-Evolver: Add brightness slider themes
-LineageParts: Add more device key actions
-QSPanel: Don't crash when not using media player
-QSPanel: Fix NPE in updateViewPositions()
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
-Settings: Forcefully enable Hotspot Speed setting
-Settings: Long press to copy wifi password
-SettingsGoogle: Remove duplicate battery saver xml
-SystemUI: Add null check for wakelock in KeyguardViewMediator
-SystemUI: Clean up for Tile layout
-SystemUI: Do not marquee QS label text
-SystemUI: Fix crashes when loading notifications
-SystemUI: Fix the bluetooth icon cannot be toggled by status tuner
-SystemUI: Fix wrong thread exception when updating QS tiles
-SystemUI: Prevent OOB when reinflating QS panel with notifications
-SystemUI: Prevent QSPanel crash when adjusting tiles height
-SystemUI: Prevent systemui crash when reinflating QS
-SystemUI: QSAnimator: Hide secondary label in QQS
-SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
-SystemUI: Tune QS Panel bottom padding
-SystemUI: customization: Avoid NPE in ClockRegistry
-SystemUIGoogle: Adapt to A14 QPR2
-SystemUIGoogle: Add androidx.concurrent_concurrent-futures-ktx as static lib
-SystemUIGoogle: Bring back KeyguardSliceProviderGoogle
-SystemUIGoogle: Import DeskClockAction code
-SystemUIGoogle: Remove R8 optimizations
-WiFi: Remove country code checking
-extras: Add Play font package
-extras: Update HarmonyOS Sans Font
-extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
-pixel-style: overlay: Allow new SystemUI clocks
+AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
+Disable useless Keystore features
+Ensure prop has zero padding
+Fix RCS issue (for now)
+Prevent serial of ro props from self increment
+Settings: Add back increasing ring feature
+Settings: Link smallest width options in display settings
+SystemUI: StatusBarIconController: Prevent an NPE on early boot
+extras: Drop BrightnessSliderShaded
+extras: Import BCR 1.64
 vendor: config: props: Set default wifi country code
-vendor: flags: Enable more flags
