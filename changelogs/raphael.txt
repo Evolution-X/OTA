@@ -5,48 +5,23 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU. Just install the KSU app.
-- Play Integrity passes, RCS reported as broken (As of 06/07/2024).
+- Play Integrity passes, RCS works (As of 06/21/2024).
 - Includes Leica Camera.
 
 Device changes:
 ==============================
-None
+Configure Dalvik heap for all raphael sku
+parts: Get rid of proguard flags
 
 Notable ROM changes:
 ==============================
-Enable FLAG_SECURE for userdebug builds as well on keyguard
-Evolver: A11 QS UI Style
-Evolver: Add QS Panel Styles
-Evolver: Add brightness slider themes
-LineageParts: Add more device key actions
-QSPanel: Don't crash when not using media player
-QSPanel: Fix NPE in updateViewPositions()
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
-Settings: Forcefully enable Hotspot Speed setting
-Settings: Long press to copy wifi password
-SettingsGoogle: Remove duplicate battery saver xml
-SystemUI: Add null check for wakelock in KeyguardViewMediator
-SystemUI: Clean up for Tile layout
-SystemUI: Do not marquee QS label text
-SystemUI: Fix crashes when loading notifications
-SystemUI: Fix the bluetooth icon cannot be toggled by status tuner
-SystemUI: Fix wrong thread exception when updating QS tiles
-SystemUI: Prevent OOB when reinflating QS panel with notifications
-SystemUI: Prevent QSPanel crash when adjusting tiles height
-SystemUI: Prevent systemui crash when reinflating QS
-SystemUI: QSAnimator: Hide secondary label in QQS
-SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
-SystemUI: Tune QS Panel bottom padding
-SystemUI: customization: Avoid NPE in ClockRegistry
-SystemUIGoogle: Adapt to A14 QPR2
-SystemUIGoogle: Add androidx.concurrent_concurrent-futures-ktx as static lib
-SystemUIGoogle: Bring back KeyguardSliceProviderGoogle
-SystemUIGoogle: Import DeskClockAction code
-SystemUIGoogle: Remove R8 optimizations
-WiFi: Remove country code checking
-extras: Add Play font package
-extras: Update HarmonyOS Sans Font
-extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
-pixel-style: overlay: Allow new SystemUI clocks
-vendor: config: props: Set default wifi country code
-vendor: flags: Enable more flags
+AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
+Disable useless Keystore features
+Ensure prop has zero padding
+Fix RCS issue (for now)
+Prevent serial of ro props from self increment
+Settings: Add back increasing ring feature
+Settings: Link smallest width options in display settings
+SystemUI: StatusBarIconController: Prevent an NPE on early boot
+extras: Drop BrightnessSliderShaded
+extras: Import BCR 1.64
