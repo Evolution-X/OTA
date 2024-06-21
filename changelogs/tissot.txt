@@ -3,28 +3,22 @@ This is Android 14 with May 2024 QPR2 (r35) security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build. Gapps version.
-- Play Integrity passes, RCS reported as broken (As of 06/18/2024).
+- Play Integrity passes, RCS works (As of 06/21/2024).
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
 
 Device changes:
 ==============================
-Build fpc interface from source
+None
 
 Notable ROM changes:
 ==============================
-AttestationHooks: June 2024 Update
-Evolver: Add a dev option to unlimit screenrecord filesize
-Evolver: Dev toggle to ignore app wallpaper dimming requests
-PixelPropsUtils: June 2024 Update
-Revert "Wifi Standard: Optimize handling for flooding network requests"
-SF: Bring back support for disabling backpressure propagation
+AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
+Disable useless Keystore features
+Ensure prop has zero padding
+Fix RCS issue (for now)
+Prevent serial of ro props from self increment
+Settings: Add back increasing ring feature
 Settings: Link smallest width options in display settings
-SystemUI: screenshot: Catch RejectedExecutionException
-Update translations
-WallpaperManagerService: Get rid of removed UIDs that have set dim
-base: Do not reset keyguard going away state
-code: ConfigurationController: Prevent an NPE
+SystemUI: StatusBarIconController: Prevent an NPE on early boot
 extras: Drop BrightnessSliderShaded
-extras: Import BCR 1.64
-pixel-style: config: Build the textclassifier models
