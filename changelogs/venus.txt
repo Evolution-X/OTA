@@ -4,14 +4,24 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS reported as broken (As of 06/17/2024).
+- Play Integrity passes, RCS works (As of 06/21/2024).
 - Includes Xiaomi parts and Aperture camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-None
+Bring back Xiaomi Parts
 
 Notable ROM changes:
 ==============================
-Initial 9.0 release for Xiaomi Mi 11 (venus)
+AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
+Disable useless Keystore features
+Ensure prop has zero padding
+Fix RCS issue (for now)
+Prevent serial of ro props from self increment
+Settings: Add back increasing ring feature  
+Settings: Link smallest width options in display settings
+SystemUI: StatusBarIconController: Prevent an NPE on early boot
+extras: Drop BrightnessSliderShaded
+extras: Import BCR 1.64
+vendor: config: props: Set default wifi country code
