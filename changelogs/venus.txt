@@ -1,27 +1,54 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with June 2024 QPR3 (r50) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 06/21/2024).
+- Play Integrity passes, RCS works (As of 07/01/2024).
 - Includes Xiaomi parts and Aperture camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-Bring back Xiaomi Parts
+Build missing libraries for 14 QPR3
+Convert WiFi firmware symlinks to install_symlink targets
+Disable UFFD GC
+Import missing IMS lib
+Move to new RFS install_symlink targets
+Unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+Update CarrierConfig from munch V816.0.2.0.ULMMIXM
 
 Notable ROM changes:
 ==============================
-AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
-Disable useless Keystore features
-Ensure prop has zero padding
-Fix RCS issue (for now)
-Prevent serial of ro props from self increment
-Settings: Add back increasing ring feature  
-Settings: Link smallest width options in display settings
-SystemUI: StatusBarIconController: Prevent an NPE on early boot
-extras: Drop BrightnessSliderShaded
-extras: Import BCR 1.64
-vendor: config: props: Set default wifi country code
+Add required priv-app permissions for SystemUIGoogle
+Allow installing fake [odm|product|system_ext] packages
+Don't set PRODUCT_ENABLE_UFFD_GC by default
+Don't use dirty backup area anymore
+LensScreenshotReceiver: Return when failed to start activity
+Merge June 2024 security patches
+PhoneWindowManager: Check camera availability on camera key long press
+Remove non existent health 2.0 recovery package
+Settings: Follow system theme for SD card activities
+Settings: Skip auth for WiFi net share when unlocked in the last 60s
+StatusBarIconController: Avoid crash due to incorrect casting
+SystemUI: Correctly monet theme the new volume panel
+SystemUI: Disable FaceUnlock Lockouts
+SystemUI: Fix crash when resetting ShadeController views
+SystemUI: KeyguardUnlockAnimationController: Catch all exception
+SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+SystemUIGoogle: Update smartspace proto
+SystemUIGoogle: Update
+Updater: Round dialogs
+VolumeDialog: Fix per-app volume on secondary users
+certification: 06/30/2024 Update
+codec2: a workaround to solve backward compatibility issue
+extras: Remove incompatible notification background
+extras: Update systemui clocks from husky-user-14-AP2A.240605.024
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+fixup! SystemUI: Add API for runtime taskbar config
+fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+pixel-style: rro_overlays: Bump to AP2A.240605.024
+vendor: aconfig: Enable volume panel related configs
+vendor: aconfig: Remove use_media_router2_for_info_media_manager
