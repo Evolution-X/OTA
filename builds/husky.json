@@ -4,18 +4,18 @@
       "maintainer": "Oscar Mariscal",
       "oem": "Google",
       "device": "Pixel 8 Pro",
-      "filename": "EvolutionX-14.0-20240617-husky-v9.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/husky/14/EvolutionX-14.0-20240617-husky-v9.0-Official.zip/download",
-      "timestamp": 1718663844,
-      "md5": "2ea17ef6d528853a5051106f6497ba08",
-      "sha256": "1019b2a0ccf19d4003f7fef907d4713642837266f0de7811e3c0c78583b8822a",
-      "size": 2102474077,
-      "version": "9.0",
+      "filename": "EvolutionX-14.0-20240701-husky-v9.1-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/husky/14/EvolutionX-14.0-20240701-husky-v9.1-Official.zip/download",
+      "timestamp": 1719874472,
+      "md5": "5e06d9b8970de5be0207a15371ea1859",
+      "sha256": "3a6d3ff9e02ce07f528161da896863ede41970b7689fcd791081571b21760211",
+      "size": 2469559068,
+      "version": "9.1",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
       "firmware": "",
       "paypal": "https://paypal.me/osmjr1019",
-      "telegram": "https://telegram.me/elgordovalley"
+      "telegram": "https://telegram.me/OscarM1019"
     }
   ]
 }
