@@ -1,9 +1,15 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with June 2024 QPR3 (r50) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity passes.
+- MiuiCamera Included
+- Moto Dolby Included.
 
 Device changes:
 ==============================
-- Remove debug.sf.disable_backpressure
-- Update adreno blobs to 530.54
+- June Security Patch (QPR3)
 
 
 Clean Flash Steps:
