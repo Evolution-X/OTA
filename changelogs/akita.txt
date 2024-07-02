@@ -2,6 +2,7 @@ This is Android 14 with June 2024 QPR3 (r50) security patches and Device Firmwar
 
 Device Changes:
 ===============
+Initial Build
 Added Refresh Rate toggle
 Fixed UDFPS Icons and Animations
 RCS Working by default

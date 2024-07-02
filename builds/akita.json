@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "oem": "Google",
+      "device": "Pixel 8a",
+      "filename": "EvolutionX-14.0-20240701-akita-v9.1-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/akita/14/EvolutionX-14.0-20240701-akita-v9.1-Official.zip/download",
+      "timestamp": 1719873757,
+      "md5": "1eee115f3d56c0b2f9384d1d13e2a335",
+      "sha256": "bebb7fccefd13c39b16be85523c63651bbb0f158f110556bc22f8d001b2974de",
+      "size": 2498007760,
+      "version": "9.1",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "telegram": "https://telegram.me/OscarM1019"
+    }
+  ]
+}
