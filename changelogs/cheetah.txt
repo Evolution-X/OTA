@@ -1,8 +1,7 @@
-Add brightness slider styles
-Add QS panel styles
-Add QS tile styles
-Add QS rows/columns customizations
-Add QQS rows portrait/landscape customizations
-Add more QS battery styles
-Add a few more developer options to Settings > Evolver > Miscellaneous
-Expose clear calling 
+Evolution X 9.1
+Merge June 2024 security patches (UQPR3)
+Update firmware and blobs to AP2A.240605.024
+Ship saturation activity/fragment of PixelParts
+Update PIF (RCS fixed)
+Gcam pulled from stock during AP2A.240605.024 firmware/vendor extraction
+Add GoogleCamera_6gb_or_more_ram.xml
