@@ -1,24 +1,65 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with July 2024 QPR3 (r53) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build. Gapps version.
-- Play Integrity passes, RCS works (As of 06/21/2024).
+- Play Integrity passes, RCS works (As of 07/04/2024).
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
 
 Device changes:
 ==============================
-None
+Add atcmdfwd on framework compatibility matrix
+Build missing libraries for 14 QPR3
+Disable the usage of ConfigStore
+Include lineage FCM
+Inherit from QTI FCM
+Inherit from legacy QTI FCM
+QCamera2: Fix sensor to active array ROI conversion logic
+QCamera2: Fix sharpness issue in snapshot
+QCamera2: Remove libhidltransport empty library
+Move to QTI health AIDL service
+Set manifest target-level to 5
+Switch to QTI vibrator HAL
+Update CarrierConfig from munch V816.0.2.0.ULMMIXM
+Update remove_packages
+camera: Fix snprintf string truncation error
 
 Notable ROM changes:
 ==============================
-AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
-Disable useless Keystore features
-Ensure prop has zero padding
-Fix RCS issue (for now)
-Prevent serial of ro props from self increment
-Settings: Add back increasing ring feature
-Settings: Link smallest width options in display settings
-SystemUI: StatusBarIconController: Prevent an NPE on early boot
-extras: Drop BrightnessSliderShaded
+Add required priv-app permissions for SystemUIGoogle
+Allow installing fake [odm|product|system_ext] packages
+Don't set PRODUCT_ENABLE_UFFD_GC by default
+Don't use dirty backup area anymore
+LensScreenshotReceiver: Return when failed to start activity
+Merge July 2024 security patches
+PhoneWindowManager: Check camera availability on camera key long press
+PixelPropsUtils: July 2024 Refactor
+Remove non existent health 2.0 recovery package
+Settings: Follow system theme for SD card activities
+Settings: Make AppCloning independent of DeviceConfig
+Settings: Skip auth for WiFi net share when unlocked in the last 60s
+StatusBarIconController: Avoid crash due to incorrect casting
+SystemUI: Correctly monet theme the new volume panel
+SystemUI: Disable FaceUnlock Lockouts
+SystemUI: Fix crash when resetting ShadeController views
+SystemUI: KeyguardUnlockAnimationController: Catch all exception
+SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+SystemUIGoogle: Update smartspace proto
+SystemUIGoogle: Update
+Updater: Round dialogs
+VolumeDialog: Fix per-app volume on secondary users
+certification: 06/30/2024 Update
+codec2: a workaround to solve backward compatibility issue
+device_config: Enable shared connectivity
+device_config: Update Launcher configs
+extras: Remove incompatible notification background
+extras: Update systemui clocks from husky-user-14-AP2A.240605.024
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+fixup! SystemUI: Add API for runtime taskbar config
+fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+overlay: device_config: Drop machine learning back gesture
+pixel-style: rro_overlays: Bump to AP2A.240605.024
+vendor: aconfig: Enable volume panel related configs
+vendor: aconfig: Remove use_media_router2_for_info_media_manager
