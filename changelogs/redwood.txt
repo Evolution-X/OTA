@@ -1,6 +1,11 @@
-Dirty flash is fine over last official build.
-Gapps: Switch to Mini variant
-Updated blobs to OS1.0.4.0.UMSMIXM
-Shipped with OS1.0.4.0.UMSMIXM firmware
-Updated adreno blobs to v744
-Build Aptx and ldacBT libs from source
+This is Android 14 with July 2024 QPR3 (r53) security patches
+
+Notes:
+==============================
+This build is only compatible with goodix screen.
+Firmware OS1.0.4.0.UMSMIXM is included 
+
+Device Changes:
+===============
+Switched to stock Miui camera ( This uses Google Photos as the default gallery. You need to install Google Photos to open pictures from the camera.)
+Device is certified.
