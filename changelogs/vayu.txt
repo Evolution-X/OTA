@@ -1,9 +1,12 @@
-• Fixed circle to search (uninstall Google app updates from app info and update Google app from Play store)  
-• Add toggleable optional A11 QS Style  
-• Add QS Panel Styles  
-• Add brightness slider styles  
-• Add double tap to ambient pulse option  
-• Allowed disabling screen capture detection for apps like Snapchat  
-• Allowed removing restrictions on selecting folders through Android, e.g., "Android/data"  
-• Enable Hotspot Speed setting 
-• Misc. Bug fixes, Improve UI/UX Smoothness and scrolling
+Some Audio Related fixesExtend livedisplay support (Picture and Sunlight enhancement HBM)
+Camera: Prevent crash when unable to find tag
+Cancel backup on transport error
+Fix the restriction of odm partition overlays
+Merge July 2024 security patches
+PixelPropsUtils: July 2024 update
+Settings: Make AppCloning independent of DeviceConfig
+Split the lock synchronizing LMKD socket reads/writes
+SystemUI: Fix Internet Tile showing no service
+device_config: Drop machine learning back gesture
+device_config: Enable shared connectivity
+device_config: Update Launcher configs
