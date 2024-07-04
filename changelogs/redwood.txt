@@ -1,6 +1,56 @@
-Dirty flash is fine over last official build.
-Gapps: Switch to Mini variant
-Updated blobs to OS1.0.4.0.UMSMIXM
-Shipped with OS1.0.4.0.UMSMIXM firmware
-Updated adreno blobs to v744
-Build Aptx and ldacBT libs from source
+This is Android 14 with July 2024 QPR3 (r53) security patches
+
+Notes:
+==============================
+I'm not sure whether a dirty flash will work since I haven't tried it, so proceed at your own risk.
+This build is only compatible with goodix screen.
+Firmware OS1.0.4.0.UMSMIXM is included 
+
+Device Changes:
+===============
+Convert WiFi firmware symlinks to install_symlink targets
+Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+Update radio properties from haydn V816.0.1.0.UKKCNXM
+Update IMS blobs to haydn V816.0.1.0.UKKCNXM
+Fixed low mic issue on  whatsapp, telegram etc 
+overlay: Add P3 and sRGB color mode
+Build missing libraries for 14 QPR3
+
+Notable ROM changes:
+==============================
+Add required priv-app permissions for SystemUIGoogle
+Allow installing fake [odm|product|system_ext] packages
+Don't set PRODUCT_ENABLE_UFFD_GC by default
+Don't use dirty backup area anymore
+LensScreenshotReceiver: Return when failed to start activity
+Merge July 2024 security patches
+PhoneWindowManager: Check camera availability on camera key long press
+PixelPropsUtils: July 2024 Refactor
+Remove non existent health 2.0 recovery package
+Settings: Follow system theme for SD card activities
+Settings: Make AppCloning independent of DeviceConfig
+Settings: Skip auth for WiFi net share when unlocked in the last 60s
+StatusBarIconController: Avoid crash due to incorrect casting
+SystemUI: Correctly monet theme the new volume panel
+SystemUI: Disable FaceUnlock Lockouts
+SystemUI: Fix crash when resetting ShadeController views
+SystemUI: KeyguardUnlockAnimationController: Catch all exception
+SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+SystemUIGoogle: Update smartspace proto
+SystemUIGoogle: Update
+Updater: Round dialogs
+VolumeDialog: Fix per-app volume on secondary users
+certification: 06/30/2024 Update
+codec2: a workaround to solve backward compatibility issue
+device_config: Enable shared connectivity
+device_config: Update Launcher configs
+extras: Remove incompatible notification background
+extras: Update systemui clocks from husky-user-14-AP2A.240605.024
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+fixup! SystemUI: Add API for runtime taskbar config
+fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+overlay: device_config: Drop machine learning back gesture
+pixel-style: rro_overlays: Bump to AP2A.240605.024
+vendor: aconfig: Enable volume panel related configs
+vendor: aconfig: Remove use_media_router2_for_info_media_manager
