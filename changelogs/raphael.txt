@@ -1,27 +1,87 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with July 2024 QPR3 (r53) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU. Just install the KSU app.
-- Play Integrity passes, RCS works (As of 06/21/2024).
+- Play Integrity passes, RCS works (As of 07/06/2024).
 - Includes Leica Camera.
 
 Device changes:
 ==============================
-Configure Dalvik heap for all raphael sku
-parts: Get rid of proguard flags
+add prebuilt vendor.qti.hardware.camera.device@3.5
+build libpiex_shim
+build libpng.vendor
+Build missing libraries for 14 QPR3
+build more missing libs
+configure led vibrator
+Declare EGL libs as symlinks during extraction
+Declare IMS libs as symlinks during extraction
+explicitly build some vndk vendor libraries
+label more camera props
+Make shim for com.qti.node.watermark.so
+Mark CNE symlink target as required package
+Migrate to QTI USB Gadget 1.2 HIDL
+Move libwatermark_shim to camera shim
+Move usage of USB MTP/PTP functionality with USB F_FS driver
+powerhint: remove 480mhz GPU freq
+remove BOARD_USERDATAIMAGE_PARTITION_SIZE
+rework install_symlinks
+Setup DeviceAsWebcam
+Switch to android.hardware.usb@1.3-service.dual_role_usb
+Switch to prebuilt camera provider legacy lib
+Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+update autobrightness stability level
+Update CarrierConfig from munch V816.0.2.0.ULMMIXM
+Update FCM for QPR3
+update gpu blobs from hollywood-user-12-SQ3A.220605.009.A1-51062550053200150-release-keys
+Update manifest to level 5
+use media_codecs from caf hw media
+overlay: add Max Gamma Autobrightness adjustment
 
 Notable ROM changes:
 ==============================
-AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
-Disable useless Keystore features
-Ensure prop has zero padding
-Fix RCS issue (for now)
-Prevent serial of ro props from self increment
-Settings: Add back increasing ring feature
-Settings: Link smallest width options in display settings
-SystemUI: StatusBarIconController: Prevent an NPE on early boot
-extras: Drop BrightnessSliderShaded
-extras: Import BCR 1.64
+Add required priv-app permissions for SystemUIGoogle
+Allow installing fake [odm|product|system_ext] packages
+Camera: Prevent crash when unable to find tag
+Cancel backup on transport error
+Don't set PRODUCT_ENABLE_UFFD_GC by default
+Don't use dirty backup area anymore
+Fix the restriction of odm partition overlays
+LensScreenshotReceiver: Return when failed to start activity
+Merge July 2024 security patches
+PhoneWindowManager: Check camera availability on camera key long press
+PixelPropsUtils: July 2024 Refactor
+PixelPropsUtils: July 2024 update
+Remove non existent health 2.0 recovery package
+Settings: Follow system theme for SD card activities
+Settings: Make AppCloning independent of DeviceConfig
+Settings: Skip auth for WiFi net share when unlocked in the last 60s
+Split the lock synchronizing LMKD socket reads/writes
+StatusBarIconController: Avoid crash due to incorrect casting
+SystemUI: Correctly monet theme the new volume panel
+SystemUI: Disable FaceUnlock Lockouts
+SystemUI: Fix Internet Tile showing no service
+SystemUI: Fix crash when resetting ShadeController views
+SystemUI: KeyguardUnlockAnimationController: Catch all exception
+SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+SystemUIGoogle: Update
+SystemUIGoogle: Update smartspace proto
+Updater: Round dialogs
+VolumeDialog: Fix per-app volume on secondary users
+certification: 06/30/2024 Update
+codec2: a workaround to solve backward compatibility issue
+device_config: Drop machine learning back gesture
+device_config: Enable shared connectivity
+device_config: Update Launcher configs
+extras: Remove incompatible notification background
+extras: Update systemui clocks from husky-user-14-AP2A.240605.024
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+fixup! SystemUI: Add API for runtime taskbar config
+fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+overlay: device_config: Drop machine learning back gesture
+pixel-style: rro_overlays: Bump to AP2A.240605.024
+vendor: aconfig: Enable volume panel related configs
+vendor: aconfig: Remove use_media_router2_for_info_media_manager
