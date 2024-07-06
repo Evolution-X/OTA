@@ -6,7 +6,7 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/04/2024).
+- Play Integrity passes, RCS works (As of 07/06/2024).
 - Includes Dolby Atmos, Aperture camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
@@ -18,6 +18,7 @@ Notable ROM changes:
 ==============================
 Camera: Prevent crash when unable to find tag
 Cancel backup on transport error
+Fix app instantly crashing issue
 Fix the restriction of odm partition overlays
 Merge July 2024 security patches
 PixelPropsUtils: July 2024 update
