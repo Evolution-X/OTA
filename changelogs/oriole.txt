@@ -1,10 +1,4 @@
-THIS BUILD WILL FAIL TO INSTALL VIA OTA DUE TO UPDATED KEYS!
-SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
-
-Signed with private keys
-Update PIF
-Add pocket detection
-Add app lock
-Add status bar logo customizations
-Misc fixes
-More refinements to Evolver
+Evolution X 9.2
+Merge July 2024 security patches
+Update firmware and blobs to AP2A.240705.004
+Ship saturation activity/fragment of PixelParts
