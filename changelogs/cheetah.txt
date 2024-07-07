@@ -1,7 +1,3 @@
-Evolution X 9.1
-Merge June 2024 security patches (UQPR3)
-Update firmware and blobs to AP2A.240605.024
-Ship saturation activity/fragment of PixelParts
-Update PIF (RCS fixed)
-Gcam pulled from stock during AP2A.240605.024 firmware/vendor extraction
-Add GoogleCamera_6gb_or_more_ram.xml
+Evolution X 9.2
+Merge July 2024 security patches      
+Update firmware and blobs to AP2A.240705.004
