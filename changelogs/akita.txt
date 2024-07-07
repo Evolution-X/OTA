@@ -1,43 +1,11 @@
-This is Android 14 with June 2024 QPR3 (r50) security patches and Device Firmware
+This is Android 14 with July 2024 (r53) security patches and Device Firmware
 
 Device Changes:
 ===============
-Initial Build
-Added Refresh Rate toggle
-Fixed UDFPS Icons and Animations
-RCS Working by default
-Updated Device Firmware to June
+Update firmware and blobs to AP2A.240705.004
 
 Notable ROM changes:
 ==============================
-Add required priv-app permissions for SystemUIGoogle
-Allow installing fake [odm|product|system_ext] packages
-Don't set PRODUCT_ENABLE_UFFD_GC by default
-Don't use dirty backup area anymore
-LensScreenshotReceiver: Return when failed to start activity
-Merge June 2024 security patches
-PhoneWindowManager: Check camera availability on camera key long press
-Remove non existent health 2.0 recovery package
-Settings: Follow system theme for SD card activities
-Settings: Skip auth for WiFi net share when unlocked in the last 60s
-StatusBarIconController: Avoid crash due to incorrect casting
-SystemUI: Correctly monet theme the new volume panel
-SystemUI: Disable FaceUnlock Lockouts
-SystemUI: Fix crash when resetting ShadeController views
-SystemUI: KeyguardUnlockAnimationController: Catch all exception
-SystemUI: VolumeDialogImpl: Add content observer for panel timeout
-SystemUIGoogle: Update smartspace proto
-SystemUIGoogle: Update
-Updater: Round dialogs
-VolumeDialog: Fix per-app volume on secondary users
-certification: 06/30/2024 Update
-codec2: a workaround to solve backward compatibility issue
-extras: Remove incompatible notification background
-extras: Update systemui clocks from husky-user-14-AP2A.240605.024
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-fixup! SystemUI: Add API for runtime taskbar config
-fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
-fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
-pixel-style: rro_overlays: Bump to AP2A.240605.024
-vendor: aconfig: Enable volume panel related configs
-vendor: aconfig: Remove use_media_router2_for_info_media_manager
+Evolution X 9.2
+Merge July 2024 security patches
+
