@@ -1,4 +1,4 @@
-===== 27 May 2024 =====
+===== 08 Jul 2024 =====
 
 NOTES:
 - Dirty install from previous official is fine
@@ -6,8 +6,10 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
-- GCam has been replaced with Aperture
-- Kernel updated to 4.14.343 (LTS)
+- Required changes after QPR3
+- Adjusted framerates and resolutions for Aperture
 
 ROM:
-- Initial 9.0 after rebasing on LOS
+- Merged Google's QPR3
+- Security patch from July
+- Added Basic Call Recording

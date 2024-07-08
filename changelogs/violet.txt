@@ -1,10 +1,21 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with July 2024 QPR3 (r53) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity passes.
+- MiuiCamera Included
+- Moto Dolby Included.
+- KernelSU Included
 
 Device changes:
 ==============================
-- Remove debug.sf.disable_backpressure
-- Update adreno blobs to 530.54
-
+- Tune userdata
+- Register game libraries to sched_lib_name
+- Fix Graphics blobs to 530.54
+- Update Pin adreno stack
+- Enable FadingMarquee
+- Fix CHARGE_FULL_DESIGN
 
 Clean Flash Steps:
 Flash the dynamic supported recovery.
@@ -21,6 +32,5 @@ Reboot into recovery.
 1.wipe Dalvik and Cache
 2.Flash ROM
 3.Boot into the system.
-
 
 N.B: If you change the default kernel and did not follow these 6 steps while clean flash, dont report about any issues.

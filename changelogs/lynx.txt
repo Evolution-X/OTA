@@ -1,8 +1,3 @@
-Add brightness slider styles
-Add QS panel styles
-Add QS tile styles
-Add QS rows/columns customizations
-Add QQS rows portrait/landscape customizations
-Add more QS battery styles
-Add a few more developer options to Settings > Evolver > Miscellaneous
-Expose clear calling
+Evolution X 9.2
+Merge July 2024 security patches
+Update firmware and blobs to AP2A.240705.004

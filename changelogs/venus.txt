@@ -1,4 +1,19 @@
-Some Audio Related fixesExtend livedisplay support (Picture and Sunlight enhancement HBM)
+This is Android 14 with July 2024 QPR3 (r53) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash is required if coming from 8.6 or older builds.
+- Play Integrity passes, RCS works (As of 07/05/2024).
+- Includes Xiaomi parts and Aperture camera.
+- Credits to Arian16k, FlowerSea, GR.
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
 Camera: Prevent crash when unable to find tag
 Cancel backup on transport error
 Fix the restriction of odm partition overlays

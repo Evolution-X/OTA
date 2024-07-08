@@ -4,18 +4,18 @@
       "maintainer": "Oscar Mariscal",
       "oem": "Google",
       "device": "Pixel 8",
-      "filename": "EvolutionX-14.0-20240525-shiba-v9.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/14/EvolutionX-14.0-20240525-shiba-v9.0-Official.zip/download",
-      "timestamp": 1716697164,
-      "md5": "c116e861fc89d7e1fc4a2ba81fe707b7",
-      "sha256": "43fb0585f9ad026dddeb25c2cdf68cb16c74a077dd99957397691986378928e7",
-      "size": 2110479527,
-      "version": "9.0",
+      "filename": "EvolutionX-14.0-20240707-shiba-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/14/EvolutionX-14.0-20240707-shiba-v9.2-Official.zip/download",
+      "timestamp": 1720376909,
+      "md5": "d2b1a8c762a47347009967b45c736f05",
+      "sha256": "d4eceb6ebc9cef1969c0e6aed5d28b1c919f9d37b5fb90ea0acaa78aeb722e36",
+      "size": 2461967413,
+      "version": "9.2",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
       "firmware": "",
       "paypal": "https://paypal.me/osmjr1019",
-      "telegram": "https://telegram.me/elgordovalley"
+      "telegram": "https://telegram.me/OscarM1019"
     }
   ]
 }

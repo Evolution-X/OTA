@@ -1,1 +1,12 @@
-Fixed Device Integrity & Playstore certification Passes
+Fixed bugged sensors (rotation, proximity etc.) and drm since last release
+Camera: Prevent crash when unable to find tag
+Cancel backup on transport error
+Fix the restriction of odm partition overlays
+Merge July 2024 security patches
+PixelPropsUtils: July 2024 update
+Settings: Make AppCloning independent of DeviceConfig
+Split the lock synchronizing LMKD socket reads/writes
+SystemUI: Fix Internet Tile showing no service
+device_config: Drop machine learning back gesture
+device_config: Enable shared connectivity
+device_config: Update Launcher configs
