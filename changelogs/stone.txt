@@ -1,5 +1,16 @@
 Device changes:
-==============================
+=========08.07.2024==========
+- Add Graphene Cam be default
+- Silence battery logspam
+- Drop unnecessary BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE flag
+- Unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+- Add libpiex_shim for com.mi.node.mialgocontrol.so
+- Remove wait_for_keymaster and all references
+- Build protobuf vendorcompat
+- Disable display refresh rate override
+- Add Oneplus Dolby back
+
+=========16.06.2024==========
 - Drop Mi Cam for lifetime
 - Fix Gooddix fp issue
 - Enable 24-bit support for wired headphones
@@ -15,6 +26,6 @@ Notes:
 ==============================
 - LineageOS-based source.
 - Make sure flash region waise HyperOS firmware first.
-- Dirty flash is possible over May build only.
-- No Dolby there, it's my mistake i forgot to add. sorry for it.
-- Credits to All stone devs for trees. Malam Damai and Taki Tachibana for test
+- Dirty flash is possible over previous build only.
+- Credits to All stone devs for trees.
+- Francisco Bravo Bravo & Freddy & Mlil and Rech for test.
