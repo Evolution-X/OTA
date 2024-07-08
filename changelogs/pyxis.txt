@@ -1,8 +1,10 @@
-================= June 20th =======================================
+================= July 8th =======================================
 Device Changes
 ==================================================================
-pyxis: Add correct Gcam buffer
-sdm710-common: Remove doze ovelay that's not needed anymore.
+Trees are updated to Los Device Trees
+DeviceAsWebcam feature
 ==================================================================
-ROM Sources Updated
+ROM Sources
 ==================================================================
+Evolution X 9.2
+Merge July 2024 security patches
