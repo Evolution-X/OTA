@@ -6,25 +6,39 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/06/2024).
+- Play Integrity passes, RCS works (As of 07/11/2024).
 - Includes Dolby Atmos, Aperture camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Fix POCO cam crash
+Add Props to fix camera OIS
 
 Notable ROM changes:
 ==============================
-Camera: Prevent crash when unable to find tag
-Cancel backup on transport error
-Fix app instantly crashing issue
-Fix the restriction of odm partition overlays
-Merge July 2024 security patches
-PixelPropsUtils: July 2024 update
-Settings: Make AppCloning independent of DeviceConfig
-Split the lock synchronizing LMKD socket reads/writes
-SystemUI: Fix Internet Tile showing no service
-device_config: Drop machine learning back gesture
-device_config: Enable shared connectivity
-device_config: Update Launcher configs
+ADD APN for DIGI Spain IMS and DIGI Italy IMS
+Add toggle to enable brightness slider haptic feedback
+BluetoothDialog: Fix theme context
+BrightnessController: Use TunerService API
+Crash in SystemUI in Multi-User case for PIP
+Evolver: Less boring heads up option
+Evolver: Update spoofing features
+SF: Don't enable expensive rendering for unknown dataspace
+Settings: Allow skipping mirroring confirmation dialog
+SystemUI: Add affordance shorcut for AI Voice Assistant
+SystemUI: Add haptics to brightness slider
+SystemUI: Drop unused rounded corner padding
+SystemUI: Fix multiuser usage for custom logo
+SystemUI: Fix multiuser usage for less boring notifications
+SystemUI: UdfpsView: minor code improvement
+SystemUI: Update ChatGPT quickaffordance activity
+SystemUIGoogle: Remove elmyra
+apns: Fix invalid entries for WOM (chile)
+apns: Order properly
+apns: Update Telia Finland APNs
+apn: Add deinHandy (O2)
+base: Allow turning on Bluetooth when pressing the tile
+extras: Enable round icon usage for icon shapes
+extras: Update minSdk for preference-ktx library
+extras: Update preference-ktx library to 1.2.1
+wm: Fix rounded corners of freeform windows
