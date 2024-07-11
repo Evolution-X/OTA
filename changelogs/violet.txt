@@ -10,12 +10,17 @@ Notes:
 
 Device changes:
 ==============================
-- Tune userdata
-- Register game libraries to sched_lib_name
-- Fix Graphics blobs to 530.54
-- Update Pin adreno stack
-- Enable FadingMarquee
-- Fix CHARGE_FULL_DESIGN
+- Added DeviceAsWebcam
+- Tune up statusbar start padding
+- Tweak I/O scheduler
+- Increase max fling velocity
+- For smoother scrolling and better responsiveness
+- Added lineage fast charging
+- Default to 64 bit only build
+- Speed profile services and wifi-service to reduce RAM and storage
+- Inherit several Android Go configurations
+- Reduce boot time
+- Switch to Perf kernel 4.14.348
 
 Clean Flash Steps:
 Flash the dynamic supported recovery.
