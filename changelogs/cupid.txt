@@ -1,10 +1,10 @@
-2024-06-02
+2024-07-17
 
 
 To use this release you need:
    
    CLEAN FLASH AND WIPE DATA !!
-   HYPEROS Global OS1.0.3.0.ULCMIXM_14.0
+
 
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
@@ -14,4 +14,11 @@ To use this release you need:
 
 # Device
 
- * fixes to reduce UI lags
+ * Complete rebase onto https://github.com/cupid-development/android_device_xiaomi_sm8450-common trees
+ * Dropped Dolby
+ * Dropped MIUI Camera ( Will not bring it back )
+
+Warning!!
+- If Heads up donot provide sound nor vibration you need to switch on and off "less boring notifications inside evolver"
+- if mobile data does not work after enabling you need to choose apn manualy
+
