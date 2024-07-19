@@ -6,39 +6,42 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/11/2024).
-- Includes Dolby Atmos, Aperture camera.
+- Play Integrity passes, RCS works (As of 07/19/2024).
+- Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add Props to fix camera OIS
+None
 
 Notable ROM changes:
 ==============================
-ADD APN for DIGI Spain IMS and DIGI Italy IMS
-Add toggle to enable brightness slider haptic feedback
-BluetoothDialog: Fix theme context
-BrightnessController: Use TunerService API
-Crash in SystemUI in Multi-User case for PIP
-Evolver: Less boring heads up option
-Evolver: Update spoofing features
-SF: Don't enable expensive rendering for unknown dataspace
-Settings: Allow skipping mirroring confirmation dialog
-SystemUI: Add affordance shorcut for AI Voice Assistant
-SystemUI: Add haptics to brightness slider
-SystemUI: Drop unused rounded corner padding
-SystemUI: Fix multiuser usage for custom logo
-SystemUI: Fix multiuser usage for less boring notifications
-SystemUI: UdfpsView: minor code improvement
-SystemUI: Update ChatGPT quickaffordance activity
-SystemUIGoogle: Remove elmyra
-apns: Fix invalid entries for WOM (chile)
-apns: Order properly
-apns: Update Telia Finland APNs
-apn: Add deinHandy (O2)
-base: Allow turning on Bluetooth when pressing the tile
-extras: Enable round icon usage for icon shapes
-extras: Update minSdk for preference-ktx library
-extras: Update preference-ktx library to 1.2.1
-wm: Fix rounded corners of freeform windows
+AudioService: do not block focus request from applications compiled with lower version sdks
+Avoid device reboot caused by SecurityException
+Bring back GameSpace support
+BubbleStackView: Fix java code parsing error
+CSD: Remove bluetooth a2dp devices for safe volume index devices
+Evolver: Bring back Less boring heads up option
+Evolver: Bring back Pulse visualizer
+Evolver: Move in status bar battery preferences from LineageParts
+Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+Fix network can't handle simultaneously SS request for both subs
+Scale PS4/PS5 controller touchpad input
+Settings: Add Bluetooth/Wi-Fi timeout feature
+Settings: Add Game Space support
+Settings: Add Market Name to device info
+Settings: Add a DEVICE field to the getSummary() function
+Settings: Allow scheduling always on display
+Settings: Bring back BT/Wifi timeout
+Settings: Expose radio info (*#*#4636#*#*)
+Settings: Hide radio info if device don't support voice
+Settings: Introduce AutoDimService
+Settings: fix unexpected routing selection
+SystemUI: Fix systemui crash when checking headups whitelist packages
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUIGoogle: Adapt after gestural navigation API changes
+Update the icon for the adb wireless pairing code preference
+apns: Update Claro Ecuador APN
+base: add API for disabling gestural navigation
+display: Don't reset brightness adjustment on clearUserDataPoints()
+fixup! Settings: Use marketname for App Aspect Ratio summary
