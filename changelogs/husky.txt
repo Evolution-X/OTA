@@ -2,10 +2,10 @@ This is Android 14 with July 2024 (r53) security patches and Device Firmware
 
 Device Changes:
 ===============
-Update firmware and blobs to AP2A.240705.004
+Fixed Device Integrity
 
 Notable ROM changes:
 ==============================
-Evolution X 9.2
-Merge July 2024 security patches
+Removed battery styles for now
+Fixed Circle to search
 
