@@ -4,24 +4,42 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 07/05/2024).
+- Play Integrity passes, RCS works (As of 07/19/2024).
 - Includes Xiaomi parts and Aperture camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-None
+Remove duplicate sepolicy entries
 
 Notable ROM changes:
 ==============================
-Camera: Prevent crash when unable to find tag
-Cancel backup on transport error
-Fix the restriction of odm partition overlays
-Merge July 2024 security patches
-PixelPropsUtils: July 2024 update
-Settings: Make AppCloning independent of DeviceConfig
-Split the lock synchronizing LMKD socket reads/writes
-SystemUI: Fix Internet Tile showing no service
-device_config: Drop machine learning back gesture
-device_config: Enable shared connectivity
-device_config: Update Launcher configs
+AudioService: do not block focus request from applications compiled with lower version sdks
+Avoid device reboot caused by SecurityException
+Bring back GameSpace support
+BubbleStackView: Fix java code parsing error
+CSD: Remove bluetooth a2dp devices for safe volume index devices
+Evolver: Bring back Less boring heads up option
+Evolver: Bring back Pulse visualizer
+Evolver: Move in status bar battery preferences from LineageParts
+Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+Fix network can't handle simultaneously SS request for both subs
+Scale PS4/PS5 controller touchpad input
+Settings: Add Bluetooth/Wi-Fi timeout feature
+Settings: Add Game Space support
+Settings: Add Market Name to device info
+Settings: Add a DEVICE field to the getSummary() function
+Settings: Allow scheduling always on display
+Settings: Bring back BT/Wifi timeout
+Settings: Expose radio info (*#*#4636#*#*)
+Settings: Hide radio info if device don't support voice
+Settings: Introduce AutoDimService
+Settings: fix unexpected routing selection
+SystemUI: Fix systemui crash when checking headups whitelist packages
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUIGoogle: Adapt after gestural navigation API changes
+Update the icon for the adb wireless pairing code preference
+apns: Update Claro Ecuador APN
+base: add API for disabling gestural navigation
+display: Don't reset brightness adjustment on clearUserDataPoints()
+fixup! Settings: Use marketname for App Aspect Ratio summary
