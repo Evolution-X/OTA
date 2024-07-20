@@ -5,83 +5,43 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU. Just install the KSU app.
-- Play Integrity passes, RCS works (As of 07/06/2024).
+- Play Integrity passes, RCS works (As of 07/21/2024).
 - Includes Leica Camera.
 
 Device changes:
 ==============================
-add prebuilt vendor.qti.hardware.camera.device@3.5
-build libpiex_shim
-build libpng.vendor
-Build missing libraries for 14 QPR3
-build more missing libs
-configure led vibrator
-Declare EGL libs as symlinks during extraction
-Declare IMS libs as symlinks during extraction
-explicitly build some vndk vendor libraries
-label more camera props
-Make shim for com.qti.node.watermark.so
-Mark CNE symlink target as required package
-Migrate to QTI USB Gadget 1.2 HIDL
-Move libwatermark_shim to camera shim
-Move usage of USB MTP/PTP functionality with USB F_FS driver
-powerhint: remove 480mhz GPU freq
-remove BOARD_USERDATAIMAGE_PARTITION_SIZE
-rework install_symlinks
-Setup DeviceAsWebcam
-Switch to android.hardware.usb@1.3-service.dual_role_usb
-Switch to prebuilt camera provider legacy lib
-Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
-update autobrightness stability level
-Update CarrierConfig from munch V816.0.2.0.ULMMIXM
-Update FCM for QPR3
-update gpu blobs from hollywood-user-12-SQ3A.220605.009.A1-51062550053200150-release-keys
-Update manifest to level 5
-use media_codecs from caf hw media
-overlay: add Max Gamma Autobrightness adjustment
+Switch Soviet kernel branch to 14.0-DSP
+Use AOSP default Codec2/OMX ranks
+sepolicy: Drop duplicate genfs_contexts entries
 
 Notable ROM changes:
 ==============================
-Add required priv-app permissions for SystemUIGoogle
-Allow installing fake [odm|product|system_ext] packages
-Camera: Prevent crash when unable to find tag
-Cancel backup on transport error
-Don't set PRODUCT_ENABLE_UFFD_GC by default
-Don't use dirty backup area anymore
-Fix the restriction of odm partition overlays
-LensScreenshotReceiver: Return when failed to start activity
-Merge July 2024 security patches
-PhoneWindowManager: Check camera availability on camera key long press
-PixelPropsUtils: July 2024 Refactor
-PixelPropsUtils: July 2024 update
-Remove non existent health 2.0 recovery package
-Settings: Follow system theme for SD card activities
-Settings: Make AppCloning independent of DeviceConfig
-Settings: Skip auth for WiFi net share when unlocked in the last 60s
-Split the lock synchronizing LMKD socket reads/writes
-StatusBarIconController: Avoid crash due to incorrect casting
-SystemUI: Correctly monet theme the new volume panel
-SystemUI: Disable FaceUnlock Lockouts
-SystemUI: Fix Internet Tile showing no service
-SystemUI: Fix crash when resetting ShadeController views
-SystemUI: KeyguardUnlockAnimationController: Catch all exception
-SystemUI: VolumeDialogImpl: Add content observer for panel timeout
-SystemUIGoogle: Update
-SystemUIGoogle: Update smartspace proto
-Updater: Round dialogs
-VolumeDialog: Fix per-app volume on secondary users
-certification: 06/30/2024 Update
-codec2: a workaround to solve backward compatibility issue
-device_config: Drop machine learning back gesture
-device_config: Enable shared connectivity
-device_config: Update Launcher configs
-extras: Remove incompatible notification background
-extras: Update systemui clocks from husky-user-14-AP2A.240605.024
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-fixup! SystemUI: Add API for runtime taskbar config
-fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
-fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
-overlay: device_config: Drop machine learning back gesture
-pixel-style: rro_overlays: Bump to AP2A.240605.024
-vendor: aconfig: Enable volume panel related configs
-vendor: aconfig: Remove use_media_router2_for_info_media_manager
+AudioService: do not block focus request from applications compiled with lower version sdks
+Avoid device reboot caused by SecurityException
+Bring back GameSpace support
+BubbleStackView: Fix java code parsing error
+CSD: Remove bluetooth a2dp devices for safe volume index devices
+Evolver: Bring back Less boring heads up option
+Evolver: Bring back Pulse visualizer
+Evolver: Move in status bar battery preferences from LineageParts
+Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+Fix network can't handle simultaneously SS request for both subs
+Scale PS4/PS5 controller touchpad input
+Settings: Add Bluetooth/Wi-Fi timeout feature
+Settings: Add Game Space support
+Settings: Add Market Name to device info
+Settings: Add a DEVICE field to the getSummary() function
+Settings: Allow scheduling always on display
+Settings: Bring back BT/Wifi timeout
+Settings: Expose radio info (*#*#4636#*#*)
+Settings: Hide radio info if device don't support voice
+Settings: Introduce AutoDimService
+Settings: fix unexpected routing selection
+SystemUI: Fix systemui crash when checking headups whitelist packages
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUIGoogle: Adapt after gestural navigation API changes
+Update the icon for the adb wireless pairing code preference
+apns: Update Claro Ecuador APN
+base: add API for disabling gestural navigation
+display: Don't reset brightness adjustment on clearUserDataPoints()
+fixup! Settings: Use marketname for App Aspect Ratio summary
