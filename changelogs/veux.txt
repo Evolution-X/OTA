@@ -1,3 +1,54 @@
+Evolution-X 9.2 | Build Date : 21-07-2024
+====================================================================
+Notes : 
+=======
+- Can be dirty flashed from latest official
+- Let the rom settle for a few hours to experience smoothness
+
+Device : 
+========
+- July SP | QPR3
+- Replaced GCam with AGC-Cam MiCam still present
+- Implemented SurfaceFlinger to improve ui smoothness and stability
+- Added a few props for better Battery backup
+- Build missing libraries after QPR3
+- Implemented Camera interface
+- Tree optimisation thanks to @igadityasingh 
+
+Notable ROM changes:
+==============================
+- AudioService: do not block focus request from applications compiled with lower version sdks
+- Avoid device reboot caused by SecurityException
+- Bring back GameSpace support
+- BubbleStackView: Fix java code parsing error
+- CSD: Remove bluetooth a2dp devices for safe volume index devices
+- Evolver: Bring back Less boring heads up option
+- Evolver: Bring back Pulse visualizer
+- Evolver: Move in status bar battery preferences from LineageParts
+- Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+- Fix network can't handle simultaneously SS request for both subs
+- Scale PS4/PS5 controller touchpad input
+- Settings: Add Bluetooth/Wi-Fi timeout feature
+- Settings: Add Game Space support
+- Settings: Add Market Name to device info
+- Settings: Add a DEVICE field to the getSummary() function
+- Settings: Allow scheduling always on display
+- Settings: Bring back BT/Wifi timeout
+- Settings: Expose radio info (*#*#4636#*#*)
+- Settings: Hide radio info if device don't support voice
+- Settings: Introduce AutoDimService
+- Settings: fix unexpected routing selection
+- SystemUI: Fix systemui crash when checking headups whitelist packages
+- SystemUI: Move bluetooth dialog creation to LongClick method
+- SystemUIGoogle: Adapt after gestural navigation API changes
+- Update the icon for the adb wireless pairing code preference
+- apns: Update Claro Ecuador APN
+- base: add API for disabling gestural navigation
+- display: Don't reset brightness adjustment on clearUserDataPoints()
+- fixup! Settings: Use marketname for App Aspect Ratio summary
+
+
+
 Evolution-X 9.1 | Build Date : 01-06-2024
 ====================================================================
 Can be dirty flashed from latest official
@@ -6,7 +57,6 @@ Let the rom settle for a few hours to experience smoothness,
 Device : 
 ========
 - June SP / QPR3
-- Replaced GCam with AGC-Cam. MiCam is still present
 - Worked on UI Smoothness 
 - Signed Build
 - Added Support for Oneplus Dolby
