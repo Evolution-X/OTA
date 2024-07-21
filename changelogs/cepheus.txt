@@ -1,13 +1,28 @@
-===== 14 Jul 2024 =====
+===== 22 Jul 2024 =====
 
 NOTES:
 - Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
 - Builds are signed now, moving from unsigned to signed could make the system updater to fail andrequire installing the ROM from the recovery
+- Circle-to-search feature requires the Google app to be updated manually, check the XDA thread for more details
 
 DEVICE:
-- Added needed libs and made required changes for A14 QPR3
+- Support volume steps
+- Support double tap to show ambient display
+- Merge v4.14.349-openela in kernel
+- Merge tag 'LA.UM.9.1.r1-16300-SMxxx0.QSSI14.0' from CLO in kernel
+- Switch to clang 19 for kernel build
 
 ROM:
-- Merged A14 QPR3
-- Security patch from July
+- Fix reboot issue after clean install
+- Fix issue where no APNs were added after ckean install
+- Bring back GameSpace support (Settings/Apps)
+- Evolver: Bring back Less boring heads up option
+- Evolver: Bring back Pulse visualizer
+- Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+- Settings: Add Bluetooth/Wi-Fi timeout feature
+- Settings: Allow scheduling always on display
+- Settings: Bring back BT/Wifi timeout
+- Settings: Expose radio info (*#*#4636#*#*)
+- SystemUI: Fix systemui crash when checking headups whitelist packages
+- SystemUI: Move bluetooth dialog creation to LongClick method
