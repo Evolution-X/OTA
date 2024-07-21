@@ -5,13 +5,13 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-14-0_r35-official-evolution-x-9-0-06-06-2024.4659931/post-89379222) for root.
-- Play Integrity passes, RCS works (As of 07/19/2024).
+- Play Integrity passes, RCS works (As of 07/21/2024).
 - Includes Leica camera.
 
 Device changes:
 ==============================
-Update kernel to 5.10.221
-Fix dolby dialogue
+Fix IFAA
+Fix USB Gadget
 
 Notable ROM changes:
 ==============================
