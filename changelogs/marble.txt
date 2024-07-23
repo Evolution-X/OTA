@@ -5,43 +5,28 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
-- Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/19/2024).
+- Install LosKsu9.2.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.2.zip/download) for root.
+- Play Integrity passes, RCS works (As of 07/24/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-None
+Add missing kvh2xml.xml
+Drop nfc services from manifest since they have fragments
+Set display idle time to 0 (to fix flickers)
+Update blobs from V816.0.6.0.UMRMIXM
+Update blobs from diting V816.0.5.0.ULFMIXM
+Upstream kernel changes from https://github.com/cupid-development/android_kernel_xiaomi_sm8450
+dolby: Do not set volume leveler amount
+dolby: Restore all settings upon bootup
+dolby: Restore current profile _after_ resetting profiles
+dolby: Rewrite in Kotlin
+parts: Move dolby to hw/xiaomi
 
 Notable ROM changes:
 ==============================
-AudioService: do not block focus request from applications compiled with lower version sdks
-Avoid device reboot caused by SecurityException
-Bring back GameSpace support
-BubbleStackView: Fix java code parsing error
-CSD: Remove bluetooth a2dp devices for safe volume index devices
-Evolver: Bring back Less boring heads up option
-Evolver: Bring back Pulse visualizer
-Evolver: Move in status bar battery preferences from LineageParts
-Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
-Fix network can't handle simultaneously SS request for both subs
-Scale PS4/PS5 controller touchpad input
-Settings: Add Bluetooth/Wi-Fi timeout feature
-Settings: Add Game Space support
-Settings: Add Market Name to device info
-Settings: Add a DEVICE field to the getSummary() function
-Settings: Allow scheduling always on display
-Settings: Bring back BT/Wifi timeout
-Settings: Expose radio info (*#*#4636#*#*)
-Settings: Hide radio info if device don't support voice
-Settings: Introduce AutoDimService
-Settings: fix unexpected routing selection
-SystemUI: Fix systemui crash when checking headups whitelist packages
-SystemUI: Move bluetooth dialog creation to LongClick method
-SystemUIGoogle: Adapt after gestural navigation API changes
-Update the icon for the adb wireless pairing code preference
-apns: Update Claro Ecuador APN
-base: add API for disabling gestural navigation
-display: Don't reset brightness adjustment on clearUserDataPoints()
-fixup! Settings: Use marketname for App Aspect Ratio summary
+Evolver: Update translations
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+recovery: minui: Support secondary framebuffers
+releasetools: Don't compress with brotli
