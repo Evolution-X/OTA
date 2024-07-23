@@ -10,8 +10,8 @@ Notes:
 
 Device changes:
 ==============================
-Fix IFAA
-Fix USB Gadget
+Update kernel to 5.10.222
+Update camera to stock MiuiCamera
 
 Notable ROM changes:
 ==============================
