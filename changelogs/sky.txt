@@ -1,0 +1,21 @@
+This is Android 14 with July 2024 QPR3 (r53) security patches
+
+Notes:
+==============================
+- Initial build
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS 1.0.5.0 firmware first.
+- Clean flash is required
+- Play Integrity passes, 
+- Thabks to @lostark13 for base tree
+
+Device changes:
+==============================
+- Initial build
+
+Notable ROM changes:
+==============================
+Evolver: Update translations
+fixup! Allow to suppress notifications sound/vibration if screen is ON
+recovery: minui: Support secondary framebuffers
+releasetools: Don't compress with brotli
