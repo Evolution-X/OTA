@@ -1,0 +1,22 @@
+{
+  "response": [
+    {
+      "maintainer": "Rondeau79",
+      "oem": "Motorola",
+      "device": "Moto G100",
+      "filename": "EvolutionX-14.0-20240725-nio-v9.2-Unofficial.zip",
+      "download": "https://sourceforge.net/projects/crdroid-v7-x-sofiar/files/EvoX/EvolutionX-14.0-20240725-nio-v9.2-Unofficial.zip",
+      "timestamp": 1721951458,
+      "md5": "32a616b2be22efed558ead248a6e64e2",
+      "sha256": "5d5636dd1f02f12e33ddbb2ebe11804ca2bf55056bc902e1634974e855d4d87a",
+      "size": 1949135406,
+      "version": "9.2",
+      "buildtype": "monthly",
+      "forum": "https://xdaforums.com/t/rom-06-12-2024-evolution-x-v9-0-nio-gapps.4673395/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": ""
+    }
+  ]
+}
+
