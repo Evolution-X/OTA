@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "oem": "Samsung",
+      "device": "Galaxy F62",
+      "filename": "EvolutionX-14.0-20240726-f62-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/f62/14/EvolutionX-14.0-20240726-f62-v9.2-Official.zip/download",
+      "timestamp": "1722022520",
+      "md5": "8ba2758e8ed46c6b54a3b787f6950942",
+      "sha256": "463e9edf60972b261dc6375030165b120363b1a06f6f8e35668a225db29cd042",
+      "size": "2342603985",
+      "version": "9.2",
+      "buildtype": "Monthly",
+      "forum": "https://xdaforums.com/t/rom-official-14-evolutionx-8-x-aosp-encryption.4669082/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "telegram": "https://t.me/EvolutionXexynos982x"
+    }
+  ]
+}
