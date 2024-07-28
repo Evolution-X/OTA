@@ -12,21 +12,33 @@ Notes:
 
 Device changes:
 ==============================
-Add missing kvh2xml.xml
-Drop nfc services from manifest since they have fragments
-Set display idle time to 0 (to fix flickers)
-Update blobs from V816.0.6.0.UMRMIXM
-Update blobs from diting V816.0.5.0.ULFMIXM
-Upstream kernel changes from https://github.com/cupid-development/android_kernel_xiaomi_sm8450
-dolby: Do not set volume leveler amount
-dolby: Restore all settings upon bootup
-dolby: Restore current profile _after_ resetting profiles
-dolby: Rewrite in Kotlin
-parts: Move dolby to hw/xiaomi
+None
 
 Notable ROM changes:
 ==============================
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
 Evolver: Update translations
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-recovery: minui: Support secondary framebuffers
-releasetools: Don't compress with brotli
+FrameTracker: Silence logspam
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES
