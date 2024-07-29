@@ -4,42 +4,46 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 07/22/2024).
-- Includes Xiaomi parts and Aperture camera.
+- Play Integrity passes, RCS works (As of 08/01/2024).
+- Includes Xiaomi parts and Leica camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-Remove duplicate sepolicy entries
+Add libmialgo_basic
+Bring back Leica camera port
+sepolicy: Make vendor_camera_sensor_prop public
+v4a: Update to 0.6.6 release
 
 Notable ROM changes:
 ==============================
-AudioService: do not block focus request from applications compiled with lower version sdks
-Avoid device reboot caused by SecurityException
-Bring back GameSpace support
-BubbleStackView: Fix java code parsing error
-CSD: Remove bluetooth a2dp devices for safe volume index devices
-Evolver: Bring back Less boring heads up option
-Evolver: Bring back Pulse visualizer
-Evolver: Move in status bar battery preferences from LineageParts
-Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
-Fix network can't handle simultaneously SS request for both subs
-Scale PS4/PS5 controller touchpad input
-Settings: Add Bluetooth/Wi-Fi timeout feature
-Settings: Add Game Space support
-Settings: Add Market Name to device info
-Settings: Add a DEVICE field to the getSummary() function
-Settings: Allow scheduling always on display
-Settings: Bring back BT/Wifi timeout
-Settings: Expose radio info (*#*#4636#*#*)
-Settings: Hide radio info if device don't support voice
-Settings: Introduce AutoDimService
-Settings: fix unexpected routing selection
-SystemUI: Fix systemui crash when checking headups whitelist packages
-SystemUI: Move bluetooth dialog creation to LongClick method
-SystemUIGoogle: Adapt after gestural navigation API changes
-Update the icon for the adb wireless pairing code preference
-apns: Update Claro Ecuador APN
-base: add API for disabling gestural navigation
-display: Don't reset brightness adjustment on clearUserDataPoints()
-fixup! Settings: Use marketname for App Aspect Ratio summary
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
+Evolver: Update translations
+FrameTracker: Silence logspam
+ImageReader: remove native call to detachImage
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+PhoneWindowManager: Check NPE for LineageHardware
+Settings: Fix crash with face lock preference for limited access users
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+extras: Update BCR to Version 1.67
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES
