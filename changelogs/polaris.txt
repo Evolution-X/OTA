@@ -1,0 +1,8 @@
+Switching from Static to dynamic partitions :
+
+zram added
+kernel: enable lz4 for zram
+switched to dynamic partition
+switched to full gapps
+
++ Official device so EvoX signing
