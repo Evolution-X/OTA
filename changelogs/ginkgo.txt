@@ -1,12 +1,11 @@
-Fixed bugged sensors (rotation, proximity etc.) and drm since last release
-Camera: Prevent crash when unable to find tag
-Cancel backup on transport error
-Fix the restriction of odm partition overlays
-Merge July 2024 security patches
-PixelPropsUtils: July 2024 update
-Settings: Make AppCloning independent of DeviceConfig
-Split the lock synchronizing LMKD socket reads/writes
-SystemUI: Fix Internet Tile showing no service
-device_config: Drop machine learning back gesture
-device_config: Enable shared connectivity
-device_config: Update Launcher configs
+• Fix device integrity once again
+• Fixed circle to search (uninstall Google app updates from app info and update Google app from Play store)  
+• Fixed no notification sound
+• Add gamespace
+• Add Bluetooth/Wi-Fi timeout feature
+• Bring back Pulse visualizer
+• Fix some banking apps crashing (eg. DITO)
+• Fix RCS
+• Add back increasing ring feature
+• Upstream BCR to 1.65
+• Bring back Less boring heads up option
