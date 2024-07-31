@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "AgBKartikey",
+      "oem": "Nothing",
+      "device": "Pong",
+      "filename": "EvolutionX-14.0-20240731-Pong-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/Pong/14/EvolutionX-14.0-20240731-Pong-v9.2-Official.zip/download",
+      "timestamp": 1722422164,
+      "md5": "35bc7c9450983c9ff13285c95b8138be",
+      "sha256": "6adaae64f8066c437738f9404dd7f10d2a73d0ffd163694ef44103c9ca4f83e6",
+      "size": 2703895265,
+      "version": "9.2",
+      "buildtype": "",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "https://t.me/AgBKartikey"
+    }
+  ]
+}
