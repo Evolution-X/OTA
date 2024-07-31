@@ -2,20 +2,45 @@ This is Android 14 with July 2024 QPR3 (r53) security patches
 
 Notes:
 ==============================
-- Initial build
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.5.0 firmware first.
 - Clean flash is required
-- Play Integrity passes, 
-- Thanks to @lostark13 for base tree
+- Play integrity passes as of 01/08/2024
+- Thanks to @lostark13 @redducc and @jendermine for base tree
 
 Device changes:
 ==============================
-- Initial build
+- Rebased over pos tree
 
 Notable ROM changes:
 ==============================
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
 Evolver: Update translations
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-recovery: minui: Support secondary framebuffers
-releasetools: Don't compress with brotli
+FrameTracker: Silence logspam
+ImageReader: remove native call to detachImage
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+PhoneWindowManager: Check NPE for LineageHardware
+Settings: Fix crash with face lock preference for limited access users
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+extras: Update BCR to Version 1.67
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES
