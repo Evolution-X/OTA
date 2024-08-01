@@ -1,1 +1,4 @@
-Initial Release
+Device changes:
+==============================
+- Added Power Share aka Wireless Reverse Charging
+- Fixed Glyph
