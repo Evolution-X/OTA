@@ -1,4 +1,28 @@
-Evolution X 9.2
-Merge July 2024 security patches    
-Update firmware and blobs to AP2A.240705.004
-Ship saturation activity/fragment of PixelParts
+Update PIF
+Fix circle to search
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
+Evolver: Update translations
+FrameTracker: Silence logspam
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES
