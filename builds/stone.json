@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "ARIJIT SAHA",
+      "oem": "Redmi",
+      "device": "Redmi Note 12 5G/Poco X5 5G",
+      "filename": "EvolutionX-14.0-20240803-stone-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240803-stone-v9.2-Official.zip/download",
+      "timestamp": 1722675379,
+      "md5": "8cb46671576088fd6f857315801154b8",
+      "sha256": "66c531412c61265eb550357f83cdbc4be648ea797469997aba3292a9513e5654",
+      "size": 2193004471,
+      "version": "9.2",
+      "buildtype": "Monthly",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "whyred_404"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+============================
+Device changes:
+=========08.07.2024========== 
+- Synced with latest source
+- Removed adaptive color profile
+- Added fm again
+- Fixed qcom bluetooth soc
+- Added leica camera
+- Introduce libperfmgr
+- Many more underhood changes
