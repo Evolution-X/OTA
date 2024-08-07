@@ -1,6 +1,14 @@
 ============================
 Device changes:
-=========08.07.2024========== 
+============================
+
+# 07-08-2024
+- Synced with latest source
+- Drop viper4android
+- Added JamesDSP
+- Some improvements in libperfmgr
+
+# 03-08-2024
 - Synced with latest source
 - Removed adaptive color profile
 - Added fm again
