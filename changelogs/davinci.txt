@@ -1,7 +1,7 @@
 ===== 10 Aug 2024 =====
 
 NOTES:
-- Clean install is required
+- Dirty install from previous build id fine
 - Format Data could be required in some scenarios, check the XDA thread about compatibility
 - KernelSU is supported, just install the manager app v0.9.5
 
@@ -9,6 +9,7 @@ DEVICE:
 - Initial A14 release
 - User build
 - SELinux Enforcing
+- Fix the miui camera
 
 ROM:
 - Initial A14 Release
