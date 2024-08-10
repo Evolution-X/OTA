@@ -1,0 +1,16 @@
+===== 10 Aug 2024 =====
+
+NOTES:
+- Clean install is required
+- Format Data could be required in some scenarios, check the XDA thread about compatibility
+- KernelSU is supported, just install the manager app v0.9.5
+
+DEVICE:
+- Initial A14 release
+- User build
+- SELinux Enforcing
+
+ROM:
+- Initial A14 Release
+- EvolutionX 9.3
+- August security patch
