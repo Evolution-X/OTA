@@ -1,4 +1,35 @@
 Device changes:
 ==============================
-- Added Power Share aka Wireless Reverse Charging
-- Fixed Glyph
+- Dolby Atmos Included
+- Glyph Improvements
+
+Notable ROM changes:
+==============================
+- New Crowdin updates
+- Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+- Settings: Fix crash with face lock preference for limited access users
+- QSFooter: Launch The Evolver when long clicking settings
+- SystemUI: Integrate Google Lens into Screenshot UI
+- SystemUI: biometrics: Follow user setting to confirm face unlock
+- Update battery info every second when device is charging
+- KeyguardIndication: Fix glitchy charging info on lockscreen
+- SystemUI: Update notification count overlay
+- SystemUI: Add vibration when long pressing QS footer settings button
+- core: Optimize download/upload animations
+- SystemUI: New per-app volume icon
+- Fixed a crash in settings in tts engine selection screen.
+- SystemUI: Fix QS tile dialog background color
+- Allow APK signature scheme v1 for API 30+ apps
+- Screenshot: Remove text from expanded screenshot chip
+- AppErrors: Respect appsNotReportingCrashes for ANRs
+- SystemUI: Always show suffix for DataUsage
+- SystemUI: Show daily data usage in QS footer [SQUASHED]
+- SettingsProvider: Set device name to marketname if available
+- NavigationBarInflaterView: Improve applying overlays
+- Navbar: Fix issue where pill disappears in gestural mode
+- SystemUI: Fix secondary label alignment on A11 QS UI Style
+- SettingsLib: Use San Francisco font for iOS battery styles
+- SystemUI: Add affordance shorcut for AI Voice Assistant
+- Allow disabling USAGE_VIDEO_ENCODE ImageReader flag
+- Allow setting HQ mode as default
+- [TMP]Evolver: Move in status bar battery preferences from LineageParts
