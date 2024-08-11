@@ -1,11 +1,8 @@
-• Fix device integrity once again
-• Fixed circle to search (uninstall Google app updates from app info and update Google app from Play store)  
-• Fixed no notification sound
-• Add gamespace
-• Add Bluetooth/Wi-Fi timeout feature
-• Bring back Pulse visualizer
-• Fix some banking apps crashing (eg. DITO)
-• Fix RCS
-• Add back increasing ring feature
-• Upstream BCR to 1.65
-• Bring back Less boring heads up option
+Changelog:
+• Merged August 2024 Security Patch
+• Synced with latest source
+• Fixed kernel side power button screenshot unresponsiveness
+• Fixed 4G to LTE icon toggle
+• Fixed lockscreen battery icon issues
+• Fixed fluctuating charging speed info
+• Remove problematic charging control
