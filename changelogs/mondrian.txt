@@ -1,46 +1,44 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with August 2024 QPR3 (r55) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-14-0_r35-official-evolution-x-9-0-06-06-2024.4659931/post-89379222) for root.
-- Play Integrity passes, RCS works (As of 07/21/2024).
+- Play Integrity passes, RCS works (As of 08/12/2024).
 - Includes Leica camera.
 
 Device changes:
 ==============================
-Update kernel to 5.10.222
-Update camera to stock MiuiCamera
+Update vendor security patches to V816.0.7.0.TMNCNXM
 
 Notable ROM changes:
 ==============================
-AudioService: do not block focus request from applications compiled with lower version sdks
-Avoid device reboot caused by SecurityException
-Bring back GameSpace support
-BubbleStackView: Fix java code parsing error
-CSD: Remove bluetooth a2dp devices for safe volume index devices
-Evolver: Bring back Less boring heads up option
-Evolver: Bring back Pulse visualizer
-Evolver: Move in status bar battery preferences from LineageParts
-Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
-Fix network can't handle simultaneously SS request for both subs
-Scale PS4/PS5 controller touchpad input
-Settings: Add Bluetooth/Wi-Fi timeout feature
-Settings: Add Game Space support
-Settings: Add Market Name to device info
-Settings: Add a DEVICE field to the getSummary() function
-Settings: Allow scheduling always on display
-Settings: Bring back BT/Wifi timeout
-Settings: Expose radio info (*#*#4636#*#*)
-Settings: Hide radio info if device don't support voice
-Settings: Introduce AutoDimService
-Settings: fix unexpected routing selection
-SystemUI: Fix systemui crash when checking headups whitelist packages
-SystemUI: Move bluetooth dialog creation to LongClick method
-SystemUIGoogle: Adapt after gestural navigation API changes
-Update the icon for the adb wireless pairing code preference
-apns: Update Claro Ecuador APN
-base: add API for disabling gestural navigation
-display: Don't reset brightness adjustment on clearUserDataPoints()
-fixup! Settings: Use marketname for App Aspect Ratio summary
+New Crowdin updates
+Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+Settings: Fix crash with face lock preference for limited access users
+QSFooter: Launch The Evolver when long clicking settings
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: biometrics: Follow user setting to confirm face unlock
+Update battery info every second when device is charging
+KeyguardIndication: Fix glitchy charging info on lockscreen
+SystemUI: Update notification count overlay
+SystemUI: Add vibration when long pressing QS footer settings button
+core: Optimize download/upload animations
+SystemUI: New per-app volume icon
+Fixed a crash in settings in tts engine selection screen.
+SystemUI: Fix QS tile dialog background color
+Allow APK signature scheme v1 for API 30+ apps
+Screenshot: Remove text from expanded screenshot chip
+AppErrors: Respect appsNotReportingCrashes for ANRs
+SystemUI: Always show suffix for DataUsage
+SystemUI: Show daily data usage in QS footer [SQUASHED]
+SettingsProvider: Set device name to marketname if available
+NavigationBarInflaterView: Improve applying overlays
+Navbar: Fix issue where pill disappears in gestural mode
+SystemUI: Fix secondary label alignment on A11 QS UI Style
+SettingsLib: Use San Francisco font for iOS battery styles
+SystemUI: Add affordance shorcut for AI Voice Assistant
+Allow disabling USAGE_VIDEO_ENCODE ImageReader flag
+Allow setting HQ mode as default
+[TMP]Evolver: Move in status bar battery preferences from LineageParts
