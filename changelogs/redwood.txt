@@ -1,9 +1,21 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with August 2024 QPR3 (r55) security patches
 
 Notes:
 ==============================
-This build is only compatible with goodix screen.
-Firmware OS1.0.7.0.UMSCNXM is included 
+Both panel are supported.
+
+Device Changes:
+===============
+13-August-2024
+===============
+* Switched to TURBO kernel
+* Drop vm-bootsys from fstab ( This reduces the boot time )
+* Build xiaomi-telephony-stub ( Unpatch & update ims libs to V816.0.7.0.UMSCNXM )
+* Import missing camera blobs
+* overlay: Disable pocket mode lock
+* Enable force LTE_CA
+* Re-implemented dolby
+* Updated Hyper Camera from V816.0.7.0.UMSCNXM 
 
 Device Changes:
 ===============
