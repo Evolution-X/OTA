@@ -6,3 +6,10 @@ switched to dynamic partition
 switched to full gapps
 
 + Official device so EvoX signing
+
+ ----
+
+August security patches
+Xiaomi cam added
+stability improved
+9.3 update
