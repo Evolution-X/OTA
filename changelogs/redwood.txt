@@ -8,6 +8,14 @@ Device Changes:
 ===============
 13-August-2024
 ===============
+* Switched to Perf kernel
+* Fixed audio crash ( leading to system freezing )
+
+
+Device Changes:
+===============
+13-August-2024
+===============
 * Switched to TURBO kernel
 * Drop vm-bootsys from fstab ( This reduces the boot time )
 * Build xiaomi-telephony-stub ( Unpatch & update ims libs to V816.0.7.0.UMSCNXM )
