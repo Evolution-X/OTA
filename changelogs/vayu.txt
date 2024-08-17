@@ -1,9 +1,8 @@
-• Fixed circle to search (uninstall Google app updates from app info and update Google app from Play store)  
-• Add toggleable optional A11 QS Style  
-• Add QS Panel Styles  
-• Add brightness slider styles  
-• Add double tap to ambient pulse option  
-• Allowed disabling screen capture detection for apps like Snapchat  
-• Allowed removing restrictions on selecting folders through Android, e.g., "Android/data"  
-• Enable Hotspot Speed setting 
-• Misc. Bug fixes, Improve UI/UX Smoothness and scrolling
+Changelog:
+• Merged August 2024 Security Patch
+• Synced with latest source
+• Fixed kernel side power button screenshot unresponsiveness
+• Fixed 4G to LTE icon toggle
+• Fixed lockscreen battery icon issues
+• Fixed fluctuating charging speed info
+• Remove problematic charging control

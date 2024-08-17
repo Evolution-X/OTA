@@ -1,20 +1,18 @@
+============================
 Device changes:
-==============================
-- Drop Mi Cam for lifetime
-- Fix Gooddix fp issue
-- Enable 24-bit support for wired headphones
-- Enable TurboPower charging
-- Enable battery cycle count
-- Some battery twicks
+============================
 
-Known Bugs:
-==============================
-- FM radio crashing
+# 07-08-2024
+- Synced with latest source
+- Drop viper4android
+- Added JamesDSP
+- Some improvements in libperfmgr
 
-Notes:
-==============================
-- LineageOS-based source.
-- Make sure flash region waise HyperOS firmware first.
-- Dirty flash is possible over May build only.
-- No Dolby there, it's my mistake i forgot to add. sorry for it.
-- Credits to All stone devs for trees. Malam Damai and Taki Tachibana for test
+# 03-08-2024
+- Synced with latest source
+- Removed adaptive color profile
+- Added fm again
+- Fixed qcom bluetooth soc
+- Added leica camera
+- Introduce libperfmgr
+- Many more underhood changes

@@ -1,4 +1,4 @@
-===== 27 May 2024 =====
+===== 08 Jul 2024 =====
 
 NOTES:
 - Dirty install from previous official is fine
@@ -6,15 +6,10 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
-- Nothing relevant
+- Required changes after QPR3
+- Adjusted framerates and resolutions for Aperture
 
 ROM:
-- Evolver: A11 QS UI Style
-- Evolver: Add QS Panel Styles
-- Evolver: Add brightness slider themes
-- extras: Add Play font package
-- extras: Update HarmonyOS Sans Font
-- extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
-- Settings: Ambient Music Ticker - Allow to pulse on new tracks
-- Many fixes and tweaks under the hood
-- Add new translations
+- Merged Google's QPR3
+- Security patch from July
+- Added Basic Call Recording

@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "oem": "Samsung",
+      "device": "Galaxy S10 5G",
+      "filename": "EvolutionX-14.0-20240727-beyondx-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/beyondx/14/EvolutionX-14.0-20240727-beyondx-v9.2-Official.zip/download",
+      "timestamp": "1722038630",
+      "md5": "fb7d15bca8576d7868117f022634d97a",
+      "sha256": "a08774703e42d7495ae2e83d89da7c1adae14d7648d08f91d6cbbf69fb210715",
+      "size": "2484642426",
+      "version": "9.2",
+      "buildtype": "Monthly",
+      "forum": "https://xdaforums.com/t/rom-official-14-evolutionx-8-x-aosp-encryption.4669084/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "telegram": "https://t.me/EvolutionXexynos982x"
+    }
+  ]
+}

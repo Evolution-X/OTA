@@ -1,17 +1,18 @@
-2024-06-02
+2024-08-10
 
 
 To use this release you need:
    
-   CLEAN FLASH AND WIPE DATA !!
-   HYPEROS Global OS1.0.3.0.ULCMIXM_14.0
-
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
 3. Flash rom
 4. Reboot recovery
 4. Format Data
 
-# Device
+# Device / Kernel
 
- * fixes to reduce UI lags
+ * Picked changes https://github.com/cupid-development/android_device_xiaomi_sm8450-common trees
+
+# Rom
+
+ * August 2024 Security Patch

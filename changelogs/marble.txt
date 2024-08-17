@@ -1,62 +1,44 @@
-This is Android 14 with June 2024 QPR3 (r50) security patches
+This is Android 14 with July 2024 QPR3 (r53) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
-- Install LosKsu9.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/01/2024).
-- Includes Dolby Atmos, Aperture camera.
+- Install LosKsu9.2.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.2.zip/download) for root.
+- Play Integrity passes, RCS works (As of 07/24/2024).
+- Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add Props to fix screen flicker
-Build android.media.audio.common.types-V2-cpp
-Build missing audio libraries for Android 14 QPR3
-Build missing libraries for 14 QPR3
-Convert WiFi firmware symlinks to install_symlink targets
-Convert qca6490 and qca6750 WiFi firmware symlinks to install_symlink targets
-Don't set BOARD_API_LEVEL
-Drop POCO camera and use Aperture
-Move to new RFS install_symlink targets
-Remove wait_for_keymaster and all references
-Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
-Update CarrierConfig from munch V816.0.2.0.ULMMIXM
-gps: data-items: Fix snprintf usage
-overlay: Remove config_cellBroadcastAppLinks
+None
 
 Notable ROM changes:
 ==============================
-Add required priv-app permissions for SystemUIGoogle
-Allow installing fake [odm|product|system_ext] packages
-Don't set PRODUCT_ENABLE_UFFD_GC by default
-Don't use dirty backup area anymore
-LensScreenshotReceiver: Return when failed to start activity
-Merge June 2024 security patches
-PhoneWindowManager: Check camera availability on camera key long press
-Remove non existent health 2.0 recovery package
-Settings: Follow system theme for SD card activities
-Settings: Skip auth for WiFi net share when unlocked in the last 60s
-StatusBarIconController: Avoid crash due to incorrect casting
-SystemUI: Correctly monet theme the new volume panel
-SystemUI: Disable FaceUnlock Lockouts
-SystemUI: Fix crash when resetting ShadeController views
-SystemUI: KeyguardUnlockAnimationController: Catch all exception
-SystemUI: VolumeDialogImpl: Add content observer for panel timeout
-SystemUIGoogle: Update smartspace proto
-SystemUIGoogle: Update
-Updater: Round dialogs
-VolumeDialog: Fix per-app volume on secondary users
-certification: 06/30/2024 Update
-codec2: a workaround to solve backward compatibility issue
-extras: Remove incompatible notification background
-extras: Update systemui clocks from husky-user-14-AP2A.240605.024
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-fixup! SystemUI: Add API for runtime taskbar config
-fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling
-fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
-pixel-style: rro_overlays: Bump to AP2A.240605.024
-vendor: aconfig: Enable volume panel related configs
-vendor: aconfig: Remove use_media_router2_for_info_media_manager
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
+Evolver: Update translations
+FrameTracker: Silence logspam
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES

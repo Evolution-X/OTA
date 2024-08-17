@@ -1,21 +1,21 @@
 {
-    "response": [
-      {
-        "maintainer": "Tejas Singh",
-        "oem": "Xiaomi",
-        "device": "Redmi Note 8/8T",
-        "filename": "EvolutionX-14.0-20240613-ginkgo-v9.0-Official.zip",
-        "download": "https://sourceforge.net/projects/evolution-x/files/ginkgo/14/EvolutionX-14.0-20240613-ginkgo-v9.0-Official.zip/download",
-        "timestamp": 1718307652,
-        "md5": "9930260cf70ccc63c14cea56f178e98d",
-        "sha256": "72d5505a1c4f2b68c492fa4d342eeeb1ade8bd61bda852de8aa45f6ed3c8c19c",
-        "size": 1795331185,
-        "version": "9.0",
-        "buildtype": "Release",
-        "forum": "https://xdaforums.com/t/rom-14-official-unified-evolution-x-for-redmi-note-8-8t.4639684/",
-        "firmware": "",
-        "paypal": "https://paypal.me/tejas101k",
-        "telegram": "https://t.me/tejas101k"
-      }
-    ]
+  "response": [
+    {
+      "maintainer": "Tejas Singh",
+      "oem": "Xiaomi",
+      "device": "Redmi Note 8/8T",
+      "filename": "EvolutionX-14.0-20240811-ginkgo-v9.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/ginkgo/14/EvolutionX-14.0-20240811-ginkgo-v9.3-Official.zip/download",
+      "timestamp": 1723395329,
+      "md5": "5ec1b094ba8dfa8be339f1ebcffea3e8",
+      "sha256": "204abc3cc335816ddaf534dc45249cb38c3f479f04bcec1d821431aa3411146b",
+      "size": 2062747516,
+      "version": "9.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-official-unified-evolution-x-for-redmi-note-8-8t.4639684/",
+      "firmware": "",
+      "paypal": "https://paypal.me/tejas101k",
+      "telegram": "https://t.me/tejas101k"
+    }
+  ]
 }

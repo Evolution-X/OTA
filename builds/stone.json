@@ -1,21 +1,21 @@
 {
-    "response": [
-  {
-      "maintainer": "Dr.Opto",
-      "oem": "redmi",
+  "response": [
+    {
+      "maintainer": "ARIJIT SAHA",
+      "oem": "Redmi",
       "device": "Redmi Note 12 5G/Poco X5 5G",
-      "filename": "EvolutionX-14.0-20240615-stone-v9.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240615-stone-v9.0-Official.zip/download",
-      "timestamp": 1718460536,
-      "md5": "83bca3b445b6eab057e1358999ecc1aa",
-      "sha256": "2ba9ee1b53c31b24c3990dd2ae2dbfd7e82461f12b4bc5ce7036215b163c434e",
-      "size": 2654728950,
-      "version": "9.0",
+      "filename": "EvolutionX-14.0-20240807-stone-v9.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240807-stone-v9.2-Official.zip/download",
+      "timestamp": 1723005261,
+      "md5": "aa825435bca26804ec86e213b1be8971",
+      "sha256": "283868f02a92a6edb9bb173ab166fd964d193fe825a11ebaad8a4da5eccd6152",
+      "size": 2179256625,
+      "version": "9.2",
       "buildtype": "Monthly",
       "forum": "",
       "firmware": "",
       "paypal": "",
-      "telegram": "Dr_Opto"
+      "telegram": "t.me/whyred_404"
     }
   ]
 }

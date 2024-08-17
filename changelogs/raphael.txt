@@ -1,27 +1,49 @@
-This is Android 14 with May 2024 QPR2 (r35) security patches
+This is Android 14 with July 2024 QPR3 (r53) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU. Just install the KSU app.
-- Play Integrity passes, RCS works (As of 06/21/2024).
-- Includes Leica Camera.
+- Play Integrity passes, RCS works (As of 07/31/2024).
+- Includes latest Leica Camera.
 
 Device changes:
 ==============================
-Configure Dalvik heap for all raphael sku
-parts: Get rid of proguard flags
+Switch Soviet kernel branch to 14.0-matrix
+Use latest miuicamera port by ItzDFPlayer (enable experimental portrait mode to fix saving images)
+powerhint: update for new GPU freq table
+sepolicy: sync wakeup nodes with 8150-common
 
 Notable ROM changes:
 ==============================
-AndroidKeyStoreSpi: Allow disabling onEngineGetCertificateChain via prop
-Disable useless Keystore features
-Ensure prop has zero padding
-Fix RCS issue (for now)
-Prevent serial of ro props from self increment
-Settings: Add back increasing ring feature
-Settings: Link smallest width options in display settings
-SystemUI: StatusBarIconController: Prevent an NPE on early boot
-extras: Drop BrightnessSliderShaded
-extras: Import BCR 1.64
+Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+Extend "Settings: Implement cutout force full screen"
+Evolver: Update translations
+FrameTracker: Silence logspam
+ImageReader: remove native call to detachImage
+Import CutoutUtils
+NetworkTraffic: Prevent SystemUI crash on user change
+SettingsGoogle: Match Pixel UDFPS animation padding
+apns: Add a XML schema and check apns-conf.xml against it
+apns: Convert build rule to Soong
+apns: Remove support for CUSTOM_APNS_FILE
+apns: Remove unknown attributes and fix misspelled ones
+camera2: allow access to CaptureRequest.mLogicalCameraSettings
+certification: 07/27/2024 Update (Play integrity fix)
+config: Add common config for book-style foldables
+data: Include NotoColorEmojiAddon font
+extras: Fix QQS and QS panel paddings for notch devices on A11 QS
+extras: Increase QS tile vertical margin for A11 QS
+kernel: Deduplicate file paths in file_list.txt
+noto-fonts: Add Noto Emoji Addons
+noto-fonts: Add missing noto fonts
+overlay: wifionly: Hide more telephony related features
+pixel-style: overlay: Update anxcamera icon
+sensitive_pn: Add China's 12355 helpline
+sensitive_pn: Add and modify netherland numbers
+sensitive_pn: Add numbers for Hong Kong, China
+sensitive_pn: Update and simplify helplines for multiple countries
+sepolicy: Introduce automated DC Dimming
+services: Scale max cached processes based on total ram size
+services: Unboost MAX_CACHED_PROCESSES

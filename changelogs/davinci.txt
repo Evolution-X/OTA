@@ -1,0 +1,20 @@
+===== 14 Aug 2024 =====
+
+NOTES:
+- Dirty install from previous build id fine
+- Format Data could be required in some scenarios, check the XDA thread about compatibility
+- KernelSU is supported, just install the manager app v0.9.5
+
+DEVICE:
+- Add Moto Dolby
+- Merge 4.14.350-openela in kernel
+- Update the MIUI camera
+- Use MINI gapps
+
+ROM:
+- Spoof Google apps to Pixel 9 Pro
+- Update built-in Play integrity fix app
+- Snapchat spoof moved to Pixel XL to match Google Photos app
+- Photos app spoof is now disabled by default
+- Shake and three fingers gestures added from RisingOS
+- Added toggle to hide developer options status

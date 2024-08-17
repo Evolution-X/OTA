@@ -1,0 +1,9 @@
+Device changes:
+==============================
+- Tuned Status Bar Padding
+
+Notable ROM changes:
+==============================
+- Enabled Refresh Rate Settings
+- Added Hide Developer Status From Apps
+- Added Smart 5G Toggle

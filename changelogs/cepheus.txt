@@ -1,19 +1,12 @@
-===== 26 May 2024 =====
+===== 17 Aug 2024 =====
 
 NOTES:
 - Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
+- If you find that circle-to-search is not working, clear the Google app data, uninstall updates from its app info and update from the Play Store
 
 DEVICE:
-- Nothing relevant
 
 ROM:
-- Evolver: A11 QS UI Style
-- Evolver: Add QS Panel Styles
-- Evolver: Add brightness slider themes
-- extras: Add Play font package
-- extras: Update HarmonyOS Sans Font
-- extras: clocks: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
-- Settings: Ambient Music Ticker - Allow to pulse on new tracks
-- Many fixes and tweaks under the hood
-- Add new translations
+- Fix an issue where some features don't work after updating the Google app
+	
