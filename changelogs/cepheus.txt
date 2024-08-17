@@ -1,4 +1,4 @@
-===== 16 Aug 2024 =====
+===== 17 Aug 2024 =====
 
 NOTES:
 - Dirty install is fine from previous official build
@@ -6,17 +6,7 @@ NOTES:
 - If you find that circle-to-search is not working, clear the Google app data, uninstall updates from its app info and update from the Play Store
 
 DEVICE:
-- Merge v4.14.350-openela in kernel
-- Update the MIUI camera
 
 ROM:
-- Update to EvolutionX 9.3
-- Merge August security patch
-- Update built-in Play integrity fix app
-- Spoof Google apps to Pixel 9 Pro
-- Snapchat spoof moved to Pixel XL to match Google Photos app
-- Photos app spoof is now disabled by default
-- Shake and three fingers gestures added from RisingOS
-- Added toggle to hide developer options status
-- Update translations
-- Other minor tweaks and optimizations
+- Fix an issue where some features don't work after updating the Google app
+	
