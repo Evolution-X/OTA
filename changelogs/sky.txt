@@ -5,13 +5,12 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.5.0 firmware first.
 - OTA will be fine over previous update
-- Play integrity passes as of 10/09/2024
+- Play integrity passes as of 19/08/2024
 - Thanks to @lostark13 @redducc and @jendermine for base tree
-- Thanks to @Zoro0_7 For testing
 
 Device changes:
 ==============================
-- Add support for lift to wake
+- Added Gcam go by default
 
 Notable ROM changes:
 ==============================
