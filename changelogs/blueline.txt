@@ -1,7 +1,6 @@
 QPR3 : august security patches
 Backported EroFs
 Now using Full gapps
-Memecam now shipped
 Fixed SystemUI glitches
 Fixed AndroidSystem crashes
 ROM spoof Google apps to Pixel 9 Pro (caiman)

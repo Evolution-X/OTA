@@ -1,5 +1,13 @@
-Initial release for Sargo
-Fix UI glitches
-QPR3 - July update patches
-BASIC and DEVICE passes
-#NeverStopEvolving
+QPR3 : august security patches
+Backported EroFs
+Now using Full gapps
+Memecam now shipped
+Fixed SystemUI glitches
+Fixed AndroidSystem crashes
+ROM spoof Google apps to Pixel 9 Pro (caiman)
+Pif Updated
+Snapchat spoof has been moved to Pixel XL
+Shake and three finger gestures have been added from risingOS.
+Hide ADB and developer settings, Hotspot client manager and Hidden SSID preferences have been brought back along with Smart 5G toggle (for 5G-supported devices only).
+Backup now in main settings apps
+QS pannel now smoother
