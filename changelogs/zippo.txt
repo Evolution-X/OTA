@@ -1,4 +1,4 @@
-===== 08 Jul 2024 =====
+===== 20 Aug 2024 =====
 
 NOTES:
 - Dirty install from previous official is fine
@@ -6,10 +6,46 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
-- Required changes after QPR3
-- Adjusted framerates and resolutions for Aperture
+- Merge branch lineage-20 of kernel_qcom_sm8150 from LOS
+- Merge v4.14.348-openela in kernel
+- Support volume steps feature
+- Drop updatable GPU drivers
+- Switch to full IWLAN mode
+- Drop datastatusnotification
+- Disable SF client composition cache
+- Remove wait_for_keymaster and all references
+- Move to new RFS install_symlink targets
+- Declare IMS libs as symlinks during extraction
+- Declare EGL libs as symlinks during extraction
+- Convert WiFi firmware symlinks to install_symlink targets
+- Declare WFD lib as symlinks during extraction
+- Mark CNE symlink target as required package
 
 ROM:
-- Merged Google's QPR3
-- Security patch from July
-- Added Basic Call Recording
+- Evolution-X 9.3
+- August security patch
+- Updated Play Integrity Fix app
+- ADD APN for DIGI Spain IMS and DIGI Italy IMS
+- Add toggle to enable brightness slider haptic feedback
+- Evolver: Less boring heads up option
+- Allow turning on Bluetooth when pressing its QS tile
+- Open bluetooth dialog with long-press on QS tile
+- Fix rounded corners of freeform windows
+- Bring back GameSpace support
+- Evolver: Bring back Pulse visualizer
+- Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
+- Settings: Add Bluetooth/Wi-Fi timeout feature
+- Settings: Allow scheduling always on display
+- Settings: Expose radio info (*#*#4636#*#*)
+- Settings: Introduce Automated DC Dimming
+- Fix systemui crash when checking headups whitelist packages
+- Fix suppress notifications sound/vibration if screen is ON
+- NetworkTraffic: Prevent SystemUI crash on user change
+- Fix QQS and QS panel paddings for notch devices on A11 QS
+- Increase QS tile vertical margin for A11 QS
+- Evolver: Introduce Shake Gestures
+- Evolver: Introduce Three finger swipe/long press gestures
+- Settings: Add toggle to hide ADB and developer setting enable status
+- Settings: Move Notch Cutout to Display
+- SystemUI: Show island notification on landscape
+- Update translations

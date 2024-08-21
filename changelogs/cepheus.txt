@@ -1,15 +1,12 @@
-===== 22 Jul 2024 =====
+===== 17 Aug 2024 =====
 
 NOTES:
 - Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
-- OTA Update from the system updater will not work due to a mistake with signing keys. My apollogies. It will be fine for future updates
 - If you find that circle-to-search is not working, clear the Google app data, uninstall updates from its app info and update from the Play Store
 
 DEVICE:
-- Properly sign the builds. This is the reason for the system updater not to work previously and it will be fine from now on
-- Use MINI Gapps
 
 ROM:
-- Update Play Integrity Fix app to meet device integrity again
-- Fix an issue where notifications with screen on required to disable tje feature and enable it again to work
+- Fix an issue where some features don't work after updating the Google app
+	

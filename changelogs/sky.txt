@@ -1,46 +1,44 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with August 2024 QPR3 (r55) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.5.0 firmware first.
-- Clean flash is required
-- Play integrity passes as of 01/08/2024
+- OTA will be fine over previous update
+- Play integrity passes as of 19/08/2024
 - Thanks to @lostark13 @redducc and @jendermine for base tree
 
 Device changes:
 ==============================
-- Rebased over pos tree
+- Added Gcam go by default
 
 Notable ROM changes:
 ==============================
-Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
-Extend "Settings: Implement cutout force full screen"
-Evolver: Update translations
-FrameTracker: Silence logspam
-ImageReader: remove native call to detachImage
-Import CutoutUtils
-NetworkTraffic: Prevent SystemUI crash on user change
-PhoneWindowManager: Check NPE for LineageHardware
-Settings: Fix crash with face lock preference for limited access users
-apns: Add a XML schema and check apns-conf.xml against it
-apns: Convert build rule to Soong
-apns: Remove support for CUSTOM_APNS_FILE
-apns: Remove unknown attributes and fix misspelled ones
-camera2: allow access to CaptureRequest.mLogicalCameraSettings
-certification: 07/27/2024 Update (Play integrity fix)
-config: Add common config for book-style foldables
-data: Include NotoColorEmojiAddon font
-extras: Fix QQS and QS panel paddings for notch devices on A11 QS
-extras: Increase QS tile vertical margin for A11 QS
-extras: Update BCR to Version 1.67
-kernel: Deduplicate file paths in file_list.txt
-noto-fonts: Add Noto Emoji Addons
-noto-fonts: Add missing noto fonts
-overlay: wifionly: Hide more telephony related features
-sensitive_pn: Add China's 12355 helpline
-sensitive_pn: Add and modify netherland numbers
-sensitive_pn: Add numbers for Hong Kong, China
-sensitive_pn: Update and simplify helplines for multiple countries
-services: Scale max cached processes based on total ram size
-services: Unboost MAX_CACHED_PROCESSES
+- New Crowdin updates
+- Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+- Settings: Fix crash with face lock preference for limited access users
+- QSFooter: Launch The Evolver when long clicking settings
+- SystemUI: Integrate Google Lens into Screenshot UI
+- SystemUI: biometrics: Follow user setting to confirm face unlock
+- Update battery info every second when device is charging
+- KeyguardIndication: Fix glitchy charging info on lockscreen
+- SystemUI: Update notification count overlay
+- SystemUI: Add vibration when long pressing QS footer settings button
+- core: Optimize download/upload animations
+- SystemUI: New per-app volume icon
+- Fixed a crash in settings in tts engine selection screen.
+- SystemUI: Fix QS tile dialog background color
+- Allow APK signature scheme v1 for API 30+ apps
+- Screenshot: Remove text from expanded screenshot chip
+- AppErrors: Respect appsNotReportingCrashes for ANRs
+- SystemUI: Always show suffix for DataUsage
+- SystemUI: Show daily data usage in QS footer [SQUASHED]
+- SettingsProvider: Set device name to marketname if available
+- NavigationBarInflaterView: Improve applying overlays
+- Navbar: Fix issue where pill disappears in gestural mode
+- SystemUI: Fix secondary label alignment on A11 QS UI Style
+- SettingsLib: Use San Francisco font for iOS battery styles
+- SystemUI: Add affordance shorcut for AI Voice Assistant
+- Allow disabling USAGE_VIDEO_ENCODE ImageReader flag
+- Allow setting HQ mode as default
+- [TMP]Evolver: Move in status bar battery preferences from LineageParts

@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Chema Funtan",
+      "oem": "Xiaomi",
+      "device": "Mi 9t",
+      "filename": "EvolutionX-14.0-20240814-davinci-v9.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/davinci/14/EvolutionX-14.0-20240814-davinci-v9.3-Official.zip/download",
+      "timestamp": 1723595319,
+      "md5": "bea6691a4162072428f3729d01f7658d",
+      "sha256": "7c9ebe03e90c18be64b79ddf28479236096ddf25c2ae77789864825dc2feb8f5",
+      "size": 2536769793,
+      "version": "9.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-davinci-retrofit-official-evolution-x-09-10-24.4686129/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/chfondia",
+      "telegram": "https://telegram.me/chematelegram"
+    }
+  ]
+}

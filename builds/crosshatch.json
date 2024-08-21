@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "oem": "Google",
+      "device": "Pixel 3 XL",
+      "filename": "EvolutionX-14.0-20240818-crosshatch-v9.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/crosshatch/14/EvolutionX-14.0-20240818-crosshatch-v9.3-Official.zip/download",
+      "timestamp": 1724011617,
+      "md5": "20abd1670dc8dac3c55549f0dbd8d4b3",
+      "sha256": "48f499256690010face866ee0cbb2d1e0bc5a3f1e31d7b0f40c95650ecb98d83",
+      "size": 2310243149,
+      "version": "9.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0-0_r53-official-evolution-x-9-2-07-28-2024.4683738/#post-89665178",
+      "firmware": "",
+      "paypal": "https://paypal.me/0nelots",
+      "telegram": "https://t.me/onelots"
+    }
+  ]
+}
