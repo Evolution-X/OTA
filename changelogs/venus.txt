@@ -1,49 +1,120 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with August 2024 QPR3 (r55) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 08/01/2024).
+- Play Integrity passes, RCS works (As of 08/21/2024).
 - Includes Xiaomi parts and Leica camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-Add libmialgo_basic
-Bring back Leica camera port
-sepolicy: Make vendor_camera_sensor_prop public
-v4a: Update to 0.6.6 release
+None
 
 Notable ROM changes:
 ==============================
-Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
-Extend "Settings: Implement cutout force full screen"
-Evolver: Update translations
-FrameTracker: Silence logspam
-ImageReader: remove native call to detachImage
-Import CutoutUtils
-NetworkTraffic: Prevent SystemUI crash on user change
+AudioService: do not block focus request from applications compiled with lower version sdks
+Avoid device reboot caused by SecurityException.
+BubbleStackView: Fix java code parsing error
+CSD: Remove bluetooth a2dp devices for safe volume index devices
+CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+Camera: Fix camera id equal check
+CameraManager: Prevent array index out of bound exception
+CameraManager: Prevent out of bounds when extracting camera IDs
+Delay garbage collection to prevent deadlocks during screen on
+Disable checks to allow explicit GC for sysui/system_server
+Evolver: Allow setting QS rows
+Evolver: Introduce Shake Gestures
+Evolver: Introduce Three finger swipe/long press gestures      
+Evolver: Introduce bootanimation styles
+Evolver: Move gesture features to its own fragment
+FileUtils: Silence Logspam
+Fix UiModeManager context memory leak for SearchManager
+Fix exception when setTorchMode
+Fix memory leak on MediaProjectionPermissionActivity
+Fix null pointer exception issue when animation
+Fix the darker effect when app returns to the desktop
+Fix the issue that the approach of DisplayListener.onDisplayChanged() can not be called when there are multiple processed for a same single application.
+FlashlightControllerImpl: Fix crash when camera IDs list is null
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Enable enableOnBackInvokedCallback
+GameSpace: Fix ClassCastException during onNotificationPosted
+GameSpace: Implement Three finger swipe changes
+GameSpace: Import qs_tile_background ripple resource for tile
+GameSpace: Migrate MainSwitchBar and Switch to Material3
+GameSpace: Move game library to its own preference
+GameSpace: Show correct default settings
+ImageReader: Allow skipping of nativeDetachImage
+ImageReader: Remove native call to detachImage
+Island: Implement Swipe to left/right to dismiss gesture
+Island: Recycle icon bitmap to avoid memory leak
+JobScheduler: Remove jobs for non-existent packages
+Make Dialer appear in the microphone recent list of Privacy settings
+Mark SMS premium code 8080 as free in Poland
+MediaSessionService: use a stack to hold the media button receivers
+Merge August 2024 security patches
+PackageInstaller: fix NPE due to a race condition in PackageUtil
 PhoneWindowManager: Check NPE for LineageHardware
-Settings: Fix crash with face lock preference for limited access users
-apns: Add a XML schema and check apns-conf.xml against it
-apns: Convert build rule to Soong
-apns: Remove support for CUSTOM_APNS_FILE
-apns: Remove unknown attributes and fix misspelled ones
-camera2: allow access to CaptureRequest.mLogicalCameraSettings
-certification: 07/27/2024 Update (Play integrity fix)
-config: Add common config for book-style foldables
-data: Include NotoColorEmojiAddon font
-extras: Fix QQS and QS panel paddings for notch devices on A11 QS
-extras: Increase QS tile vertical margin for A11 QS
-extras: Update BCR to Version 1.67
-kernel: Deduplicate file paths in file_list.txt
-noto-fonts: Add Noto Emoji Addons
-noto-fonts: Add missing noto fonts
-overlay: wifionly: Hide more telephony related features
-sensitive_pn: Add China's 12355 helpline
-sensitive_pn: Add and modify netherland numbers
-sensitive_pn: Add numbers for Hong Kong, China
-sensitive_pn: Update and simplify helplines for multiple countries
-services: Scale max cached processes based on total ram size
-services: Unboost MAX_CACHED_PROCESSES
+PixelPropsUtils: Do not spoof mainline models to google photos (Magic Editor fix)
+Settings: Add black theme styles
+Settings: Add toggle for Smart 5G
+Settings: Hide ADB and developer setting enable status
+Settings: Move Notch Cutout to Display
+Settings: SoftAP: Add client manager
+Settings: SoftAp: add Hidden SSID preference
+Settings: SoftAp: add support for setting shutdown timeout
+Settings: colors: Update color previews
+Silence ExifInterface logspam
+Smart5gService: guard it with overlay
+SystemUI: Add dimens to set max offset of navigation bar burn-in protection
+SystemUI: Debounce QS data usage updates
+SystemUI: Default to true for HeadsUp notifications
+SystemUI: Don't enforce Island notif on landscape
+SystemUI: Enable refresh rate QS tile if multiple refresh rates supported
+SystemUI: Fix crash when click rotation button on keyguard
+SystemUI: Fix crash when switching QS view parents
+SystemUI: Fix systemui crash when checking headups whitelist packages
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Resolve regressions caused by continuous updating of notification icons
+SystemUI: Revamp QS data usage UI
+SystemUI: Revamp face unlock indication
+SystemUI: Show island notification on landscape
+SystemUI: Use darkest neutral shade for island dark mode bg
+SystemUI: Use system_accent1_200 for monetized privacy indicators
+Update statusBarState in KeyguardStatusBarViewController
+Update translations
+Upload the texture for BitmapShader only when it's dirty or under the cache max.
+[SQUASH] base: Hide ADB and developer setting enable status [1/2
+base: Do not gc twice on keyguard
+base: Ensure pocket sensor is wakeup
+base: Introduce Smart 5G service [1/2]
+certification: 08/17/2024 Update
+config: Don't dexpreopt prebuilt apps
+config: Drop duplicate setupwizard theme prop
+config: Remove useless addon.d file
+core: Explicitly enable freeform windows and multi-window support
+core: Introduce VibrationUtils
+disable OtaDexoptService
+fixup! SwipeToScreenshot: Import MIUI implementation
+hwui: Prevent renderthread crash caused by thread safety issue
+improve PendingIntent security check compatibility
+keyguard: Do not trigger a wake up when hiding lockscreen
+overlay: Enable aspect ratio settings
+pixel-style: Add new setupwizard props from caiman
+pixel-style: Refactor PixelLauncherCustomOverlay
+pixel-style: overlay: Disable Google Dialer Call recording TTS
+recovery_ui: Retry for getting battery info
+run full explicit GC in SystemUI and system_server after locking
+services: Fix swipe to screenshot gestures detection
+services: Introduce GestureCallbacks
+services: Introduce Shake Gestures
+services: Introduce Three finger swipe gestures [1/2]
+services: Introduce three finger long press gestures [1/2]
+shell: Fix crash after dismissing a split screen pair
+themes: Add back berry black theme
+themes: Remove conflicting Lorn icon pack signal padding
+themes: Update AndroidBlackTheme
+vendor: overlay: Add PhenotypeFlagsUtils
+wm: Ensure freeform tasks bounds gets updated when launching tasks
+wm: Make freeform windows always on top
