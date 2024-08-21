@@ -1,22 +1,15 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with August 2024 QPR3 (r55) security patches
 
 Notes:
 ==============================
-- Initial build
-- LineageOS-based source. Signed build.
 - Make sure to flash firmware according to your device variant.
 - Make sure to follow flashing steps on XDA.
-- Clean flash is recommended.
-- Play Integrity passes.
+- Play Integrity passes, RCS works (As of 08/21/2024).
 - Thanks a lot to @grewal for his tree base.
 
 Device changes:
 ==============================
-- Initial build
-
-Notable ROM changes:
-==============================
-Evolver: Update translations
-fixup! Allow to suppress notifications sound/vibration if screen is ON
-recovery: minui: Support secondary framebuffers
-releasetools: Don't compress with brotli
+- Screen-off FOD working
+- Haptics effects tuned
+- Switch to AOSP surfaceflinger
+- overlay: show min/max refresh rate in settings 
