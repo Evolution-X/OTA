@@ -2,6 +2,14 @@
 Device changes:
 ============================
 
+# 21-08-2024
+- Synced with latest source
+- Update build fingerprint to 1.0.7.0 global
+- Switch to QTI Memtrack AIDL HAL
+- Force 60hz on keyguard
+- Update vendor security patch
+- Add Nothing phone(1)'s carrierconfig
+
 # 07-08-2024
 - Synced with latest source
 - Drop viper4android
