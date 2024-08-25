@@ -1,1 +1,4 @@
-Initial release
+Add boot animation styles
+Add black theme styles
+Fix issues with revanced applications
+Misc fixes
