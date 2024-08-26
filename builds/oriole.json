@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "oem": "Google",
+      "device": "Pixel 6",
+      "filename": "EvolutionX-14.0-20240826-oriole-v9.3-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/oriole/14_vanilla/EvolutionX-14.0-20240826-oriole-v9.3-Vanilla-Official.zip/download",
+      "timestamp": 1724642857,
+      "md5": "47b1788bd872f6ddcef21edc57031c54",
+      "sha256": "eff6e642cf2b195276a43a8c9dc6b05433e26efcc17533e0041ac547f6670491",
+      "size": 1547410249,
+      "version": "9.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0_r55-official-evolution-x-9-3-08-26-2024.4547009/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "telegram": "https://telegram.me/AnierinB"
+    }
+  ]
+}
