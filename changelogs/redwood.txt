@@ -6,6 +6,42 @@ Both panel are supported.
 
 Device Changes:
 ===============
+26-August-2024
+===============
+* Updated blobs & HyperCamera to V816.0.6.0.UMSMIXM
+* overlay: Speed up auto-brightness ramp up & Increase brightness slightly 
+* overlay: Disable alpha compositing in WM
+* overlay: Globally enable LTE+ icon
+* audio: Disable ULL mode
+* Switch to QTI Memtrack AIDL HAL
+* Fixed some  sepolicy avc denials
+
+Notable ROM changes:
+==============================
+BatteryStatsImpl:fix ArithmeticException due to list size is zero
+Evolver: Allow setting QS rows
+Evolver: Introduce bootanimation styles
+GamesPropsUtils: Spoof Brawl Stars to Mi 11T Pro
+GamesPropsUtils: Update model for call of duty to Lenovo Y700
+Island: Implement Swipe to left/right to dismiss gesture
+PhoneWindowManager: Prevent NPE with voice search action
+PixelPropsUtils: Do not spoof mainline models to google photos
+Settings: Add black theme styles
+Should update surface position of the window before report resize
+SystemUI: Remove unnecessary updates for QS tiles layout
+SystemUI: Revamp face unlock indication
+SystemUI: Use darkest neutral shade for island dark mode bg
+extras: themes: Remove conflicting Lorn icon pack signal padding
+fixup! base: Hide ADB and developer setting enable status
+ignore virtual and overlay displays when turning displays off
+services: Intercept locked apps launching from recents
+wm: Ensure freeform tasks bounds gets updated when launching tasks
+wm: Make freeform windows always on top
+
+
+
+Device Changes:
+===============
 13-August-2024
 ===============
 * Switched to Perf kernel
