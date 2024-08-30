@@ -6,53 +6,50 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.3.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.3.zip/download) for root.
-- Play Integrity passes, RCS works (As of 08/23/2024).
-- Includes POCO camera.
-- Auto brightness may have issues at the moment.
+- Play Integrity passes, RCS works (As of 08/30/2024).
+- Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Commonize audio media configs
-Don't include media_codecs_dolby_audio
-Drop 32 bit apps support
-Drop unused battery property
-Fix AOD flickers
-Fix Double tap to wake
-Fix battery drain (Drop Dolby Atmos support)
-Include vendor/debugfs.config
-Move more radio properties to vendor
-Move to Xiaomi IR AIDL
-Partially revert "Move to QTI health AIDL service"
-Remove DEVICE_PROVISIONED
-Remove media_codecs_google_c2*
-Remove modules that depend on debugfs
-Remove software omx codec references
-Update blobs from diting V816.0.6.0.ULFMIXM
-Use AOSP default Codec2/OMX ranks
-audio: Nuke dirac and misoundfx effect
-audio: Nuke misoundfx effect
-overlay: Prodive MIUI color mode options
+Add hals.conf to load sensors.xiaomi to odm and move notifier to subdir
+Address sepolicy denials for dolby atmos
+Bring back Dolby Atmos
+Don't build atrace HIDL service in user build
+Enable support for IEEE80211AX
+Extend audio offload buffer size to 256kb
+audio: Disable hfp
+sensors: Add v2 suffix to sensors.xiaomi
+wlan: Disable FW TWT
 
 Notable ROM changes:
 ==============================
-BatteryStatsImpl:fix ArithmeticException due to list size is zero
-Evolver: Allow setting QS rows
-Evolver: Introduce bootanimation styles
-GamesPropsUtils: Spoof Brawl Stars to Mi 11T Pro
-GamesPropsUtils: Update model for call of duty to Lenovo Y700
-Island: Implement Swipe to left/right to dismiss gesture
-PhoneWindowManager: Prevent NPE with voice search action
-PixelPropsUtils: Do not spoof mainline models to google photos
-Settings: Add black theme styles
-Should update surface position of the window before report resize
-SystemUI: Remove unnecessary updates for QS tiles layout
-SystemUI: Revamp face unlock indication
-SystemUI: Use darkest neutral shade for island dark mode bg
-extras: themes: Remove conflicting Lorn icon pack signal padding
-fixup! base: Hide ADB and developer setting enable status
-ignore virtual and overlay displays when turning displays off
-services: Intercept locked apps launching from recents
-wm: Ensure freeform tasks bounds gets updated when launching tasks
-wm: Make freeform windows always on top
-
+Evolver: Implement QS Split Shade
+Evolver: Themes: Add Evolution X Reveal boot animation
+Evolver: Themes: Add more classic boot animation styles
+Don't dexpreopt prebuilt apps
+Fix splashscreen VRI leak
+PixelConfigOverlayCommon: Update default notif access packages
+Remove useless addon.d file
+Settings: Import missing animations from UP1A.231005.007.A1
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SurfaceControl: add more window types to consider NoVote
+SystemUI: Fix Island loop if suddenly close
+SystemUI: Properly inject TunerService for PhoneStatusBarPolicy
+SystemUI: Update track title and artist on metadata change
+ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES
+VPN: fix crash on missing CCM
+certification: 08/30/2024 Update
+device_config: Add more apps to live translate blocklist
+device_config: Disable Live Translate
+device_config: Update launcher configs
+etc: Add bootanim init
+overlay: Add GameSpace to notification listener access
+overlay: Add SystemUI to location extra packages
+overlay: Add gms location history to extra location packages
+overlay: Add tethering to location exemption
+overlay: Hide Live Translate settings
+overlay: configs: Disable SystemUpdateV2Activity
+overlay: configs: Exempt Google Dialer from location indicator
+rro_overlays: Bump to AD1A.240530.047
+services: Add NPE check for updating system app from play store
