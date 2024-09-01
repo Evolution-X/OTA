@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "kibria5",
+      "oem": "Redmi",
+      "device": "Redmi Note 13 4G",
+      "filename": "EvolutionX-14.0-20240901-sapphire-v9.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/sapphire/14/EvolutionX-14.0-20240901-sapphire-v9.3-Official.zip/download",
+      "timestamp": 1725190085,
+      "md5": "e4df5d34d3d3cc90a34f20609e3a453e",
+      "sha256": "3eb4f41acb69d5d56adc932165f5cae750b5502a93cea6beda523b13b545280e",
+      "size": 2239314994,
+      "version": "9.3",
+      "buildtype": "Monthly",
+      "forum": "",
+      "firmware": "https://xmfirmwareupdater.com/archive/firmware/sapphire",
+      "paypal": "https://www.paypal.com/paypalme/kibria05",
+      "telegram": "https://t.me/kibria5"
+    }
+  ]
+}
