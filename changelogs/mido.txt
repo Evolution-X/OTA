@@ -1,0 +1,11 @@
+This is Android 14 with August 2024 QPR3 (r55) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+
+changes:
+==============================
+- Initial QPR3 build
+- Update mido trees from Zeelog
+- All things working
