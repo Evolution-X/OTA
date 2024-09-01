@@ -5,40 +5,42 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-14-0_r35-official-evolution-x-9-0-06-06-2024.4659931/post-89379222) for root.
-- Play Integrity passes, RCS works (As of 08/12/2024).
-- Includes Leica camera.
+- Play Integrity passes, RCS works (As of 09/01/2024).
+- Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Update vendor security patches to V816.0.7.0.TMNCNXM
+Switch GNSS service to OSS from CLO
+Add rear light sensor for Auto-Brightness.
 
 Notable ROM changes:
 ==============================
-New Crowdin updates
-Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
-Settings: Fix crash with face lock preference for limited access users
-QSFooter: Launch The Evolver when long clicking settings
-SystemUI: Integrate Google Lens into Screenshot UI
-SystemUI: biometrics: Follow user setting to confirm face unlock
-Update battery info every second when device is charging
-KeyguardIndication: Fix glitchy charging info on lockscreen
-SystemUI: Update notification count overlay
-SystemUI: Add vibration when long pressing QS footer settings button
-core: Optimize download/upload animations
-SystemUI: New per-app volume icon
-Fixed a crash in settings in tts engine selection screen.
-SystemUI: Fix QS tile dialog background color
-Allow APK signature scheme v1 for API 30+ apps
-Screenshot: Remove text from expanded screenshot chip
-AppErrors: Respect appsNotReportingCrashes for ANRs
-SystemUI: Always show suffix for DataUsage
-SystemUI: Show daily data usage in QS footer [SQUASHED]
-SettingsProvider: Set device name to marketname if available
-NavigationBarInflaterView: Improve applying overlays
-Navbar: Fix issue where pill disappears in gestural mode
-SystemUI: Fix secondary label alignment on A11 QS UI Style
-SettingsLib: Use San Francisco font for iOS battery styles
-SystemUI: Add affordance shorcut for AI Voice Assistant
-Allow disabling USAGE_VIDEO_ENCODE ImageReader flag
-Allow setting HQ mode as default
-[TMP]Evolver: Move in status bar battery preferences from LineageParts
+Evolver: Implement QS Split Shade
+Evolver: Themes: Add Evolution X Reveal boot animation
+Evolver: Themes: Add more classic boot animation styles
+Don't dexpreopt prebuilt apps
+Fix splashscreen VRI leak
+PixelConfigOverlayCommon: Update default notif access packages
+Remove useless addon.d file
+Settings: Import missing animations from UP1A.231005.007.A1
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SurfaceControl: add more window types to consider NoVote
+SystemUI: Fix Island loop if suddenly close
+SystemUI: Properly inject TunerService for PhoneStatusBarPolicy
+SystemUI: Update track title and artist on metadata change
+ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES
+VPN: fix crash on missing CCM
+certification: 08/30/2024 Update
+device_config: Add more apps to live translate blocklist
+device_config: Disable Live Translate
+device_config: Update launcher configs
+etc: Add bootanim init
+overlay: Add GameSpace to notification listener access
+overlay: Add SystemUI to location extra packages
+overlay: Add gms location history to extra location packages
+overlay: Add tethering to location exemption
+overlay: Hide Live Translate settings
+overlay: configs: Disable SystemUpdateV2Activity
+overlay: configs: Exempt Google Dialer from location indicator
+rro_overlays: Bump to AD1A.240530.047
+services: Add NPE check for updating system app from play store
