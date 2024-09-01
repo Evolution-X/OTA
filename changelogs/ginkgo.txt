@@ -1,6 +1,8 @@
 Changelog:
-• Merged August 2024 Security Patch
-• Synced with latest source
-• Fixed 4G to LTE icon toggle
-• Fixed lockscreen battery icon issues
-• Disable battery/notification light options for willow (willow doesn't have one)
+• Hide bugged Design and Max Battery Capacity
+• Fix bootloop causing notch cutouts
+• Introduce Shake Gestures
+• Introduce Three finger swipe/long press gestures      
+• Introduce bootanimation styles / switcher
+• Revamp face unlock indication
+• Implement QS Split Shade
