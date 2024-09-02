@@ -3,6 +3,48 @@ This is Android 14 with August 2024 QPR3 (r55) security patches
 Notes:
 ==============================
 Both panel are supported.
+Play Integrity passes, RCS works (As of 09/01/2024).
+
+Device Changes:
+==================
+01-September-2024
+==================
+* Fixed AI mode in Hyper Camera ( Now all features of camera are working perfectly )
+* Switch to vendor-defined color modes ( Colors are now same as Redwood stock)
+* Switched back to Turbo kernel
+
+Notable ROM changes:
+==============================
+Evolver: Implement QS Split Shade
+Evolver: Themes: Add Evolution X Reveal boot animation
+Evolver: Themes: Add more classic boot animation styles
+Don't dexpreopt prebuilt apps
+Fix splashscreen VRI leak
+PixelConfigOverlayCommon: Update default notif access packages
+Remove useless addon.d file
+Settings: Import missing animations from UP1A.231005.007.A1
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SurfaceControl: add more window types to consider NoVote
+SystemUI: Fix Island loop if suddenly close
+SystemUI: Properly inject TunerService for PhoneStatusBarPolicy
+SystemUI: Update track title and artist on metadata change
+ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES
+VPN: fix crash on missing CCM
+certification: 08/30/2024 Update
+device_config: Add more apps to live translate blocklist
+device_config: Disable Live Translate
+device_config: Update launcher configs
+etc: Add bootanim init
+overlay: Add GameSpace to notification listener access
+overlay: Add SystemUI to location extra packages
+overlay: Add gms location history to extra location packages
+overlay: Add tethering to location exemption
+overlay: Hide Live Translate settings
+overlay: configs: Disable SystemUpdateV2Activity
+overlay: configs: Exempt Google Dialer from location indicator
+rro_overlays: Bump to AD1A.240530.047
+services: Add NPE check for updating system app from play store
+
 
 Device Changes:
 ===============
