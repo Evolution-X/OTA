@@ -1,15 +1,26 @@
-Switching from Static to dynamic partitions :
+Recovery: https://sourceforge.net/projects/evolution-x/files/polaris/14/recovery/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/polaris/14/super_empty/super_empty.img/download
 
-zram added
-kernel: enable lz4 for zram
-switched to dynamic partition
-switched to full gapps
+This is Android 14 with August 2024 security patches
+Device changes:
+=======================
+Switch to Hayasaka kernel
+Enable double tap ambient display support
+Enable volume step support
+Various performance improvements 
 
-+ Official device so EvoX signing
-
- ----
-
-August security patches
-Xiaomi cam added
-stability improved
-9.3 update
+Rom changes:
+=======================
+Merged August 2024 Security Patch
+Play integrity now passes by default
+Add Hide ADB and developer setting enable status
+Fixed Magic eraser crashes
+Introduce black theme styles
+Introduce boot animation styles
+Introduce bootanimation styles selection
+Introduce QS rows setting
+Introduce Shake Gestures
+Introduce Three finger swipe/long press gestures
+Move Notch Cutout to Display
+Revamp face unlock indication
+Revamp QS data usage UI
