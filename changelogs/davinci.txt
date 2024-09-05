@@ -1,4 +1,4 @@
-===== 14 Aug 2024 =====
+===== 5 Sep 2024 =====
 
 NOTES:
 - Dirty install from previous build id fine
@@ -6,15 +6,23 @@ NOTES:
 - KernelSU is supported, just install the manager app v0.9.5
 
 DEVICE:
-- Add Moto Dolby
-- Merge 4.14.350-openela in kernel
-- Update the MIUI camera
-- Use MINI gapps
+- Merge v4.14.352-openela in kernel
+- Switch to QTI Memtrack AIDL HAL
 
 ROM:
-- Spoof Google apps to Pixel 9 Pro
-- Update built-in Play integrity fix app
-- Snapchat spoof moved to Pixel XL to match Google Photos app
-- Photos app spoof is now disabled by default
-- Shake and three fingers gestures added from RisingOS
-- Added toggle to hide developer options status
+- EvolutionX 9.4
+- September security patch
+- Evolver: Allow setting QS rows
+- Evolver: Introduce bootanimation styles
+- Island: Implement Swipe to left/right to dismiss gesture
+- PixelPropsUtils: Do not spoof mainline models to google photos
+- Settings: Add black theme styles
+- SystemUI: Revamp face unlock indication
+- extras: themes: Remove conflicting Lorn icon pack signal padding
+- fixup! base: Hide ADB and developer setting enable status
+- wm: Make freeform windows always on top
+- Evolver: Implement QS Split Shade
+- Settings: Import missing animations from UP1A.231005.007.A1
+- SettingsGoogle: Follow monet color in settings icon like AOSP
+- SystemUI: Fix Island loop if suddenly close
+- certification: 08/30/2024 Update
