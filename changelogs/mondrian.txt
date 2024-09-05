@@ -1,4 +1,4 @@
-This is Android 14 with August 2024 QPR3 (r55) security patches
+This is Android 14 with September 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
@@ -10,37 +10,16 @@ Notes:
 
 Device changes:
 ==============================
-Switch GNSS service to OSS from CLO
-Add rear light sensor for Auto-Brightness.
+Update vendor security patches to V816.0.8.0.TMNCNXM
+Fix UDFPS animation position
 
 Notable ROM changes:
 ==============================
-Evolver: Implement QS Split Shade
-Evolver: Themes: Add Evolution X Reveal boot animation
-Evolver: Themes: Add more classic boot animation styles
-Don't dexpreopt prebuilt apps
-Fix splashscreen VRI leak
-PixelConfigOverlayCommon: Update default notif access packages
-Remove useless addon.d file
-Settings: Import missing animations from UP1A.231005.007.A1
-SettingsGoogle: Follow monet color in settings icon like AOSP
-SurfaceControl: add more window types to consider NoVote
-SystemUI: Fix Island loop if suddenly close
-SystemUI: Properly inject TunerService for PhoneStatusBarPolicy
-SystemUI: Update track title and artist on metadata change
-ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES
-VPN: fix crash on missing CCM
-certification: 08/30/2024 Update
-device_config: Add more apps to live translate blocklist
-device_config: Disable Live Translate
-device_config: Update launcher configs
-etc: Add bootanim init
-overlay: Add GameSpace to notification listener access
-overlay: Add SystemUI to location extra packages
-overlay: Add gms location history to extra location packages
-overlay: Add tethering to location exemption
-overlay: Hide Live Translate settings
-overlay: configs: Disable SystemUpdateV2Activity
-overlay: configs: Exempt Google Dialer from location indicator
-rro_overlays: Bump to AD1A.240530.047
-services: Add NPE check for updating system app from play store
+Island: Fix focused top-app detection
+Island: Remove notification when swiped dismiss
+Merge September 2024 security patches
+PinnerService: Try to pin SystemUIGoogle if SystemUI fails
+SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Update translations
+base: PowerOffAlarmService: Avoid NullPointerException
+overlay: Bump to AD1A.240530.047
