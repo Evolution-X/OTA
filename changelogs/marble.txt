@@ -1,44 +1,36 @@
-This is Android 14 with July 2024 QPR3 (r53) security patches
+This is Android 14 with September 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
-- Install LosKsu9.2.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.2.zip/download) for root.
-- Play Integrity passes, RCS works (As of 07/24/2024).
+- Install LosKsu9.3.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.3.zip/download) for root.
+- Play Integrity passes, RCS works (As of 09/05/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-None
+Drop gms premier_tier
+Drop identity service
+Move sensors hals.conf back to vendor repo
+Rename android.hardware.hardware_keystore.xml to avoid conflicts
+Stop building atrace service
+Stop building automotive vehicle manager lib
+Unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+Update blobs from V816.0.8.0.UMRMIXM
+Update from marble OS1.0.8.0.UMRMIXM and apply patches during extraction
+sensors: Add more padding to oem_msg
+sepolicy: Remove xiaomi specific gnss rules
 
 Notable ROM changes:
 ==============================
-Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
-Extend "Settings: Implement cutout force full screen"
-Evolver: Update translations
-FrameTracker: Silence logspam
-Import CutoutUtils
-NetworkTraffic: Prevent SystemUI crash on user change
-apns: Add a XML schema and check apns-conf.xml against it
-apns: Convert build rule to Soong
-apns: Remove support for CUSTOM_APNS_FILE
-apns: Remove unknown attributes and fix misspelled ones
-camera2: allow access to CaptureRequest.mLogicalCameraSettings
-certification: 07/27/2024 Update (Play integrity fix)
-config: Add common config for book-style foldables
-data: Include NotoColorEmojiAddon font
-extras: Fix QQS and QS panel paddings for notch devices on A11 QS
-extras: Increase QS tile vertical margin for A11 QS
-kernel: Deduplicate file paths in file_list.txt
-noto-fonts: Add Noto Emoji Addons
-noto-fonts: Add missing noto fonts
-overlay: wifionly: Hide more telephony related features
-sensitive_pn: Add China's 12355 helpline
-sensitive_pn: Add and modify netherland numbers
-sensitive_pn: Add numbers for Hong Kong, China
-sensitive_pn: Update and simplify helplines for multiple countries
-services: Scale max cached processes based on total ram size
-services: Unboost MAX_CACHED_PROCESSES
+Island: Fix focused top-app detection
+Island: Remove notification when swiped dismiss
+Merge September 2024 security patches
+PinnerService: Try to pin SystemUIGoogle if SystemUI fails
+SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Update translations
+base: PowerOffAlarmService: Avoid NullPointerException
+overlay: Bump to AD1A.240530.047

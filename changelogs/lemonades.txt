@@ -1,5 +1,8 @@
-Initial Build
-Signed with private keys
-SIDELOAD IT MANUALLY IN RECOVERY AND SELECT INSTALL ANYWAYS WHEN SIGNATURE VERIFICATION FAILS.
-WHEN IT SAYS ADDITIONAL PACKAGES REQUIRED PROMPT, PRESS NO AND REBOOT.
-DATA WIPE IS NECESSARY UNLESS YOU ARE ON 9.0 BETA BUILD.
+This is Android 14 with August 2024 QPR3 (r55) security patches
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Updated to OOS 14.0.0.601(EX01) (fw not included, flash fw first)
+- Clean flash is required unless coming from 9.0 BUILD.
+- Update to pif given in announcements channel(discord), RCS works (As of 08/17/2024).
+- Credits to Luk1337, Anierin Bliss, Joey Huab

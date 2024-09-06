@@ -3,6 +3,84 @@ This is Android 14 with August 2024 QPR3 (r55) security patches
 Notes:
 ==============================
 Both panel are supported.
+Play Integrity passes, RCS works (As of 09/01/2024).
+
+Device Changes:
+==================
+01-September-2024
+==================
+* Fixed AI mode in Hyper Camera ( Now all features of camera are working perfectly )
+* Switch to vendor-defined color modes ( Colors are now same as Redwood stock)
+* Switched back to Turbo kernel
+
+Notable ROM changes:
+==============================
+Evolver: Implement QS Split Shade
+Evolver: Themes: Add Evolution X Reveal boot animation
+Evolver: Themes: Add more classic boot animation styles
+Don't dexpreopt prebuilt apps
+Fix splashscreen VRI leak
+PixelConfigOverlayCommon: Update default notif access packages
+Remove useless addon.d file
+Settings: Import missing animations from UP1A.231005.007.A1
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SurfaceControl: add more window types to consider NoVote
+SystemUI: Fix Island loop if suddenly close
+SystemUI: Properly inject TunerService for PhoneStatusBarPolicy
+SystemUI: Update track title and artist on metadata change
+ThemeUtils: Use current user for THEME_CUSTOMIZATION_OVERLAY_PACKAGES
+VPN: fix crash on missing CCM
+certification: 08/30/2024 Update
+device_config: Add more apps to live translate blocklist
+device_config: Disable Live Translate
+device_config: Update launcher configs
+etc: Add bootanim init
+overlay: Add GameSpace to notification listener access
+overlay: Add SystemUI to location extra packages
+overlay: Add gms location history to extra location packages
+overlay: Add tethering to location exemption
+overlay: Hide Live Translate settings
+overlay: configs: Disable SystemUpdateV2Activity
+overlay: configs: Exempt Google Dialer from location indicator
+rro_overlays: Bump to AD1A.240530.047
+services: Add NPE check for updating system app from play store
+
+
+Device Changes:
+===============
+26-August-2024
+===============
+* Updated blobs & HyperCamera to V816.0.6.0.UMSMIXM
+* overlay: Speed up auto-brightness ramp up & Increase brightness slightly 
+* overlay: Disable alpha compositing in WM
+* overlay: Globally enable LTE+ icon
+* audio: Disable ULL mode
+* Switch to QTI Memtrack AIDL HAL
+* Fixed some  sepolicy avc denials
+
+Notable ROM changes:
+==============================
+BatteryStatsImpl:fix ArithmeticException due to list size is zero
+Evolver: Allow setting QS rows
+Evolver: Introduce bootanimation styles
+GamesPropsUtils: Spoof Brawl Stars to Mi 11T Pro
+GamesPropsUtils: Update model for call of duty to Lenovo Y700
+Island: Implement Swipe to left/right to dismiss gesture
+PhoneWindowManager: Prevent NPE with voice search action
+PixelPropsUtils: Do not spoof mainline models to google photos
+Settings: Add black theme styles
+Should update surface position of the window before report resize
+SystemUI: Remove unnecessary updates for QS tiles layout
+SystemUI: Revamp face unlock indication
+SystemUI: Use darkest neutral shade for island dark mode bg
+extras: themes: Remove conflicting Lorn icon pack signal padding
+fixup! base: Hide ADB and developer setting enable status
+ignore virtual and overlay displays when turning displays off
+services: Intercept locked apps launching from recents
+wm: Ensure freeform tasks bounds gets updated when launching tasks
+wm: Make freeform windows always on top
+
+
 
 Device Changes:
 ===============

@@ -1,0 +1,21 @@
+{
+    "response": [
+      {
+        "maintainer": "Nalinish Ranjan",
+        "oem": "Xiaomi",
+        "device": "Redmi Note 4/4X",
+        "filename": "EvolutionX-14.0-20240830-mido-v9.3-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/evolution-x/files/mido/14/EvolutionX-14.0-20240830-mido-v9.3-OFFICIAL.zip/download",
+        "timestamp": 1725007458,
+        "md5": "1ffc121a897e49c74fbecbb5c9eec814",
+        "sha256": "3abd33ff8f1c270827d1a4538c773c964fc72401b79135b5c424acc39ab7405f",
+        "size": 1705893378,
+        "version": "9.3",
+        "buildtype": "Release",
+        "forum": "https://xdaforums.com/t/rom-14-0_r55-mido-official-evolution-x-08-30-2024.4535383/",
+        "firmware": "https://xmfirmwareupdater.com/firmware/mido/stable/V11.0.2.0.NCFMIXM/",
+        "paypal": "",
+        "telegram": "https://t.me/HyperPower17"
+      }
+    ]
+  }

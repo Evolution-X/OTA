@@ -1,12 +1,17 @@
-===== 17 Aug 2024 =====
+===== 5 Sep 2024 =====
 
 NOTES:
 - Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
 - If you find that circle-to-search is not working, clear the Google app data, uninstall updates from its app info and update from the Play Store
+- If magic eraser or magic editor are not working in Photos, clear Photos app data, disable Photos spoof in 
+  Settings/Evolver/Misc/Components Spoofing, reboot, open Photos and let it update Photos editor tools. After that enable
+  the Photos spoof again for unlimited storage
 
 DEVICE:
+- Merge v4.14.352-openela in kernel
+- Switch to QTI Memtrack AIDL HAL
 
 ROM:
-- Fix an issue where some features don't work after updating the Google app
-	
+- EvolutionX 9.4
+- September security patch

@@ -4,18 +4,18 @@
       "maintainer": "ARIJIT SAHA",
       "oem": "Redmi",
       "device": "Redmi Note 12 5G/Poco X5 5G",
-      "filename": "EvolutionX-14.0-20240807-stone-v9.2-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240807-stone-v9.2-Official.zip/download",
-      "timestamp": 1723005261,
-      "md5": "aa825435bca26804ec86e213b1be8971",
-      "sha256": "283868f02a92a6edb9bb173ab166fd964d193fe825a11ebaad8a4da5eccd6152",
-      "size": 2179256625,
-      "version": "9.2",
+      "filename": "EvolutionX-14.0-20240821-stone-v9.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/stone/14/EvolutionX-14.0-20240821-stone-v9.3-Official.zip/download",
+      "timestamp": 1724220900,
+      "md5": "b537944837539179dccbd1ed7c6e7ae0",
+      "sha256": "1d8a5df85c5cb819190586d86607149f58f0fcc428cfe9ff74e0ac4ef953c1a5",
+      "size": 2184594775,
+      "version": "9.3",
       "buildtype": "Monthly",
-      "forum": "",
+      "forum": "https://xdaforums.com/t/rom-stone-official-evolution-xyz-9-3-08-21-2024.4688036/",
       "firmware": "",
-      "paypal": "",
-      "telegram": "t.me/whyred_404"
+      "paypal": "https://linktr.ee/joeyhuab",
+      "telegram": ""
     }
   ]
 }

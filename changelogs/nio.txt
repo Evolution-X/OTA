@@ -2,4 +2,4 @@
 Switch build intervals to monthly
 September Security patch
 Bump to Evolution X version 9.4
-Expanded boot animnation selections
+Expanded boot animation selections

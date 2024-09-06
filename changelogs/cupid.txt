@@ -1,4 +1,4 @@
-2024-08-10
+2024-08-17
 
 
 To use this release you need:
@@ -11,8 +11,126 @@ To use this release you need:
 
 # Device / Kernel
 
- * Picked changes https://github.com/cupid-development/android_device_xiaomi_sm8450-common trees
+  * cupid: Fix issue with blue tint upon video recording
+  * cupid: rootdir: Add more infos to `ro.boot.hardware.revision` prop
+  * cupid: rootdir: Set hardware revision property
+  * cupid: do not ship recovery in ota
+  * cupid: Enable eppe
+  * cupid: Remove unused adreno firmwares
+  * cupid: Drop prebuilt libmemunreachable.so
+  * cupid: Drop some audio libs which are built from source now
+  * cupid: Build opensource soundtrigger HAL
+  * cupid: Disable proprietary listen sound model
+  * cupid: Let build system copy audio manifests
+  * cupid: Add platform specific audio hal to build targets
+  * cupid: Build libsndcardparser from source
+  * cupid: Build libbatterylistener from source
+  * cupid: Skip building agm test binaries
+  * cupid: Move most agm and pal targets to source built
+  * cupid: Build mtdservice interface lib from source
+  * cupid: Switch to source-built mlipay interface
+  * cupid: Build audioadsprpcd from source
+  * cupid: Build librmnetctl from source
+  * cupid: Kill libstagefrighthw
+  * cupid: Disable OMX
+  * cupid: Get rid of unnecessary 32-bit blobs
+  * cupid: Drop unused libbt-hidlclient.so
+  * cupid: Stop building libcodec2_vndk explicitly
+  * cupid: parts: drop Thermal profiles
+  * fixup! cupid: Fix battery and USB OTG detection
+  * cupid: Drop xiaomi libsensor_cal@2.0.so
+  * cupid: Provide a Java library with required Xiaomi telephony methods
+  * cupid: update blobs to cupid_eea_global_images_OS1.0.10.0.ULCEUXM_14.0
+
 
 # Rom
 
- * August 2024 Security Patch
+AudioService: do not block focus request from applications compiled with lower version sdks
+Avoid device reboot caused by SecurityException.
+BubbleStackView: Fix java code parsing error
+CSD: Remove bluetooth a2dp devices for safe volume index devices
+CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+Camera: Fix camera id equal check
+CameraManager: Prevent array index out of bound exception
+CameraManager: Prevent out of bounds when extracting camera IDs
+Delay garbage collection to prevent deadlocks during screen on
+Disable checks to allow explicit GC for sysui/system_server
+Evolver: Introduce Shake Gestures
+Evolver: Introduce Three finger swipe/long press gestures      
+Evolver: Move gesture features to its own fragment
+FileUtils: Silence Logspam
+Fix UiModeManager context memory leak for SearchManager
+Fix exception when setTorchMode
+Fix memory leak on MediaProjectionPermissionActivity
+Fix null pointer exception issue when animation
+Fix the darker effect when app returns to the desktop
+Fix the issue that the approach of DisplayListener.onDisplayChanged() can not be called when there are multiple processed for a same single application.
+FlashlightControllerImpl: Fix crash when camera IDs list is null
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Enable enableOnBackInvokedCallback
+GameSpace: Fix ClassCastException during onNotificationPosted
+GameSpace: Implement Three finger swipe changes
+GameSpace: Import qs_tile_background ripple resource for tile
+GameSpace: Migrate MainSwitchBar and Switch to Material3
+GameSpace: Move game library to its own preference
+GameSpace: Show correct default settings
+ImageReader: Allow skipping of nativeDetachImage
+ImageReader: Remove native call to detachImage
+Island: Recycle icon bitmap to avoid memory leak
+JobScheduler: Remove jobs for non-existent packages
+Make Dialer appear in the microphone recent list of Privacy settings
+Mark SMS premium code 8080 as free in Poland
+MediaSessionService: use a stack to hold the media button receivers
+Merge August 2024 security patches
+PackageInstaller: fix NPE due to a race condition in PackageUtil
+PhoneWindowManager: Check NPE for LineageHardware
+Settings: Add toggle for Smart 5G
+Settings: Hide ADB and developer setting enable status
+Settings: Move Notch Cutout to Display
+Settings: SoftAP: Add client manager
+Settings: SoftAp: add Hidden SSID preference
+Settings: SoftAp: add support for setting shutdown timeout
+Settings: colors: Update color previews
+Silence ExifInterface logspam
+Smart5gService: guard it with overlay
+SystemUI: Add dimens to set max offset of navigation bar burn-in protection
+SystemUI: Debounce QS data usage updates
+SystemUI: Default to true for HeadsUp notifications
+SystemUI: Don't enforce Island notif on landscape
+SystemUI: Enable refresh rate QS tile if multiple refresh rates supported
+SystemUI: Fix crash when click rotation button on keyguard
+SystemUI: Fix crash when switching QS view parents
+SystemUI: Fix systemui crash when checking headups whitelist packages
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Resolve regressions caused by continuous updating of notification icons
+SystemUI: Revamp QS data usage UI
+SystemUI: Show island notification on landscape
+SystemUI: Use system_accent1_200 for monetized privacy indicators
+Update statusBarState in KeyguardStatusBarViewController
+Upload the texture for BitmapShader only when it's dirty or under the cache max.
+[SQUASH] base: Hide ADB and developer setting enable status [1/2
+base: Do not gc twice on keyguard
+base: Introduce Smart 5G service [1/2]
+certification: 08/17/2024 Update
+config: Drop duplicate setupwizard theme prop
+config: Remove useless addon.d file
+core: Explicitly enable freeform windows and multi-window support
+core: Introduce VibrationUtils
+disable OtaDexoptService
+fixup! SwipeToScreenshot: Import MIUI implementation
+hwui: Prevent renderthread crash caused by thread safety issue
+improve PendingIntent security check compatibility
+keyguard: Do not trigger a wake up when hiding lockscreen
+overlay: Enable aspect ratio settings
+pixel-style: Add new setupwizard props from caiman
+pixel-style: Refactor PixelLauncherCustomOverlay
+pixel-style: overlay: Disable Google Dialer Call recording TTS
+recovery_ui: Retry for getting battery info
+run full explicit GC in SystemUI and system_server after locking
+services: Fix swipe to screenshot gestures detection
+services: Introduce GestureCallbacks
+services: Introduce Shake Gestures
+services: Introduce Three finger swipe gestures [1/2]
+services: Introduce three finger long press gestures [1/2]
+shell: Fix crash after dismissing a split screen pair
+vendor: overlay: Add PhenotypeFlagsUtils
