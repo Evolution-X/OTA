@@ -1,9 +1,21 @@
 Device changes:
 ==============================
-- Tuned Status Bar Padding
+- Added OTG Compatibility Switch & Tile
+- Added Nothing Charging Control
 
 Notable ROM changes:
 ==============================
-- Enabled Refresh Rate Settings
-- Added Hide Developer Status From Apps
-- Added Smart 5G Toggle
+- EvolutionX 9.4
+- Merge September 2024 security patches
+- Evolver: Add various Lock/Unlock sounds
+- Evolver: Bootanimation Styles
+- Evolver: Implement QS Split Shade
+- Island: Fix focused top-app detection
+- Island: Implement Swipe to left/right to dismiss gesture
+- PinnerService: Try to pin SystemUIGoogle if SystemUI fails
+- SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+- SystemUI: Revamp face unlock indication
+- Update translations
+- Base: PowerOffAlarmService: Avoid NullPointerException
+- Overlay: Bump to AD1A.240530.047
+- Certification: 08/30/2024 Update
