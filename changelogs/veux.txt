@@ -1,101 +1,42 @@
-Evolution-X 9.3 | Build Date : 19-07-2024
+Evolution-X 9.4 | Build Date : 05-09-2024
 ====================================================================
 Notes :
 =======
 - Can be dirty flashed from latest official
 - Let the rom settle for a few hours to experience smoothness
-- Circle to Search works fine when updated to google beta
-- Play integrity passes as of 19/08/2024
+- Play Integrity passes, RCS works (As of 09/05/2024).
 - Thanks to @dereference for kernel and trees
 - Thanks to @igadityasingh for tree optimisation
+- Thanks to @MrTopiA for Xiaomi Parts
 
 Device Changes :
 ================
-- August SP | QPR3
-- Added some props for UI Smoothness
-- Fixed all kind of QS lags
-- Added option for Peak refresh related
-- Added option to fix refresh rate on 120, 60 or Adaptive
-- Increased UI smoothness and stability
-- Disabled Wallpaper zooming due to inconsistent jitters
+- September SP | QPR3
+- Added XiaomiParts
+- Per app Thermal Profiles
+- OTG works on recovery 
+- Auto brightness adjutments
+- Props for smoother animation in UI
+- Show all refresh rate options 
+- Refresh rate QS tile (60/120/auto)
 
 Notable ROM changes:
 ==============================
-- Evolution-X 9.3
-- August security patch
-- Updated Play Integrity Fix app
-- ADD APN for DIGI Spain IMS and DIGI Italy IMS
-- Add toggle to enable brightness slider haptic feedback
-- Evolver: Less boring heads up option
-- Allow turning on Bluetooth when pressing its QS tile
-- Open bluetooth dialog with long-press on QS tile
-- Fix rounded corners of freeform windows
-- Bring back GameSpace support
-- Evolver: Bring back Pulse visualizer
-- Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
-- Settings: Add Bluetooth/Wi-Fi timeout feature
-- Settings: Allow scheduling always on display
-- Settings: Expose radio info (*#*#4636#*#*)
-- Settings: Introduce Automated DC Dimming
-- Fix systemui crash when checking headups whitelist packages
-- Fix suppress notifications sound/vibration if screen is ON
-- NetworkTraffic: Prevent SystemUI crash on user change
-- Fix QQS and QS panel paddings for notch devices on A11 QS
-- Increase QS tile vertical margin for A11 QS
-- Evolver: Introduce Shake Gestures
-- Evolver: Introduce Three finger swipe/long press gestures
-- Settings: Add toggle to hide ADB and developer setting enable status
-- Settings: Move Notch Cutout to Display
-- SystemUI: Show island notification on landscape
-- Update translations
-
-
-
-Evolution-X 9.2 | Build Date : 21-07-2024
-====================================================================
-Notes : 
-=======
-- Can be dirty flashed from latest official
-- Let the rom settle for a few hours to experience smoothness
-
-Device : 
-========
-- July SP | QPR3
-- Replaced GCam with AGC-Cam MiCam still present
-- Implemented SurfaceFlinger to improve ui smoothness and stability
-- Added a few props for better Battery backup
-- Build missing libraries after QPR3
-- Implemented Camera interface
-- Tree optimisation thanks to @igadityasingh 
-
-Notable ROM changes:
-==============================
-- AudioService: do not block focus request from applications compiled with lower version sdks
-- Avoid device reboot caused by SecurityException
-- Bring back GameSpace support
-- BubbleStackView: Fix java code parsing error
-- CSD: Remove bluetooth a2dp devices for safe volume index devices
-- Evolver: Bring back Less boring heads up option
-- Evolver: Bring back Pulse visualizer
-- Evolver: Move in status bar battery preferences from LineageParts
-- Evolver: Remove additional Battery styles customizations (FIXES CIRCLE TO SEARCH)
-- Fix network can't handle simultaneously SS request for both subs
-- Scale PS4/PS5 controller touchpad input
-- Settings: Add Bluetooth/Wi-Fi timeout feature
-- Settings: Add Game Space support
-- Settings: Add Market Name to device info
-- Settings: Add a DEVICE field to the getSummary() function
-- Settings: Allow scheduling always on display
-- Settings: Bring back BT/Wifi timeout
-- Settings: Expose radio info (*#*#4636#*#*)
-- Settings: Hide radio info if device don't support voice
-- Settings: Introduce AutoDimService
-- Settings: fix unexpected routing selection
-- SystemUI: Fix systemui crash when checking headups whitelist packages
-- SystemUI: Move bluetooth dialog creation to LongClick method
-- SystemUIGoogle: Adapt after gestural navigation API changes
-- Update the icon for the adb wireless pairing code preference
-- apns: Update Claro Ecuador APN
-- base: add API for disabling gestural navigation
-- display: Don't reset brightness adjustment on clearUserDataPoints()
-- fixup! Settings: Use marketname for App Aspect Ratio summary
+- EvolutionX 9.4
+- Add custom lock/unlock sound
+- Custom boot animations
+- September security patch
+- Evolver: Allow setting QS rows
+- Evolver: Introduce bootanimation styles
+- Island: Implement Swipe to left/right to dismiss gesture
+- PixelPropsUtils: Do not spoof mainline models to google photos
+- Settings: Add black theme styles
+- SystemUI: Revamp face unlock indication
+- extras: themes: Remove conflicting Lorn icon pack signal padding
+- fixup! base: Hide ADB and developer setting enable status
+- wm: Make freeform windows always on top
+- Evolver: Implement QS Split Shade
+- Settings: Import missing animations from UP1A.231005.007.A1
+- SettingsGoogle: Follow monet color in settings icon like AOSP
+- SystemUI: Fix Island loop if suddenly close
+- certification: 08/30/2024 Update
