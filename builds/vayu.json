@@ -1,0 +1,21 @@
+{
+  "response": [
+    {
+      "maintainer": "Tejas Singh",
+      "oem": "Xiaomi",
+      "device": "POCO X3 PRO",
+      "filename": "EvolutionX-14.0-20240907-vayu-v9.4-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/vayu/14_vanilla/EvolutionX-14.0-20240907-vayu-v9.4-Vanilla-Official.zip/download",
+      "timestamp": 1725704115,
+      "md5": "1627ae5300031c537c08a5efa6a6ef26",
+      "sha256": "d24ab943f91bb5f09b5dc4b2d7d365bac6bceae726ce68942ea77e669d69e46c",
+      "size": 1813833525,
+      "version": "9.4",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-official-evolution-x-poco-x3-pro-vayu.4648475",
+      "firmware": "https://xmfirmwareupdater.com/firmware/vayu/stable/V14.0.3.0.TJUMIXM/",
+      "paypal": "https://paypal.me/tejas101k",
+      "telegram": "https://t.me/tejas101k"
+    }
+  ]
+}
