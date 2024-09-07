@@ -1,0 +1,7 @@
+Changelog:
+• Merged September 2024 Security Patch
+• Fix three finger gestures
+• Add various Lock/Unlock sounds
+• Improve Island Notification
+• Improve PowerOffalarm
+• Update translations
