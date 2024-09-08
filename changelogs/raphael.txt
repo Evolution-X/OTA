@@ -10,40 +10,39 @@ Notes:
 
 Device changes:
 ==============================
-Switch Soviet kernel branch to 14.0-matrix
-Use latest miuicamera port by ItzDFPlayer (enable experimental portrait mode to fix saving images)
-powerhint: update for new GPU freq table
-sepolicy: sync wakeup nodes with 8150-common
+Switch Soviet kernel branch to 14.0-DSP
+Upstream device tree changes
 
 Notable ROM changes:
 ==============================
-Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
-Extend "Settings: Implement cutout force full screen"
-Evolver: Update translations
-FrameTracker: Silence logspam
-ImageReader: remove native call to detachImage
-Import CutoutUtils
-NetworkTraffic: Prevent SystemUI crash on user change
-SettingsGoogle: Match Pixel UDFPS animation padding
-apns: Add a XML schema and check apns-conf.xml against it
-apns: Convert build rule to Soong
-apns: Remove support for CUSTOM_APNS_FILE
-apns: Remove unknown attributes and fix misspelled ones
-camera2: allow access to CaptureRequest.mLogicalCameraSettings
-certification: 07/27/2024 Update (Play integrity fix)
-config: Add common config for book-style foldables
-data: Include NotoColorEmojiAddon font
-extras: Fix QQS and QS panel paddings for notch devices on A11 QS
-extras: Increase QS tile vertical margin for A11 QS
-kernel: Deduplicate file paths in file_list.txt
-noto-fonts: Add Noto Emoji Addons
-noto-fonts: Add missing noto fonts
-overlay: wifionly: Hide more telephony related features
-pixel-style: overlay: Update anxcamera icon
-sensitive_pn: Add China's 12355 helpline
-sensitive_pn: Add and modify netherland numbers
-sensitive_pn: Add numbers for Hong Kong, China
-sensitive_pn: Update and simplify helplines for multiple countries
-sepolicy: Introduce automated DC Dimming
-services: Scale max cached processes based on total ram size
-services: Unboost MAX_CACHED_PROCESSES
+ActivityManagerService: Exclude more packages for receiver check
+BrightnessController: Prevent possible memory leak
+EdgeBackGestureHandler: Prevent possible memory leak
+Evolver: Add three fingers swipe actions
+Evolver: Add various Lock/Unlock sounds
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Remove default action for three finger swipe
+GameSpace: Show correct default settings
+GameSpace: Update for three fingers gesture
+Improvements for three fingers swipe actions
+NSSLC: Prevent possible memory leak
+NotificationMediaManager: Prevent possible memory leak
+QsAnimator: Prevent possible memory leak
+Remove default action for three finger swipe
+Settings: Fix memory leak on sensormanager
+Smart5gService: Add more functionalities
+Smart5GService: Disable 5G when battery is low
+Soundtrigger: Add back SoundTriggerDetector and model database
+SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+SystemUI: Fix notification count not working after a reboot
+ThermalManager: Don't hold mSamples lock while calling power HAL
+Udfps Icons: Prevent possible memory leak
+extras: Remove conflicting auto brightness icons
+memory leak: Closes leaked instance
+services: Fix crash caused by null fp daemon
+services: Fix multi-touch behaviour
+services: Improve shake gestures
+services: Silence AppsOps debugging messages
+services: Simplify registering for three fingers swipe actions
+services: Use legacy behaviour for non-existent providers
+voiceinteraction: Exempt ASI from soundtrigger enforcement
