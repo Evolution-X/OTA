@@ -5,32 +5,39 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
-- Install LosKsu9.3.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.3.zip/download) for root.
-- Play Integrity passes, RCS works (As of 09/05/2024).
+- Install LosKsu9.4.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.4.zip/download) for root.
+- Play Integrity passes, RCS works (As of 09/09/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
+- Auto-brightness and proximity sensor are still bugged.
 
 Device changes:
 ==============================
-Drop gms premier_tier
-Drop identity service
-Move sensors hals.conf back to vendor repo
-Rename android.hardware.hardware_keystore.xml to avoid conflicts
-Stop building atrace service
-Stop building automotive vehicle manager lib
-Unset BOARD_USERDATAIMAGE_PARTITION_SIZE
-Update blobs from V816.0.8.0.UMRMIXM
-Update from marble OS1.0.8.0.UMRMIXM and apply patches during extraction
-sensors: Add more padding to oem_msg
-sepolicy: Remove xiaomi specific gnss rules
+Use latest cupid dev trees
 
 Notable ROM changes:
 ==============================
-Island: Fix focused top-app detection
-Island: Remove notification when swiped dismiss
-Merge September 2024 security patches
-PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
-Update translations
-base: PowerOffAlarmService: Avoid NullPointerException
-overlay: Bump to AD1A.240530.047
+ActivityManagerService: Exclude more packages for receiver check
+Evolver: Add three fingers swipe actions
+Evolver: Add various Lock/Unlock sounds
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Remove default action for three finger swipe
+GameSpace: Show correct default settings
+GameSpace: Update for three fingers gesture
+Improvements for three fingers swipe actions
+Remove default action for three finger swipe
+Settings: Fix memory leak on sensormanager
+Smart5gService: Add more functionalities
+Smart5GService: Disable 5G when battery is low
+Soundtrigger: Add back SoundTriggerDetector and model database
+SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+SystemUI: Always enable the Communal Space
+SystemUI: Fix notification count not working after a reboot
+extras: Remove conflicting auto brightness icons
+services: Fix crash caused by null fp daemon
+services: Fix multi-touch behaviour
+services: Improve shake gestures
+services: Silence AppsOps debugging messages
+services: Simplify registering for three fingers swipe actions
+services: Use legacy behaviour for non-existent providers
+voiceinteraction: Exempt ASI from soundtrigger enforcement
