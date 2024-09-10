@@ -1,19 +1,18 @@
-This is Android 14 with August 2024 QPR3 (r55) security patches
+This is Android 14 with September 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
+- Clean flash needed
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS & Circle_to_search reported as working (As of 11/08/2024).
+- Play Integrity passes, RCS & Circle_to_search reported as working
 - Includes Leica Camera.
-- Use This Recovery ( https://sourceforge.net/projects/evolution-x/files/lisa/Recovery/ )
+- Read flashing guide on XDA
 
 Device changes:
 ==============================
 Evolution-X 9.3 Build
-fix leica 5.0 ( leica holybear )
-Added Moto Dolby 
-Import Xiaomi parts from sdm845-common
-Added Per App Refreshrate
-nuked smooth display
-add min/max refresh rate option 
+leica 5.0 ( leica holybear )
+Adapt per app refresh rate for lisa
+Update blobs to OS1.0.5.0.UKOMIX
+Turn on screen on unplug
