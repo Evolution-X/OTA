@@ -9,35 +9,26 @@ Notes:
 
 Device changes:
 ==============================
-- Disable alpha compositing in WM
-- Disable vsync for CPU rendered Apps
-- Enable config_avoidGfxAccel
-- Offload WM shell to another thread
-- Make the UI smoother
-- Remove ro.vendor.perf.scroll_opt
-- Force disable iorapd
-- Disable all logging
-- Disable TDLS offchannel
-- Smarter decisions on whether to use a 2 or 5Ghz AP
-- Enable Optimized Power Management
-- Disable RX wakelock feature
-- Enable DFS channel scanning in P2P search
-- Enable automatic channel selection
-- Disable RescueParty
-- Kill IMS logspam
-- Add xiaomi perf changes
-- Avoid delay for vblank disable from DRM
-- Do not balance msm_drm and kgsl_3d0 IRQs
-- Dynamically set IRQ affinity for KGSL and MSM_DRM
-- Disable multiple kswapd threads
-- Disable native stats collection service
-- Compact cached app heaps in the background
-- Allow more cached apps in the background
-- Add SystemUI restart in restart advanced menu
-- Configure zram to 50% of physical
-- Tune khaje boosts values
-- Boost GPU on specific events
-- Enable performance mode on khaje
+- Remove wait_for_keymaster and all references
+- Move to new RFS install_symlink targets
+- Enable TurboPower charging support
+- Change CPUSets according to trinket
+- rm package cache on early boot
+- Allow all filesystems for USB-OTG
+- set readahead_size_kb=128 to partitions
+- Boost uclamp on init
+- Drop input boost
+- ZRAM aggression to 60
+- enable adaptive suspend
+- Enable Incremental on the device
+- Switch to SF phase offsets from gs201.
+- Set 120Hz frame rate multiple threshold for sapphire
+- Enable hwc vds
+- Solve vendor_hal_perf_default denials
+- Drop ISecureElement/eSE1
+- Drop legacy init.qcom.post_boot.sh
+- Enable Qualcomm TrueWireless Stereo
+- Move KGSL and MSM_DRM to cores 6 and 7
 
 Clean Flash Steps:
 Flash the recovery.
