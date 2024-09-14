@@ -1,4 +1,4 @@
-2024-09-06
+2024-09-13
 
 
 To use this release you need:
@@ -11,42 +11,30 @@ To use this release you need:
 
 # Device / Kernel
 
-  * cupid: Unset BOARD_USERDATAIMAGE_PARTITION_SIZE
-  * cupid: udfps: Drop leftover reading of fp vendor
-  * cupid: sensors: Add v2 suffix to sensors.xiaomi
-  * cupid: Automatically add apk/jar/vintf fragments to PRODUCT_PACKAGES
-  * cupid: Patch keymint to use ndk backend
-  * cupid: Use v1 rkp interface for keymint
-  * cupid: Move to lineage powershare implementation
-  * cupid: audio: Disable hfp
-  * cupid: audio: Nuke misoundfx effect
-  * cupid: Remove media_codecs_google_c2*
-  * cupid: Use AOSP default Codec2/OMX ranks
-  * cupid: Remove software omx codec references
-  * cupid: Don't include media_codecs_dolby_audio
-  * cupid: Commonize audio media configs
-  * cupid: Drop unused battery property
-  * cupid: Move more radio properties to vendor
-  * cupid: Remove DEVICE_PROVISIONED
-  * cupid: overlay: droup some useless doze overlays
-  * cupid: overlay: Prodive MIUI color mode options
-  * cupid: overlay: Move rro packages to vendor partition
-  * cupid: Move to Xiaomi IR AIDL
-  * cupid: Add clang-format configuration
-  * cupid: Remove modules that depend on debugfs
-  * cupid: Include vendor/debugfs.config
+  * cupid: tidy dependencies
+  * cupid: enable Dolby Vision support (experimental)
+  * cupid: Update overrideHdrTypes API for U
+  * cupid: parts: Override HDR types for dolby vision
+  * cupid: Remove hw_acc effect
 
 
 
 # Rom
 
-Island: Fix focused top-app detection
-Island: Remove notification when swiped dismiss
-Merge September 2024 security patches
-PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
-Update translations
-base: PowerOffAlarmService: Avoid NullPointerException
-overlay: Bump to AD1A.240530.047
+ActivityManagerService: Exclude more packages for receiver check
+BrightnessController: Prevent possible memory leak
+EdgeBackGestureHandler: Prevent possible memory leak
+Evolver: Add three fingers swipe actions
+Evolver: Add various Lock/Unlock sounds
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Remove default action for three finger swipe
+GameSpace: Show correct default settings
+GameSpace: Update for three fingers gesture
+Improvements for three fingers swipe actions
+NSSLC: Prevent possible memory leak
+NotificationMediaManager: Prevent possible memory leak
+QsAnimator: Prevent possible memory leak
+Remove default action for three finger swipe
+
 
 ... and many more
