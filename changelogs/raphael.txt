@@ -5,44 +5,25 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - ROM is already pre-rooted with KSU. Just install the KSU app.
-- Play Integrity passes, RCS works (As of 07/31/2024).
+- Play Integrity passes, RCS works (As of 09/18/2024).
 - Includes latest Leica Camera.
 
 Device changes:
 ==============================
-Switch Soviet kernel branch to 14.0-DSP
-Upstream device tree changes
+None
 
 Notable ROM changes:
 ==============================
-ActivityManagerService: Exclude more packages for receiver check
-BrightnessController: Prevent possible memory leak
-EdgeBackGestureHandler: Prevent possible memory leak
-Evolver: Add three fingers swipe actions
-Evolver: Add various Lock/Unlock sounds
-GameSpace: Don't add floating action if game closed too quickly
-GameSpace: Remove default action for three finger swipe
-GameSpace: Show correct default settings
-GameSpace: Update for three fingers gesture
-Improvements for three fingers swipe actions
-NSSLC: Prevent possible memory leak
-NotificationMediaManager: Prevent possible memory leak
-QsAnimator: Prevent possible memory leak
-Remove default action for three finger swipe
-Settings: Fix memory leak on sensormanager
-Smart5gService: Add more functionalities
-Smart5GService: Disable 5G when battery is low
-Soundtrigger: Add back SoundTriggerDetector and model database
-SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
-SystemUI: Fix notification count not working after a reboot
-ThermalManager: Don't hold mSamples lock while calling power HAL
-Udfps Icons: Prevent possible memory leak
-extras: Remove conflicting auto brightness icons
-memory leak: Closes leaked instance
-services: Fix crash caused by null fp daemon
-services: Fix multi-touch behaviour
-services: Improve shake gestures
-services: Silence AppsOps debugging messages
-services: Simplify registering for three fingers swipe actions
-services: Use legacy behaviour for non-existent providers
-voiceinteraction: Exempt ASI from soundtrigger enforcement
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+GameSpace: Add missing summaries
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket
+Pocket Mode: Implement doze and biometrics hooks
+Refresh vpn lockdown allowlist on package added/removed
+Settings: Add three-fingers-swipe to screenshot
+Update translations
+fwb: Import SwipeToScreenshot implementation from MIUI
+services: Make legacy pocket mode no-op
