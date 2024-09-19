@@ -1,9 +1,29 @@
-This is Android 14 with August 2024 QPR3 (r55) security patches
+This is Android 14 with September 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
 Both panel are supported.
-Play Integrity passes, RCS works (As of 09/01/2024).
+- Play Integrity passes, RCS works (As of 09/06/2024).
+
+
+Device Changes:
+==================
+06-September-2024
+==================
+* Move to Xiaomi IR AIDL
+* enable predictive back gesture animation by default
+
+Notable ROM changes:
+==============================
+Evolver: Add various Lock/Unlock sounds
+Island: Fix focused top-app detection
+Island: Remove notification when swiped dismiss
+Merge September 2024 security patches
+PinnerService: Try to pin SystemUIGoogle if SystemUI fails
+SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Update translations
+base: PowerOffAlarmService: Avoid NullPointerException
+overlay: Bump to AD1A.240530.047
 
 Device Changes:
 ==================

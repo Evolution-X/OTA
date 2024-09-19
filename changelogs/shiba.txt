@@ -1,43 +1,20 @@
-This is Android 14 with August 2024 (r55) security patches and Device Firmware
+This is Android 14 with September 2024 QPR3 (r67) Security Patches and Device Firmware
 
 Device Changes:
 ===============
-Update Device Firmware To August 2024
-Update Device Security Patch to August 2024
+Update Device Firmware To September 2024
+Update Device Security Patch to September 2024
 
 Notable ROM changes:
 ==============================
-Update to Evolution 9.3
-Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
-Extend "Settings: Implement cutout force full screen"
-Evolver: Update translations
-FrameTracker: Silence logspam
-ImageReader: remove native call to detachImage
-Import CutoutUtils
-NetworkTraffic: Prevent SystemUI crash on user change
-PhoneWindowManager: Check NPE for LineageHardware
-Settings: Fix crash with face lock preference for limited access users
-apns: Add a XML schema and check apns-conf.xml against it
-apns: Convert build rule to Soong
-apns: Remove support for CUSTOM_APNS_FILE
-apns: Remove unknown attributes and fix misspelled ones
-camera2: allow access to CaptureRequest.mLogicalCameraSettings
-certification: 07/27/2024 Update (Play integrity fix)
-config: Add common config for book-style foldables
-data: Include NotoColorEmojiAddon font
-extras: Fix QQS and QS panel paddings for notch devices on A11 QS
-extras: Increase QS tile vertical margin for A11 QS
-extras: Update BCR to Version 1.67
-kernel: Deduplicate file paths in file_list.txt
-noto-fonts: Add Noto Emoji Addons
-noto-fonts: Add missing noto fonts
-overlay: Enable aspect ratio settings
-overlay: wifionly: Hide more telephony related features
-sensitive_pn: Add China's 12355 helpline
-sensitive_pn: Add and modify netherland numbers
-sensitive_pn: Add numbers for Hong Kong, China
-sensitive_pn: Update and simplify helplines for multiple countries
-services: Scale max cached processes based on total ram size
-services: Unboost MAX_CACHED_PROCESSES
-
+Evolver: Add various Lock/Unlock sounds
+Island: Fix focused top-app detection
+Island: Remove notification when swiped dismiss
+Merge September 2024 security patches
+PinnerService: Try to pin SystemUIGoogle if SystemUI fails
+SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Update translations
+VolumeDialog: Fix systemui crash nullpointerexception while casting
+base: PowerOffAlarmService: Avoid NullPointerException
+overlay: Bump to AD1A.240530.047
 

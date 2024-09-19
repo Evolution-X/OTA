@@ -4,18 +4,18 @@
       "maintainer": "ZAID KHAN",
       "oem": "Xiaomi",
       "device": "Xiaomi 11 Lite NE 5G / Mi 11 LE",
-      "filename": "EvolutionX-14.0-20240810-lisa-v9.3-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/lisa/14/EvolutionX-14.0-20240810-lisa-v9.3-Official.zip/download",
-      "timestamp": 1723292682,
-      "md5": "903b3a86d723bd597d7ef86be887218d",
-      "sha256": "ce71c0f3e7cb6fcf32bb4b6122ac0b7198321f26b0c9515d78c6592abab91b3a",
-      "size": 2626076911,
-      "version": "9.3",
+      "filename": "EvolutionX-14.0-20240909-lisa-v9.4-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/lisa/14/EvolutionX-14.0-20240909-lisa-v9.4-Official.zip/download",
+      "timestamp": 1725919127,
+      "md5": "467a73c571e4473c96536697b1b21df6",
+      "sha256": "1250cbdb25da2473a2253ab691e93c8f7052ea757a9e0ec3df1e8baea7990748",
+      "size": 2715675833,
+      "version": "9.4",
       "buildtype": "Monthly",
-      "forum": "https://xdaforums.com/t/rom-14-lisa-official-evolution-x-11-08-24.4616047/",
+      "forum": "https://xdaforums.com/t/rom-14-0_r67-lisa-official-evolution-x-09-10-24.4616047/",
       "firmware": "https://xmfirmwareupdater.com/firmware/lisa/stable/OS1.0.2.0.UKOCNXM/",
       "paypal": "https://paypal.me/zaidkhan099",
       "telegram": "https://t.me/zaidkhan0997"
     }
   ]
-}
+}   

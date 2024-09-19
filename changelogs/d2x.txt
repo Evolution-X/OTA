@@ -1,26 +1,47 @@
-===== 5 Sep 2024 =====
+===== 14 Sep 2024 =====
 
-DEVICE:
-- Merged kernel v4.14.352-openela
-- Included back BCR
-- Boosted GPU on interaction
-- Added SystemUI reboot button in advanced menu
-- Added smart 5G
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash is required if coming from 8.6 or older builds.
+- Play Integrity passes, RCS works (As of 09/06/2024).
+- Includes Xiaomi parts and Leica camera.
+- Credits to Arian16k, FlowerSea, GR.
 
-ROM:
-- EvolutionX 9.4
-- September security patch
-- Evolver: Allow setting QS rows
-- Evolver: Introduce bootanimation styles
-- Island: Implement Swipe to left/right to dismiss gesture
-- PixelPropsUtils: Do not spoof mainline models to google photos
-- Settings: Add black theme styles
-- SystemUI: Revamp face unlock indication
-- extras: themes: Remove conflicting Lorn icon pack signal padding
-- fixup! base: Hide ADB and developer setting enable status
-- wm: Make freeform windows always on top
-- Evolver: Implement QS Split Shade
-- Settings: Import missing animations from UP1A.231005.007.A1
-- SettingsGoogle: Follow monet color in settings icon like AOSP
-- SystemUI: Fix Island loop if suddenly close
-- certification: 08/30/2024 Update
+Device changes:
+==============================
+- Fixed 4k camera and screen recording
+
+Notable ROM changes:
+==============================
+ActivityManagerService: Exclude more packages for receiver check
+BrightnessController: Prevent possible memory leak
+EdgeBackGestureHandler: Prevent possible memory leak
+Evolver: Add three fingers swipe actions
+Evolver: Add various Lock/Unlock sounds
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Remove default action for three finger swipe
+GameSpace: Show correct default settings
+GameSpace: Update for three fingers gesture
+Improvements for three fingers swipe actions
+NSSLC: Prevent possible memory leak
+NotificationMediaManager: Prevent possible memory leak
+QsAnimator: Prevent possible memory leak
+Remove default action for three finger swipe
+Settings: Fix memory leak on sensormanager
+Smart5gService: Add more functionalities
+Smart5GService: Disable 5G when battery is low
+Soundtrigger: Add back SoundTriggerDetector and model database
+SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+SystemUI: Fix notification count not working after a reboot
+ThermalManager: Don't hold mSamples lock while calling power HAL
+Udfps Icons: Prevent possible memory leak
+extras: Remove conflicting auto brightness icons
+memory leak: Closes leaked instance
+services: Fix crash caused by null fp daemon
+services: Fix multi-touch behaviour
+services: Improve shake gestures
+services: Silence AppsOps debugging messages
+services: Simplify registering for three fingers swipe actions
+services: Use legacy behaviour for non-existent providers
+voiceinteraction: Exempt ASI from soundtrigger enforcement

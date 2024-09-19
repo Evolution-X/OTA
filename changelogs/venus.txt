@@ -4,28 +4,26 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 09/06/2024).
+- Play Integrity passes, RCS works (As of 09/18/2024).
 - Includes Xiaomi parts and Leica camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-Convert WiFi firmware symlinks to install_symlink targets
-Move to Xiaomi IR AIDL
-Move to new RFS install_symlink targets
-Partially revert "Move to QTI health AIDL service"
-Switch to common lineage Powershare hal
-Updated from venus OS1.0.5.0.UKBMIXM
-Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+None
 
 Notable ROM changes:
 ==============================
-Evolver: Add various Lock/Unlock sounds
-Island: Fix focused top-app detection
-Island: Remove notification when swiped dismiss
-Merge September 2024 security patches
-PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+GameSpace: Add missing summaries
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket
+Pocket Mode: Implement doze and biometrics hooks
+Refresh vpn lockdown allowlist on package added/removed
+Settings: Add three-fingers-swipe to screenshot
 Update translations
-base: PowerOffAlarmService: Avoid NullPointerException
-overlay: Bump to AD1A.240530.047
+fwb: Import SwipeToScreenshot implementation from MIUI
+services: Make legacy pocket mode no-op

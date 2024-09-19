@@ -4,19 +4,18 @@
       "maintainer": "ZAID KHAN",
       "oem": "Xiaomi",
       "device": "Redmi Note 10 Pro / Max",
-      "filename": "EvolutionX-14.0-20240730-sweet-v9.2-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/sweet/14/EvolutionX-14.0-20240730-sweet-v9.2-Official.zip/download",
-      "timestamp": 1722343458,
-      "md5": "9d3c1a5104dc2d52b93e7e23654a5db4",
-      "sha256": "dd6bca92593b8bdb7f206c85bcbf1604fa8fa94eec2f9da760d9014d6aa8ed5f",
-      "size": 2903490114,
-      "version": "9.2",
+      "filename": "EvolutionX-14.0-20240909-sweet-v9.4-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/sweet/14/EvolutionX-14.0-20240909-sweet-v9.4-Official.zip/download",
+      "timestamp": 1725903620,
+      "md5": "a47e2880d11b0c092e06d533fcefdde1",
+      "sha256": "4fc33b7b6a0b95254eb5af068292eaabb7c593c4245509b15a88ac9ec81407da",
+      "size": 2906799127,
+      "version": "9.4",
       "buildtype": "Monthly",
-      "forum": "https://xdaforums.com/t/rom-14-sweet-official-evolution-x-30-07-24.4395847/",
+      "forum": "https://xdaforums.com/t/rom-14-0_r67-sweet-official-evolution-x-09-10-24.4395847/",
       "firmware": "https://xmfirmwareupdater.com/firmware/sweetin/stable/V14.0.1.0.TKFINXM/",
       "paypal": "https://paypal.me/zaidkhan099",
       "telegram": "https://t.me/zaidkhan0997"
     }
   ]
 }
-
