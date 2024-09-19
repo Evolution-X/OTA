@@ -20,7 +20,4 @@ sm8250-common: adjust max concurrent-instances of qti c2 codec
 sm8250-common: reduce HEIF max resolution
 sm8250-common: add "can-swap-width-height" for video codecs
 sm8250-common: video: enbale adaptive b-frame capability
-sm8250-common: Switch to QTI Memtrack AIDL HAL
-
-
-
+sm8250-common: Switch to QTI Memtrack AIDL HAl
