@@ -5,21 +5,30 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-14-0_r35-official-evolution-x-9-0-06-06-2024.4659931/post-89379222) for root.
-- Play Integrity passes, RCS works (As of 09/01/2024).
+- Play Integrity passes, RCS works (As of 09/19/2024).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Update vendor security patches to V816.0.8.0.TMNCNXM
-Fix UDFPS animation position
+Update vendor security patches to V816.0.9.0.TMNCNXM
+Update Baalam Kernel to 5.10.225
 
 Notable ROM changes:
 ==============================
-Island: Fix focused top-app detection
-Island: Remove notification when swiped dismiss
-Merge September 2024 security patches
-PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+Evolver: Bring back custom battery styles
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+GameSpace: Add missing summaries
+Initial implementation of KeyboxImitationHooks
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket
+Pocket Mode: Implement doze and biometrics hooks
+Refresh vpn lockdown allowlist on package added/removed
+Settings: Add three-fingers-swipe to screenshot
 Update translations
-base: PowerOffAlarmService: Avoid NullPointerException
-overlay: Bump to AD1A.240530.047
+aapt2: add freeze IDs for ContextualSearch
+aapt2: support freezing private resource IDs
+fwb: Import SwipeToScreenshot implementation from MIUI
+services: Make legacy pocket mode no-op
