@@ -7,9 +7,6 @@ Notes:
 - Play Integrity passes, RCS works (As of 08/21/2024).
 - Thanks a lot to @grewal for his tree base.
 
-Device changes:
+Changelog:
 ==============================
-- Screen-off FOD working
-- Haptics effects tuned
-- Switch to AOSP surfaceflinger
-- overlay: show min/max refresh rate in settings 
+- September security patch
