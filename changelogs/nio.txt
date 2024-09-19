@@ -1,5 +1,23 @@
-08/23/2024 Update
-Switch build intervals to monthly
-September Security patch
-Bump to Evolution X version 9.4
-Expanded boot animation selections
+09/18/2024 Update
+Device changelog:
+Added MotoCam3 support(optional camera choice)
+nio: move product inheritance to common
+nio: remove unsupported 2160p video for camera 2
+sm8250-common: enable audio rotation feature
+sm8250-common: disable unsupported fluence for speaker usecases
+sm8250-common: Import full CACert stack
+sm8250-common: add more missing gnss stuff
+sm8250-common: Build android.media.audio.common.types-V2-cpp
+sm8250-common: extract-files improvements
+sm8250-common: kang c2 codec config from NX659J
+sm8250-common: Remove software omx codec references
+sm8250-common: Remove media_codecs_google_c2*
+sm8250-common: Use AOSP default Codec2/OMX ranks
+sm8250-common: remove OMX
+sm8250-common: Move input surface to CCodec
+sm8250-common: media: advertise ro.odm.build.media_performance_class as 30
+sm8250-common: adjust max concurrent-instances of qti c2 codec
+sm8250-common: reduce HEIF max resolution
+sm8250-common: add "can-swap-width-height" for video codecs
+sm8250-common: video: enbale adaptive b-frame capability
+sm8250-common: Switch to QTI Memtrack AIDL HAl
