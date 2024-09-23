@@ -3,8 +3,38 @@ This is Android 14 with September 2024 QPR3 (r67) security patches
 Notes:
 ==============================
 Both panel are supported.
-- Play Integrity passes, RCS works (As of 09/06/2024).
+- Play Integrity passes, RCS works (As of 09/23/2024).
 
+Device Changes:
+==================
+23-September-2024
+==================
+Upstreamed kernel to 5.4.284
+Improved overall Sound Quality
+Dropped unused media configs 
+Parts: Added touch control functionality ( It resolves issues with unresponsive areas of the screen in certain applications, such as the eFootball game etc )
+Magisk module now can be flashed without conflicting with KSU 
+
+Notable ROM changes:
+===================
+Evolver: Bring back custom battery styles
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+GameSpace: Add missing summaries
+Initial implementation of KeyboxImitationHooks
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket
+Pocket Mode: Implement doze and biometrics hooks
+Refresh vpn lockdown allowlist on package added/removed
+Settings: Add three-fingers-swipe to screenshot
+Update translations
+aapt2: add freeze IDs for ContextualSearch
+aapt2: support freezing private resource IDs
+fwb: Import SwipeToScreenshot implementation from MIUI
+services: Make legacy pocket mode no-op
+________________________________________________________________
 
 Device Changes:
 ==================
