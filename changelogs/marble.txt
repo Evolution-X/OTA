@@ -6,33 +6,20 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.4.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.4.zip/download) for root.
-- Play Integrity passes, RCS works (As of 09/19/2024).
+- Play Integrity passes, RCS works (As of 09/26/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 - Auto-brightness and proximity sensor are still bugged.
 
 Device changes:
 ==============================
-Add xiaomi sensors HAL to hals.conf
-Kill log spam in logcat from SensorService
-sepolicy: Neverallow app open access to /dev/ashmem
+Fix OK/Hey Google support
 
 Notable ROM changes:
 ==============================
-Evolver: Bring back custom battery styles
-Evolver: Import custom dev options from Settings
-Evolver: Pocket Mode: Introduce Always on pocket mode
-Evolver: Replace pocket judge with pocket mode
-GameSpace: Add missing summaries
-Initial implementation of KeyboxImitationHooks
-PhoneWindowManager: Prevent NPE with voice search action
-Pocket Mode: Add null check when setting pocket state
-Pocket Mode: Block face authentication when device is in pocket
-Pocket Mode: Implement doze and biometrics hooks
-Refresh vpn lockdown allowlist on package added/removed
-Settings: Add three-fingers-swipe to screenshot
-Update translations
-aapt2: add freeze IDs for ContextualSearch
-aapt2: support freezing private resource IDs
-fwb: Import SwipeToScreenshot implementation from MIUI
-services: Make legacy pocket mode no-op
+Disable debug logging on non-eng builds
+Fix PackageManager#getPackageArchiveInfo to cache derived fields
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+apns: Update Brazil carriers to 2024
+extras: Update BCR to Version 1.71
+fixup! MobileSignalController: Prevent possible memory leak
