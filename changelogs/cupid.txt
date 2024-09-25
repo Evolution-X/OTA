@@ -1,4 +1,4 @@
-2024-09-13
+2024-09-24
 
 
 To use this release you need:
@@ -11,30 +11,41 @@ To use this release you need:
 
 # Device / Kernel
 
-  * cupid: tidy dependencies
-  * cupid: enable Dolby Vision support (experimental)
-  * cupid: Update overrideHdrTypes API for U
-  * cupid: parts: Override HDR types for dolby vision
-  * cupid: Remove hw_acc effect
+  * cupid: init.kernel.post_boot-taro.sh: Implement xiaomi additions
+  * cupid: init.kernel.post_boot-taro.sh: tweak some kernel parameters
+  * cupid: drop battery friendly pocketmode
 
+  * Merge tag 'KERNEL.PLATFORM.1.0.r1-18300-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10 into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into udc
+  * Merge tag 'VIDEO.LA.2.0.r1-10800-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/cvp-kernel into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/eva-kernel into udc
+  * Merge tag 'DISPLAY.LA.2.0.r1-13200-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into udc
+  * Merge tag 'CAMERA.LA.2.0.r1-12300-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into udc
+  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-kernel-ar into udc
 
 
 # Rom
 
-ActivityManagerService: Exclude more packages for receiver check
-BrightnessController: Prevent possible memory leak
-EdgeBackGestureHandler: Prevent possible memory leak
-Evolver: Add three fingers swipe actions
-Evolver: Add various Lock/Unlock sounds
-GameSpace: Don't add floating action if game closed too quickly
-GameSpace: Remove default action for three finger swipe
-GameSpace: Show correct default settings
-GameSpace: Update for three fingers gesture
-Improvements for three fingers swipe actions
-NSSLC: Prevent possible memory leak
-NotificationMediaManager: Prevent possible memory leak
-QsAnimator: Prevent possible memory leak
-Remove default action for three finger swipe
-
+Evolver: Bring back custom battery styles
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+GameSpace: Add missing summaries
+Initial implementation of KeyboxImitationHooks
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket
+Pocket Mode: Implement doze and biometrics hooks
+Refresh vpn lockdown allowlist on package added/removed
+Settings: Add three-fingers-swipe to screenshot
+Update translations
+aapt2: add freeze IDs for ContextualSearch
+aapt2: support freezing private resource IDs
+fwb: Import SwipeToScreenshot implementation from MIUI
+services: Make legacy pocket mode no-op
 
 ... and many more
