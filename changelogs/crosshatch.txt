@@ -1,13 +1,16 @@
-QPR3 : august security patches
-Backported EroFs
-Now using Full gapps
-Memecam now shipped
-Fixed SystemUI glitches
-Fixed AndroidSystem crashes
-ROM spoof Google apps to Pixel 9 Pro (caiman)
-Pif Updated
-Snapchat spoof has been moved to Pixel XL
-Shake and three finger gestures have been added from risingOS.
-Hide ADB and developer settings, Hotspot client manager and Hidden SSID preferences have been brought back along with Smart 5G toggle (for 5G-supported devices only).
-Backup now in main settings apps
-QS pannel now smoother
+Rom changes:
+=======================
+Merged September 2024 Security Patch
+Play integrity now passes by default
+Add Hide ADB and developer setting enable status
+Fixed Magic eraser crashes
+Introduce black theme styles
+Introduce boot animation styles
+Introduce bootanimation styles selection
+Introduce QS rows setting
+Introduce Shake Gestures
+Introduce Three finger swipe/long press gestures
+Move Notch Cutout to Display
+Revamp face unlock indication
+Revamp QS data usage UI
+Lock/Unlock sounds
