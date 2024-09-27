@@ -9,26 +9,11 @@ Notes:
 
 Device changes:
 ==============================
-- Remove wait_for_keymaster and all references
-- Move to new RFS install_symlink targets
-- Enable TurboPower charging support
-- Change CPUSets according to trinket
-- rm package cache on early boot
-- Allow all filesystems for USB-OTG
-- set readahead_size_kb=128 to partitions
-- Boost uclamp on init
-- Drop input boost
-- ZRAM aggression to 60
-- enable adaptive suspend
-- Enable Incremental on the device
-- Switch to SF phase offsets from gs201.
-- Set 120Hz frame rate multiple threshold for sapphire
-- Enable hwc vds
-- Solve vendor_hal_perf_default denials
-- Drop ISecureElement/eSE1
-- Drop legacy init.qcom.post_boot.sh
-- Enable Qualcomm TrueWireless Stereo
-- Move KGSL and MSM_DRM to cores 6 and 7
+- Update blobs from V816.0.7.0.UNGMIXM
+- Update kernel from V816.0.7.0.UNGMIXM
+- Update miuicamera from V816.0.7.0.UNGMIXM
+- Nuke qti thermal hal
+- Move KGSL and MSM_DRM to performance cores 4-7
 
 Clean Flash Steps:
 Flash the recovery.
