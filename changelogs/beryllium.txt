@@ -1,26 +1,21 @@
 Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/14/images/recovery.img/download
 super_empty.img: https://sourceforge.net/projects/evolution-x/files/beryllium/14/images/super_empty.img/download
 
-This is Android 14 with August 2024 security patches
+This is Android 14 with September 2024 security patches
 Device changes:
 =======================
-Switch to Hayasaka kernel
-Enable double tap ambient display support
-Enable volume step support
-Various performance improvements 
+None
 
 Rom changes:
 =======================
-Merged August 2024 Security Patch
+Merged September 2024 Security Patch
+Add more bootanimation styles
+Evolver: Bring back custom battery styles
+Evolver: Import custom dev options from Settings
+General stabibility and performance improvements
+Improve PowerOffalarm
+Introduce Lock/Unlock sounds
 Play integrity now passes by default
-Add Hide ADB and developer setting enable status
-Fixed Magic eraser crashes
-Introduce black theme styles
-Introduce boot animation styles
-Introduce bootanimation styles selection
-Introduce QS rows setting
-Introduce Shake Gestures
-Introduce Three finger swipe/long press gestures
-Move Notch Cutout to Display
-Revamp face unlock indication
-Revamp QS data usage UI
+Removed custom 3-finger gestures (default to screenshot)
+Update BCR to Version 1.71
+Update translations
