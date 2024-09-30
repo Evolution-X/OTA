@@ -16,7 +16,12 @@
       "firmware": "",
       "paypal": "",
       "telegram": "",
-      "github": "Rondeau79"
+      "github": "Rondeau79",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
     }
   ]
 }

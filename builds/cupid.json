@@ -16,7 +16,8 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/cupid/stable/OS1.0.3.0.ULCMIXM/",
       "paypal": "https://www.paypal.com/paypalme/yarpiin",
       "telegram": "",
-      "github": "yarpiin"
+      "github": "yarpiin",
+      "initial_installation_images": "recovery"
     }
   ]
 }

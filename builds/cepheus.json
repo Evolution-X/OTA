@@ -16,7 +16,8 @@
       "firmware": "",
       "paypal": "https://www.paypal.me/chfondia",
       "telegram": "https://telegram.me/chematelegram",
-      "github": "chematelegram"
+      "github": "chematelegram",
+      "initial_installation_images": "recovery"
     }
   ]
 }

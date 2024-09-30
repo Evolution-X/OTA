@@ -18,7 +18,12 @@
       "firmware": "https://firmware link",
       "paypal": "https://donation link",
       "telegram": "https://telegram link",
-      "github": "Github username"
+      "github": "Github username",,
+      "initial_installation_images": [
+        "first image",
+        "second image",
+        "third..."
+      ]
     }
   ]
 }

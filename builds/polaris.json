@@ -16,7 +16,11 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/polaris/stable/V12.0.3.0.QDGMIXM/",
       "paypal": "https://paypal.me/0nelots",
       "telegram": "https://t.me/onelots",
-      "github": "oneloutre"
+      "github": "oneloutre",
+      "initial_installation_images": [
+        "recovery",
+        "super_empty"
+      ]
     }
   ]
 }

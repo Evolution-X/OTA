@@ -16,7 +16,8 @@
       "firmware": "",
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "",
-      "github": "arijit78"
+      "github": "arijit78",
+      "initial_installation_images": "boot"
     }
   ]
 }
