@@ -17,7 +17,9 @@
       "paypal": "https://www.paypal.me/czarsuperstar",
       "telegram": "",
       "github": "czarsuperstar",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

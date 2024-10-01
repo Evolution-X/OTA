@@ -17,7 +17,9 @@
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "",
       "github": "joeyhuab",
-      "initial_installation_images": "boot"
+      "initial_installation_images": [
+        "boot"
+      ]
     }
   ]
 }

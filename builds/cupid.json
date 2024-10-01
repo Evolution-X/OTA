@@ -17,7 +17,9 @@
       "paypal": "https://www.paypal.com/paypalme/yarpiin",
       "telegram": "",
       "github": "yarpiin",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

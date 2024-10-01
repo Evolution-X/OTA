@@ -17,7 +17,9 @@
       "paypal": "https://ko-fi.com/0xsharkboy",
       "telegram": "https://t.me/EvolutionXexynos982x",
       "github": "0xsharkboy",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

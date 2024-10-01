@@ -17,7 +17,9 @@
       "paypal": "",
       "telegram": "https://t.me/Legendleo90",
       "github": "legendleo90",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

@@ -17,7 +17,9 @@
       "paypal": "https://paypal.me/zaidkhan099",
       "telegram": "https://t.me/zaidkhan0997",
       "github": "zaidkhan0997",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

@@ -17,7 +17,9 @@
       "paypal": "https://www.paypal.com/paypalme/SuvojeetSengupta21",
       "telegram": "https://t.me/suvojeet_sengupta",
       "github": "suvojit213",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

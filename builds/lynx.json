@@ -19,7 +19,8 @@
       "github": "AnierinBliss",
       "initial_installation_images": [
         "boot",
-        "recovery",
+        "dtbo",
+        "vendor_kernel_boot",
         "vendor_boot"
       ]
     }

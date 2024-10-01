@@ -19,8 +19,8 @@
       "github": "AgBKartikey",
       "initial_installation_images": [
         "boot",
-        "dtbo",
-        "vendor_kernel_boot",
+        "super_empty",
+        "recovery",
         "vendor_boot"
       ]
     }

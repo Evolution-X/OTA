@@ -17,7 +17,9 @@
       "paypal": "https://paypal.me/OmarCoptan",
       "telegram": "https://telegram.me/c0pt4n",
       "github": "Coptan99",
-      "initial_installation_images": "recovery"
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }
