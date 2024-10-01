@@ -16,7 +16,11 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "",
-      "github": "joeyhuab"
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot",
+        "dtbo"
+      ]
     }
   ]
 }

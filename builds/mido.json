@@ -16,7 +16,13 @@
         "firmware": "https://xmfirmwareupdater.com/firmware/mido/stable/V11.0.2.0.NCFMIXM/",
         "paypal": "",
         "telegram": "https://t.me/HyperPower17",
-        "github": "AnierinBliss"
+        "github": "AnierinBliss",
+        "initial_installation_images": [
+          "boot",
+          "dtbo",
+          "vendor_kernel_boot",
+          "vendor_boot"
+        ]
       }
     ]
   }

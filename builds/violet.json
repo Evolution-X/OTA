@@ -16,7 +16,10 @@
       "firmware": "",
       "paypal": "https://www.paypal.com/paypalme/kibria05",
       "telegram": "https://t.me/kibria5",
-      "github": "kibria5"
+      "github": "kibria5",
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

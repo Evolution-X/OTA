@@ -16,7 +16,13 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/venus/stable/OS1.0.6.0.UKBMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "",
-      "github": "joeyhuab"
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
     }
   ]
 }

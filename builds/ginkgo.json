@@ -16,7 +16,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/tejas101k",
       "telegram": "https://t.me/tejas101k",
-      "github": "tejas101k"
+      "github": "tejas101k",
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }
