@@ -16,7 +16,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/lisa/stable/OS1.0.2.0.UKOCNXM/",
       "paypal": "https://paypal.me/zaidkhan099",
       "telegram": "https://t.me/zaidkhan0997",
-      "github": "zaidkhan0997"
+      "github": "zaidkhan0997",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
     }
   ]
 }   

@@ -16,7 +16,13 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/mondrian/stable/OS1.0.9.0.UMNMIXM/",
       "paypal": "",
       "telegram": "",
-      "github": "flakeforever"
+      "github": "flakeforever",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vendor_boot"
+      ]
     }
   ]
 }

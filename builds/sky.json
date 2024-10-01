@@ -16,7 +16,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS1.0.6.0.UMWINXM/",
       "paypal": "https://www.paypal.com/paypalme/SuvojeetSengupta21",
       "telegram": "https://t.me/suvojeet_sengupta",
-      "github": "suvojit213"
+      "github": "suvojit213",
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

@@ -16,7 +16,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/vayu/stable/V14.0.3.0.TJUMIXM/",
       "paypal": "https://paypal.me/tejas101k",
       "telegram": "https://t.me/tejas101k",
-      "github": "tejas101k"
+      "github": "tejas101k",
+      "initial_installation_images": [
+        "recovery"
+      ]
     }
   ]
 }

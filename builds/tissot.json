@@ -16,7 +16,10 @@
       "firmware": "https://xmfirmwareupdater.com/miui/tissot/stable/V10.0.24.0.PDHMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "",
-      "github": "joeyhuab"
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot"
+      ]
     }
   ]
 }
