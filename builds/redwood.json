@@ -16,7 +16,12 @@
       "firmware": "https://xiaomifirmwareupdater.com/firmware/redwood/stable/OS1.0.6.0.UMSMIXM",
       "paypal": "https://paypal.me/thepriyanshujangid",
       "telegram": "https://t.me/thepriyanshujangid",
-      "github": "thepriyanshujangid"
+      "github": "thepriyanshujangid",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
     }
   ]
 }

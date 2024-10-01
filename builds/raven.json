@@ -16,7 +16,12 @@
       "firmware": "",
       "paypal": "https://PayPal.me/AnierinB",
       "telegram": "https://telegram.me/AnierinB",
-      "github": "AnierinBliss"
+      "github": "AnierinBliss",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
     }
   ]
 }

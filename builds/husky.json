@@ -16,7 +16,13 @@
       "firmware": "",
       "paypal": "https://paypal.me/osmjr1019",
       "telegram": "https://telegram.me/OscarM1019",
-      "github": "osm1019"
+      "github": "osm1019",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
     }
   ]
 }

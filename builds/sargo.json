@@ -16,7 +16,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/0nelots",
       "telegram": "https://t.me/onelots",
-      "github": "oneloutre"
+      "github": "oneloutre",
+      "initial_installation_images": [
+        "boot"
+      ]
     }
   ]
 }
