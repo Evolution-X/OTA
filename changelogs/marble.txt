@@ -6,20 +6,39 @@ Notes:
 - Make sure to be on HyperOS firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu9.4.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.4.zip/download) for root.
-- Play Integrity passes, RCS works (As of 09/26/2024).
+- Play Integrity passes, RCS works (As of 10/04/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
-- Auto-brightness and proximity sensor are still bugged.
+- Proximity sensor may still be bugged.
 
 Device changes:
 ==============================
-Fix OK/Hey Google support
+Enable ELF checks for libwfdmmsrc_proprietary
+Fix auto brightness
+Fix wrong path for camera ADSP module blobs
+Migrate sensor HAL to AIDL interface
+Move ELF check comments to top of proprietary-files.txt
+Remove hw_acc effect
+Switch to source-built fx.tunnel interface
+Update blobs from V816.0.11.0.UMREUXM
+Update common blobs from diting V816.0.7.0.ULFMIXM
+extract-files improvements
+gps: Set sv pvt capability bit only when it is supported
+wifi-display: Add WfdCommon to boot jars
 
 Notable ROM changes:
 ==============================
-Disable debug logging on non-eng builds
-Fix PackageManager#getPackageArchiveInfo to cache derived fields
-Settings: Whitelist WRITE_DEVICE_CONFIG permission
-apns: Update Brazil carriers to 2024
-extras: Update BCR to Version 1.71
-fixup! MobileSignalController: Prevent possible memory leak
+BatteryMeterView: Battery icon available by default
+BatteryStyles: Handle visibility from controller only
+Update translations
+Updater: Fix broken download ETA/progress
+apn: Add BSNL 4G APN config
+apn: Add Congstar (Telekom)
+apn: Add Truphone (Saily)
+apn: Use the proper settings for SFR (MCC 208 with MNC 10)
+apn: some fixes for Bouygues Telecom
+apns: Update apn config for Tinkoff Mobile
+certification: 10/04/2024 Update
+extras: BlackTheme: Affect more background colors
+extras: BlackTheme: Rework shades of system container
+vars: remove fbpk_version and wifi_only
