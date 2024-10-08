@@ -18,8 +18,8 @@
       "telegram": "https://t.me/AgBKartikey",
       "github": "AgBKartikey",
       "initial_installation_images": [
-        "boot",
         "super_empty",
+        "boot",
         "recovery",
         "vendor_boot"
       ]

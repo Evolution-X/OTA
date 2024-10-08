@@ -18,8 +18,8 @@
       "telegram": "https://t.me/onelots",
       "github": "oneloutre",
       "initial_installation_images": [
-        "recovery",
-        "super_empty"
+        "super_empty",
+        "recovery"
       ]
     }
   ]
