@@ -1,4 +1,4 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 security patches
 
 Notes:
 ==============================
@@ -9,36 +9,23 @@ Notes:
 - Play Integrity passes, RCS works (As of 10/04/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
-- Proximity sensor may still be bugged.
 
 Device changes:
 ==============================
-Enable ELF checks for libwfdmmsrc_proprietary
-Fix auto brightness
-Fix wrong path for camera ADSP module blobs
-Migrate sensor HAL to AIDL interface
-Move ELF check comments to top of proprietary-files.txt
-Remove hw_acc effect
-Switch to source-built fx.tunnel interface
-Update blobs from V816.0.11.0.UMREUXM
-Update common blobs from diting V816.0.7.0.ULFMIXM
-extract-files improvements
-gps: Set sv pvt capability bit only when it is supported
-wifi-display: Add WfdCommon to boot jars
+Drop unused qapeservice seccomp_policy
+Fix soname with older patchelf
+Import qcril_database and generate the db at build time
+Move qcom-system-daemon seccomp_policy to the proper section
+Move qcril_database to device tree
+Use extract-utils FIX_SONAME helper
+qcril_database: Add migration to disable redir_party_num
+qcril_database: Add missing migration for db 15.0
 
 Notable ROM changes:
 ==============================
-BatteryMeterView: Battery icon available by default
-BatteryStyles: Handle visibility from controller only
-Update translations
-Updater: Fix broken download ETA/progress
-apn: Add BSNL 4G APN config
-apn: Add Congstar (Telekom)
-apn: Add Truphone (Saily)
-apn: Use the proper settings for SFR (MCC 208 with MNC 10)
-apn: some fixes for Bouygues Telecom
-apns: Update apn config for Tinkoff Mobile
-certification: 10/04/2024 Update
-extras: BlackTheme: Affect more background colors
-extras: BlackTheme: Rework shades of system container
-vars: remove fbpk_version and wifi_only
+Build: Make gsi_arm{,64} inherit full_base_telephony.mk
+Merge October 2024 security patches
+SystemUI: Disable wifi listening in QS footer when view detached
+SystemUI: Queue data usage text request only if enabled
+SystemUI: Set initial usage text view as invisible
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
