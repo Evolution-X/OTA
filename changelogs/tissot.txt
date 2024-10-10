@@ -1,9 +1,9 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build. Gapps version.
-- Play Integrity passes, RCS works (As of 09/06/2024).
+- Play Integrity passes, RCS works (As of 10/10/2024).
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
 
@@ -13,13 +13,75 @@ None
 
 Notable ROM changes:
 ==============================
-Evolver: Add various Lock/Unlock sounds
-Island: Fix focused top-app detection
-Island: Remove notification when swiped dismiss
-Merge September 2024 security patches
-PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+ActivityManagerService: Exclude more packages for receiver check
+BatteryMeterView: Battery icon available by default
+BatteryStyles: Handle visibility from controller only
+BrightnessController: Prevent possible memory leak
+Build: Make gsi_arm{,64} inherit full_base_telephony.mk
+Disable debug logging on non-eng builds
+EdgeBackGestureHandler: Prevent possible memory leak
+Evolver: Add three fingers swipe actions
+Evolver: Bring back custom battery styles
+Evolver: Import custom dev options from Settings
+Evolver: Pocket Mode: Introduce Always on pocket mode
+Evolver: Replace pocket judge with pocket mode
+Fix PackageManager#getPackageArchiveInfo to cache derived fields
+GameSpace: Add missing summaries
+GameSpace: Don't add floating action if game closed too quickly
+GameSpace: Remove default action for three finger swipe
+GameSpace: Show correct default settings
+GameSpace: Update for three fingers gesture
+Improvements for three fingers swipe actions
+Initial implementation of KeyboxImitationHooks
+Merge October 2024 security patches
+NSSLC: Prevent possible memory leak
+NotificationMediaManager: Prevent possible memory leak
+PhoneWindowManager: Prevent NPE with voice search action
+Pocket Mode: Add null check when setting pocket state
+Pocket Mode: Block face authentication when device is in pocket 
+Pocket Mode: Implement doze and biometrics hooks  
+QsAnimator: Prevent possible memory leak
+Refresh vpn lockdown allowlist on package added/removed
+Remove default action for three finger swipe  
+Settings: Add three-fingers-swipe to screenshot
+Settings: Fix memory leak on sensormanager
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+Smart5GService: Disable 5G when battery is low
+Smart5gService: Add more functionalities
+Soundtrigger: Add back SoundTriggerDetector and model database
+SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+SystemUI: Disable wifi listening in QS footer when view detached
+SystemUI: Fix notification count not working after a reboot
+SystemUI: Queue data usage text request only if enabled
+SystemUI: Set initial usage text view as invisible
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+ThermalManager: Don't hold mSamples lock while calling power HAL
+Udfps Icons: Prevent possible memory leak 
 Update translations
-VolumeDialog: Fix systemui crash nullpointerexception while casting
-base: PowerOffAlarmService: Avoid NullPointerException
-overlay: Bump to AD1A.240530.047
+Updater: Fix broken download ETA/progress
+aapt2: add freeze IDs for ContextualSearch
+aapt2: support freezing private resource IDs
+apn: Add BSNL 4G APN config
+apn: Add Congstar (Telekom)
+apn: Add Truphone (Saily)
+apn: Use the proper settings for SFR (MCC 208 with MNC 10)
+apn: some fixes for Bouygues Telecom
+apns: Update Brazil carriers to 2024
+apns: Update apn config for Tinkoff Mobile
+certification: 10/04/2024 Update
+extras: BlackTheme: Affect more background colors
+extras: BlackTheme: Rework shades of system container
+extras: Remove conflicting auto brightness icons
+extras: Update BCR to Version 1.71
+fixup! MobileSignalController: Prevent possible memory leak
+fwb: Import SwipeToScreenshot implementation from MIUI
+memory leak: Closes leaked instance
+services: Fix crash caused by null fp daemon
+services: Fix multi-touch behaviour
+services: Improve shake gestures
+services: Make legacy pocket mode no-op
+services: Silence AppsOps debugging messages
+services: Simplify registering for three fingers swipe actions
+services: Use legacy behaviour for non-existent providers
+vars: remove fbpk_version and wifi_only
+voiceinteraction: Exempt ASI from soundtrigger enforcement
