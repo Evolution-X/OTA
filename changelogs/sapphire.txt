@@ -1,19 +1,19 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Play Integrity passes, RCS works.
-- MiuiCamera Included
+- Aperture Camera Included
 - Dolby Atmos Included
 
 Device changes:
 ==============================
-- Update blobs from V816.0.7.0.UNGMIXM
-- Update kernel from V816.0.7.0.UNGMIXM
-- Update miuicamera from V816.0.7.0.UNGMIXM
-- Nuke qti thermal hal
-- Move KGSL and MSM_DRM to performance cores 4-7
+- Improved system stability
+- Enhanced performance and speed
+- Battery life optimizations
+- Replace to Aperture camera
+- Fixed sms issue
 
 Clean Flash Steps:
 Flash the recovery.
