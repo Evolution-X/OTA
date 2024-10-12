@@ -1,4 +1,4 @@
-===== 9 Oct 2024 =====
+===== 12 Oct 2024 =====
 
 NOTES:
 - Dirty install from previous official is fine
@@ -6,28 +6,8 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
+- Disable turbulence noise after clicking the play button
 
 ROM:
-- certification: 10/04/2024 Update
-- GameSpace: Don't add floating action if game closed too quickly
-- GameSpace: Show correct default settings
-- Prevent various possible memory leaks
-- SystemUI: Fix notification count not working after a reboot
-- extras: Remove conflicting auto brightness icons
-- Evolver: Bring back custom battery styles
-- Evolver: Replace pocket judge with pocket mode
-- Evolver: Pocket Mode: Introduce Always on pocket mode
-- Pocket Mode: Block face authentication when device is in pocket
-- GameSpace: Add missing summaries
-- Settings: Add three-fingers-swipe to screenshot
-- apns: Update Brazil carriers to 2024
-- extras: Update BCR to Version 1.71
-- Updater: Fix broken download ETA/progress
-- apn: Add BSNL 4G APN config
-- apn: Add Congstar (Telekom)
-- apn: Add Truphone (Saily)
-- apn: Use the proper settings for SFR (MCC 208 with MNC 10)
-- apn: some fixes for Bouygues Telecom
-- apns: Update apn config for Tinkoff Mobile
-- extras: BlackTheme: Affect more background colors
-- Update translations
+- EvolutionX 9.5
+- October security patch
