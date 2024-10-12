@@ -1,8 +1,36 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Updated to OOS 14.0.0.601(EX01) (fw not included, flash fw first)
 - Clean flash is required unless coming from 9.x BUILD.
-- Update to pif given in announcements channel(discord), RCS works (As of 09/17/2024).
+- Update to pif given in announcements channel(discord), RCS works (As of 10/10/2024).
 - Credits to Luk1337, Anierin Bliss, Joey Huab
+
+Notable ROM changes:
+==============================
+BatteryMeterView: Battery icon available by default
+BatteryStyles: Handle visibility from controller only
+Build: Make gsi_arm{,64} inherit full_base_telephony.mk
+Disable debug logging on non-eng builds
+Fix PackageManager#getPackageArchiveInfo to cache derived fields
+Merge October 2024 security patches
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: Disable wifi listening in QS footer when view detached
+SystemUI: Queue data usage text request only if enabled
+SystemUI: Set initial usage text view as invisible
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+Updater: Fix broken download ETA/progress
+apn: Add BSNL 4G APN config
+apn: Add Congstar (Telekom)
+apn: Add Truphone (Saily)
+apn: Use the proper settings for SFR (MCC 208 with MNC 10)
+apn: some fixes for Bouygues Telecom
+apns: Update Brazil carriers to 2024
+apns: Update apn config for Tinkoff Mobile
+certification: 10/04/2024 Update
+extras: BlackTheme: Affect more background colors
+extras: BlackTheme: Rework shades of system container
+extras: Update BCR to Version 1.71
+fixup! MobileSignalController: Prevent possible memory leak
+vars: remove fbpk_version and wifi_only
