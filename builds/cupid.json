@@ -4,22 +4,19 @@
       "maintainer": "yarpiin",
       "oem": "Xiaomi",
       "device": "Xiaomi 12",
-      "filename": "EvolutionX-14.0-20240924-cupid-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/cupid/14/EvolutionX-14.0-20240924-cupid-v9.4-Official.zip/download",
-      "timestamp": 1727212243,
-      "md5": "6af9b34107e37d416ec3806fbf1596b8",
-      "sha256": "6ea3e7b08b3b25879dd131c4d5a162b27578fabb5e66c1e8449e6fb52756c2fe",
-      "size": 2735580171,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241011-cupid-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cupid/14/EvolutionX-14.0-20241011-cupid-v9.5-Official.zip/download",
+      "timestamp": 1728683951,
+      "md5": "4ac4e2a3330e6380b05fa8eb3cfc891c",
+      "sha256": "9de49031d8eefe74f1f605f5b69cb65ff24621a189c21ad740cb90ce00510f9c",
+      "size": 2922481291,
+      "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0-xiaomi12-cupid-official-evolutionx.4591391/",
       "firmware": "https://xmfirmwareupdater.com/firmware/cupid/stable/OS1.0.3.0.ULCMIXM/",
       "paypal": "https://www.paypal.com/paypalme/yarpiin",
       "telegram": "",
-      "github": "yarpiin",
-      "initial_installation_images": [
-        "recovery"
-      ]
+      "github": "yarpiin"
     }
   ]
 }
