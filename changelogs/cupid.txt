@@ -1,4 +1,4 @@
-2024-09-24
+2024-10-11
 
 
 To use this release you need:
@@ -9,43 +9,21 @@ To use this release you need:
 4. Reboot recovery
 4. Format Data
 
+Due to in tree changes CLEAN FLASH IS RECOMMENDED!!
+
 # Device / Kernel
 
-  * cupid: init.kernel.post_boot-taro.sh: Implement xiaomi additions
-  * cupid: init.kernel.post_boot-taro.sh: tweak some kernel parameters
-  * cupid: drop battery friendly pocketmode
-
-  * Merge tag 'KERNEL.PLATFORM.1.0.r1-18300-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10 into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into udc
-  * Merge tag 'VIDEO.LA.2.0.r1-10800-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/cvp-kernel into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/eva-kernel into udc
-  * Merge tag 'DISPLAY.LA.2.0.r1-13200-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into udc
-  * Merge tag 'CAMERA.LA.2.0.r1-12300-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into udc
-  * Merge tag 'LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-kernel-ar into udc
+  * cupid: tidy up device tree
+  * cupid: update firmware and blobs to cupid_eea_global_images_OS1.0.12.0.ULCEUXM_14.0
 
 
 # Rom
 
-Evolver: Bring back custom battery styles
-Evolver: Import custom dev options from Settings
-Evolver: Pocket Mode: Introduce Always on pocket mode
-Evolver: Replace pocket judge with pocket mode
-GameSpace: Add missing summaries
-Initial implementation of KeyboxImitationHooks
-PhoneWindowManager: Prevent NPE with voice search action
-Pocket Mode: Add null check when setting pocket state
-Pocket Mode: Block face authentication when device is in pocket
-Pocket Mode: Implement doze and biometrics hooks
-Refresh vpn lockdown allowlist on package added/removed
-Settings: Add three-fingers-swipe to screenshot
-Update translations
-aapt2: add freeze IDs for ContextualSearch
-aapt2: support freezing private resource IDs
-fwb: Import SwipeToScreenshot implementation from MIUI
-services: Make legacy pocket mode no-op
+Build: Make gsi_arm{,64} inherit full_base_telephony.mk
+Merge October 2024 security patches
+SystemUI: Disable wifi listening in QS footer when view detached
+SystemUI: Queue data usage text request only if enabled
+SystemUI: Set initial usage text view as invisible
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
 
 ... and many more
