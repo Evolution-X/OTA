@@ -4,19 +4,19 @@
       "maintainer": "Rondeau79",
       "oem": "Motorola",
       "device": "Moto G100",
-      "filename": "EvolutionX-14.0-20240918-nio-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/nio/14/EvolutionX-14.0-20240918-nio-v9.4-Official.zip/download",
-      "timestamp": 1726681208,
-      "md5": "81cc26dd986242db8df5df890f22b28e",
-      "sha256": "f46521855dd109b92ee78f57b0df4b6483366bd31e8b241ab5da05e7f1eb2e29",
-      "size": 2028711212,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241011-nio-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/nio/14/EvolutionX-14.0-20241011-nio-v9.5-Official.zip/download",
+      "timestamp": 1728624813,
+      "md5": "ed410001d3632da5aa314991ed068a91",
+      "sha256": "26dca71c9b9da23eff9fa016e83b548b782de217852e2040bf6c8e274d2df4c6",
+      "size": 2033261201,
+      "version": "9.5",
       "buildtype": "Monthly",
-      "forum": "https://xdaforums.com/t/rom-14-0-0_r67-official-evolution-x-9-3-09-06-2024.4687297/",
+      "forum": "https://xdaforums.com/t/rom-14-0-official-evolution-x-9-5-10-11-2024.4687297/",
       "firmware": "",
       "paypal": "",
-      "telegram": ""
+      "telegram": "",
+      "github": "Rondeau79"
     }
   ]
 }
-
