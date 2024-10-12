@@ -1,7 +1,7 @@
 Changelog:
-• Merged September 2024 Security Patch
-• Fix three finger gestures
-• Add various Lock/Unlock sounds
-• Improve Island Notification
-• Improve PowerOffalarm
-• Update translations
+• Merged October 2024 Security Patch
+• Bring back extensive Battery Styles Customisations
+• Bring back old legacy three finger swipe to screenshot since new swipe gestures were highly problematic for some / incompatible with many kernels.
+• Fix quickly open camera
+• Fix updater broken download ETA/progress
+• Improve BlackTheme and make it more wider
