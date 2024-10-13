@@ -4,25 +4,19 @@
       "maintainer": "Oscar Mariscal",
       "oem": "Google",
       "device": "Pixel 8",
-      "filename": "EvolutionX-14.0-20240908-shiba-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/14/EvolutionX-14.0-20240908-shiba-v9.4-Official.zip/download",
-      "timestamp": 1725826026,
-      "md5": "aab32c7704a03f86e6ba3dc8680e9434",
-      "sha256": "441519f310290e3968c03f41668e47849081e3d12c0305b00e66fd4837ad60e3",
-      "size": 2611152076,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241013-shiba-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/14/EvolutionX-14.0-20241013-shiba-v9.5-Official.zip/download",
+      "timestamp": 1728850309,
+      "md5": "c4bc657b5d21ea9e0e1aa8b828522785",
+      "sha256": "29d2cab65ba3277bb9872f4e896778b0768673a6acd9b484d253c6cc2727d4c8",
+      "size": 2608881769,
+      "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r37-official-evolution-xyz-9-0-05-11-2024.4649678/",
       "firmware": "",
       "paypal": "https://paypal.me/osmjr1019",
       "telegram": "https://telegram.me/OscarM1019",
-      "github": "osm1019",
-      "initial_installation_images": [
-        "boot",
-        "dtbo",
-        "vendor_kernel_boot",
-        "vendor_boot"
-      ]
+      "github": "osm1019"
     }
   ]
 }
