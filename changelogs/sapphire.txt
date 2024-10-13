@@ -4,16 +4,16 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Play Integrity passes, RCS works.
-- Aperture Camera Included
+- Google Camera Go Included
 - Dolby Atmos Included
 
 Device changes:
 ==============================
-- Improved system stability
-- Enhanced performance and speed
-- Battery life optimizations
-- Replace to Aperture camera
-- Fixed sms issue
+- Fix deep sleep
+- Fix battery drain
+- Fix IR
+- Replace to Google Camera Go
+- Increase system stability
 
 Clean Flash Steps:
 Flash the recovery.
