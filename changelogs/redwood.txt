@@ -1,9 +1,44 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 security patches
 
 Notes:
 ==============================
-Both panel are supported.
-- Play Integrity passes, RCS works (As of 09/23/2024).
+- Both panel are supported.
+- Play Integrity passes, RCS works (As of 13/10/2024).
+
+
+Device Changes:
+==================
+13-October-2024
+==================
+Fixed IR Remote Control
+Dropped KernelSU support
+Dropped Turbo kernel
+Shipped with firmware vOS1.0.6.0.UMSMIXM	
+
+Notable ROM changes:
+===================
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- Prevent various possible memory leaks
+- SystemUI: Fix notification count not working after a reboot
+- extras: Remove conflicting auto brightness icons
+- Evolver: Bring back custom battery styles
+- Evolver: Replace pocket judge with pocket mode
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Pocket Mode: Block face authentication when device is in pocket
+- GameSpace: Add missing summaries
+- Remove three fingers swipe actions and gestures
+- apns: Update Brazil carriers to 2024
+- extras: Update BCR to Version 1.71
+- Updater: Fix broken download ETA/progress
+- apn: Add BSNL 4G APN config
+- apn: Add Congstar (Telekom)
+- apn: Add Truphone (Saily)
+- apn: Use the proper settings for SFR (MCC 208 with MNC 10)
+- apn: some fixes for Bouygues Telecom
+- apns: Update apn config for Tinkoff Mobile
+- extras: BlackTheme: Affect more background colors
+- Update translations
 
 Device Changes:
 ==================
