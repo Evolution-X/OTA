@@ -4,13 +4,13 @@
       "maintainer": "Ashwani x Suvojeet Sengupta",
       "oem": "Xiaomi",
       "device": "Redmi 12 5G / Poco M6 Pro 5G",
-      "filename": "EvolutionX-14.0-20240926-sky-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/sky/14/EvolutionX-14.0-20240926-sky-v9.4-Official.zip/download",
-      "timestamp": 1727355475,
-      "md5": "a82bb7d0d2d10e24cf01ff7f1208ff37",
-      "sha256": "47a42f5c4553da1c89adcc8d09352cf29c3c578e79ea55891fcf9faf820ada5d",
-      "size": 2084926350,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241012-sky-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/sky/14/EvolutionX-14.0-20241012-sky-v9.5-Official.zip/download",
+      "timestamp": 1728743644,
+      "md5": "1b2e45b9f0351f5176ada89b6cd20ea5",
+      "sha256": "8eefc0b8d61e0c9c31317d84f6221958d6894606dd1fe337953b36162dc438f6",
+      "size": 2084908298,
+      "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r53-sky-official-evolution-x-07-25-2024.4683114/",
       "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS1.0.6.0.UMWINXM/",
@@ -23,4 +23,3 @@
     }
   ]
 }
-
