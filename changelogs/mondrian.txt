@@ -10,29 +10,15 @@ Notes:
 
 Device changes:
 ==============================
-Update RIL apps from V816.0.9.0.TMNCNXM
-Update Baalam Kernel to 5.10.226
-Update stock camera ported by NeoArian to 5.001130.1
+Fix display driver
 
 Notable ROM changes:
 ==============================
-BatteryMeterView: Battery icon available by default
-BatteryStyles: Handle visibility from controller only
-Update translations
-Updater: Fix broken download ETA/progress
-apn: Add BSNL 4G APN config
-apn: Add Congstar (Telekom)
-apn: Add Truphone (Saily)
-apn: Use the proper settings for SFR (MCC 208 with MNC 10)
-apn: some fixes for Bouygues Telecom
-apns: Update apn config for Tinkoff Mobile
-certification: 10/04/2024 Update
-extras: BlackTheme: Affect more background colors
-extras: BlackTheme: Rework shades of system container
-vars: remove fbpk_version and wifi_only
-Build: Make gsi_arm{,64} inherit full_base_telephony.mk
-Merge October 2024 security patches
-SystemUI: Disable wifi listening in QS footer when view detached
+SystemUI: Allow to toggle BT directly with Bluetooth tile
+fixup! Reload navbar icons on changing style
+base: Allow disabling turbulence noise after clicking the play button
 SystemUI: Queue data usage text request only if enabled
+SystemUI: Disable wifi listening in QS footer when view detached
 SystemUI: Set initial usage text view as invisible
 ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+BatteryStyles: Handle visibility from controller only
