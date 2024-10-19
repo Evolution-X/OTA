@@ -1,26 +1,22 @@
 {
   "response": [
     {
-      "maintainer": "Rex",
+      "maintainer": "Prathamk07",
       "oem": "Xiaomi",
       "device": "Redmi Note 11 Pro Plus 5G / Poco X4 Pro 5G",
-      "filename": "EvolutionX-14.0-20240905-veux-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/veux/14/EvolutionX-14.0-20240905-veux-v9.4-Official.zip/download",
-      "timestamp": 1725550564,
-      "md5": "e478b71e2ea099a317e724f86c4dbf1f",
-      "sha256": "0f1299c5c4fa2f634c4408de54ad18dacc67e3e95f6fd066ad6805a66a23472a",
-      "size": 2613478221,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241018-veux-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/veux/14/EvolutionX-14.0-20241018-veux-v9.5-Official.zip/download",
+      "timestamp": 1729277466,
+      "md5": "34cedcdb2bc1887a83e33c885fb5a5d5",
+      "sha256": "85f43a23808bc8ddbea900ac8b5f4784a65177422b184aa8a0246bb6cc52450a",
+      "size": 2595987735,
+      "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0-0_r55-official-evolution-x-9-3-20-08-2024.4687174/",
       "firmware": "https://xmfirmwareupdater.com/firmware/veux/stable/OS1.0.3.0.TKCMIXM/",
       "paypal": "https://www.paypal.com/paypalme/PrathamKalra",
-      "telegram": "https://t.me/RexMiller07",
-      "github": "PrathamK07",
-      "initial_installation_images": [
-        "boot",
-        "vendor_boot"
-      ]
+      "telegram": "https://t.me/Prathamk7",
+      "github": "Prathamk07"
     }
   ]
 }
