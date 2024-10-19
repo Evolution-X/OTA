@@ -4,25 +4,19 @@
       "maintainer": "AgBKartikey",
       "oem": "Nothing",
       "device": "Phone 2",
-      "filename": "EvolutionX-14.0-20240906-Pong-v9.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/Pong/14/EvolutionX-14.0-20240906-Pong-v9.4-Official.zip/download",
-      "timestamp": 1725614859,
-      "md5": "286b04fd75666cefa73fc95afa71e52c",
-      "sha256": "4d3c58cff4220feaaafd6de7d07113c19db9f60b82496022f0f245b938ea3bae",
-      "size": 2919294679,
-      "version": "9.4",
+      "filename": "EvolutionX-14.0-20241018-Pong-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/Pong/14/EvolutionX-14.0-20241018-Pong-v9.5-Official.zip/download",
+      "timestamp": 1729232661,
+      "md5": "6e54e614650b9790f2ed102c44b4d3a2",
+      "sha256": "d6aaca450c9251ed0a7a8e7d8af9227ec92b43b9f3ad9cda02fd8fae94377f29",
+      "size": 2926664540,
+      "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0-0_r53-official-evolution-x-9-3-08-12-2024.4683848/",
       "firmware": "https://github.com/spike0en/Pong_Archive/releases/download/2.6.0/Pong_U2.6-240628-0430-image-firmware.7z",
       "paypal": "https://www.paypal.com/paypalme/anierinb",
       "telegram": "https://t.me/AgBKartikey",
-      "github": "AgBKartikey",
-      "initial_installation_images": [
-        "super_empty",
-        "boot",
-        "recovery",
-        "vendor_boot"
-      ]
+      "github": "AgBKartikey"
     }
   ]
 }
