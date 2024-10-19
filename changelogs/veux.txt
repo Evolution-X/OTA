@@ -1,0 +1,38 @@
+Evolution-X 9.5 Vanilla | Build Date : 19-10-2024
+====================================================================
+Notes :
+=======
+- Let the rom settle for a few hours to experience smoothness
+- Thanks to @dereference and @Under_frost for kernel and trees
+
+Device Changes :
+================
+- Initial release for Vanilla
+
+Notable ROM changes:
+==============================
+- EvolutionX 9.5
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- Prevent various possible memory leaks
+- SystemUI: Fix notification count not working after a reboot
+- extras: Remove conflicting auto brightness icons
+- Evolver: Bring back custom battery styles
+- Evolver: Replace pocket judge with pocket mode
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Pocket Mode: Block face authentication when device is in pocket
+- GameSpace: Add missing summaries
+- extras: Update BCR to Version 1.71
+- Updater: Fix broken download ETA/progress
+- extras: BlackTheme: Affect more background colors
+- Update translations
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Evolver: Replace pocket judge with pocket mode
+- Initial implementation of KeyboxImitationHooks
+- PhoneWindowManager: Prevent NPE with voice search action
+- Pocket Mode: Add null check when setting pocket state
+- Pocket Mode: Block face authentication when device is in pocket
+- Pocket Mode: Implement doze and biometrics hooks
+- Settings: Add three-fingers-swipe to screenshot
+- fwb: Import SwipeToScreenshot implementation from MIUI
+- services: Make legacy pocket mode no-op
