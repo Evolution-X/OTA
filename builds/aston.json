@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Tejas Singh",
+      "oem": "Oneplus",
+      "device": "OnePlus 12R / Ace 3",
+      "filename": "EvolutionX-14.0-20241018-aston-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/aston/14/EvolutionX-14.0-20241018-aston-v9.5-Official.zip/download",
+      "timestamp": 1729286924,
+      "md5": "8350fd615d5d1f1f2ad19a8c12fe9840",
+      "sha256": "3230f7daba653d5fad8e849ac338e70ee95d97379714d2e61f58b7a985e73e90",
+      "size": 3048903329,
+      "version": "9.5",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0-aston-official-evolution-x-19-10-24.4698543/",
+      "firmware": "",
+      "paypal": "https://paypal.me/tejas101k",
+      "telegram": "https://t.me/tejas101k",
+      "github": "tejas101k",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
+
