@@ -1,21 +1,41 @@
 Device changes:
 ==============================
-- Added OTG Compatibility Switch & Tile
-- Added Nothing Charging Control
+- Fix Settings Search Crash
 
 Notable ROM changes:
 ==============================
-- EvolutionX 9.4
-- Merge September 2024 security patches
-- Evolver: Add various Lock/Unlock sounds
-- Evolver: Bootanimation Styles
-- Evolver: Implement QS Split Shade
-- Island: Fix focused top-app detection
-- Island: Implement Swipe to left/right to dismiss gesture
-- PinnerService: Try to pin SystemUIGoogle if SystemUI fails
-- SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
-- SystemUI: Revamp face unlock indication
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- Prevent various possible memory leaks
+- SystemUI: Fix notification count not working after a reboot
+- extras: Remove conflicting auto brightness icons
+- Evolver: Bring back custom battery styles
+- Evolver: Replace pocket judge with pocket mode
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Pocket Mode: Block face authentication when device is in pocket
+- GameSpace: Add missing summaries
+- Remove three fingers swipe actions and gestures
+- apns: Update Brazil carriers to 2024
+- apn: Add BSNL 4G APN config
+- apn: Add Congstar (Telekom)
+- apn: Add Truphone (Saily)
+- apn: Use the proper settings for SFR (MCC 208 with MNC 10)
+- apn: some fixes for Bouygues Telecom
+- apns: Update apn config for Tinkoff Mobile
+- extras: BlackTheme: Affect more background colors
 - Update translations
-- Base: PowerOffAlarmService: Avoid NullPointerException
-- Overlay: Bump to AD1A.240530.047
-- Certification: 08/30/2024 Update
+- Build: Make gsi_arm{,64} inherit full_base_telephony.mk
+- Disable debug logging on non-eng builds
+- Fix PackageManager#getPackageArchiveInfo to cache derived fields
+- Merge October 2024 security patches
+- Settings: Whitelist WRITE_DEVICE_CONFIG permission
+- SystemUI: Disable wifi listening in QS footer when view detached
+- SystemUI: Queue data usage text request only if enabled
+- SystemUI: Set initial usage text view as invisible
+- ThemeOverlayController: Don't enable neutral overlay when we use dark bgA
+- Updater: Fix broken download ETA/progress
+- certification: 10/04/2024 Update
+- extras: BlackTheme: Rework shades of system container
+- extras: Update BCR to Version 1.71
+- fixup! MobileSignalController: Prevent possible memory leak
+- vars: remove fbpk_version and wifi_only
