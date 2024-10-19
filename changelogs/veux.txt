@@ -1,42 +1,42 @@
-Evolution-X 9.4 | Build Date : 05-09-2024
+Evolution-X 9.5 | Build Date : 19-10-2024
 ====================================================================
 Notes :
 =======
-- Can be dirty flashed from latest official
+- Clean flash is recommended.
 - Let the rom settle for a few hours to experience smoothness
-- Play Integrity passes, RCS works (As of 09/05/2024).
-- Thanks to @dereference for kernel and trees
-- Thanks to @igadityasingh for tree optimisation
-- Thanks to @MrTopiA for Xiaomi Parts
+- Thanks to @dereference and @Under_frost for kernel and trees
 
 Device Changes :
 ================
-- September SP | QPR3
-- Added XiaomiParts
-- Per app Thermal Profiles
-- OTG works on recovery 
-- Auto brightness adjutments
-- Props for smoother animation in UI
-- Show all refresh rate options 
-- Refresh rate QS tile (60/120/auto)
+- October SP | QPR3
+- Brought back wallpaper zooming
+- Nuked sRGB and other unncessary Display color modes causing stutters in refresh rate
+- Added props for smoother pulldowns and animations
 
 Notable ROM changes:
 ==============================
-- EvolutionX 9.4
-- Add custom lock/unlock sound
-- Custom boot animations
-- September security patch
-- Evolver: Allow setting QS rows
-- Evolver: Introduce bootanimation styles
-- Island: Implement Swipe to left/right to dismiss gesture
-- PixelPropsUtils: Do not spoof mainline models to google photos
-- Settings: Add black theme styles
-- SystemUI: Revamp face unlock indication
-- extras: themes: Remove conflicting Lorn icon pack signal padding
-- fixup! base: Hide ADB and developer setting enable status
-- wm: Make freeform windows always on top
-- Evolver: Implement QS Split Shade
-- Settings: Import missing animations from UP1A.231005.007.A1
-- SettingsGoogle: Follow monet color in settings icon like AOSP
-- SystemUI: Fix Island loop if suddenly close
-- certification: 08/30/2024 Update
+- EvolutionX 9.5
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- Prevent various possible memory leaks
+- SystemUI: Fix notification count not working after a reboot
+- extras: Remove conflicting auto brightness icons
+- Evolver: Bring back custom battery styles
+- Evolver: Replace pocket judge with pocket mode
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Pocket Mode: Block face authentication when device is in pocket
+- GameSpace: Add missing summaries
+- extras: Update BCR to Version 1.71
+- Updater: Fix broken download ETA/progress
+- extras: BlackTheme: Affect more background colors
+- Update translations
+- Evolver: Pocket Mode: Introduce Always on pocket mode
+- Evolver: Replace pocket judge with pocket mode
+- Initial implementation of KeyboxImitationHooks
+- PhoneWindowManager: Prevent NPE with voice search action
+- Pocket Mode: Add null check when setting pocket state
+- Pocket Mode: Block face authentication when device is in pocket
+- Pocket Mode: Implement doze and biometrics hooks
+- Settings: Add three-fingers-swipe to screenshot
+- fwb: Import SwipeToScreenshot implementation from MIUI
+- services: Make legacy pocket mode no-op
