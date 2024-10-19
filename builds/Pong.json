@@ -1,0 +1,22 @@
+{
+  "response": [
+    {
+      "maintainer": "AgBKartikey",
+      "oem": "Nothing",
+      "device": "Phone 2",
+      "filename": "EvolutionX-14.0-20241018-Pong-v9.5-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/Pong/14_vanilla/EvolutionX-14.0-20241018-Pong-v9.5-Vanilla-Official.zip/download",
+      "timestamp": 1729249960,
+      "md5": "a10d9dcf9b1c70cc080ae4549862a405",
+      "sha256": "c1ad78098f9e3433ada43b5ad826b276d8ac5f394b427f5c0416b34b4476d523",
+      "size": 1945965080,
+      "version": "9.5",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-0-0_r53-official-evolution-x-9-3-08-12-2024.4683848/",
+      "firmware": "https://github.com/spike0en/Pong_Archive/releases/download/2.6.0/Pong_U2.6-240628-0430-image-firmware.7z",
+      "paypal": "https://www.paypal.com/paypalme/anierinb",
+      "telegram": "https://t.me/AgBKartikey",
+      "github": "AgBKartikey"
+    }
+  ]
+}
