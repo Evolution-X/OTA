@@ -4,42 +4,57 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash is required if coming from 8.6 or older builds.
-- Play Integrity passes, RCS works (As of 10/11/2024).
+- Play Integrity passes, RCS works (As of 10/24/2024).
 - Includes Xiaomi parts and Leica camera.
 - Credits to Arian16k, FlowerSea, GR.
 
 Device changes:
 ==============================
-Build xiaomi-telephony-stub
-Remove media_codecs_google_c2*
-Remove software omx codec references
-Use AOSP default Codec2/OMX ranks
-Update blobs from haydn V816.0.6.0.UKKMIXM
+Add blobs for QTI diag services support & Fix qccsyshal elf checksa
+Add vendor soong imports to extract
+Allow ELF prebuilts
+Decommonize citsensorservice
+Disable ELF checks for certain libraries
+Enable ELF checks for libwfdmmsrc_proprietary
+Enable elf checks
+Import missing 32-bit blobs
+Import missing 64-bit wfd lib
+Patch libwfdservice to resolve duplicate dependencies
+Remove elf files in copy files check
+Work around using prebuilt HWC
+do not manually build dependencies
+extract-files improvements
+fix QCOM WFD ELF checks
+fix com.qualcomm.qti.dpm.api@1.0 ELF checks
+fix vendor.qti.imsrtpservice@3.0 ELF checks
+skip dependencies which aren't defined in .bp
+udfps: Ensure fod_status is always enabled during enroll
+udfps: Notify goodix HAL on fod_press_status changes
+udfps: Update vendorCodes
+udfps: s/hander/handler
 
 Notable ROM changes:
 ==============================
-BatteryMeterView: Battery icon available by default
-BatteryStyles: Handle visibility from controller only
-Build: Make gsi_arm{,64} inherit full_base_telephony.mk
-Disable debug logging on non-eng builds
-Fix PackageManager#getPackageArchiveInfo to cache derived fields
-Merge October 2024 security patches
-Settings: Whitelist WRITE_DEVICE_CONFIG permission
-SystemUI: Disable wifi listening in QS footer when view detached
-SystemUI: Queue data usage text request only if enabled
-SystemUI: Set initial usage text view as invisible
-ThemeOverlayController: Don't enable neutral overlay when we use dark bg
-Updater: Fix broken download ETA/progress
-apn: Add BSNL 4G APN config
-apn: Add Congstar (Telekom)
-apn: Add Truphone (Saily)
-apn: Use the proper settings for SFR (MCC 208 with MNC 10)
-apn: some fixes for Bouygues Telecom
-apns: Update Brazil carriers to 2024
-apns: Update apn config for Tinkoff Mobile
-certification: 10/04/2024 Update
-extras: BlackTheme: Affect more background colors
-extras: BlackTheme: Rework shades of system container
-extras: Update BCR to Version 1.71
-fixup! MobileSignalController: Prevent possible memory leak
-vars: remove fbpk_version and wifi_only
+Evolver: Add ability to hide carrier name on lockscreen
+Evolver: Add OverlaySwitchPreference
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Allow to toggle BT directly with Bluetooth tile
+Evolver: QuickSettings: Use context instead referring activity directly
+Evolver: Update network traffic settings to use main switch
+PhoneWindowManager: Add vibration when using physical camera button gesture
+PhoneWindowManager: Only react to camera key when necessary
+apn: Add finetwork
+certification: 10/24/2024 Update
+colors: Enable Triluminos Display engine
+colors: Introduce Reality display engine
+config: common: Build nano_recovery
+extras: Update BCR to Version 1.72
+kernel: Add {recovery}kernelconfig
+kernel: Clean headers installed in uapi/asm as well
+overlay: Do not set config_credentialManagerDialogComponent
+overlay: Separate Pixel Launcher overlays
+overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
+overlay: Update device_config
+overlay: Use autofill compatibility mode for browsers
+recovery_ui: Opt-out battery monitoring on battery-less devices
+sepolicy: Label ro.recovery.batteryless property
