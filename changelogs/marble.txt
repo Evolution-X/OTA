@@ -8,32 +8,42 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.223-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 02/16/2025).
+- Play Integrity passes, RCS works (As of 03/02/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Bring back proprietary listen sound model (fix OK Google commands)
-Build DSPVolumeSynchronizer
-Build QtiTelephonyCompat
-Camera: Import missing blobs for processing noise reduction in low light environments (fix noise in photos)
-Turn off persist.vendor.radio.poweron_opt (fix USSD dialer codes)
-Update device variant fingerprints
-sepolicy: Remove duplicate snxxx AIDL rules
+Add feature flag for IPSEC_TUNNEL_MIGRATION
+move to aidl bootctrl hal
+parts: Add {navigation,video} thermal profiles
+parts: Add support for 60Hz in Landscape in Per-App-RR
+parts: Add thermal profiles tile
+parts: Automatically determine thermal profile for apps
+parts: Fix setting default thermal profile
+rootdir: Drop platform specific setup from init.qcom.early_boot.sh
+rootdir: Drop platform specific setup from init.qcom.post_boot.sh
+rootdir: Drop platform specific setup from init.qcom.sh
+rootdir: Drop useless init.qcom.class_core.sh
 
 Notable ROM changes:
 ==============================
-Add GeneralSans font overlay
-Add Poppins font
-Add SansSerifPro Font
-Add Volte Round Font
-Evolver: Add back island notifications
-Evolver: Add transparent notification style
-Fix NPE upon android.intent.action.LOCALE_CHANGED
-Fix popping up the the VoLTE screen when it's disabled by the carrier
-Settings: Add a toggle for long press on navbar to search
-SystemUI: Remove split navigation bar layout for sw900dp
-Update Cocon font
-health: Format notification's target time according to locale
-soong: Disable sandbox
+AAudio: fix NotificationClient linkToDeath error
+Broadcast radio power state changes
+Evolver: adjustable max visible notification icons
+Fix nav bar flickering when dialog shows
+Fix settings not applied on boot for device key actions
+Ongoing action progressbar chip implementation
+Open Sound Settings when long clicking volume tile
+Settings: Change range of battery saver schedule seekbar
+Settings: colors: Introduce Reality display engine
+SettingLib: Show only the current network IP addresses
+SystemUI: Fix slider tile layout issue on A11 QS style
+SystemUI: Hide QR code scanner tile if not launch activity available
+SystemUI: Improve Slider tiles percentage color
+SystemUI: Introduce Volume QS Tile
+apns: Add YemenMobile
+config: properties: Feb 2025 pihooks update
+extras: iconshapes: Remove config_dialogCornerRadius again
+extras: Move gameprops to product.prop
+pixel-style: Update
