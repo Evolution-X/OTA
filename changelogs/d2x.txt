@@ -4,41 +4,30 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 02/06/2025).
-- Includes XiaomiParts, Dolby Atmos and Leica camera.
-- Credits to Arian16k, FlowerSea, GR, RobertGarciaa, ralph20060412.
+- Play Integrity passes, RCS works (As of 02/13/2025).
 
 Device changes:
 ==============================
-Switched to FrEeRuNnErKeRnEl (supports KSU-next)
+removed Smart Pixels (causing too much issue)
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make more container surfaces black
-Disable Game default frame rate feature
-Evolver: Bring in features from rising
-Evolver: Fix quick pull down rtl values
-Evolver: Implement Better QS (optional toggle)
-Evolver: Introduce Volume Styles
-Evolver: OverlaySwitchPreference: Update
-Evolver: Show restart SystemUI dialog for some toggles
-GameSpace: Integrate LMOFreeform to quick start apps
-Merge February 2025 security patches
-OmniStyle: Add more QS Header image packs
-Settings: Add system haptics intensity settings
-SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
-Update translations
-aconfig: Disable FRP enforcement
-apps: Include prebuilt Accord music player
-check_boot_jars: Whitelist LMOFreeform
-config: Build LMO Freeform app and sidebar
-config: Disable RescueParty
-config: Remove useless addon.d file
-overlay: device_config: Add values required for Speech Recognition
-overlay: device_config: Escape special characters
-overlay: device_config: Updates
-properties: Set default game props
-themes: Expose values for theming settings
-themes: Import notification, progress bar and power menu themes
-vendor: Overlay PermissionController to use headline font from framework resource
-version: Uprev to 10.3
+AAudio: fix NotificationClient linkToDeath error
+Broadcast radio power state changes
+Evolver: adjustable max visible notification icons
+Fix nav bar flickering when dialog shows
+Fix settings not applied on boot for device key actions
+Ongoing action progressbar chip implementation
+Open Sound Settings when long clicking volume tile
+Settings: Change range of battery saver schedule seekbar
+Settings: colors: Introduce Reality display engine
+SettingLib: Show only the current network IP addresses
+SystemUI: Fix slider tile layout issue on A11 QS style
+SystemUI: Hide QR code scanner tile if not launch activity available
+SystemUI: Improve Slider tiles percentage color
+SystemUI: Introduce Volume QS Tile
+apns: Add YemenMobile
+config: properties: Feb 2025 pihooks update
+extras: iconshapes: Remove config_dialogCornerRadius again
+extras: Move gameprops to product.prop
+pixel-style: Update
