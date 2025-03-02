@@ -10,46 +10,31 @@ Notes:
 
 Device changes:
 ==============================
-None
+move to aidl bootctrl hal
+parts: Add {navigation,video} thermal profiles
+parts: Add support for 60Hz in Landscape in Per-App-RR
+parts: Add thermal profiles tile
+parts: Automatically determine thermal profile for apps
+parts: Fix setting default thermal profile
 
 Notable ROM changes:
 ==============================
-Add an option to switch between native/LMO freeform
-Disable smartpace page indicator if custom clock is enabled
-Evolver: Add freeform mode switch
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL switch
-Fix crash on light/dark theme toggle
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-Make AOSP native freeform windows always-on-top
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Intensity based QS fling haptics
-SystemUI: Implement intensity-based QS tiles haptic feedback
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-apns: Update for ChinaTelecom Macau (CTMO)
-config: Build OmniJaws service
-core: Add OmniJawsClient
-wm: Ensure freeform tasks bounds gets updated when launching tasks
-wm: Fix freeform window minimize not working
+AAudio: fix NotificationClient linkToDeath error
+Broadcast radio power state changes
+Evolver: adjustable max visible notification icons
+Fix nav bar flickering when dialog shows
+Fix settings not applied on boot for device key actions
+Ongoing action progressbar chip implementation
+Open Sound Settings when long clicking volume tile
+Settings: Change range of battery saver schedule seekbar
+Settings: colors: Introduce Reality display engine
+SettingLib: Show only the current network IP addresses
+SystemUI: Fix slider tile layout issue on A11 QS style
+SystemUI: Hide QR code scanner tile if not launch activity available
+SystemUI: Improve Slider tiles percentage color
+SystemUI: Introduce Volume QS Tile
+apns: Add YemenMobile
+config: properties: Feb 2025 pihooks update
+extras: iconshapes: Remove config_dialogCornerRadius again
+extras: Move gameprops to product.prop
+pixel-style: Update
