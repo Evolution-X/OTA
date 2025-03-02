@@ -4,7 +4,7 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 02/13/2025).
+- Play Integrity passes, RCS works (As of 03/02/2025).
 - Includes XiaomiParts, Dolby Atmos and Leica camera.
 - Credits to Arian16k, FlowerSea, GR, RobertGarciaa, ralph20060412.
 
