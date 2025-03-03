@@ -1,5 +1,10 @@
-This is the first release of Evolution X for the OnePlus 7, 7 Pro, 7T and 7T Pro.
+This release is the march one, not containing sec patches tho.
+It is made to avoid a too huge gap that would be caused by QPR2.
+
 ---
 
-February security patch.
-#Keep Evolving.
+Contains KernelSU-Next.
+
+---
+
+#KeepEvolving
