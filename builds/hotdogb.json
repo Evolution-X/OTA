@@ -4,12 +4,12 @@
       "maintainer": "Onelots",
       "oem": "OnePlus",
       "device": "7T",
-      "filename": "EvolutionX-15.0-20250213-hotdogb-10.3-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/hotdogb/15/EvolutionX-15.0-20250213-hotdogb-10.3-Official.zip/download",
-      "timestamp": 1739422240,
-      "md5": "d0cd78dafc3adf87e23e3709d37c5a48",
-      "sha256": "329518c809879a657c7efe495fa29d34e8c6507de3fe392ba34e3c80e0c5a129",
-      "size": 2295680210,
+      "filename": "EvolutionX-15.0-20250303-hotdogb-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/hotdogb/15/EvolutionX-15.0-20250303-hotdogb-10.3-Official.zip/download",
+      "timestamp": 1740996020,
+      "md5": "fd4c515e8cf0476d37a8b146548d2221",
+      "sha256": "0a5d8fa2cd31bddad3e9cbdeb9e78c2d3ef43673640c44e4ba1dbd1fdeabe872",
+      "size": 2325034750,
       "version": "10.3",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-3-02-13-2022.4718521/",
@@ -20,7 +20,7 @@
       "initial_installation_images": [
         "vbmeta",
         "dtbo",
-	"recovery"
+        "recovery"
       ]
     }
   ]
