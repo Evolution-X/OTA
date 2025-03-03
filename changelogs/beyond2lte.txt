@@ -1,1 +1,10 @@
-• Initial Android 15 Release
+This is Android 15 QPR1 with February 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+
+Device changes:
+==============================
+removed Smart Pixels (causing too much issue)
