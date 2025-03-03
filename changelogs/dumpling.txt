@@ -1,5 +1,4 @@
-This is the first release of Evolution X for the OnePlus 5 and 5T.
----
+This release is the march one, not containing sec patches tho.
+It is made to avoid a too huge gap that would be caused by QPR2.
 
-February security patch.
-#Keep Evolving.
+#KeepEvolving
