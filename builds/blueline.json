@@ -4,13 +4,13 @@
       "maintainer": "Onelots",
       "oem": "Google",
       "device": "Pixel 3",
-      "filename": "EvolutionX-15.0-20250205-blueline-10.2.1-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/blueline/15/EvolutionX-15.0-20250205-blueline-10.2.1-Official.zip/download",
-      "timestamp": 1738789760,
-      "md5": "e5b3d37be5b410222005e335cc7968af",
-      "sha256": "c574ab98f5ff7cb935d52b3c8911710d1e6cf938bb65e5b660337c6ef08a2ebf",
-      "size": 2049757040,
-      "version": "10.2",
+      "filename": "EvolutionX-15.0-20250304-blueline-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/blueline/15/EvolutionX-15.0-20250304-blueline-10.3-Official.zip/download",
+      "timestamp": 1741092773,
+      "md5": "86423ad70ade56ddc0e289fa9fbb3744",
+      "sha256": "b05f2664abd288cc6af7bbf45b0e81e760b01bcd36bf5e55994069e880d6d90c",
+      "size": 2090854723,
+      "version": "10.3",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-2-01-28-2024.4715760/",
       "firmware": "",
@@ -18,6 +18,7 @@
       "telegram": "https://t.me/onelots",
       "github": "oneloutre",
       "initial_installation_images": [
+        "dtbo",
         "boot"
       ]
     }

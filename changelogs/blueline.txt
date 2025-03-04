@@ -1,31 +1,6 @@
-ROM changes:
-==============================
-CarrierConfigManager: Enable inflate signal strength by default
-Drop custom adb drawable
-Edge light: Fix blink/pulse mode corner radius
-Evolver: Add switch for compact HUN
-Evolver: Hide 3 button nav customization when using gesture nav
-Evolver: Move to JSON PIF implementation
-LineageParts: Fix overlapping interval seekbar texts in RTL
-LineageParts: Support breath LED mode
-PixelPropsUtils: Improve spoofing
-Settings: Adaptive Playback: Enable dynamicColor on lottie
-Settings: Add vibration patterns from OOS
-Settings: Do not hide Now Playing for Pixel devices
-Settings: Fixup fingerprint enroll finish layout
-Settings: Improve udfps enroll introduction layout
-Settings: Retain udfps overlay shown state on restoring activity
-Settings: Set key order on addition (fixes random re-ordering)
-Settings: Use default letter spacing for category titles
-Settings: Use internal display brightness in overlay displays
-SystemUI: Allow long pressing timer chips to directly stop the action
-SystemUI: Fixup cast chip long press when not showing a timer
-SystemUIGoogle: Inject changes for Smart Pixels
-apns-conf: Update Imobile config
-apns: Add WE EG
-config: properties: Add pihooks default values
-core: Introduce SystemRestartUtils
-fix vtservice cpu hogging
-iconshapes: Set config_bottomDialogCornerRadius to 16dp
-overlay: Set AOSP webview as fallback
-sepolicy: Allow gmscore_app to set system_prop
+This release is the march one, not containing sec patches tho.
+It is made to avoid a too huge gap that would be caused by QPR2.
+
+contains a few performances improvements tho.
+
+#KeepEvolving
