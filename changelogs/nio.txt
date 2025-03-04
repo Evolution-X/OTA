@@ -1,4 +1,5 @@
 February SPL
-Bump to version 10.3
 Clean flash not required whwn upgrading
 Enhanced Evolver Options expanded on ROM source
+Last build before the new QPR update
+Multiple device/kernel updates
