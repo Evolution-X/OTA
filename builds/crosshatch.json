@@ -4,13 +4,13 @@
       "maintainer": "Onelots",
       "oem": "Google",
       "device": "Pixel 3 XL",
-      "filename": "EvolutionX-15.0-20250205-crosshatch-10.2.1-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/crosshatch/15/EvolutionX-15.0-20250205-crosshatch-10.2.1-Official.zip/download",
-      "timestamp": 1738786541,
-      "md5": "599bca8fbd62f02bd3887fc4316f2d17",
-      "sha256": "7cf31b1d52da6c687309468e3d6b0dd85523230f41380ad451d8d42f3e07296e",
-      "size": 2049902786,
-      "version": "10.2",
+      "filename": "EvolutionX-15.0-20250304-crosshatch-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/crosshatch/15/EvolutionX-15.0-20250304-crosshatch-10.3-Official.zip/download",
+      "timestamp": 1741043408,
+      "md5": "1b46e5a1206d060fbb458cd52a1cb622",
+      "sha256": "f40de9d19d01607e483d34bbb96d71c896f49c19ab9814f59cf5c39a9b40bd55",
+      "size": 2091410071,
+      "version": "10.3",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-2-01-28-2024.4715760/",
       "firmware": "",
@@ -18,6 +18,7 @@
       "telegram": "https://t.me/onelots",
       "github": "oneloutre",
       "initial_installation_images": [
+        "dtbo",
         "boot"
       ]
     }
