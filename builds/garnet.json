@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Omar Mohamed",
+      "oem": "Xiaomi",
+      "device": "Redmi Note 13 Pro 5G / Poco X6 5G",
+      "filename": "EvolutionX-15.0-20250304-garnet-10.3-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/garnet/15_vanilla/EvolutionX-15.0-20250304-garnet-10.3-Vanilla-Official.zip/download",
+      "timestamp": 1741113765,
+      "md5": "950b82e172603cbc4c6e0d702ec48293",
+      "sha256": "021a3b22bff4beee5adf27f838e4223b048d70804f852f348cd4ed43cdbac8e4",
+      "size": 1874769496,
+      "version": "10.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-garnet-official-evolution-x-01-14-25.4713398/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/garnet/stable/OS1.0.17.0.UNRMIXM/",
+      "paypal": "https://linktr.ee/Coptan",
+      "telegram": "c0pt4n",
+      "github": "c0pt4n",
+      "initial_installation_images": [
+		  "recovery"
+	  ]
+    }
+  ]
+}
