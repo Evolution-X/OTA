@@ -1,4 +1,4 @@
-This is Android 15 QPR1 with January 2025 security patches
+This is Android 15 QPR1 with Febraury 2025 security patches
 
 Notes:
 ==============================
@@ -11,24 +11,8 @@ Notes:
 
 Device changes:
 ==============================
-Enabled HDR
-Fixed MiCam Quality
-Defer refresh rate changes when screen is off
-Disable OMX
-Remove omx libraries
-sepolicy: Remove /sys/class/qcom-battery label
-
-Notable ROM changes:
-==============================
-Evolver: Remove broken Pixel Launcher customization
-Merge January 2025 security patches
-Update BCR to Version 1.76
-Update SystemUI clocks from komodo 15.0.0 (AP4A.250105.002, Jan 2025)
-Update and bring back SystemUIClocks-Weather for QPR1
-Update gapps from January 2025 release
-core: Use $(PRODUCT_DEVICE) for auto generated RRO names
-init.rc: Disable native stats collection service
-init.rc: don't start console unless asked to
-init: reboot to recovery on panic by default to allow reading pstore
-pixel-style: Remove some unneeded overlays
-soong: increase heap size for metalava
+- Disable proprietary listen model
+- Fixed USSD dial codes
+- Build opensource soundtrigger HAL
+- Get rid of unnecessary 32-bit blobs
+- Setup ELF checks; Welcome to android16
