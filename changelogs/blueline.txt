@@ -1,6 +1,5 @@
-This release is the march one, not containing sec patches tho.
-It is made to avoid a too huge gap that would be caused by QPR2.
+This update fixes the hotspot, being bugged within the latest version.
 
-contains a few performances improvements tho.
+It brings an update to a pixel prebuilt too.
 
-#KeepEvolving
+#KeepEvolving.
