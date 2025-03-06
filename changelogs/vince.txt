@@ -1,3 +1,8 @@
-Initial release for vince
+HOTFIX :
 
-contains everything from EvoX until version 10.3, so even feb sec patches.
+- fixes wifi
+- fixes bluetooth
+- fixes some lags
+- fixes random reboots
+
+#KeepEvolving
