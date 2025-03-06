@@ -1,9 +1,9 @@
-This is Android 14 with February 2025 security patches
+This is Android 14 with March 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build. Gapps version.
-- Play Integrity passes, RCS works (As of 02/14/2025).
+- Play Integrity passes, RCS works (As of 03/07/2025).
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
 
@@ -13,5 +13,5 @@ None
 
 Notable ROM changes:
 ==============================
-Evolver: Update spoof impl
-Merge February 2025 security patches
+Merge March 2025 security patches
+PixelPropsUtils: Update fingerprints to March 2025 release
