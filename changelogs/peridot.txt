@@ -1,0 +1,14 @@
+This is Android 15 QPR1 with February 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS 1.0 firmware first.
+- Use recommended recovery.
+- Play Integrity passes, RCS works.
+- Includes Dolby Atmos, leica camera.
+- Credits Adarsh Grewal and Raghav for their Work also Thanks to all of tester
+
+Device changes:
+==============================
+- Initial Official A15 Build
