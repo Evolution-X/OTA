@@ -1,15 +1,18 @@
 Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/recovery/recovery.img/download
-KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20250303.zip/download
+KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20250311.zip/download
 
 This is Android 15 with Febuary 2025 security patches
 Device changes:
 =======================
-Remove prebuilt Google Photos
+Add Dolby Atmos
+Add support for f2fs userdata
+Adjust status bar padding
 Disable unspecialized app process pool
 Enable config_avoidGfxAccel config
-Tuned status bar padding
-Add support for f2fs userdata
-Switched to userdebug build
+Fix Youtube and Instagram video playback lag
+Remove Dirac
+Remove prebuilt Google Photos
+Switch to userdebug build
 
 
 Rom changes:
