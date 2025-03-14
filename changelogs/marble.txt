@@ -8,70 +8,17 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.223-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 03/04/2025).
+- Play Integrity passes, RCS works (As of 03/14/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add feature flag for IPSEC_TUNNEL_MIGRATION
-Implement torch light control
-Import QCOM audio effects from OnePlus 9R
-Do not use phase offsets as duration
-Fix Dolby audio codecs
-Set VENDOR_SECURITY_PATCH To PLATFORM
-Unmount /firmware after fastbootd starts
-audio: use QCOM Implementation for Audio Effects
-move to aidl bootctrl hal
-parts: Add {navigation,video} thermal profiles
-parts: Add support for 60Hz in Landscape in Per-App-RR
-parts: Add thermal profiles tile
-parts: Automatically determine thermal profile for apps
-parts: Fix setting default thermal profile
-props: Add missing layer buffer slots cache clear property
-props: Disable game_default_frame_rate override
-props: Set SF caching property to 0 (enable)
-rootdir: Drop platform specific setup from init.qcom.early_boot.sh
-rootdir: Drop platform specific setup from init.qcom.post_boot.sh
-rootdir: Drop platform specific setup from init.qcom.sh
-rootdir: Drop useless init.qcom.class_core.sh
+Disable ART debug
+Disable frp
+Import missing permissions for QCC app
 
 Notable ROM changes:
 ==============================
-AAudio: fix NotificationClient linkToDeath error
-AudioService: fix voice volume adjustments
-BrightnessUtils: Conditionally disable gamma conversion for brightness slider
-Broadcast radio power state changes
-Display Engine: Triluminous -> Triluminous Pro
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile
-FlashlightStrengthTile: Update bg color only if supports flash strength control
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-PixelPropsUtils: Update fingerprints to March 2025 release
-Quick Settings power menu uses keyguard show state
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-Settings: Prevent Wifi Tethering NPE
-SettingLib: Show only the current network IP addresses
-SliderQSTileView: Pass the SlideableQSTile interface itself
-SystemUI: Don't tint progressbar chip icon
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Fix up large clock top margin with pixel-fw
-SystemUI: GlobalActions: Hide user switcher in some more cases
-SystemUI: Hide ongoing action progress chip on lockscreen
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-SystemUI: Only show battery shield on default icon
-VolumeControlTile: TouchableQSTile -> SlideableQSTile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: Improve overlays for no hint and space under keyboard
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-extras: Update BCR to Version 1.77
-extras: Update accord
-pixel-style: Update
+Settings: Improve RAM summary for devices >12GB of RAM
+Settings: bluetooth: Fix generateSummary out-of-bounds
