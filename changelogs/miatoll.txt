@@ -1,0 +1,5 @@
+This is the initial release for Laurel sprout, based on A15 QPR1 with February security patches.
+KSU-Next and Susfs kernel available here: https://github.com/Oneloutre/kernel_auto_builder/releases/tag/Kernel-Caelum-miatoll-4.14.336-17032025
+
+
+#KeepEvolving
