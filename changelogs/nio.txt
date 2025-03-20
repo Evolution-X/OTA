@@ -1,5 +1,3 @@
-February SPL
+March SPL
 Clean flash not required whwn upgrading
-Enhanced Evolver Options expanded on ROM source
-Last build before the new QPR update
-Multiple device/kernel updates
+Final QPR1 build
