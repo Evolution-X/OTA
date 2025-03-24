@@ -1,4 +1,4 @@
-2024-02-19
+2025-03-23
 
 
 To use this release you need:
@@ -11,17 +11,4 @@ To use this release you need:
 
 Notable ROM changes:
 ==============================
-Add GeneralSans font overlay
-Add Poppins font
-Add SansSerifPro Font
-Add Volte Round Font
-Evolver: Add back island notifications
-Evolver: Add transparent notification style
-Fix NPE upon android.intent.action.LOCALE_CHANGED
-Fix popping up the the VoLTE screen when it's disabled by the carrier
-Settings: Add a toggle for long press on navbar to search
-SystemUI: Remove split navigation bar layout for sw900dp
-Update Cocon font
-health: Format notification's target time according to locale
-soong: Disable sandbox
-  * and more ...
+March Security Patch
