@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "TechPanelGM",
+      "oem": "Xiaomi",
+      "device": "Mi 10",
+      "filename": "EvolutionX-15.0-20250331-umi-10.4-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/umi/15/EvolutionX-15.0-20250331-umi-10.4-Official.zip/download",
+      "timestamp": 1743413491,
+      "md5": "592e5e8e0fe2200884964b30a6f9e0ed",
+      "sha256": "147914916a7c3f150bc13a0f26c284efb0fe7833f1d8081fa0e32e0da77da32d",
+      "size": 3216906953,
+      "version": "10.4",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/evolution-x-10-4-official-xiaomi-mi-10-umi-cmi.4727750/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "https://t.me/EvolutionXXiaomiMi10Series",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+	"recovery"
+      ]
+    }
+  ]
+}
