@@ -1,55 +1,74 @@
-This is Android 15 QPR1 with February 2025 (r14) security patches
+This is Android 15 QPR2 with February 2025 (r23) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r10-official-evolution-x-10-2-01-24-2025.4659931/) for root.
-- Play Integrity passes, RCS works (As of 02/16/2025).
+- Play Integrity passes, RCS works (As of 04/01/2025).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Update Baalam kernel to 5.10.234
-Update vendor files to OS2.0.3.0.VMNMIXM
-Switch to user release
+Update vendor files to OS2.0.5.0.VMNMIXM
+Add LHDC codec support
 
 Notable ROM changes:
 ==============================
-Add an option to switch between native/LMO freeform
-Disable smartpace page indicator if custom clock is enabled
-Evolver: Add freeform mode switch
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-Fix crash on light/dark theme toggle
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-Make AOSP native freeform windows always-on-top
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Intensity based QS fling haptics
-SystemUI: Implement intensity-based QS tiles haptic feedback
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-config: Build OmniJaws service
-core: Add OmniJawsClient
-wm: Ensure freeform tasks bounds gets updated when launching tasks
-wm: Fix freeform window minimize not working
+Adapt navbar styles target package
+CachedAppOptimizer: Initialize compactProfile and compactTime
+DeviceConfig: drop smartspace flashlight action chip (again)
+DeviceConfig: update nearby flags
+DisplayModeDirector: Set default minimum refresh rate to 60
+Drop overlays after QPR2 changes
+DropBox: skip fsck.f2fs results that don't contain errors
+DropBox: skip spurious system_server_crash entries
+Evolver: Drop features after QPR2 changes
+Evolver: Remove retired navbar features
+FaceUnlockImageView: Prevent statusBarStateController memory leak
+GameManagerService: Affine games to big cores when game mode is enabled
+Hide App list: Improve hide app list feature
+Merge March 2025 security patches
+NotificationAttentionHelper: Apply suppressing notifications on boot
+PackageManagerService: Wipe resource/package cache on upgrade
+Persist music stream volume per user for Automotive
+Reduce max dropbox files
+Remove gestural navigation overlays
+Settings: Do not hide navigation modes
+Settings: Keep page search enabled for legacy navigation customization
+Settings: Mark all DSU options as unsupported
+Settings: Move in navbar styles
+Settings: Move in settings for 3-button navbar
+Settings: Move swipe actions to gesture navigation settings
+Settings: Remove QS tile and QS brightness slider haptic options
+Settings: Themes: Use legacy material background color
+Settings: fix fingerprint enrollment on Google devices with side FP scanner
+SettingsLib: Use legacy material colors for settings' surface container
+Skip moving home to front for multiwindow roottask
+SliderHapticFeedbackProvider: Improve slider haptics
+SystemUI: Add padding end to QS Customizer toolbar
+SystemUI: Adjust QS style to nothingOS
+SystemUI: Fix face unlock indication static calls
+SystemUI: Fix internet dialog background runtime exception
+SystemUI: Fix QS Customizer toolbar color
+SystemUI: Implement SystemUIBoostFramework
+SystemUI: Show Battery Defender indication only when battery level reaches charging threshold
+SystemUI: add keyguard slice view to split shade layout
+SystemUI: don't hide date text on lockscreen when media is playing
+SystemUI: fix keyguard media section placement when split shade is used
+SystemUI: fix orientation of keyguard slice view rows
+SystemUI: improve alignment between keyguard clock and date
+Toast: Fix toast color not following light/dark theme
+Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
+audio: Fix A2DP volume issue with multiple outputs
+camera: Whitelist google camera
+config: enable desktop mode support
+core: Allow camera shutter sound to be disabled in all countries
+core: Expose method to toggle recent apps through Binder
+disable safe media volume management
+don't delay setting observer callbacks for background system packages
+don't remove app widgets from user's home screen when the user stops
+fix check for the current holder of the Wallet app role
+fonts: Update from komodo BP1A.250305.02
+overlay: Remove no longer used NavigationBarNoHint
+release: Enable new QS panel
