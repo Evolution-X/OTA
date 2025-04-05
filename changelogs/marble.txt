@@ -3,80 +3,56 @@ This is Android 15 QPR2 with March 2025 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
+- Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.223-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 03/31/2025).
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
+- Play Integrity passes, RCS works (As of 04/06/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add LDAC & LHDC codecs
-Address missing SetTaskProfiles symbol in camera libs
-Drop bootctl from debug packages
-Fix Dolby audio codecs
-Move thermal permissions to on boot
-Update fingerprints
-switch to common QCOM AIDL bootctrl HAL
+Add libwfdservice_shim_v1 for WFD
+Don't explicitly set as an AB target
+Drop gralloc priv handle configuration
+LightNotifier: Switch to shared_ptr to avoid memory leaks
+Set manufacturer soc property
+Switch to latest .230 kernel and trees
+Update blobs from cupid V816.0.10.0.ULCMIXM
+Update display ids with display hardware port id changes
+move vibrator effect stream config to select
+overlay: Disable turbulence noise
+rootdir: Add "system" group to Audio HAL
 
 Notable ROM changes:
 ==============================
-Adapt navbar styles target package
-CachedAppOptimizer: Initialize compactProfile and compactTime
-DeviceConfig: drop smartspace flashlight action chip (again)
-DeviceConfig: update nearby flags
-DisplayModeDirector: Set default minimum refresh rate to 60
-Drop overlays after QPR2 changes
-DropBox: skip fsck.f2fs results that don't contain errors
-DropBox: skip spurious system_server_crash entries
-Evolver: Drop features after QPR2 changes
-Evolver: Remove retired navbar features
-FaceUnlockImageView: Prevent statusBarStateController memory leak
-GameManagerService: Affine games to big cores when game mode is enabled
-Hide App list: Improve hide app list feature
-Merge March 2025 security patches
-NotificationAttentionHelper: Apply suppressing notifications on boot
-PackageManagerService: Wipe resource/package cache on upgrade
-Persist music stream volume per user for Automotive
-Reduce max dropbox files
-Remove gestural navigation overlays
-Settings: Do not hide navigation modes
-Settings: Keep page search enabled for legacy navigation customization
-Settings: Mark all DSU options as unsupported
-Settings: Move in navbar styles
-Settings: Move in settings for 3-button navbar
-Settings: Move swipe actions to gesture navigation settings
-Settings: Remove QS tile and QS brightness slider haptic options
-Settings: Themes: Use legacy material background color
-Settings: fix fingerprint enrollment on Google devices with side FP scanner
-SettingsLib: Use legacy material colors for settings' surface container
-Skip moving home to front for multiwindow roottask
-SliderHapticFeedbackProvider: Improve slider haptics
-SystemUI: Add padding end to QS Customizer toolbar
-SystemUI: Adjust QS style to nothingOS
-SystemUI: Fix face unlock indication static calls
-SystemUI: Fix internet dialog background runtime exception
-SystemUI: Fix QS Customizer toolbar color
-SystemUI: Implement SystemUIBoostFramework
-SystemUI: Show Battery Defender indication only when battery level reaches charging threshold
-SystemUI: add keyguard slice view to split shade layout
-SystemUI: don't hide date text on lockscreen when media is playing
-SystemUI: fix keyguard media section placement when split shade is used
-SystemUI: fix orientation of keyguard slice view rows
-SystemUI: improve alignment between keyguard clock and date
-Toast: Fix toast color not following light/dark theme
-Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
-audio: Fix A2DP volume issue with multiple outputs
-camera: Whitelist google camera
-config: enable desktop mode support
-core: Allow camera shutter sound to be disabled in all countries
-core: Expose method to toggle recent apps through Binder
-disable safe media volume management
-don't delay setting observer callbacks for background system packages
-don't remove app widgets from user's home screen when the user stops
-fix check for the current holder of the Wallet app role
-fonts: Update from komodo BP1A.250305.02
-overlay: Remove no longer used NavigationBarNoHint
-release: Enable new QS panel
+Added RECORD_AUDIO permission for MIC
+Audio: fix ~refbase() crash caused by race condition
+BluetoothAdapter: Check constructor for null first
+Bring back old QS panel and QS customization
+DisplayPolicy: Use DISPLAY_UPDATE_IMMINENT for scrolling boosts
+Evolver: Add ongoing action chip toggle setting
+Lockscreen widgets: Match background with notification bg color
+Override host metadata
+Remove cryptographic signature verification for local updates
+Support dark mode for default theme
+SystemUI: Bring back old smartspace padding
+Telecomm: Provide required permissions for Telephony
+Update host metadata overrides for 15 QPR2
+WeatherAppWidgetProvider: Fix crash when checking outline icon pack
+Zygote: Explicitly disable memory tagging
+audiopolicy: return appropriate profile from searchCompatibleProfileHwModules
+base: Don't kill isolated and sandbox processes
+core: Also don't kill frozen processes when receiving sync binder transactions
+extras: Add font package for Google Sans Flex
+extras: Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
+extras: fonts: Update Google Sans from BP1A.250305.020
+fixup! SystemUI: Constrain keyguard indication area burn-in offset
+import brightness fluctuation fix from Android 16 Beta 3.1
+kernel: Set "safe" default values for kernel build host & user
+overlay: Enable keyboard vibration
+overlay: SystemUI: Add plugin whitelist
+pixel-style: Import animations from SettingsGoogle
+services: Add GameSpaceManagerService
+services: Pin system_server to top-app
