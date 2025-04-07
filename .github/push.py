@@ -11,6 +11,16 @@ udc_vanilla_webhook = os.environ["UDC_VANILLA_WEBHOOK"]
 vic_webhook = os.environ["VIC_WEBHOOK"]
 vic_vanilla_webhook = os.environ["VIC_VANILLA_WEBHOOK"]
 
+def get_commit_hash(branch, codename):
+    path = f"changelogs/{codename}.txt"
+    api_url = f"https://api.github.com/repos/Evolution-X/OTA/commits?path={path}&sha={branch}"
+    response = requests.get(api_url)
+    response.raise_for_status()
+    commits = response.json()
+    if commits:
+        return commits[0]['sha']
+    else:
+        return "Unknown"
 
 def parse_device():
     with open(file_path) as f:
@@ -29,7 +39,6 @@ def parse_device():
         github = response[0]["github"]
     return filename, codename, oem, device, maintainer, version, build_date, file_size, download_link, xda_thread, github
 
-
 def humanize(num, suffix='B'):
     for unit in ['', 'K', 'M', 'G', 'T', 'P', 'E', 'Z']:
         if abs(num) < 1024.0:
@@ -37,10 +46,13 @@ def humanize(num, suffix='B'):
         num /= 1024.0
     return f"{num:.1f}Yi{suffix}"
 
-
 def webhook_send():
     filename, codename, oem, device, maintainer, version, build_date, file_size, download_link, xda_thread, github = parse_device()
-
+    
+    # Extract only the branch name from GITHUB_REF, default to 'vic'
+    branch = os.environ.get("GITHUB_REF", "refs/heads/vic").split("/")[-1]
+    commit_hash = get_commit_hash(branch, codename)
+    
     if "Vanilla" in filename and "10." in version:
         webhook_url = vic_vanilla_webhook
     if "Vanilla" in filename and "9." in version:
@@ -73,6 +85,7 @@ def webhook_send():
             📦 • **Version**: {version}
             🕒 • **Build date**: {datetime.fromtimestamp(build_date, tz=None).date()}
             📎 • **Build size**: {humanize(file_size)}
+            🗞️ • **[Changelog](https://raw.githubusercontent.com/Evolution-X/OTA/{commit_hash}/changelogs/{codename}.txt)**
             <:Evo:670530693985730570> • **Check [device's infos](https://evolution-x.org/downloads/{codename}) directly on our website!**\n
             
             ⬇️ [Download link]({download_link}) ⬇️\n 
