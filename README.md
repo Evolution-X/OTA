@@ -13,7 +13,7 @@
       "sha256": "abcdefg123456",
       "size": 123456789,
       "version": "<evolution_x_version>",
-      "buildtype": "Testing/Alpha/Beta/Weekly/Monthly",
+      "buildtype": "user/userdebug/eng",
       "forum": "https://forum link", #(mandatory)
       "firmware": "https://firmware link",
       "paypal": "https://donation link",

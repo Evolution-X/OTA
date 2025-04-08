@@ -1,24 +1,58 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 QPR2 with March 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Make sure to be on HyperOS firmware first.
-- Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
+- Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.223-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 03/14/2025).
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
+- Play Integrity passes, RCS works (As of 04/06/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Disable ART debug
-Disable frp
-Import missing permissions for QCC app
+Add libwfdservice_shim_v1 for WFD
+Don't explicitly set as an AB target
+Drop gralloc priv handle configuration
+LightNotifier: Switch to shared_ptr to avoid memory leaks
+Set manufacturer soc property
+Switch to latest .230 kernel and trees
+Update blobs from cupid V816.0.10.0.ULCMIXM
+Update display ids with display hardware port id changes
+move vibrator effect stream config to select
+overlay: Disable turbulence noise
+rootdir: Add "system" group to Audio HAL
 
 Notable ROM changes:
 ==============================
-Settings: Improve RAM summary for devices >12GB of RAM
-Settings: bluetooth: Fix generateSummary out-of-bounds
+Added RECORD_AUDIO permission for MIC
+Audio: fix ~refbase() crash caused by race condition
+BluetoothAdapter: Check constructor for null first
+Bring back old QS panel and QS customization
+DisplayPolicy: Use DISPLAY_UPDATE_IMMINENT for scrolling boosts
+Evolver: Add ongoing action chip toggle setting
+Lockscreen widgets: Match background with notification bg color
+Override host metadata
+Remove cryptographic signature verification for local updates
+Support dark mode for default theme
+SystemUI: Bring back old smartspace padding
+Telecomm: Provide required permissions for Telephony
+Update host metadata overrides for 15 QPR2
+WeatherAppWidgetProvider: Fix crash when checking outline icon pack
+Zygote: Explicitly disable memory tagging
+audiopolicy: return appropriate profile from searchCompatibleProfileHwModules
+base: Don't kill isolated and sandbox processes
+core: Also don't kill frozen processes when receiving sync binder transactions
+extras: Add font package for Google Sans Flex
+extras: Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
+extras: fonts: Update Google Sans from BP1A.250305.020
+fixup! SystemUI: Constrain keyguard indication area burn-in offset
+import brightness fluctuation fix from Android 16 Beta 3.1
+kernel: Set "safe" default values for kernel build host & user
+overlay: Enable keyboard vibration
+overlay: SystemUI: Add plugin whitelist
+pixel-style: Import animations from SettingsGoogle
+services: Add GameSpaceManagerService
+services: Pin system_server to top-app
