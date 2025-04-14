@@ -1,5 +1,7 @@
-This update fixes the hotspot, being bugged within the latest version.
+This is Android 15 with April 2025 security patches
+Device changes:
+=======================
 
-It brings an update to a pixel prebuilt too.
-
-#KeepEvolving.
+Rom changes:
+=======================
+Android QPR2
