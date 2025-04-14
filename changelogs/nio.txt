@@ -1,3 +1,5 @@
-March SPL
+April SPL
 Clean flash not required whwn upgrading
-Final QPR1 build
+QPR2 build
+Bump to EvolutionX v10.5
+Viper4Android driver issue fixed
