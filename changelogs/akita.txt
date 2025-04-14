@@ -1,141 +1,17 @@
-This is Android 15 QPR1 with Feb 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 03/13/2025).
+- Play Integrity passes, RCS works (As of 04/13/2025).
 
 
 Device changes:
 ==============================
-Last Update for 10.3
+Update to April Device Firmware
 
 
 Rom changes:
 =======================
-Drop custom adb drawable
-Evolver: Hide 3 button nav customization when using gesture nav
-Evolver: Move to JSON PIF implementation
-LineageParts: Fix overlapping interval seekbar texts in RTL
-LineageParts: Support breath LED mode
-PixelPropsUtils: Improve spoofing
-Settings: Do not hide Now Playing for Pixel devices
-Settings: Fixup fingerprint enroll finish layout
-Settings: Improve udfps enroll introduction layout
-Settings: Retain udfps overlay shown state on restoring activity
-Settings: Set key order on addition (fixes random re-ordering)
-Settings: Use default letter spacing for category titles
-Settings: Use internal display brightness in overlay displays
-SystemUI: Allow long pressing timer chips to directly stop the action
-SystemUI: Fixup cast chip long press when not showing a timer
-apns-conf: Update Imobile config
-apns: Add WE EG
-config: properties: Add pihooks default values
-fix vtservice cpu hogging
-iconshapes: Set config_bottomDialogCornerRadius to 16dp
-overlay: Set AOSP webview as fallback
-sepolicy: Allow gmscore_app to set system_prop
-BlackTheme: Make more container surfaces black
-Disable Game default frame rate feature
-Evolver: Add percentage view to brightness slider
-Evolver: Bring in features from rising
-Evolver: Fix quick pull down rtl values
-Evolver: Implement Better QS (optional toggle)
-Evolver: Introduce Volume Styles
-Evolver: OverlaySwitchPreference: Update
-Evolver: Show restart SystemUI dialog for some toggles
-GameSpace: Integrate LMOFreeform to quick start apps
-Merge February 2025 security patches
-OmniStyle: Add more QS Header image packs
-Settings: Add system haptics intensity settings
-Settings: Disable SettingsDumpService
-SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
-SystemUI: Prevent indicator text cutting off in biometric prompt
-Update translations
-aconfig: Disable FRP enforcement
-apns: Add Bait Apn
-apps: Include prebuilt Accord music player
-check_boot_jars: Whitelist LMOFreeform
-config: Build LMO Freeform app and sidebar
-config: Disable RescueParty
-config: Remove useless addon.d file
-overlay: device_config: Add values required for Speech Recognition
-overlay: device_config: Escape special characters
-overlay: device_config: Updates
-properties: Set default game props
-themes: Expose values for theming settings
-themes: Import notification, progress bar and power menu themes
-vendor: Overlay PermissionController to use headline font from framework resource
-Check if getParameters reply contains the required key
-Disable smartpace page indicator if custom clock is enabled
-Do not post notification when system boot is not ready
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar + height feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-Fix crash on light/dark theme toggle
-Fix SurfaceFlinger crash caused by layerleak
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-aconfig: Enable compact notification HUN
-config: Build OmniJaws service
-core: Add OmniJawsClient
-overlay: Set PermissionController help URLs
-AAudio: fix NotificationClient linkToDeath error
-AudioService: fix voice volume adjustments
-BrightnessUtils: Conditionally disable gamma conversion for brightness slider
-Broadcast radio power state changes
-Display Engine: Triluminous -> Triluminous Pro
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile
-FlashlightStrengthTile: Update bg color only if supports flash strength control
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-PixelPropsUtils: Update fingerprints to March 2025 release
-Quick Settings power menu uses keyguard show state
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-Settings: Prevent Wifi Tethering NPE
-SettingLib: Show only the current network IP addresses
-SliderQSTileView: Pass the SlideableQSTile interface itself
-SystemUI: Don't tint progressbar chip icon
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Fix up large clock top margin with pixel-fw
-SystemUI: GlobalActions: Hide user switcher in some more cases
-SystemUI: Hide ongoing action progress chip on lockscreen
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-SystemUI: Only show battery shield on default icon
-VolumeControlTile: TouchableQSTile -> SlideableQSTile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: Improve overlays for no hint and space under keyboard
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-extras: Update BCR to Version 1.77
-extras: Update accord
-pixel-style: Update
+Initial 10.5 Qpr2 Update
