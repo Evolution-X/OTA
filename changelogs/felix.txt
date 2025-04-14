@@ -1,1 +1,1 @@
-Initial Android 15 QPR1 release
+Initial 10.5 Qpr2 Update
