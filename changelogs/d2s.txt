@@ -1,33 +1,35 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 02/13/2025).
+- Play Integrity passes, RCS works (As of 04/11/2025).
+- Includes Dolby Atmos.
 
 Device changes:
 ==============================
-removed Smart Pixels (causing too much issue)
+fixed whatsapp call/video calls
 
 Notable ROM changes:
 ==============================
-AAudio: fix NotificationClient linkToDeath error
-Broadcast radio power state changes
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-SettingLib: Show only the current network IP addresses
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-pixel-style: Update
+Adapt QS widgets for 15-QPR2
+Add more device key actions
+Enable ThinLTO cache
+Evolver: Controllable squiggle animation
+Evolver: Revamp lock screen fragment
+Fix NullPointerException issue due to threads race
+Fix splash screen retention issue during transferStartingWindow
+Import animations from SettingsGoogle
+Merge April 2025 security patches
+Resources: don't crash the app if font is not found
+Settings: Prevent IllegalArgumentException in storage settings
+SystemUI: RE-Introduce QS Widgets
+Use IntArray instead of ArraySet<Integer> to store int lists
+Use Launcher3 value for taskbar_phone_size in Pixel Launcher
+audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+audio policy: return appropriate profile from searchCompatibleProfileHwModules
+envsetup.sh: Override host metadata
+fix NexusLauncher for tablet mode & follow system taskbar size
+fix empty reverse charging lottie
+rro_overlays: Bump to BP1A.250305.019

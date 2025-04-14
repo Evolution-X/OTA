@@ -70,7 +70,7 @@ def webhook_send():
         color = 0xffe7c4
     else:
         color = 0x2986cc
-    evo_org_tumbnail = f"https://raw.githubusercontent.com/Evolution-X/www_gitres/refs/heads/main/devices/images/{codename}.png"
+    evo_org_tumbnail = f"https://raw.githubusercontent.com/Evolution-X/www_gitres/refs/heads/main/devices/images/{codename}.webp"
     if requests.get(evo_org_tumbnail).status_code == 404:
         thumbnail = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7DK6a--HvqADA_u3mGjXSVUvxxZ5sw3x9Sw&s"
     else:

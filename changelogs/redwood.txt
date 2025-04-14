@@ -1,74 +1,38 @@
-This is Android 15 QPR2 with March 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 03/04/2025).
+- Play Integrity passes, RCS works (As of 11/04/2025).
 - Includes Dolby Atmos, POCO camera.
-
+- Install this (https://github.com/rsuntk/KernelSU/releases/download/v1.0.3-38-legacy/KernelSU_v1.0.3-38-legacy_12128-release.apk) for root.
+- Flash ( https://github.com/Atom-X-Devs/scarlet_xiaomi_sm7325/releases ) NON-ROOT version of kernel to get rid of root.
 
 Device Changes:
 ==============================
-03-April-2025
+11-April-2025
 ==============================
 No changes
 
 Notable ROM changes:
 ==============================
-Adapt navbar styles target package
-CachedAppOptimizer: Initialize compactProfile and compactTime
-DeviceConfig: drop smartspace flashlight action chip (again)
-DeviceConfig: update nearby flags
-DisplayModeDirector: Set default minimum refresh rate to 60
-Drop overlays after QPR2 changes
-DropBox: skip fsck.f2fs results that don't contain errors
-DropBox: skip spurious system_server_crash entries
-Evolver: Drop features after QPR2 changes
-Evolver: Remove retired navbar features
-FaceUnlockImageView: Prevent statusBarStateController memory leak
-GameManagerService: Affine games to big cores when game mode is enabled
-Hide App list: Improve hide app list feature
-Merge March 2025 security patches
-NotificationAttentionHelper: Apply suppressing notifications on boot
-PackageManagerService: Wipe resource/package cache on upgrade
-Persist music stream volume per user for Automotive
-Reduce max dropbox files
-Remove gestural navigation overlays
-Settings: Do not hide navigation modes
-Settings: Keep page search enabled for legacy navigation customization
-Settings: Mark all DSU options as unsupported
-Settings: Move in navbar styles
-Settings: Move in settings for 3-button navbar
-Settings: Move swipe actions to gesture navigation settings
-Settings: Remove QS tile and QS brightness slider haptic options
-Settings: Themes: Use legacy material background color
-Settings: fix fingerprint enrollment on Google devices with side FP scanner
-SettingsLib: Use legacy material colors for settings' surface container
-Skip moving home to front for multiwindow roottask
-SliderHapticFeedbackProvider: Improve slider haptics
-SystemUI: Add padding end to QS Customizer toolbar
-SystemUI: Adjust QS style to nothingOS
-SystemUI: Fix face unlock indication static calls
-SystemUI: Fix internet dialog background runtime exception
-SystemUI: Fix QS Customizer toolbar color
-SystemUI: Implement SystemUIBoostFramework
-SystemUI: Show Battery Defender indication only when battery level reaches charging threshold
-SystemUI: add keyguard slice view to split shade layout
-SystemUI: don't hide date text on lockscreen when media is playing
-SystemUI: fix keyguard media section placement when split shade is used
-SystemUI: fix orientation of keyguard slice view rows
-SystemUI: improve alignment between keyguard clock and date
-Toast: Fix toast color not following light/dark theme
-Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
-audio: Fix A2DP volume issue with multiple outputs
-camera: Whitelist google camera
-config: enable desktop mode support
-core: Allow camera shutter sound to be disabled in all countries
-core: Expose method to toggle recent apps through Binder
-disable safe media volume management
-don't delay setting observer callbacks for background system packages
-don't remove app widgets from user's home screen when the user stops
-fix check for the current holder of the Wallet app role
-fonts: Update from komodo BP1A.250305.02
-overlay: Remove no longer used NavigationBarNoHint
-release: Enable new QS panel
+Adapt QS widgets for 15-QPR2
+Add more device key actions
+Enable ThinLTO cache
+Evolver: Controllable squiggle animation
+Evolver: Revamp lock screen fragment
+Fix NullPointerException issue due to threads race
+Fix splash screen retention issue during transferStartingWindow
+Import animations from SettingsGoogle
+Merge April 2025 security patches
+Resources: don't crash the app if font is not found
+Settings: Prevent IllegalArgumentException in storage settings
+SystemUI: RE-Introduce QS Widgets
+Use IntArray instead of ArraySet<Integer> to store int lists
+Use Launcher3 value for taskbar_phone_size in Pixel Launcher
+audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+audio policy: return appropriate profile from searchCompatibleProfileHwModules
+envsetup.sh: Override host metadata
+fix NexusLauncher for tablet mode & follow system taskbar size
+fix empty reverse charging lottie
+rro_overlays: Bump to BP1A.250305.019
