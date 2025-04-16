@@ -9,13 +9,13 @@ Notes:
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
 - Play Integrity passes, RCS works (As of 04/15/2025).
-- Includes Dolby Atmos, POCO camera.
+- Includes POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
+Drop Dolby Atmos
 Drop prebuilt audio configs and blobs
-Fix Dolby audio codecs APC formatting
 Import audio configs from LA.VENDOR.1.0.r1-26900-WAIPIO.QSSI15.0
 Move acdbdata to ukee_mtp and drop unused ones
 Update blobs and firmware from OS2.0.1.0.VMRMIXM
