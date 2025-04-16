@@ -1,53 +1,78 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app (https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.4/KernelSU_Next_v1.0.4_12335-release.apk).
-- Play Integrity passes, RCS works (As of 03/06/2025).
+- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
+- Play Integrity passes, RCS works (As of 04/16/2025).
 - Includes Dolby Atmos, Leica camera.
 
 Device changes:
 ==============================
-Update tetheroffload to version 1.1
+Add feature flag for IPSEC_TUNNEL_MIGRATION
+Bring back Quick tap support
+Disable UFFD GC via OVERRIDE_ENABLE_UFFD_GC
+Don't explicitly build qcom.fmradio
+Drop kernel target-level from manifest
+Enable concurrent restricted connectivity
+Migrate away from TARGET_RECOVERY_DEVICE_MODULES
+Move ramdisk fstab target to Soong
+Remove deprecated config_mobile_tcp_buffers/networkAttributes
+Remove unneeded NFC packages
+Remove unused config_speed_up_audio_on_mt_calls
+Remove wigig components
+Set default pin amount for home app
+Suppress warning related to NNAPI HAL accessing zeroth.debuglog.logmask
+init: Add formattable flag for /data fstab entry
+overlay: Use the new auto network selection UI
+rro_overlays: WifiOverlay: Move to vendor
+sepolicy: Allow init script access proc
+sepolicy: Allow vendor_hal_usb_qti to acess vendor_sysfs_usb_controller
+sepolicy: Give QCOM TEE directory access to tmpfs
+wifi: Support Wifi6
 
 Notable ROM changes:
 ==============================
-AAudio: fix NotificationClient linkToDeath error
-AudioService: fix voice volume adjustments
-BrightnessUtils: Conditionally disable gamma conversion for brightness slider
-Broadcast radio power state changes
-Display Engine: Triluminous -> Triluminous Pro
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile
-FlashlightStrengthTile: Update bg color only if supports flash strength control
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-PixelPropsUtils: Update fingerprints to March 2025 release
-Quick Settings power menu uses keyguard show state
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-Settings: Prevent Wifi Tethering NPE
-SettingLib: Show only the current network IP addresses
-SliderQSTileView: Pass the SlideableQSTile interface itself
-SystemUI: Don't tint progressbar chip icon
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Fix up large clock top margin with pixel-fw
-SystemUI: GlobalActions: Hide user switcher in some more cases
-SystemUI: Hide ongoing action progress chip on lockscreen
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-SystemUI: Only show battery shield on default icon
-VolumeControlTile: TouchableQSTile -> SlideableQSTile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: Improve overlays for no hint and space under keyboard
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-extras: Update BCR to Version 1.77
-extras: Update accord
-pixel-style: Update
+Adapt the NowBar feature to 15-QPR2
+Add RRO to hide NexusLauncher gesture hint
+AudioEffect: avoid crashing system when loaded effect is not supported
+CachedAppOptimizer: do not freeze process if adj is less than FREEZER_CUTOFF_ADJ
+CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
+CameraCaptureSessionImpl: Avoid unnecessary property access denials
+ChargingControlNotification: fix system server crash
+ChargingControl: Prevent crash against null provider
+Do not show any charge info when the nowbar is enabled and the phone is charging
+Enable freeform windows by default
+EvolutionUtils: Add util to toggle overlays
+Evolver: Remove option to switch between native/LMO freeform
+Fix NPE in TextToSpeechManagerPerUserService
+Fix NPE when IntentFilter doesn't have any data type.
+Fix wrong pid in event_log when native crash
+Force set the peek display position to top
+MediaRouter2: fix crash when system routes is not available
+Merge April 2025 security patches
+RemoteViews - Always load new ApplicationInfo from PackageManager
+Settings: Move Notch Cutout to Display
+Settings: Support hiding gesture hint in NexusLauncher
+SystemUI: Fix slice view widget padding
+SystemUI: VolumeDialog: Do not check previous state when updating rows
+SystemUI: VolumeDialog: Fix up touchable region with per-app volume
+SystemUI: VolumeDialog: Make rows view GONE if not required
+SystemUI: VolumeDialog: Use settings observer for app volume
+SystemUI: fix a screenshot process crash in ScrollCaptureController
+Telcomm: Enable support for blocking callers not in contacts
+Telecomm: Fix ConcurrentModificationException in BluetoothDeviceManager
+Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
+VolumeControlTile: Update volume percent after listening
+VolumeControlTile: show volume slider when long pressed
+add workaround for BiometricService.SettingObserver system_server crash
+camera2: add null/empty checks before accessing packageName
+core: Update freeze IDs for VIC QPR2 used by HbmSvManager
+fix NPE system_server crash in F2fsUtils.getFilesRecursive()
+getCommunicationDevice() will wait after device update end
+lineage-sdk: Fix charging notification crash due to faulty strings
+overlay: Allow ShannonIMS to access ServiceState
+services: Do not freeze foreground processes
+telephony: Trim warning log if app not installed
