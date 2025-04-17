@@ -5,34 +5,53 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r10-official-evolution-x-10-2-01-24-2025.4659931/) for root.
-- Play Integrity passes, RCS works (As of 04/12/2025).
+- Play Integrity passes, RCS works (As of 04/16/2025).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Update vendor files to OS2.0.7.0.VMNMIXM
-Fix vibrator HAL
+Hotfix LHDC codec
 
 Notable ROM changes:
 ==============================
+Adapt the NowBar feature to 15-QPR2
+Add RRO to hide NexusLauncher gesture hint
+AudioEffect: avoid crashing system when loaded effect is not supported
+CachedAppOptimizer: do not freeze process if adj is less than FREEZER_CUTOFF_ADJ
+CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
+CameraCaptureSessionImpl: Avoid unnecessary property access denials
+ChargingControlNotification: fix system server crash
+ChargingControl: Prevent crash against null provider
+Do not show any charge info when the nowbar is enabled and the phone is charging
+Enable freeform windows by default
+EvolutionUtils: Add util to toggle overlays
+Evolver: Remove option to switch between native/LMO freeform
+Fix NPE in TextToSpeechManagerPerUserService
+Fix NPE when IntentFilter doesn't have any data type.
+Fix wrong pid in event_log when native crash
+Force set the peek display position to top
+MediaRouter2: fix crash when system routes is not available
+RemoteViews - Always load new ApplicationInfo from PackageManager
+Settings: Move Notch Cutout to Display
 Settings: Support hiding gesture hint in NexusLauncher
-Adapt QS widgets for 15-QPR2
-Add more device key actions
-Enable ThinLTO cache
-Evolver: Controllable squiggle animation
-Evolver: Revamp lock screen fragment
-Fix NullPointerException issue due to threads race
-Fix splash screen retention issue during transferStartingWindow
-Import animations from SettingsGoogle
-Merge April 2025 security patches
-Resources: don't crash the app if font is not found
-Settings: Prevent IllegalArgumentException in storage settings
-SystemUI: RE-Introduce QS Widgets
-Use IntArray instead of ArraySet<Integer> to store int lists
-Use Launcher3 value for taskbar_phone_size in Pixel Launcher
-audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
-audio policy: return appropriate profile from searchCompatibleProfileHwModules
-envsetup.sh: Override host metadata
-fix NexusLauncher for tablet mode & follow system taskbar size
-fix empty reverse charging lottie
-rro_overlays: Bump to BP1A.250305.019
+SystemUI: Fix slice view widget padding
+SystemUI: VolumeDialog: Do not check previous state when updating rows
+SystemUI: VolumeDialog: Fix up touchable region with per-app volume
+SystemUI: VolumeDialog: Make rows view GONE if not required
+SystemUI: VolumeDialog: Use settings observer for app volume
+SystemUI: fix a screenshot process crash in ScrollCaptureController
+Telcomm: Enable support for blocking callers not in contacts
+Telecomm: Fix ConcurrentModificationException in BluetoothDeviceManager
+Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
+VolumeControlTile: Update volume percent after listening
+VolumeControlTile: show volume slider when long pressed
+add workaround for BiometricService.SettingObserver system_server crash
+camera2: add null/empty checks before accessing packageName
+core: Update freeze IDs for VIC QPR2 used by HbmSvManager
+fix NPE system_server crash in F2fsUtils.getFilesRecursive()
+getCommunicationDevice() will wait after device update end
+lineage-sdk: Fix charging notification crash due to faulty strings
+overlay: Allow ShannonIMS to access ServiceState
+services: Do not freeze foreground processes
+telephony: Trim warning log if app not installed
