@@ -1,25 +1,19 @@
-This is Android 15 QPR1 with March 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Make sure to be on HyperOS 1.0 firmware first.
+- Make sure to be on HyperOS 2.0 firmware first.
 - Use recommended recovery.
 - Play Integrity passes, RCS works.
 - Includes Dolby Atmos, leica camera.
-- Credits Adarsh Grewal and Raghav for their Work also Thanks to all of tester
+- Credits Adarsh Grewal and Raghav for their Work also Thanks to all of my testers
 
 Device changes:
 ==============================
-- Update from V816.0.12.0.UNPMIXM
-- Build DSPVolumeSynchronizer
-- Fixed USSD
-- Fixed Battery drain issue
-- Fixed qs Shutter
-- Slow charging Fixed
-- Dolby Updated
-- Add Thermal Profile
-- High Touch Polling Rate
-- Saturation Setting
-- add HBM
-- dt2w fixed 
+- Update blobs from OS2.0.100.0.VNPMIXM
+- Update kernel from OS2.0.100.0.VNPMIXM
+- Increase system Stability
+- Misc Changes and Improvement
+
+N.B: Clean flash recommended
