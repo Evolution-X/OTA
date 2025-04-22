@@ -8,25 +8,27 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 04/15/2025).
+- Play Integrity passes, RCS works (As of 04/22/2025).
 - Includes POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Disable speaker protection
-sepolicy: Allow platform app to find SoterService
+Set game refresh rate override to 120
+fixing connecting BLE (bt 5.x) devices (smart watches, etc.)
 
 Notable ROM changes:
 ==============================
-Cap the max size of reported work durations
-Fix NPE in TouchpadDebugViewController
-Fix SwAudioOutputCollection indexing in closeOutput()
-Fix ever-growing AppOpItem string representation
-Fix incorrect NULL check in IncFsFileMap reference assertions
-GameSpaceManager: Rewrite and fix app detection issues
-GameSpaceManagerService: sanitize game list
-Only toggle MainSwitchBar on successful change listener result
-Reparent surface to original parent post-rotation animation
-appop: Finish all when last in chain fail
-services: Add GameSpaceManagerService
+AppLockPackageListFragment: fix app filter
+Evolver: Rewrite theme elements
+Evolver: Support navbar themes in both Launcher3 & NexusLauncher
+Fix "Manage App & Content access" for profiles
+ManageStoragePreferenceController: Explicitly disable storage management preference
+Shell: Use night/light theme for buttons/caption color instead of luminance
+Stop unsuspending packages in profiles
+SystemUI: Make lockscreen buttons slightly bigger
+SystemUI: add config for ignoring lockscreen cutout for status bar
+fixup! Add high touch sensitivity to InputService
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+fixup! PowerManager: Add proximity check on wake
+vendor: props: Add blur support
