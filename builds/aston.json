@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Tejas Singh (tejas101k)",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "12R / Ace 3",
       "filename": "EvolutionX-14.0-20241111-aston-v9.5-Official.zip",

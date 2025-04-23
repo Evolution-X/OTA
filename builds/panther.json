@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 7",
       "filename": "EvolutionX-14.0-20240825-panther-v9.3-Official.zip",

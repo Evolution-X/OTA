@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Akshat Singh",
+      "currently_maintained": true,
       "oem": "Nokia",
       "device": "6.1",
       "filename": "EvolutionX-14.0-20240610-PL2-v9.0-Official.zip",

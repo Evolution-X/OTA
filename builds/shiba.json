@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Oscar Mariscal",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 8",
       "filename": "EvolutionX-14.0-20241013-shiba-v9.5-Official.zip",

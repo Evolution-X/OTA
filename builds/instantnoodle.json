@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Manidweep",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "8",
       "filename": "EvolutionX-14.0-20241225-instantnoodle-v9.7-Official.zip",

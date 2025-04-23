@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Oscar Mariscal",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 8a",
       "filename": "EvolutionX-14.0-20241013-akita-v9.5-Official.zip",

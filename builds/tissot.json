@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Joey Huab",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi A1",
       "filename": "EvolutionX-14.0-20250306-tissot-v9.9.2-Official.zip",

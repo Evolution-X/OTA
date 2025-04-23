@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Le Hong Duc (tedomi2705)",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Pocophone F1",
       "filename": "EvolutionX-14.0-20241031-beryllium-v9.5-Official.zip",

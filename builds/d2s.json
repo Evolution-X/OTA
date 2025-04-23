@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
       "oem": "Samsung",
       "device": "Galaxy Note 10 Plus",
       "filename": "EvolutionX-14.0-20241114-d2s-v9.6-Official.zip",

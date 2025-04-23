@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Chema Funtan",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 9",
       "filename": "EvolutionX-14.0-20241114-cepheus-v9.6-Official.zip",

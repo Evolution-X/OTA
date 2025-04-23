@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Manidweep",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "9R",
       "filename": "EvolutionX-14.0-20241226-lemonades-v9.7-Official.zip",

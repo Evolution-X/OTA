@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Joey Huab",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 11",
       "filename": "EvolutionX-14.0-20241113-venus-v9.6-Official.zip",

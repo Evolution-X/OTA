@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Tejas Singh (tejas101k)",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Poco X3 Pro",
       "filename": "EvolutionX-14.0-20241111-vayu-v9.5-Official.zip",

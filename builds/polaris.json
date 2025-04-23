@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi Mix 2S",
       "filename": "EvolutionX-14.0-20240904-polaris-v9.4-Official.zip",

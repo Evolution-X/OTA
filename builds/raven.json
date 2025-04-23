@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 6 Pro",
       "filename": "EvolutionX-14.0-20240826-raven-v9.3-Official.zip",

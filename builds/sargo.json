@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 3a",
       "filename": "EvolutionX-14.0-20241101-sargo-v9.5-Official.zip",
