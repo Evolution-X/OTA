@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Oscar Mariscal",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 8 Pro",
       "filename": "EvolutionX-14.0-20241013-husky-v9.5-Official.zip",

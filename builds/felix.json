@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel Fold",
       "filename": "EvolutionX-14.0-20240505-felix-v9.0-Official.zip",
