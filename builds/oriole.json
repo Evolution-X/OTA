@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 6",
       "filename": "EvolutionX-14.0-20240826-oriole-v9.3-Vanilla-Official.zip",

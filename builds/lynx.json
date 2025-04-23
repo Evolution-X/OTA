@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 7a",
       "filename": "EvolutionX-14.0-20240825-lynx-v9.3-Vanilla-Official.zip",
