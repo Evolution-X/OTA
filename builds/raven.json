@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 6 Pro",
       "filename": "EvolutionX-15.0-20250415-raven-10.5-Official.zip",

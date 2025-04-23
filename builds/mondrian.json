@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Flakeforever",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Poco F5 Pro / Redmi K60",
       "filename": "EvolutionX-15.0-20250416-mondrian-10.5-Official.zip",

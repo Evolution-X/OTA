@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "yarpiin",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "12",
       "filename": "EvolutionX-15.0-20250323-cupid-10.3.1-Official.zip",

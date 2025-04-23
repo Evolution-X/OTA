@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 9 Pro Fold",
       "filename": "EvolutionX-15.0-20250413-comet-10.5-Official.zip",

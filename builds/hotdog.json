@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "7T Pro",
       "filename": "EvolutionX-15.0-20250412-hotdog-10.5-Official.zip",

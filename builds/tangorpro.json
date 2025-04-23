@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel Tablet",
       "filename": "EvolutionX-15.0-20250415-tangorpro-10.5-Official.zip",

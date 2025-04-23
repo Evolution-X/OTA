@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 3",
       "filename": "EvolutionX-15.0-20250412-blueline-10.5-Official.zip",

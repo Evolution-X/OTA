@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Chema Funtan",
+      "currently_maintained": true,
       "oem": "Lenovo",
       "device": "Z6 Pro",
       "filename": "EvolutionX-15.0-20250101-zippo-10.1-Official.zip",

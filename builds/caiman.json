@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Oscar Mariscal",
+      "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 9 Pro",
       "filename": "EvolutionX-15.0-20250413-caiman-10.5-Official.zip",

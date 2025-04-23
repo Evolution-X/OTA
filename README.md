@@ -4,6 +4,7 @@
   "response": [
     {
       "maintainer": "Name (nickname)",
+      "currently_maintained": true/false,
       "oem": "OEM",
       "device": "Device Name",
       "filename": "EvolutionX-15.0-<date>-<device codename>-v<evolution_x_version>.zip",

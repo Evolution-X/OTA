@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Priyanshu Jangid",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Poco X5 Pro / Redmi Note 12 Pro Speed",
       "filename": "EvolutionX-15.0-20250418-redwood-10.5-Official.zip",

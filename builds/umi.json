@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 10",
       "filename": "EvolutionX-15.0-20250331-umi-10.4-Official.zip",
@@ -18,7 +19,7 @@
       "telegram": "https://t.me/EvolutionXXiaomiMi10Series",
       "github": "TechPanelGM",
       "initial_installation_images": [
-	"recovery"
+        "recovery"
       ]
     }
   ]

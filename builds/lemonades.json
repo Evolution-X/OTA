@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Manidweep",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "9R",
       "filename": "EvolutionX-15.0-20250301-lemonades-10.3-Official.zip",

@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Rondeau79",
+      "currently_maintained": true,
       "oem": "Motorola",
       "device": "Moto G100",
       "filename": "EvolutionX-15.0-20250412-nio-10.5-Official.zip",

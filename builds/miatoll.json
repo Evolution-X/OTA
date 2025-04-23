@@ -1,25 +1,26 @@
 {
-    "response": [
-      {
-        "maintainer": "Onelots",
-        "oem": "Xiaomi",
-        "device": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
-        "filename": "EvolutionX-15.0-20250318-miatoll-10.3-Official.zip",
-        "download": "https://sourceforge.net/projects/evolution-x/files/miatoll/15/EvolutionX-15.0-20250318-miatoll-10.3-Official.zip/download",
-        "timestamp": 1742298299,
-        "md5": "484875218035405bb8319543de732984",
-        "sha256": "bd79fb7206ddc99b67bf8792794f7e37ee00280cb83b43af68a79083f47bf1f8",
-        "size": 2825615829,
-        "version": "10.3",
-        "buildtype": "userdebug",
-        "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-3-miatoll-serie-03-18-2025.4725804/",
-        "firmware": "",
-        "paypal": "https://paypal.me/Onelots",
-        "telegram": "https://t.me/onelots",
-        "github": "onelots",
-        "initial_installation_images": [
-            "recovery"
-        ]
-      }
-    ]
-  }
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
+      "filename": "EvolutionX-15.0-20250318-miatoll-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/miatoll/15/EvolutionX-15.0-20250318-miatoll-10.3-Official.zip/download",
+      "timestamp": 1742298299,
+      "md5": "484875218035405bb8319543de732984",
+      "sha256": "bd79fb7206ddc99b67bf8792794f7e37ee00280cb83b43af68a79083f47bf1f8",
+      "size": 2825615829,
+      "version": "10.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-3-miatoll-serie-03-18-2025.4725804/",
+      "firmware": "",
+      "paypal": "https://paypal.me/Onelots",
+      "telegram": "https://t.me/onelots",
+      "github": "onelots",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
