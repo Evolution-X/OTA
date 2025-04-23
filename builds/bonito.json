@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 3a XL",
       "filename": "EvolutionX-14.0-20241101-bonito-v9.5-Official.zip",
