@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Chema Funtan",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 9t",
       "filename": "EvolutionX-14.0-20241115-davinci-v9.6-Official.zip",

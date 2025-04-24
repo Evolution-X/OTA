@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "hiroshi. (Superuser)",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 12 Pro / Pro+ 5G / Discovery",
       "filename": "EvolutionX-14.0-20241116-rubyx-v9.6-Official.zip",

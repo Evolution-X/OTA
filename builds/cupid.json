@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "yarpiin",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "12",
       "filename": "EvolutionX-14.0-20241118-cupid-v9.6-Official.zip",

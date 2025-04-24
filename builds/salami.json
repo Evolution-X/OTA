@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Aggelos Savvopoulos (DarkAngelGR)",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "OnePlus",
       "device": "11",
       "filename": "EvolutionX-14.0-20240824-salami-v9.3-Official.zip",

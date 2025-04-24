@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Mohammad Kibria",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 13 4G/NFC",
       "filename": "EvolutionX-14.0-20241013-sapphire-v9.5-Official.zip",

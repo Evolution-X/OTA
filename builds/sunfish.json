@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "lahaina",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 4a",
       "filename": "EvolutionX-14.0-20240706-sunfish-v9.2-Official.zip",
