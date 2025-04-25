@@ -3,31 +3,36 @@ This is Android 15 QPR2 with April 2025 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 18/04/2025).
+- Play Integrity passes, RCS works (As of 25/04/2025).
 - Includes Dolby Atmos, POCO camera.
-- Install this (https://github.com/rsuntk/KernelSU/releases/download/v1.0.3-38-legacy/KernelSU_v1.0.3-38-legacy_12128-release.apk) for root.
+- Install this (https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.6/KernelSU_Next_v1.0.6_12490-release.apk) for root.
 - Flash ( https://github.com/Atom-X-Devs/scarlet_xiaomi_sm7325/releases ) NON-ROOT version of kernel to get rid of root.
 - If you face any issue ( such as auto reboot ) on scarlet You can flash any alternative kernel from Here ( https://sourceforge.net/projects/poco-x5-pro-roms/files/Kernel )
 
 Device Changes:
 ==============================
-18-April-2025
+25-April-2025
 ==============================
-Update adreno and display blobs from AOSPA
-Increase CPU Boost duration from 120ms to 200ms
-import more diag related stuff
+Updated blobs to OS2.0.3.0.UMSMIXM
+Included firmware vOS2.0.3.0.UMSMIXM ( Do not flash firmware Separately )
+Imported vibrator effects from stock
+Droped Ksu-legacy support and Migrated to KSU-Next
 
 
 Notable ROM changes:
 ==============================
-Cap the max size of reported work durations
-Fix NPE in TouchpadDebugViewController
-Fix SwAudioOutputCollection indexing in closeOutput()
-Fix ever-growing AppOpItem string representation
-Fix incorrect NULL check in IncFsFileMap reference assertions
-GameSpaceManager: Rewrite and fix app detection issues
-GameSpaceManagerService: sanitize game list
-Only toggle MainSwitchBar on successful change listener result
-Reparent surface to original parent post-rotation animation
-appop: Finish all when last in chain fail
-services: Add GameSpaceManagerService
+AppLockPackageListFragment: fix app filter
+Settings: add hdr display switch preference
+Evolver: Rewrite theme elements
+Evolver: Support navbar themes in both Launcher3 & NexusLauncher
+Fix "Manage App & Content access" for profiles
+ManageStoragePreferenceController: Explicitly disable storage management preference
+Shell: Use night/light theme for buttons/caption color instead of luminance
+Stop unsuspending packages in profiles
+SystemUI: Make lockscreen buttons slightly bigger
+SystemUI: add config for ignoring lockscreen cutout for status bar
+fixup! Add high touch sensitivity to InputService
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+fixup! PowerManager: Add proximity check on wake
+vendor: props: Add blur support
+GameSpace: service fixes and improvements
