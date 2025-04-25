@@ -1,73 +1,32 @@
-This is Android 15 QPR2 with March 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
  ==============================
  - LineageOS-based source. Signed build.
  - Clean flash is required if coming from March 2024 or older builds.
  - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
- - Play Integrity passes, RCS works (As of 03/31/2025).
+ - Play Integrity passes, RCS works (As of 04/25/2025).
  - Includes BCR, Leica camera, Viper4fxAndroid
 
 Device changes:
  ==============================
  - Official Release
- - Fixed Screen Off FOD
+ - Added missing FCM instances
 
 Notable ROM changes:
  ==============================
- Adapt navbar styles target package
- CachedAppOptimizer: Initialize compactProfile and compactTime
- DeviceConfig: drop smartspace flashlight action chip (again)
- DeviceConfig: update nearby flags
- DisplayModeDirector: Set default minimum refresh rate to 60
- Drop overlays after QPR2 changes
- DropBox: skip fsck.f2fs results that don't contain errors
- DropBox: skip spurious system_server_crash entries
- Evolver: Drop features after QPR2 changes
- Evolver: Remove retired navbar features
- FaceUnlockImageView: Prevent statusBarStateController memory leak
- GameManagerService: Affine games to big cores when game mode is enabled
- Hide App list: Improve hide app list feature
- Merge March 2025 security patches
- NotificationAttentionHelper: Apply suppressing notifications on boot
- PackageManagerService: Wipe resource/package cache on upgrade
- Persist music stream volume per user for Automotive
- Reduce max dropbox files
- Remove gestural navigation overlays
- Settings: Do not hide navigation modes
- Settings: Keep page search enabled for legacy navigation customization
- Settings: Mark all DSU options as unsupported
- Settings: Move in navbar styles
- Settings: Move in settings for 3-button navbar
- Settings: Move swipe actions to gesture navigation settings
- Settings: Remove QS tile and QS brightness slider haptic options
- Settings: Themes: Use legacy material background color
- Settings: fix fingerprint enrollment on Google devices with side FP scanner
- SettingsLib: Use legacy material colors for settings' surface container
- Skip moving home to front for multiwindow roottask
- SliderHapticFeedbackProvider: Improve slider haptics
- SystemUI: Add padding end to QS Customizer toolbar
- SystemUI: Fix face unlock indication static calls
- SystemUI: Fix internet dialog background runtime exception
- SystemUI: Fix QS Customizer toolbar color
- SystemUI: Implement SystemUIBoostFramework
- SystemUI: Show Battery Defender indication only when battery level reaches charging threshold
- SystemUI: add keyguard slice view to split shade layout
- SystemUI: don't hide date text on lockscreen when media is playing
- SystemUI: fix keyguard media section placement when split shade is used
- SystemUI: fix orientation of keyguard slice view rows
- SystemUI: improve alignment between keyguard clock and date
- Toast: Fix toast color not following light/dark theme
- Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
- audio: Fix A2DP volume issue with multiple outputs
- camera: Whitelist google camera
- config: enable desktop mode support
- core: Allow camera shutter sound to be disabled in all countries
- core: Expose method to toggle recent apps through Binder
- disable safe media volume management
- don't delay setting observer callbacks for background system packages
- don't remove app widgets from user's home screen when the user stops
- fix check for the current holder of the Wallet app role
- fonts: Update from komodo BP1A.250305.02
- overlay: Remove no longer used NavigationBarNoHint
- release: Enable new QS panel
+ AppLockPackageListFragment: fix app filter
+ Settings: add hdr display switch preference
+ Evolver: Rewrite theme elements
+ Evolver: Support navbar themes in both Launcher3 & NexusLauncher
+ Fix "Manage App & Content access" for profiles
+ ManageStoragePreferenceController: Explicitly disable storage management preference
+ Shell: Use night/light theme for buttons/caption color instead of luminance
+ Stop unsuspending packages in profiles
+ SystemUI: Make lockscreen buttons slightly bigger
+ SystemUI: add config for ignoring lockscreen cutout for status bar
+ fixup! Add high touch sensitivity to InputService
+ fixup! Keyguard: Add option to scramble pin layout when unlocking
+ fixup! PowerManager: Add proximity check on wake
+ vendor: props: Add blur support
+ GameSpace: service fixes and improvements
