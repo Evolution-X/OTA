@@ -1,40 +1,63 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 QPR1 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 03/02/2025).
-- Includes XiaomiParts, Dolby Atmos and Leica camera.
-- Credits to Arian16k, FlowerSea, GR, RobertGarciaa, ralph20060412.
+- Play Integrity passes, RCS works (As of 04/26/2025).
+- Includes XiaomiParts and Leica camera.
+- Credits to Arian16k, FlowerSea, GR, ralph20060412, Kamikaonashi.
 
 Device changes:
 ==============================
-move to aidl bootctrl hal
-parts: Add {navigation,video} thermal profiles
-parts: Add support for 60Hz in Landscape in Per-App-RR
-parts: Add thermal profiles tile
-parts: Automatically determine thermal profile for apps
-parts: Fix setting default thermal profile
+Add HBM and DC Dimming support
+Add High touch polling support
+Add ZRAM control support
+Address missing SetTaskProfiles symbol in camera libs
+Disable T4T_NFCEE
+Nuke XiaomiDolby
+build libprocessgroup_shim
+update to OS2.0.1.0.UKBEUXM
 
 Notable ROM changes:
 ==============================
-AAudio: fix NotificationClient linkToDeath error
-Broadcast radio power state changes
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-SettingLib: Show only the current network IP addresses
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-pixel-style: Update
+Add global lock for getTargetWindowTokenFromInputToken method.
+AppLockPackageListFragment: fix app filter
+Cap the max size of reported work durations
+Delay the access of SharedPreferences to avoid race condition
+Direct return when remove the sleep token which is non-exist.
+Evolver: Rewrite theme elements
+Evolver: Support navbar themes in both Launcher3 & NexusLauncher
+Fix "Manage App & Content access" for profiles
+Fix NPE in TouchpadDebugViewController
+Fix incorrect NULL check in IncFsFileMap reference assertions
+Fixed the occasional flickering caused by sub-windows.
+GameSpaceManager: Rewrite and fix app detection issues
+GameSpaceManager: cleanup and improvements
+GameSpaceManagerService: sanitize game list
+Ignore pip task when checking task visibility in recents transition
+Make split screen only reparent non-empty task
+ManageStoragePreferenceController: Explicitly disable storage management preference
+Remove unnecessary global lock and make package private for removeObsoleteTaskFiles method.
+Remove unnecessary non-empty judgment in WindowManagerGlobal file.
+Removed unnecessary global lock for register/unregister capture observer method.
+Reparent surface to original parent post-rotation animation
+Shell: Use night/light theme for buttons/caption color instead of luminance
+Stop unsuspending packages in profiles
+Stop watching for system property changes when all view is removed.
+SystemUI: Bring back mictoggle and cameratoggle QS tiles
+SystemUI: Make lockscreen buttons slightly bigger
+SystemUI: add config for ignoring lockscreen cutout for status bar
+Update the surface position when changing TransitionInfo.Root
+fixup! Add high touch sensitivity to InputService
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+fixup! PowerManager: Add proximity check on wake
+remove the lock in Android shared threads
+services: Add GameSpaceManagerService
+services: Extend long screen feature to all apps
+services: GameSpaceManager: Update and clean up
+services: boost thread priority for critical locks
+services: disable compaction on screen wake
+services: improve cutout force full screen
+services: optimize memory on device wake
+vendor: props: Add blur support
