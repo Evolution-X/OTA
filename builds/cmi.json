@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 10 Pro",
+      "filename": "EvolutionX-15.0-20250427-cmi-10.5-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cmi/15_vanilla/EvolutionX-15.0-20250427-cmi-10.5-Vanilla-Official.zip/download",
+      "timestamp": 1745779623,
+      "md5": "06695c60b0d5ac595e5361e03396df78",
+      "sha256": "19b6504cfa4db85f001247087194e7de7e721028303eeb53754955602d4ea6fc",
+      "size": 2111896713,
+      "version": "10.5",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-10-umi-cmi.4727750/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "https://t.me/EvolutionXXiaomiMi10Series",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}

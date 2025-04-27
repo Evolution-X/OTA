@@ -1,0 +1,57 @@
+This is Android 15 QPR2 with April 2025 security patches
+
+Notes:
+ ==============================
+ - LineageOS-based source. Signed build.
+ - Clean flash is required if coming from March 2024 or older builds.
+ - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+ - Play Integrity passes, RCS works (As of 04/27/2025).
+ - Includes BCR, Leica camera, Viper4fxAndroid, Accord
+
+Device changes:
+ ==============================
+- First release Vanilla Build
+
+Notable ROM changes:
+ ==============================
+ Add global lock for getTargetWindowTokenFromInputToken method.
+ AppLockPackageListFragment: fix app filter
+ Cap the max size of reported work durations
+ Delay the access of SharedPreferences to avoid race condition
+ Direct return when remove the sleep token which is non-exist.
+ Evolver: Rewrite theme elements
+ Evolver: Support navbar themes in both Launcher3 & NexusLauncher
+ Evolver: Added crowdin updated (simplified chinese)
+ Fix "Manage App & Content access" for profiles
+ Fix NPE in TouchpadDebugViewController
+ Fix incorrect NULL check in IncFsFileMap reference assertions
+ Fixed the occasional flickering caused by sub-windows.
+ GameSpaceManager: Rewrite and fix app detection issues
+ GameSpaceManager: cleanup and improvements
+ GameSpaceManagerService: sanitize game list
+ Ignore pip task when checking task visibility in recents transition
+ Make split screen only reparent non-empty task
+ ManageStoragePreferenceController: Explicitly disable storage management preference
+ Remove unnecessary global lock and make package private for removeObsoleteTaskFiles method.
+ Remove unnecessary non-empty judgment in WindowManagerGlobal file.
+ Removed unnecessary global lock for register/unregister capture observer method.
+ Reparent surface to original parent post-rotation animation
+ Shell: Use night/light theme for buttons/caption color instead of luminance
+ Stop unsuspending packages in profiles
+ Stop watching for system property changes when all view is removed.
+ SystemUI: Bring back mictoggle and cameratoggle QS tiles
+ SystemUI: Make lockscreen buttons slightly bigger
+ SystemUI: add config for ignoring lockscreen cutout for status bar
+ Update the surface position when changing TransitionInfo.Root
+ fixup! Add high touch sensitivity to InputService
+ fixup! Keyguard: Add option to scramble pin layout when unlocking
+ fixup! PowerManager: Add proximity check on wake
+ remove the lock in Android shared threads
+ services: Add GameSpaceManagerService
+ services: Extend long screen feature to all apps
+ services: GameSpaceManager: Update and clean up
+ services: boost thread priority for critical locks
+ services: disable compaction on screen wake
+ services: improve cutout force full screen
+ services: optimize memory on device wake
+ vendor: props: Add blur support
