@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
       "oem": "Samsung",
       "device": "Galaxy S10 Plus",
       "filename": "EvolutionX-15.0-20250411-beyond2lte-10.5-Official.zip",

@@ -1,41 +1,50 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 with April 2025 security patches
+Device changes:
+====================================================
 
-Notes:
-==============================
-LineageOS-based source. Signed build.
-Play Integrity passes, RCS works (As of 02/9/2025).
-Fixed G Login
-Fixed Storage showing incorrect values
-Dirty flash should be okay
+Synced with latest Los pyxis as of 04/15
+====================================================
 
-===================
-ROM Sources
-===================
-BlackTheme: Make more container surfaces black
-Disable Game default frame rate feature
-Evolver: Bring in features from rising
-Evolver: Fix quick pull down rtl values
-Evolver: Implement Better QS (optional toggle)
-Evolver: Introduce Volume Styles
-Evolver: OverlaySwitchPreference: Update
-Evolver: Show restart SystemUI dialog for some toggles
-GameSpace: Integrate LMOFreeform to quick start apps
-Merge February 2025 security patches
-OmniStyle: Add more QS Header image packs
-Settings: Add system haptics intensity settings
-SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
-Update translations
-aconfig: Disable FRP enforcement
-apps: Include prebuilt Accord music player
-check_boot_jars: Whitelist LMOFreeform
-config: Build LMO Freeform app and sidebar
-config: Disable RescueParty
-config: Remove useless addon.d file
-overlay: device_config: Add values required for Speech Recognition
-overlay: device_config: Escape special characters
-overlay: device_config: Updates
-properties: Set default game props
-themes: Expose values for theming settings
-themes: Import notification, progress bar and power menu themes
-vendor: Overlay PermissionController to use headline font from framework resource
-version: Uprev to 10.3
+Notable ROM changes:
+====================================================
+Adapt the NowBar feature to 15-QPR2
+Add RRO to hide NexusLauncher gesture hint
+AudioEffect: avoid crashing system when loaded effect is not supported
+CachedAppOptimizer: do not freeze process if adj is less than FREEZER_CUTOFF_ADJ
+CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
+CameraCaptureSessionImpl: Avoid unnecessary property access denials
+ChargingControlNotification: fix system server crash
+ChargingControl: Prevent crash against null provider
+Do not show any charge info when the nowbar is enabled and the phone is charging
+Enable freeform windows by default
+EvolutionUtils: Add util to toggle overlays
+Evolver: Remove option to switch between native/LMO freeform
+Fix NPE in TextToSpeechManagerPerUserService
+Fix NPE when IntentFilter doesn't have any data type.
+Fix wrong pid in event_log when native crash
+Force set the peek display position to top
+MediaRouter2: fix crash when system routes is not available
+RemoteViews - Always load new ApplicationInfo from PackageManager
+Settings: Move Notch Cutout to Display
+Settings: Support hiding gesture hint in NexusLauncher
+SystemUI: Fix slice view widget padding
+SystemUI: VolumeDialog: Do not check previous state when updating rows
+SystemUI: VolumeDialog: Fix up touchable region with per-app volume
+SystemUI: VolumeDialog: Make rows view GONE if not required
+SystemUI: VolumeDialog: Use settings observer for app volume
+SystemUI: fix a screenshot process crash in ScrollCaptureController
+Telcomm: Enable support for blocking callers not in contacts
+Telecomm: Fix ConcurrentModificationException in BluetoothDeviceManager
+Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
+VolumeControlTile: Update volume percent after listening
+VolumeControlTile: show volume slider when long pressed
+add workaround for BiometricService.SettingObserver system_server crash
+camera2: add null/empty checks before accessing packageName
+core: Update freeze IDs for VIC QPR2 used by HbmSvManager
+fix NPE system_server crash in F2fsUtils.getFilesRecursive()
+getCommunicationDevice() will wait after device update end
+lineage-sdk: Fix charging notification crash due to faulty strings
+overlay: Allow ShannonIMS to access ServiceState
+services: Do not freeze foreground processes
+telephony: Trim warning log if app not installed

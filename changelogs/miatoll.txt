@@ -1,5 +1,7 @@
-This is the initial release for Laurel sprout, based on A15 QPR1 with February security patches.
 KSU-Next and Susfs kernel available here: https://github.com/Oneloutre/kernel_auto_builder/releases/tag/Kernel-Caelum-miatoll-4.14.336-17032025
 
+This release contains EvolutionX 10.5.
+Device side: Miui cam has been dropped, for now. Too much issues with it.
+Still contain Dolby Atmos tho.
 
 #KeepEvolving

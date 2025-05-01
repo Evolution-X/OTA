@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "ZAID KHAN",
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "11 Lite NE 5G / Mi 11 LE",
       "filename": "EvolutionX-15.0-20241225-lisa-10.1-Official.zip",

@@ -1,35 +1,17 @@
-This is Android 15 QPR1 with Feb 2025 security patches
+This is Android 15 QPR2 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 03/01/2025).
-- Credits to mikeNG, Anierin Bliss, Joey Huab
+- Play Integrity passes, RCS works (As of 04/13/2025).
 
 
 Device changes:
 ==============================
-Update Firmware to Feb 2025
+Update to April Device Firmware
 
-Notable ROM changes:
-==============================
-AAudio: fix NotificationClient linkToDeath error
-Broadcast radio power state changes
-Evolver: adjustable max visible notification icons
-Fix nav bar flickering when dialog shows
-Fix settings not applied on boot for device key actions
-Ongoing action progressbar chip implementation
-Open Sound Settings when long clicking volume tile
-Settings: Change range of battery saver schedule seekbar
-Settings: colors: Introduce Reality display engine
-SettingLib: Show only the current network IP addresses
-SystemUI: Fix slider tile layout issue on A11 QS style
-SystemUI: Hide QR code scanner tile if not launch activity available
-SystemUI: Improve Slider tiles percentage color
-SystemUI: Introduce Volume QS Tile
-apns: Add YemenMobile
-config: properties: Feb 2025 pihooks update
-extras: iconshapes: Remove config_dialogCornerRadius again
-extras: Move gameprops to product.prop
-pixel-style: Update
+
+Rom changes:
+=======================
+Initial 10.5 Qpr2 Update

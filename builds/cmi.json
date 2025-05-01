@@ -2,23 +2,24 @@
   "response": [
     {
       "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 10 Pro",
-      "filename": "EvolutionX-15.0-20250331-cmi-10.4-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/cmi/15/EvolutionX-15.0-20250331-cmi-10.4-Official.zip/download",
-      "timestamp": 1743449007,
-      "md5": "18c91c61e71977da551c1a6a50fc69da",
-      "sha256": "0c64fb9e397d25eddee3023242c4cb10d2b37ab5ec70de9e971a08401e8de481",
-      "size": 3200149557,
-      "version": "10.4",
+      "filename": "EvolutionX-15.0-20250427-cmi-10.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cmi/15/EvolutionX-15.0-20250427-cmi-10.5-Official.zip/download",
+      "timestamp": 1745757861,
+      "md5": "c30ae89ee83fb59c476c0792e11b8958",
+      "sha256": "358a38a8012bc74694d17903eca40457c6d935301265acb5bd297a8a38737ed9",
+      "size": 3248522001,
+      "version": "10.5",
       "buildtype": "user",
-      "forum": "https://xdaforums.com/t/evolution-x-10-4-official-xiaomi-mi-10-umi-cmi.4727750/",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-10-umi-cmi.4727750/",
       "firmware": "",
       "paypal": "",
       "telegram": "https://t.me/EvolutionXXiaomiMi10Series",
       "github": "TechPanelGM",
       "initial_installation_images": [
-	"recovery"
+        "recovery"
       ]
     }
   ]

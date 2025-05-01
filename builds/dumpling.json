@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "OnePlus",
       "device": "5T",
       "filename": "EvolutionX-15.0-20250302-dumpling-10.3-Official.zip",

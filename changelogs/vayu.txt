@@ -1,4 +1,1 @@
-• March 2025 Security Patch
-• Add reality display engines
-• Ongoing action progressbar chip implementation
-• Fix up large clock top margin
+• April 2025 Security Patch (Android 15 QPR2)

@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Ashwani x Suvojeet Sengupta",
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi 12 5G / Poco M6 Pro 5G",
       "filename": "EvolutionX-15.0-20240107-sky-10.1-Official.zip",

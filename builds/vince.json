@@ -2,6 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Redmi 5 Plus",
       "filename": "EvolutionX-15.0-20250305-vince-10.3-Official.zip",

@@ -1,1 +1,1 @@
-Initial Android 15 QPR1 release
+Resolve HbmSVManager crashing in the background
