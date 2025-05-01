@@ -1,0 +1,28 @@
+﻿{
+  "response": [
+    {
+      "maintainer": "Rondeau79",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Edge 20 Pro",
+      "filename": "EvolutionX-15.0-20250428-pstar-10.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/pstar/15/EvolutionX-15.0-20250428-pstar-10.5-Official.zip/download",
+      "timestamp": 1745897517,
+      "md5": "d3606e3d2bd6b04ded94f4d216452e05",
+      "sha256": "6f19a650acbac799e883cc8d4734f4c2723bdb95566c19931c85311feb6fcc42",
+      "size": 2139793882,
+      "version": "10.5",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-official-evolution-x-10-5-05-01-2025.4732647/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "",
+      "github": "Rondeau79",
+      "initial_installation_images": [
+         "boot",
+         "dtbo",
+         "vendor_boot"
+      ]
+    }
+  ]
+}
