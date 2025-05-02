@@ -1,29 +1,15 @@
-2025-04-29
+2025-05-02
 
 
 To use this release you need:
-
-CLEAN FLASH NEEDED !!!
    
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
 3. Flash rom
-4. Format Data
+4. Format Data ( If Updating from  EvolutionX 10.5 you can skip It )
 4. Reboot
 
 Device:
-Updated blobs to OS2.0.1.0.VLCMIXM
-Included firmware OS2.0.1.0.VLCMIXM
+Fixed Ultrasound Proximity Sensor
 Merge changes from https://github.com/cupid-development
 
-Notable ROM changes:
-==============================
- EvolutionX 10.5
- Add global lock for getTargetWindowTokenFromInputToken method.
- AppLockPackageListFragment: fix app filter
- Cap the max size of reported work durations
- Delay the access of SharedPreferences to avoid race condition
- Direct return when remove the sleep token which is non-exist.
- Evolver: Rewrite theme elements
- Evolver: Support navbar themes in both Launcher3 & NexusLauncher
- Evolver: Added crowdin updated (simplified chinese)
