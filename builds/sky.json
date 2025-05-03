@@ -17,6 +17,7 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS1.0.5.0.UMWINXM/",
       "telegram": "https://t.me/suvojeet_sengupta",
       "github": "suvojeet123",
+      "sourceforge": "",
       "initial_installation_images": [
         "recovery"
       ]
