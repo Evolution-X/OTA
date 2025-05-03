@@ -20,6 +20,7 @@
       "paypal": "https://donation link",
       "telegram": "https://telegram link",
       "github": "Github username",
+      "sourceforge": "Sourceforge username",
       "initial_installation_images": [
         "first_image",
         "second_image",

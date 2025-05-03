@@ -18,6 +18,7 @@
       "paypal": "",
       "telegram": "",
       "github": "flakeforever",
+      "sourceforge": "flakeforever",
       "initial_installation_images": [
         "boot",
         "dtbo",
