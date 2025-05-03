@@ -18,6 +18,7 @@
       "paypal": "https://paypal.me/Onelots",
       "telegram": "https://t.me/onelots",
       "github": "onelots",
+            "sourceforge": "onelots",
       "initial_installation_images": [
         "recovery"
       ]

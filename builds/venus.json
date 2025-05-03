@@ -18,6 +18,7 @@
       "paypal": "https://linktr.ee/joeyhuab",
       "telegram": "shazizard",
       "github": "joeyhuab",
+      "sourceforge": "stallix",
       "initial_installation_images": [
         "boot",
         "dtbo",
