@@ -1,60 +1,50 @@
-This is Android 15 QPR1 with February 2025 security patches
+This is Android 15 QPR1 with April 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 1/2/2025).
-- Includes Xiaomi parts, Micamera and AGC-Camera.
-- Credits to Dereference, Amrito, Underfrost, Onelots.
+- Play Integrity passes, RCS works (As of 04/05/2025).
+- Includes Xiaomi parts, Leica and AGC-Camera.
+- Credits to Dereference and Amrito for trees.
+- Thanks to Onelots for helping and supporting <3.
 
 Device changes:
 ==============================
-- Fixed Audio glitches on call and on notification sound
-- Fixed Call and Other Freezes on Bluetooth Earphones 
-- Fixed MiCam crashes
+- Added support for sony dolby.
+- Switched to leica cam instead of xiaomi cam.
+- April sec patches
 - Added Accord Audio
 - Increased stability and UI smoothness
 
 Notable ROM changes:
 ==============================
-Add an option to switch between native/LMO freeform
-Disable smartpace page indicator if custom clock is enabled
-Evolver: Added Support for Depth Wallpaper
-Evolver: Add freeform mode switch
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL switch
-Fix crash on light/dark theme toggle
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-Make AOSP native freeform windows always-on-top
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Intensity based QS fling haptics
-SystemUI: Implement intensity-based QS tiles haptic feedback
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-apns: Update for ChinaTelecom Macau (CTMO)
-config: Build OmniJaws service
-core: Add OmniJawsClient
-wm: Ensure freeform tasks bounds gets updated when launching tasks
-wm: Fix freeform window minimize not working
-
+AbsListView: clear scroll cache before removing clear cache callbacks
+Bring back PowerOffAlarmService
+Extend Long screen feature to all apps
+GameBarService: fixes and improvements
+GameManagerService: fix game cpu affinity
+GameManagerService: use verbose logging for game affinity logs
+GameSpaceManager: Rewrite and fix app detection issues
+GameSpaceManager: cleanup and improvements
+LongScreenSettings: force stop app when adding/removing to long screen app list
+Resources: don't crash the app if font is not found
+Settings: Add Comss DNS provider
+Settings: Introduce new refresh rate selector page
+Settings: Use ActionPrimaryButton style for face buttons
+SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_LIGHT_REVEAL boosts
+SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_UNLOCK boosts
+core: exempt ParanoidSense from Privacy Indicator
+display: add hdr display switch preference
+fix long screen layout issues
+gestures: add controller for double tap to trigger doze
+overlay: add applock whitelist
+services: Add GameSpaceManagerService
+services: Extend long screen feature to all apps
+services: GameSpaceManager: Update and clean up
+services: Move camera_package_name_defaults to select()
+services: Move libcameraservice_ext_lib_defaults to select()
+services: boost thread priority for critical locks
+services: clean system_server heap memory on screen off
+services: improve cutout force full screen
+services: only preload process after clearing memory
+services: optimize memory on device wake
