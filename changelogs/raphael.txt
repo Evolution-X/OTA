@@ -1,78 +1,46 @@
-This is Android 15 QPR2 with April 2025 security patches
+This is Android 15 QPR2 with May 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
-- Play Integrity passes, RCS works (As of 04/16/2025).
+- Play Integrity passes, RCS works (As of 05/08/2025).
 - Includes Dolby Atmos, Leica camera.
 
 Device changes:
 ==============================
-Add feature flag for IPSEC_TUNNEL_MIGRATION
-Bring back Quick tap support
-Disable UFFD GC via OVERRIDE_ENABLE_UFFD_GC
-Don't explicitly build qcom.fmradio
-Drop kernel target-level from manifest
-Enable concurrent restricted connectivity
-Migrate away from TARGET_RECOVERY_DEVICE_MODULES
-Move ramdisk fstab target to Soong
-Remove deprecated config_mobile_tcp_buffers/networkAttributes
-Remove unneeded NFC packages
-Remove unused config_speed_up_audio_on_mt_calls
-Remove wigig components
-Set default pin amount for home app
-Suppress warning related to NNAPI HAL accessing zeroth.debuglog.logmask
-init: Add formattable flag for /data fstab entry
-overlay: Use the new auto network selection UI
-rro_overlays: WifiOverlay: Move to vendor
-sepolicy: Allow init script access proc
-sepolicy: Allow vendor_hal_usb_qti to acess vendor_sysfs_usb_controller
-sepolicy: Give QCOM TEE directory access to tmpfs
-wifi: Support Wifi6
+Drop debug.sf.enable_adpf_cpu_hint
+Migrate to select() for ubwc flag
+Move Lineage Health HAL to select()
+Move gralloc_handle_has_reserved_size to select()
+Move camera package name flag to select()
+Move libcameraservice extension lib to select()
+Move surfaceflinger UDFPS lib to select()
+Move vendor_init lib to select()
+Set camera override format from reserved via soong config
+Switch to NCM USB tethering
+Update kernel
+audio: Remove dynamic attributes from APS config
+rootdir: Enable RT priority inheritance
+rootdir: Optimize for Spatial Audio
+set hint manager margin to 10 %
 
 Notable ROM changes:
 ==============================
-Adapt the NowBar feature to 15-QPR2
-Add RRO to hide NexusLauncher gesture hint
-AudioEffect: avoid crashing system when loaded effect is not supported
-CachedAppOptimizer: do not freeze process if adj is less than FREEZER_CUTOFF_ADJ
-CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
-CameraCaptureSessionImpl: Avoid unnecessary property access denials
-ChargingControlNotification: fix system server crash
-ChargingControl: Prevent crash against null provider
-Do not show any charge info when the nowbar is enabled and the phone is charging
-Enable freeform windows by default
-EvolutionUtils: Add util to toggle overlays
-Evolver: Remove option to switch between native/LMO freeform
-Fix NPE in TextToSpeechManagerPerUserService
-Fix NPE when IntentFilter doesn't have any data type.
-Fix wrong pid in event_log when native crash
-Force set the peek display position to top
-MediaRouter2: fix crash when system routes is not available
-Merge April 2025 security patches
-RemoteViews - Always load new ApplicationInfo from PackageManager
-Settings: Move Notch Cutout to Display
-Settings: Support hiding gesture hint in NexusLauncher
-SystemUI: Fix slice view widget padding
-SystemUI: VolumeDialog: Do not check previous state when updating rows
-SystemUI: VolumeDialog: Fix up touchable region with per-app volume
-SystemUI: VolumeDialog: Make rows view GONE if not required
-SystemUI: VolumeDialog: Use settings observer for app volume
-SystemUI: fix a screenshot process crash in ScrollCaptureController
-Telcomm: Enable support for blocking callers not in contacts
-Telecomm: Fix ConcurrentModificationException in BluetoothDeviceManager
-Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
-Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
-VolumeControlTile: Update volume percent after listening
-VolumeControlTile: show volume slider when long pressed
-add workaround for BiometricService.SettingObserver system_server crash
-camera2: add null/empty checks before accessing packageName
-core: Update freeze IDs for VIC QPR2 used by HbmSvManager
-fix NPE system_server crash in F2fsUtils.getFilesRecursive()
-getCommunicationDevice() will wait after device update end
-lineage-sdk: Fix charging notification crash due to faulty strings
-overlay: Allow ShannonIMS to access ServiceState
-services: Do not freeze foreground processes
-telephony: Trim warning log if app not installed
+Add prefix and suffix to restrict iteration to optimize search efficiency
+BoostFramework: release memory when boosting animation
+Fix the NowBar doesn't update after the media session has ended
+GameBarService: improve panel animation
+GameManagerService: release memory when switching to game
+GameManagerService: remove unused boosted check
+GameSpace: fix and animate panel view translation
+Merge May 2025 security patches
+NetworkManagementService: fix crash when mUidCleartextPolicy is empty
+PixelPropsUtils: Update to May 2025 release
+ProcessList: fix start process failure for frozen system apps
+SystemUI: Don't invoke ClockSettings on a null object
+config: Increase timeout for waiting AudioPolicy service
+force fullscreen: override cutout sources during adjustInsetsForWindow
+release: Sync flag_values with BP1A.250505.005
+vars: May 2025 Security update
