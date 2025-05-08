@@ -1,30 +1,29 @@
 {
-    "response": [
-      {
-        "maintainer": "Lucifer",
-        "currently_maintained": true,
-        "oem": "Xiaomi",
-        "device": "Xiaomi 12 Pro",
-        "filename": "EvolutionX-15.0-20250508-zeus-10.6-Official.zip",
-        "download": "https://sourceforge.net/projects/evolution-x/files/zeus/15/EvolutionX-15.0-20250508-zeus-10.6-Official.zip/download",
-        "timestamp": 1746692156,
-        "md5": "8f124a99ee94ff4d03d92fbced398399",
-        "sha256": "cd0389d76255266fdf3e9e48ab9173f90161f2296c4a59d8620012dc8ee214aa",
-        "size": 3175592752,
-        "version": "10.6",
-        "buildtype": "userdebug",
-        "forum": "https://xdaforums.com/t/rom-15-0-official-evolution-x-for-xiaomi-12-pro.4735531",
-        "firmware": "",
-        "paypal": "https://paypal.me/kaustuv001",
-        "github": "kaustuv90",
-        "sourceforge": "kaustuv",
-        "initial_installation_images": [
-            "recovery",
-            "boot",
-            "vendor_boot",
-            "dtbo"
-        ]
-      }
-    ]
-  }
-  
+  "response": [
+    {
+      "maintainer": "Lucifer",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Xiaomi 12 Pro",
+      "filename": "EvolutionX-15.0-20250509-zeus-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/zeus/15/EvolutionX-15.0-20250509-zeus-10.6-Official.zip/download",
+      "timestamp": 1746744139,
+      "md5": "ffb91a66b128eb0bd84359434707a54f",
+      "sha256": "1c0b7c3b565661de2b54235887b5e56b26f20a7082dfe6fea6fbd68b483ed24e",
+      "size": 3173020121,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-official-evolution-x-for-xiaomi-12-pro.4735531",
+      "firmware": "",
+      "paypal": "https://paypal.me/kaustuv001",
+      "github": "kaustuv90",
+      "sourceforge": "kaustuv",
+      "initial_installation_images": [
+        "recovery",
+        "boot",
+        "vendor_boot",
+        "dtbo"
+      ]
+    }
+  ]
+}
