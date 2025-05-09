@@ -1,2 +1,4 @@
 A15 QPR2
+Fixed Dolby Atmos
+Added Fast Charge Toggle
 Clean flash recommended coming from stock or another ROM
