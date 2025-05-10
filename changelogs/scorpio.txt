@@ -1,0 +1,28 @@
+This is Android 15 with May 2025 security patches
+This is also the first release for this device
+Device changes:
+=======================
+Improved Stability
+Fixed camera
+Added Dolby
+Retrofitted so we get more space for updates
+Improved smoothness
+
+Notable ROM changes:
+====================================================
+Add prefix and suffix to restrict iteration to optimize search efficiency
+BoostFramework: release memory when boosting animation
+Fix the NowBar doesn't update after the media session has ended
+GameBarService: improve panel animation
+GameManagerService: release memory when switching to game
+GameManagerService: remove unused boosted check
+GameSpace: fix and animate panel view translation
+Merge May 2025 security patches
+NetworkManagementService: fix crash when mUidCleartextPolicy is empty
+PixelPropsUtils: Update to May 2025 release
+ProcessList: fix start process failure for frozen system apps
+SystemUI: Don't invoke ClockSettings on a null object
+config: Increase timeout for waiting AudioPolicy service
+force fullscreen: override cutout sources during adjustInsetsForWindow
+release: Sync flag_values with BP1A.250505.005
+vars: May 2025 Security update
