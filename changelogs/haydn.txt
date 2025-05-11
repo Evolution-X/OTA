@@ -19,4 +19,4 @@ Device changes:
 - Bypass Charging supported (Check Gamespace)
 - Dolby Included (With Sony Blobs)
 - Firmware included (HAYDNGlobal_OS1.0.18.0.UKKMIXM)
-- Leica Cam Included
+- Leica Cam Included (Fixed for CN Users)
