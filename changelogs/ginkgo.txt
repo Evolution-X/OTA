@@ -1,1 +1,6 @@
-• April 2025 Security Patch (Android 15 QPR2)
+• May 2025 Security Patch
+• Fixes for Nowbar feature
+• Support hiding navbar
+• Bring back 3 button navigation styles
+• Force set the peek display position to top
+• Implement and Improve GameManagerService and GameBarService respectively
