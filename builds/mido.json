@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Nalinish Ranjan",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 4/4X",
+      "filename": "EvolutionX-15.0-20250511-mido-10.6-OFFICIAL.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/mido/15/EvolutionX-15.0-20250511-mido-10.6-OFFICIAL.zip/download",
+      "timestamp": 1746974594,
+      "md5": "68c8b9c57b997f07a723cba7f03813db",
+      "sha256": "d99e080d91c46700cd9083c955c59cd001624da8e1ea4510a03e0098afc97914",
+      "size": 1751214796,
+      "version": "10.6",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-15-0_r32-mido-official-evolution-x-05-11-2025.4535383/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/mido/stable/V11.0.2.0.NCFMIXM/",
+      "paypal": "http://paypal.me/HyperPower17",
+      "github": "NRanjan-17",
+      "sourceforge": "https://sourceforge.net/u/nranjan-17/",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}

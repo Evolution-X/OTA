@@ -1,0 +1,11 @@
+This is Android 15 with May 2025 (r32) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+
+changes:
+==============================
+- Initial Official A15 build
+- May 2025 Patch.
+- Bugs Fixed.
