@@ -1,4 +1,5 @@
 A15 QPR2
-April SPL
+May SPL
 Viper4Android included
+LED Notification now working
 Clean flash recommended coming from stock or another ROM
