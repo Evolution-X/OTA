@@ -1,1 +1,7 @@
-• April 2025 Security Patch (Android 15 QPR2)
+• May 2025 Security Patch
+• Move Thermal profiles to system settings
+• Fixes for Navbar feature
+• Support hiding navbar
+• Bring back 3 button navigation styles
+• Force set the peek display position to top
+• Implement and Improve GameManagerService and GameBarService respectively
