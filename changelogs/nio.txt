@@ -1,5 +1,5 @@
-April SPL
+May SPL
 Clean flash not required whwn upgrading
 QPR2 build
-Bump to EvolutionX v10.5
-Viper4Android driver issue fixed
+Bump to EvolutionX v10.6
+LED Notification now working
