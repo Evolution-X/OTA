@@ -26,3 +26,12 @@ Changelog
 initial 10.3 release
 Fix powershare toggle
 Update meteoric kernel to v5.1
+
+
+14/05/2025
+------------------
+initial 10.6 Release
+May 2025 Security Patch
+Drop powershare toggle
+
+
