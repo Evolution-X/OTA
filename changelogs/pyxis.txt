@@ -1,0 +1,9 @@
+This is Android 15 QPR2 with May 2025 security patches
+Device changes:
+====================================================
+
+Initial Vanilla release. Signed build
+
+Synced with latest Los pyxis as of 05/15
+====================================================
+

@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "CSSABLACK",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 9 Lite",
+      "filename": "EvolutionX-15.0-20250515-pyxis-10.6-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/pyxis/15_vanilla/EvolutionX-15.0-20250515-pyxis-10.6-Vanilla-Official.zip/download",
+      "timestamp": 1747310214,
+      "md5": "8f50a7a70a862ff9af882e0db28de539",
+      "sha256": "cae6019ce71eaec031415f3f5fdd7997cc354e78b0fe70d4051d5be0d5d9ebfb",
+      "size": 1829209596,
+      "version": "10.6-Vanilla",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "https://xiaomifirmwareupdater.com/firmware/pyxis/stable/V12.5.3.0.RFCEUXM/",
+      "paypal": "https://www.paypal.me/czarsuperstar",
+      "github": "czarsuperstar",
+      "sourceforge": "czarsuperstar",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
