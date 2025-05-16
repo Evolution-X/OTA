@@ -1,12 +1,12 @@
-===== 06 Jan 2025 =====
+===== 16 May 2025 =====
 
 NOTES:
-- Dirty install is fine from previous official build
+- Dirty install might be fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
 
 DEVICE:
-- Bring back the MIUI camera
-- Didable the parallel processing in the MIUI camera while it's crashing
+- Moved Thermal profiles to Settings > System
+- Minor bug fixes
 
 ROM:
 - Fix crashes when long-pressing A10 QS tiles
