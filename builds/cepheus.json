@@ -1,23 +1,23 @@
 {
   "response": [
     {
-      "maintainer": "Chema Funtan",
-      "currently_maintained": false,
+      "maintainer": "nhansp",
+      "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 9",
-      "filename": "EvolutionX-15.0-20250106-cepheus-10.1-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/cepheus/15/EvolutionX-15.0-20250106-cepheus-10.1-Official.zip/download",
-      "timestamp": 1736131437,
-      "md5": "41777df859717c6b2dcf9342388fdd40",
-      "sha256": "65edc7e9488c098871ecb20db75b484a664a8681f36eac74160846d33b97d391",
-      "size": 2428669853,
-      "version": "10.1",
-      "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-cepheus-retrofit-official-evolution-x-01-01-25.4646095/",
+      "filename": "EvolutionX-15.0-20250516-cepheus-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cepheus/15/EvolutionX-15.0-20250516-cepheus-10.6-Official.zip/download",
+      "timestamp": 1747344475,
+      "md5": "9a52d7ac737a8a270d855b43ed5adb19",
+      "sha256": "b27e3dfa82fbc398ddc05459e73fb59a34d1530ce42fc52e80d11535ec33990f",
+      "size": 2785412241,
+      "version": "10.6",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-15-cepheus-retrofit-official-evolution-x-05-06-25.4736833/",
       "firmware": "https://xmfirmwareupdater.com/firmware/cepheus/stable/V12.5.6.0.RFACNXM/",
-      "paypal": "https://www.paypal.me/chfondia",
-      "github": "chematelegram",
-      "sourceforge": "chematelegram",
+      "paypal": "https://github.com/nhansp",
+      "github": "nhansp",
+      "sourceforge": "nhansp",
       "initial_installation_images": [
         "recovery"
       ]
