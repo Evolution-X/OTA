@@ -20,6 +20,7 @@
       "paypal": "https://donation link",
       "telegram": "https://telegram link",
       "github": "GitHub Username",
+      "sourceforge": "SourceForge Username",
       "initial_installation_images": [
         "img files to be flashed before sideloading Evolution X's zip"
       ]
