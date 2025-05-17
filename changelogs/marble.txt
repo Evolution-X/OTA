@@ -2,45 +2,36 @@ This is Android 15 QPR2 with May 2025 security patches
 
 Notes:
 ==============================
-- ALREADY INCLUDES HYPEROS 2 GLOBAL FIRMWARE.
+- Install a HyperOS 2 fw according to your region (https://xmfirmwareupdater.com/firmware/marble)
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.234-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 05/07/2025).
+- Play Integrity passes, RCS works (As of 05/17/2025).
 - Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add support for Sony Dolby
-Enable frame pacing for smoother visual performance
-Explicitly disable "Enable GL comp backpressure"
-parts: Introduce GameBar v4.0
-parts: Introduce thermal profile tile service
-parts: Introduce PowerTools v3.0
-prop: Add a property to enable prefetching video
-props: Add missing layer buffer slots cache clear property
-props: Disable Skia tracing by default
-props: Disable debug.sf.latch_unsignaled
-properties: Enable support for kernel idle timer
+Increase initial stereo master volume
+Move WfdCommon boot jar declaration to vendor
+Remove Powertools
+Stop including firmware
+wlan: Apply xiaomi changes to wcnss configs
 
 Notable ROM changes:
 ==============================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+BlurController: fix default blur enablement value
+ClockEventController: fix clock plugins animation
+CompassTile: Make Compass point towards North
+EnableBlursPreferenceController: fix default blur value
+Fix only kill current user proc while clear data
+NotificationPanelViewController: add an early boost before QS fling
+Remove ServiceRecord from restart list if restart is cancelled as unnecessary
+SystemUI: Implement the QS widget connectivity tile
+SystemUI: Reset when sleeping state change
+SystemUI: Skip AOD wake up on display timeout if lock screen is disabled
+Use the package name from the application info if the current package name is not available
+fwb: silence annoying error log when GMS not privileged
+zygote: boost process priority during fork via fifo
