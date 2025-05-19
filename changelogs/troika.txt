@@ -1,0 +1,5 @@
+EvolutionX v10.6
+May 2025 Security Patch
+Linux Kernel 4.14.113
+Init: rm package cache on early boot.
+Overlay: Show Turbo Power instead of charging rapidly.
