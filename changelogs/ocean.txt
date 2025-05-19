@@ -1,0 +1,19 @@
+Bump to EvolutionX v10.6
+May 2025 Security Patch
+Linux Kernel 4.9.337
+Switch to EroFS
+Update thermal conf from QPOS30.52-29-9
+Update Blobs to QPOS30.85-23-7
+Add system libmmcamera blobs.
+Add missing libchromatix/mmcamera blobs.
+Setup oem as system_ext partition.
+Overlay: Improve on Rounded Corners and Status Bar.
+Add KCal support.
+Label additional MCF library as same_process_hal_file.
+Address libmcf/libmmcamera denials.
+Address libllvm denials.
+Overlay: Show Turbo Charging instead of charging rapidly.
+Build MotCamera2 from prebuilt source.
+Disable zRAM writeback.
+Do not use absolute value for ZRAM size.
+Init: rm package cache on early boot.
