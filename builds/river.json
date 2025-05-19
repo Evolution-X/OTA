@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G7",
+      "filename": "EvolutionX-15.0-20250519-river-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/river/15/EvolutionX-15.0-20250519-river-10.6-Official.zip/download",
+      "timestamp": 1747617727,
+      "md5": "0fe49e318ec20700fa7e7eac422d8c9c",
+      "sha256": "fc9b18d4f328139eaeb1ba380e9735eea64d65657499921f8c380dbf45844f3f",
+      "size": 1732115998,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g7-river-20250519.4727949/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dbto"
+      ]
+    }
+  ]
+}

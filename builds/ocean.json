@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G7 Power",
+      "filename": "EvolutionX-15.0-20250518-ocean-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/ocean/15/EvolutionX-15.0-20250518-ocean-10.6-Official.zip/download",
+      "timestamp": 1747610152,
+      "md5": "7a2c8604bb01c06ae369c60873b0d4f3",
+      "sha256": "4c6102c0354c20690d6533bc431b38abfd23fe19a3b152a5659cb4a1b0229683",
+      "size": 1698859993,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g7-power-ocean-20250518.4727939/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dbto"
+      ]
+    }
+  ]
+}
