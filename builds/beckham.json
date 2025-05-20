@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto Z3 Play",
+      "filename": "EvolutionX-15.0-20250519-beckham-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/beckham/15/EvolutionX-15.0-20250519-beckham-10.6-Official.zip/download",
+      "timestamp": 1747636322,
+      "md5": "f1d4f8125dd9a486e25d0d1808e83e86",
+      "sha256": "3322cebc096f12da83d87b9c458e716751e7fd5fe87fafd50f3c78101a594f37",
+      "size": 1625692100,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-z3-play-beckham-20250519.4728068/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot"
+      ]
+    }
+  ]
+}

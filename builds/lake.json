@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G7 Plus",
+      "filename": "EvolutionX-15.0-20250519-lake-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/lake/15/EvolutionX-15.0-20250519-lake-10.6-Official.zip/download",
+      "timestamp": 1747634016,
+      "md5": "d36d94b87cd732dc0deb169698d59be2",
+      "sha256": "f985c3b7a0d548917b4023b8512d02ba6c630592f2be3d3a4f2c5c9e463e9147",
+      "size": 1571683999,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g7-plus-lake-20250519.4728065/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dbto"
+      ]
+    }
+  ]
+}
