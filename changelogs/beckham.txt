@@ -1,0 +1,12 @@
+Bump to EvolutionX v10.6
+May 2025 Security Patch
+Linux Kernel 4.4.302
+Setup oem as system_ext partition.
+Build vendor & system_ext partitions with SquashFS.
+Label additional MCF library as same_process_hal_file.
+Address libmcf/libmmcamera denials.
+Address libllvm denials.
+Build MotCamera2 from prebuilt source.
+Init: rm package cache on early boot.
+Fix portrait mode on MotCamera.
+Show Turbo Power instead of charging rapidly.
