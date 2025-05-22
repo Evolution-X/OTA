@@ -1,8 +1,0 @@
-August firmware/blobs/security patches
-Add shake gestures
-Add three finger swipe gestures
-Update PixelProps & PIF
-Add boot animation styles
-Add black theme styles
-Fix issues with revanced applications
-Misc fixes
