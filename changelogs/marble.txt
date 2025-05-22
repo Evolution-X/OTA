@@ -2,36 +2,32 @@ This is Android 15 QPR2 with May 2025 security patches
 
 Notes:
 ==============================
-- Install a HyperOS 2 fw according to your region (https://xmfirmwareupdater.com/firmware/marble)
+- Install a HyperOS 2 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.234-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 05/17/2025).
-- Includes POCO camera and Dolby Atmos.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.236-KSU-Next-susfs.zip/download) for root.
+- Play Integrity passes, RCS works (As of 05/22/2025).
+- Includes POCO camera, Dolby Vision and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Increase initial stereo master volume
-Move WfdCommon boot jar declaration to vendor
-Remove Powertools
-Stop including firmware
-wlan: Apply xiaomi changes to wcnss configs
+Add support for Dolby Vision
+Bring back Powertools
+Fix wrong format specifier in libgf_hal.so (fix Goodix fingerprint)
+overlay: Define OEM fast charge sysfs node
+parts: Don't set battery saver power profile in low battery mode
 
 Notable ROM changes:
 ==============================
-BlurController: fix default blur enablement value
-ClockEventController: fix clock plugins animation
-CompassTile: Make Compass point towards North
-EnableBlursPreferenceController: fix default blur value
-Fix only kill current user proc while clear data
-NotificationPanelViewController: add an early boost before QS fling
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-SystemUI: Implement the QS widget connectivity tile
-SystemUI: Reset when sleeping state change
-SystemUI: Skip AOD wake up on display timeout if lock screen is disabled
-Use the package name from the application info if the current package name is not available
-fwb: silence annoying error log when GMS not privileged
-zygote: boost process priority during fork via fifo
+Evolver: Add experimental SDK 32 play store spoof
+Evolver: Spoof: add RELEASE and SDK_INT
+Fix for crash due to ConcurrentModificationException in PrintRecommendationService
+Fix grant dialer default permissions on early boot
+PixelPropsUtils: spoof SDK_INT
+Settings: make Settings.System.RINGTONE2 readable
+Stop dreaming if global button is a wake key
+UsbDeviceManager: Do not set USB config to NONE if CONNECTED uevent is not received for UVC
+gameprops: Spoof Delta Force to OnePlus 13
