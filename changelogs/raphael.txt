@@ -5,44 +5,23 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
-- Play Integrity passes, RCS works (As of 05/08/2025).
+- Play Integrity passes, RCS works (As of 05/23/2025).
 - Includes Dolby Atmos, Leica camera.
 
 Device changes:
 ==============================
-Add support for bypass charging
-Drop debug.sf.enable_adpf_cpu_hint
-Label bypass charging
-Migrate to select() for ubwc flag
-Move Lineage Health HAL to select()
-Move gralloc_handle_has_reserved_size to select()
-Move camera package name flag to select()
-Move libcameraservice extension lib to select()
-Move surfaceflinger UDFPS lib to select()
-Move vendor_init lib to select()
-Set camera override format from reserved via soong config
-Switch to NCM USB tethering
 Update kernel
-audio: Remove dynamic attributes from APS config
-rootdir: Enable RT priority inheritance
-rootdir: Optimize for Spatial Audio
-set hint manager margin to 10 %
+init: Allow kernel to handle blancing foreground cpuset
+update powerhint for efficiency
 
 Notable ROM changes:
 ==============================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+Evolver: Add experimental SDK 32 play store spoof
+Evolver: Spoof: add RELEASE and SDK_INT
+Fix for crash due to ConcurrentModificationException in PrintRecommendationService
+Fix grant dialer default permissions on early boot
+PixelPropsUtils: spoof SDK_INT
+Settings: make Settings.System.RINGTONE2 readable
+Stop dreaming if global button is a wake key
+UsbDeviceManager: Do not set USB config to NONE if CONNECTED uevent is not received for UVC
+gameprops: Spoof Delta Force to OnePlus 13
