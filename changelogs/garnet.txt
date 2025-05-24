@@ -1,18 +1,16 @@
-This is Android 15 QPR1 with Febraury 2025 security patches
+This is Android 15 QPR2 with May 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Firmware included, if you are facing lost signal just flash your region firmware
 - Recommended EvoX recovery
-- Play Integrity passes, RCS works (As of 4/22/2025).
 - Credits to Grewal, cupid-development.
 
 Device changes:
 ==============================
-- Fixed UW on Poco phones
-- Generate qcrilNR.db during build
-- Added missing Xiaomi ecc list
-- Fixed Volte for some carriers
-- Revert: Disable window blur
-- Migrate to QTI USB Gadget AIDL HAL
+- Drop qtr-lookup blobs.
+- Remove software OMX blobs.
+- Switch to OSS audio.
+- Set missing RKPD props
+- Added Miuicamera again.
