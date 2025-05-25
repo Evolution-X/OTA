@@ -11,33 +11,14 @@ Notes:
 
 Device changes:
 ==============================
-Fix elfchecks for camera libs
-Move Lineage Health HAL to select()
-Move Lineage PowerShare HAL to select()
-Move camera package name flag to select()
-Move libcameraservice extension lib to select()
-Move libperfmgr mode extension lib to select()
-Patch xiaomi camera libraries
-Set camera override format from reserved via soong config
-Switch to NCM USB tethering
-remove duplicates from proprietary-files
-set TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED
+Add libwfdservice_shim for WFD
+Generate qcrilNr.db during build
+Update blobs from haydn V816.0.18.0.UKKMIXM
 
 Notable ROM changes:
 ==============================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+Add vendor_overlay support to fsgen
+CompositionEngine: Request device composition for the Udfps dim layer
+Evolver: Drop ROM-side Play integrity fix
+Fix ArrayIndexOfBoundsException in WallpaperManagerService
+Fix the system server restart issue caused by the fingerprint framework
