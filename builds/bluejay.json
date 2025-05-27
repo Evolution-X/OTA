@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 6a",
+      "filename": "EvolutionX-15.0-20250524-bluejay-10.6-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/bluejay/15_vanilla/EvolutionX-15.0-20250524-bluejay-10.6-Vanilla-Official.zip/download",
+      "timestamp": 1748104358,
+      "md5": "d7b6d92cc29e8b6d3928f84c07d7e65d",
+      "sha256": "7873f9762a7fb715b6b28658e905747d400db1006cd8298088850c2c999863ca",
+      "size": 1639909731,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-23-2024.4547009/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "github": "AnierinBliss",
+      "sourceforge": "Anierin",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
