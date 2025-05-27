@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel Fold",
+      "filename": "EvolutionX-15.0-20250524-felix-10.6-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/felix/15_vanilla/EvolutionX-15.0-20250524-felix-10.6-Vanilla-Official.zip/download",
+      "timestamp": 1748135217,
+      "md5": "db398be8d3a81cd1bd92697ce4c10ac8",
+      "sha256": "669201be1629f3bbf4f5bc6f756ff887c99d41b3eda3a341b21325c669fbcb1d",
+      "size": 1651488437,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r14-official-evolution-x-10-3-02-06-25.4717500/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "github": "AnierinBliss",
+      "sourceforge": "Anierin",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
