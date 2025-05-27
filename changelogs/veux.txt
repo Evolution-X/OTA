@@ -1,50 +1,40 @@
-This is Android 15 QPR1 with April 2025 security patches
+This is Android 15 QPR1 with May 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 04/05/2025).
-- Includes Xiaomi parts, Leica and AGC-Camera.
+- Includes Xiaomi parts and AGC cam.
 - Credits to Dereference and Amrito for trees.
 - Thanks to Onelots for helping and supporting <3.
 
 Device changes:
 ==============================
-- Added support for sony dolby.
-- Switched to leica cam instead of xiaomi cam.
-- April sec patches
-- Added Accord Audio
-- Increased stability and UI smoothness
+- added turbo charge
+- added back Aperture
+- added maintainer informations in settings
+- added Xiaomi Dolby
+- added IR blaster (infrared)
+- dropped miui cam
+- dropped old thermals
+- dropped old fastcharge implementation
+- enhanced a bit the qs lag (still present unfortunately)
+- fixed audio hals for building
+- fixed google_battery crashing in loop
+- fixed cpu informations
+- fixed some lags
+- fixed some thermal profiles issues and permissions
+- fixed some battery drain
+- fixed some CPU usage
+- fixed some audio issues
+- optimized ram
+- silented a lot of spam in logs
 
-Notable ROM changes:
-==============================
-AbsListView: clear scroll cache before removing clear cache callbacks
-Bring back PowerOffAlarmService
-Extend Long screen feature to all apps
-GameBarService: fixes and improvements
-GameManagerService: fix game cpu affinity
-GameManagerService: use verbose logging for game affinity logs
-GameSpaceManager: Rewrite and fix app detection issues
-GameSpaceManager: cleanup and improvements
-LongScreenSettings: force stop app when adding/removing to long screen app list
-Resources: don't crash the app if font is not found
-Settings: Add Comss DNS provider
-Settings: Introduce new refresh rate selector page
-Settings: Use ActionPrimaryButton style for face buttons
-SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_LIGHT_REVEAL boosts
-SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_UNLOCK boosts
-core: exempt ParanoidSense from Privacy Indicator
-display: add hdr display switch preference
-fix long screen layout issues
-gestures: add controller for double tap to trigger doze
-overlay: add applock whitelist
-services: Add GameSpaceManagerService
-services: Extend long screen feature to all apps
-services: GameSpaceManager: Update and clean up
-services: Move camera_package_name_defaults to select()
-services: Move libcameraservice_ext_lib_defaults to select()
-services: boost thread priority for critical locks
-services: clean system_server heap memory on screen off
-services: improve cutout force full screen
-services: only preload process after clearing memory
-services: optimize memory on device wake
+- reworked entierly the device trees
+- opened the trees to github at https://github.com/evolution-x-devices/device_xiaomi_veux.
+
+Rom changes
+=============================
+May security patches
+no more play integrity fix (dead in all custom roms)
+
+#KeepEvolving
