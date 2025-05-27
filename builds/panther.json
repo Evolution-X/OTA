@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 7",
+      "filename": "EvolutionX-15.0-20250524-panther-10.6-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/panther/15_vanilla/EvolutionX-15.0-20250524-panther-10.6-Vanilla-Official.zip/download",
+      "timestamp": 1748110168,
+      "md5": "4afc718d6cdae3bef71e5f8d8578cb9e",
+      "sha256": "2b1604c70022dbe26a81dd3359a1a8135ce999c90f7ad4b5e03a6470cc04934f",
+      "size": 1796841440,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r10-official-evolution-x-10-2-01-29-25.4546503/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "github": "AnierinBliss",
+      "sourceforge": "Anierin",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
