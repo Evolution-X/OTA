@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 8",
+      "filename": "EvolutionX-15.0-20250524-shiba-10.6-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/shiba/15_vanilla/EvolutionX-15.0-20250524-shiba-10.6-Vanilla-Official.zip/download",
+      "timestamp": 1748128236,
+      "md5": "259d4d3e5137e84b77459f1b38388c1e",
+      "sha256": "85f0d45161d9a9250de5e6c4655c1dda6c721c472b5fe6f48e1cff0586c85a16",
+      "size": 1701555149,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-25-24.4649678/",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "github": "osm1019",
+      "sourceforge": "osm1019",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
