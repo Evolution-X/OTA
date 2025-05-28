@@ -3,3 +3,5 @@ May SPL
 Viper4Android included
 LED Notification now working
 Clean flash recommended coming from stock or another ROM
+Dolby Atmos now shipped via system
+Expanded Moto Gestues
