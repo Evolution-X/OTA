@@ -8,21 +8,5 @@ Notes:
 
 Device changes:
 ==============================
-Update to May Device Firmware
+core: Update freeze IDs for VIC QPR2 used by HbmSvManager
 
-
-Rom changes:
-=======================
-BlurController: fix default blur enablement value
-ClockEventController: fix clock plugins animation
-CompassTile: Make Compass point towards North
-EnableBlursPreferenceController: fix default blur value
-Fix only kill current user proc while clear data
-NotificationPanelViewController: add an early boost before QS fling
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-SystemUI: Implement the QS widget connectivity tile
-SystemUI: Reset when sleeping state change
-SystemUI: Skip AOD wake up on display timeout if lock screen is disabled
-Use the package name from the application info if the current package name is not available
-fwb: silence annoying error log when GMS not privileged
-zygote: boost process priority during fork via fifo
