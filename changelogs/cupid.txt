@@ -1,4 +1,4 @@
-2025-05-08
+2025-05-30
 
 
 To use this release you need:
@@ -6,24 +6,45 @@ To use this release you need:
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
 3. Flash rom
-4. Format Data ( If Updating from  EvolutionX 10.5 you can skip It )
+4. Format Data ( If Updating from  EvolutionX 10.5+ you can skip It )
 4. Reboot
 
-Notable ROM changes:
-====================================================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+Device changes:
+==============================
+
+  * switch to common AIDL IR service
+  * sepolicy: Allow fingerprint hal to read system dmabuf device
+  * parts: adapt cpu and gpu frequencies to taro platform
+  * parts: Don't set battery saver power profile in low battery mode
+  * sepolicy: Rework sepolicy and drop neverallows
+  * parts: Introduce PowerTools v3.0
+  * Refactor: Migrate SaturationUtils to Kotlin
+  * parts: ThermalTileService: Refactor Thermal Profile QS tile
+  * parts: ThermalTileService: Introduce Gaming Mode with per-game optimizations
+  * parts: Add support for long-press actions on QS tiles
+  * parts: ThermalTileService: Refactor Thermal Tile Service and CPU Governor Management
+  * parts: Fixup Thermal profile tile service
+  * parts: Rework per-app thermal profile
+  * parts: Introduce thermal profile tile service
+  * parts: Introduce GameBar v4.0
+  * Add support for `60Hz in Landscape` in Per-App-RR
+  * parts: Add {navigation,video} thermal profiles
+  * parts: Introduce High Brightness Mode (HBM) and Auto HBM QS tile
+  * parts: Introduce Display Satutaion Service and TileUtils
+  * parts: Add permissions and whitelist for Xiaomi parts
+  * parts: Refactor BootCompletedReceiver
+  * parts: Start parts services as early as possible on bootup
+  * parts: Update overrideHdrTypes API for U
+  * parts: Override HDR types for Dolby Vision
+  * parts: Partially import parts from sm8350-common
+  * sepolicy: Label more property
+  * sepolicy: Import initial sepolicy for Xiaomi parts
+  * init: Make less cores available for background tasks
+  * Enable Client Composition Cache
+  * Remove fqname for vendor.qti.hardware.pal@1.0
+  * enable Dolby Vision in hwcomposer
+  * Add support for Dolby Vision
+
+ROM changes:
+==============================
+  * Safetynet with only basic integrity pass
