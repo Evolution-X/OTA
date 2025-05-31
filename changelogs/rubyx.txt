@@ -1,0 +1,12 @@
+This is Android 15 QPR2 with May 2025 security patches
+
+Notes:
+=======================
+- LineageOS based sources
+- Dirty flash works but continue at your own risk.
+- Miui Camera has the same issues as previous. Close the miui camera after taking your shots and it'll get saved in your gallery. Fix is being made soon.
+- Play Integrity Fix in rom has been dropped. Use your own methods to fix the play integrity.
+
+Device Changes:
+=======================
+- May Security Patch
