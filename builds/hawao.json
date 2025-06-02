@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G42",
+      "filename": "EvolutionX-15.0-20250602-hawao-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/hawao/15/EvolutionX-15.0-20250602-hawao-10.6-Official.zip/download",
+      "timestamp": 1748832059,
+      "md5": "7573c620161df265b4c5a327c60fd04f",
+      "sha256": "5d87301dc6801a8c3c1d328ec06ae01d7118848adef365dd304af4a1f7faaed4",
+      "size": 2259499557,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g42-hawao-20250602.4741429/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ]
+    }
+  ]
+}

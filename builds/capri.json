@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G10 & G10 Power / Lenovo K13 Note",
+      "filename": "EvolutionX-15.0-20250602-capri-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/capri/15/EvolutionX-15.0-20250602-capri-10.6-Official.zip/download",
+      "timestamp": 1748835836,
+      "md5": "8194af2148a3ae678b831b3d5335cc54",
+      "sha256": "a317c5e65bbb6ee3ba510f6e28e632b1296487c62f63ff3997ec336d351eea92",
+      "size": 2262720760,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g10-g10-power-capri-20250602.4741434/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
