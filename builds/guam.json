@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto E7 Plus & Lenovo K12",
+      "filename": "EvolutionX-15.0-20250601-guam-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/guam/15/EvolutionX-15.0-20250601-guam-10.6-Official.zip/download",
+      "timestamp": 1748763410,
+      "md5": "3f571658835da74c7f2747bf65bcf9e0",
+      "sha256": "8c9a2cc52ad82a784470d354309a57b772ec618fd6f3e29162d13eea977dd887",
+      "size": 2291901818,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-e7-plus-guam-20250601.4741427/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G Power 2021",
+      "filename": "EvolutionX-15.0-20250601-borneo-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/borneo/15/EvolutionX-15.0-20250601-borneo-10.6-Official.zip/download",
+      "timestamp": 1748761832,
+      "md5": "35710b34f5ea32101e5319ad7e030327",
+      "sha256": "ba3e85386666afdf5056b37799eacae691e3d805bf5ae62c6bd2178cbf3606c3",
+      "size": 2306277270,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g-power-2021-borneo-20250601.4741424/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Defy 2021",
+      "filename": "EvolutionX-15.0-20250601-bathena-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/bathena/15/EvolutionX-15.0-20250601-bathena-10.6-Official.zip/download",
+      "timestamp": 1748758133,
+      "md5": "2d850d0970f6f748b9306e0bc8bf3283",
+      "sha256": "ffc0e89b5c1601d54a765e575f2bebc140c3009dd5cfa2fa05c6a3d52fb88d7d",
+      "size": 2295434256,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-motorola-defy-2021-bathena-20250601.4741422/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta"
+      ]
+    }
+  ]
+}

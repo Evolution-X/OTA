@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G52",
+      "filename": "EvolutionX-15.0-20250602-rhode-10.6-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/rhode/15/EvolutionX-15.0-20250602-rhode-10.6-Official.zip/download",
+      "timestamp": 1748839306,
+      "md5": "b9fd900b8e7948b7cc9ab5db3add3393",
+      "sha256": "a88f35b8b8f692521eba0910f3305ff6b2eabe5a1533c0039b4a5290f6f67434",
+      "size": 2232175627,
+      "version": "10.6",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g52-rhode-20250602.4741439/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
