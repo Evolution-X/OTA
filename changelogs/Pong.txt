@@ -1,7 +1,6 @@
 Notes
 ========
 - Dolby is included
-- Firmware is included
 
 
 Changelog
@@ -23,15 +22,22 @@ Changelog
 
 22/02/2025
 -----------------
-initial 10.3 release
-Fix powershare toggle
-Update meteoric kernel to v5.1
+- Initial 10.3 release
+- Fix powershare toggle
+- Update meteoric kernel to v5.1
 
 
 14/05/2025
 ------------------
-initial 10.6 Release
-May 2025 Security Patch
-Drop powershare toggle
+- Initial 10.6 Release
+- May 2025 Security Patch
+- Drop powershare toggle
+
+
+05/06/2025
+------------------
+- Initial 10.7 Release
+- June 2025 Security Patch
+- Re-enable UDFPS customization
 
 
