@@ -1,24 +1,33 @@
-This is Android 15 QPR2 with May 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 05/08/2025).
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
 - Includes XiaomiParts and Leica camera.
 - Credits to Arian16k, FlowerSea, GR, ralph20060412, Kamikaonashi.
 
 Device changes:
 ==============================
-Add libwfdservice_shim for WFD
-Generate qcrilNr.db during build
-Update blobs from haydn V816.0.18.0.UKKMIXM
+Migrate Dolby Vision to soong_config_set
+switch to common AIDL IR service
 
 Notable ROM changes:
 ==============================
-Add vendor_overlay support to fsgen
-CompositionEngine: Request device composition for the Udfps dim layer
-Evolver: Drop ROM-side Play integrity fix
-Fix ArrayIndexOfBoundsException in WallpaperManagerService
-Fix the system server restart issue caused by the fingerprint framework
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
