@@ -6,30 +6,23 @@ Notes:
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Play Integrity passes, RCS works (As of 04/11/2025).
 - Includes Dolby Atmos.
-
-Device changes:
-==============================
-fixed whatsapp call/video calls
+This is Android 15 QPR2 with June 2025 security patches
 
 Notable ROM changes:
 ==============================
-Adapt QS widgets for 15-QPR2
-Add more device key actions
-Enable ThinLTO cache
-Evolver: Controllable squiggle animation
-Evolver: Revamp lock screen fragment
-Fix NullPointerException issue due to threads race
-Fix splash screen retention issue during transferStartingWindow
-Import animations from SettingsGoogle
-Merge April 2025 security patches
-Resources: don't crash the app if font is not found
-Settings: Prevent IllegalArgumentException in storage settings
-SystemUI: RE-Introduce QS Widgets
-Use IntArray instead of ArraySet<Integer> to store int lists
-Use Launcher3 value for taskbar_phone_size in Pixel Launcher
-audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
-audio policy: return appropriate profile from searchCompatibleProfileHwModules
-envsetup.sh: Override host metadata
-fix NexusLauncher for tablet mode & follow system taskbar size
-fix empty reverse charging lottie
-rro_overlays: Bump to BP1A.250305.019
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
