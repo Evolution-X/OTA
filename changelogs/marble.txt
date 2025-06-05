@@ -1,4 +1,4 @@
-This is Android 15 QPR2 with May 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
@@ -13,26 +13,25 @@ Notes:
 
 Device changes:
 ==============================
-Add dual AP/STA to wifi hal interface combinations
-BT: Import LDAC and LHDC prebuilts
-Commonize adreno gmu and sqe firmware
-Copy media related audio configs from audio hal
-Enable Client Composition Cache
-Remove fqname for vendor.qti.hardware.pal@1.0
-Update blobs from cupid OS2.0.3.0.VLCMIXM
-Update blobs from diting OS2.0.2.0.VLFMIXM
-Update blobs from marble OS2.0.4.0.VMRMIXM
-audio: Configure stereo microphone for landscape camcorder
-audio: Use 2 channels for speaker out in voice calls
-audio: Use voice-headphones path for calls with headphones
-init: Make less cores available for background tasks
-wlan: Apply xiaomi changes to wcnss configs
-wlan: Use default value for assoc failure timeout
+Override doze mode support
+Remove wifilearner HIDL entry from manifest
+wlan: Remove g_prefer_5g_scc_to_dbs
 
 Notable ROM changes:
 ==============================
-Add vendor_overlay support to fsgen
-CompositionEngine: Request device composition for the Udfps dim layer
-Evolver: Drop ROM-side Play integrity fix
-Fix ArrayIndexOfBoundsException in WallpaperManagerService
-Fix the system server restart issue caused by the fingerprint framework
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
