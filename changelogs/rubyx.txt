@@ -7,6 +7,7 @@ Notes:
 - Miui Camera has the same issues as previous. Close the miui camera after taking your shots and it'll get saved in your gallery. Fix is being made soon.
 - Play Integrity Fix in rom has been dropped. Use your own methods to fix the play integrity.
 - Toggle added for expressive design in themes
+- Fixed app crashing while opening for first few times
 
 Device Changes:
 =======================
