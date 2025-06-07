@@ -1,4 +1,4 @@
-2025-05-30
+2025-06-06
 
 
 To use this release you need:
@@ -12,39 +12,28 @@ To use this release you need:
 Device changes:
 ==============================
 
-  * switch to common AIDL IR service
-  * sepolicy: Allow fingerprint hal to read system dmabuf device
-  * parts: adapt cpu and gpu frequencies to taro platform
-  * parts: Don't set battery saver power profile in low battery mode
-  * sepolicy: Rework sepolicy and drop neverallows
-  * parts: Introduce PowerTools v3.0
-  * Refactor: Migrate SaturationUtils to Kotlin
-  * parts: ThermalTileService: Refactor Thermal Profile QS tile
-  * parts: ThermalTileService: Introduce Gaming Mode with per-game optimizations
-  * parts: Add support for long-press actions on QS tiles
-  * parts: ThermalTileService: Refactor Thermal Tile Service and CPU Governor Management
-  * parts: Fixup Thermal profile tile service
-  * parts: Rework per-app thermal profile
-  * parts: Introduce thermal profile tile service
-  * parts: Introduce GameBar v4.0
-  * Add support for `60Hz in Landscape` in Per-App-RR
-  * parts: Add {navigation,video} thermal profiles
-  * parts: Introduce High Brightness Mode (HBM) and Auto HBM QS tile
-  * parts: Introduce Display Satutaion Service and TileUtils
-  * parts: Add permissions and whitelist for Xiaomi parts
-  * parts: Refactor BootCompletedReceiver
-  * parts: Start parts services as early as possible on bootup
-  * parts: Update overrideHdrTypes API for U
-  * parts: Override HDR types for Dolby Vision
-  * parts: Partially import parts from sm8350-common
-  * sepolicy: Label more property
-  * sepolicy: Import initial sepolicy for Xiaomi parts
-  * init: Make less cores available for background tasks
-  * Enable Client Composition Cache
-  * Remove fqname for vendor.qti.hardware.pal@1.0
-  * enable Dolby Vision in hwcomposer
-  * Add support for Dolby Vision
+  * sm8450-common: wlan: Use default value for assoc failure timeout
+  * sm8450-common: wlan: Remove g_prefer_5g_scc_to_dbs
+  * sm8450-common: wlan: Apply xiaomi changes to wcnss config
+  * sm8450-common: Remove wifilearner HIDL entry from manifest
+  * sm8450-common: parts: uprev PowerTools to v3.1
+  * sm8450-common: parts: Move GameBar to system settings and add Icon as well
 
 ROM changes:
 ==============================
-  * Safetynet with only basic integrity pass
+  * [Expressive Design] expand collapsing toolbar by default
+  * [Expressive Design] fix ActionButtons click listener applicationAdd commentMore actions
+  * [Expressive Design] fix battery usage layout
+  * Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+  * Evolver: Add switch to spoof QSB
+  * Evolver: adjustments for material expressive design
+  * Merge June 2025 security patches
+  * ProcessList: catch exceptions when unfreezing starting process
+  * ProcessList: fix start process failure for frozen system apps
+  * Settings: Use M3 slider for discrete seekbars
+  * SettingsLib: Animate the UsageProgressBarPreference
+  * SettingsLib: Redesign seekbar according to M3 slider
+  * SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+  * SettingsLib: fix expressive design
+  * display: allow changing HDR brightness intensity
+  * version: Uprev to 10.7
