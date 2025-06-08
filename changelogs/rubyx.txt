@@ -1,5 +1,9 @@
 This is Android 15 QPR2 with May 2025 security patches
 
+Hotfix:
+- Fixed some bluetooth connectivity issues (audio coming from speakers even if bluetooth is connected)
+- NFC now works for the devices with changed resistors
+
 Notes:
 =======================
 - LineageOS based sources
