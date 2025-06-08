@@ -1,5 +1,6 @@
 A15 QPR2
 June SPL
+Bump to version 10.7
 Viper4AndroidFX removed
 LED Notification now working
 Clean flash recommended coming from stock or another ROM
