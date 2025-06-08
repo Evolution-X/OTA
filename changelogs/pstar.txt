@@ -1,8 +1,8 @@
-A15 QPR2
-June SPL
-Bump to version 10.7
-Viper4AndroidFX removed
-LED Notification now working
-Clean flash recommended coming from stock or another ROM
+May SPL
+Clean flash not required whwn upgrading
+QPR2 build
+Bump to EvolutionX v10.7
+Removed Viper4AndroidFX support
 Dolby Atmos now shipped via system
-Expanded Moto Gestues enabled
+LED Notification now working
+Expanded Moto Gestures enabled
