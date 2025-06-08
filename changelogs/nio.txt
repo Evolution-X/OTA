@@ -1,7 +1,8 @@
 May SPL
 Clean flash not required whwn upgrading
 QPR2 build
-Bump to EvolutionX v10.6
-Removed Viper support
+Bump to EvolutionX v10.7
+Removed Viper4AndroidFX support
 Dolby Atmos now shipped via system
 LED Notification now working
+Expanded Moto Gestures enabled
