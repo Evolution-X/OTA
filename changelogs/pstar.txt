@@ -1,7 +1,7 @@
 A15 QPR2
-May SPL
-Viper4Android included
+June SPL
+Viper4AndroidFX removed
 LED Notification now working
 Clean flash recommended coming from stock or another ROM
 Dolby Atmos now shipped via system
-Expanded Moto Gestues
+Expanded Moto Gestues enabled
