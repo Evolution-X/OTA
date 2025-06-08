@@ -1,4 +1,4 @@
-This is Android 15 QPR2 with May 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
@@ -10,34 +10,25 @@ Notes:
 
 Device Changes:
 ==============================
-22-May-2025
+08-Jun-2025
 ==============================
-* Added support for Dolby Vision
-* Updated Dolby (fixed low sound issue when Volume Leveler is enabled)
-* Fixed duplicate number parsing when receiving calls
+* Switch to lineage kernel
 
 Rom changes:
 ==============================
-Evolver: Add experimental SDK 32 play store spoof
-config: Add bypass charging prop
-overlay: add applock whitelist
-vendor: props: Add blur support
-base: Introduce PowerOffAlarmService
-services: Extend long screen feature to all apps
-services: improve cutout force full screen
-services: boost thread priority for critical locks
-base: Double tap to trigger doze
-
-BlurController: fix default blur enablement value
-ClockEventController: fix clock plugins animation
-CompassTile: Make Compass point towards North
-EnableBlursPreferenceController: fix default blur value
-Fix only kill current user proc while clear data
-NotificationPanelViewController: add an early boost before QS fling
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-SystemUI: Implement the QS widget connectivity tile
-SystemUI: Reset when sleeping state change
-SystemUI: Skip AOD wake up on display timeout if lock screen is disabled
-Use the package name from the application info if the current package name is not available
-fwb: silence annoying error log when GMS not privileged
-zygote: boost process priority during fork via fifo
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)Add commentMore actions
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
