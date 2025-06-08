@@ -1,10 +1,10 @@
 {
   "response": [
     {
-      "maintainer": "",
-      "currently_maintained": false,
-      "oem": "",
-      "device": "",
+      "maintainer": "Rondeau79",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Motorola one 5G ACE",
       "filename": "EvolutionX-15.0-20250607-kiev-10.7-Official.zip",
       "download": "https://sourceforge.net/projects/evolution-x/files/kiev/15/EvolutionX-15.0-20250607-kiev-10.7-Official.zip/download",
       "timestamp": 1749283124,
@@ -16,9 +16,11 @@
       "forum": "",
       "firmware": "",
       "paypal": "",
-      "github": "",
-      "sourceforge": "",
-      "initial_installation_images": []
+      "github": "Rondeau79",
+      "sourceforge": "Rondeau97",
+      "initial_installation_images": [
+        "recovery"
+      [   
     }
   ]
 }
