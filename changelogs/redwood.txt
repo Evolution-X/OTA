@@ -4,18 +4,20 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Includes Dolby Atmos, POCO camera.
-- Install this (https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.6/KernelSU_Next_v1.0.6_12490-release.apk) for root.
-- Flash ( https://github.com/Atom-X-Devs/scarlet_xiaomi_sm7325/releases ) NON-ROOT version of kernel to get rid of root.
-- If you face any issue ( such as auto reboot ) on scarlet You can flash any alternative kernel from Here ( https://sourceforge.net/projects/poco-x5-pro-roms/files/Kernel )
 
 Device Changes:
 ==============================
-08-Jun-2025
+09-Jun-2025
 ==============================
 * Switch to lineage kernel
+* BHIM UPI: Fixed an issue causing the app to crash on launch.
+* Speaker Call Audio: Resolved a bug where audio from the other party was not audible during speaker calls on WhatsApp and Telegram.
 
 Rom changes:
 ==============================
+Fix issues with root causing bootloop
+PixelPropsUtils: Remove recent pixel spoofing for gms
+gameprops: Spoof Delta Force to ASUS ROG 6D
 [Expressive Design] expand collapsing toolbar by default
 [Expressive Design] fix ActionButtons click listener application
 [Expressive Design] fix battery usage layout
