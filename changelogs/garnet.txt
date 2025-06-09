@@ -1,18 +1,19 @@
-This is Android 15 QPR1 with Febraury 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
-- LineageOS-based source. Signed build, Vanilla variant
-- Make sure to be on HyperOS firmware first.
-- Use OrangeFox-garnet-stable@R11.1_1.zip as recovery.
-- Play Integrity passes, RCS works (As of 1/14/2025).
-- Includes Dolby Atmos, MiCamera.
+- LineageOS-based source. Signed build.
+- Flash Latest firmware according to your region (firmware <= 2.0.10)
+- Recommended EvoX recovery
 - Credits to Grewal, cupid-development.
 
 Device changes:
 ==============================
-- Disable proprietary listen model
-- Fixed USSD dial codes
-- Build opensource soundtrigger HAL
-- Get rid of unnecessary 32-bit blobs
-- Setup ELF checks; Welcome to android16
+- Update blobs from 2.0.10.
+- Switch to common AIDL IR service.
+- Introduce XiaomiParts.
+- Introduce Display Satutaion Service and TileUtils.
+- Introduce High Brightness Mode (HBM) and Auto HBM QS tile
+- Kill statsd service.
+- Show min/max refresh rate in settings
+- Fixed CPU frequencies stuck with high frequency
