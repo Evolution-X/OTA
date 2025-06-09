@@ -1,32 +1,32 @@
-This is Android 15 QPR2 with May 2025 (r32) security patches
+This is Android 15 QPR2 with June 2025 (r32) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r10-official-evolution-x-10-2-01-24-2025.4659931/) for root.
-- Play Integrity passes, RCS works (As of 05/08/2025).
+- Play Integrity removed.
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Update Baalam kernel to 5.10.237
+Update Baalam kernel to 5.10.238
 
 Notable ROM changes:
 ==============================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
 ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
