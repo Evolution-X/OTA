@@ -37,7 +37,13 @@ Changelog
 05/06/2025
 ------------------
 - Initial 10.7 Release
-- June 2025 Security Patch
+- [ROM] Discontinue Play Integrity Fix
+- [ROM] June 2025 Security Patch
 - Re-enable UDFPS customization
 
 
+09/06/2025 - 10.7
+------------------
+- [ROM] Fix some issues with the material 3 expressive preview not enabling/disabling properly
+- [ROM] Fix issue where notifications may overlap the lockscreen clock
+- [ROM] Fix some applications force-closing the first time they're launched
