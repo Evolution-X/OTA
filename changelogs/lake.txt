@@ -1,3 +1,20 @@
+===== 2025/06/07=====
+Bump to EvolutionX v10.7
+June 2025 Security Patch
+Commonize IMS APK
+Update extract-files via template
+Set timer trigger for charging LED
+Import MotorolaSettingsProvider sepolices
+Update QMI, RIL, IMS from river
+Move qcril manifest into main manifest
+Remove depreciated libril-qc-qmi-1
+Implement ELF checks & swap to python extract
+Ditch vendor.rild.libpath prop
+Delete class_main init shell script
+Update extract-files.py from template
+
+
+===== 2025/05/19 =====
 Bump to EvolutionX v10.6
 May 2025 Security Patch
 Linux Kernel 4.4.302
