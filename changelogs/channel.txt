@@ -1,3 +1,12 @@
+===== 2025/06/07=====
+Bump to EvolutionX v10.7
+June 2025 Security Patch
+Revert "Enable ro.config.low_ram"
+Migrate Lineage Health to soong_config_set
+Import MotorolaSettingsProvider sepolices
+Set timer trigger for charging LED
+
+===== 2025/05/19 =====
 Bump to EvolutionX v10.6
 May 2025 Security Patch
 Linux Kernel 4.9.337

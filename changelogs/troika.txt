@@ -1,3 +1,11 @@
+===== 2025/06/08 =====
+Bump to EvolutionX v10.7
+June 2025 Security Patch
+Import MotorolaSettingsProvider sepolices
+Migrate Lineage Health to soong_config_set
+
+
+===== 2025/05/19 =====
 EvolutionX v10.6
 May 2025 Security Patch
 Linux Kernel 4.14.113
