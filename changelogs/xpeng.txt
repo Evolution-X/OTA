@@ -1,0 +1,13 @@
+===== 2025/06/06 =====
+- Bump to EvolutionX v10.7
+- June 2025 Security Patch
+- Linux Kernel 5.4.292
+- Import MotorolaSettingsProvider sepolices.
+- Fix screen recorder lag.
+- WiFi: Enable 802.11ax support for softap mode.
+- Init: rm package cache on early boot.
+- Sepolicy: Allow setting read_ahead_kb on /data partition.
+- Props: Optimize RAM management.
+- Overlay: Show Turbo Power instead of charging rapidly like Stock.
+- Rootdir: Set readahead_size_kb=128 on fstab.
+- Build MotCamera4 from prebuilt source.

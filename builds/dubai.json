@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Edge 30",
+      "filename": "EvolutionX-15.0-20250607-dubai-10.7-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/dubai/15/EvolutionX-15.0-20250607-dubai-10.7-Official.zip/download",
+      "timestamp": 1749255656,
+      "md5": "1030d40bc5b5e10154458e7c2e4eed9e",
+      "sha256": "cadf6ac32e51891ebaf5b5ece9968f5b0a3e86fdca86f57efc6cea1f38cb0b15",
+      "size": 2252753133,
+      "version": "10.7",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-7-for-motorola-edge-30-dubai-20250607.4743561/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "sourceforge": "blueice21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
