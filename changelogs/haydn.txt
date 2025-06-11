@@ -1,22 +1,19 @@
-This is Android 15 QPR2 with May 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk.
-- Play Integrity passes.
-- Kernel does not include KSU Next. Just flash Kernelicious-Kernel-KSUN if you want.
+- Play Integrity fails (Use modules to pass).
+- Kernel does not include KSU Next
 - Includes XiaomiParts and Leica camera.
 - Credits to Alucard-Storm, 1xtAsh, swiitchOFF, Kenway214, Kamikaonashi.
 
 Device changes:
 ==============================
-- Initial Build
-- Includes XiaomiParts
-- Dial Hal works
-- HBM, HTSR & DC Dimming works
-- GameBar v4.0 Included
-- Bypass Charging supported (Check Gamespace)
-- Dolby Included (With Sony Blobs)
-- Firmware included (HAYDNGlobal_OS1.0.18.0.UKKMIXM)
-- Leica Cam Included (Fixed for CN Users)
+- June Patch
+- Updated blobs from haydn 1.0.12.0 CN
+- Fixed Haptics
+- Dropped NCM USB tethering
+- switch to common AIDL IR service
+- Many More Improvements
