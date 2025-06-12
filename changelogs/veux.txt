@@ -1,4 +1,4 @@
-This is Android 15 QPR1 with May 2025 security patches
+This is Android 15 QPR2 with June 2025 security patches
 
 Notes:
 ==============================
@@ -9,32 +9,32 @@ Notes:
 
 Device changes:
 ==============================
-- added turbo charge
-- added back Aperture
-- added maintainer informations in settings
-- added Xiaomi Dolby
-- added IR blaster (infrared)
-- dropped miui cam
-- dropped old thermals
-- dropped old fastcharge implementation
-- enhanced a bit the qs lag (still present unfortunately)
-- fixed audio hals for building
-- fixed google_battery crashing in loop
-- fixed cpu informations
-- fixed some lags
-- fixed some thermal profiles issues and permissions
-- fixed some battery drain
-- fixed some CPU usage
-- fixed some audio issues
-- optimized ram
-- silented a lot of spam in logs
+- Fixed some fast charge issues
+- Fixed device rebooting issues
+- Fixed in-app cameras issues
+- Started to implement DeviceAsWebcam (not working yet tho)
 
 - reworked entierly the device trees
 - opened the trees to github at https://github.com/evolution-x-devices/device_xiaomi_veux.
 
 Rom changes
 =============================
-May security patches
-no more play integrity fix (dead in all custom roms)
+June security patches
+Only passes Play integrity as BASIC
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive designAdd commentMore actions
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+Settings: Use M3 slider for discrete seekbarsAdd commentMore actions
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
 
 #KeepEvolving
