@@ -1,27 +1,22 @@
-This is Android 15 with May 2025 security patches
+This is Android 15 with June 2025 security patches
+No notable changes in this release, except security patches.
+Improvements have been made rom-side as well.
+Added some blurs.
 
-Device changes:
+ROM changes :
 =======================
-Android QPR2 - May security patches
-added blur for background
-improved smoothness
-kernel updated 
-
-Notable ROM changes:
-====================================================
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive designAdd commentMore actions
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+Settings: Use M3 slider for discrete seekbarsAdd commentMore actions
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
