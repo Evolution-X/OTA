@@ -1,23 +1,30 @@
-===== 16 May 2025 =====
+This is Android 15 QPR2 with June 2025 security patches
 
-NOTES:
+===== 16 June 2025 =====
+
+Notes:
 - Dirty install might be fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
+- Play Integrity spoofing has been removed
 
-DEVICE:
-- Moved Thermal profiles to Settings > System
-- Minor bug fixes
+Device:
+- Switch to kernel from xiaomi-sm8150-devs/android_kernel_xiaomi_sm8150
 
-ROM:
-- Fix crashes when long-pressing A10 QS tiles
-- Add power save modes
-- Bring back Lockscreen weather
-- Bring back Quick tap
-- Bring back QS data usage
-- Bring back Status bar clock mods
-- Bring back Status bar logos
-- Bring back Colored status bar icons
-- Bring back Status bar notif count
-- Bring back Pulse visualization
-- Bring back Lock/Unlock sounds
-- Bring back boot animation styles
+Notable ROM changes:
+==============================
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7
