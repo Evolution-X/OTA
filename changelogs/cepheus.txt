@@ -1,14 +1,15 @@
 This is Android 15 QPR2 with June 2025 security patches
 
-===== 16 June 2025 =====
+===== 25 June 2025 =====
 
 Notes:
 - Dirty install might be fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
-- Play Integrity spoofing has been removed
+- Play Integrity spoofing is back with keybox support
 
 Device:
-- Switch to kernel from xiaomi-sm8150-devs/android_kernel_xiaomi_sm8150
+- Switch back to old kernel again
+- All partitions are ext4 again
 
 Notable ROM changes:
 ==============================
