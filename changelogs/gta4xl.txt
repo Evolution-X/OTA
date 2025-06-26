@@ -24,4 +24,4 @@ SettingsLib: Redesign seekbar according to M3 slider
 SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
 SettingsLib: fix expressive design
 display: allow changing HDR brightness intensity
-version: Uprev to 10.7
+version: Uprev to 10.7 June patch
