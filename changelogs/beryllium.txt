@@ -1,245 +1,32 @@
 Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/recovery/recovery.img/download
-KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20250408.zip/download
-KSU Next with susfs: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-susfs-20250408.zip/download
+KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20250622.zip/download
+KSU Next with susfs: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-susfs-20250622.zip/download
 
-This is Android 15 with May 2025 security patches
+This is Android 15 with June 2025 security patches
 Device changes:
 =======================
-Add clear speaker setting
-Fix various selinux denials
-Fix CPU temperature in CPU Info tile
-Move thermal profiles to system category
+Decrease zram to 25%
+Fix wifi issue on some users
+General performance improve
 
 
-Rom changes:
+ROM changes:
 =======================
-Adapt navbar styles target package
-CachedAppOptimizer: Initialize compactProfile and compactTime
-DeviceConfig: drop smartspace flashlight action chip (again)
-DeviceConfig: update nearby flags
-DisplayModeDirector: Set default minimum refresh rate to 60
-Drop overlays after QPR2 changes
-DropBox: skip fsck.f2fs results that don't contain errors
-DropBox: skip spurious system_server_crash entries
-Evolver: Drop features after QPR2 changes
-Evolver: Remove retired navbar features
-FaceUnlockImageView: Prevent statusBarStateController memory leak
-GameManagerService: Affine games to big cores when game mode is enabled
-Hide App list: Improve hide app list feature
-Merge March 2025 security patches
-NotificationAttentionHelper: Apply suppressing notifications on boot
-PackageManagerService: Wipe resource/package cache on upgrade
-Persist music stream volume per user for Automotive
-Reduce max dropbox files
-Remove gestural navigation overlays
-Settings: Do not hide navigation modes
-Settings: Keep page search enabled for legacy navigation customization
-Settings: Mark all DSU options as unsupported
-Settings: Move in navbar styles
-Settings: Move in settings for 3-button navbar
-Settings: Move swipe actions to gesture navigation settings
-Settings: Remove QS tile and QS brightness slider haptic options
-Settings: Themes: Use legacy material background color
-Settings: fix fingerprint enrollment on Google devices with side FP scanner
-SettingsLib: Use legacy material colors for settings' surface container
-Skip moving home to front for multiwindow roottask
-SliderHapticFeedbackProvider: Improve slider haptics
-SystemUI: Add padding end to QS Customizer toolbar
-SystemUI: Adjust QS style to nothingOS
-SystemUI: Fix face unlock indication static calls
-SystemUI: Fix internet dialog background runtime exception
-SystemUI: Fix QS Customizer toolbar color
-SystemUI: Implement SystemUIBoostFramework
-SystemUI: Show Battery Defender indication only when battery level reaches charging threshold
-SystemUI: add keyguard slice view to split shade layout
-SystemUI: don't hide date text on lockscreen when media is playing
-SystemUI: fix keyguard media section placement when split shade is used
-SystemUI: fix orientation of keyguard slice view rows
-SystemUI: improve alignment between keyguard clock and date
-Toast: Fix toast color not following light/dark theme
-Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
-audio: Fix A2DP volume issue with multiple outputs
-camera: Whitelist google camera
-config: enable desktop mode support
-core: Allow camera shutter sound to be disabled in all countries
-core: Expose method to toggle recent apps through Binder
-disable safe media volume management
-don't delay setting observer callbacks for background system packages
-don't remove app widgets from user's home screen when the user stops
-fix check for the current holder of the Wallet app role
-fonts: Update from komodo BP1A.250305.02
-overlay: Remove no longer used NavigationBarNoHint
-release: Enable new QS panel
-Added RECORD_AUDIO permission for MIC
-Audio: fix ~refbase() crash caused by race condition
-BluetoothAdapter: Check constructor for null first
-Bring back old QS panel and QS customization
-DisplayPolicy: Use DISPLAY_UPDATE_IMMINENT for scrolling boosts
-Evolver: Add ongoing action chip toggle setting
-Lockscreen widgets: Match background with notification bg color
-Override host metadata
-Remove cryptographic signature verification for local updates
-Support dark mode for default theme
-SystemUI: Bring back old smartspace padding
-Telecomm: Provide required permissions for Telephony
-Update host metadata overrides for 15 QPR2
-WeatherAppWidgetProvider: Fix crash when checking outline icon pack
-Zygote: Explicitly disable memory tagging
-audiopolicy: return appropriate profile from searchCompatibleProfileHwModules
-base: Don't kill isolated and sandbox processes
-core: Also don't kill frozen processes when receiving sync binder transactions
-extras: Add font package for Google Sans Flex
-extras: Update SystemUI clocks from komodo 15.0.0 (BP1A.250305.020, Mar 2025)
-extras: fonts: Update Google Sans from BP1A.250305.020
-fixup! SystemUI: Constrain keyguard indication area burn-in offset
-import brightness fluctuation fix from Android 16 Beta 3.1
-kernel: Set "safe" default values for kernel build host & user
-overlay: Enable keyboard vibration
-overlay: SystemUI: Add plugin whitelist
-pixel-style: Import animations from SettingsGoogle
-services: Add GameSpaceManagerService
-services: Pin system_server to top-app
-Adapt QS widgets for 15-QPR2
-Add more device key actions
-Enable ThinLTO cache
-Evolver: Controllable squiggle animation
-Evolver: Revamp lock screen fragment
-Fix NullPointerException issue due to threads race
-Fix splash screen retention issue during transferStartingWindow
-Import animations from SettingsGoogle
-Merge April 2025 security patches
-Resources: don't crash the app if font is not found
-Settings: Prevent IllegalArgumentException in storage settings
-SystemUI: RE-Introduce QS Widgets
-Use IntArray instead of ArraySet<Integer> to store int lists
-Use Launcher3 value for taskbar_phone_size in Pixel Launcher
-audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
-audio policy: return appropriate profile from searchCompatibleProfileHwModules
-envsetup.sh: Override host metadata
-fix NexusLauncher for tablet mode & follow system taskbar size
-fix empty reverse charging lottie
-rro_overlays: Bump to BP1A.250305.019
-Adapt the NowBar feature to 15-QPR2
-Add RRO to hide NexusLauncher gesture hint
-AudioEffect: avoid crashing system when loaded effect is not supported
-CachedAppOptimizer: do not freeze process if adj is less than FREEZER_CUTOFF_ADJ
-CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
-CameraCaptureSessionImpl: Avoid unnecessary property access denials
-ChargingControlNotification: fix system server crash
-ChargingControl: Prevent crash against null provider
-Do not show any charge info when the nowbar is enabled and the phone is charging
-Enable freeform windows by default
-EvolutionUtils: Add util to toggle overlays
-Evolver: Remove option to switch between native/LMO freeform
-Fix NPE in TextToSpeechManagerPerUserService
-Fix NPE when IntentFilter doesn't have any data type.
-Fix wrong pid in event_log when native crash
-Force set the peek display position to top
-MediaRouter2: fix crash when system routes is not available
-RemoteViews - Always load new ApplicationInfo from PackageManager
-Settings: Move Notch Cutout to Display
-Settings: Support hiding gesture hint in NexusLauncher
-SystemUI: Fix slice view widget padding
-SystemUI: VolumeDialog: Do not check previous state when updating rows
-SystemUI: VolumeDialog: Fix up touchable region with per-app volume
-SystemUI: VolumeDialog: Make rows view GONE if not required
-SystemUI: VolumeDialog: Use settings observer for app volume
-SystemUI: fix a screenshot process crash in ScrollCaptureController
-Telcomm: Enable support for blocking callers not in contacts
-Telecomm: Fix ConcurrentModificationException in BluetoothDeviceManager
-Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
-Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
-VolumeControlTile: Update volume percent after listening
-VolumeControlTile: show volume slider when long pressed
-add workaround for BiometricService.SettingObserver system_server crash
-camera2: add null/empty checks before accessing packageName
-core: Update freeze IDs for VIC QPR2 used by HbmSvManager
-fix NPE system_server crash in F2fsUtils.getFilesRecursive()
-getCommunicationDevice() will wait after device update end
-lineage-sdk: Fix charging notification crash due to faulty strings
-overlay: Allow ShannonIMS to access ServiceState
-services: Do not freeze foreground processes
-telephony: Trim warning log if app not installed
-Cap the max size of reported work durations
-Fix NPE in TouchpadDebugViewController
-Fix SwAudioOutputCollection indexing in closeOutput()
-Fix ever-growing AppOpItem string representation
-Fix incorrect NULL check in IncFsFileMap reference assertions
-GameSpaceManager: Rewrite and fix app detection issues
-GameSpaceManagerService: sanitize game list
-Only toggle MainSwitchBar on successful change listener result
-Reparent surface to original parent post-rotation animation
-appop: Finish all when last in chain fail
-services: Add GameSpaceManagerService
-AppLockPackageListFragment: fix app filter
-Evolver: Rewrite theme elements
-Evolver: Support navbar themes in both Launcher3 & NexusLauncher
-Fix "Manage App & Content access" for profiles
-ManageStoragePreferenceController: Explicitly disable storage management preference
-Shell: Use night/light theme for buttons/caption color instead of luminance
-Stop unsuspending packages in profiles
-SystemUI: Make lockscreen buttons slightly bigger
-SystemUI: add config for ignoring lockscreen cutout for status bar
-fixup! Add high touch sensitivity to InputService
-fixup! Keyguard: Add option to scramble pin layout when unlocking
-fixup! PowerManager: Add proximity check on wake
-vendor: props: Add blur support
-AbsListView: clear scroll cache before removing clear cache callbacks
-Bring back PowerOffAlarmService
-Extend Long screen feature to all apps
-GameBarService: fixes and improvements
-GameManagerService: fix game cpu affinity
-GameManagerService: use verbose logging for game affinity logs
-GameSpaceManager: Rewrite and fix app detection issues
-GameSpaceManager: cleanup and improvements
-LongScreenSettings: force stop app when adding/removing to long screen app list
-Resources: don't crash the app if font is not found
-Settings: Add Comss DNS provider
-Settings: Introduce new refresh rate selector page
-Settings: Use ActionPrimaryButton style for face buttons
-SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_LIGHT_REVEAL boosts
-SystemUIBoostFramework: add REQUEST_ANIMATION_BOOST_TYPE_UNLOCK boosts
-core: exempt ParanoidSense from Privacy Indicator
-display: add hdr display switch preference
-fix long screen layout issues
-gestures: add controller for double tap to trigger doze
-overlay: add applock whitelist
-services: Add GameSpaceManagerService
-services: Extend long screen feature to all apps
-services: GameSpaceManager: Update and clean up
-services: Move camera_package_name_defaults to select()
-services: Move libcameraservice_ext_lib_defaults to select()
-services: boost thread priority for critical locks
-services: clean system_server heap memory on screen off
-services: improve cutout force full screen
-services: only preload process after clearing memory
-services: optimize memory on device wake
-Add prefix and suffix to restrict iteration to optimize search efficiency
-BoostFramework: release memory when boosting animation
-Fix the NowBar doesn't update after the media session has ended
-GameBarService: improve panel animation
-GameManagerService: release memory when switching to game
-GameManagerService: remove unused boosted check
-GameSpace: fix and animate panel view translation
-Merge May 2025 security patches
-NetworkManagementService: fix crash when mUidCleartextPolicy is empty
-PixelPropsUtils: Update to May 2025 release
-ProcessList: fix start process failure for frozen system apps
-SystemUI: Don't invoke ClockSettings on a null object
-config: Increase timeout for waiting AudioPolicy service
-force fullscreen: override cutout sources during adjustInsetsForWindow
-release: Sync flag_values with BP1A.250505.005
-vars: May 2025 Security update
-BlurController: fix default blur enablement value
-ClockEventController: fix clock plugins animation
-CompassTile: Make Compass point towards North
-EnableBlursPreferenceController: fix default blur value
-Fix only kill current user proc while clear data
-NotificationPanelViewController: add an early boost before QS fling
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-SystemUI: Implement the QS widget connectivity tile
-SystemUI: Reset when sleeping state change
-SystemUI: Skip AOD wake up on display timeout if lock screen is disabled
-Use the package name from the application info if the current package name is not available
-fwb: silence annoying error log when GMS not privileged
-zygote: boost process priority during fork via fifo
+[Expressive Design] expand collapsing toolbar by default
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSB
+Evolver: adjustments for material expressive designAdd commentMore actions
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+Settings: Use M3 slider for discrete seekbarsAdd commentMore actions
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+Fix issues with root causing bootloop
+PixelPropsUtils: Remove recent pixel spoofing for gms
+gameprops: Spoof Delta Force to ASUS ROG 6D
+version: Uprev to 10.7
