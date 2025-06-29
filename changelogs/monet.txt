@@ -1,0 +1,30 @@
+This is Android 15 QPR2 with June 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity with keybox support
+
+Device changes:
+==============================
+- Official Release Evolution X Monet
+- Mini Gapps included
+
+Notable ROM changes:
+==============================
+[Expressive Design] expand collapsing toolbar by defaultMore actions
+[Expressive Design] fix ActionButtons click listener application
+[Expressive Design] fix battery usage layout
+Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
+Evolver: Add switch to spoof QSBAdd commentMore actions
+Evolver: adjustments for material expressive design
+Merge June 2025 security patches
+ProcessList: catch exceptions when unfreezing starting process
+ProcessList: fix start process failure for frozen system apps
+Settings: Use M3 slider for discrete seekbars
+SettingsLib: Animate the UsageProgressBarPreference
+SettingsLib: Redesign seekbar according to M3 slider
+SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
+SettingsLib: fix expressive design
+display: allow changing HDR brightness intensity
+version: Uprev to 10.7	
