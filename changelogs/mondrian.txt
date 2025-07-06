@@ -1,0 +1,38 @@
+This is Android 16 with June 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS firmware first.
+- Install Baalam Kernel for KSU for root.
+- Play Integrity removed.
+- Includes stock camera ported by NeoArian.
+
+Device changes:
+==============================
+Switch to sm8450 OSS project
+Disable thermal profiles on Settings
+
+Notable ROM changes:
+==============================
+Bring back theme styles to Evolver
+Disable night light when showing udfps overlay
+InsetsStateController: Replace ArrayMap usage with Hashmap
+Media: Limit Max album artwork bitmap size
+Settings: Allow showing Ambient instead of fully waking
+Settings: Apply expressive design to evolver icon
+Settings: NfcAndPaymentFragmentController: fix crash
+Settings: handle non-TextView layouts in storage spinner adapter
+SettingsLib: Ensure divider is set before view is returned in onCreateView
+ShortcutService: stop spam
+SystemUI: Bring back Smartspace
+SystemUI: Fix smartspace layout
+SystemUI: Fix up large clock top margin with pixel-fw
+SystemUI: Improve ripple animation color
+SystemUI: Map more custom QS tiles
+SystemUI: add logic for mapping unknown tiles
+SystemUI: biometrics: Add missing calls to parent onFinishInflate
+SystemUI: disable media control guts marquee effect
+SystemUI: fix keyguard media section placement when split shade is used
+SystemUI: fix squeeze effect crash
+fwb: stop some more warning spam

@@ -1,0 +1,29 @@
+{
+    "response": [
+      {
+        "maintainer": "Flakeforever",
+        "currently_maintained": true,
+        "oem": "Xiaomi",
+        "device": "Poco F5 Pro / Redmi K60",
+        "filename": "EvolutionX-16.0-20250706-mondrian-11.0-Official.zip",
+        "download": "https://cdn.evolution-x.org/mondrian/16/EvolutionX-16.0-20250706-mondrian-11.0-Official.zip/download",
+        "timestamp": 1751824507,
+        "md5": "7f35c768f72f59b066bedd903d33d501",
+        "sha256": "126efb6c5a7ff2e99c71f3404ce1c0ecd619d33ca67eec85475fecef6d1f1435",
+        "size": 2959664123,
+        "version": "11.0",
+        "buildtype": "user",
+        "forum": "",
+        "firmware": "https://xmfirmwareupdater.com/firmware/mondrian/stable/OS2.0.8.0.VMNMIXM/",
+        "paypal": "",
+        "github": "flakeforever",
+        "sourceforge": "flakeforever",
+        "initial_installation_images": [
+            "boot",
+            "dtbo",
+            "recovery",
+            "vendor_boot"
+        ]
+      }
+    ]
+  }
