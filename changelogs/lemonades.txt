@@ -9,6 +9,7 @@ Notes:
 
 Notable ROM changes:
 ==============================
+Bump Security String to 2025-07-01
 [Expressive Design] expand collapsing toolbar by defaultMore actions
 [Expressive Design] fix ActionButtons click listener application
 [Expressive Design] fix battery usage layout
