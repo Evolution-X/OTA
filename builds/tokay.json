@@ -23,7 +23,9 @@
         "vendor_kernel_boot",
         "vendor_boot"
       ],
-      "extra_images": []
+      "extra_images": [
+        "init_boot"
+      ]
     }
   ]
 }
