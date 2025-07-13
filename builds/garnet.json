@@ -17,10 +17,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/garnet/stable/OS2.0.10.0.VNRMIXM/",
       "paypal": "https://linktr.ee/Coptan",
       "github": "c0pt4n",
-      "sourceforge": "coptan",
       "initial_installation_images": [
-		  "recovery"
-      ]
+        "recovery"
+      ],
+      "extra_images": []
     }
   ]
 }
