@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "",
       "github": "legendleo90",
-      "sourceforge": "",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

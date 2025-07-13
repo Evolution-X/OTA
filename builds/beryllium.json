@@ -17,11 +17,11 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/beryllium/stable/V12.0.3.0.QEJMIXM/",
       "paypal": "https://paypal.me/tedomi270503",
       "github": "tedomi2705",
-      "sourceforge": "tedomi2705",
       "initial_installation_images": [
         "super_empty",
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

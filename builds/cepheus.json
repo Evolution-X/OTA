@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://www.paypal.me/chfondia",
       "github": "chematelegram",
-      "sourceforge": "chematelegram",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

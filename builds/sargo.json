@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/0nelots",
       "github": "onelots",
-      "sourceforge": "onelots",
       "initial_installation_images": [
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

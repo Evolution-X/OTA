@@ -17,12 +17,12 @@
       "firmware": "",
       "paypal": "https://www.paypal.me/asavvo01",
       "github": "DarkAngelGR",
-      "sourceforge": "",
       "initial_installation_images": [
         "boot",
         "recovery",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

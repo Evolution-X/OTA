@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/nattolecats1",
       "github": "nattolecats",
-      "sourceforge": "",
       "initial_installation_images": [
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

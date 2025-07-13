@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
       "github": "joeyhuab",
-      "sourceforge": "stallix",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

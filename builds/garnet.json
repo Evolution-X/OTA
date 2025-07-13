@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/OmarCoptan",
       "github": "c0pt4n",
-      "sourceforge": "coptan",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

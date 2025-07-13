@@ -17,13 +17,13 @@
       "firmware": "https://github.com/spike0en/Pong_Archive/releases/download/2.6.0/Pong_U2.6-240628-0430-image-firmware.7z",
       "paypal": "https://www.paypal.com/paypalme/anierinb",
       "github": "AgBKartikey",
-      "sourceforge": "",
       "initial_installation_images": [
         "super_empty",
         "boot",
         "recovery",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

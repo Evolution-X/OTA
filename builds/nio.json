@@ -17,12 +17,12 @@
       "firmware": "",
       "paypal": "",
       "github": "Rondeau79",
-      "sourceforge": "Rondeau97",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

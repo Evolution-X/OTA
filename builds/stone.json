@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://linktr.ee/joeyhuab",
       "github": "",
-      "sourceforge": "",
       "initial_installation_images": [
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

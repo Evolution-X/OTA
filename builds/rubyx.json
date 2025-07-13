@@ -17,13 +17,13 @@
       "firmware": "",
       "paypal": "https://paypal.me/zerotohiro",
       "github": "joshuah345",
-      "sourceforge": "superuser1958",
       "initial_installation_images": [
         "super_empty",
         "vbmeta",
         "dtbo",
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }
