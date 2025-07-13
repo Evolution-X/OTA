@@ -17,10 +17,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS2.0.3.0.VMWINXM/",
       "paypal": "https://www.paypal.com/paypalme/SuvojeetSengupta21",
       "github": "suvojit213",
-      "sourceforge": "suvojeet123",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

@@ -17,12 +17,12 @@
       "firmware": "",
       "paypal": "https://paypal.me/manidreddy1",
       "github": "manidweep",
-      "sourceforge": "manidweep",
       "initial_installation_images": [
         "recovery",
         "vbmeta",
         "dtbo"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

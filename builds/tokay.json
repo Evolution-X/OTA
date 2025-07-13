@@ -17,13 +17,13 @@
       "firmware": "",
       "paypal": "https://paypal.me/manidreddy1",
       "github": "manidweep",
-      "sourceforge": "manidweep",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_kernel_boot",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

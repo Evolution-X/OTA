@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/veux/stable/OS1.0.3.0.TKCMIXM/",
       "paypal": "https://paypal.me/PrathamKalra?country.x=IN&locale.x=en_GB",
       "github": "Prathamk07",
-      "sourceforge": "rex07",
       "initial_installation_images": [
         "boot",
         "vendor_boot",
         "dtbo"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

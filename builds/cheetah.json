@@ -17,13 +17,13 @@
       "firmware": "",
       "paypal": "https://PayPal.me/AnierinB",
       "github": "AnierinBliss",
-      "sourceforge": "Anierin",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_kernel_boot",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

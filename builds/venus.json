@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/venus/stable/OS2.0.1.0.UKBMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
       "github": "joeyhuab",
-      "sourceforge": "stallix",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

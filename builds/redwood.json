@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/redwood/",
       "paypal": "https://paypal.me/thepriyanshujangid",
       "github": "thepriyanshujangid",
-      "sourceforge": "priyanshujangid",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

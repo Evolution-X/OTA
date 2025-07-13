@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "",
       "github": "TechPanelGM",
-      "sourceforge": "techpanelgm",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

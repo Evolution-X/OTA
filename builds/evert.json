@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://www.paypal.me/Deivid21",
       "github": "Deivid21",
-      "sourceforge": "blueice21",
       "initial_installation_images": [
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

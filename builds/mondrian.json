@@ -17,13 +17,13 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/mondrian/stable/OS2.0.9.0.VMNMIXM/",
       "paypal": "",
       "github": "flakeforever",
-      "sourceforge": "flakeforever",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "recovery",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

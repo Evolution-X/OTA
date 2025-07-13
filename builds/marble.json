@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/marble",
       "paypal": "https://linktr.ee/joeyhuab",
       "github": "joeyhuab",
-      "sourceforge": "",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

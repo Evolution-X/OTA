@@ -17,10 +17,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/mido/stable/V11.0.2.0.NCFMIXM/",
       "paypal": "http://paypal.me/HyperPower17",
       "github": "NRanjan-17",
-      "sourceforge": "https://sourceforge.net/u/nranjan-17/",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

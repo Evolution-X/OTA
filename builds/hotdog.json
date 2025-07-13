@@ -17,12 +17,12 @@
       "firmware": "",
       "paypal": "https://paypal.me/Onelots",
       "github": "onelots",
-      "sourceforge": "onelots",
       "initial_installation_images": [
         "vbmeta",
         "dtbo",
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

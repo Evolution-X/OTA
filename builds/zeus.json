@@ -17,13 +17,13 @@
       "firmware": "",
       "paypal": "https://paypal.me/kaustuv001",
       "github": "kaustuv90",
-      "sourceforge": "kaustuv",
       "initial_installation_images": [
         "recovery",
         "boot",
         "vendor_boot",
         "dtbo"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

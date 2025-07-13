@@ -17,12 +17,12 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/haydn/",
       "paypal": "https://www.paypal.com/paypalme/Hexdare",
       "github": "Hexdare",
-      "sourceforge": "asimplayz1",
       "initial_installation_images": [
         "dtbo",
         "vendor_boot",
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

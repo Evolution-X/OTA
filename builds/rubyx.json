@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://paypal.me/AeronRules",
       "github": "Aeron-Aeron",
-      "sourceforge": "aeron",
       "initial_installation_images": [
         "boot"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

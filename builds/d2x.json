@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "https://ko-fi.com/0xsharkboy",
       "github": "0xsharkboy",
-      "sourceforge": "sharkb69y",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

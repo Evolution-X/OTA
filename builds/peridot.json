@@ -17,10 +17,10 @@
       "firmware": "https://xmfirmwareupdater.com/archive/firmware/peridot/",
       "paypal": "https://www.paypal.com/paypalme/kibria05",
       "github": "kibria5",
-      "sourceforge": "kibria5",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

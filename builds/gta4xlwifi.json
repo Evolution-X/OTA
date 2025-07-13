@@ -17,10 +17,10 @@
       "firmware": "",
       "paypal": "",
       "github": "techyguyperplexable",
-      "sourceforge": "objecting",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }

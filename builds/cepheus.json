@@ -17,10 +17,10 @@
       "firmware": "https://xmfirmwareupdater.com/firmware/cepheus/stable/V12.5.6.0.RFACNXM/",
       "paypal": "",
       "github": "nhansp",
-      "sourceforge": "nhansp",
       "initial_installation_images": [
         "recovery"
-      ]
+      ],
+      "extra_images": []
     }
   ]
 }
