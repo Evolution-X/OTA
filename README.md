@@ -18,10 +18,12 @@
       "forum": "https://forum link", #(mandatory)
       "firmware": "https://firmware link",
       "paypal": "https://donation link",
-      "telegram": "https://telegram link",
       "github": "GitHub Username",
       "initial_installation_images": [
         "img files to be flashed before sideloading Evolution X's zip"
+      ]
+      "extra_images": [
+        "Additional img files that can be flashed"
       ]
     }
   ]
