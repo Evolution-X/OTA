@@ -1,0 +1,5 @@
+===== Evolution X 11 for gta4xl ========
+- You MUST clean flash
+- This is a initial Android 16 Release
+- Latest July security patches 
+- Signed build
