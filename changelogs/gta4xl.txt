@@ -1,5 +1,4 @@
-===== Evolution X 11 for gta4xl ========
-- You MUST clean flash
-- This is a initial Android 16 Release
-- Latest July security patches 
-- Signed build
+====== Evolution X 11.0 (Baklava) ========
+- You are  NOT required to clean flash for first build only
+- You can use any recovery to flash
+- Signed with new keys
