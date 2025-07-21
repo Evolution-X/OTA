@@ -1,0 +1,24 @@
+===== 2025/07/21 =====
+- EvolutionX v10.7
+- July 2025 Security Patch
+- Linux Kernel 5.4.293
+
+Device Tree
+- tundra: Build Touch AIDL
+- tundra: Build MotCamera4 from prebuilt source
+
+Common Tree:
+- sm7325-common: Drop ro.soc.model prop
+- sm7325-common: Drop QCOM WFD
+- sm7325-common: Switch charging control to use force_charging_disable
+- sm7325-common: Correct sysfs_udc rules
+- sm7325-common: overlay: Covert remains overlays to Android.bp
+- sm7325-common: Copy init media files with blueprint
+- sm7325-common: Rename rootdir to init and migrate to blueprints
+- sm7325-common: WiFi: Enable 802.11ax support for softap mode
+- sm7325-common: init: rm package cache on early boot
+- sm7325-common: overlay: Build TurboPowerOverlays from hardware/motorola
+- sm7325-common: Use blueprint to copy init.qcom.recovery.rc
+- sm7325-common: Fix import path recovery files
+- sm7325-common: Drop duplicate init media file
+- sm7325-common: Enable blurs
