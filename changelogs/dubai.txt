@@ -1,13 +1,46 @@
+===== 2025/07/21 =====
+- July 2025 Security Patch
+- Linux Kernel 5.4.293
+
+Device Tree:
+- dubai: Build Touch AIDL
+- dubai: Rename rootdir to init and migrate to blueprints
+- dubai: Include a radio vendor device
+- dubai: Update vendor from dubai_g-user 14 U1RDS34.80-40-5-6 ba4fd-68ef4 release-keys
+
+Common Tree:
+- sm7325-common: Drop ro.soc.model prop
+- sm7325-common: Drop QCOM WFD
+- sm7325-common: Switch charging control to use force_charging_disable
+- sm7325-common: Correct sysfs_udc rules
+- sm7325-common: overlay: Covert remains overlays to Android.bp
+- sm7325-common: Copy init media files with blueprint
+- sm7325-common: Use blueprint to copy init.qcom.recovery.rc
+- sm7325-common: Fix import path recovery files
+- sm7325-common: Drop duplicate init media file
+- sm7325-common: Enable blurs
+- sm7325-common: Enable UFFD GC
+- sm7325-common: ims-patches: fix git apply
+- sm7325-common: Configure number of physical SIM slots
+- sm7325-common: sepolicy: Move lingering policy to hardware/motorola
+- sm7325-common: sepolicy: Address remaining denials
+- sm7325-common: Use hardware/motorola/sepolicy
+- sm7325-common: sepolicy: Drop touch HAL labeling
+- sm7325-common: Update vendor from dubai_g-user 14 U1RDS34.80-40-5-6 ba4fd-68ef4 release-keys
+
 ===== 2025/06/07 =====
-- Bump to EvolutionX v10.7
+- EvolutionX v10.7
 - June 2025 Security Patch
 - Linux Kernel 5.4.292
-- Import MotorolaSettingsProvider sepolices.
-- Fix screen recorder lag.
-- WiFi: Enable 802.11ax support for softap mode.
-- Init: rm package cache on early boot.
-- Sepolicy: Allow setting read_ahead_kb on /data partition.
-- Props: Optimize RAM management.
-- Overlay: Show Turbo Power instead of charging rapidly like Stock.
-- Rootdir: Set readahead_size_kb=128 on fstab.
-- Build MotCamera4 from prebuilt source.
+
+Device Tree:
+- dubai: Use TARGET_USES_FOD_ZPOS instead of direct variable assignment
+- dubai: Set UDFPS extension lib via soong config
+- dubai: disable brightness slider gamma conversion
+- dubai: dubai_g-user 14 U1RDS34.80-40-5-4 94692f-00ef9 release-keys
+- dubai: Build MotCamera4 from prebuilt source
+
+Common Tree:
+- sm7325-common: WiFi: Enable 802.11ax support for softap mode
+- sm7325-common: init: rm package cache on early boot
+- sm7325-common: overlay: Build TurboPowerOverlays from hardware/motorola
