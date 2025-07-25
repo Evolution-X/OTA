@@ -1,13 +1,29 @@
+===== 2025/07/23 =====
+- July 2025 Security Patch
+
+Common Tree:
+- exynos9610-common: apktool_patch() no longer takes custom arguments
+- exynos9610-common: Restore Tethering and WiFi rro_overlays
+- exynos9610-common: Disable UFFD GC via OVERRIDE_ENABLE_UFFD_GC
+- exynos9610-common: overlay: Config overlay to support 2 physical slots
+- exynos9610-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+
+
 ===== 2025/06/08 =====
-Bump to EvolutionX v10.7
-June 2025 Security Patch
-Import MotorolaSettingsProvider sepolices
-Migrate Lineage Health to soong_config_set
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Common Tree:
+- exynos9610-common: Import MotorolaSettingsProvider sepolices
+- exynos9610-common: Migrate Lineage Health to soong_config_set
 
 
 ===== 2025/05/19 =====
-EvolutionX v10.6
-May 2025 Security Patch
-Linux Kernel 4.14.113
-Init: rm package cache on early boot.
-Overlay: Show Turbo Power instead of charging rapidly.
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.14.113
+
+Common Tree:
+- exynos9610-common: Exclude some packages
+- exynos9610-common: init: rm package cache on early boot
+- exynos9610-common: overlay: Build TurboPowerOverlays from hardware/motorola
