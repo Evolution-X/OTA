@@ -1,1 +1,49 @@
-This is the 10.7 version of EvolutionX with June security patches.
+===== 2025/07/22 =====
+- July 2025 Security Patch
+
+Device Tree:
+- caprip: Switch to SPDX copyright
+- caprip: overlay: Add proper overlays for caprip variants
+- caprip: overlay: Convert overlays to Android.bp
+- caprip: Override properties for caprip variants
+
+Common Tree:
+- sm6225-common: Build gralloc.qcom
+- sm6225-common: overlay: Config overlay to support 2 physical slots
+- sm6225-common: Update to devon_g T2SNS33.73-22-3-15
+- sm6225-common: Drop legacy ANT remnants
+- sm6225-common: overlay: Convert overlays to Android.bp
+
+
+===== 2025/06/06 =====
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Device Tree:
+- caprip: Add missing capsense_reset
+- caprip: Cleanup init.mmi.overlay.rc
+
+Common Tree:
+- sm6225-common: Remove time_daemon from init.qcom.rc
+- sm6225-common: init: Remove unused touchrec folder
+- sm6225-common: init: Remove wake_{lock,unlock} permission changes
+
+
+===== 2025/06/02 =====
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.19.325
+
+Device Tree:
+- caprip: Decommonize certain blobs after inclusion of bathena device
+- caprip: Build MotCamera3 from prebuilt source
+- caprip: Don't build userdata image
+- caprip: Switch filesystem type to EroFS
+- caprip: Add missing camera libraries
+
+Common Tree:
+- sm6225-common: Decommonize certain blobs after inclusion of bathena device
+- sm6225-common: Don't build userdata image
+- sm6225-common: Switch filesystem type to EroFS
+- sm6225-common: init: rm package cache on early boot
+- sm6225-common: overlay: Build TurboPowerOverlays from hardware/motorola

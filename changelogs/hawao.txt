@@ -1,1 +1,48 @@
-This is the 10.7 version of EvolutionX with June security patches.
+===== 2025/07/23 =====
+- July 2025 Security Patch
+
+Device Tree:
+- hawao: overlay: Add wifi overlay and MMS UA profile
+- hawao: Switch to SPDX copyright
+- hawao: overlay: Convert overlays to Android.bp
+- hawao: Update to T2SES33.73-23-2-15
+
+Common Tree:
+- sm6225-common: Build gralloc.qcom
+- sm6225-common: overlay: Config overlay to support 2 physical slots
+- sm6225-common: Update to hawao_g T2SNS33.73-22-3-15
+- sm6225-common: Drop legacy ANT remnants
+- sm6225-common: overlay: Convert overlays to Android.bp
+
+
+===== 2025/06/06 =====
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Device Tree:
+- hawao: Add missing capsense_reset
+- hawao: Cleanup init.mmi.overlay.rc
+
+Common Tree:
+- sm6225-common: Remove time_daemon from init.qcom.rc
+- sm6225-common: init: Remove unused touchrec folder
+- sm6225-common: init: Remove wake_{lock,unlock} permission changes
+
+
+===== 2025/06/02 =====
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.19.325
+
+Device Tree:
+- hawao: Decommonize certain blobs after inclusion of bathena device
+- hawao: Build MotCamera4 from prebuilt source
+- hawao: Switch filesystem type to EroFS
+- hawao: Add missing camera libraries
+
+Common Tree:
+- sm6225-common: Decommonize certain blobs after inclusion of bathena device
+- sm6225-common: Don't build userdata image
+- sm6225-common: Switch filesystem type to EroFS
+- sm6225-common: init: rm package cache on early boot
+- sm6225-common: overlay: Build TurboPowerOverlays from hardware/motorola
