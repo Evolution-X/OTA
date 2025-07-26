@@ -1,1 +1,49 @@
-This is the 10.7 version of EvolutionX with June security patches.
+===== 2025/07/25 =====
+- July 2025 Security Patch
+
+Device Tree:
+- guamp: Switch to SPDX copyright
+- guamp: overlay: Add proper overlays for guamp variants
+- guamp: overlay: Convert overlays to Android.bp
+- guamp: Add missing capsense_reset
+- guamp: Cleanup init.mmi.overlay.rc
+- guamp: Override properties for guamp variants
+
+Common Tree:
+- sm6225-common: Build gralloc.qcom
+- sm6225-common: overlay: Config overlay to support 2 physical slots
+- sm6225-common: Update to devon_g T2SNS33.73-22-3-15
+- sm6225-common: Drop legacy ANT remnants
+- sm6225-common: overlay: Convert overlays to Android.bp
+
+
+===== 2025/06/07 =====
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Common Tree:
+- sm6225-common: Remove time_daemon from init.qcom.rc
+- sm6225-common: init: Remove unused touchrec folder
+- sm6225-common: init: Remove wake_{lock,unlock} permission changes
+
+
+===== 2025/06/01 =====
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.19.325
+
+Device Tree:
+- guamp: Decommonize certain blobs after inclusion of bathena device
+- guamp: Build MotCamera2 from prebuilt source
+- guamp: Don't build userdata image
+- guamp: Switch filesystem type to EroFS
+- guamp: overlay: Adjust statusbar paddings
+- guamp: Rename to moto g(9) play
+- guamp: Add missing camera libraries
+
+Common Tree:
+- sm6225-common: Decommonize certain blobs after inclusion of bathena device
+- sm6225-common: Don't build userdata image
+- sm6225-common: Switch filesystem type to EroFS
+- sm6225-common: init: rm package cache on early boot
+- sm6225-common: overlay: Build TurboPowerOverlays from hardware/motorola
