@@ -1,0 +1,22 @@
+This is Android 16 with June 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.(Signed with new keys)
+- Always dirty flash at your own risk.
+- Kernel does not include KSU Next
+- Includes XiaomiParts and Leica camera.
+- Credits to Alucard-Storm, 1xtAsh, swiitchOFF, Kenway214, Kamikaonashi.
+- 64MP CN Cam works
+
+Device changes:
+==============================
+- July Patch
+- Updated blobs from haydn 1.0.18.0 Global
+- parts: add core control
+- parts: add Kamis Stuff and shift some settings there
+- parts: add simple Kernel Manager
+- parts: add simple GPU Manager
+- Disable the usage of thumbnail_block_model (Fixes the gallery media not loading issue)
+- Patch audio to load libaudioroute-v34.so
+- Add libaudioclient_shim for libwfdservice

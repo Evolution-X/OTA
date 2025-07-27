@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Hexdare",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 11X Pro / Mi 11i / Redmi K40 Pro+",
+      "filename": "EvolutionX-16.0-20250725-haydn-11.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/haydn/16/EvolutionX-16.0-20250725-haydn-11.0-Official.zip/download",
+      "timestamp": 1753465634,
+      "md5": "76d4a5e432e3ce18dde5526f771a9ab8",
+      "sha256": "699529e975397c7e35ba4d9b0ef28630591a8a2f0bbf9875e927cc4e784a7216",
+      "size": 2994072099,
+      "version": "11.0",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-0-haydn-official-evolution-x-27-07-25.4751941/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/haydn/",
+      "paypal": "https://www.paypal.com/paypalme/Hexdare",
+      "github": "Hexdare",
+      "initial_installation_images": [
+        "dtbo",
+        "vendor_boot",
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
