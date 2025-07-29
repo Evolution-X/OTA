@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "objecting_",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy Tab S6 Lite (Wifi)",
+      "filename": "EvolutionX-16.0-20250721-gta4xlwifi-11.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/gta4xlwifi/16/EvolutionX-16.0-20250721-gta4xlwifi-11.0-Official.zip/download",
+      "timestamp": 1753108807,
+      "md5": "F2778B37634B84B64A0C24D7677F87A4",
+      "sha256": "C6E3E26C505DE1A4A4E94F735E4C0456844DAA2C7398813CC3BD3569CD49B110",
+      "size": 2338247836,
+      "version": "11.0",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/official-rom-15-evolutionx-for-the-galaxy-tab-s6-lite-series.4743017/",
+      "firmware": "",
+      "paypal": "",
+      "github": "techyguyperplexable",
+      "sourceforge": "objecting",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
