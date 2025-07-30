@@ -1,0 +1,13 @@
+This is initial Android 16 with July 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash is required.
+- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
+- Includes Dolby Atmos, XiaomiParts and POCO camera.
+
+
+Device changes:
+==============================
+Android 16 Initial release
