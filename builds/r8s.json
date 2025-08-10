@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "objecting_",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy S20 FE (Exynos)",
+      "filename": "EvolutionX-16.0-20250810-r8s-11.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/r8s/16/EvolutionX-16.0-20250810-r8s-11.0-Official.zip/download",
+      "timestamp": 1754780378,
+      "md5": "bb7ecaec634b8753410ee8868cd6dc78",
+      "sha256": "c128ed39124e5132d3f94a04be2d06fe1010e9c6e00412a5884a8c164399eb5d",
+      "size": 2462814473,
+      "version": "11.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/official-rom-16-evolutionx-for-the-galaxy-s20-fe-exynos.4754130/",
+      "firmware": "",
+      "paypal": "",
+      "github": "techyguyperplexable",
+      "initial_installation_images": ["recovery"],
+      "extra_images": []
+    }
+  ]
+}
