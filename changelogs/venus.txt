@@ -1,4 +1,4 @@
-This is initial Android 16 with July 2025 security patches
+This is initial Android 16 with August 2025 security patches
 
 Notes:
 ==============================
@@ -10,20 +10,61 @@ Notes:
 
 Device changes:
 ==============================
-Include Sony Dolby Atmos
-audio: Sync with Spatial Audio
+Add sepolicy for Dolby Atmos
+Commonize citsensor stack
+Disable ambient AOD
+Import Dolby C2 Media service
+Introduce Dolby Atmos support
+Link dolby blobs against v33 libstagefright_foundation
+Move citsensorservice to background cpuset
+overlay: Overlay Dolby Atmos profiles
 
 Notable ROM changes:
 ==============================
-Adapt Pulse to A16
-Fix issue with Youtube, Facebook crashing, crash in Settings app
-OnGoingActionProgressController: Improve thread safety and error handling
-PixelPropsUtils: Do not spoof Google soundpicker
-Smart5gService: Drop conservative mode
-SystemUI: Add VPNTethering tile
-SystemUI: Fix Keyguard slice
-SystemUI: Fix clock plugin animations during keyguard transitions
-SystemUI: Fix up large clock top margin with pixel-fw
-base: Prevent system_server crash when using "Open with" from a link
-base: Use font configs instead hardcoded fonts
-service: Workaround non-system user app crash due to permission lacking
+Adapt pulse visualizer to A16
+BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
+Defer remove splash screen while device is locked
+Device policy: Fix security exception caused by uid/packagename mismatch
+Evolver: Add missing rounded toggle for pulse
+Evolver: MonetSettings: Manually set default values to preferences
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+Fix the system server restart issue caused by the fingerprint framework
+KeyProviderManager: Accept N >= 1 certs per key
+InputEventReceiver: Catch error in finishInputEvent()
+PixelPropsUtils: Update fingerprints to August 2025 release
+Set navbar color for device default settings theme
+Settings: Fix slice data illegal state in credentials
+SettingsLib: Use legacy material colors for settings' surface container
+SystemUI: Add hotspot toggle in QS internet dialog
+SystemUI: Don't show BuildNumber in new compose QS
+SystemUI: Fixup fonts not updating on new compose QS
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+SystemUI: Recreate media player on theme change
+SystemUI: Remove edit button bg in QS customizer in new QS UI
+SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
+SystemUI: Use Material3 switches for internet and BT dialog tile
+SystemUI: Use Material3 switches for screenrecord options
+SystemUI: VolumeDialog: Fix inactive row colors
+SystemUI: fix doze/keyguard issues
+SystemUI: fix hotspot layout
+SystemUI: fix shade blur customization
+SystemUI: tiles: Preload all icon drawable for custom tiles
+ThemeUtils: Improve overall usage
+Themes: use legacy material background color
+add workaround for upstream async dexopt bug
+base: Add an icon for NR_SA (5G Standalone) data connection
+fix boot failure with white wallpaper
+fix footer actions theme
+fix lockscreen elements randomly disappearing
+fix screen off udfps preference visibility
+fix settings material expressive issues
+fix unsupported qs tile icon crash
+fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
+fix upstream RecoverySystem.verifyPackage vulnerability
+improve window ignore secure flag
+make AOSP dialer call notifications not groupable
+release: Bump Security String to 2025-08-01
+release: Disable codec_availability flags
+udfps: Add support for udfps on aod without dedicated sensor
+use shared bitmaps in MediaMetadata to avoid Binder failures
+vendor: Drop notification themed icons
