@@ -1,0 +1,70 @@
+This is initial Android 16 with August 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Includes Dolby Atmos, ViPER4AndroidFX and Leica camera.
+- Credits to aryannn999, daniml3, vbajs, mikoker, Jan, eidawon1402 and all sweet/sm6150 devs.
+- Thanks to Sir Jerome, FoxHasX, Dil, Vonarian, Reg, Bnexxus, and all of the HZMHNK Testers.
+- Use latest MIUI 14 FW according to your region
+- Use the recovery.img or use latest OFOX by aryannn999 with EROFS Compression support
+
+Device changes:
+==============================
+- Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+- Update blobs from sweet_k6a OS1.0.19.0.THGMIXM
+- Add support for gralloc handles with reserved_size
+- Drop legacy ANT remnants
+- Patch audio to load libaudioroute-v34.so
+- Patch com.vidhance.node.eis.so with libui-v34
+- And all other changes are here: https://github.com/sweet-organization
+
+Notable ROM changes:
+==============================
+Adapt pulse visualizer to A16
+BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
+Defer remove splash screen while device is locked
+Device policy: Fix security exception caused by uid/packagename mismatch
+Evolver: Add missing rounded toggle for pulse
+Evolver: MonetSettings: Manually set default values to preferences
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+Fix the system server restart issue caused by the fingerprint framework
+KeyProviderManager: Accept N >= 1 certs per key
+InputEventReceiver: Catch error in finishInputEvent()
+PixelPropsUtils: Update fingerprints to August 2025 release
+Set navbar color for device default settings theme
+Settings: Fix slice data illegal state in credentials
+SettingsLib: Use legacy material colors for settings' surface container
+SystemUI: Add hotspot toggle in QS internet dialog
+SystemUI: Don't show BuildNumber in new compose QS
+SystemUI: Fixup fonts not updating on new compose QS
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+SystemUI: Recreate media player on theme change
+SystemUI: Remove edit button bg in QS customizer in new QS UI
+SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
+SystemUI: Use Material3 switches for internet and BT dialog tile
+SystemUI: Use Material3 switches for screenrecord options
+SystemUI: VolumeDialog: Fix inactive row colors
+SystemUI: fix doze/keyguard issues
+SystemUI: fix hotspot layout
+SystemUI: fix shade blur customization
+SystemUI: tiles: Preload all icon drawable for custom tiles
+ThemeUtils: Improve overall usage
+Themes: use legacy material background color
+add workaround for upstream async dexopt bug
+base: Add an icon for NR_SA (5G Standalone) data connection
+fix boot failure with white wallpaper
+fix footer actions theme
+fix lockscreen elements randomly disappearing
+fix screen off udfps preference visibility
+fix settings material expressive issues
+fix unsupported qs tile icon crash
+fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
+fix upstream RecoverySystem.verifyPackage vulnerability
+improve window ignore secure flag
+make AOSP dialer call notifications not groupable
+release: Bump Security String to 2025-08-01
+release: Disable codec_availability flags
+udfps: Add support for udfps on aod without dedicated sensor
+use shared bitmaps in MediaMetadata to avoid Binder failures
+vendor: Drop notification themed icons
