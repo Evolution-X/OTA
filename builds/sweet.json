@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Mharc Bedielon Duller (therealmharc)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 10 Pro / Max",
+      "filename": "EvolutionX-16.0-20250812-sweet-11.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/sweet/16/EvolutionX-16.0-20250812-sweet-11.0-Official.zip/download",
+      "timestamp": 1754969285,
+      "md5": "f1c1a2171373ed461182292a2545bf33",
+      "sha256": "1fcd2ddf54431bc926644185eb70ab343fbd9670cb3db38591e59c11fcc6761d",
+      "size": 3005058751,
+      "version": "11.0",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "therealmharc",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
