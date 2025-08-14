@@ -1,4 +1,4 @@
-This is initial Android 16 with July 2025 security patches
+gitThis is initial Android 16 with August 2025 security patches
 
 Notes:
 ==============================
@@ -8,63 +8,17 @@ Notes:
 
 Device changes:
 ==============================
-Configure default light sensor type
-Switch render backend to skiavkthreaded
-Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
-Update WFD vendor blobs from sweet_k6a OS1.0.19.0.THGMIX
-audio: extend buffer size to 256kb for offload playback
-cleanup config_defaultPinnerServiceFiles
-overlay: Add webview pinning
-update ACDB,ANT+,Listen,DRM, blobs from nabu OS1.0.18.0.TKXINXM
-update hotword blobs from nabu OS1.0.18.0.TKXINXM
+Remove ViPER4Android FX support
 
 Notable ROM changes:
 ==============================
-Adapt pulse visualizer to A16
-BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
-Defer remove splash screen while device is locked
-Device policy: Fix security exception caused by uid/packagename mismatch
-Evolver: Add missing rounded toggle for pulse
-Evolver: MonetSettings: Manually set default values to preferences
-FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
-Fix the system server restart issue caused by the fingerprint framework
-KeyProviderManager: Accept N >= 1 certs per key
-InputEventReceiver: Catch error in finishInputEvent()
-OnGoingActionProgressController: Improve thread safety and error handling
-PixelPropsUtils: Update fingerprints to August 2025 release
-Settings: Fix slice data illegal state in credentials
-SettingsLib: Use legacy material colors for settings' surface container
-Smart5gService: Drop conservative mode
-SystemUI: Add hotspot toggle in QS internet dialog
-SystemUI: Add VPNTethering tile
-SystemUI: Fix Keyguard slice
-SystemUI: Fix clock plugin animations during keyguard transitions
-SystemUI: Fix up large clock top margin with pixel-fw
-SystemUI: Introduce 5G toggle in internet connectivity dialog
-SystemUI: Remove edit button bg in QS customizer in new QS UI
-SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
-SystemUI: Use Material3 switches for internet and BT dialog tile
-SystemUI: Use Material3 switches for screenrecord options
-SystemUI: fix doze/keyguard issues
-SystemUI: fix hotspot layout
-SystemUI: tiles: Preload all icon drawable for custom tiles
-ThemeUtils: Improve overall usage
-Themes: use legacy material background color
-add workaround for upstream async dexopt bug
-base: Add an icon for NR_SA (5G Standalone) data connection
-base: Prevent system_server crash when using "Open with" from a link
-base: Use font configs instead hardcoded fonts
-fix boot failure with white wallpaper
-fix lockscreen elements randomly disappearing
-fix screen off udfps preference visibility
-fix unsupported qs tile icon crash
-fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
-fix upstream RecoverySystem.verifyPackage vulnerability
-improve window ignore secure flag
-make AOSP dialer call notifications not groupable
+Add Android 16 WIFI icon
+Make su domain permissive on user builds
+Settings: Follow navbar color in base
+Settings: Introduce Adaptive Playback
+SystemUI: Blur the power menu
+SystemUI: biometrics: Add missing calls to parent onFinishInflate
+Update BCR to Version 1.79
 release: Bump Security String to 2025-08-01
-release: Disable codec_availability flags
-service: Workaround non-system user app crash due to permission lacking
-udfps: Add support for udfps on aod without dedicated sensor
-use shared bitmaps in MediaMetadata to avoid Binder failures
-vendor: Drop notification themed icons
+sepolicy: address media_quality_service selinux denial
+vars: August 2025 Security Update
