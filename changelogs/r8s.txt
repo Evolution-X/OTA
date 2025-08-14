@@ -1,4 +1,5 @@
-======= EvolutionX 11 (Baklava) ========
-- This is the initial official build
-- Includes Dolby
-- Android 16 Build
+==== Evolution X 11 (Baklava) ====
+- Reverted a few changes
+- Clean flash reccomended, but not required unless coming from another rom, clean flash if coming from another rom
+- August patches merged
+- Supports Dolby as default
