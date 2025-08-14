@@ -1,4 +1,4 @@
-This is Android 16 with June 2025 security patches
+This is Android 16 with August 2025 security patches
 
 Notes:
 ==============================
@@ -11,12 +11,57 @@ Notes:
 
 Device changes:
 ==============================
-- July Patch
-- Updated blobs from haydn 1.0.18.0 Global
-- parts: add core control
-- parts: add Kamis Stuff and shift some settings there
-- parts: add simple Kernel Manager
-- parts: add simple GPU Manager
-- Disable the usage of thumbnail_block_model (Fixes the gallery media not loading issue)
-- Patch audio to load libaudioroute-v34.so
-- Add libaudioclient_shim for libwfdservice
+- August patches
+- Commonize citsensor stack
+- Move citsensorservice to background cpuset
+- Import OOS modified volumes
+
+Notable ROM changes:
+==============================
+Adapt pulse visualizer to A16
+BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
+Defer remove splash screen while device is locked
+Device policy: Fix security exception caused by uid/packagename mismatch
+Evolver: Add missing rounded toggle for pulse
+Evolver: MonetSettings: Manually set default values to preferences
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+Fix the system server restart issue caused by the fingerprint framework
+KeyProviderManager: Accept N >= 1 certs per key
+InputEventReceiver: Catch error in finishInputEvent()
+PixelPropsUtils: Update fingerprints to August 2025 release
+Set navbar color for device default settings theme
+Settings: Fix slice data illegal state in credentials
+SettingsLib: Use legacy material colors for settings' surface container
+SystemUI: Add hotspot toggle in QS internet dialog
+SystemUI: Don't show BuildNumber in new compose QS
+SystemUI: Fixup fonts not updating on new compose QS
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+SystemUI: Recreate media player on theme change
+SystemUI: Remove edit button bg in QS customizer in new QS UI
+SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
+SystemUI: Use Material3 switches for internet and BT dialog tile
+SystemUI: Use Material3 switches for screenrecord options
+SystemUI: VolumeDialog: Fix inactive row colors
+SystemUI: fix doze/keyguard issues
+SystemUI: fix hotspot layout
+SystemUI: fix shade blur customization
+SystemUI: tiles: Preload all icon drawable for custom tiles
+ThemeUtils: Improve overall usage
+Themes: use legacy material background color
+add workaround for upstream async dexopt bug
+base: Add an icon for NR_SA (5G Standalone) data connection
+fix boot failure with white wallpaper
+fix footer actions theme
+fix lockscreen elements randomly disappearing
+fix screen off udfps preference visibility
+fix settings material expressive issues
+fix unsupported qs tile icon crash
+fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
+fix upstream RecoverySystem.verifyPackage vulnerability
+improve window ignore secure flag
+make AOSP dialer call notifications not groupable
+release: Bump Security String to 2025-08-01
+release: Disable codec_availability flags
+udfps: Add support for udfps on aod without dedicated sensor
+use shared bitmaps in MediaMetadata to avoid Binder failures
+vendor: Drop notification themed icons
