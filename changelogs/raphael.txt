@@ -1,4 +1,4 @@
-This is initial Android 16 with July 2025 security patches
+gitThis is initial Android 16 with August 2025 security patches
 
 Notes:
 ==============================
@@ -17,8 +17,6 @@ Make su domain permissive on user builds
 Settings: Follow navbar color in base
 Settings: Introduce Adaptive Playback
 SystemUI: Blur the power menu
-SystemUI: Prevent LayerDrawable crash in InternetDialog
-SystemUI: biometrics: Add missing calls to parent onFinishInflate
 Update BCR to Version 1.79
 release: Bump Security String to 2025-08-01
 sepolicy: address media_quality_service selinux denial
