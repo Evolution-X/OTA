@@ -6,63 +6,27 @@ Notes:
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.236-KSU-Next-susfs.zip/download) for root.
-- Includes POCO camera, Dolby Vision and Dolby Atmos.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.237-KSU-Next-1.0.9-susfs-1.5.9.zip/download) for root.
+- Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Add libaudioclient_shim for libwfdservice
-Disable HWC for VDS except wfd
-Inherit the common WFD stack
-vintf: Drop ISecureElement/eSE1
+None
 
 Notable ROM changes:
 ==============================
-Adapt pulse visualizer to A16
-BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
-Defer remove splash screen while device is locked
-Device policy: Fix security exception caused by uid/packagename mismatch
-Evolver: Add missing rounded toggle for pulse
-Evolver: MonetSettings: Manually set default values to preferences
-FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
-Fix the system server restart issue caused by the fingerprint framework
-KeyProviderManager: Accept N >= 1 certs per key
-InputEventReceiver: Catch error in finishInputEvent()
-OnGoingActionProgressController: Improve thread safety and error handling
-Settings: Fix slice data illegal state in credentials
-SettingsLib: Use legacy material colors for settings' surface container
-Smart5gService: Drop conservative mode
-SystemUI: Add hotspot toggle in QS internet dialog
-SystemUI: Add VPNTethering tile
-SystemUI: Fix Keyguard slice
-SystemUI: Fix clock plugin animations during keyguard transitions
-SystemUI: Fix up large clock top margin with pixel-fw
-SystemUI: Introduce 5G toggle in internet connectivity dialog
-SystemUI: Remove edit button bg in QS customizer in new QS UI
-SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
-SystemUI: Use Material3 switches for internet and BT dialog tile
-SystemUI: Use Material3 switches for screenrecord options
-SystemUI: fix doze/keyguard issues
-SystemUI: fix hotspot layout
-SystemUI: tiles: Preload all icon drawable for custom tiles
-ThemeUtils: Improve overall usage
-Themes: use legacy material background color
-add workaround for upstream async dexopt bug
-base: Add an icon for NR_SA (5G Standalone) data connection
-base: Prevent system_server crash when using "Open with" from a link
-base: Use font configs instead hardcoded fonts
-fix boot failure with white wallpaper
-fix lockscreen elements randomly disappearing
-fix screen off udfps preference visibility
-fix unsupported qs tile icon crash
-fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
-fix upstream RecoverySystem.verifyPackage vulnerability
-improve window ignore secure flag
-make AOSP dialer call notifications not groupable
-release: Bump Security String to 2025-08-01
-release: Disable codec_availability flags
-service: Workaround non-system user app crash due to permission lacking
-udfps: Add support for udfps on aod without dedicated sensor
-use shared bitmaps in MediaMetadata to avoid Binder failures
-vendor: Drop notification themed icons
+Evolver: Add back batterybar
+Evolver: Add customization to select QS tile shape
+Evolver: Allow single tap on keyguard affordances
+Evolver: AOD wallpaper toggle
+Evolver: MonetSettings: Add back the Content theming style
+Evolver: MonetSettings: Bump max chroma factor to 150
+Smartspace: Return if text is null
+SystemUI: Add advanced filtering and customization
+SystemUI: Add haptics when using single tap for keyguard affordances
+SystemUI: Apply tile shapes to all tiles
+SystemUI: Do not disable slice provider for smartspace
+SystemUI: Do not switch between spacer and text for data usage in footer
+SystemUI: clear keyguard indication background and icon on empty text
+screenrecord: Set entire screenrecord as the default option
