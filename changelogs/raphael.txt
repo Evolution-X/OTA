@@ -8,16 +8,26 @@ Notes:
 
 Device changes:
 ==============================
-Remove ViPER4Android FX support
+Bring back ViPER4Android FX support
+Remove livedisplay
 
 Notable ROM changes:
 ==============================
-Add Android 16 WIFI icon
-Make su domain permissive on user builds
-Settings: Follow navbar color in base
-Settings: Introduce Adaptive Playback
-SystemUI: Blur the power menu
-Update BCR to Version 1.79
-release: Bump Security String to 2025-08-01
-sepolicy: address media_quality_service selinux denial
-vars: August 2025 Security Update
+Add back support for UDFPS icons
+Bring back UDFPS animation
+Disable night light when showing udfps overlay
+Evolver: Add back batterybar
+Evolver: Add customization to select QS tile shape
+Evolver: Allow single tap on keyguard affordances
+Evolver: AOD wallpaper toggle
+Evolver: MonetSettings: Add back the Content theming style
+Evolver: MonetSettings: Bump max chroma factor to 150
+Smartspace: Return if text is null
+SystemUI: Add advanced filtering and customization
+SystemUI: Add haptics when using single tap for keyguard affordances
+SystemUI: Apply tile shapes to all tiles
+SystemUI: Do not disable slice provider for smartspace
+SystemUI: Do not switch between spacer and text for data usage in footer
+SystemUI: biometrics: Add missing calls to parent onFinishInflate
+SystemUI: clear keyguard indication background and icon on empty text
+screenrecord: Set entire screenrecord as the default option
