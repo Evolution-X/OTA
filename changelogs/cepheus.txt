@@ -1,22 +1,11 @@
-This is the initial A16 release with August 2025 security patches
+This is Evolution X 11.1 with August 2025 security patches
 
 ==============================
 
 Device changes:
 
-- Initial Android 16 release with new device tree, clean flash
-  is needed. Please do not use third-party recovery images as
-  they are no longer supported and may render your device 
-  unbootable.
-- Fixed IR blaster
-- Enabled AOD wallpaper by default
-- Dolby works, MiuiCamera also works (except Portrait mode)
-- userdebug build
-- Kernel already has KernelSU-Next support with susfs, but is
-  disabled by default to comply with Evolution X rules. Check 
-  XDA thread or Discord for more information about obtaining root.
-- Switched to EROFS as Google apps are getting bigger in size
-  and we need to compress them as much as possible.
+
+There is no change to the device for this release.
 
 ==============================
 
@@ -37,17 +26,26 @@ quicker battery drain. To fix this, do the following steps:
 
 You will need to do this only once per boot.
 
-Notable ROM changes:
-
 ==============================
 
-Add Android 16 WIFI icon
-Make su domain permissive on user builds
-Settings: Follow navbar color in base
-Settings: Introduce Adaptive Playback
-SystemUI: Blur the power menu
+Notable ROM changes:
+
+
+Add back support for UDFPS icons
+Bring back UDFPS animation
+Disable night light when showing udfps overlay
+Evolver: Add back batterybar
+Evolver: Add customization to select QS tile shape
+Evolver: Allow single tap on keyguard affordances
+Evolver: AOD wallpaper toggle
+Evolver: MonetSettings: Add back the Content theming style
+Evolver: MonetSettings: Bump max chroma factor to 150
+Smartspace: Return if text is null
+SystemUI: Add advanced filtering and customization
+SystemUI: Add haptics when using single tap for keyguard affordances
+SystemUI: Apply tile shapes to all tiles
+SystemUI: Do not disable slice provider for smartspace
+SystemUI: Do not switch between spacer and text for data usage in footer
 SystemUI: biometrics: Add missing calls to parent onFinishInflate
-Update BCR to Version 1.79
-release: Bump Security String to 2025-08-01
-sepolicy: address media_quality_service selinux denial
-vars: August 2025 Security Update
+SystemUI: clear keyguard indication background and icon on empty text
+screenrecord: Set entire screenrecord as the default option
