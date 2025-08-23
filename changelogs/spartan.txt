@@ -1,0 +1,14 @@
+This is Android 16 with August 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Includes OP camera and Dolby.
+- Install this FW https://sourceforge.net/projects/rmx3371-builds/files/Firmware/A14-FW.zip/download
+- Non-KSU Build.
+- Install this kernel for root https://sourceforge.net/projects/rmx3371-builds/files/Kernel/El-Diablo-20250821-1623.zip/download
+
+Device changes:
+==============================
+- Updated blobs from RMX3371_14.0.0.2100(EX01).
+- Upstream Kernel to 4.19.334
