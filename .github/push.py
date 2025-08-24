@@ -62,10 +62,8 @@ def webhook_send():
     if "Vanilla" not in filename and "9." in version:
         webhook_url = udc_webhook
 
-    if xda_thread != "null":
-        pass
-    else:
-        xda_thread = "https://evolution-x.org"
+    has_xda_thread = xda_thread and xda_thread != "null" and xda_thread.strip() != ""
+    
     if "Vanilla" in filename:
         color = 0xffe7c4
     else:
@@ -75,11 +73,9 @@ def webhook_send():
         thumbnail = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7DK6a--HvqADA_u3mGjXSVUvxxZ5sw3x9Sw&s"
     else:
         thumbnail = evo_org_tumbnail
-    data = {
-        "embeds": [
-    {
-            "type": "rich",
-            "description": f"""
+    
+    # Prepare main description
+    description = f"""
             📲 • New build available for **{oem} {device}** ({codename})
             👤 • **By [{maintainer}](https://github.com/{github})**\n
             📦 • **Version**: {version}
@@ -88,9 +84,17 @@ def webhook_send():
             🗞️ • **[Changelog](https://raw.githubusercontent.com/Evolution-X/OTA/{commit_hash}/changelogs/{codename}.txt)**
             <:Evo:670530693985730570> • **Check [device's infos](https://evolution-x.org/devices/{codename}) directly on our website!**\n
             
-            ⬇️ [Download link]({download_link}) ⬇️\n 
-            🌐 [XDA Thread]({xda_thread}) 🌐
-            """,
+            ⬇️ [Download link]({download_link}) ⬇️\n"""
+    
+    # Add XDA Thread section only if there's a valid link
+    if has_xda_thread:
+        description += f" \n🌐 [XDA Thread]({xda_thread}) 🌐"
+    
+    data = {
+        "embeds": [
+    {
+            "type": "rich",
+            "description": description,
             "image": {
                 "url": "https://wiki.evolution-x.org/keepevolving.png"
             },
