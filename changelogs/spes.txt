@@ -1,0 +1,5 @@
+August 24,2025
+- Upgraded Security Patch
+- Initial Official Build
+- Switched to Murali Kernel for better stability
+- Bug fixes
