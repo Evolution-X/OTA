@@ -10,5 +10,5 @@ Notes:
 
 Device changes:
 ==============================
-Fixed NFC crash for global variant 
-Fixed whatsapp calling issue
+Fixed facial verification issue in some banking apps ( eg. banco guayaqui).
+upstreamed lineage kernel to 5.4.295
