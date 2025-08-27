@@ -4,26 +4,7 @@ This is Evolution X 11.1 with August 2025 security patches
 
 Device changes:
 
-- Fix potential problems with Magisk
-
-==============================
-
-Known bugs:
-
-Enabling AOD will default to high brightness, which causes
-quicker battery drain. To fix this, do the following steps:
-
-- Enable ADB: Go to Settings > About phone > Tap 7 times on 
-  Build number > go back, then go to System > Developer options
-  > enable USB debugging (ADB) and Rooted debugging
-
-- Connect your device to your computer, authorize your device
-  then type the following commands:
-
-  adb root
-  adb shell "echo 1 > /sys/devices/platform/soc/soc\:qcom,dsi-display-primary/doze_mode"
-
-You will need to do this only once per boot.
+- Enabled double tap to wake
 
 ==============================
 
