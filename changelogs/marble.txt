@@ -12,21 +12,36 @@ Notes:
 
 Device changes:
 ==============================
-None
+Update blobs from OS2.0.205.0.VMRMIXM
+Update blobs from diting OS2.0.202.0.VLFMIXM
+media: Update from diting OS2.0.202.0.VLFMIXM
+sepolicy: Allow camera hal to write flash_state
 
 Notable ROM changes:
 ==============================
-Evolver: Add back batterybar
-Evolver: Add customization to select QS tile shape
-Evolver: Allow single tap on keyguard affordances
-Evolver: AOD wallpaper toggle
-Evolver: MonetSettings: Add back the Content theming style
-Evolver: MonetSettings: Bump max chroma factor to 150
-Smartspace: Return if text is null
-SystemUI: Add advanced filtering and customization
-SystemUI: Add haptics when using single tap for keyguard affordances
-SystemUI: Apply tile shapes to all tiles
-SystemUI: Do not disable slice provider for smartspace
-SystemUI: Do not switch between spacer and text for data usage in footer
-SystemUI: clear keyguard indication background and icon on empty text
-screenrecord: Set entire screenrecord as the default option
+DevelopmentSettings: Disable automatic updates
+Disable useless Keystore features
+Evolver: Add brightness slider shapes
+Evolver: Add switch for small notifications
+Evolver: Fix and improve keybox data preference
+Fix the issue of avoiding app crashes in HWUI (Hardware UI)
+Fix usb camera number is not correct after plug out
+Ignore prebuilt/generated directory
+Optimize home to desktop transition speed
+PixelPropsUtils: Switch recent Pixel props to Pixel 10 Pro XL
+Revert "MultiAccessUnit reflector helper allocated once per ComponentStore"
+Screenrecord: Fix notifications not being dismissed
+Settings: Add support for daily and weekly data usage cycles
+Settings: Move force dark mode to dark mode settings
+Settings: Update strings for override dark mode
+Updater: push-update: Allow specifying serial number
+audio: fix SAD and SAM inconsistent after audioserver crash
+bt: ignore invalid mask
+config: pihooks: Update to Baklava QPR2 Beta 1
+extras: Add material expressive icon shapesShow description for 77d483a
+extras: Drop unused auto brightness icons
+extras: Fix powermenu color for light theme
+overlay: Make Google Sans the default headline font
+release: Disable lpp squeeze effect
+updatePolicyState after updating all EffectHandle state
+vars: Update qcom tags
