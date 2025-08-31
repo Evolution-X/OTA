@@ -1,0 +1,11 @@
+This is  Android 16 with August 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Dirty flash is fine over last build.
+- Includes Dolby Atmos.
+
+Device changes:
+==============================
+Initial Android 16 build

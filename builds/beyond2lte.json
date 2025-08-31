@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy S10 Plus",
+      "filename": "EvolutionX-16.0-20250829-beyond2lte-11.1-Official.zip",
+      "download": "https://cdn.evolution-x.org/beyond2lte/16/EvolutionX-16.0-20250829-beyond2lte-11.1-Official.zip/download",
+      "timestamp": 1756475769,
+      "md5": "cd89483added7f4b16f4278186411165",
+      "sha256": "863edc30605e1d1268ac6415a0cef8f2ea158184f2fa2bdb6f9d6d7e3afbd7e7",
+      "size": 2641338352,
+      "version": "11.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolutionx-10-x-aosp-encryption.4669084/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "github": "0xsharkboy",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
