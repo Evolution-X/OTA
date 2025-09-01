@@ -19,29 +19,63 @@ sepolicy: Allow camera hal to write flash_state
 
 Notable ROM changes:
 ==============================
+Catch Runtime Exception thrown by ProtoOutputStream.flush() api
+ColumbusService: Make use of Expressive SliderPreference
+ColumbusService: Switch to material expressive design for preferences
 DevelopmentSettings: Disable automatic updates
 Disable useless Keystore features
 Evolver: Add brightness slider shapes
+Evolver: Add slider increment guard for CustomSeekBarPreference
 Evolver: Add switch for small notifications
 Evolver: Fix and improve keybox data preference
+Evolver: Remove tinting reset icon in CustomSeekbarPreference
+Evolver: Update CustomSeekbarPreference to use material expressive layout
+Evolver: Update tensor codes for P10
+Evolver: notification row transparency switch
+Evolver: pulse: Set default interval for seekbar prefs
+Fix RuntimeException in appsearch
 Fix the issue of avoiding app crashes in HWUI (Hardware UI)
 Fix usb camera number is not correct after plug out
+GameSpace: Setup material expressive design for preferences
+GameSpace: Update CustomSeekBarPreference to use material expressive layout
 Ignore prebuilt/generated directory
+MediaPlayer: stop logspam
 Optimize home to desktop transition speed
-PixelPropsUtils: Switch recent Pixel props to Pixel 10 Pro XL
+PixelPropsUtils: Add back play store to PIF
+PixelPropsUtils: Do not block attestation if custom keybox is loaded
+PixelPropsUtils: Fix props for s24 ultra
+PixelPropsUtils: Switch recent Pixel props and tensor codes to P10
+Prevent NPE on SharedConnectivityService on GMS builds
+Reduce blocking operation on display thread
 Revert "MultiAccessUnit reflector helper allocated once per ComponentStore"
 Screenrecord: Fix notifications not being dismissed
 Settings: Add support for daily and weekly data usage cycles
+Settings: Fix illegal state exception on StorageSelectionPreferenceController
 Settings: Move force dark mode to dark mode settings
+Settings: Re-add stop tracking listener in gesture navigation
+Settings: Update power button sensitivity slider to SliderPreference
 Settings: Update strings for override dark mode
+SliderPreference: Add stop tracking listener
+SliderPreference: Fix thumb color
+SystemUI: Remove nested PlatformTheme in QS fragment
 Updater: push-update: Allow specifying serial number
 audio: fix SAD and SAM inconsistent after audioserver crash
 bt: ignore invalid mask
+config: Fixup blur flag
 config: pihooks: Update to Baklava QPR2 Beta 1
+core: PackageManager: Allow installation with partial ABI support
 extras: Add material expressive icon shapesShow description for 77d483a
 extras: Drop unused auto brightness icons
 extras: Fix powermenu color for light theme
+fix split shade missing issue
+gui: Fix buffer caching issue causing flicker
 overlay: Make Google Sans the default headline font
+release: Disable apply_picture_profiles
 release: Disable lpp squeeze effect
+release: Remove flag for using emphasized font family for shade header
+release: Remove glanceable hub
+release: Remove glitchy depth push scaling effect
+release: Remove some useless notification flags
+smartspace: Fix NoSuchElementException in CallbackWrapper
 updatePolicyState after updating all EffectHandle state
 vars: Update qcom tags
