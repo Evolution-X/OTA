@@ -3,16 +3,18 @@ This is Android 15 with August 2025 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash is required.
+- Clean flash is required if you are on <= v10.7
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
 - Includes Dolby Atmos, XiaomiParts and POCO camera.
-- This will be EOL A15 update
 
 Device Changes:
 ==============================
-18-August-2025
+31-August-2025
 ==============================
-- Upstream lineage kernel to 5.4.293 and KernelSU-Next to v1.0.9
-- Switch to Moto Dolby Atmos
-- Switch to QTI power hal
-- Updated blobs to vOS2.0.7.0.UMSMIXM	
+- Fixed facial verification issue in some banking apps ( eg. banco guayaqui).
+- upstreamed lineage kernel to 5.4.295
+- Updated MotoDolbyDax3.apk [White icon]
+- Updated blobs to vOS2.0.9.0.UMSMIXM	
+- Added global firmware OS2.0.9.0.UMSMIXM
+- Updated MIUICamera from OS2.0.17.0.UMSCNXM
+
