@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Akky",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G82 (rhodep)",
+      "filename": "EvolutionX-16.0-20250901-rhodep-11.1-Official.zip",
+      "download": "https://master.dl.sourceforge.net/project/akky-builds/EvolutionXOfficialA16v11.1/EvolutionX-16.0-20250901-rhodep-11.1-Offi>
+      "timestamp": 1756744812,
+      "md5": "619a52b6bbaaba2dfd4f4272ed68d8ea",
+      "sha256": "7f596c05a89c3301d40d4ed67feb1d595c652a76b196111250960f4edc24df78",
+      "size": 2301442876,
+      "version": "11.1",
+      "buildtype": "user",
+      "forum": "https://t.me/motog82updateschannel/212",
+      "firmware": "",
+      "paypal": "",
+      "github": "https://github.com/Akkyhere",
+      "initial_installation_images": [ 
+        "boot.img",
+        "vendor_boot.img"],
+      "extra_images": [
+        "dtbo.img",
+        "vbmeta.img"]
+    }
+  ]
+}
+
