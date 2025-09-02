@@ -1,1 +1,5 @@
-- Initial Official build for Samsung Galaxy A52s 5G
+- Update build to v11.1
+- Add iFastCharge
+- Drop LiveDisplay
+- Align audio flags with prebuilt hal
+- Ship prebuilt audio hal extensions
