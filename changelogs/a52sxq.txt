@@ -1,5 +1,3 @@
-- Update build to v11.1
-- Add iFastCharge
-- Drop LiveDisplay
-- Align audio flags with prebuilt hal
-- Ship prebuilt audio hal extensions
+- Add Samsung LiveDisplay
+- Refactor livedisplay for modern Qualcomm devices
+- Switch libudfps_extension to hardware/samsung
