@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "Yogratdesuyo",
+      "currently_maintained": true,
+      "oem": "redmi",
+      "device": "spes,spesn",
+      "filename": "EvolutionX-15.0-20250905-spes-10.8-Beta.zip",
+      "download": "https://sourceforge.net/projects/your_unoffical_sourceforge_project/files/spes/15/EvolutionX-15.0-20250905-spes-10.8-Beta.zip/download",
+      "timestamp": 1757070141,
+      "md5": "02f9b83c1a4a0b19bce62a1ca3b70370",
+      "sha256": "edb0aef995959b9e8527fb149efa4e52efe8a635be1c91edaa95dc580561e738",
+      "size": 2558359873,
+      "version": "10.8",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolutionx-official-yogratbuilds-spes-spesn.4756101/",
+      "firmware": "",
+      "paypal": "",
+      "github": "https://github.com/yograts-playground",
+      "initial_installation_images": [],
+      "extra_images": []
+    }
+  ]
+}
