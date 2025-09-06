@@ -1,6 +1,6 @@
-August 6, 2025
+August 1, 2025
 - Upgraded security patch
-- Synced with latest EvolutionX 10.8
+- Latest 10.8
 - Initial 10.x Official Release
 - Various bug fixes
 
