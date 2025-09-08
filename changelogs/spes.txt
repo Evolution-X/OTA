@@ -1,5 +1,59 @@
-August 6, 2025
+August 1, 2025
 - Upgraded security patch
 - Latest 10.8
 - Initial 10.x Official Release
 - Various bug fixes
+
+June 27,2025
+- Updated to EvolutionX 11.0 Beta
+- Upgraded Security Patch
+- Improved Stability on device and source side
+- Hidden a few options from Evolver
+- BPF Patched kernel
+- Based on latest LineageOS 23.0
+- Based on Android 16
+- Removed Leica Camera
+- Removed Dolby Ready Support
+- Bug fixes
+
+June 15,2025
+- Updated to EvolutionX 10.7
+- June Security Patch
+- Improved stability - source
+- Bug fixes
+
+May 09,2025
+- Updated to EvolutionX 10.6
+- Move camera package name flag to select()
+- Move Lineage Health HAL to select()
+- Switch to NCM USB tethering
+- Bug fixes
+- Dolby Ready
+- May Security Patch
+
+April 19,2025
+- Updated to EvolutionX 10.5
+- Initial QPR2 Build
+- Security Patch Upgrade
+- Fixed navbar - source
+- Improved stability - source
+- Bug fixes
+
+April 6, 2025
+- Added Gamebar
+- Improved performance, efficiency and stability on both source and device side
+- Reverted to old QS panel - source
+- Changes at pixel-fw repo - source
+
+March 31, 2025
+- LockScreen Mods return
+- QS Data Usage return
+- Evo Recovery Changes
+- Bug fixes
+
+
+March 30, 2025
+- Updated to 10.4
+- Modernize Tap to wake
+- Removed Useless NFC stuff
+- OTA Support
