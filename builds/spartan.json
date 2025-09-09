@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Provasish Nandi",
+      "currently_maintained": true,
+      "oem": "Realme",
+      "device": "GT Neo 3T",
+      "filename": "EvolutionX-15.0-20250904-spartan-10.8-Official.zip",
+      "download": "https://cdn.evolution-x.org/spartan/15/EvolutionX-15.0-20250904-spartan-10.8-Official.zip/download",
+      "timestamp": 1756936635,
+      "md5": "57c69420b85929738a8a39cdaad1b624",
+      "sha256": "dc976afda6756defa798e77b8f8c963672a73e852e1b7075efa0cac7360c9c72",
+      "size": 3031084441,
+      "version": "10.8",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "https://sourceforge.net/projects/rmx3371-builds/files/Firmware/A14-FW.zip/download",
+      "paypal": "",
+      "github": "provasish",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
