@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "Yogratdesuyo",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 11",
+      "filename": "EvolutionX-15.0-20250907-spes-10.8-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/spes/15_vanilla/EvolutionX-15.0-20250907-spes-10.8-Vanilla-Official.zip/download",
+      "timestamp": 1757253716,
+      "md5": "71117f6e801543bcd0d850965e12ed24",
+      "sha256": "974038ab3f047abf8f32a9985b0ee1ec349ef2920251d0ecbf152662dfb1cbbd",
+      "size": 1575507155,
+      "version": "10.8",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolutionx-official-yogratbuilds-spes-spesn.4756101/",
+      "firmware": "",
+      "paypal": "",
+      "github": "yograts-playground",
+      "initial_installation_images": [],
+      "extra_images": []
+    }
+  ]
+}
