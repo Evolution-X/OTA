@@ -12,70 +12,54 @@ Notes:
 
 Device changes:
 ==============================
-Update blobs from OS2.0.205.0.VMRMIXM
-Update blobs from diting OS2.0.202.0.VLFMIXM
-media: Update from diting OS2.0.202.0.VLFMIXM
-sepolicy: Allow camera hal to write flash_state
+None
 
 Notable ROM changes:
 ==============================
+Avoid processRecord reuse during lmkd process killing
 Catch Runtime Exception thrown by ProtoOutputStream.flush() api
-ColumbusService: Make use of Expressive SliderPreference
-ColumbusService: Switch to material expressive design for preferences
-DevelopmentSettings: Disable automatic updates
-Disable useless Keystore features
-Evolver: Add brightness slider shapes
-Evolver: Add slider increment guard for CustomSeekBarPreference
-Evolver: Add switch for small notifications
-Evolver: Fix and improve keybox data preference
-Evolver: Remove tinting reset icon in CustomSeekbarPreference
-Evolver: Update CustomSeekbarPreference to use material expressive layout
-Evolver: Update tensor codes for P10
-Evolver: notification row transparency switch
-Evolver: pulse: Set default interval for seekbar prefs
+Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
+Evolver: Restore QS layout settings
 Fix RuntimeException in appsearch
-Fix the issue of avoiding app crashes in HWUI (Hardware UI)
-Fix usb camera number is not correct after plug out
-GameSpace: Setup material expressive design for preferences
-GameSpace: Update CustomSeekBarPreference to use material expressive layout
-Ignore prebuilt/generated directory
+Fix timeout issue when Google Calculator app remains occluded after power key double-click
+GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
+GameSpace: Add slider increment guard for CustomSeekBarPreference
+GameSpace: Fix per-app header layout
+GameSpace: Update view for Quick start apps dialog
 MediaPlayer: stop logspam
-Optimize home to desktop transition speed
-PixelPropsUtils: Add back play store to PIF
-PixelPropsUtils: Do not block attestation if custom keybox is loaded
-PixelPropsUtils: Fix props for s24 ultra
-PixelPropsUtils: Switch recent Pixel props and tensor codes to P10
+Optimize the DateTimeView logic time consumption when updating the Ui main thread time
+PixelPropsUtils: Update fingerprints to September 2025 release
 Prevent NPE on SharedConnectivityService on GMS builds
 Reduce blocking operation on display thread
-Revert "MultiAccessUnit reflector helper allocated once per ComponentStore"
-Screenrecord: Fix notifications not being dismissed
-Settings: Add support for daily and weekly data usage cycles
-Settings: Fix illegal state exception on StorageSelectionPreferenceController
-Settings: Move force dark mode to dark mode settings
-Settings: Re-add stop tracking listener in gesture navigation
-Settings: Update power button sensitivity slider to SliderPreference
-Settings: Update strings for override dark mode
+Settings: Allow configuring haptics for wake gestures
+Settings: Allow using icon for ComposePreference
+Settings: Enable expressive theme layout for various activities
+Settings: Fixup compose preference layout
+Settings: Make ticks visible for Vibration intensity prefs
+Settings: add abstract fragment class to reduce fragments boilerplate
+Settings: add three finger swipe actions/screenshot combo intercept
+Settings: add SearchIndexProviderHolder interface
+Settings: biometrics features enhance
+Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
+SettingsTheme: Fix preferences getting clipped in expressive theme
 SliderPreference: Add stop tracking listener
 SliderPreference: Fix thumb color
-SystemUI: Remove nested PlatformTheme in QS fragment
-Updater: push-update: Allow specifying serial number
-audio: fix SAD and SAM inconsistent after audioserver crash
-bt: ignore invalid mask
-config: Fixup blur flag
-config: pihooks: Update to Baklava QPR2 Beta 1
+SystemUI: Fix AOD and pulsing scrim color
+SystemUI: Fix split shade missing issue
+SystemUI: Force black tint when animating to/from AOD or PULSING
+SystemUI: QS expansion animation enhance
+SystemUI: Remove composite alpha from additional scrim on lockscreen
+SystemUI: notification row transparency switch
+Telephony: Apply Material You to exposed settings
+Telephony: Migrate MainSwitchBar and Switch to Material3
+Telephony: Move from Switch to MaterialSwitch
+Telephony: RadioInfo: Handle system insets
+UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
+biometrics: Fix SenseProvider breaking biometric settings control
+core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
 core: PackageManager: Allow installation with partial ABI support
-extras: Add material expressive icon shapesShow description for 77d483a
-extras: Drop unused auto brightness icons
-extras: Fix powermenu color for light theme
-fix split shade missing issue
-gui: Fix buffer caching issue causing flicker
-overlay: Make Google Sans the default headline font
-release: Disable apply_picture_profiles
-release: Disable lpp squeeze effect
-release: Remove flag for using emphasized font family for shade header
-release: Remove glanceable hub
-release: Remove glitchy depth push scaling effect
-release: Remove some useless notification flags
+extras: Drop unused clockfonts
+extras: fonts: Update from komodo BP3A.250905.014
+extras: Re-enable OOS icon pack
+overlay: SystemUI: Tune new biometric dialog UI
 smartspace: Fix NoSuchElementException in CallbackWrapper
-updatePolicyState after updating all EffectHandle state
-vars: Update qcom tags
