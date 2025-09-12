@@ -17,20 +17,15 @@ None
 Notable ROM changes:
 ==============================
 Avoid processRecord reuse during lmkd process killing
-Catch Runtime Exception thrown by ProtoOutputStream.flush() api
 Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
 Evolver: Restore QS layout settings
-Fix RuntimeException in appsearch
 Fix timeout issue when Google Calculator app remains occluded after power key double-click
 GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
 GameSpace: Add slider increment guard for CustomSeekBarPreference
 GameSpace: Fix per-app header layout
 GameSpace: Update view for Quick start apps dialog
-MediaPlayer: stop logspam
 Optimize the DateTimeView logic time consumption when updating the Ui main thread time
 PixelPropsUtils: Update fingerprints to September 2025 release
-Prevent NPE on SharedConnectivityService on GMS builds
-Reduce blocking operation on display thread
 Settings: Allow configuring haptics for wake gestures
 Settings: Allow using icon for ComposePreference
 Settings: Enable expressive theme layout for various activities
@@ -42,8 +37,6 @@ Settings: add SearchIndexProviderHolder interface
 Settings: biometrics features enhance
 Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
 SettingsTheme: Fix preferences getting clipped in expressive theme
-SliderPreference: Add stop tracking listener
-SliderPreference: Fix thumb color
 SystemUI: Fix AOD and pulsing scrim color
 SystemUI: Fix split shade missing issue
 SystemUI: Force black tint when animating to/from AOD or PULSING
@@ -57,9 +50,7 @@ Telephony: RadioInfo: Handle system insets
 UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
 biometrics: Fix SenseProvider breaking biometric settings control
 core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
-core: PackageManager: Allow installation with partial ABI support
 extras: Drop unused clockfonts
 extras: fonts: Update from komodo BP3A.250905.014
 extras: Re-enable OOS icon pack
 overlay: SystemUI: Tune new biometric dialog UI
-smartspace: Fix NoSuchElementException in CallbackWrapper
