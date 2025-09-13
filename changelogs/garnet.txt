@@ -1,0 +1,23 @@
+This is Android 16 with September 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Flash Latest firmware according to your region (firmware <= 2.0.10)
+- Recommended EvoX recovery
+
+Device changes:
+==============================
+- Welcome to Evolution X 11
+- Update from OS2.0.11.VNRMIXM
+- Add Dolby Atmos
+- Add profiles overlay for moto dolby
+- Import dolby audio blobs and sepolicy
+- Added Night charging mode
+- Dolby Vision included
+- OSS kernel included
+- OTA Should be possible, BUT we still recommend to make a backup before installing dirty
+
+Notable ROM changes:
+==============================
+- Merge September 2025 security patches
