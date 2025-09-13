@@ -1,4 +1,4 @@
-This is Android 16 with August 2025 security patches
+This is Android 16 with September 2025 security patches
 
 Notes:
 ==============================
@@ -16,41 +16,5 @@ None
 
 Notable ROM changes:
 ==============================
-Avoid processRecord reuse during lmkd process killing
-Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
-Evolver: Restore QS layout settings
-Fix timeout issue when Google Calculator app remains occluded after power key double-click
-GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
-GameSpace: Add slider increment guard for CustomSeekBarPreference
-GameSpace: Fix per-app header layout
-GameSpace: Update view for Quick start apps dialog
-Optimize the DateTimeView logic time consumption when updating the Ui main thread time
-PixelPropsUtils: Update fingerprints to September 2025 release
-Settings: Allow configuring haptics for wake gestures
-Settings: Allow using icon for ComposePreference
-Settings: Enable expressive theme layout for various activities
-Settings: Fixup compose preference layout
-Settings: Make ticks visible for Vibration intensity prefs
-Settings: add abstract fragment class to reduce fragments boilerplate
-Settings: add three finger swipe actions/screenshot combo intercept
-Settings: add SearchIndexProviderHolder interface
-Settings: biometrics features enhance
-Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
-SettingsTheme: Fix preferences getting clipped in expressive theme
-SystemUI: Fix AOD and pulsing scrim color
-SystemUI: Fix split shade missing issue
-SystemUI: Force black tint when animating to/from AOD or PULSING
-SystemUI: QS expansion animation enhance
-SystemUI: Remove composite alpha from additional scrim on lockscreen
-SystemUI: notification row transparency switch
-Telephony: Apply Material You to exposed settings
-Telephony: Migrate MainSwitchBar and Switch to Material3
-Telephony: Move from Switch to MaterialSwitch
-Telephony: RadioInfo: Handle system insets
-UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
-biometrics: Fix SenseProvider breaking biometric settings control
-core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
-extras: Drop unused clockfonts
-extras: fonts: Update from komodo BP3A.250905.014
-extras: Re-enable OOS icon pack
-overlay: SystemUI: Tune new biometric dialog UI
+Add flashlight strength function to flashlight QS tile
+Merge September 2025 security patches
