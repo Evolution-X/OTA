@@ -1,0 +1,14 @@
+# Test Release Changelog
+        
+## New Features
+- Added new feature X
+- Improved performance Y
+- Fixed bug Z
+
+## Bug Fixes
+- Fixed crash when doing action A
+- Resolved issue with feature B
+
+## Notes
+- This is a test release
+- Please report any issues

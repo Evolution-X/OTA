@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1726689600,
+      "filename": "EvolutionX_9.0_test_device-14.0-v20250918-OFFICIAL.zip",
+      "id": "abc123def456",
+      "romtype": "OFFICIAL",
+      "size": 1234567890,
+      "url": "https://sourceforge.net/projects/evolution-x/files/test_device/v20250918/EvolutionX_9.0_test_device-14.0-v20250918-OFFICIAL.zip/download",
+      "version": "v20250918"
+    }
+  ]
+}
