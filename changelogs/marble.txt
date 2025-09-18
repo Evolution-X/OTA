@@ -12,9 +12,28 @@ Notes:
 
 Device changes:
 ==============================
-None
+Build IFAAService from source
+Drop Dolby Vision (fixes crashes in Netflix and other streaming apps)
+Drop unused QTI VM manager blobs (fixes long bootlogo time)
+overlay: set 60hz refresh rate for AOD
+rootdir: Disable eSE power manager service in Indian SKU
+sepolicy: Allow apps to read Mlipay and IFAA props
+sepolicy: Allow system_app to access Mlipay service
 
 Notable ROM changes:
 ==============================
-Add flashlight strength function to flashlight QS tile
-Merge September 2025 security patches
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+PixelPropsUtils: Do not block attestation if custom keybox is loaded
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
