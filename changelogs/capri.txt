@@ -1,3 +1,25 @@
+===== 2025/09/14 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Device Tree:
+- capri: Enable LiveDisplay adaptive backlight
+- capri: overlay: Set defaultPeakRefreshRate config in 60 Hz
+- capri: Add missing fingerprint blobs
+- capri: Switch to MotCamera4
+- capri: init: Override acdbdata props by setting in init.mmi.overlay.rc
+
+Common Tree:
+- sm6225-common: init: Set permissions for chipone_ident service
+- sm6225-common: Update to devon_g T2SNS33.73-22-3-19
+- sm6225-common: Increase dalviik-healp memory limits
+- sm6225-common: Cleanup more flags
+- sm6225-common: Build LiveDisplay sysfs HAL
+- sm6225-common: Build LiveDisplay SDM HAL
+- sm6225-common: Enable UFFD GC
+- sm6225-common: Stop including vendor/debugfs.config
+
+
 ===== 2025/07/25 =====
 - July 2025 Security Patch
 

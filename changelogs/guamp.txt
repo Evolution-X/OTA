@@ -1,3 +1,22 @@
+===== 2025/09/17 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Device Tree:
+- guamp: Add missing fingerprint binary
+- guamp: Enable LiveDisplay adaptive backlight
+
+Common Tree:
+- sm6225-common: init: Set permissions for chipone_ident service
+- sm6225-common: Update to devon_g T2SNS33.73-22-3-19
+- sm6225-common: Increase dalviik-healp memory limits
+- sm6225-common: Cleanup more flags
+- sm6225-common: Build LiveDisplay sysfs HAL
+- sm6225-common: Build LiveDisplay SDM HAL
+- sm6225-common: Enable UFFD GC
+- sm6225-common: Stop including vendor/debugfs.config
+
+
 ===== 2025/07/25 =====
 - July 2025 Security Patch
 
