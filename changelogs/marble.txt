@@ -30,6 +30,7 @@ Evolver: Drop AOD wallpaper toggle
 Evolver: Move switches to statusbar tuner
 Evolver: Re-enable Smart Pixels
 Evolver: September 2025 update
+Fix lock screen charging values
 PixelPropsUtils: Do not block attestation if custom keybox is loaded
 Settings: power off verify
 SystemUI: Add flashlight strength
