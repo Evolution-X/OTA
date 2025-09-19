@@ -1,3 +1,0 @@
-- Add Samsung LiveDisplay
-- Refactor livedisplay for modern Qualcomm devices
-- Switch libudfps_extension to hardware/samsung
