@@ -1,0 +1,39 @@
+This is initial Android 16 with September 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+
+Device changes:
+==============================
+- Welcome to Evolution X
+- Oplus Camera included
+
+Notable ROM changes:
+==============================
+Merge September 2025 security patches
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+Allow devices to disable 5G toggle
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Bring back screen-off UDFPS toggle
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+Fix lock screen charging values
+PixelPropsUtils: Do not block attestation if custom keybox is loaded
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+SystemUI: Allow devices to disable Smart Pixels on UDFPS
+SystemUI: Fix keyguard state logic in onStartedGoingToSleep
+SystemUI: Prevent keyguard state conflicts that caused screen flickering
+SystemUI: UdfpsAnimation: Clear animation before setting new style
+SystemUI: UdfpsController: Attempt fix animation for Optical UDFPS
+SystemUI: UdfpsController: Use keyguard update monitor callbacks for animations
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
