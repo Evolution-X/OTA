@@ -1,32 +1,12 @@
 Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/recovery/recovery.img/download
-KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20250622.zip/download
-KSU Next with susfs: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-susfs-20250622.zip/download
 
-This is Android 15 with June 2025 security patches
+This is Android 15 with September 2025 security patches
 Device changes:
 =======================
-Decrease zram to 25%
-Fix wifi issue on some users
-General performance improve
-
+Increase zram to 50%
+General performance improvements
 
 ROM changes:
 =======================
-[Expressive Design] expand collapsing toolbar by default
-[Expressive Design] fix ActionButtons click listener application
-[Expressive Design] fix battery usage layout
-Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
-Evolver: Add switch to spoof QSB
-Evolver: adjustments for material expressive designAdd commentMore actions
-Merge June 2025 security patches
-ProcessList: catch exceptions when unfreezing starting process
-Settings: Use M3 slider for discrete seekbarsAdd commentMore actions
-SettingsLib: Animate the UsageProgressBarPreference
-SettingsLib: Redesign seekbar according to M3 slider
-SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
-SettingsLib: fix expressive design
-display: allow changing HDR brightness intensity
-Fix issues with root causing bootloop
-PixelPropsUtils: Remove recent pixel spoofing for gms
-gameprops: Spoof Delta Force to ASUS ROG 6D
-version: Uprev to 10.7
+version: Uprev to 10.9
+Fixed YouTube crash and Spotify crash
