@@ -1,0 +1,12 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/recovery/recovery.img/download
+
+This is Android 15 with September 2025 security patches
+Device changes:
+=======================
+Increase zram to 50%
+General performance improvements
+
+ROM changes:
+=======================
+version: Uprev to 10.9
+Fixed YouTube crash and Spotify crash
