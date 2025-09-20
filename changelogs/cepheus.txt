@@ -1,13 +1,29 @@
-This is Evolution X 11.1 with August 2025 security patches
+This is Evolution X 11.2 with September 2025 security patches
 
 ==============================
 
 Device changes:
 
-- Enabled double tap to wake
+None
 
 ==============================
 
 Notable ROM changes:
 
-recovery: Update OTA installation images
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+Fix lock screen charging values
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
+services: core: wfd: extend check for qualcomm wfd jar
+wm: add overlay-driven allowlist for fullscreen notch usage

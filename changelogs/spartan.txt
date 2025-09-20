@@ -1,14 +1,47 @@
-This is Android 16 with August 2025 security patches
+This is Android 16 with September 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Includes OP camera and Dolby.
+- Includes OP camera.
 - Install this FW https://sourceforge.net/projects/rmx3371-builds/files/Firmware/A14-FW.zip/download
 - Non-KSU Build.
-- Install this kernel for root https://sourceforge.net/projects/rmx3371-builds/files/Kernel/El-Diablo-20250821-1623.zip/download
+- Install this kernel for root- https://sourceforge.net/projects/rmx3371-builds/files/Kernel/El-Diablo-AOSP-SukiSU-20250828-0746.zip/download
 
 Device changes:
 ==============================
-- Updated blobs from RMX3371_14.0.0.2100(EX01).
-- Upstream Kernel to 4.19.334
+- Merged from LOS/qcom_sm8250 
+- Fixed QTI Powerhal log spam
+- Added restart SystemUI in Advanced Reboot
+- Enable aptX(HD)
+- Fixes low mic issue on whatsapp calls
+- Switched to Sony Dolby (AOSPA UI)
+- Spatial Audio is back (Apple Music)
+- OTA install is faster now
+- Fixed sound distortion on loud speaker calls
+- Added some props for better battery backup
+- App opening and UI is more smooth now
+- Better sound than ever
+- Fixed some log spam
+- Enable suspend to RAM
+- Build DSPVolumeSynchronizer
+
+Notable ROM changes:
+==============================
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+Fix lock screen charging values
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
+services: core: wfd: extend check for qualcomm wfd jar
+wm: add overlay-driven allowlist for fullscreen notch usage

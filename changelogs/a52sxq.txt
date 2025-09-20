@@ -1,3 +1,10 @@
-- Add Samsung LiveDisplay
-- Refactor livedisplay for modern Qualcomm devices
-- Switch libudfps_extension to hardware/samsung
+- Update build to version 11.2
+- 20/09/2025 update
+- Update latest security patch
+- Bring back Screen off udfps toggle in Evolver
+- Bring back Smart pixels feature (toggle + QS tile)
+- Fix UDFPS animations
+- Add config to disable 5g toggle in internet QS tile dialog
+- Add volume QS tile dialog
+- Add flashlight strength QS tile dialog
+- Move status bar icon toggles to status bar tuner
