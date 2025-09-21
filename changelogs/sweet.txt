@@ -1,70 +1,101 @@
-This is initial Android 16 with August 2025 security patches
+This is Android 16 with September 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Includes Dolby Atmos, ViPER4AndroidFX and Leica camera.
+- Includes Sony Dolby Atmos, ViPER4AndroidFX and Leica camera.
 - Credits to aryannn999, daniml3, vbajs, mikoker, Jan, eidawon1402 and all sweet/sm6150 devs.
 - Thanks to Sir Jerome, FoxHasX, Dil, Vonarian, Reg, Bnexxus, and all of the HZMHNK Testers.
-- Use latest MIUI 14 FW according to your region
-- Use the recovery.img or use latest OFOX by aryannn999 with EROFS Compression support
+- Thanks to Shravan, Lord Itachi, and EKofGod for the support.
+- Use latest MIUI 14 FW according to your region.
+- Use the recovery.img or use latest OFOX by aryannn999 with EROFS Compression support.
 
 Device changes:
 ==============================
-- Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
-- Update blobs from sweet_k6a OS1.0.19.0.THGMIXM
-- Add support for gralloc handles with reserved_size
-- Drop legacy ANT remnants
-- Patch audio to load libaudioroute-v34.so
-- Patch com.vidhance.node.eis.so with libui-v34
+- Switched into Sony Dolby Atmos integration
+- Nuke XiaomiParts for good
+- overlay: Use correct path for cpu temp
+- sepolicy: Fix OTA updates with encrypted f2fs
+- Set permission for charging control nodes
+- livedisplay: Migrate to AIDL
 - And all other changes are here: https://github.com/sweet-organization
 
 Notable ROM changes:
 ==============================
-Adapt pulse visualizer to A16
-BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
-Defer remove splash screen while device is locked
-Device policy: Fix security exception caused by uid/packagename mismatch
-Evolver: Add missing rounded toggle for pulse
-Evolver: MonetSettings: Manually set default values to preferences
-FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
-Fix the system server restart issue caused by the fingerprint framework
-KeyProviderManager: Accept N >= 1 certs per key
-InputEventReceiver: Catch error in finishInputEvent()
-PixelPropsUtils: Update fingerprints to August 2025 release
-Set navbar color for device default settings theme
-Settings: Fix slice data illegal state in credentials
-SettingsLib: Use legacy material colors for settings' surface container
-SystemUI: Add hotspot toggle in QS internet dialog
-SystemUI: Don't show BuildNumber in new compose QS
-SystemUI: Fixup fonts not updating on new compose QS
-SystemUI: Introduce 5G toggle in internet connectivity dialog
-SystemUI: Recreate media player on theme change
-SystemUI: Remove edit button bg in QS customizer in new QS UI
-SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
-SystemUI: Use Material3 switches for internet and BT dialog tile
-SystemUI: Use Material3 switches for screenrecord options
-SystemUI: VolumeDialog: Fix inactive row colors
-SystemUI: fix doze/keyguard issues
-SystemUI: fix hotspot layout
-SystemUI: fix shade blur customization
-SystemUI: tiles: Preload all icon drawable for custom tiles
-ThemeUtils: Improve overall usage
-Themes: use legacy material background color
-add workaround for upstream async dexopt bug
-base: Add an icon for NR_SA (5G Standalone) data connection
-fix boot failure with white wallpaper
-fix footer actions theme
-fix lockscreen elements randomly disappearing
-fix screen off udfps preference visibility
-fix settings material expressive issues
-fix unsupported qs tile icon crash
-fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
-fix upstream RecoverySystem.verifyPackage vulnerability
-improve window ignore secure flag
-make AOSP dialer call notifications not groupable
-release: Bump Security String to 2025-08-01
-release: Disable codec_availability flags
-udfps: Add support for udfps on aod without dedicated sensor
-use shared bitmaps in MediaMetadata to avoid Binder failures
-vendor: Drop notification themed icons
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+Fix lock screen charging values
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
+services: core: wfd: extend check for qualcomm wfd jar
+wm: add overlay-driven allowlist for fullscreen notch usage
+Add flashlight strength function to flashlight QS tile
+
+Add back support for UDFPS icons
+Bring back UDFPS animation
+Disable night light when showing udfps overlay
+Evolver: Add back batterybar
+Evolver: Add customization to select QS tile shape
+Evolver: Allow single tap on keyguard affordances
+Evolver: AOD wallpaper toggle
+Evolver: MonetSettings: Add back the Content theming style
+Evolver: MonetSettings: Bump max chroma factor to 150
+Smartspace: Return if text is null
+SystemUI: Add advanced filtering and customization
+SystemUI: Add haptics when using single tap for keyguard affordances
+SystemUI: Apply tile shapes to all tiles
+SystemUI: Do not disable slice provider for smartspace
+SystemUI: Do not switch between spacer and text for data usage in footer
+SystemUI: biometrics: Add missing calls to parent onFinishInflate
+SystemUI: clear keyguard indication background and icon on empty text
+screenrecord: Set entire screenrecord as the default option
+Avoid processRecord reuse during lmkd process killing
+Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
+Evolver: Restore QS layout settings
+Fix timeout issue when Google Calculator app remains occluded after power key double-click
+GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
+GameSpace: Add slider increment guard for CustomSeekBarPreference
+GameSpace: Fix per-app header layout
+GameSpace: Update view for Quick start apps dialog
+Optimize the DateTimeView logic time consumption when updating the Ui main thread time
+PixelPropsUtils: Update fingerprints to September 2025 release
+Settings: Allow configuring haptics for wake gestures
+Settings: Allow using icon for ComposePreference
+Settings: Enable expressive theme layout for various activities
+Settings: Fixup compose preference layout
+Settings: Make ticks visible for Vibration intensity prefs
+Settings: add abstract fragment class to reduce fragments boilerplate
+Settings: add three finger swipe actions/screenshot combo intercept
+Settings: add SearchIndexProviderHolder interface
+Settings: biometrics features enhance
+Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
+SettingsTheme: Fix preferences getting clipped in expressive theme
+SystemUI: Fix AOD and pulsing scrim color
+SystemUI: Fix split shade missing issue
+SystemUI: Force black tint when animating to/from AOD or PULSING
+SystemUI: QS expansion animation enhance
+SystemUI: Remove composite alpha from additional scrim on lockscreen
+SystemUI: notification row transparency switch
+SystemUI: UdfpsAnimation: Clear animation before setting new style
+SystemUI: UdfpsController: Use keyguard update monitor callbacks for animations
+Telephony: Apply Material You to exposed settings
+Telephony: Migrate MainSwitchBar and Switch to Material3
+Telephony: Move from Switch to MaterialSwitch
+Telephony: RadioInfo: Handle system insets
+UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
+biometrics: Fix SenseProvider breaking biometric settings control
+core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
+extras: Drop unused clockfonts
+extras: fonts: Update from komodo BP3A.250905.014
+extras: Re-enable OOS icon pack
+overlay: SystemUI: Tune new biometric dialog UI
