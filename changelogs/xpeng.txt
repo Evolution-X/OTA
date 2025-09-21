@@ -1,3 +1,26 @@
+===== 2025/09/20 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 5.4.296
+
+Device Tree:
+- xpeng: overlay: Add RefreshRate configs according to stock
+- xpeng: Migrate to AIDL LiveDisplay HAL
+- Revert "xpeng: Move fingerprint HW ident to vendor/bin"
+- xpeng: Match DeviceProduct with stock
+- xpeng: Override properties for xpeng variants
+- xpeng: Switch common name to sm8350
+
+Common Tree:
+- sm8350-common: Tune dalvik-healp memory limits
+- sm7325-common: Switch common name to sm8350
+- sm7325-common: Drop PRODUCT_BUILD_SUPER_PARTITION
+- sm7325-common: Cleanup more flags
+- sm7325-common: Remove TARGET_ENABLE_MEDIADRM_64
+- sm7325-common: Remove no longer used display flags
+- sm7325-common: Migrate to AIDL LiveDisplay HAL
+
+
 ===== 2025/07/21 =====
 - July 2025 Security Patch
 - Linux Kernel 5.4.293
@@ -26,6 +49,7 @@ Common Tree:
 - sm7325-common: Use hardware/motorola/sepolicy
 - sm7325-common: sepolicy: Drop touch HAL labeling
 - sm7325-common: Update vendor from dubai_g-user 14 U1RDS34.80-40-5-6 ba4fd-68ef4 release-keys
+
 
 ===== 2025/06/06 =====
 - EvolutionX v10.7

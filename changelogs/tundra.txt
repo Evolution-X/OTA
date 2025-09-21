@@ -1,3 +1,25 @@
+===== 2025/09/20 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 5.4.296
+
+Device Tree:
+- tundra: Update to U1SJS34.2-92-10-9
+- tundra: overlay: Add RefreshRate configs according to stock
+- tundra: Migrate to AIDL LiveDisplay HAL
+- tundra: Override properties for tundra variants
+- tundra: Switch common name to sm8350
+
+Common Tree:
+- sm8350-common: Tune dalvik-healp memory limits
+- sm7325-common: Switch common name to sm8350
+- sm7325-common: Drop PRODUCT_BUILD_SUPER_PARTITION
+- sm7325-common: Cleanup more flags
+- sm7325-common: Remove TARGET_ENABLE_MEDIADRM_64
+- sm7325-common: Remove no longer used display flags
+- sm7325-common: Migrate to AIDL LiveDisplay HAL
+
+
 ===== 2025/07/21 =====
 - EvolutionX v10.7
 - July 2025 Security Patch
