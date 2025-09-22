@@ -1,0 +1,14 @@
+===== 2025/09/21 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 5.4.296
+
+Device Tree:
+- bangkk: overlay: Build TurboPowerOverlays
+- bangkk: Build MotCamera4 from prebuilt source
+
+Common Tree:
+- sm6375-common: Add TurboPowerOverlays from stock
+- sm6375-common: Increase dalviik-healp memory limits
+- sm6375-common: rootdir: rm package cache on early boot
+- sm6375-common: rootdir: Switch filesystem type to EroFS

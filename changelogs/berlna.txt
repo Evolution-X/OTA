@@ -1,0 +1,25 @@
+===== 2025/09/18 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 5.4.296
+
+Device Tree:
+- berlna: Move nfc config to vendor
+- berlna: Add missing Camera ICP firmware
+- berlna: Drop unused vibrator firmware
+- berlna: overlay: Set defaultRefreshRateInZone config in 90 Hz
+- berlna: Track full firmware
+- berlna: Move fingerprint configs to vendor
+- berlna: Switch common name to sm8350
+- berlna: Build MotCamera4 from prebuilt source
+
+Common Tree:
+- sm8350-common: Tune dalvik-healp memory limits
+- sm7325-common: Switch common name to sm8350
+- sm7325-common: Drop ro.soc.model prop
+- sm7325-common: overlay: Covert remains overlays to Android.bp
+- sm7325-common: Copy init media files with blueprint
+- sm7325-common: Rename rootdir to init and migrate to blueprints
+- sm7325-common: WiFi: Enable 802.11ax support for softap mode
+- sm7325-common: init: rm package cache on early boot
+- sm7325-common: overlay: Build TurboPowerOverlays from hardware/motorola

@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G84 5G",
+      "filename": "EvolutionX-15.0-20250921-bangkk-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/bangkk/15/EvolutionX-15.0-20250921-bangkk-10.9-Official.zip/download",
+      "timestamp": 1758430977,
+      "md5": "67b1ddc13a29daa2384b14ebb447504c",
+      "sha256": "e70e949713547fef600cf819a12faa4ca1a746d70341c1d91dbe2d011bb2d3db",
+      "size": 2733130032,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-9-for-moto-g84-5g-bangkk-20250921.4760459/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}

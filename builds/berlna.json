@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Edge 2021",
+      "filename": "EvolutionX-15.0-20250918-berlna-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/berlna/15/EvolutionX-15.0-20250918-berlna-10.9-Official.zip/download",
+      "timestamp": 1758232705,
+      "md5": "45b6d18f74a6a595b44d987c7f451d53",
+      "sha256": "f4445e35d1abf77cbcc9d7b1850c96925b27e719afb085f1d9148da141a39e38",
+      "size": 2523912447,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-9-for-motorola-edge-2021-berlna-20250918.4760462/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
