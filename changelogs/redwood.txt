@@ -1,14 +1,11 @@
-This is  Android 16 with August 2025 security patches
+This is  Android 16 with September 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Dirty flash is fine over last build.
-- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
 - Includes Dolby Atmos, XiaomiParts and POCO camera.
-- Shipped with OS2.0.7.0.UMSMIXM	 firmware
 
 Device changes:
 ==============================
-Fixed facial verification issue in some banking apps ( eg. banco guayaqui).
-upstreamed lineage kernel to 5.4.295
+No changes
