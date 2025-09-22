@@ -1,5 +1,3 @@
-==== Evolution X 11 (Baklava) ====
-- Reverted a few changes
-- Clean flash reccomended, but not required unless coming from another rom, clean flash if coming from another rom
-- August patches merged
-- Supports Dolby as default
+- Latest Upstream kernel
+- Camera fixed
+- September patches merged
