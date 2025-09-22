@@ -1,0 +1,33 @@
+===== 2025/09/21 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 5.4.296
+
+Device Tree:
+- penang: Update to U1TPS34.29-83-7-3-7
+- penang: Enable LiveDisplay adaptive backlight
+- penang: overlay: Build TurboPowerOverlays
+- penang: Build MotCamera4 from prebuilt source
+- penang: Rename focaltech firmware
+- penang: Disable dt2w feature
+- penang: Import odm sku permissions
+- penang: Copy touchscreen firmwares to recovery
+- penang: init: Override acdbdata props by setting in init.mmi.overlay.rc
+- penang: Update proprietary-files
+- penang: Update partition size
+- penang: Update props from stock
+- penang: Update sku manifests from stock
+- penang: overlay: Add proper overlays for penang variants
+- penang: Override properties for penang variants
+- penang: Update overlays from stock
+- penang: Update init scripts
+- penang: Update audio configs from stock
+- fogo: Rebrand to penang
+- Revert "fogo: Add notification LED support"
+- Initial Penang device tree, started from LineageOS/android_device_motorola_fogo
+
+Common Tree:
+- sm6375-common: Add TurboPowerOverlays from stock
+- sm6375-common: Increase dalviik-healp memory limits
+- sm6375-common: rootdir: rm package cache on early boot
+- sm6375-common: rootdir: Switch filesystem type to EroFS

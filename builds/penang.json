@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G53 5G, G53j 5G, G53s 5G & G53y 5G",
+      "filename": "EvolutionX-15.0-20250921-penang-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/penang/15/EvolutionX-15.0-20250921-penang-10.9-Official.zip/download",
+      "timestamp": 1758432504,
+      "md5": "10bf78670e22021bac4988ef893e586d",
+      "sha256": "37737fc2f41b218739e89b3d7473be79d4fb723e3c034115cd0be07d17acab7d",
+      "size": 2724567844,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-9-for-moto-g53-5g-penang-20250921.4760465/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
