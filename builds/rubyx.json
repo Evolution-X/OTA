@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Aeron (aeronruless)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 12 Pro / Pro+ 5G / Discovery",
+      "filename": "EvolutionX-16.0-20250917-rubyx-11.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/rubyx/16/EvolutionX-16.0-20250917-rubyx-11.2-Official.zip/download",
+      "timestamp": 1758101941,
+      "md5": "03256dae554da55816df41644423a94e",
+      "sha256": "8e7457cd02637c8d8fc95cce7ef2ddfd64bb409aa8f9accb0566ed74c09cf68d",
+      "size": 2664211949,
+      "version": "11.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-6-31-05-2025.4741152/",
+      "firmware": "",
+      "paypal": "https://paypal.me/AeronRules",
+      "github": "Aeron-Aeron",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "super_empty",
+        "vbmeta"
+      ],
+      "extra_images": []
+    }
+  ]
+}
