@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Ansh (EvilAnsh)",
+      "currently_maintained": true,
+      "oem": "Realme",
+      "device": "7 / Narzo 20 Pro / Narzo 30 4G",
+      "filename": "EvolutionX-16.0-20250922-salaa-11.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/salaa/16/EvolutionX-16.0-20250922-salaa-11.2-Official.zip/download",
+      "timestamp": 1758533039,
+      "md5": "4d828823923eec8da7cc7593f56077b8",
+      "sha256": "65d18d95d7f57d65f4615b8946d3d0bba6c671ab3267fa4c6afa0d23fe2b17e0",
+      "size": 2900254875,
+      "version": "11.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-0-salaa-official-evolution-x-09-22-25.4760562/",
+      "firmware": "",
+      "paypal": "https://buymeacoffee.com/evilansh",
+      "github": "EvilAnsh",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
