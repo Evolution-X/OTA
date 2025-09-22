@@ -1,0 +1,90 @@
+This is Android 16 with September 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Credits to kardebayan, SamarV-121, sarthakroy2002 and all salaa/mt6785 devs.
+- Firmware is included.
+- Use the recovery.img.
+
+Device changes:
+==============================
+- Initial official build
+
+Notable ROM changes:
+==============================
+Add new audio from mustang BD3A.250721.001.B7
+Add new setup wizard props from mustang BD3A.250721.001.B7
+AnimationUtils: Fix inverted flag logic and wrong timebase fallback
+Evolver: Add toggle for QS tile haptic feedback
+Evolver: Drop AOD wallpaper toggle
+Evolver: Move switches to statusbar tuner
+Evolver: Re-enable Smart Pixels
+Evolver: September 2025 update
+Fix lock screen charging values
+Settings: power off verify
+SystemUI: Add flashlight strength
+SystemUI: add volume tile
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+extras: Drop Accord
+gms: Update from mustang BD3A.250721.001.B7
+services: core: wfd: extend check for qualcomm wfd jar
+wm: add overlay-driven allowlist for fullscreen notch usage
+Add flashlight strength function to flashlight QS tile
+Add back support for UDFPS icons
+Bring back UDFPS animation
+Disable night light when showing udfps overlay
+Evolver: Add back batterybar
+Evolver: Add customization to select QS tile shape
+Evolver: Allow single tap on keyguard affordances
+Evolver: AOD wallpaper toggle
+Evolver: MonetSettings: Add back the Content theming style
+Evolver: MonetSettings: Bump max chroma factor to 150
+Smartspace: Return if text is null
+SystemUI: Add advanced filtering and customization
+SystemUI: Add haptics when using single tap for keyguard affordances
+SystemUI: Apply tile shapes to all tiles
+SystemUI: Do not disable slice provider for smartspace
+SystemUI: Do not switch between spacer and text for data usage in footer
+SystemUI: biometrics: Add missing calls to parent onFinishInflate
+SystemUI: clear keyguard indication background and icon on empty text
+screenrecord: Set entire screenrecord as the default option
+Avoid processRecord reuse during lmkd process killing
+Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
+Evolver: Restore QS layout settings
+Fix timeout issue when Google Calculator app remains occluded after power key double-click
+GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
+GameSpace: Add slider increment guard for CustomSeekBarPreference
+GameSpace: Fix per-app header layout
+GameSpace: Update view for Quick start apps dialog
+Optimize the DateTimeView logic time consumption when updating the Ui main thread time
+PixelPropsUtils: Update fingerprints to September 2025 release
+Settings: Allow configuring haptics for wake gestures
+Settings: Allow using icon for ComposePreference
+Settings: Enable expressive theme layout for various activities
+Settings: Fixup compose preference layout
+Settings: Make ticks visible for Vibration intensity prefs
+Settings: add abstract fragment class to reduce fragments boilerplate
+Settings: add three finger swipe actions/screenshot combo intercept
+Settings: add SearchIndexProviderHolder interface
+Settings: biometrics features enhance
+Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
+SettingsTheme: Fix preferences getting clipped in expressive theme
+SystemUI: Fix AOD and pulsing scrim color
+SystemUI: Fix split shade missing issue
+SystemUI: Force black tint when animating to/from AOD or PULSING
+SystemUI: QS expansion animation enhance
+SystemUI: Remove composite alpha from additional scrim on lockscreen
+SystemUI: notification row transparency switch
+SystemUI: UdfpsAnimation: Clear animation before setting new styleSystemUI: UdfpsController: Use keyguard update monitor callbacks for animations
+Telephony: Apply Material You to exposed settings
+Telephony: Migrate MainSwitchBar and Switch to Material3
+Telephony: Move from Switch to MaterialSwitch
+Telephony: RadioInfo: Handle system insets
+UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
+biometrics: Fix SenseProvider breaking biometric settings control
+core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
+extras: Drop unused clockfonts
+extras: fonts: Update from komodo BP3A.250905.014
+extras: Re-enable OOS icon pack
+overlay: SystemUI: Tune new biometric dialog UI
