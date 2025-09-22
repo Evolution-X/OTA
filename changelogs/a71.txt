@@ -1,0 +1,3 @@
+- 22/09/2025 update
+- Update latest security patch
+- Initial Build for Galaxy A71
