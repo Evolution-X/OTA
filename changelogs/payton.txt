@@ -1,0 +1,30 @@
+===== 2025/09/21 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+- Linux Kernel 4.4.302
+
+Device Tree:
+- payton: fix product manufacturer
+- payton: init: Move fstab to devices
+- payton: Switch to SPDX copyright & remove dates
+- payton: Convert overlays to Android.bp
+- payton: Rename rootdir to init and migrate to blueprints
+- payton: Align device name with a modern style
+- payton: Build MotCamera2 from prebuilt source
+
+Common Tree:
+- msm8998-common: Tune dalviik-healp memory limits
+- msm8998-common: Add TurboPowerOverlays from stock
+- msm8998-common: Add ModsManifest to forcibly declare permissions
+- msm8998-common: init: Move fstab to devices
+- msm8998-common: Switch to SPDX copyright
+- msm8998-common: overlay: Convert overlays to Android.bp
+- msm8998-common: Fix import path recovery files
+- msm8998-common: Rename rootdir to init and migrate to blueprints
+- msm8998-common: Import MotorolaSettingsProvider sepolices
+- msm8998-common: Remove duplicate prefix
+- msm8998-common: Fix portrait mode on MotCamera
+- msm8998-common: Address libllvm denials
+- msm8998-common: Address libmcf/libmmcamera denials
+- msm8998-common: init: rm package cache on early boot
+- msm8998-common: Build vendor with squashfs

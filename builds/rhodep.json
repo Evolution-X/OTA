@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G82 5G & G71s",
+      "filename": "EvolutionX-15.0-20250920-rhodep-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/rhodep/15/EvolutionX-15.0-20250920-rhodep-10.9-Official.zip/download",
+      "timestamp": 1758391159,
+      "md5": "85d6e52146360c6e6cf19e9f144b85b4",
+      "sha256": "3c1a6648a9a072f21a8244757e918b31203d51c7fe335529d2b625ec34e7789b",
+      "size": 2672854503,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-9-for-moto-g82-5g-g71s-rhodep-20250920.4760466/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}

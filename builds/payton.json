@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto X4",
+      "filename": "EvolutionX-15.0-20250921-payton-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/payton/15/EvolutionX-15.0-20250921-payton-10.9-Official.zip/download",
+      "timestamp": 1758434537,
+      "md5": "7ddbe33ec9aae89048829ab2870ca658",
+      "sha256": "57f71e516312e7b78c5532dc56f4af9c37342a42e3a981a990724f306a27518a",
+      "size": 1639336376,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-9-for-moto-x4-payton-20250921.4760467/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
