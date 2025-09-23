@@ -10,26 +10,16 @@ Notes:
 
 Device changes:
 ==============================
-None
+Spoof BuildFingerprint as Pixel Beta
 
 Notable ROM changes:
 ==============================
-Add new audio from mustang BD3A.250721.001.B7
-Add new setup wizard props from mustang BD3A.250721.001.B7
-AnimationUtils: Fix inverted flag logic and wrong timebase fallback
-Evolver: Add toggle for QS tile haptic feedback
-Evolver: Drop AOD wallpaper toggle
-Evolver: Move switches to statusbar tuner
-Evolver: Re-enable Smart Pixels
-Evolver: September 2025 update
-Fix lock screen charging values
-Merge September 2025 security patches
-PixelPropsUtils: Do not block attestation if custom keybox is loaded
-Settings: power off verify
-SystemUI: Add flashlight strength
-SystemUI: add volume tile
-config: Set new audio from mustang BD3A.250721.001.B7 as default
-extras: Drop Accord
-gms: Update from mustang BD3A.250721.001.B7
-services: core: wfd: extend check for qualcomm wfd jar
-wm: add overlay-driven allowlist for fullscreen notch usage
+Drop clone apps support (causing fingerprint issues)
+Drop Play store spoof (breaks Device integrity)
+PixelPropsUtils: Spoof as S24 Ultra for Diablo Immortal
+PixelPropsUtils: Spoof new apps from P10
+Settings: enrollment fix for low-positioned udfps
+SystemUI: udfps flicker fix enhancement
+Update pihooks default values to husky QPR2 Beta 2 props
+Update translations
+recovery: Extend A/B downgrades for older SPL
