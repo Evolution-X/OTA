@@ -12,12 +12,15 @@ Notes:
 
 Device changes:
 ==============================
+Don't allow too many cached apps in the background
 Spoof BuildFingerprint as Pixel Beta
 Update blobs from diting OS2.0.203.0.VLFMIXM
 Upstream stock kernel to 5.10.240
 
 Notable ROM changes:
 ==============================
+Drop clone apps support (causing fingerprint issues)
+Drop Play store spoof (breaks Device integrity)
 PixelPropsUtils: Spoof as S24 Ultra for Diablo Immortal
 PixelPropsUtils: Spoof new apps from P10
 Update pihooks default values to husky QPR2 Beta 2 props

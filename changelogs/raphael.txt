@@ -9,7 +9,6 @@ Notes:
 Device changes:
 ==============================
 Adjust override prop key names
-Drop libinit
 Spoof BuildFingerprint as Pixel Beta
 props: Enable support for kernel idle timer
 revert decrease debug.hwui.target_cpu_time_percent
@@ -17,8 +16,11 @@ set surface flinger min uclamp to ~30%
 
 Notable ROM changes:
 ==============================
+Drop clone apps support (causing fingerprint issues)
+Drop Play store spoof (breaks Device integrity)
 PixelPropsUtils: Spoof as S24 Ultra for Diablo Immortal
 PixelPropsUtils: Spoof new apps from P10
+Settings: enrollment fix for low-positioned udfps
 SystemUI: udfps flicker fix enhancement
 Update pihooks default values to husky QPR2 Beta 2 props
 Update translations
