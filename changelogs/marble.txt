@@ -6,23 +6,29 @@ Notes:
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.237-KSU-Next-1.0.9-susfs-1.5.9.zip/download) for root.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.240-KSU-Next-1.0.9-susfs-1.5.9.zip/download) for root.
 - Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Don't allow too many cached apps in the background
-Spoof BuildFingerprint as Pixel Beta
-Update blobs from diting OS2.0.203.0.VLFMIXM
-Upstream stock kernel to 5.10.240
+Fix RAM management issues
+Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+init: Give proper permissions for /dev/diag
 
 Notable ROM changes:
 ==============================
-Drop clone apps support (causing fingerprint issues)
-Drop Play store spoof (breaks Device integrity)
-PixelPropsUtils: Spoof as S24 Ultra for Diablo Immortal
-PixelPropsUtils: Spoof new apps from P10
-Update pihooks default values to husky QPR2 Beta 2 props
-Update translations
-recovery: Extend A/B downgrades for older SPL
+Disable nfc by default on clean flash
+Evolver: Add toggle for spoof private key keybox validation
+Evolver: Extend targeted package killing to QSB, Photos and Snapchat
+Evolver: Replace system restart with targeted package killing for PIF updates
+Settings: Fix UI glitch in DNS options
+Settings: Implement RefreshRateManager
+Settings: Implement reverse-engineered battery saver page
+Settings: Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
+Settings: Use the same color we use for background for statusbar
+Settings: gestures: allow hiding navigation ime bar
+overlay: Drop now playing customization
+overlay: Make an overlay for keybox (now passes strong by default)
+overlay: disable dreams feature
+overlay: frameworks: Suppress ASI system crash dialogs
