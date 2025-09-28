@@ -1,29 +1,65 @@
+===== 2025/09/28 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Device Tree:
+- evert: Build system partition with squashfs
+- evert: Migrate to AIDL LiveDisplay SDM/sysfs HALs
+- evert: init: Move fstab to devices
+- evert: Switch to SPDX copyright
+- evert: Convert overlays to Android.bp
+- evert: Rename rootdir to init and migrate to blueprints
+- evert: Align device name with a modern style
+
+Common Tree:
+- msm8998-common: Tune dalvik-healp memory limits
+- msm8998-common: Migrate to AIDL LiveDisplay SDM/sysfs HALs
+- msm8998-common: Add ModsManifest to forcibly declare permissions
+- msm8998-common: init: Move fstab to devices
+- msm8998-common: Switch to SPDX copyright
+- msm8998-common: overlay: Convert overlays to Android.bp
+- msm8998-common: Fix import path recovery files
+- msm8998-common: Rename rootdir to init and migrate to blueprints
+- msm8998-common: Import MotorolaSettingsProvider sepolices
+- msm8998-common: Remove duplicate prefix
+- msm8998-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+
+
 ===== 2025/06/07=====
-Bump to EvolutionX v10.7
-June 2025 Security Patch
-Commonize IMS APK
-Update extract-files via template
-Set timer trigger for charging LED
-Import MotorolaSettingsProvider sepolices
-Update QMI, RIL, IMS from river
-Move qcril manifest into main manifest
-Remove depreciated libril-qc-qmi-1
-Implement ELF checks & swap to python extract
-Ditch vendor.rild.libpath prop
-Delete class_main init shell script
-Update extract-files.py from template
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Device Tree:
+- evert: Commonize IMS APK
+- evert: Update extract-files via template
+
+Common Tree:
+- msm8998-common: Set timer trigger for charging LED
+- msm8998-common: Update QMI, RIL, IMS from river
+- msm8998-common: Move qcril manifest into main manifest
+- msm8998-common: Remove depreciated libril-qc-qmi-1
+- msm8998-common: Ditch vendor.rild.libpath prop
+- msm8998-common: Delete class_main init shell script
+- msm8998-common: Update extract-files.py from template
 
 
 ===== 2025/05/19 =====
-Bump to EvolutionX v10.6
-May 2025 Security Patch
-Linux Kernel 4.4.302
-Setup oem as system_ext partition.
-Build vendor & system_ext partitions with SquashFS.
-Label additional MCF library as same_process_hal_file.
-Address libmcf/libmmcamera denials.
-Address libllvm denials.
-Build MotCamera2 from prebuilt source.
-Init: rm package cache on early boot.
-Fix portrait mode on MotCamera.
-Show Turbo Power instead of charging rapidly.
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.4.302
+
+Device Tree:
+- evert: Simplify FM2 packages
+- evert: Build MotCamera2 from prebuilt source
+- evert: symlink oem to system_ext
+- evert: Setup OEM as SYSTEM_EXT partition
+
+Common Tree:
+- msm8998-common: Add TurboPowerOverlays from stock
+- msm8998-common: Fix portrait mode on MotCamera
+- msm8998-common: Address libllvm denials
+- msm8998-common: Address libmcf/libmmcamera denials
+- msm8998-common: init: rm package cache on early boot
+- msm8998-common: Build vendor with squashfs
+- msm8998-common: symlink oem to system_ext
+- msm8998-common: Build SYSTEM_EXT and compress with squashfs
