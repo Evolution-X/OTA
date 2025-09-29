@@ -1,3 +1,14 @@
+===== 2025/06/28 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Common Tree:
+- exynos9610-common: Switch filesystem type to SquashFS
+- exynos9610-common: Return to prebuilt cbd
+- exynos9610-common: chown afc_disable properly
+- exynos9610-common: Migrate to lineagehealth IFastCharge
+
+
 ===== 2025/07/23 =====
 - July 2025 Security Patch
 
@@ -24,6 +35,5 @@ Common Tree:
 - Linux Kernel 4.14.113
 
 Common Tree:
-- exynos9610-common: Exclude some packages
 - exynos9610-common: init: rm package cache on early boot
-- exynos9610-common: overlay: Build TurboPowerOverlays from hardware/motorola
+- exynos9610-common: Add TurboPowerOverlays from stock

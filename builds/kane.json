@@ -4,23 +4,23 @@
       "maintainer": "Deivid Ignacio Parra (Deivid21)",
       "currently_maintained": true,
       "oem": "Motorola",
-      "device": "One Vision",
-      "filename": "EvolutionX-15.0-20250723-kane-10.7-Official.zip",
-      "download": "https://cdn.evolution-x.org/kane/15/EvolutionX-15.0-20250723-kane-10.7-Official.zip/download",
-      "timestamp": 1753241064,
-      "md5": "107536912689ca6bcfcdb560a39407cf",
-      "sha256": "621936ed9a7973e99b931b2e3f50b475e2f81270e64787417abf14fa8708162e",
-      "size": 1390481011,
-      "version": "10.7",
+      "device": "One Vision / P50",
+      "filename": "EvolutionX-15.0-20250928-kane-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/kane/15/EvolutionX-15.0-20250928-kane-10.9-Official.zip/download",
+      "timestamp": 1759103299,
+      "md5": "ac4f08067b214392d76e0a4f0fa78cbe",
+      "sha256": "3d3a5652336bc546a13f72402750f6e20e4bbb6b6495fd46e16a44835ea4cb4d",
+      "size": 1681541768,
+      "version": "10.9",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-one-vision-kane-20250519.4737413/",
       "firmware": "",
       "paypal": "https://www.paypal.me/Deivid21",
       "github": "Deivid21",
       "initial_installation_images": [
+        "vbmeta",
         "boot",
-        "dbto",
-        "vbmeta"
+        "dtbo"
       ],
       "extra_images": []
     }
