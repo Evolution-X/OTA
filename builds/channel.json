@@ -5,13 +5,13 @@
       "currently_maintained": true,
       "oem": "Motorola",
       "device": "Moto G7 Play",
-      "filename": "EvolutionX-15.0-20250607-channel-10.7-Official.zip",
-      "download": "https://cdn.evolution-x.org/channel/15/EvolutionX-15.0-20250607-channel-10.7-Official.zip/download",
-      "timestamp": 1749281534,
-      "md5": "ed2495e6692e2f2c2883531173bb1087",
-      "sha256": "73f932a64cb83699f7072fa13d6d2d1c26e24e014ac329b2ca40970f9e5dfdfa",
-      "size": 1687760000,
-      "version": "10.7",
+      "filename": "EvolutionX-15.0-20250928-channel-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/channel/15/EvolutionX-15.0-20250928-channel-10.9-Official.zip/download",
+      "timestamp": 1759097421,
+      "md5": "fcf28c63ccdefcfe96fd35a474dfd85d",
+      "sha256": "5860d08a1c3c3dfe00b068701abe0d34681708aca277a811b3dd31161ea0e086",
+      "size": 1724083053,
+      "version": "10.9",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g7-play-channel-20250519.4728034/",
       "firmware": "",
@@ -19,7 +19,7 @@
       "github": "Deivid21",
       "initial_installation_images": [
         "boot",
-        "dbto"
+        "dtbo"
       ],
       "extra_images": []
     }
