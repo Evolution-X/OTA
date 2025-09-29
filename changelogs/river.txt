@@ -1,24 +1,62 @@
+===== 2025/09/28 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Device Tree:
+- river: Drop sysfs LiveDisplay HAL
+- river: Migrate to AIDL LiveDisplay HAL
+- river: Set display density according to stock
+- river: Drop unused vibrator firmware
+- river: Use configs from proprietary vendor
+- river: Switch to SPDX copyright
+- river: Convert overlays to Android.bp
+- river: Rename rootdir to init and migrate to blueprints
+
+Common Tree:
+- sdm632-common: Tune dalvik-healp memory limits
+- sdm632-common: Drop libbt-vendor
+- sdm632-common: Import channel device sepolicy
+- sdm632-common: Move 32-bit liblog_vendor to common
+- sdm632-common: Switch to SPDX copyright
+- sdm632-common: overlay: Convert overlays to Android.bp
+- sdm632-common: Fix import path recovery files
+- sdm632-common: Rename rootdir to init and migrate to blueprints
+- sdm632-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+
+
 ===== 2025/06/07=====
-Bump to EvolutionX v10.7
-June 2025 Security Patch
-Import MotorolaSettingsProvider sepolices
-Set timer trigger for charging LED
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Common Tree:
+- sdm632-common: Set timer trigger for charging LED
+- sdm632-common: Import MotorolaSettingsProvider sepolices
+- sdm632-common: Remove duplicate prefix
+- sdm632-common: Do not use absolute value for ZRAM size
+- sdm632-common: Disable zRAM writeback
 
 
 ===== 2025/05/19 =====
-Bump to EvolutionX v10.6
-May 2025 Security Patch
-Linux Kernel 4.9.337
-Switch to EroFS
-Add system libmmcamera blobs.
-Add missing libchromatix/mmcamera blobs.
-Setup oem as system_ext partition.
-Add KCal support.
-Label additional MCF library as same_process_hal_file.
-Address libmcf/libmmcamera denials.
-Address libllvm denials.
-Overlay: Show Turbo Charging instead of charging rapidly.
-Build MotCamera2 from prebuilt source.
-Disable zRAM writeback.
-Do not use absolute value for ZRAM size.
-Init: rm package cache on early boot.
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.9.337
+
+Device Tree:
+- river: Disable ELF checks for system libmmcamera_faceproc
+- river: Fix system libmmcamera blobs names using MODULE_SUFFIX
+- river: setup oem as system_ext partition
+- river: Build MotCamera2 from prebuilt source
+- river: include libmcf-qc-fd-offline.so
+- river: Add missing libmmcamera blobs
+- river: Fix bootanimation resolution
+
+Common Tree:
+- sdm632-common: Add TurboPowerOverlays from stock
+- sdm632-common: init: rm package cache on early boot
+- sdm632-common: symlink oem to system_ext
+- sdm632-common: Build SYSTEM_EXT and compress with erofs
+- sdm632-common: rootdir: Switch filesystem type to EroFS
+- sdm632-common: Address libllvm denials
+- sdm632-common: Address libmcf/libmmcamera denials
+- sdm632-common: Label additional MCF library as same_process_hal_file
+- sdm632-common: Add kcal denials

@@ -1,25 +1,63 @@
+===== 2025/09/28 =====
+- EvolutionX v10.9
+- September 2025 Security Patch
+
+Device Tree:
+- channel: Drop sysfs LiveDisplay HAL
+- channel: Switch blobs to motorola/channel_retail/channel:10/QPYS30.52-22-14/d965a:user/release-keys
+- channel: Move sepolicy to common
+- channel: Set display density according to stock
+- channel: Use configs from proprietary vendor
+- channel: Switch to SPDX copyright
+- channel: Convert overlays to Android.bp
+- channel: Rename rootdir to init and migrate to blueprints
+
+Common Tree:
+- sdm632-common: Tune dalvik-healp memory limits
+- sdm632-common: Drop libbt-vendor
+- sdm632-common: Import channel device sepolicy
+- sdm632-common: Move 32-bit liblog_vendor to common
+- sdm632-common: Switch to SPDX copyright
+- sdm632-common: overlay: Convert overlays to Android.bp
+- sdm632-common: Fix import path recovery files
+- sdm632-common: Rename rootdir to init and migrate to blueprints
+- sdm632-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+
+
 ===== 2025/06/07=====
-Bump to EvolutionX v10.7
-June 2025 Security Patch
-Revert "Enable ro.config.low_ram"
-Migrate Lineage Health to soong_config_set
-Import MotorolaSettingsProvider sepolices
-Set timer trigger for charging LED
+- EvolutionX v10.7
+- June 2025 Security Patch
+
+Device Tree:
+- channel: Migrate Lineage Health to soong_config_set
+
+Common Tree:
+- sdm632-common: Set timer trigger for charging LED
+- sdm632-common: Import MotorolaSettingsProvider sepolices
+- sdm632-common: Remove duplicate prefix
+- sdm632-common: Do not use absolute value for ZRAM size
+- sdm632-common: Disable zRAM writeback
+
 
 ===== 2025/05/19 =====
-Bump to EvolutionX v10.6
-May 2025 Security Patch
-Linux Kernel 4.9.337
-Switch to EroFS
-Add system libmmcamera blobs.
-Add missing libchromatix/mmcamera blobs.
-Setup oem as system_ext partition.
-Add KCal support.
-Label additional MCF library as same_process_hal_file.
-Address libmcf/libmmcamera denials.
-Address libllvm denials.
-Build MotCamera2 from prebuilt source.
-Disable zRAM writeback.
-Do not use absolute value for ZRAM size.
-Init: rm package cache on early boot.
-Enable ro.config.low_ram
+- EvolutionX v10.6
+- May 2025 Security Patch
+- Linux Kernel 4.9.337
+
+Device Tree:
+- channel: Disable ELF checks for system libmmcamera_faceproc
+- channel: Fix system libmmcamera blobs names using MODULE_SUFFIX
+- channel: Add missing libchromatix/mmcamera blobs
+- channel: setup oem as system_ext partition
+- channel: Build MotCamera2 from prebuilt source
+
+Common Tree:
+- sdm632-common: Add TurboPowerOverlays from stock
+- sdm632-common: init: rm package cache on early boot
+- sdm632-common: symlink oem to system_ext
+- sdm632-common: Build SYSTEM_EXT and compress with erofs
+- sdm632-common: rootdir: Switch filesystem type to EroFS
+- sdm632-common: Address libllvm denials
+- sdm632-common: Address libmcf/libmmcamera denials
+- sdm632-common: Label additional MCF library as same_process_hal_file
+- sdm632-common: Add kcal denials
