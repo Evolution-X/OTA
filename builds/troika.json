@@ -5,22 +5,22 @@
       "currently_maintained": true,
       "oem": "Motorola",
       "device": "One Action",
-      "filename": "EvolutionX-15.0-20250723-troika-10.7-Official.zip",
-      "download": "https://cdn.evolution-x.org/troika/15/EvolutionX-15.0-20250723-troika-10.7-Official.zip/download",
-      "timestamp": 1753238672,
-      "md5": "0666c0a1e3f62e609504c740391b77f1",
-      "sha256": "81b52c97d2dab61574eaf1c57bfa5fc0e06d0e242dbff7ab4916656139ae8c37",
-      "size": 1390412781,
-      "version": "10.7",
+      "filename": "EvolutionX-15.0-20250928-troika-10.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/troika/15/EvolutionX-15.0-20250928-troika-10.9-Official.zip/download",
+      "timestamp": 1759100442,
+      "md5": "11f1adc40c3a1aebc5b11303528a39b4",
+      "sha256": "e05c39959433b391c6777882e4a2bee474f85cf1bb6f513d96e1fa72bcb89163",
+      "size": 1681498602,
+      "version": "10.9",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-one-action-troika-20250519.4737411/",
       "firmware": "",
       "paypal": "https://www.paypal.me/Deivid21",
       "github": "Deivid21",
       "initial_installation_images": [
+        "vbmeta",
         "boot",
-        "dbto",
-        "vbmeta"
+        "dtbo"
       ],
       "extra_images": []
     }
