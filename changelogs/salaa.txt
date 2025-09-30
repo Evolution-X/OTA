@@ -9,82 +9,58 @@ Notes:
 
 Device changes:
 ==============================
-- Initial official build
+- Spoof BuildFingerprint as Pixel Beta
+- Configure aux camera for Aperture
+- Enable 60 fps video in aperture
+- init: Fix trace error
+- STRONG integrity passes by default
+- Compiled with Stormbreaker v4.14.336 kernel
+- Misc. Fixes and Improvements
 
 Notable ROM changes:
 ==============================
-Add new audio from mustang BD3A.250721.001.B7
-Add new setup wizard props from mustang BD3A.250721.001.B7
-AnimationUtils: Fix inverted flag logic and wrong timebase fallback
-Evolver: Add toggle for QS tile haptic feedback
-Evolver: Drop AOD wallpaper toggle
-Evolver: Move switches to statusbar tuner
-Evolver: Re-enable Smart Pixels
-Evolver: September 2025 update
-Fix lock screen charging values
-Settings: power off verify
-SystemUI: Add flashlight strength
-SystemUI: add volume tile
-config: Set new audio from mustang BD3A.250721.001.B7 as default
-extras: Drop Accord
-gms: Update from mustang BD3A.250721.001.B7
-services: core: wfd: extend check for qualcomm wfd jar
-wm: add overlay-driven allowlist for fullscreen notch usage
-Add flashlight strength function to flashlight QS tile
-Add back support for UDFPS icons
-Bring back UDFPS animation
-Disable night light when showing udfps overlay
-Evolver: Add back batterybar
-Evolver: Add customization to select QS tile shape
-Evolver: Allow single tap on keyguard affordances
-Evolver: AOD wallpaper toggle
-Evolver: MonetSettings: Add back the Content theming style
-Evolver: MonetSettings: Bump max chroma factor to 150
-Smartspace: Return if text is null
-SystemUI: Add advanced filtering and customization
-SystemUI: Add haptics when using single tap for keyguard affordances
-SystemUI: Apply tile shapes to all tiles
-SystemUI: Do not disable slice provider for smartspace
-SystemUI: Do not switch between spacer and text for data usage in footer
-SystemUI: biometrics: Add missing calls to parent onFinishInflate
-SystemUI: clear keyguard indication background and icon on empty text
-screenrecord: Set entire screenrecord as the default option
-Avoid processRecord reuse during lmkd process killing
-Evolver: Add callChangeListener() for all changes in CustomSeekBarPreference
-Evolver: Restore QS layout settings
-Fix timeout issue when Google Calculator app remains occluded after power key double-click
-GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference
-GameSpace: Add slider increment guard for CustomSeekBarPreference
-GameSpace: Fix per-app header layout
-GameSpace: Update view for Quick start apps dialog
-Optimize the DateTimeView logic time consumption when updating the Ui main thread time
-PixelPropsUtils: Update fingerprints to September 2025 release
-Settings: Allow configuring haptics for wake gestures
-Settings: Allow using icon for ComposePreference
-Settings: Enable expressive theme layout for various activities
-Settings: Fixup compose preference layout
-Settings: Make ticks visible for Vibration intensity prefs
-Settings: add abstract fragment class to reduce fragments boilerplate
-Settings: add three finger swipe actions/screenshot combo intercept
-Settings: add SearchIndexProviderHolder interface
-Settings: biometrics features enhance
-Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable
-SettingsTheme: Fix preferences getting clipped in expressive theme
-SystemUI: Fix AOD and pulsing scrim color
-SystemUI: Fix split shade missing issue
-SystemUI: Force black tint when animating to/from AOD or PULSING
-SystemUI: QS expansion animation enhance
-SystemUI: Remove composite alpha from additional scrim on lockscreen
-SystemUI: notification row transparency switch
-SystemUI: UdfpsAnimation: Clear animation before setting new styleSystemUI: UdfpsController: Use keyguard update monitor callbacks for animations
-Telephony: Apply Material You to exposed settings
-Telephony: Migrate MainSwitchBar and Switch to Material3
-Telephony: Move from Switch to MaterialSwitch
-Telephony: RadioInfo: Handle system insets
-UdfpsHelper: Track brightness mirror to hide/show Udfps dim layer
-biometrics: Fix SenseProvider breaking biometric settings control
-core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
-extras: Drop unused clockfonts
-extras: fonts: Update from komodo BP3A.250905.014
-extras: Re-enable OOS icon pack
-overlay: SystemUI: Tune new biometric dialog UI
+ActiveServices: Add delayed service restart (DSR) due to app launch
+ActivityManagerService: Adjust delay on boot system compaction
+ActivityManagerService: Perform system compaction with GC
+ActivityManagerService: Rewrite release memory on screen wake
+CachedAppOptimizer: Fix persistent compact skipped
+CachedAppOptimizer: Initialize compactProfile and compactTime
+CachedAppOptimizer: Pageout File pages during system compaction
+CachedAppOptimizer: Set thread group to background
+DSR: Fix DSR when we have toast window
+Disable nfc by default on clean flash
+Evolver: Add toggle for spoof private key keybox validation
+Evolver: Extend targeted package killing to QSB, Photos and Snapchat
+Evolver: Replace system restart with targeted package killing for PIF updates
+Evolver: Status bar clock background chip styles
+Fix wrong pid in event_log when native crash
+KeyGestureController: Fix broken actions for Assist key press and long press
+Match legacy toast view with SystemUI
+Merge LineageOS recommended patches for September 2025
+Move SaveUi from bottom to center
+Pulse: Fix lockscreen visualizer not visible with media art enabled
+Remove ServiceRecord from restart list if restart is cancelled as unnecessary
+Settings: Fix UI glitch in DNS options
+Settings: Implement RefreshRateManager
+Settings: Implement reverse-engineered battery saver page
+Settings: Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
+Settings: Use the same color we use for background for statusbar
+Settings: gestures: allow hiding navigation ime bar
+Stop dreaming if global button is a wake key
+SystemUI: Add color resources for Volume Styles and Status bg chip
+SystemUI: Add more packages to IdleManager
+SystemUI: FPSInfoService: Revamp FPS counter
+SystemUI: NetworkTraffic: Respect layout direction for text
+SystemUI: Show icon of package associated with Toast
+SystemUI: Update idle manager whitelist
+core: Improve notification toast format and fix for apps < sdk 29
+flags: Enable move_transition_animation_layer
+overlay: Drop now playing customization
+overlay: Make an overlay for keybox (now passes strong by default)
+overlay: disable dreams feature
+overlay: frameworks: Suppress ASI system crash dialogs
+remove low ram check for voice recognition pre-grant
+services: Disallow max cached processes above 128
+services: Reduce memory release interval guard
+services: clean system_server heap memory on screen off
+services: optimize memory on device wake
