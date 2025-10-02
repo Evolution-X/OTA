@@ -1,3 +1,4 @@
+
 This is  Android 16 with September 2025 security patches
 
 Notes:
@@ -8,4 +9,7 @@ Notes:
 
 Device changes:
 ==============================
-No changes
+Switched to Xiaomi Dolby
+Switched to Scarlet kernel v3.0
+Update blobs to OS2.0.10.0.UMSMIXM
+Migrate QTI power HAL to soong_config_set
