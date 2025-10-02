@@ -1,10 +1,10 @@
-- Update build to version 11.2
-- 20/09/2025 update
-- Update latest security patch
-- Bring back Screen off udfps toggle in Evolver
-- Bring back Smart pixels feature (toggle + QS tile)
-- Fix UDFPS animations
-- Add config to disable 5g toggle in internet QS tile dialog
-- Add volume QS tile dialog
-- Add flashlight strength QS tile dialog
-- Move status bar icon toggles to status bar tuner
+- Update build to version 11.2.1
+- Move GameBar to system settings and add Icon as well
+- GameBar: Introduce Ram temp and Ram clock speed overlay
+- Refactor per app GameBar
+- Revamp per-app config UI with search and new layout
+- Add per-app refresh rate functionality
+- Introduce Display Satutaion Service and TileUtils
+- Adjust carrier text margin
+- Adjust status bar start padding
+- Increase keyguard indication above fingerprint
