@@ -5,20 +5,21 @@
       "currently_maintained": true,
       "oem": "Samsung",
       "device": "Galaxy A52s 5G",
-      "filename": "EvolutionX-16.0-20250920-a52sxq-11.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/a52sxq/16/EvolutionX-16.0-20250920-a52sxq-11.2-Official.zip/download",
-      "timestamp": 1758345143,
-      "md5": "ca2e7d41090f4f36608ddcdcbb17ebde",
-      "sha256": "113b59710d8a31bb1c805c9d9db3947f514a8b1ca8f2fb97c8ad6294caf8b356",
-      "size": 2510173283,
-      "version": "11.2",
+      "filename": "EvolutionX-16.0-20251002-a52sxq-11.2.1-Official.zip",
+      "download": "https://cdn.evolution-x.org/a52sxq/16/EvolutionX-16.0-20251002-a52sxq-11.2.1-Official.zip/download",
+      "timestamp": 1759383795,
+      "md5": "eff4488eae0c00ef017d76e7bd080224",
+      "sha256": "7f41c8ef0828447805cf47051b50b44cdd0d6d735ad7a04410a30ead4e51f954",
+      "size": 2505020918,
+      "version": "11.2.1",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-16-0-official-evolution-x-11-for-galaxy-a52s-5g.4755230/",
       "firmware": "",
       "paypal": "",
       "github": "anhdat1024",
       "initial_installation_images": [
-        "recovery"
+        "recovery",
+        "boot"
       ],
       "extra_images": []
     }
