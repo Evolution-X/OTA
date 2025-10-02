@@ -2,9 +2,10 @@ This is Android 16 Update with September 2025 Security Patches
 
 Notes:
 =======================
+- Flashlight Control bug has been removed.
 - LineageOS based sources
 - Dirty flash works but continue at your own risk.
 - Miui Camera has been switched to lag while changing modes and lenses. This is used since it's a better alternative instead of having photos not saved to gallery/photos.
 - Kernel synced with latest CIP changes
 - ViPER4AndroidFX is added (works alongside Dolby Atmos)
-- Play Integrity Fix in rom has been dropped. Use your own methods to fix the play integrity.
+- Play Integrity improvements done for achieving better verdict.
