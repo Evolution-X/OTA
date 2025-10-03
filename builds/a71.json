@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Manh Dung (intelgigabyte9299)",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy A71 4G",
+      "filename": "EvolutionX-16.0-20251002-a71-11.2.1-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/a71/16_vanilla/EvolutionX-16.0-20251002-a71-11.2.1-Vanilla-Official.zip/download",
+      "timestamp": 1759393479,
+      "md5": "f67123b3b0a834627b16200a31f2089c",
+      "sha256": "1751383037f1771a2b62df993b8de4d5d56afdc2bae4c1b903247d22dd9f36ac",
+      "size": 1689737344,
+      "version": "11.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-0-official-evolution-x-11-for-galaxy-a71-4g.4760559/",
+      "firmware": "",
+      "paypal": "https://paypal.me/intelgigabyte9299",
+      "github": "intelgigabyte",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}

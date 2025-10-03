@@ -1,0 +1,12 @@
+---------Rom---------
+- Update to Build 9/10/2025
+- First Version Vanilla For Galaxy A71 4G
+- Add GameBar
+- Add Enhanced HDR brightness
+- Add Display Saturation Feature
+- Add Charging Bypass 
+--------Kernel--------
+- Upstream Kernel to 4.14.356
+- Speedup mremap
+- Enabled userfaultfd for more efficient android garbage collector
+- Removed speculative page fault as it doesn't necessarily speed up app launching
