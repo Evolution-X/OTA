@@ -1,36 +1,21 @@
-This is Android 15 QPR2 with June 2025 security patches
+This is Android 15 QPR2 with september 2025 security patches
 
 Notes:
  ==============================
  - LineageOS-based source. Signed build.
  - Clean flash is required if coming from March 2024 or older builds.
- - Dirty flash supported (tested from 10.5)
- - Play Integrity spoofing is back with keybox support
+ - Dirty flash supported (tested from 10.7)
 
 Device changes:
  ==============================
-- Switched to userdebug build (No clue yet why bluetooth broke on user build)
-- Dropped MiuiCamera till further notice, to many bugs that need to be fixed claimed by users
-- Included Dolby Atmos (Removed viper ofcourse and all credits to @onelots)
-- Included Dirac
-- Clear speaker improvement
+- Switched to userdebug build as we are following Lineage charter
+- MiuiCamera working so far (Not vlog mode)
+- Included Dolby Atmos 
 - Switched to mini gapps
+- No more bass distortion
+- NFC functional
 
 Notable ROM changes:
  ==============================
-[Expressive Design] expand collapsing toolbar by defaultMore actions
-[Expressive Design] fix ActionButtons click listener application
-[Expressive Design] fix battery usage layout
-Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
-Evolver: Add switch to spoof QSB
-Evolver: adjustments for material expressive design
-Merge June 2025 security patches
-ProcessList: catch exceptions when unfreezing starting process
-ProcessList: fix start process failure for frozen system apps
-Settings: Use M3 slider for discrete seekbars
-SettingsLib: Animate the UsageProgressBarPreference
-SettingsLib: Redesign seekbar according to M3 slider
-SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
-SettingsLib: fix expressive design
-display: allow changing HDR brightness intensity
-version: Uprev to 10.7
+version: Uprev to 10.9
+security: September patch
