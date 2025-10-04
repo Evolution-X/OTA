@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "nyxalune",
+      "currently_maintained": true,
+      "oem": "Nothing",
+      "device": "Phone (1)",
+      "filename": "EvolutionX-16.0-20251003-Spacewar-11.2.1-Official.zip",
+      "download": "https://cdn.evolution-x.org/Spacewar/16/EvolutionX-16.0-20251003-Spacewar-11.2.1-Official.zip/download",
+      "timestamp": 1759527113,
+      "md5": "027b5294319b0947a15857a321b24717",
+      "sha256": "2c31f7619a0c0b2f2f18363a51c5a8ad3485c5da9947da16a9fea5d0157d3509",
+      "size": 2916281517,
+      "version": "11.2.1",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "https://github.com/spike0en/nothing_archive",
+      "paypal": "",
+      "github": "nyxalune",
+      "initial_installation_images": [
+        "boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}

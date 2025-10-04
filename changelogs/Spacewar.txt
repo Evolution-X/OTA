@@ -1,0 +1,3 @@
+Initial release.
+Improved overall UI smoothness.
+P.S: If youre coming from another Custom ROM you should first flash the latest stock firmware.
