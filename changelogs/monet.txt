@@ -1,0 +1,20 @@
+This is Android 15 QPR2 with september 2025 security patches
+
+Notes:
+ ==============================
+ - LineageOS-based source. Signed build.
+ - Clean flash is required if coming from March 2024 or older builds.
+ - Dirty flash supported (tested from 10.8)
+
+Device changes:
+ ==============================
+- Initial Vanilla image
+- Switched to userdebug build as we are following Lineage charter
+- MiuiCamera need some work for monet, dumped for now
+- Deleted broken Dolby Atmos
+- Switched to mini gapps
+
+Notable ROM changes:
+ ==============================
+version: Uprev to 10.9
+security: September patch

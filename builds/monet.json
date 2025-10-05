@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 10 Lite",
+      "filename": "EvolutionX-15.0-20251005-monet-10.9-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/monet/15_vanilla/EvolutionX-15.0-20251005-monet-10.9-Vanilla-Official.zip/download",
+      "timestamp": 1759665030,
+      "md5": "98c10d4dc2be56a82a49371df3370f21",
+      "sha256": "21ad44808ee967f0a28e4d726f0de31ae5f4e9bb53bff9bdc2d7ecf43fc14df6",
+      "size": 1965492953,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-10-lite.4746943/",
+      "firmware": "",
+      "paypal": "",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
