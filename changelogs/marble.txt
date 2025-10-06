@@ -6,81 +6,38 @@ Notes:
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.240-KSU-Next-1.0.9-susfs-1.5.9.zip/download) for root.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.240-KSU-Next-v1.1.1-susfs-1.5.10.zip/download) for root.
 - Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-BLE: Max GATT connections as a central are increased to 10
-BT-Intf: Enable LEAudio bydefault for all Android-V upgrades.
-BT-Intf: Enable LEAudio swb bydefault for all Android-V upgrades.
-BT-interfaces: Don't enable ASHA for all chipsets.
-BT: Enable Battery Service profile (BAS)
-BT: Enable PBAP SIM feature
-BT: Move SAP server property to system ext
-Bluetooth: Changing vendor ID as QTI for Device ID Profile
-Bluetooth: Disable HID Device Profile
-CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX
-Don't explicitly build 64bit version of audio
-Enable AptX voice property
-Enable ELF checks for audio blobs
-Enable LE audio offload support property
-Enable bluetooth asha central profile from vendor.prop
-Enable bluetooth avrcp controller profile
-Enable bluetooth sap server profile
-Fix RAM management issues 
-Fix wrong directory for android.hardware.se.omapi.ese permission file
-HFP: AG: Enable AptX voice power management prop
-Import missing permission for QCC app
-Le-Audio: Enable C-I-S->SCO sync for Android-V targets.
-Remove vendor/lineage device framework matrix inclusion
-Set 120Hz frame rate multiple threshold
-Set Class of device from property
-Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
-audio: Enable get_module_version for hotword sound model config
-configs: taro: remove direct flag for VOIP RX
-fix auto brightness issues
-init: Give proper permissions for /dev/diag
-overlay: Bring back QTI UIM GBA package
-taro: Move soc model property to qcv utils
-taro: Set SoC manufacturer and model properties
-taro: update API level to 32
+Use 8Gb dalvik heap size config
+libinit: Drop 16gb dalvik heap config
+parts: Drop per-app refresh rate (moved to Settings > Display > Refresh rate)
 
 Notable ROM changes:
 ==============================
-ActiveServices: Add delayed service restart (DSR) due to app launch
-ActivityManagerService: Adjust delay on boot system compaction
-ActivityManagerService: Perform system compaction with GC
-ActivityManagerService: Rewrite release memory on screen wake
-CachedAppOptimizer: Fix persistent compact skipped
-CachedAppOptimizer: Initialize compactProfile and compactTime
-CachedAppOptimizer: Pageout File pages during system compaction
-CachedAppOptimizer: Set thread group to background
-DSR: Fix DSR when we have toast window
-Disable nfc by default on clean flash
-Evolver: Add toggle for spoof private key keybox validation
-Evolver: Extend targeted package killing to QSB, Photos and Snapchat
-Evolver: Replace system restart with targeted package killing for PIF updates
-Fix wrong pid in event_log when native crash
-Merge LineageOS recommended patches for September 2025
-Move SaveUi from bottom to center
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-Settings: Fix UI glitch in DNS options
-Settings: Implement RefreshRateManager
-Settings: Implement reverse-engineered battery saver page
-Settings: Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
-Settings: Use the same color we use for background for statusbar
-Settings: gestures: allow hiding navigation ime bar
-Stop dreaming if global button is a wake key
-SystemUI: Add more packages to IdleManager
-SystemUI: Update idle manager whitelist
-SystemUI: Update idle manager whitelist
-overlay: Drop now playing customization
-overlay: Make an overlay for keybox (now passes strong by default)
-overlay: disable dreams feature
-overlay: frameworks: Suppress ASI system crash dialogs
-services: Disallow max cached processes above 128
-services: Reduce memory release interval guard
-services: clean system_server heap memory on screen off
-services: optimize memory on device wake
+Fix ConcurrentModificationException in LocaleStore
+KeyGestureController: Fix broken actions for Assist key press and long press
+Match legacy toast view with SystemUI
+Pulse: Add fading block renderer
+Pulse: Use visibility guard for draw and engine process
+ScreenshotController: Clean up resources when dismissed
+ScreenshotController: Play haptic feedback even on normal ringer mode
+Settings: Allow disabling refresh rate lowering in battery saver
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+SettingsLib: add alwaysExpand to TopIntroPreference
+SettingsLib: fix RestrictedPreference not updating properly
+SystemUI: Show icon of package associated with Toast
+SystemUI: Utilities: Update for media control
+Update translations
+Updater: Adjust menu_auto_updates_check to prevent truncation
+Updater: Automatically check for updates when connectivity is restored
+Updater: Catch exceptions when enabling performance mode
+Updater: Replace manual refresh with auto refresh
+Updater: Set UPDATE_RECOVERY_PROPERTY explicitly to false if hidden
+core: Improve notification toast format and fix for apps < sdk 29
+release: Enable move_transition_animation_layer
+remove low ram check for voice recognition pre-grant
+system: Postpone NetworkWatchlistService scan during boot
