@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "currently_maintained": true,
+      "oem": "OnePlus",
+      "device": "8",
+      "filename": "EvolutionX-16.0-20251006-instantnoodle-11.2.1-Official.zip",
+      "download": "https://cdn.evolution-x.org/instantnoodle/16/EvolutionX-16.0-20251006-instantnoodle-11.2.1-Official.zip/download",
+      "timestamp": 1759768362,
+      "md5": "2e2c04bd9035c7179c15f6891cb9dee8",
+      "sha256": "e8c65a3df49717bef6336c5f035fe11dc8780952817e671ec4688dc514345b18",
+      "size": 3061671973,
+      "version": "11.2.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-official-evolution-x-10-3-02-15-25.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "github": "manidweep",
+      "initial_installation_images": [
+        "recovery",
+        "vbmeta",
+        "dtbo",
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
