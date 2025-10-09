@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "Apelete Seketeli",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 4a",
+      "filename": "EvolutionX-15.0-20251006-sunfish-10.9-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/sunfish/15_vanilla/EvolutionX-15.0-20251006-sunfish-10.9-Vanilla-Official.zip/download",
+      "timestamp": 1759752437,
+      "md5": "22445cf6c8283ad7be147b9f21620325",
+      "sha256": "f230f0757937e0918ece0a6bf32b36c3a0d0e98343de585e88658b0d43d49a81",
+      "size": 1275967119,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-official-evolution-x-for-pixel-4a-sunfish.4761206",
+      "firmware": "",
+      "paypal": "https://paypal.me/aseketeli",
+      "github": "apelete",
+      "initial_installation_images": ["boot"],
+      "extra_images": []
+    }
+  ]
+}
