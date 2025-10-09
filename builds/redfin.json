@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Apelete Seketeli",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 5",
+      "filename": "EvolutionX-15.0-20251006-redfin-10.9-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/redfin/15_vanilla/EvolutionX-15.0-20251006-redfin-10.9-Vanilla-Official.zip/download",
+      "timestamp": 1759779525,
+      "md5": "b460ea131dfd14dd176c29a710e563aa",
+      "sha256": "22331cf67f9b087c6933f803a1c867259cab81145c5e399c5839725e5ca63a44",
+      "size": 1354730737,
+      "version": "10.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-for-pixel-5-redfin.4760305",
+      "firmware": "",
+      "paypal": "https://paypal.me/aseketeli",
+      "github": "apelete",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"],
+      "extra_images": []
+    }
+  ]
+}
