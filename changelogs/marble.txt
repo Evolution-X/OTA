@@ -1,4 +1,4 @@
-This is Android 16 with September 2025 security patches
+This is Android 16 with October 2025 security patches
 
 Notes:
 ==============================
@@ -12,32 +12,17 @@ Notes:
 
 Device changes:
 ==============================
-Use 8Gb dalvik heap size config
-libinit: Drop 16gb dalvik heap config
-parts: Drop per-app refresh rate (moved to Settings > Display > Refresh rate)
+Standardize qca6490 WiFi config filename and symlink names
+fix a fatal dolby hal denial
+remove unused WiFi symlink
+rootdir: Remove duplicate definition of service 'time_daemon'
 
 Notable ROM changes:
 ==============================
-Fix ConcurrentModificationException in LocaleStore
-KeyGestureController: Fix broken actions for Assist key press and long press
-Match legacy toast view with SystemUI
-Pulse: Add fading block renderer
-Pulse: Use visibility guard for draw and engine process
-ScreenshotController: Clean up resources when dismissed
-ScreenshotController: Play haptic feedback even on normal ringer mode
-Settings: Allow disabling refresh rate lowering in battery saver
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
-SettingsLib: add alwaysExpand to TopIntroPreference
-SettingsLib: fix RestrictedPreference not updating properly
-SystemUI: Show icon of package associated with Toast
-SystemUI: Utilities: Update for media control
-Update translations
-Updater: Adjust menu_auto_updates_check to prevent truncation
-Updater: Automatically check for updates when connectivity is restored
-Updater: Catch exceptions when enabling performance mode
-Updater: Replace manual refresh with auto refresh
-Updater: Set UPDATE_RECOVERY_PROPERTY explicitly to false if hidden
-core: Improve notification toast format and fix for apps < sdk 29
-release: Enable move_transition_animation_layer
-remove low ram check for voice recognition pre-grant
-system: Postpone NetworkWatchlistService scan during boot
+Merge October 2025 security patches
+Settings: Fix gpu renderer options unsetting hwui renderer
+SystemUI: ScrimUtils: Fix initial value for keyguard showing
+apns: Update for CTM(Macau)
+libs: intercepting hwui renderer property read
+statsd: Disable native stats collection service
+version: Uprev to 11.3
