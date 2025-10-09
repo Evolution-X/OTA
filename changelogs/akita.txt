@@ -1,53 +1,30 @@
-Initial Android 16 with September 2025 security patches!
+Initial Android 16 with October 2025 security patches!
 
 Device Changes:
+==============================
 
-August Firmware
-
-Rom Changes:
-
-ActiveServices: Add delayed service restart (DSR) due to app launch
-ActivityManagerService: Adjust delay on boot system compaction
-ActivityManagerService: Perform system compaction with GC
-ActivityManagerService: Rewrite release memory on screen wake
-CachedAppOptimizer: Fix persistent compact skipped
-CachedAppOptimizer: Initialize compactProfile and compactTime
-CachedAppOptimizer: Pageout File pages during system compaction
-CachedAppOptimizer: Set thread group to background
-DSR: Fix DSR when we have toast window
-Disable nfc by default on clean flash
-Evolver: Add toggle for spoof private key keybox validation
-Evolver: Extend targeted package killing to QSB, Photos and Snapchat
-Evolver: Replace system restart with targeted package killing for PIF updates
-Evolver: Status bar clock background chip styles
-Fix wrong pid in event_log when native crash
+Notable ROM changes:
+==============================
+Fix ConcurrentModificationException in LocaleStore
 KeyGestureController: Fix broken actions for Assist key press and long press
 Match legacy toast view with SystemUI
-Merge LineageOS recommended patches for September 2025
-Move SaveUi from bottom to center
-Pulse: Fix lockscreen visualizer not visible with media art enabled
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-Settings: Fix UI glitch in DNS options
-Settings: Implement RefreshRateManager
-Settings: Implement reverse-engineered battery saver page
-Settings: Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
-Settings: Use the same color we use for background for statusbar
-Settings: gestures: allow hiding navigation ime bar
-Stop dreaming if global button is a wake key
-SystemUI: Add color resources for Volume Styles and Status bg chip
-SystemUI: Add more packages to IdleManager
-SystemUI: FPSInfoService: Revamp FPS counter
-SystemUI: NetworkTraffic: Respect layout direction for text
+Pulse: Add fading block renderer
+Pulse: Use visibility guard for draw and engine process
+ScreenshotController: Clean up resources when dismissed
+ScreenshotController: Play haptic feedback even on normal ringer mode
+Settings: Allow disabling refresh rate lowering in battery saver
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+SettingsLib: add alwaysExpand to TopIntroPreference
+SettingsLib: fix RestrictedPreference not updating properly
 SystemUI: Show icon of package associated with Toast
-SystemUI: Update idle manager whitelist
+SystemUI: Utilities: Update for media control
+Update translations
+Updater: Adjust menu_auto_updates_check to prevent truncation
+Updater: Automatically check for updates when connectivity is restored
+Updater: Catch exceptions when enabling performance mode
+Updater: Replace manual refresh with auto refresh
+Updater: Set UPDATE_RECOVERY_PROPERTY explicitly to false if hidden
 core: Improve notification toast format and fix for apps < sdk 29
-flags: Enable move_transition_animation_layer
-overlay: Drop now playing customization
-overlay: Make an overlay for keybox (now passes strong by default)
-overlay: disable dreams feature
-overlay: frameworks: Suppress ASI system crash dialogs
+release: Enable move_transition_animation_layer
 remove low ram check for voice recognition pre-grant
-services: Disallow max cached processes above 128
-services: Reduce memory release interval guard
-services: clean system_server heap memory on screen off
-services: optimize memory on device wake
+system: Postpone NetworkWatchlistService scan during boot
