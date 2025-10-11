@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel Tablet",
+      "filename": "EvolutionX-16.0-20251009-tangorpro-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/tangorpro/16/EvolutionX-16.0-20251009-tangorpro-11.3-Official.zip/download",
+      "timestamp": 1760064232,
+      "md5": "1a4005cb681ca04adf0d5a0d658d968c",
+      "sha256": "fb13d4ce8e6cc76bb968c038dd2b18411f35dc399be7e5d8737602700cf8654b",
+      "size": 2820335858,
+      "version": "11.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r14-official-evolution-x-10-3-02-06-25.4717512/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "github": "AnierinBliss",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
