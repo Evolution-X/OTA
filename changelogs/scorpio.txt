@@ -1,27 +1,18 @@
-This is Android 15 with June 2025 security patches
-This is also the first release for this device
-Device changes:
-=======================
-Improved Stability
-Fixed camera
-Added Dolby
-Retrofitted so we get more space for updates
-Improved smoothness
+This is Android 15 QPR2 with September 2025 security patches (Finally !!!)
 
-ROM changes :
-=======================
-[Expressive Design] expand collapsing toolbar by default
-[Expressive Design] fix ActionButtons click listener application
-[Expressive Design] fix battery usage layout
-Evolver: Add Expressive Design switch (force stop Settings app to apply changes)
-Evolver: Add switch to spoof QSB
-Evolver: adjustments for material expressive designAdd commentMore actions
-Merge June 2025 security patches
-ProcessList: catch exceptions when unfreezing starting process
-Settings: Use M3 slider for discrete seekbarsAdd commentMore actions
-SettingsLib: Animate the UsageProgressBarPreference
-SettingsLib: Redesign seekbar according to M3 slider
-SettingsLib: UsageProgressBarPreference: Fix multiple NPEs
-SettingsLib: fix expressive design
-display: allow changing HDR brightness intensity
-version: Uprev to 10.7
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Passing strong by default
+
+Device changes:
+==============================
+- Fixed Youtube and Youtube music crashing
+- Various sources changes (it's been too long haha, I can't exactly remember)
+
+Known issues:
+==============================
+- 3 buttons layout doing stupid things : do not turn it on !
+
+So sorry for the delay, a lot happened.
+Feel free to join https://discord.onelots.fr to be kept up to date.
