@@ -11,57 +11,43 @@ Notes:
 
 Device changes:
 ==============================
-- Spoof BuildFingerprint as Pixel Beta
-- Configure aux camera for Aperture
-- Enable 60 fps video in aperture
-- STRONG integrity passes by default
+- Synced with latest v11.3 changes
+- October, 2025 ASB
 - Compiled with Stormbreaker v4.14.336 kernel
 - Misc. Fixes and Improvements
 
 Notable ROM changes:
 ==============================
-ActiveServices: Add delayed service restart (DSR) due to app launch
-ActivityManagerService: Adjust delay on boot system compaction
-ActivityManagerService: Perform system compaction with GC
-ActivityManagerService: Rewrite release memory on screen wake
-CachedAppOptimizer: Fix persistent compact skipped
-CachedAppOptimizer: Initialize compactProfile and compactTime
-CachedAppOptimizer: Pageout File pages during system compaction
-CachedAppOptimizer: Set thread group to background
-DSR: Fix DSR when we have toast window
-Disable nfc by default on clean flash
-Evolver: Add toggle for spoof private key keybox validation
-Evolver: Extend targeted package killing to QSB, Photos and Snapchat
-Evolver: Replace system restart with targeted package killing for PIF updates
-Evolver: Status bar clock background chip styles
-Fix wrong pid in event_log when native crash
-KeyGestureController: Fix broken actions for Assist key press and long press
-Match legacy toast view with SystemUI
-Merge LineageOS recommended patches for September 2025
-Move SaveUi from bottom to center
-Pulse: Fix lockscreen visualizer not visible with media art enabled
-Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-Settings: Fix UI glitch in DNS options
-Settings: Implement RefreshRateManager
-Settings: Implement reverse-engineered battery saver page
-Settings: Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
-Settings: Use the same color we use for background for statusbar
-Settings: gestures: allow hiding navigation ime bar
-Stop dreaming if global button is a wake key
-SystemUI: Add color resources for Volume Styles and Status bg chip
-SystemUI: Add more packages to IdleManager
-SystemUI: FPSInfoService: Revamp FPS counter
-SystemUI: NetworkTraffic: Respect layout direction for text
-SystemUI: Show icon of package associated with Toast
-SystemUI: Update idle manager whitelist
-core: Improve notification toast format and fix for apps < sdk 29
-flags: Enable move_transition_animation_layer
-overlay: Drop now playing customization
-overlay: Make an overlay for keybox (now passes strong by default)
-overlay: disable dreams feature
-overlay: frameworks: Suppress ASI system crash dialogs
-remove low ram check for voice recognition pre-grant
-services: Disallow max cached processes above 128
-services: Reduce memory release interval guard
-services: clean system_server heap memory on screen off
-services: optimize memory on device wake
+Evolver: Add Dynamic charging ripple switch 
+Evolver: Bring back wallpaper blur and dim feature
+LMOFreeform: Fix NPE in service manager
+LMOFreeform: Fix app drawer and edit icon disappearing with low bg transparency
+LMOFreeform: Fix back handling on customization page
+LMOFreeform: Refactor FreeformWindow to use nullable types and improve initialization checksShow description for d65928e
+LMOFreeform: Remove hardcoded strings from customization page
+PixelPropsUtils: Update fingerprints to October 2025 release
+Remove commit causing BT disconnection issues
+Remove commit causing memory leaks in launcher
+Settings: Fix stray divider in connected devices screen
+Settings: Notification bundles: remove empty drawable
+Settings: Notification summaries: remove empty drawable
+Settings: display: allow changing HDR brightness intensity
+Settings: store cloned profile user id
+Spoof encrytion prop as encrypted
+SystemUI: Add/remove notification listener enhancement
+SystemUI: Improve edge light feature
+SystemUI: Improve guarding header image
+SystemUI: Improve pulse on new tracks feature
+WallpaperUtils: Switch to PNG compression for faster loading
+config: Load boot image profile from frameworks/base
+config/common: Disable dexpreopt debug info on user builds
+config/common: Reduce system server verbosity
+config/common: preopt extracted apk always
+core: add audio policy to fix AOSP audio cpu usage
+fonts: add missing blacklist checks | font weight adjustment fix
+sepolicy: Address denial for webview crash
+sepolicy: Allow vending to read spoof xml
+skip mediametrics when statsd is not available
+task_profiles: Use foreground cpuset for SurfaceFlinger
+vendor: Do not clone default AudioFX app
+vendor: component-overrides: Force disable google settings intelligence injects
