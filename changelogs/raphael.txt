@@ -4,46 +4,16 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app. Also includes SUSFS support.
+- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
 
 Device changes:
 ==============================
-Update to latest Soviet kernel
-switch to hollywood UP1A.231005.007.A1 adreno blobs
+Fix camera issues (downgrade adreno blobs)
+libinit: Drop fingerprint override
 
 Notable ROM changes:
 ==============================
-Evolver: Add Dynamic charging ripple switch 
-Evolver: Bring back wallpaper blur and dim feature
-LMOFreeform: Fix NPE in service manager
-LMOFreeform: Fix app drawer and edit icon disappearing with low bg transparency
-LMOFreeform: Fix back handling on customization page
-LMOFreeform: Refactor FreeformWindow to use nullable types and improve initialization checksShow description for d65928e
-LMOFreeform: Remove hardcoded strings from customization page
-PixelPropsUtils: Update fingerprints to October 2025 release
-Remove commit causing BT disconnection issues
-Remove commit causing FP issues with cloned apps/private space
-Remove commit causing memory leaks in launcher
-Settings: Fix stray divider in connected devices screen
-Settings: Notification bundles: remove empty drawable
-Settings: Notification summaries: remove empty drawable
-Settings: display: allow changing HDR brightness intensity
-Settings: store cloned profile user id
-Spoof encrytion prop as encrypted
-SystemUI: Add/remove notification listener enhancement
-SystemUI: Improve edge light feature
-SystemUI: Improve guarding header image
-SystemUI: Improve pulse on new tracks feature
-WallpaperUtils: Switch to PNG compression for faster loading
-config: Load boot image profile from frameworks/base
-config/common: Disable dexpreopt debug info on user builds
-config/common: Reduce system server verbosity
-config/common: preopt extracted apk always
-core: add audio policy to fix AOSP audio cpu usage
-fonts: add missing blacklist checks | font weight adjustment fix
-sepolicy: Address denial for webview crash
-sepolicy: Allow vending to read spoof xml
-skip mediametrics when statsd is not available
-task_profiles: Use foreground cpuset for SurfaceFlinger
-vendor: Do not clone default AudioFX app
-vendor: component-overrides: Force disable google settings intelligence injects
+Introduce Shake Gestures
+SystemUI: Fix lockscreen large clock alignment
+SystemUI: Revamp Network Traffic
+TwilightService: fix onAlarm
