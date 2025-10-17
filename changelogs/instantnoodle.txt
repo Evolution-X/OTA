@@ -1,4 +1,4 @@
-This is Android 16 with September 2025 security patches
+This is Android 16 with October 2025 security patches
 
 Notes:
 ==============================
@@ -10,37 +10,45 @@ Notes:
 
 Device changes:
 ==============================
-Initial Build
+Fix Freezing Issues
 
 Notable ROM changes:
 ==============================
-Add dynamic font feature
-KeyGestureController: Fix broken actions for Assist key press and long press
-Match legacy toast view with SystemUI
-Pulse: Add fading block renderer
-Pulse: Use visibility guard for draw and engine process
-ScreenshotController: Clean up resources when dismissed
-ScreenshotController: Play haptic feedback even on normal ringer mode
-Settings: Allow disabling refresh rate lowering in battery saver
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
-SettingsLib: add alwaysExpand to TopIntroPreference
-SettingsLib: fix RestrictedPreference not updating properly
-SystemUI: NetworkTraffic: Avoid unnecessary setText calls
-SystemUI: NetworkTraffic: Clear stale speeds on network removal
-SystemUI: NetworkTraffic: De-duplicate and null-guard interfaces
-SystemUI: NetworkTraffic: Do not allocate new DecimalFormat every tick
-SystemUI: NetworkTraffic: Extend network callback to cover corner cases
-SystemUI: NetworkTraffic: Make layout more tight
-SystemUI: NetworkTraffic: Tint icons with DrawableCompat
+Introduce Shake Gestures
+SystemUI: Fix lockscreen large clock alignment
 SystemUI: Revamp Network Traffic
-SystemUI: Show icon of package associated with Toast
-SystemUI: Utilities: Update for media control
-Update translations
-Updater: Adjust menu_auto_updates_check to prevent truncation
-Updater: Automatically check for updates when connectivity is restored
-Updater: Catch exceptions when enabling performance mode
-Updater: Replace manual refresh with auto refresh
-Updater: Set UPDATE_RECOVERY_PROPERTY explicitly to false if hidden
-core: Improve notification toast format and fix for apps < sdk 29
-release: Enable move_transition_animation_layer
-remove low ram check for voice recognition pre-grant
+TwilightService: fix onAlarm
+Evolver: Add Dynamic charging ripple switch 
+Evolver: Bring back wallpaper blur and dim feature
+LMOFreeform: Fix NPE in service manager
+LMOFreeform: Fix app drawer and edit icon disappearing with low bg transparency
+LMOFreeform: Fix back handling on customization page
+LMOFreeform: Refactor FreeformWindow to use nullable types and improve initialization checksShow description for d65928e
+LMOFreeform: Remove hardcoded strings from customization page
+PixelPropsUtils: Update fingerprints to October 2025 release
+Remove commit causing BT disconnection issues
+Remove commit causing FP issues with cloned apps/private space
+Remove commit causing memory leaks in launcher
+Settings: Fix stray divider in connected devices screen
+Settings: Notification bundles: remove empty drawable
+Settings: Notification summaries: remove empty drawable
+Settings: display: allow changing HDR brightness intensity
+Settings: store cloned profile user id
+Spoof encrytion prop as encrypted
+SystemUI: Add/remove notification listener enhancement
+SystemUI: Improve edge light feature
+SystemUI: Improve guarding header image
+SystemUI: Improve pulse on new tracks feature
+WallpaperUtils: Switch to PNG compression for faster loading
+config: Load boot image profile from frameworks/base
+config/common: Disable dexpreopt debug info on user builds
+config/common: Reduce system server verbosity
+config/common: preopt extracted apk always
+core: add audio policy to fix AOSP audio cpu usage
+fonts: add missing blacklist checks | font weight adjustment fix
+sepolicy: Address denial for webview crash
+sepolicy: Allow vending to read spoof xml
+skip mediametrics when statsd is not available
+task_profiles: Use foreground cpuset for SurfaceFlinger
+vendor: Do not clone default AudioFX app
+vendor: component-overrides: Force disable google settings intelligence injects
