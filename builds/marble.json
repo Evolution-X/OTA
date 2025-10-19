@@ -1,8 +1,8 @@
 {
   "response": [
     {
-      "maintainer": "Joey Huab",
-      "currently_maintained": true,
+      "maintainer": "",
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Poco F5 / Redmi Note 12 Turbo",
       "filename": "EvolutionX-16.0-20251013-marble-11.3-Official.zip",
@@ -15,8 +15,8 @@
       "buildtype": "user",
       "forum": "https://xdaforums.com/t/rom-15-0-qpr1-marble-official-evolution-x-12-26-24.4709959",
       "firmware": "https://xmfirmwareupdater.com/firmware/marble",
-      "paypal": "https://linktr.ee/joeyhuab",
-      "github": "joeyhuab",
+      "paypal": "",
+      "github": "",
       "initial_installation_images": [
         "boot",
         "dtbo",
