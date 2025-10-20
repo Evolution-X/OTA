@@ -1,0 +1,19 @@
+This is EvolutionX 10.10.
+Release date: 20 October 2025
+In there, you will find Android 15 QPR2 with October security patches.
+
+This versions is NOT intended for a long-term support.
+It has been requested by some users to have a stable version of Evo before switching to A16.
+
+Known bugs : 
+- volte (will eventually fixed later)
+- gyroscope
+
+Basic informations :
+- strong passes by default
+- wallet and gpay don't work
+- A lot of work has been done to enhance smoothness by @claxten10.
+- credit to @claxten10 for his trees.
+
+Join my discord for further informations !
+https://discord.onelots.fr
