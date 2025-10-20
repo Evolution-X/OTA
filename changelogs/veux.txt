@@ -1,0 +1,4 @@
+• Initial A16 Release
+• Altho it can be dirty flashed, prefer clean flashing to avoid any weird bug
+• Fixed huge battery drain
+• Minor performance enhancements
