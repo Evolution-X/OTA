@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 11S / Poco M4",
+      "filename": "EvolutionX-15.0-20251020-fleur-10.10-Official.zip",
+      "download": "https://cdn.evolution-x.org/fleur/15/EvolutionX-15.0-20251020-fleur-10.10-Official.zip/download",
+      "timestamp": 1760919293,
+      "md5": "3ac65c9d4cad1bd2645de0fae74ef31e",
+      "sha256": "8b7f84b8c4cd64cc61c8c090898465f925470fe2c54e624958ebd6389db78e43",
+      "size": 1906852810,
+      "version": "10.10",
+      "buildtype": "userdebug",
+      "forum": "https://discord.onelots.fr",
+      "firmware": "",
+      "paypal": "https://www.paypal.com/paypalme/0nelots",
+      "github": "Onelots",
+      "initial_installation_images": [
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
