@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Joey Huab",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Poco F5 / Redmi Note 12 Turbo",
       "filename": "EvolutionX-15.0-20250609-marble-10.7-Official.zip",

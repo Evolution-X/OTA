@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Joey Huab",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 9T Pro / Redmi K20 Pro",
       "filename": "EvolutionX-15.0-20250609-raphael-10.7-Official.zip",
