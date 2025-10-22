@@ -6,53 +6,45 @@ Notes:
 - LineageOS-based source. Signed build.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.240-KSU-Next-v1.1.1-susfs-1.5.10.zip/download) for root.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.245-KSU-Next-v1.1.1-susfs-1.5.12.zip/download) for root.
 - Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Build sensorservice 1.0 HAL
-Disable FRP
-Update blobs from OS2.0.209.0.VMRMIXM
-disable verbose camera logs
-miuicamera: Update patches and blobs to OS2.0.209.0.VMRMIXM
-props: Force disable low ram config
-rootdir: Remove redundant mlock() limit setting
-sepolicy: Add sepolicy to compat ignore list
+Align verified boot algorithms and rollback indices with stock
+Decommonize vendor security patch level
+Update common blobs and firmware from OS2.0.204.0.VLFMIXM
+sepolicy: Allow camera HAL to find quickcamera HAL
+sepolicy: Cleanup audio related policies
+sepolicy: Correct audio hal socket rules and use unix_socket_connect macro
+sepolicy: Drop unused Goodix touchscreen wakeup label
+sepolicy: Drop unused thermal_zone87 temp label
 
 Notable ROM changes:
 ==============================
-Evolver: Add Dynamic charging ripple switch 
-Evolver: Bring back wallpaper blur and dim feature
-LMOFreeform: Fix NPE in service manager
-LMOFreeform: Fix app drawer and edit icon disappearing with low bg transparency
-LMOFreeform: Fix back handling on customization page
-LMOFreeform: Refactor FreeformWindow to use nullable types and improve initialization checksShow description for d65928e
-LMOFreeform: Remove hardcoded strings from customization page
-PixelPropsUtils: Update fingerprints to October 2025 release
-Remove commit causing BT disconnection issues
-Remove commit causing memory leaks in launcher
-Settings: Fix stray divider in connected devices screen
-Settings: Notification bundles: remove empty drawable
-Settings: Notification summaries: remove empty drawable
-Settings: display: allow changing HDR brightness intensity
-Settings: store cloned profile user id
-Spoof encrytion prop as encrypted
-SystemUI: Add/remove notification listener enhancement
-SystemUI: Improve edge light feature
-SystemUI: Improve guarding header image
-SystemUI: Improve pulse on new tracks feature
-WallpaperUtils: Switch to PNG compression for faster loading
-config: Load boot image profile from frameworks/base
-config/common: Disable dexpreopt debug info on user builds
-config/common: Reduce system server verbosity
-config/common: preopt extracted apk always
-core: add audio policy to fix AOSP audio cpu usage
-fonts: add missing blacklist checks | font weight adjustment fix
-sepolicy: Address denial for webview crash
-sepolicy: Allow vending to read spoof xml
-skip mediametrics when statsd is not available
-task_profiles: Use foreground cpuset for SurfaceFlinger
-vendor: Do not clone default AudioFX app
-vendor: component-overrides: Force disable google settings intelligence injects
+Add FontSpaceGroteskOverlay font
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+FingerprintProvider: Add support for HIDL workaround props
+Fix fingerprint breaking when using private space
+Fix the system server restart issue caused by the fingerprint framework
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+Override host metadata
+Permission: Remove Advanced Protection related safety sources
+PermissionController: Remove check/s for permission controller version
+PermissionController: Use headline font from framework resource
+Pulse: Do not add listeners if pulse is disabled
+Pulse: Do not stop pulse if dozing
+Pulse: State enhancements
+Pulse: Unify pulse running/showing state
+SystemUI: Fix stale colors on power menu after UI mode change
+add workaround for BiometricService.SettingObserver system_server crash
+apns: Add KKTCell APNs
+apns: Update APNs of Turkish carriers
+appops: skip ops for invalid null package during state serialization
+build: Clamp first api level to 32
+gms: Revert GmsCore to pre-QPR1
+init: Add more properties for spoof
+services: Fix crash caused by null fp daemon

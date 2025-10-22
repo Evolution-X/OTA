@@ -1,16 +1,16 @@
 {
   "response": [
     {
-      "maintainer": "Joey Huab",
+      "maintainer": "Joey",
       "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Mi 9T Pro / Redmi K20 Pro",
-      "filename": "EvolutionX-16.0-20251017-raphael-11.3-Official.zip",
-      "download": "https://cdn.evolution-x.org/raphael/16/EvolutionX-16.0-20251017-raphael-11.3-Official.zip/download",
-      "timestamp": 1760671159,
-      "md5": "ed4d0a124dabd9de0b6093eaf6917949",
-      "sha256": "b70af7e511e9f9d7f86302d3502e67410c7a3c87996b56a51ded0b2eb2954484",
-      "size": 3481602865,
+      "filename": "EvolutionX-16.0-20251029-raphael-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/raphael/16/EvolutionX-16.0-20251029-raphael-11.3-Official.zip/download",
+      "timestamp": 1761725741,
+      "md5": "580e03c07f5a8a64ea3f179da1367bf5",
+      "sha256": "f4879a5b891e62dbbb1c6113bdd3b50f80bbc8349de6a56292e7a9194591839b",
+      "size": 3472560636,
       "version": "11.3",
       "buildtype": "user",
       "forum": "https://xdaforums.com/t/rom-15-0-qpr1-raphael-official-evolution-x-12-27-24.4710167/",

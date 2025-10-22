@@ -8,12 +8,33 @@ Notes:
 
 Device changes:
 ==============================
-Fix camera issues (downgrade adreno blobs)
-libinit: Drop fingerprint override
+kernelsu-next: implement susfs v1.5.9
+miuicamera: Enable portrait fixes by default
 
 Notable ROM changes:
 ==============================
-Introduce Shake Gestures
-SystemUI: Fix lockscreen large clock alignment
-SystemUI: Revamp Network Traffic
-TwilightService: fix onAlarm
+Add FontSpaceGroteskOverlay font
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+FingerprintProvider: Add support for HIDL workaround props
+Fix fingerprint breaking when using private space
+Fix the system server restart issue caused by the fingerprint framework
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+Override host metadata  
+Permission: Remove Advanced Protection related safety sources
+PermissionController: Remove check/s for permission controller version
+PermissionController: Use headline font from framework resource
+Pulse: Do not add listeners if pulse is disabled
+Pulse: Do not stop pulse if dozing
+Pulse: State enhancements
+Pulse: Unify pulse running/showing state
+SystemUI: Fix stale colors on power menu after UI mode change
+add workaround for BiometricService.SettingObserver system_server crash
+apns: Add KKTCell APNs
+apns: Update APNs of Turkish carriers
+appops: skip ops for invalid null package during state serialization
+build: Clamp first api level to 32
+gms: Revert GmsCore to pre-QPR1
+init: Add more properties for spoof
+services: Fix crash caused by null fp daemon
