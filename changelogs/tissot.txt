@@ -12,8 +12,13 @@ None
 
 Notable ROM changes:
 ==============================
-Bump Security String to 2025-10-01
-Evolver: Allow to disable Pixel Launcher customization
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Merge October 2025 security patches
-PixelPropsUtils: Update fingerprints to October 2025 release
+Add support for manually installed google sound picker
+Evolver: Update strings
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+KeyboxImitationHooks: Persist generated verified boot hash
+PixelPropsUtils: Add prop to allow blocking cert chain
+PixelPropsUtils: Fix failing strong integrity with PIF disabled
+Settings: Safeguard ringtone pref against faulty gapps
+Update APNs
