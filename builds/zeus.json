@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Lucifer",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "12 Pro",
       "filename": "EvolutionX-15.0-20250509-zeus-10.6-Official.zip",
