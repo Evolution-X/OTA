@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "currently_maintained": true,
+      "oem": "OnePlus",
+      "device": "9R",
+      "filename": "EvolutionX-16.0-20251017-lemonades-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/lemonades/16/EvolutionX-16.0-20251017-lemonades-11.3-Official.zip/download",
+      "timestamp": 1760733797,
+      "md5": "c86787da4b08ea741ac0e2b9a73507c7",
+      "sha256": "4cd7e5b0af656199eaecd9868852d317b68bc4d68cdab58fd73e2f7cb38db3f4",
+      "size": 2989196215,
+      "version": "11.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-official-evolution-x-10-3-02-15-25.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "github": "manidweep",
+      "initial_installation_images": [
+        "recovery",
+        "vbmeta",
+        "dtbo",
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
