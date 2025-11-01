@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Poco M2 Pro / Redmi Note 9S / Note 9 Pro / Note 9 Pro Max / Note 10 Lite",
+      "filename": "EvolutionX-16.0-20251101-miatoll-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/miatoll/16/EvolutionX-16.0-20251101-miatoll-11.3-Official.zip/download",
+      "timestamp": 1762007342,
+      "md5": "515b3914bc2ba4342f639046351e6a2b",
+      "sha256": "40fe4bd8e8dcabca6d8583aeea6a6351d7328648406ae3d03e6714348ff47e3f",
+      "size": 2818569149,
+      "version": "11.3",
+      "buildtype": "userdebug",
+      "forum": "https://discord.onelots.fr",
+      "firmware": "",
+      "paypal": "https://paypal.me/0nelots",
+      "github": "Onelots",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Long time no see, right ?
+
+This is Evolution X 11, Android 16 for Miatoll, finally !
+
+You can dirty flash it over the Evo11 test builds, if you installed them previously.
+Else, please use the recovery to sideload the update, and ignore the verification failed.
+
+A few improvements have been made smoothness-wise since the test builds.
+
+Enjoy and #KeepEvolving !
+
+Onelots.
