@@ -1,3 +1,9 @@
-- Latest Upstream kernel
-- Camera fixed
-- September patches merged
+- October security patches (we love late patches lol)
+- thanks gonzalo987655 for making a install tutorial
+- Camera definitely fixed this time
+- no WiFi issues fgs (idk why ppl say WiFi issues)
+- adb works, recovery flashing works (ofc)
+- OTA works now, no more stupid Canonical stuff
+- Tree full overhaul :)
+- Credits to ExtremeXT for like the kernel, and the fact he's lineage official for the s20 series
+- if ur reading this fellow r8s maintainer (ik u can see this), pls don't steal lineage from me, I worked on the trees longer and spent more time, or atleast add me as a co maintainer bc ur using my trees :)
