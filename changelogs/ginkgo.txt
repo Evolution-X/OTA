@@ -1,0 +1,19 @@
+Ginkgo is FINALLY back as an official at EvolutionX !
+
+This is Evolution X 11, Android 16 !
+
+If you are coming from my test builds (Android 15 or Android 16) you can dirty flash.
+
+=============================
+
+IF YOU ARE COMING FROM THE PREVIOUS OFFICIAL VERSION : PLEASE   __DO NOT__ DIRTY FLASH !!
+
+Backup your data and clean flash to this version. Thank you.
+
+==============================
+
+A few improvements have been made smoothness-wise since the test builds.
+
+Enjoy and #KeepEvolving !
+
+Onelots.

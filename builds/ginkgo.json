@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 8 / Note 8T",
+      "filename": "EvolutionX-16.0-20251101-ginkgo-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/ginkgo/16/EvolutionX-16.0-20251101-ginkgo-11.3-Official.zip/download",
+      "timestamp": 1762013408,
+      "md5": "f2fcdab5d3902d621d046f0b1e5a95b9",
+      "sha256": "ba5e73debecaaf03eb173108230e51537c1f4d7efe79462105d28898888c6018",
+      "size": 2823369393,
+      "version": "11.3",
+      "buildtype": "userdebug",
+      "forum": "https://discord.onelots.fr",
+      "firmware": "",
+      "paypal": "https://paypal.me/0nelots",
+      "github": "Onelots",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
