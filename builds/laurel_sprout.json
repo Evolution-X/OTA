@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi A3",
+      "filename": "EvolutionX-16.0-20251101-laurel_sprout-11.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/laurel_sprout/16/EvolutionX-16.0-20251101-laurel_sprout-11.3-Official.zip/download",
+      "timestamp": 1762016765,
+      "md5": "23f26e30183b64005cd8abc78bea5926",
+      "sha256": "c302e81d236d460eb751bbd6509be0293bc75f73aad6fabd4dca53a5f4acf402",
+      "size": 1714104975,
+      "version": "11.3",
+      "buildtype": "userdebug",
+      "forum": "https://discord.onelots.fr",
+      "firmware": "",
+      "paypal": "https://paypal.me/0nelots",
+      "github": "Onelots",
+      "initial_installation_images": [
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
