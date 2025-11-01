@@ -1,0 +1,15 @@
+Hey, Fleur user !
+
+This is Evolution X 11, Android 16 for Fleur, finally !
+
+You can dirty flash it over the Evo11 test builds, if you installed them previously.
+Else, please use the recovery to sideload the update, and ignore the verification failed.
+
+A few improvements have been made smoothness-wise since the test builds.
+
+Plus, VoLTE and the jank between the settings menu have been fixed.
+A few minor issues like the magnetometer are still there, tho.
+
+Enjoy and #KeepEvolving !
+
+Onelots.
