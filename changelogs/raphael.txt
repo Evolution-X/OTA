@@ -1,4 +1,4 @@
-This is initial Android 16 with October 2025 security patches
+This is initial Android 16 with November 2025 security patches
 
 Notes:
 ==============================
@@ -8,33 +8,41 @@ Notes:
 
 Device changes:
 ==============================
-kernelsu-next: implement susfs v1.5.9
-miuicamera: Enable portrait fixes by default
+Switch back to adreno 797 gpu drivers - v9 by MoZoiD
+797 GPU V10 - Add fix for webview crash in A16
 
 Notable ROM changes:
 ==============================
-Add FontSpaceGroteskOverlay font
-FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
-FingerprintProvider: Add support for HIDL workaround props
-Fix fingerprint breaking when using private space
-Fix the system server restart issue caused by the fingerprint framework
-KeyboxImitationHooks: Add modificationTimeMs to key metadata
-KeyboxImitationHooks: Delete old keys if newer ones fail to generate
-KeyboxImitationHooks: Ignore keys requiring auth
-Override host metadata  
-Permission: Remove Advanced Protection related safety sources
-PermissionController: Remove check/s for permission controller version
-PermissionController: Use headline font from framework resource
-Pulse: Do not add listeners if pulse is disabled
-Pulse: Do not stop pulse if dozing
-Pulse: State enhancements
-Pulse: Unify pulse running/showing state
-SystemUI: Fix stale colors on power menu after UI mode change
-add workaround for BiometricService.SettingObserver system_server crash
-apns: Add KKTCell APNs
-apns: Update APNs of Turkish carriers
-appops: skip ops for invalid null package during state serialization
-build: Clamp first api level to 32
-gms: Revert GmsCore to pre-QPR1
-init: Add more properties for spoof
-services: Fix crash caused by null fp daemon
+Do not leak lineage_ prefixes in build.prop
+EdgeLight: Use dozing status from provider directly
+Evolver: Allow toggling rotation button suggestion
+Evolver: Allow user to disable media art on ambient display
+Evolver: Group lockscreen media art settings
+Evolver: Make Ongoing chip size and position configurable
+Evolver: Use Settings switch to allow blocking cert chain
+KeyboxImitationHooks: Abandon generated certs
+OnGoingActionProgressController: Fix stuck progress bar after upload/download completion
+PixelPropsUtils: Use Settings switch to allow blocking cert chain
+Pulse: Respect keyguard and bouncer state changes
+ScrimUtils: Send dozing state change value to listeners
+Settings: Enable "install available apps"
+Settings: add new refresh rate settings
+Settings: explicitly enable cloned apps
+Settings: store cloned profile user id
+SystemUI: Add defensive checks in ClockRegistry
+SystemUI: Allow class loader plugin access on user builds
+SystemUI: Enhance ongoing action progress chip with animations and theming
+SystemUI: Fix lockscreen elements randomly disappearing
+SystemUI: Fixing keyguard shade color
+SystemUI: Fixing scrimutils tricky state bugs
+SystemUI: Hide progress chip during heads-up notifications
+SystemUI: Improving scrimutils keyguard transition detection
+SystemUI: Prevent NotifCollection illegal state on notification dump
+SystemUI: Removing media art retry mechanism
+Update BCR to Version 1.83
+always use UTC as the time zone for build dates
+release: Bump Security String to 2025-11-01
+sepolicy: qcom: Allow platform_app to use Soter HAL
+sepolicy: qcom: hal_soter -> vendor_hal_soter
+services: refresh rate controller port
+version: Uprev to 11.4
