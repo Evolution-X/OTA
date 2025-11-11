@@ -10,40 +10,27 @@ Notes:
 
 Device changes:
 ==============================
-kernelsu: implement susfs v1.5.9
+None
 
 Notable ROM changes:
 ==============================
-Do not leak lineage_ prefixes in build.prop
-EdgeLight: Use dozing status from provider directly
-Evolver: Allow toggling rotation button suggestion
-Evolver: Allow user to disable media art on ambient display
-Evolver: Group lockscreen media art settings
-Evolver: Make Ongoing chip size and position configurable
-Evolver: Use Settings switch to allow blocking cert chain
-KeyboxImitationHooks: Abandon generated certs
-OnGoingActionProgressController: Fix stuck progress bar after upload/download completion
-PixelPropsUtils: Use Settings switch to allow blocking cert chain
-Pulse: Respect keyguard and bouncer state changes
-ScrimUtils: Send dozing state change value to listeners
-Settings: Enable "install available apps"
-Settings: add new refresh rate settings
-Settings: explicitly enable cloned apps
-Settings: store cloned profile user id
-SystemUI: Add defensive checks in ClockRegistry
-SystemUI: Allow class loader plugin access on user builds
-SystemUI: Enhance ongoing action progress chip with animations and theming
-SystemUI: Fix lockscreen elements randomly disappearing
-SystemUI: Fixing keyguard shade color
-SystemUI: Fixing scrimutils tricky state bugs
-SystemUI: Hide progress chip during heads-up notifications
-SystemUI: Improving scrimutils keyguard transition detection
-SystemUI: Prevent NotifCollection illegal state on notification dump
-SystemUI: Removing media art retry mechanism
-Update BCR to Version 1.83
-always use UTC as the time zone for build dates
-release: Bump Security String to 2025-11-01
-sepolicy: qcom: Allow platform_app to use Soter HAL
-sepolicy: qcom: hal_soter -> vendor_hal_soter
-services: refresh rate controller port
-version: Uprev to 11.4
+Evolver: Add sparkle pulse renderer style
+Evolver: Add support for custom fonts
+Evolver: Expose floating rotation button toggle
+Evolver: Remove preferences when not supported
+Introduce LMOSystemUIClock styles
+Merge November 2025 security patches
+Remove built-in keybox overlay
+Revert to previous refresh rate manager implementation
+SystemUI: Do not change compose panel anchor when shade blur is disabled
+SystemUI: Fix keyguard transition race conditions
+SystemUI: Prevent NPE when header view not ready
+SystemUI: Prevent ShadeListBuilder illegal state on notification dump
+build: Remove su
+config: Build LMO systemui clock plugin
+config: Update pihooks fp to A16 QPR2 Beta 3.2
+extras: Add IBM Plex Sans font
+extras: Add new oplus fp icon
+extras: UDFPS: import Keqing's icon and animation
+extras: Update configuration for sony sketch font
+services: Fixing fullscreen feature
