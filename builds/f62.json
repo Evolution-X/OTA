@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy F62",
+      "filename": "EvolutionX-16.0-20251116-f62-11.4.1-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/f62/16_vanilla/EvolutionX-16.0-20251116-f62-11.4.1-Vanilla-Official.zip/download",
+      "timestamp": 1763251030,
+      "md5": "32b0085e84b66a187387548294088484",
+      "sha256": "1b64929a2d8d2fc1c3524780c91801fb989d128feb3e89354ca16dd0565aaffe",
+      "size": 1481464076,
+      "version": "11.4.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolutionx-10-x-aosp-encryption.4669082/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "github": "0xsharkboy",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
