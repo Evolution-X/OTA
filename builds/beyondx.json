@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy S10 5G",
+      "filename": "EvolutionX-16.0-20251115-beyondx-11.4.1-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/beyondx/16_vanilla/EvolutionX-16.0-20251115-beyondx-11.4.1-Vanilla-Official.zip/download",
+      "timestamp": 1763231901,
+      "md5": "be1923ba963a97feb64b93fa7c08f700",
+      "sha256": "9502947b42b4f8d4779336930e9a6fcdc210fb64737d9c320a9b9ba8c5c36ac9",
+      "size": 1485828258,
+      "version": "11.4.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolutionx-10-x-aosp-encryption.4669084/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "github": "0xsharkboy",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
