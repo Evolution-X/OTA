@@ -1,3 +1,48 @@
-22 September, 2025
-- Upgraded security patch
-- Moved from Murali > YogratBuilds Kernel
+This is Android 16 with November 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Dirty flash is fine over last build.
+- Includes Dolby Atmos.
+
+Device changes:
+==============================
+- Fixed parameters for omx
+- Update blobs
+- Update adreno drivers to v757
+- Disable HEVC toggle for sr
+- Reduce file cache into 150000
+- Fix lag while opening apps and random QS lags
+- Manually configured number of physical SIM slots
+- Adjusted paddings
+- Updated a few audio/display/media blobs
+- Decrease swappiness to focus on physical ram more
+
+Notable ROM changes:
+==============================
+Add FontSpaceGroteskOverlay font
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+FingerprintProvider: Add support for HIDL workaround props
+Fix fingerprint breaking when using private space
+Fix the system server restart issue caused by the fingerprint framework
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+Override host metadata
+Permission: Remove Advanced Protection related safety sources
+PermissionController: Remove check/s for permission controller version
+PermissionController: Use headline font from framework resource
+Pulse: Do not add listeners if pulse is disabled
+Pulse: Do not stop pulse if dozing
+Pulse: State enhancements
+Pulse: Unify pulse running/showing state
+SystemUI: Fix stale colors on power menu after UI mode change
+add workaround for BiometricService.SettingObserver system_server crash
+apns: Add KKTCell APNs
+apns: Update APNs of Turkish carriers
+appops: skip ops for invalid null package during state serialization
+build: Clamp first api level to 32
+gms: Revert GmsCore to pre-QPR1
+init: Add more properties for spoof
+services: Fix crash caused by null fp daemon
