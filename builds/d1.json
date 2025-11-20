@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy Note 10",
+      "filename": "EvolutionX-16.0-20251115-d1-11.4.1-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/d1/16_vanilla/EvolutionX-16.0-20251115-d1-11.4.1-Vanilla-Official.zip/download",
+      "timestamp": 1763236743,
+      "md5": "c2d23cc37bf7e0d270199122554c4a83",
+      "sha256": "7ee1b8d2ed94add03b2b0d112583062835de8a3adb2d1ce25b17e805784b1861",
+      "size": 1456391480,
+      "version": "11.4.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolutionx-10-x-aosp-encryption.4669086/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "github": "0xsharkboy",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
