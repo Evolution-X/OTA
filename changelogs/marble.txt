@@ -12,26 +12,14 @@ Notes:
 
 Device changes:
 ==============================
-Revert "props: Enable ADPF CPU hints for improved UI performance"
-Update blobs from OS2.0.210.0.VMRMIXM
-kernel: power: supply: qti_battery_charger: Add batt_sn, max_life_{vol,temp} and over_vol_duration nodes
+Include call speaker fix
 
 Notable ROM changes:
 ==============================
-Evolver: Add sparkle pulse renderer style
-Evolver: Add support for custom fonts
-Evolver: Expose floating rotation button toggle
-Evolver: Remove preferences when not supported
-Introduce LMOSystemUIClock styles
-Merge November 2025 security patches
-Revert to previous refresh rate manager implementation
-SystemUI: Do not change compose panel anchor when shade blur is disabled
-SystemUI: Fix keyguard transition race conditions
-SystemUI: Prevent NPE when header view not ready
-SystemUI: Prevent ShadeListBuilder illegal state on notification dump
-build: Remove su
-config: Build LMO systemui clock plugin
-config: Update pihooks fp to A16 QPR2 Beta 3.2
-extras: Add IBM Plex Sans font
-extras: Update configuration for sony sketch font
-services: Fixing fullscreen feature
+Allow to override Mock Location restriction
+Redirect Google PermissionController intents to AOSP
+SystemUI: Hide data switch tile on non-voice capable devices
+SystemUI: Improving ScrimUtils performance
+SystemUI: TunerActivity: Remove icon toggles if not supported
+SystemUI: Use a16 wifi signal icon by default
+Update UI aspects to expressive design

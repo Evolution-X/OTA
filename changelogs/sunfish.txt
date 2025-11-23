@@ -1,0 +1,21 @@
+This is Android 16 with November 2025 security patches
+
+Notes:
+==============================
+LineageOS-based source, signed build.
+Dirty flash is fine over last unofficial build.
+
+Device changes:
+==============================
+Clean base synced with latest Evolution X source
+Initial Official Evolution X 11.4.1 build
+
+Notable ROM changes:
+==============================
+Allow to override Mock Location restriction
+Redirect Google PermissionController intents to AOSP
+SystemUI: Hide data switch tile on non-voice capable devices
+SystemUI: Improving ScrimUtils performance
+SystemUI: TunerActivity: Remove icon toggles if not supported
+SystemUI: Use a16 wifi signal icon by default
+Update UI aspects to expressive design
