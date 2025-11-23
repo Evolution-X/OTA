@@ -13,6 +13,16 @@ bka_vanilla_webhook = os.environ["BKA_VANILLA_WEBHOOK"]
 vic_webhook = os.environ["VIC_WEBHOOK"]
 vic_vanilla_webhook = os.environ["VIC_VANILLA_WEBHOOK"]
 
+def get_commit_hash(branch, codename):
+    path = f"changelogs/{codename}.txt"
+    api_url = f"https://api.github.com/repos/Evolution-X/OTA/commits?path={path}&sha={branch}"
+    response = requests.get(api_url)
+    response.raise_for_status()
+    commits = response.json()
+    if commits:
+        return commits[0]['sha']
+    else:
+        return "Unknown"
 
 def parse_device():
     with open(file_path) as f:
