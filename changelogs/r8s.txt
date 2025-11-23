@@ -1,9 +1,34 @@
-- October security patches (we love late patches lol)
-- thanks gonzalo987655 for making a install tutorial
-- Camera definitely fixed this time
-- no WiFi issues fgs (idk why ppl say WiFi issues)
-- adb works, recovery flashing works (ofc)
-- OTA works now, no more stupid Canonical stuff
-- Tree full overhaul :)
-- Credits to ExtremeXT for like the kernel, and the fact he's lineage official for the s20 series
-- if ur reading this fellow r8s maintainer (ik u can see this), pls don't steal lineage from me, I worked on the trees longer and spent more time, or atleast add me as a co maintainer bc ur using my trees :)
+This is Android 16 with November 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Dirty flash is fine over last build.
+
+Notable ROM changes:
+==============================
+Add FontSpaceGroteskOverlay font
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+FingerprintProvider: Add support for HIDL workaround props
+Fix fingerprint breaking when using private space
+Fix the system server restart issue caused by the fingerprint framework
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+Override host metadata
+Permission: Remove Advanced Protection related safety sources
+PermissionController: Remove check/s for permission controller version
+PermissionController: Use headline font from framework resource
+Pulse: Do not add listeners if pulse is disabled
+Pulse: Do not stop pulse if dozing
+Pulse: State enhancements
+Pulse: Unify pulse running/showing state
+SystemUI: Fix stale colors on power menu after UI mode change
+add workaround for BiometricService.SettingObserver system_server crash
+apns: Add KKTCell APNs
+apns: Update APNs of Turkish carriers
+appops: skip ops for invalid null package during state serialization
+build: Clamp first api level to 32
+gms: Revert GmsCore to pre-QPR1
+init: Add more properties for spoof
+services: Fix crash caused by null fp daemon
