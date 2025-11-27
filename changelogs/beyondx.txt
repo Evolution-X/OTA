@@ -8,11 +8,11 @@ Notes:
 
 Device changes:
 ==============================
-- Add margin around lockscreen text
-- Setup density mapping
+- Update from 11.4 -> 11.4.1
 
 Notable ROM changes:
 ==============================
+Added Pixel-Framework
 Add FontSpaceGroteskOverlay font
 FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
 FingerprintProvider: Add support for HIDL workaround props
