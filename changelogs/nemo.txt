@@ -5,33 +5,39 @@ Notes:
 - LineageOS-based source. Signed build.
 - Includes Sony Dolby Atmos.
 - Credits to kardebayan, SamarV-121, sarthakroy2002 and all nemo/mt6785 devs.
-- Thanks to Dushyant Bhati and Kevin Suliven for testing the build.
+- Thanks to Dushyant Bhati and Arun for testing the build.
 - Firmware is included.
 - Use the recovery.img.
 
 Device changes:
 ==============================
-- Synced with latest v11.4 changes
-- Compiled with Stormbreaker v4.14.336 kernel
-- Misc. Fixes and Improvements
+- Update to Evolution X 11.4.1
 
 Notable ROM changes:
 ==============================
-Evolver: Add sparkle pulse renderer style
-Evolver: Add support for custom fonts
-Evolver: Expose floating rotation button toggle
-Evolver: Remove preferences when not supported
-Introduce LMOSystemUIClock styles
-Merge November 2025 security patches
-Remove built-in keybox overlay
-Revert to previous refresh rate manager implementation
-SystemUI: Do not change compose panel anchor when shade blur is disabled
-SystemUI: Fix keyguard transition race conditions
-SystemUI: Prevent NPE when header view not ready
-SystemUI: Prevent ShadeListBuilder illegal state on notification dump
-build: Remove su
-config: Build LMO systemui clock plugin
-config: Update pihooks fp to A16 QPR2 Beta 3.2
-extras: Add IBM Plex Sans font
-extras: Update configuration for sony sketch font
-services: Fixing fullscreen feature
+Added Pixel-Framework
+Add FontSpaceGroteskOverlay font
+FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+FingerprintProvider: Add support for HIDL workaround props
+Fix fingerprint breaking when using private space
+Fix the system server restart issue caused by the fingerprint framework
+KeyboxImitationHooks: Add modificationTimeMs to key metadata
+KeyboxImitationHooks: Delete old keys if newer ones fail to generate
+KeyboxImitationHooks: Ignore keys requiring auth
+Override host metadata
+Permission: Remove Advanced Protection related safety sources
+PermissionController: Remove check/s for permission controller version
+PermissionController: Use headline font from framework resource
+Pulse: Do not add listeners if pulse is disabled
+Pulse: Do not stop pulse if dozing
+Pulse: State enhancements
+Pulse: Unify pulse running/showing state
+SystemUI: Fix stale colors on power menu after UI mode change
+add workaround for BiometricService.SettingObserver system_server crash
+apns: Add KKTCell APNs
+apns: Update APNs of Turkish carriers
+appops: skip ops for invalid null package during state serialization
+build: Clamp first api level to 32
+gms: Revert GmsCore to pre-QPR1
+init: Add more properties for spoof
+services: Fix crash caused by null fp daemon
