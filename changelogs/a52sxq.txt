@@ -3,10 +3,15 @@ This is Android 16 with November 2025 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Dirty flash is fine over last build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 11.4.1
 
 Notable ROM changes:
 ==============================
+Added Pixel-Framework
 Add FontSpaceGroteskOverlay font
 FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
 FingerprintProvider: Add support for HIDL workaround props
