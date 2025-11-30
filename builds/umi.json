@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 10 Pro",
+      "filename": "EvolutionX-16.0-20251127-umi-11.4.1-Official.zip",
+      "download": "https://cdn.evolution-x.org/umi/16/EvolutionX-16.0-20251127-umi-11.4.1-Official.zip/download",
+      "timestamp": 1764257074,
+      "md5": "8dd7e7970630a58dcd61c678a4f72ba7",
+      "sha256": "0970f1dfb4c5f92fe9713e84dac262babb4ed02400c30349eff3113f326a5452",
+      "size": 2973580594,
+      "version": "11.4.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-10-umi-cmi.4727750/",
+      "firmware": "",
+      "paypal": "",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
