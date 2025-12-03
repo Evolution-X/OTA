@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "AidanWarner97",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy Tab S5e (LTE)",
+      "filename": "EvolutionX-15.0-20251203-gts4lv-10.11-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/gts4lv/15_vanilla/EvolutionX-15.0-20251203-gts4lv-10.11-Vanilla-Official.zip/download",
+      "timestamp": 1764731725,
+      "md5": "7e98fefd597dbbfc83b43b94ae442b7a",
+      "sha256": "5ab84980ca15acbabb4d6266188de01fa08c82eb8f8d315795dbdbf1b2759b19",
+      "size": 1428264491,
+      "version": "10.11",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolution-x.4770666/",
+      "firmware": "",
+      "paypal": "https://www.paypal.com/paypalme/aidanwarner1997",
+      "github": "AidanWarner97",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
