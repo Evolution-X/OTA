@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "AidanWarner97",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy Tab S5e (Wi-Fi)",
+      "filename": "EvolutionX-15.0-20251203-gts4lvwifi-10.11-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/gts4lvwifi/15_vanilla/EvolutionX-15.0-20251203-gts4lvwifi-10.11-Vanilla-Official.zip/download",
+      "timestamp": 1764738620,
+      "md5": "8249d1aeb683859b91bdb15ba87fb7ec",
+      "sha256": "7f02360e6f412b3169eb8bf20514aba848d3fd0a66427f65d7aec84eaf746b97",
+      "size": 1383492412,
+      "version": "10.11",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolution-x.4770666/",
+      "firmware": "",
+      "paypal": "https://www.paypal.com/paypalme/aidanwarner1997",
+      "github": "AidanWarner97",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
