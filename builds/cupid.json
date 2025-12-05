@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 12",
+      "filename": "EvolutionX-16.0-20251205-cupid-11.4.1-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/cupid/16_vanilla/EvolutionX-16.0-20251205-cupid-11.4.1-Vanilla-Official.zip/download",
+      "timestamp": 1764950360,
+      "md5": "cf22273c83f53b61cf740f1c1cf405ea",
+      "sha256": "191929bc8795878d494d798005204846bb0a78a1f0e5bff54ab0eca94eac686e",
+      "size": 1941443983,
+      "version": "11.4.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-12-cupid.4770905/",
+      "firmware": "",
+      "paypal": "https://buymeacoffee.com/TechPanelGM",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
