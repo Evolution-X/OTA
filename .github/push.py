@@ -89,7 +89,7 @@ def webhook_send():
             📦 • **Version**: {version}
             🕒 • **Build date**: {datetime.fromtimestamp(build_date, tz=None).date()}
             📎 • **Build size**: {humanize(file_size)}
-            <:Evo:670530693985730570> • **Check [device's infos](https://evolution-x.org/downloads/{codename}) directly on our website!**\n
+            <:Evo:670530693985730570> • **Check [device's infos](https://evolution-x.org/devices/{codename}) directly on our website!**\n
             
             ⬇️ [Download link]({download_link}) ⬇️\n"""
     
