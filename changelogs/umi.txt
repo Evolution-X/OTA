@@ -1,4 +1,4 @@
-This is Android 16 with November 2025 security patches
+This is Android 16 with December 2025 security patches
 
 Notes:
 ==============================
@@ -8,8 +8,9 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.4.1
-- Bluetooth call is not working when connected to Android Auto
+- Update to Evolution X 11.4.2
+- Added Support for screen off udfps
+- Bluetooth call is not working when connected to Android Auto (Some report it does work, not clear to me why)
 - Miuicamera is functional except VLOG mode and front camera video
 - Fast charge option included
 - Dolby included
@@ -17,29 +18,10 @@ Device changes:
 
 Notable ROM changes:
 ==============================
-Added Pixel-Framework
-Add FontSpaceGroteskOverlay font
-FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
-FingerprintProvider: Add support for HIDL workaround props
-Fix fingerprint breaking when using private space
-Fix the system server restart issue caused by the fingerprint framework
-KeyboxImitationHooks: Add modificationTimeMs to key metadata
-KeyboxImitationHooks: Delete old keys if newer ones fail to generate
-KeyboxImitationHooks: Ignore keys requiring auth
-Override host metadata
-Permission: Remove Advanced Protection related safety sources
-PermissionController: Remove check/s for permission controller version
-PermissionController: Use headline font from framework resource
-Pulse: Do not add listeners if pulse is disabled
-Pulse: Do not stop pulse if dozing
-Pulse: State enhancements
-Pulse: Unify pulse running/showing state
-SystemUI: Fix stale colors on power menu after UI mode change
-add workaround for BiometricService.SettingObserver system_server crash
-apns: Add KKTCell APNs
-apns: Update APNs of Turkish carriers
-appops: skip ops for invalid null package during state serialization
-build: Clamp first api level to 32
-gms: Revert GmsCore to pre-QPR1
-init: Add more properties for spoof
-services: Fix crash caused by null fp daemon
+Dexpreopt pixel launcher
+New now playing QS tile and updated lockscreen UI
+Overlay: Update default wallpaper from Pixel 10 Pro XL
+overlay: Use google sans flex for lockscreen clock
+config: properties: Add pihooks default values
+component-overrides: Force disable various google components
+PixelPropsUtils: Update fingerprints to December 2025 release
