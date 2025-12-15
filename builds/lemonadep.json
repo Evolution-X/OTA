@@ -5,26 +5,25 @@
       "currently_maintained": true,
       "oem": "OnePlus",
       "device": "9 Pro",
-      "filename": "EvolutionX-16.0-20250918-lemonadep-11.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/lemonadep/16/EvolutionX-16.0-20250918-lemonadep-11.2-Official.zip/download",
-      "timestamp": 1758223265,
-      "md5": "66c97473d1bbaed445e59a91507459b3",
-      "sha256": "1899aecf9c2b9f85f83967a763f4cb69f1e333ccb5443edbdfba1fffdc47f977",
-      "size": 2531594741,
-      "version": "11.2",
+      "filename": "EvolutionX-16.0-20251211-lemonadep-11.4.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/lemonadep/16/EvolutionX-16.0-20251211-lemonadep-11.4.2-Official.zip/download",
+      "timestamp": 1765452673,
+      "md5": "cef7e2efe9be81779080aad3e6d2063c",
+      "sha256": "15fc14f82317620561b15b47747c2af0be5084a83a792a7f23d3cd54cd8bbe92",
+      "size": 2606539838,
+      "version": "11.4.2",
       "buildtype": "userdebug",
-      "forum": "",
+      "forum": "https://xdaforums.com/t/evolution-x-official-oneplus-9-pro.4771996/",
       "firmware": "",
-      "paypal": "",
+      "paypal": "https://buymeacoffee.com/techpanelgm",
       "github": "TechPanelGM",
       "initial_installation_images": [
-	"boot",
-	"dtbo",
-	"vbmeta",
-	"vendor_boot"
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vendor_boot"
       ],
       "extra_images": []
     }
   ]
 }
-
