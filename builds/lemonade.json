@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "OnePlus",
+      "device": "9",
+      "filename": "EvolutionX-16.0-20251211-lemonade-11.4.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/lemonade/16_vanilla/EvolutionX-16.0-20251211-lemonade-11.4.2-Vanilla-Official.zip/download",
+      "timestamp": 1765452076,
+      "md5": "8076d936138a66704f0daf0779d62f2a",
+      "sha256": "97358f6312d82e3241cccdbf1082610451b1a9ef630b58dba85b98cf7d69d1ff",
+      "size": 1975500596,
+      "version": "11.4.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-oneplus-9.4771995/",
+      "firmware": "",
+      "paypal": "https://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
