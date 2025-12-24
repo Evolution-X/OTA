@@ -1,25 +1,23 @@
 {
   "response": [
     {
-      "maintainer": "Omar Mohamed (Coptan)",
-      "currently_maintained": true,
-      "oem": "Xiaomi",
-      "device": "Redmi Note 13 Pro 5G / Poco X6 5G",
-      "filename": "EvolutionX-16.0-20250913-garnet-11.2-Vanilla-Official.zip",
-      "download": "https://cdn.evolution-x.org/garnet/16_vanilla/EvolutionX-16.0-20250913-garnet-11.2-Vanilla-Official.zip/download",
-      "timestamp": 1757786921,
-      "md5": "312d1775587ea077682389e62d152112",
-      "sha256": "bee5c4961c8d588ed5435d640c1bfa713ab0ca11ad9dae78b0940f163478f739",
-      "size": 1924024545,
-      "version": "11.2",
+      "maintainer": "",
+      "currently_maintained": false,
+      "oem": "",
+      "device": "",
+      "filename": "EvolutionX-16.0-20251217-garnet-11.4.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/garnet/16_vanilla/EvolutionX-16.0-20251217-garnet-11.4.2-Vanilla-Official.zip/download",
+      "timestamp": 1765960461,
+      "md5": "44111d3998bd65a127f0e80435657f91",
+      "sha256": "927b2fdf8f24d7e5654741383639bdd708544c7234f7d51900aef60e1218714c",
+      "size": 2053853971,
+      "version": "11.4.2",
       "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-garnet-official-evolution-x-01-14-25.4713398/",
-      "firmware": "https://xmfirmwareupdater.com/firmware/garnet/stable/OS2.0.10.0.VNRMIXM/",
-      "paypal": "https://linktr.ee/Coptan",
-      "github": "c0pt4n",
-      "initial_installation_images": [
-        "recovery"
-      ],
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "",
+      "initial_installation_images": [],
       "extra_images": []
     }
   ]
