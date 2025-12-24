@@ -5,13 +5,13 @@
       "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Redmi Note 13 Pro 5G / Poco X6 5G",
-      "filename": "EvolutionX-16.0-20250913-garnet-11.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/garnet/16/EvolutionX-16.0-20250913-garnet-11.2-Official.zip/download",
-      "timestamp": 1757786921,
-      "md5": "6b045b7777002de1d5f1784dbf324827",
-      "sha256": "baba33315600ca0922820b152934d5aec7646b5aacdaccd1037f34dc3d0e1cfb",
-      "size": 2550246612,
-      "version": "11.2",
+      "filename": "EvolutionX-16.0-20251217-garnet-11.4.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/garnet/16/EvolutionX-16.0-20251217-garnet-11.4.2-Official.zip/download",
+      "timestamp": 1765970807,
+      "md5": "2f6fb35e7542f50a4c8400a15a4f6c25",
+      "sha256": "08c189e7b3b9f71cff7527156aa2a982f09c3b591fe2c055c62bf0b74bc51864",
+      "size": 3135488284,
+      "version": "11.4.2",
       "buildtype": "userdebug",
       "forum": "https://xdaforums.com/t/rom-15-0-qpr1-garnet-official-evolution-x-01-14-25.4713398/",
       "firmware": "https://xmfirmwareupdater.com/firmware/garnet/stable/OS2.0.10.0.VNRMIXM/",
@@ -24,4 +24,3 @@
     }
   ]
 }
-
