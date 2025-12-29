@@ -1,7 +1,8 @@
-This is Android 14 with October 2025 security patches
+This is Android 14 with November 2025 security patches
 
 Notes:
 ==============================
+- Final build
 - LineageOS-based source. Signed build. Gapps version.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
@@ -12,13 +13,4 @@ None
 
 Notable ROM changes:
 ==============================
-Add support for manually installed google sound picker
-Evolver: Update strings
-KeyboxImitationHooks: Add modificationTimeMs to key metadata
-KeyboxImitationHooks: Delete old keys if newer ones fail to generate
-KeyboxImitationHooks: Ignore keys requiring auth
-KeyboxImitationHooks: Persist generated verified boot hash
-PixelPropsUtils: Add prop to allow blocking cert chain
-PixelPropsUtils: Fix failing strong integrity with PIF disabled
-Settings: Safeguard ringtone pref against faulty gapps
-Update APNs
+Merge November 2025 security patches
