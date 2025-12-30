@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+      "filename": "EvolutionX-16.0-20251228-apollon-11.4.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/apollon/16/EvolutionX-16.0-20251228-apollon-11.4.2-Official.zip/download",
+      "timestamp": 1766959476,
+      "md5": "9e69d852513a886592b5065cb0a43b8b",
+      "sha256": "8b834aa2d375db7242db6a329753c4d40391df2090acbd52a4e0121075cd7480",
+      "size": 2603194828,
+      "version": "11.4.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-xiaomi-mi-10t-mi-10t-pro-redmi-k30s-ultra.4773811/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/apollo/stable/V14.0.4.0.SJDMIXM/",
+      "paypal": "https://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
