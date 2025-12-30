@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Bera (nyxalune)",
+      "currently_maintained": true,
+      "oem": "Nothing",
+      "device": "Phone (1)",
+      "filename": "EvolutionX-16.0-20251215-Spacewar-11.4.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/Spacewar/16_vanilla/EvolutionX-16.0-20251215-Spacewar-11.4.2-Vanilla-Official.zip/download",
+      "timestamp": 1765792740,
+      "md5": "1523cd8bc1b35e677bebe62daaacbc26",
+      "sha256": "83d0a9023f496dd9c94d640a45b4925610a9574adbe08a4fdfd0c3867bd144e2",
+      "size": 1851803151,
+      "version": "11.4.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-official-spacewar-evolution-x-11-4-2.4752131/",
+      "firmware": "",
+      "paypal": "",
+      "github": "nyxalune",
+      "initial_installation_images": [
+         "boot",
+         "vendor_boot"
+       ],
+      "extra_images": []
+    }
+  ]
+}
