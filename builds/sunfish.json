@@ -1,23 +1,25 @@
 {
   "response": [
     {
-      "maintainer": "",
-      "currently_maintained": false,
-      "oem": "",
-      "device": "",
-      "filename": "EvolutionX-16.0-20251118-sunfish-11.4.1-Vanilla-Official.zip",
-      "download": "https://cdn.evolution-x.org/sunfish/16_vanilla/EvolutionX-16.0-20251118-sunfish-11.4.1-Vanilla-Official.zip/download",
-      "timestamp": 1763447884,
-      "md5": "83254c405df97379ed536eb614025b51",
-      "sha256": "5a3b67330887e8a9d3151a68ff84683361af84c7c314f6ed52575f7adaaff431",
-      "size": 1291527483,
-      "version": "11.4.1",
+      "maintainer": "Apelete Seketeli",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 4a",
+      "filename": "EvolutionX-16.0-20251230-sunfish-11.4.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/sunfish/16_vanilla/EvolutionX-16.0-20251230-sunfish-11.4.2-Vanilla-Official.zip/download",
+      "timestamp": 1767116000,
+      "md5": "75614b592806e5c5ee14fcd75bd2b595",
+      "sha256": "6d694563af59265ea9783e7d0bcbc43400673ec404be36b9e4642319cd6e2be2",
+      "size": 1271122116,
+      "version": "11.4.2",
       "buildtype": "userdebug",
-      "forum": "",
+      "forum": "https://xdaforums.com/t/rom-16-official-evolution-x-for-pixel-4a-sunfish.4761206/",
       "firmware": "",
-      "paypal": "",
-      "github": "",
-      "initial_installation_images": [],
+      "paypal": "https://paypal.me/aseketeli",
+      "github": "apelete",
+      "initial_installation_images": [
+        "boot"
+      ],
       "extra_images": []
     }
   ]
