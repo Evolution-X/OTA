@@ -1,4 +1,20 @@
-====== Evolution X 11.0 (Baklava) ========
-- You are  NOT required to clean flash for first build only
-- You can use any recovery to flash
-- Signed with new keys
+This is Android 16 with December 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 11.4.2
+- Oh wow oh wow, these are loads of changes- December patch, ofc- Tree rework (thanks linux4)- Newer upstream kernel? (Thanks linux4)- 11.0 > 11.4.2 - Loads of UI changes- Better camera quality- More hax
+Notable ROM changes:
+==============================
+Dexpreopt pixel launcher
+New now playing QS tile and updated lockscreen UI
+Overlay: Update default wallpaper from Pixel 10 Pro XL
+overlay: Use google sans flex for lockscreen clock
+config: properties: Add pihooks default values
+component-overrides: Force disable various google components
+PixelPropsUtils: Update fingerprints to December 2025 release
