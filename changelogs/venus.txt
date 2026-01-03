@@ -1,4 +1,4 @@
-This is initial Android 16 with December 2025 security patches
+This is Android 16 QPR1 with January 2026 security patches
 
 Notes:
 ==============================
@@ -23,13 +23,28 @@ Evolver: Allow tuning extra padding for statusbar layout
 Evolver: Initial battery styles
 Evolver: Make sensor block package list configurable
 Evolver: Remove carrier name setting if not supported
+Fix NullPointerException in PackageManagerService
+Reduce unnecessary calls to getLatestVsyncEventData
+Remove OmniJaws lockscreen and QS tile weather
 Settings: Add Device codename to Firmware version window
+SystemUI: Fix keyguard back button background
+SystemUI: Fix Smartspace for QPR1
+SystemUI: Implement Reverse-engineered Smartspace
+SystemUI: smartspace: fix duplicate date view on lockscreen
 Update translations
 aconfig: Disable notification_background_tint_optimization
-component-overrides: Enable Now playing and Live Translate
+center-cropping media bitmaps to improve quality
 config: Build BatteryStatsViewer
 extras: Update google sans flex fonts
-extras: stopship vendor fonts
+fixing configuration controller crash
+fixing contacts apps crash
+gms: Add nowplaying.xml sysconfig file
+gms: CustomizationBundlePrebuilt -> CustomizationBundlePrebuiltFullVersion
+gms: Drop DeviceIntelligenceNetworkPrebuilt and HealthIntelligencePrebuilt
+preventing media album bitmaps from impacting performance
 pixel-style: Use google sans flex for lockscreen clock
 pixel-style: fixup! use gesture navigation by default
 pixel-style: remove Pixel tethering overlay
+recovery: Fix scrolling when touch is rotated
+release: Bump Security String to 2026-01-01
+version: Uprev to 11.6
