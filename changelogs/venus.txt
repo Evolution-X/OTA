@@ -10,13 +10,26 @@ Notes:
 
 Device changes:
 ==============================
-Remove vendor/lineage device framework matrix inclusion
-Switch to SwitchPreferenceCompat
-Update some soong config variables to bool type
-parts: Apply Expressive theme
-parts: SettingsFragment: Defer applying divider
-sepolicy: Drop duplicate genfs_contexts entries
+None
 
 Notable ROM changes:
 ==============================
-Initial Android 16 QPR1 release for Mi 11
+Evolver: Add back QS Header Image customization
+Evolver: Add back Sensor block per-package switch
+Evolver: Add monet settings illustration
+Evolver: Add nothing os charging animation
+Evolver: Add proper toggle for smartspace
+Evolver: Allow tuning extra padding for statusbar layout
+Evolver: Initial battery styles
+Evolver: Make sensor block package list configurable
+Evolver: Remove carrier name setting if not supported
+Settings: Add Device codename to Firmware version window
+Update translations
+aconfig: Disable notification_background_tint_optimization
+component-overrides: Enable Now playing and Live Translate
+config: Build BatteryStatsViewer
+extras: Update google sans flex fonts
+extras: stopship vendor fonts
+pixel-style: Use google sans flex for lockscreen clock
+pixel-style: fixup! use gesture navigation by default
+pixel-style: remove Pixel tethering overlay
