@@ -1,4 +1,4 @@
-This is Android 16 with December 2025 security patches
+This is Android 16 QPR1 with January 2026 security patches
 
 Notes:
 ==============================
@@ -11,34 +11,20 @@ Notes:
 
 Device changes:
 ==============================
-None
+Build gamebar package
+Disable doze brightness handling every time
+sensors: Increase padding of _oem_msg struct to 264 bytes
 
 Notable ROM changes:
 ==============================
-Bring back Screenshot device key action
-Evolver: Bring back Custom statusbar logo customizations
-Evolver: Bring back Dynamic charging ripple switch
-Evolver: Bring back Fingerprint authentication vibration
-Evolver: Bring back QS tile layout settings
-Evolver: Bring back Statusbar clock customizations
-Evolver: Bring back brightness slider shapes
-Evolver: Bring back customization to select QS tile shape
-Evolver: Bring back daily data usage in QS footer
-Evolver: Bring back toggle to disable charging animation
-Evolver: Bring back toggle to enable brightness slider haptic feedback
-OmniJaws: Memory leaks solution
-OmniJaws: Remove compound listener
-OmniJaws: Switch to material expressive design for preferences
-Settings: Bring back Bluetooth and Wi-Fi timeout feature
-Settings: Bring back changing back gesture height
-Settings: Bring back choosing a custom vibration pattern
-Settings: Bring back vibration patterns from OOS
-Settings: Hide headsup toggle
-SystemUI: Add Charging ripple styles
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Add nothing os charging animation
-SystemUI: Add pixel style lockscreen weather based OmniJaws
-SystemUI: Add proper toggle for smartspace
-SystemUI: Move privacy indicator switches to statusbar tuner
-fixup! Battery Styles: Add BatteryBar
-fixup! SystemUI: Introduce Adaptive Playback
+Add Fix Bluetooth status display issue after power cycle
+Fixes an issue where the lockscreen clock would display the incorrect time after a SystemUI restart or hot reload
+Remove Duplicate WIFI_DISPLAY permission entry
+Settings: Implement localepicker from SettingsGoogle
+SettingsLib: Don't show system overlays on apps list
+SystemUI: Align Smartspace DataProviders with updated BcSmartspaceDataPlugin API
+SystemUI: re enable KeyguardSliceProvider
+device_config: Update smartspace flags to QPR1
+extras: Set preference-ktx minSdkVersion to 23
+gms: Bring back DeviceIntelligenceNetworkPrebuilt
+version: Downrev to 11.5.2
