@@ -1,4 +1,20 @@
-====== Evolution X 11 =========
-- Android 16 For gta4xlwifi
-- Clean flash recommended
-#keepevolving
+This is Android 16 with December 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 11.4.2
+
+Notable ROM changes:
+==============================
+Dexpreopt pixel launcher
+New now playing QS tile and updated lockscreen UI
+Overlay: Update default wallpaper from Pixel 10 Pro XL
+overlay: Use google sans flex for lockscreen clock
+config: properties: Add pihooks default values
+component-overrides: Force disable various google components
+PixelPropsUtils: Update fingerprints to December 2025 release
