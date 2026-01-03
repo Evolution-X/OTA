@@ -11,34 +11,33 @@ Notes:
 
 Device changes:
 ==============================
-None
+Opt out of speaker_layout_channel_mask field
+Update Dolby UI (credits to Ghosuto and kenway214)
+Update blobs from diting OS2.0.206.0.VLFMIXM
 
 Notable ROM changes:
 ==============================
-Bring back Screenshot device key action
-Evolver: Bring back Custom statusbar logo customizations
-Evolver: Bring back Dynamic charging ripple switch
-Evolver: Bring back Fingerprint authentication vibration
-Evolver: Bring back QS tile layout settings
-Evolver: Bring back Statusbar clock customizations
-Evolver: Bring back brightness slider shapes
-Evolver: Bring back customization to select QS tile shape
-Evolver: Bring back daily data usage in QS footer
-Evolver: Bring back toggle to disable charging animation
-Evolver: Bring back toggle to enable brightness slider haptic feedback
-OmniJaws: Memory leaks solution
-OmniJaws: Remove compound listener
-OmniJaws: Switch to material expressive design for preferences
-Settings: Bring back Bluetooth and Wi-Fi timeout feature
-Settings: Bring back changing back gesture height
-Settings: Bring back choosing a custom vibration pattern
-Settings: Bring back vibration patterns from OOS
-Settings: Hide headsup toggle
-SystemUI: Add Charging ripple styles
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Add nothing os charging animation
-SystemUI: Add pixel style lockscreen weather based OmniJaws
-SystemUI: Add proper toggle for smartspace
-SystemUI: Move privacy indicator switches to statusbar tuner
-fixup! Battery Styles: Add BatteryBar
-fixup! SystemUI: Introduce Adaptive Playback
+Evolver: Add back QS Header Image customization
+Evolver: Add back Sensor block per-package switch
+Evolver: Add monet settings illustration
+Evolver: Add nothing os charging animation
+Evolver: Add proper toggle for smartspace
+Evolver: Allow tuning extra padding for statusbar layout
+Evolver: Initial battery styles
+Evolver: Make sensor block package list configurable
+Evolver: Remove carrier name setting if not supported
+Fix NullPointerException in PackageManagerService
+Reduce unnecessary calls to getLatestVsyncEventData
+Settings: Add Device codename to Firmware version window
+SystemUI: Fix keyguard back button background
+Update translations
+aconfig: Disable notification_background_tint_optimization
+config: Build BatteryStatsViewer
+extras: Update google sans flex fonts
+gms: Add nowplaying.xml sysconfig file
+gms: CustomizationBundlePrebuilt -> CustomizationBundlePrebuiltFullVersion
+gms: Drop DeviceIntelligenceNetworkPrebuilt and HealthIntelligencePrebuilt
+pixel-style: Use google sans flex for lockscreen clock
+pixel-style: fixup! use gesture navigation by default
+pixel-style: remove Pixel tethering overlay
+recovery: Fix scrolling when touch is rotated
