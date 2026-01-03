@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "",
+      "currently_maintained": false,
+      "oem": "",
+      "device": "",
+      "filename": "EvolutionX-16.0-20260102-gta4xlwifi-11.4.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/gta4xlwifi/16_vanilla/EvolutionX-16.0-20260102-gta4xlwifi-11.4.2-Vanilla-Official.zip/download",
+      "timestamp": 1767370822,
+      "md5": "5392b2883ceac29c1620f273f651b9ed",
+      "sha256": "bb311c06040bc2df9de645bee83ad10a35e24e9fdac2e4c68683c9d682b7c068",
+      "size": 1362512168,
+      "version": "11.4.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "",
+      "initial_installation_images": [],
+      "extra_images": []
+    }
+  ]
+}
