@@ -5,19 +5,21 @@
       "currently_maintained": true,
       "oem": "Nothing",
       "device": "Phone (2)",
-      "filename": "EvolutionX-16.0-20250923-Pong-11.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/Pong/16/EvolutionX-16.0-20250923-Pong-11.2-Official.zip/download",
-      "timestamp": 1758642995,
-      "md5": "2286550e9546d8a59100c0da952e1c2c",
-      "sha256": "026a0c5a0a304640a8da3979528da66e6a572ad992554fc94e40b389fc2fc4aa",
-      "size": 3148536716,
-      "version": "11.2",
+      "filename": "EvolutionX-16.0-20251216-Pong-11.4.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/Pong/16/EvolutionX-16.0-20251216-Pong-11.4.2-Official.zip/download",
+      "timestamp": 1767891448,
+      "md5": "5b61e3f6445bbb759725abaccef7bcd7",
+      "sha256": "244b253f9e2807da976089391bc3e4f8a0ec899f85f64bd09941c15f70c65fa7",
+      "size": 3164537434,
+      "version": "11.4.2",
       "buildtype": "userdebug",
       "forum": "",
       "firmware": "",
       "paypal": "https://paypal.me/zerotohiro",
       "github": "joshuah345",
-      "initial_installation_images": ["recovery"],
+      "initial_installation_images": [
+        "recovery"
+      ],
       "extra_images": []
     }
   ]
