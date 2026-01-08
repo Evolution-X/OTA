@@ -1,4 +1,13 @@
-==== September 23, 2025 ====
-- Initial A16 Build
-- Build simulated nothing charge service
-- Build audio stack from source
+This is Android 16 with December 2025 security patches
+
+Notes:
+==============================
+- Use NOS 3.2 Firmware!
+
+Device changes:
+==============================
+- Set RKP properties- Update Glyph interface implementation
+
+Notable ROM changes:
+==============================
+- Update to Evolution X 11.4.2
