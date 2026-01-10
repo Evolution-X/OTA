@@ -11,20 +11,17 @@ Notes:
 
 Device changes:
 ==============================
-Build gamebar package
-Disable doze brightness handling every time
-sensors: Increase padding of _oem_msg struct to 264 bytes
+Update blobs from OS2.0.216.0.VMRMIXM
+sensors: Use unique_ptr for _oem_msg to avoid memory leaks
 
 Notable ROM changes:
 ==============================
-Add Fix Bluetooth status display issue after power cycle
-Fixes an issue where the lockscreen clock would display the incorrect time after a SystemUI restart or hot reload
-Remove Duplicate WIFI_DISPLAY permission entry
-Settings: Implement localepicker from SettingsGoogle
-SettingsLib: Don't show system overlays on apps list
-SystemUI: Align Smartspace DataProviders with updated BcSmartspaceDataPlugin API
-SystemUI: re enable KeyguardSliceProvider
-device_config: Update smartspace flags to QPR1
-extras: Set preference-ktx minSdkVersion to 23
-gms: Bring back DeviceIntelligenceNetworkPrebuilt
-version: Downrev to 11.5.2
+Evolver: Allow user to turn off vbmeta digest update
+Settings: Adding multi-media focus support
+SystemUI: smartspace: Open google weather on tapping smartspace
+SystemUI: smartspace: fix media view mistake
+SystemUI: smartspace: refactor dagger
+explicit launcher force stop whitelist
+fixing ShadeDialogContextRepo crash
+fixing app directory access
+skipping screen off animation controller for fast animation settings
