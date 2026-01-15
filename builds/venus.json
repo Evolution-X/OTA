@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Joey",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 11",
       "filename": "EvolutionX-16.0-20260107-venus-11.6-Official.zip",
