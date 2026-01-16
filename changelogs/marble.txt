@@ -1,4 +1,7 @@
-This is Android 16 QPR1 with January 2026 security patches
+This is Android 16 QPR2 with January 2026 security patches
+
+CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 DEPENDS PER USER
+MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
 
 Notes:
 ==============================
@@ -11,17 +14,23 @@ Notes:
 
 Device changes:
 ==============================
-Update blobs from OS2.0.216.0.VMRMIXM
-sensors: Use unique_ptr for _oem_msg to avoid memory leaks
+Label persist.vendor.audio.scenario property
+Update old Dolby to M3E design
+dolby: switch to HW blobs
 
 Notable ROM changes:
 ==============================
-Evolver: Allow user to turn off vbmeta digest update
-Settings: Adding multi-media focus support
-SystemUI: smartspace: Open google weather on tapping smartspace
-SystemUI: smartspace: fix media view mistake
-SystemUI: smartspace: refactor dagger
-explicit launcher force stop whitelist
-fixing ShadeDialogContextRepo crash
-fixing app directory access
-skipping screen off animation controller for fast animation settings
+ApplicationPackageManager: Drop tensor spoof prop
+BLASTBufferQueue: Add epoll_pwait2 fallback for older kernels
+Evolver: Bring back kill app through notification guts and compact heads up notifs
+Evolver: Drop tensor spoof
+Evolver: Implement Play Store spoofing
+Evolver: Kill only relevant processes on spoofing settings change
+Evolver: Show SystemUI restart dialog for required preferences
+LineageSettings: Allow disabling window blurs by default
+MediaCodec: Use proper surface when creating PersistentSurface
+Systemui: force black shade for black theme
+aconfig: Fix notification_background_tint_optimization filename
+audio: force IN_COMMUNICATION when routing calls to BT SCO
+fixup! Settings: doze brightness customization
+release: disable new dozing keyguard states
