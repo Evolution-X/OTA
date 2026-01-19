@@ -1,6 +1,6 @@
 This is Android 16 QPR2 with January 2026 security patches
 
-CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 WILL NOT WORK
+CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 DEPENDS PER USER
 MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
 
 Notes:
@@ -14,73 +14,18 @@ Notes:
 
 Device changes:
 ==============================
-Add com.android.bluetooth context to seapp_contexts
-Disable doze brightness handling every time
-Patch qccsyshal to load versioned libprotobuf
-Patch some blobs to depend on libtinyxml2-v34.so
-Update Dolby Atmos UI (credits to Ghosuto)
-Update kernel to 5.10.246
-sensors: Allow access to display's sysfs
+Label persist.vendor.audio.scenario property
+Revert back to old Dolby without M3E design
+dolby: switch to HW blobs
 
 Notable ROM changes:
 ==============================
-CarrierConfigManager: Gracefully handle missing CarrierConfigLoader
-Evolver: Bring back QS tile haptics toggle
-Evolver: Bring back toggle for secure tiles on keyguard
-Evolver: Disable media squiggle toggle
-Evolver: Disable screen off animation toggle
-Evolver: Disable status bar brightness control
-PixelPropsUtils: Update fingerprints to January 2026 release
-Reduce thread scheduling overhead
-SafetyCenterUtils: This function is only used by tests
-SceneTransitionLayoutState: downgrade log spam to debug
-Settings: Add doze brightness customization
-Settings: Disable Bluetooth and Wi-Fi timeout features
-Settings: Disable hide arrow and haptic feedback for back gesture toggles
-Settings: Enable glanceble hub for all
-Settings: Fix updater crash on WiFI only devices
-Settings: Force disable top level support preference
-SystemUI: Blur the background of SysUI dialogs
-SystemUI: Fix DT2S gesture on lockscreen body with SceneContainer enabled
-SystemUI: Fix default font feature on lockscreen
-SystemUI: Fix ringer tile height and add DND toggle support
-SystemUI: Handle missing telephony service in DeviceBasedSatelliteRepository
-SystemUI: Require unlocking to use sensitive QS tiles
-SystemUI: Respect global setting for SysUI dialog blur
-SystemUI: SliderHaptics: Cache composed effects for primitives
-SystemUI: SliderHaptics: Clamp the pre-power sum in scaleOnDragTexture
-SystemUI: SliderHaptics: Tune the primitives
-SystemUI: Stop log spam for no-op magnetic row state changes
-SystemUI: Support legacy vibrator haptics for slider haptics as well
-SystemUI: VolumeDialog: Fix layout issues with left gravity
-SystemUI: drawable: Resize some system status icons
-SystemUI: force enable clock fidget animation
-SystemUI: make flashlight slider use primitive haptics if supported
-SystemUI: prevent crash on empty dozing indication
-aconfig: Disable notification_background_tint_optimization
-aconfig: Enable location indicator
-aconfig: enable media_controls_in_compose
-apex: update prebuilts to bp4a
-config: Move all properties to product
-config: Update PIF to Android 16 QPR3 Beta 2
-config: tablet: Disable desktop windowing mode
-debuggerd: Set correct version for tombstone
-device_config: Add back the long lost "Enter to Open app from search" feature
-device_config: Enable more smartspace features
-device_config: cleanup and update from 16 QPR2
-disable redundant indexing of WidgetsOnLockscreenFragment contents
-extras: Enable SystemUIClocks-Weather
-extras: SystemUIClocks: Update to mustang BP4A.251205.006
-fix an upstream infinite loop bug in ProtoFieldFilter.skipBytes()
-gms: QPR2 update (mustang BP4A.251205.006)
-l2cap: Use basic mode for edge case devices
-overlay: Convert Settings overlay to rro
-overlay: Enable Lockscreen widgets settings on mobile
-overlay: Enable UMO on the glanceable hub when media is playing for mobile also
-pixel-style: Enable Glancable Hub
-pixel-style: Enable locale picker enhancement and more
-pixel-style: overlay: Build overlays for WallpaperPicker2 (fixes wallpaper preview corners)
-release/aconfig: enable two SurfaceFlinger VRR flags
-release: Disable navbar_flip_order_option for now
-sepolicy: Allow systemui access to bluetooth_lea_prop
-sepolicy: Fix anykernel flashing on recovery
+ApplicationPackageManager: Drop tensor spoof prop
+Evolver: Bring back kill app through notification guts and compact heads up notifs
+Evolver: Drop tensor spoof
+Evolver: Show SystemUI restart dialog for required preferences
+LineageSettings: Allow disabling window blurs by default
+MediaCodec: Use proper surface when creating PersistentSurface
+Systemui: force black shade for black theme
+audio: force IN_COMMUNICATION when routing calls to BT SCO
+release: disable new dozing keyguard states
