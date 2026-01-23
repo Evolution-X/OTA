@@ -14,23 +14,19 @@ Notes:
 
 Device changes:
 ==============================
-Label persist.vendor.audio.scenario property
-Update old Dolby to M3E design
-dolby: switch to HW blobs
+overlay: Remove Dialer overlay
 
 Notable ROM changes:
 ==============================
-ApplicationPackageManager: Drop tensor spoof prop
-BLASTBufferQueue: Add epoll_pwait2 fallback for older kernels
-Evolver: Bring back kill app through notification guts and compact heads up notifs
-Evolver: Drop tensor spoof
-Evolver: Implement Play Store spoofing
-Evolver: Kill only relevant processes on spoofing settings change
-Evolver: Show SystemUI restart dialog for required preferences
-LineageSettings: Allow disabling window blurs by default
-MediaCodec: Use proper surface when creating PersistentSurface
-Systemui: force black shade for black theme
-aconfig: Fix notification_background_tint_optimization filename
-audio: force IN_COMMUNICATION when routing calls to BT SCO
-fixup! Settings: doze brightness customization
-release: disable new dozing keyguard states
+Evolver: Implement automatic PIF property fetching
+MediaFocusControl: fixing media focus issues
+SystemUI: Fix PUBG max refresh rate issue
+SystemUI: fixing keyguard slice provider crashes
+Update translations
+fixup! Camera: Allow setting fallback physical ID for logical camera
+fixup! build: Override host metadata
+fixup! fixing force full screen feature
+gms: Build pixel experience XMLs only for their respective model years (fixes battery drain)
+lineage-sdk: fixing force full screen feature
+release: Disable media_carousel_arrows flag
+sepolicy: fixing dex2oat denials
