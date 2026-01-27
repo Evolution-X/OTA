@@ -14,19 +14,21 @@ Notes:
 
 Device changes:
 ==============================
-overlay: Remove Dialer overlay
+parts: Revamp per-app config UI with search and new layout
 
 Notable ROM changes:
 ==============================
-Evolver: Implement automatic PIF property fetching
-MediaFocusControl: fixing media focus issues
-SystemUI: Fix PUBG max refresh rate issue
-SystemUI: fixing keyguard slice provider crashes
-Update translations
-fixup! Camera: Allow setting fallback physical ID for logical camera
-fixup! build: Override host metadata
-fixup! fixing force full screen feature
-gms: Build pixel experience XMLs only for their respective model years (fixes battery drain)
-lineage-sdk: fixing force full screen feature
-release: Disable media_carousel_arrows flag
-sepolicy: fixing dex2oat denials
+LMOFreeform: Refactor touch scaling to use MotionEvent transform
+Settings: Do not rely on androidx.preference_preference-ktx
+Settings: Remove flag check for blur toggle
+bpfloader: Allow overriding kernel version
+bionic: Fix align usage for fast lookup hosts file data
+bionic: Sort and cache hosts file data for fast lookup
+bionic: Support wildcards in cached hosts file
+extras: Remove preference_preference-ktx library prebuilt
+getaddrinfo: Use Cloudflare DNS instead of Google DNS
+iconloaderlib: Update themed icons color palette
+nativedisplay: fix the flicker issue in streaming video
+netbpfload: Relax kernel version requirement
+sidebar: Update sidebar default customization values
+soong: Allow various path commands
