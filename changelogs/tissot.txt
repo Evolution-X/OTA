@@ -1,8 +1,7 @@
-This is Android 14 with December 2025 security patches
+This is Android 14 with January 2026 security patches
 
 Notes:
 ==============================
-- Final build
 - LineageOS-based source. Signed build. Gapps version.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
@@ -13,4 +12,4 @@ None
 
 Notable ROM changes:
 ==============================
-Merge December 2025 security patches
+Merge January 2026 security patches
