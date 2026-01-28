@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 9",
+      "filename": "EvolutionX-16.0-20260128-cepheus-11.5.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/cepheus/16_vanilla/EvolutionX-16.0-20260128-cepheus-11.5.2-Vanilla-Official.zip/download",
+      "timestamp": 1769601490,
+      "md5": "f68d9a9e244f10635da071de9af8206c",
+      "sha256": "721a2ab3c204c3c251fcb28c07772331b024bcae1c478bac66c5b79ecd7338bd",
+      "size": 2050011759,
+      "version": "11.5.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-cepheus-retrofit-official-evolution-x-08-16-25.4754936/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/cepheus/stable/V12.5.6.0.RFACNXM/",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
