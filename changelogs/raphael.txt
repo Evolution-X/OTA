@@ -1,4 +1,7 @@
-This is initial Android 16 with November 2025 security patches
+This is Android 16 QPR2 with January 2026 security patches
+
+CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 DEPENDS PER USER
+MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
 
 Notes:
 ==============================
@@ -8,25 +11,8 @@ Notes:
 
 Device changes:
 ==============================
-None
+Switch to trees maintained by @Firebird11
 
 Notable ROM changes:
 ==============================
-Evolver: Add sparkle pulse renderer style
-Evolver: Add support for custom fonts
-Evolver: Expose floating rotation button toggle
-Evolver: Remove preferences when not supported
-Introduce LMOSystemUIClock styles
-Merge November 2025 security patches
-Remove built-in keybox overlay
-Revert to previous refresh rate manager implementation
-SystemUI: Do not change compose panel anchor when shade blur is disabled
-SystemUI: Fix keyguard transition race conditions
-SystemUI: Prevent NPE when header view not ready
-SystemUI: Prevent ShadeListBuilder illegal state on notification dump
-build: Remove su
-config: Build LMO systemui clock plugin
-config: Update pihooks fp to A16 QPR2 Beta 3.2
-extras: Add IBM Plex Sans font
-extras: Update configuration for sony sketch font
-services: Fixing fullscreen feature
+Initial Android 16 QPR2 release for raphael/raphaelin
