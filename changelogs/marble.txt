@@ -14,21 +14,15 @@ Notes:
 
 Device changes:
 ==============================
-parts: Revamp per-app config UI with search and new layout
+Disable AptX voice property (fixes BT call audio)
+Disable HWC for VDS except wfd
+Set shipping API level to 33
+overlay: Convert config_screenBrightnessDoze to float
 
 Notable ROM changes:
 ==============================
-LMOFreeform: Refactor touch scaling to use MotionEvent transform
-Settings: Do not rely on androidx.preference_preference-ktx
-Settings: Remove flag check for blur toggle
-bpfloader: Allow overriding kernel version
-bionic: Fix align usage for fast lookup hosts file data
-bionic: Sort and cache hosts file data for fast lookup
-bionic: Support wildcards in cached hosts file
-extras: Remove preference_preference-ktx library prebuilt
-getaddrinfo: Use Cloudflare DNS instead of Google DNS
-iconloaderlib: Update themed icons color palette
-nativedisplay: fix the flicker issue in streaming video
-netbpfload: Relax kernel version requirement
-sidebar: Update sidebar default customization values
-soong: Allow various path commands
+PixelPropsUtils: Enable tensor features for new Pixel prebuilts
+Settings: Adapt Google battery saver changes to A16 QPR2
+SystemUI: Apply tile shape customization to Ringer Slider
+SystemUI: update ringer tile background color
+fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity
