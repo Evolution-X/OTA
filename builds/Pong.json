@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "maintainer": "",
+      "currently_maintained": false,
+      "oem": "",
+      "device": "",
+      "filename": "EvolutionX-16.0-20260202-Pong-11.5.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/Pong/16_vanilla/EvolutionX-16.0-20260202-Pong-11.5.2-Vanilla-Official.zip/download",
+      "timestamp": 1770012965,
+      "md5": "ba2aada6a5b549bd552e3d843d97b97a",
+      "sha256": "c8d4672bf0ce387b15d9063107c10e76d7cd18c3e7b12cabf3cae6126e5daff3",
+      "size": 2251088150,
+      "version": "11.5.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "",
+      "initial_installation_images": [],
+      "extra_images": []
+    }
+  ]
+}
