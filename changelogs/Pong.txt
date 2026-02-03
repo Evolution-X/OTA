@@ -1,13 +1,22 @@
-This is Android 16 with December 2025 security patches
+This is Android 16 (QPR1) with January 2026 security patches
 
 Notes:
 ==============================
-- Use NOS 3.2 Firmware!
+- Firmware is included, no need to flash (NOS 4.0)
 
 Device changes:
 ==============================
-- Set RKP properties- Update Glyph interface implementation
-
-Notable ROM changes:
-==============================
-- Update to Evolution X 11.4.2
+- Update to Evolution X 11.5.2
+- Initial QPR1 Build
+- Switch to NullDebris fork of Glyph Interface
+ -- Add option to live preview animations
+ -- Add option to play animations in reverse
+ -- Fix glyph schedule preference not saving
+ -- Import icon for Glyph torch tile
+ -- Improve glyph music visualizer
+ -- Implement glyph progress
+ -- Add option for Glyph to follow battery saver
+ -- Add option to disable Flip to glyph animation
+- Switch to Ryuusei kernel (5.10.248)
+- Switch to Lunaris Dolby
+- Implement thermal limiter option in Device Extras
