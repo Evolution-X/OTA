@@ -1,28 +1,22 @@
-This is Android 16 QPR2 with January 2026 security patches
+This is Android 16 QPR2 with February 2026 security patches
 
-CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 DEPENDS PER USER
-MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
+DIRTY FLASH FROM QPR1 NOW WORKS!
 
 Notes:
 ==============================
 - Install the latest HyperOS 2 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/16/Evo-11.x-5.10.245-KSU-Next-v1.1.1-susfs-1.5.12.zip/download) for root.
+- Visit XDA (https://xdaforums.com/t/rom-16-qpr2-marble-official-evolution-x-02-03-26.4709959/post-89870548) for the latest KSU next root zip.
 - Includes POCO camera and Dolby Atmos.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Disable AptX voice property (fixes BT call audio)
-Disable HWC for VDS except wfd
-Set shipping API level to 33
-overlay: Convert config_screenBrightnessDoze to float
+Fixed dirty flash issue from QPR1
+Update blobs from OS2.0.218.0.VMRMIXM
 
 Notable ROM changes:
 ==============================
-PixelPropsUtils: Enable tensor features for new Pixel prebuilts
-Settings: Adapt Google battery saver changes to A16 QPR2
-SystemUI: Apply tile shape customization to Ringer Slider
-SystemUI: update ringer tile background color
-fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity
+Merge February 2026 security patches
+version: Uprev to 11.6.1
