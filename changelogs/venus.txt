@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with January 2026 security patches
+This is Android 16 QPR2 with February 2026 security patches
 
 Notes:
 ==============================
@@ -10,24 +10,18 @@ Notes:
 
 Device changes:
 ==============================
-Add GraphicBufferSource shim for libcodec2_hidl
-Add com.android.bluetooth context to seapp_contexts
-Depend on android.hardware.graphics.common-V7
-Disable ELF checks for libwfdservice
-Opt out of speaker_layout_channel_mask field
-Override kernel BPF version to 5.4.299
-Patch some blobs to depend on libtinyxml2-v34.so
-Remove vendor/lineage device framework matrix inclusion
-Shim libcodec2_hidl with libbase_shim
-Shim libwfdservice with libaudioclient_shim
-Switch to DolbyAtmos
-Update some soong config variables to bool type
-Use prebuilt libui for libcodec2_hidl@1.0_sp.so
-parts: Apply Expressive theme
-parts: Defer applying divider
-parts: Switch to SwitchPreferenceCompat
-sepolicy: Drop duplicate genfs_contexts entries
+None
 
 Notable ROM changes:
 ==============================
-Initial Android 16 QPR2 for Xiaomi Mi 11
+Merge February 2026 security patches
+PixelPropsUtils: Update fingerprints to February 2026 release
+SmartSpace: Mark strings as non-translatable
+SystemUI: Allow ambient wallpaper on pulsing
+SystemUI: Prevent indicator text cutting off in biometric prompt
+SystemUI: Update black theme package overlay
+base: Use SingleKeyRule for assist long press
+fixup! aapt: Use a std::map instead of a SortedVector
+use shared bitmaps in MediaMetadata to avoid Binder failures
+version: Uprev to 11.6.1
+wm: Only close system dialogs for visible windows
