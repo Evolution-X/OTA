@@ -13,10 +13,25 @@ Notes:
 
 Device changes:
 ==============================
-Fixed dirty flash issue from QPR1
-Update blobs from OS2.0.218.0.VMRMIXM
+Rework on Stock Audio HAL
+Pin Audio blobs from marble
+parts: Drop per-app refresh rate
 
 Notable ROM changes:
 ==============================
-Merge February 2026 security patches
-version: Uprev to 11.6.1
+EdgeLight: Make it work independent of ambient display notifications
+Evolver: Re-enable Edge light feature
+MediaArt: Allow lockscreen media art on landscape
+MediaArt: Improve updates logic for MediaSessionManager
+MediaArt: Register tunable for all users
+PixelPropsUtils: Update fingerprints to February 2026 release
+Rework Refresh rate impl and bring back extreme refresh rate
+SettingsProvider: Fix NPE when upgrading
+SmartSpace: Mark strings as non-translatable
+SystemUI: Allow ambient wallpaper on pulsing
+SystemUI: Prevent indicator text cutting off in biometric prompt
+SystemUI: TunerActivity: Remove vibrate icon if not supported
+base: Allow tuning app switch key regardless hw key
+base: Use SingleKeyRule for assist long press
+use shared bitmaps in MediaMetadata to avoid Binder failures
+wm: Only close system dialogs for visible windows
