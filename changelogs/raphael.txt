@@ -11,19 +11,27 @@ Notes:
 
 Device changes:
 ==============================
-Fix call audio issue
+Disable FRP
+Fix camera for raphaelin devices
+Fix display flicker issues
+Update dimensions
+Add libaudioclient_shim.sm8150 for libwfdservice
 
 Notable ROM changes:
 ==============================
-Merge February 2026 security patches
+EdgeLight: Make it work independent of ambient display notifications
+Evolver: Re-enable Edge light feature
+MediaArt: Allow lockscreen media art on landscape
+MediaArt: Improve updates logic for MediaSessionManager
+MediaArt: Register tunable for all users
 PixelPropsUtils: Update fingerprints to February 2026 release
-Settings: Bring back Extreme Battery saver
+Rework Refresh rate impl and bring back extreme refresh rate
+SettingsProvider: Fix NPE when upgrading
 SmartSpace: Mark strings as non-translatable
 SystemUI: Allow ambient wallpaper on pulsing
 SystemUI: Prevent indicator text cutting off in biometric prompt
-SystemUI: Update black theme package overlay
+SystemUI: TunerActivity: Remove vibrate icon if not supported
+base: Allow tuning app switch key regardless hw key
 base: Use SingleKeyRule for assist long press
-fixup! aapt: Use a std::map instead of a SortedVector
 use shared bitmaps in MediaMetadata to avoid Binder failures
-version: Uprev to 11.6.1
 wm: Only close system dialogs for visible windows
