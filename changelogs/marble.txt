@@ -13,25 +13,46 @@ Notes:
 
 Device changes:
 ==============================
-Rework on Stock Audio HAL
-Pin Audio blobs from marble
-parts: Drop per-app refresh rate
+Unlock max prime cpu freq in default thermal profile
+Update blobs from OS2.0.218.0.VMRMIXM
+powerhint: limit idle blocking and scheduler overrides to active phases
 
 Notable ROM changes:
 ==============================
-EdgeLight: Make it work independent of ambient display notifications
-Evolver: Re-enable Edge light feature
-MediaArt: Allow lockscreen media art on landscape
-MediaArt: Improve updates logic for MediaSessionManager
-MediaArt: Register tunable for all users
-PixelPropsUtils: Update fingerprints to February 2026 release
-Rework Refresh rate impl and bring back extreme refresh rate
-SettingsProvider: Fix NPE when upgrading
-SmartSpace: Mark strings as non-translatable
-SystemUI: Allow ambient wallpaper on pulsing
-SystemUI: Prevent indicator text cutting off in biometric prompt
-SystemUI: TunerActivity: Remove vibrate icon if not supported
-base: Allow tuning app switch key regardless hw key
-base: Use SingleKeyRule for assist long press
-use shared bitmaps in MediaMetadata to avoid Binder failures
-wm: Only close system dialogs for visible windows
+AconfigFlags: silence missing packages spam
+ChargingControl: Show notification if device is charging
+Evolver: Add Flashlight blink on incoming calls
+Evolver: Bring back some power menu customization
+Evolver: Get rid of BT dialog toggle
+Evolver: Statusbar clock background chip styles
+Fix NavBar haptic feedback after Bluetooth device disconnect
+Fix boot race in NotificationManagerService
+Fix check for pinned shortcut in ShortcutRequestPinProcessor
+Fix crash with protected content with ElectronBeam/Scale screen-off animation
+ProgressIndicator: format code
+Pulse: fix crash
+Settings: Add icon for WEP in wifi network settings
+Settings: Add icon for emergency broadcasts
+Settings: Hide back haptics setting if not supported
+Settings: support per-app volume
+SettingsLib: shrink 4g+ icon
+SettingsState: downgrade flags spam to warning
+SystemUI: Adapt refresh rate tile for new A16 QS
+SystemUI: Add toggle for media squiggle animation
+SystemUI: Allow toggling privacy indicators [1/2]
+SystemUI: Do not set white only for outline bg clock styles
+SystemUI: Kill old privacy indicator icons completely
+SystemUI: On-The-Go Mode (1/2)
+SystemUI: QS: Add On-The-Go Tile
+SystemUI: Statusbar clock background chip styles [1/2]
+SystemUI: fix roaming icon
+aconfig: Enable eyedropper
+base: Add DND & Rate settings to flash on call [1/3]
+base: Add Flashlight blink on incoming calls [1/3]
+base: make per-app work with multi audio focus
+base: support per-app volume [2/3]
+fixup! Statusbar clock customizations
+fwb: Screen off animations [1/2]
+fwb: stop performance hint spam
+sepolicy: Add rules to allow powerhal accessing IStates AIDL
+sepolicy: libperfmgr: Grant access to IStats service for metrics
