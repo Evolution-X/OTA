@@ -5,22 +5,23 @@
       "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 4a 5G",
-      "filename": "EvolutionX-15.0-20251006-bramble-10.9-Vanilla-Official.zip",
-      "download": "https://cdn.evolution-x.org/bramble/15_vanilla/EvolutionX-15.0-20251006-bramble-10.9-Vanilla-Official.zip/download",
-      "timestamp": 1759776411,
-      "md5": "72c9f90a283e661c789e0be647158e16",
-      "sha256": "98fd2e32e509fd16caa48c8404433cac26562e3e4158cfdd21895d355de239dd",
-      "size": 1354560028,
-      "version": "10.9",
+      "filename": "EvolutionX-16.0-20260207-bramble-11.5.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/bramble/16_vanilla/EvolutionX-16.0-20260207-bramble-11.5.3-Vanilla-Official.zip/download",
+      "timestamp": 1770486562,
+      "md5": "7e2f607723a653a9c40441cabf7eeb3d",
+      "sha256": "31a1a876d159762ef5b06484093dcb469eb5dc02c88aef53834aee979f1e3390",
+      "size": 1318765773,
+      "version": "11.5.3",
       "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-for-pixel-4a-5g-bramble.4758419",
+      "forum": "https://xdaforums.com/t/rom-16-official-evolution-x-for-pixel-4a-5g-bramble.4758677/",
       "firmware": "",
       "paypal": "https://paypal.me/aseketeli",
       "github": "apelete",
       "initial_installation_images": [
         "boot",
         "dtbo",
-        "vendor_boot"],
+        "vendor_boot"
+      ],
       "extra_images": []
     }
   ]
