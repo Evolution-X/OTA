@@ -1,4 +1,4 @@
-This is Android 16 with December 2025 security patches
+This is Android 16 with February 2026 security patches
 
 Notes:
 ==============================
@@ -7,7 +7,11 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.4.2
+- Update to Evolution X 11.5.3
+- Build AOSPA Dolby
+- Added XiaomiParts
+- Force disable low ram config
+- Disable EGL image tracking
 
 Notable ROM changes:
 ==============================
