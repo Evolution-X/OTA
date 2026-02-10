@@ -1,4 +1,4 @@
-This is Android 16 QPR1 with January 2025 security patches
+This is Android 16 with February 2026 security patches
 
 Notes:
 ==============================
@@ -7,12 +7,7 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.5.2
-- Update blobs to OS2.0.20.0.UMSCNXM
-- Switch to Dolby Atmos of OnePlus
-- Switch to QTI Wfd
-- Update display stack from sunstone V816.0.8.0.UMQMIXM
-- Use Redwood adreno stack ( v530.57 )
+- Update to Evolution X 11.5.3
 
 Notable ROM changes:
 ==============================
