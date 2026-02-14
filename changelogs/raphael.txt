@@ -11,27 +11,40 @@ Notes:
 
 Device changes:
 ==============================
-Disable FRP
-Fix camera for raphaelin devices
-Fix display flicker issues
-Update dimensions
-Add libaudioclient_shim.sm8150 for libwfdservice
+Fix status bar paddings
+overlay: Define OEM fast charge sysfs node
 
 Notable ROM changes:
 ==============================
-EdgeLight: Make it work independent of ambient display notifications
-Evolver: Re-enable Edge light feature
-MediaArt: Allow lockscreen media art on landscape
-MediaArt: Improve updates logic for MediaSessionManager
-MediaArt: Register tunable for all users
-PixelPropsUtils: Update fingerprints to February 2026 release
-Rework Refresh rate impl and bring back extreme refresh rate
-SettingsProvider: Fix NPE when upgrading
-SmartSpace: Mark strings as non-translatable
-SystemUI: Allow ambient wallpaper on pulsing
-SystemUI: Prevent indicator text cutting off in biometric prompt
-SystemUI: TunerActivity: Remove vibrate icon if not supported
-base: Allow tuning app switch key regardless hw key
-base: Use SingleKeyRule for assist long press
-use shared bitmaps in MediaMetadata to avoid Binder failures
-wm: Only close system dialogs for visible windows
+Disable schedstats
+Evolver: Extend QS Header Image to support animated GIF/WEBP
+Evolver: Fix haptic options missing in QS category
+Fix reading build props on devices with legacy partition layout
+HWComposer: Silence duplicate VSYNC logspam
+Settings: VolumeDialog: Add toggle for haptic feedback
+SystemUI: Fix QS customizer corner radius
+SystemUI: Fix edge light, media art, pulse on ambient display, now playing
+SystemUI: Fix imageloader spam in BrightnessSliderViewModel
+SystemUI: Fix wifi tile showing mobile data carrier name
+SystemUI: Move privacy indicator switches to statusbar tuner
+SystemUI: Move right logo in statusbar to extreme right
+SystemUI: Start QS header animation only on expanding
+SystemUI: Use privacy_chip_background for charger indicator bg
+Update CE storage handling in StorageManagerService (Fixes Android/data folder creation on some apps dues to race condition)
+Use proper value for default multi-media focus
+VolumeHaptics: Tune the primitives0
+audio: add message MSG_L_BT_ACTIVE_DEVICE_CHANGE_EXT to messageMutesMusic logic
+base: Use EFFECT_DOUBLE_CLICK for camera launch feedback
+config: Update pihooks default values
+keybox: add real vbmeta digest
+recovery: Add support for AIDL bootcontrol HAL in slot switch option
+recovery: Do not print switch slot info without actually switching a slot
+recovery: add support for changing slots
+recovery: rewrite slot switch logic using bootcontrol APIs
+services: Fixing per-app volume ux
+soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
+soong: Add support for vendor tag with client package name to select
+surfaceflinger: Ignore when getLuts is unsupported
+surfaceflinger: Lower DisplayModeController log verbosity
+surfaceflinger: allow overriding FrameRateCategoryRateHigh
+surfaceflinger: allow overriding min supported frame rate
