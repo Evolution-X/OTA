@@ -13,17 +13,36 @@ Notes:
 
 Device changes:
 ==============================
-Drop custom ambient display overlay
-Update fingerprints
+Optimize Gaming and Default thermal profiles (pabloescobar-reborn)
+Set target high frame rate of 120
+Set target min supported frame rate of 60
+parts: added ru localization
+powerhint: tune cpu_dma_latency on launch (beingashwani)
+powerhint: tune launch and uclamp durations (beingashwani)
+props: Disable vendor.audio.feature.kpi_optimize.enable
+sepolicy: allow power HAL to access cpu_dma_latency
 
 Notable ROM changes:
 ==============================
-Evolver: Fix haptic options missing in QS category
-Settings: VolumeDialog: Add toggle for haptic feedback
-SystemUI: Fix wifi tile showing mobile data carrier name
-SystemUI: Move privacy indicator switches to statusbar tuner
-base: Use EFFECT_DOUBLE_CLICK for camera launch feedback
-keybox: add real vbmeta digest
-services: Fixing per-app volume ux
-soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
-soong: Add support for vendor tag with client package name to select
+Disable schedstats
+Evolver: Bring back notification row transluency and translucent notifications on lockscreen toggles
+Evolver: Drop ongoing action chip feature
+Evolver: Extend QS Header Image to support animated GIF/WEBP
+HWComposer: Silence duplicate VSYNC logspam
+SystemUI: ConfigurationControllerImpl: Avoid NullPointerException
+SystemUI: Fix QS customizer corner radius
+SystemUI: Fix concurrent modification exception on config change
+SystemUI: Fix edge light, media art, pulse on ambient display, now playing
+SystemUI: Fix imageloader spam in BrightnessSliderViewModel
+SystemUI: Fix notification transparency issues
+SystemUI: Implement burn-in protection for statusbar
+SystemUI: Use privacy_chip_background for charger indicator bg
+Update CE storage handling in StorageManagerService (Fixes Android/data folder creation on some apps dues to race condition)
+Use proper value for default multi-media focus
+audio: add message MSG_L_BT_ACTIVE_DEVICE_CHANGE_EXT to messageMutesMusic logic
+config: Update pihooks default values
+recovery: Add support for AIDL bootcontrol HAL in slot switch option
+recovery: Do not print switch slot info without actually switching a slot
+recovery: add support for changing slots
+recovery: rewrite slot switch logic using bootcontrol APIs
+surfaceflinger: Lower DisplayModeController log verbosity
