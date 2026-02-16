@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 6",
+      "filename": "EvolutionX-16.0-20260214-oriole-11.5.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/oriole/16_vanilla/EvolutionX-16.0-20260214-oriole-11.5.3-Vanilla-Official.zip/download",
+      "timestamp": 1771104543,
+      "md5": "b0e04487f5b9820affaa3eb1da277f09",
+      "sha256": "da615ecacc6a4061d13b3409502e56f418e729c7e27cf49b91b310f5d7f1029b",
+      "size": 1597212418,
+      "version": "11.5.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/evolution-x-official-google-pixel-6-series.4779172/",
+      "firmware": "",
+      "paypal": "https://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
