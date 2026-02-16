@@ -1,0 +1,23 @@
+This is Android 16 QPR1 with February 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Initial Release for Evolution X Vanilla
+- New Maintainer Giovanni (TechPanelGM)
+
+Notable ROM changes:
+==============================
+Evolver: Allow user to turn off vbmeta digest update
+Settings: Adding multi-media focus support
+SystemUI: smartspace: Open google weather on tapping smartspace
+SystemUI: smartspace: fix media view mistake
+SystemUI: smartspace: refactor dagger
+explicit launcher force stop whitelist
+fixing ShadeDialogContextRepo crash
+fixing app directory access
+skipping screen off animation controller for fast animation settings
