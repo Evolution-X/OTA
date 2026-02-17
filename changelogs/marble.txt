@@ -25,10 +25,14 @@ sepolicy: allow power HAL to access cpu_dma_latency
 Notable ROM changes:
 ==============================
 Disable schedstats
+Evolver: Add three fingers swipe actions
 Evolver: Bring back notification row transluency and translucent notifications on lockscreen toggles
 Evolver: Drop ongoing action chip feature
 Evolver: Extend QS Header Image to support animated GIF/WEBP
+Evolver: Introduce shake gesture
 HWComposer: Silence duplicate VSYNC logspam
+PermissionController: Add missing permission groups
+SystemUI: Add charging bolt indicator for text-only battery style
 SystemUI: ConfigurationControllerImpl: Avoid NullPointerException
 SystemUI: Fix QS customizer corner radius
 SystemUI: Fix concurrent modification exception on config change
