@@ -17,10 +17,11 @@
       "firmware": "",
       "paypal": "",
       "github": "yograts-playground",
-      "initial_installation_images": [],
-      "extra_images": [
-        "boot"
-      ]
+      "initial_installation_images": [
+        "boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
     }
   ]
 }
