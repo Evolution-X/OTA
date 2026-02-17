@@ -11,16 +11,22 @@ Notes:
 
 Device changes:
 ==============================
-Fix status bar paddings
-overlay: Define OEM fast charge sysfs node
+Upgrade IRadio version to 1.5
+overlay: Disable high performance transitions
+overlay: Reduce blur radius
+overlay-lineage: Disable blurs by default
 
 Notable ROM changes:
 ==============================
 Disable schedstats
+Evolver: Add three fingers swipe actions
 Evolver: Extend QS Header Image to support animated GIF/WEBP
 Evolver: Fix haptic options missing in QS category
+Evolver: Introduce shake gesture
 Fix reading build props on devices with legacy partition layout
 HWComposer: Silence duplicate VSYNC logspam
+PermissionController: Add missing permission groups
+SystemUI: Add charging bolt indicator for text-only battery style
 Settings: VolumeDialog: Add toggle for haptic feedback
 SystemUI: Fix QS customizer corner radius
 SystemUI: Fix edge light, media art, pulse on ambient display, now playing
