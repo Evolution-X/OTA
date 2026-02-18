@@ -1,12 +1,12 @@
 Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/recovery/recovery.img/download
 
-This is Android 15 with September 2025 security patches
+This is Android 15 with Febuary 2026 security patches
 Device changes:
 =======================
-Increase zram to 50%
-General performance improvements
+Minor performance and stability improvements
+Restore dirac
 
 ROM changes:
 =======================
-version: Uprev to 10.9
+version: Uprev to 10.14
 Fixed YouTube crash and Spotify crash
