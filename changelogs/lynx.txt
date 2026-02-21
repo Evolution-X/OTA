@@ -1,4 +1,4 @@
-This is Android 16 with December 2025 security patches
+This is Android 16 QPR1 with February 2026 security patches
 
 Notes:
 ==============================
@@ -7,14 +7,17 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.4.2
+- Update to Evolution X 11.5.3
+- New maintainer Nhansp
 
 Notable ROM changes:
 ==============================
-Dexpreopt pixel launcher
-New now playing QS tile and updated lockscreen UI
-Overlay: Update default wallpaper from Pixel 10 Pro XL
-overlay: Use google sans flex for lockscreen clock
-config: properties: Add pihooks default values
-component-overrides: Force disable various google components
-PixelPropsUtils: Update fingerprints to December 2025 release
+Evolver: Allow user to turn off vbmeta digest update
+Settings: Adding multi-media focus support
+SystemUI: smartspace: Open google weather on tapping smartspace
+SystemUI: smartspace: fix media view mistake
+SystemUI: smartspace: refactor dagger
+explicit launcher force stop whitelist
+fixing ShadeDialogContextRepo crash
+fixing app directory access
+skipping screen off animation controller for fast animation settings
