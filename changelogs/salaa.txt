@@ -1,22 +1,52 @@
-This is Android 16 QPR1 with January 2026 security patches
+This is Android 16 QPR2 with February 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 8 or lower
+- Credits to kardebayan, SamarV-121, sarthakroy2002 and all salaa/mt6785 devs.
+- Firmware is included.
+- Use the recovery.img.
 
 Device changes:
 ==============================
-- Update to Evolution X 11.5.2
+- Initial QPR2 release
+- Synced with latest v11.6.1 changes
+- Disabled high performance transitions
+- Backported 5.10 BPF on kernel
+- Switched to OSS MediaTek WiFi lib
+- Disabled Audio HAL PCM dumping
+- Dropped MediaTek remote submix HAL
+- Dropped muxreport binary
+- Added dynamic sensors HAL support
+- Dropped debug.sf.disable_client_composition_cache
+- Updated Video Telephony system blobs from rothko OS3.0.4.0.WNNEUXM
+- Included ViPER4AndroidFX
+- Included Dolby Atmos
+- Compiled with Stormbreaker-LTS v4.14.366 kernel
+- Misc. Fixes and Improvements
 
 Notable ROM changes:
 ==============================
-Evolver: Allow user to turn off vbmeta digest update
-Settings: Adding multi-media focus support
-SystemUI: smartspace: Open google weather on tapping smartspace
-SystemUI: smartspace: fix media view mistake
-SystemUI: smartspace: refactor dagger
-explicit launcher force stop whitelist
-fixing ShadeDialogContextRepo crash
-fixing app directory access
-skipping screen off animation controller for fast animation settings
+Allow complex resource types to follow references
+Evolver: Add separate preference for statusbar clock bg chip
+Evolver: Add separate preference for statusbar logo
+Evolver: Bring back QS footer icon visibilities toggles
+Evolver: Introduce charging effects 
+HintManagerService: Generate dummy mSupportInfo for non power AIDL devices
+KeyGestureController: Fallback to fullscreen screenshot on null data
+PersistentDataBlockService: Deactivate FRP on Vanilla builds
+Settings: Add missing icon for Adaptive connectivity
+Settings: Add support for daily and weekly data usage cycles
+Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE
+Settings: Fix custom Private DNS hostname being overwritten
+Settings: Reset mobile data always on developer setting correctly
+Settings: SoftAp: add support for setting shutdown timeout
+Settings: fix broken mobile network reset button
+SystemUI: Fix edge light, media art, pulse, charging, now playing on ambient display
+SystemUI: Hide nowplaying view when bouncer is showing
+SystemUI: Remove Duplicate Ripple Effect for WiredCharging
+SystemUI: logo: Re-align amogus icon
+base: Fix crash caused by back gesture on popup view
+extras: Update BCR to Version 2.4
+services: Clean up unused settings for three finger swipe
+services: Switch to binder IPC for three finger swipe
