@@ -11,6 +11,11 @@ Notes:
 
 Device changes:
 ==============================
+Bring back Viper4AndroidFX
+Drop Dolby
+Drop Pixel thermals
+Drop Pixel stats
+Fix Hotspot
 Switch to soviet trees and kernel
 
 Notable ROM changes:
@@ -29,18 +34,29 @@ Evolver: Set height for custom selector preferences
 Merge March 2026 security patches
 PixelPropsUtils: Update fingerprints to March 2026 release
 Settings: Change UserBackupSettingsActivity to extend FragmentActivity
+Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
 Settings: Set launch mode to singleTop for UserBackupSettingsActivity
 SettingsTheme: Correctly theming AlertDialog with M3 colors
+StorageManagerService: pre-create Android/media app dirs
 SystemUI: Add custom gradient start/end color support
 SystemUI: Add gradient for volume buttons along with slider
 SystemUI: Clean up legacy code in ongoing action progress chip
+SystemUI: Fix NPE in affectedByWorkProfileLock when entry is null
 SystemUI: Fix notification flicker with transluency enabled
 SystemUI: Improve Ongoing Chip interactions
+SystemUI: Redesign ongoing music chip like oneui music chip
+SystemUI: Redesign ongoing music chip popup
 SystemUI: Refactor ongoing action progress chip
+SystemUI: Retain compact mode for ongoing chip during visibility changes
+SystemUI: Rework media session helper for ongoing action progress chip
+SystemUI: Rewrite stale progress check
 SystemUI: Use proper media buttons for ongoing action chip and theme it
+SystemUI: Use squiggle for seekbar in ongoing progress media panel
 VibratorInfo: Don't log error when frequency profile is absent
 base: Add method to restart SystemUI
 extras: Add more UDFPS icons
 extras: Bring back fonts and clock fonts
 extras: Update BCR to Version 2.4
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
 version: Uprev to 11.6.2
+vold: fix Android/media app dir ACLs and revert 777 mode
