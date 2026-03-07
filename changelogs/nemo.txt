@@ -1,52 +1,58 @@
-This is Android 16 QPR2 with February 2026 security patches
+This is Android 16 QPR2 with March 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Includes Dolby Atmos, ViPER4AndroidFX.
 - Credits to kardebayan, SamarV-121, elohim-etz, sarthakroy2002 and all nemo/mt6785 devs.
-- Thanks to Sid_Fr_T, Ansh for testing the build.
+- Thanks to Ansh for testing the build.
 - Firmware is included.
 - Use the recovery.img.
 
 Device changes:
 ==============================
-- Initial QPR2 release
-- Synced with latest v11.6.1 changes
-- Backported 5.10 BPF on kernel
-- Switched to OSS MediaTek WiFi lib
-- Disabled Audio HAL PCM dumping
-- Dropped MediaTek remote submix HAL
-- Dropped muxreport binary
-- Added dynamic sensors HAL support
-- Dropped debug.sf.disable_client_composition_cache
-- Updated Video Telephony system blobs from rothko OS3.0.4.0.WNNEUXM
-- Included ViPER4AndroidFX
+- Synced with latest v11.6.2 changes
 - Compiled with Stormbreaker-LTS v4.14.366 kernel
 - Misc. Fixes and Improvements
 
 Notable ROM changes:
 ==============================
-Allow complex resource types to follow references
-Evolver: Add separate preference for statusbar clock bg chip
-Evolver: Add separate preference for statusbar logo
-Evolver: Bring back QS footer icon visibilities toggles
-Evolver: Introduce charging effects 
-HintManagerService: Generate dummy mSupportInfo for non power AIDL devices
-KeyGestureController: Fallback to fullscreen screenshot on null data
-PersistentDataBlockService: Deactivate FRP on Vanilla builds
-Settings: Add missing icon for Adaptive connectivity
-Settings: Add support for daily and weekly data usage cycles
-Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE
-Settings: Fix custom Private DNS hostname being overwritten
-Settings: Reset mobile data always on developer setting correctly
-Settings: SoftAp: add support for setting shutdown timeout
-Settings: fix broken mobile network reset button
-SystemUI: Fix edge light, media art, pulse, charging, now playing on ambient display
-SystemUI: Hide nowplaying view when bouncer is showing
-SystemUI: Remove Duplicate Ripple Effect for WiredCharging
-SystemUI: logo: Re-align amogus icon
-base: Fix crash caused by back gesture on popup view
-extras: Update BCR to Version 2.4
-services: Clean up unused settings for three finger swipe
-services: Switch to binder IPC for three finger swipe
+Avoid NPE in CriticalEventLog.saveLogToFileNow()
+Evolver: Add gradients customization
+Evolver: Add ongoing action chip implementation
+Evolver: Bring back status bar clock position preference
+Evolver: Convert background clock chip fragment to preference dialog
+Evolver: Convert lockscreen clock font picker to preference dialog
+Evolver: Convert logo fragment to preference dialog
+Evolver: Convert system font picker to preference dialog
+Evolver: Disable gradient start/end colors for auto mode
+Evolver: Implement option to prevent OneSearchAimActivity from being disabled
+Evolver: Set height for custom selector preferences
+Merge March 2026 security patches
+PixelPropsUtils: Update fingerprints to March 2026 release
+Settings: Change UserBackupSettingsActivity to extend FragmentActivity
+Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
+Settings: Set launch mode to singleTop for UserBackupSettingsActivity
+SettingsTheme: Correctly theming AlertDialog with M3 colors
+StorageManagerService: pre-create Android/media app dirs
+SystemUI: Add custom gradient start/end color support
+SystemUI: Add gradient for volume buttons along with slider
+SystemUI: Clean up legacy code in ongoing action progress chip
+SystemUI: Fix NPE in affectedByWorkProfileLock when entry is null
+SystemUI: Fix notification flicker with transluency enabled
+SystemUI: Improve Ongoing Chip interactions
+SystemUI: Redesign ongoing music chip like oneui music chip
+SystemUI: Redesign ongoing music chip popup
+SystemUI: Refactor ongoing action progress chip
+SystemUI: Retain compact mode for ongoing chip during visibility changes
+SystemUI: Rework media session helper for ongoing action progress chip
+SystemUI: Rewrite stale progress check
+SystemUI: Use proper media buttons for ongoing action chip and theme it
+SystemUI: Use squiggle for seekbar in ongoing progress media panel
+VibratorInfo: Don't log error when frequency profile is absent
+base: Add method to restart SystemUI
+extras: Add more UDFPS icons
+extras: Bring back fonts and clock fonts
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
+version: Uprev to 11.6.2
+vold: fix Android/media app dir ACLs and revert 777 mode
