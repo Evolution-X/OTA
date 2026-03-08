@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 7",
+      "filename": "EvolutionX-16.0-20260307-panther-11.6.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/panther/16_vanilla/EvolutionX-16.0-20260307-panther-11.6.2-Vanilla-Official.zip/download",
+      "timestamp": 1772891969,
+      "md5": "bc6d905eb38ab42651ebfa4c4eeda4d1",
+      "sha256": "414047eeb6164d991380cb28b8ea760385f1e8c42b249f1632c73263fe24b9a2",
+      "size": 1962145804,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
