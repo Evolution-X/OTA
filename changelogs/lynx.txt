@@ -1,0 +1,25 @@
+This is Android 16 QPR2 with March 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 11.6.2
+
+Notable ROM changes:
+==============================
+ColumbusService: Import Vietnamese localization
+ColumbusService: Update lottie animation
+ColumbusService: Updated the RU translation
+Evolver: Add color modes for music chip bg
+SystemUI: Apply fading edge only when text overflows chip width
+SystemUI: Clean up track counter for album art change
+SystemUI: Clean up unused currentAppLabel in ongoing action chip
+SystemUI: Color mode perf improvements for music chip bg
+SystemUI: Fix media info jitters in ongoing action media panel
+SystemUI: Fix visual bug with notif progress in ongoing action chip
+SystemUI: Refetch album art if required
+SystemUI: Use statusbar text size for ongoing chip text
