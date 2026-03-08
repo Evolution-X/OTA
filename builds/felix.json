@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel Fold",
+      "filename": "EvolutionX-16.0-20260308-felix-11.6.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/felix/16_vanilla/EvolutionX-16.0-20260308-felix-11.6.2-Vanilla-Official.zip/download",
+      "timestamp": 1772928181,
+      "md5": "9b614fb30194a3d18d24a546f062cd82",
+      "sha256": "938a4077eba6e8d3583198f21e23be70486994f83b2fc87f908de72d514fb07b",
+      "size": 1816454025,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
