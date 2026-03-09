@@ -1,4 +1,4 @@
-This is Android 16 QPR1 with February 2026 security patches
+This is Android 16 QPR2 with March 2026 security patches
 
 Notes:
 ==============================
@@ -7,17 +7,46 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.5.3
-- New Maintainer Nhansp
+- Update to Evolution X 11.6.2
 
 Notable ROM changes:
 ==============================
-Evolver: Allow user to turn off vbmeta digest update
-Settings: Adding multi-media focus support
-SystemUI: smartspace: Open google weather on tapping smartspace
-SystemUI: smartspace: fix media view mistake
-SystemUI: smartspace: refactor dagger
-explicit launcher force stop whitelist
-fixing ShadeDialogContextRepo crash
-fixing app directory access
-skipping screen off animation controller for fast animation settings
+Avoid NPE in CriticalEventLog.saveLogToFileNow()
+Evolver: Add gradients customization
+Evolver: Add ongoing action chip implementation
+Evolver: Bring back status bar clock position preference
+Evolver: Convert background clock chip fragment to preference dialog
+Evolver: Convert lockscreen clock font picker to preference dialog
+Evolver: Convert logo fragment to preference dialog
+Evolver: Convert system font picker to preference dialog
+Evolver: Disable gradient start/end colors for auto mode
+Evolver: Implement option to prevent OneSearchAimActivity from being disabled
+Evolver: Set height for custom selector preferences
+Merge March 2026 security patches
+PixelPropsUtils: Update fingerprints to March 2026 release
+Settings: Change UserBackupSettingsActivity to extend FragmentActivity
+Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
+Settings: Set launch mode to singleTop for UserBackupSettingsActivity
+SettingsTheme: Correctly theming AlertDialog with M3 colors
+StorageManagerService: pre-create Android/media app dirs
+SystemUI: Add custom gradient start/end color support
+SystemUI: Add gradient for volume buttons along with slider
+SystemUI: Clean up legacy code in ongoing action progress chip
+SystemUI: Fix NPE in affectedByWorkProfileLock when entry is null
+SystemUI: Fix notification flicker with transluency enabled
+SystemUI: Improve Ongoing Chip interactions
+SystemUI: Redesign ongoing music chip like oneui music chip
+SystemUI: Redesign ongoing music chip popup
+SystemUI: Refactor ongoing action progress chip
+SystemUI: Retain compact mode for ongoing chip during visibility changes
+SystemUI: Rework media session helper for ongoing action progress chip
+SystemUI: Rewrite stale progress check
+SystemUI: Use proper media buttons for ongoing action chip and theme it
+SystemUI: Use squiggle for seekbar in ongoing progress media panel
+VibratorInfo: Don't log error when frequency profile is absent
+base: Add method to restart SystemUI
+extras: Add more UDFPS icons
+extras: Bring back fonts and clock fonts
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
+version: Uprev to 11.6.2
+vold: fix Android/media app dir ACLs and revert 777 mode
