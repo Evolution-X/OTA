@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel Tablet",
+      "filename": "EvolutionX-16.0-20260307-tangorpro-11.6.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/tangorpro/16_vanilla/EvolutionX-16.0-20260307-tangorpro-11.6.2-Vanilla-Official.zip/download",
+      "timestamp": 1772920371,
+      "md5": "fc8aa7cb7fa2b5b4d624b498e7f27714",
+      "sha256": "a0f3d779d94ea7bef7198d09db6f626666a2bd281259eec1011c158aa7ce1a6d",
+      "size": 1759727266,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
