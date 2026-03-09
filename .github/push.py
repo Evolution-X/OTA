@@ -6,6 +6,9 @@ import json
 
 file_path = sys.argv[1]
 
+telegram_webhook = os.environ["TELEGRAM_WEBHOOK"]
+bka_webhook = os.environ["BKA_WEBHOOK"]
+bka_vanilla_webhook = os.environ["BKA_VANILLA_WEBHOOK"]
 udc_webhook = os.environ["UDC_WEBHOOK"]
 udc_vanilla_webhook = os.environ["UDC_VANILLA_WEBHOOK"]
 vic_webhook = os.environ["VIC_WEBHOOK"]
@@ -52,11 +55,24 @@ def webhook_send():
     # Extract only the branch name from GITHUB_REF, default to 'vic'
     branch = os.environ.get("GITHUB_REF", "refs/heads/vic").split("/")[-1]
     commit_hash = get_commit_hash(branch, codename)
-    
+
+    # Telegram Hook
+    telegram_url = f"{telegram_webhook}c={codename}&b={branch}"
+
+    try:
+        requests.get(telegram_url, timeout=2)
+    except requests.exceptions.RequestException:
+        pass  # ignore any errors
+
+    # Discord Hook
+    if "Vanilla" in filename and "11." in version:
+        webhook_url = bka_vanilla_webhook
     if "Vanilla" in filename and "10." in version:
         webhook_url = vic_vanilla_webhook
     if "Vanilla" in filename and "9." in version:
         webhook_url = udc_vanilla_webhook
+    if "Vanilla" not in filename and "11." in version:
+        webhook_url = bka_webhook
     if "Vanilla" not in filename and "10." in version:
         webhook_url = vic_webhook
     if "Vanilla" not in filename and "9." in version:

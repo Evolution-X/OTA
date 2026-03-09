@@ -31,8 +31,11 @@ jobs:
       - name: Process JSON files if files changed in builds folder.
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         env:
+          TELEGRAM_WEBHOOK: ${{ secrets.TELEGRAM_WEBHOOK }}
+          BKA_WEBHOOK: ${{ secrets.BKA_WEBHOOK }}
           VIC_WEBHOOK: ${{ secrets.VIC_WEBHOOK }}
           UDC_WEBHOOK: ${{ secrets.UDC_WEBHOOK }}
+          BKA_VANILLA_WEBHOOK: ${{ secrets.BKA_VANILLA_WEBHOOK }}
           VIC_VANILLA_WEBHOOK: ${{ secrets.VIC_VANILLA_WEBHOOK }}
           UDC_VANILLA_WEBHOOK: ${{ secrets.UDC_VANILLA_WEBHOOK }}
           ALL_CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
