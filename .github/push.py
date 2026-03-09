@@ -113,6 +113,11 @@ def webhook_send():
             }}]
     }
 
+    # Before sending request
+    if not webhook_url:
+        print(f"Error: webhook_url for file {filename} is empty. Skipping.")
+        return
+
     result = requests.post(webhook_url, json=data)
 
     try:
