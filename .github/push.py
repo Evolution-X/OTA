@@ -58,14 +58,6 @@ def webhook_send():
     branch = os.environ.get("GITHUB_REF", "refs/heads/vic").split("/")[-1]
     commit_hash = get_commit_hash(branch, codename)
 
-    # Telegram Hook
-    telegram_url = f"{telegram_webhook}c={codename}&b={branch}"
-
-    try:
-        requests.get(telegram_url, timeout=2)
-    except requests.exceptions.RequestException:
-        pass  # ignore any errors
-
     # Discord Hook
     if "Vanilla" in filename and "11." in version:
         webhook_url = bka_vanilla_webhook
@@ -143,6 +135,14 @@ def webhook_send():
         print(err)
     else:
         print("Payload delivered successfully, code {}.".format(result.status_code))
+
+    # Telegram Hook
+    telegram_url = f"{telegram_webhook}c={codename}&b={branch}"
+
+    try:
+        requests.get(telegram_url, timeout=2)
+    except requests.exceptions.RequestException:
+        pass  # ignore any errors
 
 
 webhook_send()
