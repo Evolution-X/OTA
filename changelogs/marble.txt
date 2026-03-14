@@ -13,19 +13,23 @@ Notes:
 
 Device changes:
 ==============================
-None
+parts: Remove unused Doze implementation and service
+sensors: Use stack alloc for _oem_msg to avoid memory leaks
 
 Notable ROM changes:
 ==============================
-ColumbusService: Import Vietnamese localization
-ColumbusService: Update lottie animation
-ColumbusService: Updated the RU translation
-Evolver: Add color modes for music chip bg
-SystemUI: Apply fading edge only when text overflows chip width
-SystemUI: Clean up track counter for album art change
-SystemUI: Clean up unused currentAppLabel in ongoing action chip
-SystemUI: Color mode perf improvements for music chip bg
-SystemUI: Fix media info jitters in ongoing action media panel
-SystemUI: Fix visual bug with notif progress in ongoing action chip
-SystemUI: Refetch album art if required
-SystemUI: Use statusbar text size for ongoing chip text
+ColumbusService: Make Vietnamese translations more natural
+Evolver: Update team members
+Settings: hide ambient from search
+Settings: location: Move mock location app picker to Location settings
+Settings: location: greyed-out mock override toggle until app is selected
+Skip updating value added A2DP offload codecs to MM audio over AIDL
+SystemUI: Do not collapse when interacting with seekbar
+SystemUI: Do not invalidate ongoing chip bg color often
+SystemUI: Fix ringer tile rendering for vibrator support and DND state
+SystemUI: Improve music chip popup ui
+SystemUI: Periodically re-evaluate to catch stale sessions
+SystemUI: Refactor for album art, icon and playback
+SystemUI: Smoother seekbar for ongoing chip popup ui
+SystemUI: Update chip max width
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
