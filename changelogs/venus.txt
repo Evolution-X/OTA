@@ -1,41 +1,32 @@
-This is Android 16 QPR2 with February 2026 security patches
+This is Android 16 QPR2 with March 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
-- Includes XiaomiParts and Leica camera.
-- Credits to Arian16k, FlowerSea, GR, ralph20060412, Kamikaonashi.
+- Includes Dolby Atmos and Leica camera.
+- Credits to ItsVixano, Arian16k, FlowerSea, GR, ralph20060412, RobertGarciaa.
 
 Device changes:
 ==============================
-None
+Switch to LineageOS 23.2 kernel (KSU Next not included)
+Update to latest LineageOS 23.2 trees
 
 Notable ROM changes:
 ==============================
-Disable schedstats
-Evolver: Extend QS Header Image to support animated GIF/WEBP
-Evolver: Fix haptic options missing in QS category
-HWComposer: Silence duplicate VSYNC logspam
-Settings: VolumeDialog: Add toggle for haptic feedback
-SystemUI: Fix QS customizer corner radius
-SystemUI: Fix edge light, media art, pulse on ambient display, now playing
-SystemUI: Fix imageloader spam in BrightnessSliderViewModel
-SystemUI: Fix wifi tile showing mobile data carrier name
-SystemUI: Move privacy indicator switches to statusbar tuner
-SystemUI: Use privacy_chip_background for charger indicator bg
-Update CE storage handling in StorageManagerService (Fixes Android/data folder creation on some apps dues to race condition)
-Use proper value for default multi-media focus
-audio: add message MSG_L_BT_ACTIVE_DEVICE_CHANGE_EXT to messageMutesMusic logic
-base: Use EFFECT_DOUBLE_CLICK for camera launch feedback
-config: Update pihooks default values
-keybox: add real vbmeta digest
-recovery: Add support for AIDL bootcontrol HAL in slot switch option
-recovery: Do not print switch slot info without actually switching a slot
-recovery: add support for changing slots
-recovery: rewrite slot switch logic using bootcontrol APIs
-services: Fixing per-app volume ux
-soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
-soong: Add support for vendor tag with client package name to select
-surfaceflinger: Lower DisplayModeController log verbosity
+All changes from 11.6.1 to 11.6.2
+ColumbusService: Make Vietnamese translations more natural
+Evolver: Update team members
+Settings: hide ambient from search
+Settings: location: Move mock location app picker to Location settings
+Settings: location: greyed-out mock override toggle until app is selected
+Skip updating value added A2DP offload codecs to MM audio over AIDL
+SystemUI: Do not collapse when interacting with seekbar
+SystemUI: Do not invalidate ongoing chip bg color often
+SystemUI: Fix ringer tile rendering for vibrator support and DND state
+SystemUI: Improve music chip popup ui
+SystemUI: Periodically re-evaluate to catch stale sessions
+SystemUI: Refactor for album art, icon and playback
+SystemUI: Smoother seekbar for ongoing chip popup ui
+SystemUI: Update chip max width
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
