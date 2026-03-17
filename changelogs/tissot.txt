@@ -12,4 +12,5 @@ None
 
 Notable ROM changes:
 ==============================
-Merge February 2026 security patches
+Merge March 2026 security patches
+Update translations
