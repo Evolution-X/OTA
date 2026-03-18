@@ -9,24 +9,11 @@ Notes:
 
 Device changes:
 ==============================
-Switch to LineageOS 23.2 kernel (KSU Next not included)
-Update to latest LineageOS 23.2 trees
+Replace Dolby with Viper4AndroidFX
 
 Notable ROM changes:
 ==============================
-All changes from 11.6.1 to 11.6.2
-ColumbusService: Make Vietnamese translations more natural
-Evolver: Update team members
-Settings: hide ambient from search
-Settings: location: Move mock location app picker to Location settings
-Settings: location: greyed-out mock override toggle until app is selected
-Skip updating value added A2DP offload codecs to MM audio over AIDL
-SystemUI: Do not collapse when interacting with seekbar
-SystemUI: Do not invalidate ongoing chip bg color often
-SystemUI: Fix ringer tile rendering for vibrator support and DND state
-SystemUI: Improve music chip popup ui
-SystemUI: Periodically re-evaluate to catch stale sessions
-SystemUI: Refactor for album art, icon and playback
-SystemUI: Smoother seekbar for ongoing chip popup ui
-SystemUI: Update chip max width
-fixup! audio: Allow opting out of speaker_layout_channel_mask field
+Evolver: Add option for PairIP license check blocker
+Update EGL context type from EGLDisplay to EGLContext
+system_server LW_EVENT_SYNC_NATIVE_CRASH in InputDispatcher
+wifi: Clear user temporarily disabled list on forget connected network
