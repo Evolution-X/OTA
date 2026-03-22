@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "cola2261",
+      "currently_maintained": true,
+      "oem": "Samsung",
+      "device": "Galaxy S23",
+      "filename": "EvolutionX-16.0-20260321-dm1q-11.6.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/dm1q/16/EvolutionX-16.0-20260321-dm1q-11.6.2-Official.zip/download",
+      "timestamp": 1774125980,
+      "md5": "e78cf711bab2fe5c17e4b765750518c0",
+      "sha256": "321710c1bcb45349eb57176b4b6c0330faed554f576b61352ef4319f8b4257a8",
+      "size": 3664741879,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-16-0-evolution-x-11-for-galaxy-s23.4782987/",
+      "firmware": "",
+      "paypal": "https://paypal.me/hanaproject22",
+      "github": "cola2261",
+      "initial_installation_images": [
+        "recovery",
+        "vbmeta"
+      ],
+      "extra_images": []
+    }
+  ]
+}
