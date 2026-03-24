@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "currently_maintained": true,
+      "oem": "OnePlus",
+      "device": "13",
+      "filename": "EvolutionX-16.0-20260307-dodge-11.6.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/dodge/16/EvolutionX-16.0-20260307-dodge-11.6.2-Official.zip/download",
+      "timestamp": 1772953179,
+      "md5": "f585632cd70831b7a324b6fc58d545f2",
+      "sha256": "08b5715dc27047df3dfa3bab0f0e994f5ceff5daa05550776a232134a05bab26",
+      "size": 4548651121,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "github": "osm1019",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
