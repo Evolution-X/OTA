@@ -4,7 +4,7 @@ DIRTY FLASH FROM QPR1 NOW WORKS!
 
 Notes:
 ==============================
-- Install the latest HyperOS 2 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
+- Install the latest HyperOS 3 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Visit XDA (https://xdaforums.com/t/rom-16-qpr2-marble-official-evolution-x-02-03-26.4709959/post-89870548) for the latest KSU next root zip.
@@ -13,53 +13,26 @@ Notes:
 
 Device changes:
 ==============================
-Update to latest LineageOS-23.2 sm8450 kernel
-drop sched_boost and fix uclamp override
-light: Use stack alloc for _oem_msg to avoid memory leaks
-parts: Update thermal settings icon
-powerhint: adjust sched boost and uclamp thresholds for interaction
-refine CPU/GPU interaction tuning and reduce overboost
-surfaceflinger: Reduce max acquired frame buffers to 2
-tune SF buffering and rendering behavior
+Update blobs from OS3.0.3.0.VMRMIXM
+libinit: Drop fingerprint override
+sync powerhint
 
 Notable ROM changes:
 ==============================
-AppOpsService: treat empty attribution tags as absent
-CameraProviderManager: ignore torch callbacks for flashless cameras
-Evolver: Add Idle manager resources
-Evolver: Add option for PairIP license check blocker
-Evolver: Add support custom color for clock chip
-Evolver: Add transparent mask clock mode for gradient chip
-Evolver: Allow toggle to kill Flash SMS messages
-Evolver: Bring back Lockscreen Weather
-Evolver: Implement DeviceConfigSwitchPreference
-Evolver: Introduce Clock face feature
-Evolver: Introduce custom spoof device support in per-apps spoofing
-Evolver: Introduce per-apps spoofing
-Evolver: Refactor per-app spoof UI
-Evolver: Remove alert slider notifications
-InsetsController: skip redundant hide(ime()) tracking
-KeyboxImitationHooks: Abandon generated certs
-Settings: Add config to display Now Playing
-Settings: Add toggle for face down detection
-Settings: Add torch toggle for double tap power gesture
-Settings: Guard against detached fragment context in hide dev settings
-Settings: Implement Idevice idle manager
-SystemUI: Add interaction boost for QS/shade animations
-SystemUI: Disable smartspace default view
-SystemUI: Fix flashlight QS direct-expand slider initialization
-SystemUI: Fix flashlight slider re-enable from 0 level
-SystemUI: Hide ongoing action chip while QS panel is expanded
-SystemUI: Make the new vertical flashlight slider compatible with the old FlashlightController implementation
-SystemUI: Update smartspace to CP1A.260305.018
-SystemUI: clear stale LogAccessDialog timeouts
-SystemUI: hide ticks on flashlight slider
-SystemUI: honor hidden FGS manager packages
-SystemUI: keep Wi-Fi QS tile subtitle Wi-Fi-specific
-Update EGL context type from EGLDisplay to EGLContext
-aconfig: Enable flashlight strength tile supportaconfig: Enable flashlight strength tile support
-base: Empty accessibility service list when hiding app list
-config: Enable OmniJaws service
-core: Add OmniJawsClient
-extras: Build overlays for hiding clock and smartspace
-extras: Don't include prebuilt spoof
+Evolver: Add classic QS panel style for tiles
+Evolver: Add ongoing chip opacity control
+Evolver: Allow clean idle manager stats
+Evolver: Introduce cutout progress ring
+Evolver: Refactor idle manager
+Fix PlanesLockGuard buffer lock leak
+Fix PlanesLockGuard copy-assignment delete type
+Fix PlanesLockGuard::getStatus() return type
+Reland "pixel-style: config: Update SystemUIGXOverlay package name"
+StrictMode triggers a watchdog
+SystemUI: Add background to ongoing progress chip
+SystemUI: Allow disable statusbar combined signal
+SystemUI: Fix flashlight not available on boot
+audio: fix direct byte buffer not release
+config: Spoof BuildFingerprint as Pixel Beta
+config: Update pihooks to Android 17 Beta 3
+prebuilt_etc: Add prebuilt_addon_d module
