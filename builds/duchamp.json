@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "MT6897A",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "POCO X6 Pro 5G / Redmi K70E",
+      "filename": "EvolutionX-16.0-20260327-duchamp-11.6.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/duchamp/16/EvolutionX-16.0-20260327-duchamp-11.6.2-Official.zip/download",
+      "timestamp": 1774623512,
+      "md5": "51d44690874099e358d2ff945ec561f2",
+      "sha256": "67a0df042e54c5e4f0a212ce5e79a7cde2d946958bbd499f2f6ead01c7e3a7f0",
+      "size": 3305253814,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "https://t.me/duchamp_evox_duscussion",
+      "firmware": "",
+      "paypal": "",
+      "github": "MT6897A",
+      "initial_installation_images": [
+        "boot",
+        "init_boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
