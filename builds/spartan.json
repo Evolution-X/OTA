@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Provasish Nandi",
+      "currently_maintained": true,
+      "oem": "Realme",
+      "device": "GT Neo 3T",
+      "filename": "EvolutionX-16.0-20260327-spartan-11.6.2-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/spartan/16_vanilla/EvolutionX-16.0-20260327-spartan-11.6.2-Vanilla-Official.zip/download",
+      "timestamp": 1774595655,
+      "md5": "d636af1cd297788dc52aa468ce77d0fe",
+      "sha256": "81dff6364e627256f1cce5715af62088730731dd10892648eead84b1e797c9ad",
+      "size": 2185885850,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "https://t.me/HunterOT/130641",
+      "paypal": "",
+      "github": "provasish",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
