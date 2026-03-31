@@ -14,25 +14,20 @@ Notes:
 
 Device changes:
 ==============================
-Add support for bypass charging in GameSpace
-libinit: Drop fingerprint override
+Sync gpu freq. with kernel
 
 Notable ROM changes:
 ==============================
-Evolver: Add classic QS panel style for tiles
-Evolver: Add ongoing chip opacity control
-Evolver: Allow clean idle manager stats
-Evolver: Introduce cutout progress ring
-Evolver: Refactor idle manager
-Fix PlanesLockGuard buffer lock leak
-Fix PlanesLockGuard copy-assignment delete type
-Fix PlanesLockGuard::getStatus() return type
-Reland "pixel-style: config: Update SystemUIGXOverlay package name"
-StrictMode triggers a watchdog
-SystemUI: Add background to ongoing progress chip
-SystemUI: Allow disable statusbar combined signal
-SystemUI: Fix flashlight not available on boot
-audio: fix direct byte buffer not release
+Evolver: Add proper toggle for smartspace
+Evolver: Allow disable qs media player
+Evolver: Toggle to launch notification apps in bubble
+Settings: Add torch toggle for double tap power gesture
+Settings: Introduce navbar pill auto-hide
+SystemUI: Fix NotificationMenuRow crash on theme switch
+SystemUI: Fix classic tile specs in some instances
+SystemUI: Fix media album art not updating on track change in ongoing chip
 config: Spoof BuildFingerprint as Pixel Beta
-config: Update pihooks to Android 17 Beta 3
-prebuilt_etc: Add prebuilt_addon_d module
+extras: Bring back Accord
+overlay: Use google-sans-text for regular font
+pixel-style: Update GlanceableHub overlays
+sepolicy: Allow perf HAL to access proc_sched as well
