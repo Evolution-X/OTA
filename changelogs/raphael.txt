@@ -14,20 +14,25 @@ Notes:
 
 Device changes:
 ==============================
-Sync gpu freq. with kernel
+power: supply: smb5: stop forcing 5V when PD becomes active
+usb: pd: enable 9V fast charging for raphael
+usb: pd: enable verify_process for raphael
 
 Notable ROM changes:
 ==============================
-Evolver: Add proper toggle for smartspace
-Evolver: Allow disable qs media player
-Evolver: Toggle to launch notification apps in bubble
-Settings: Add torch toggle for double tap power gesture
-Settings: Introduce navbar pill auto-hide
-SystemUI: Fix NotificationMenuRow crash on theme switch
-SystemUI: Fix classic tile specs in some instances
-SystemUI: Fix media album art not updating on track change in ongoing chip
-config: Spoof BuildFingerprint as Pixel Beta
-extras: Bring back Accord
-overlay: Use google-sans-text for regular font
-pixel-style: Update GlanceableHub overlays
-sepolicy: Allow perf HAL to access proc_sched as well
+Evolver: Add AxThemeStore shortcut
+Evolver: Adding statusbar dynamic bar
+Evolver: Allow toggle waveform seekbar
+Evolver: Allow user to turn off vbmeta digest update
+Evolver: Bring back toggle for Tensor feature override
+Evolver: Introduce nowplaying music dialog
+Evolver: fix crash in hideapplist
+LMOFreeform: Prefer highest refresh rate display mode
+LMOFreeform: Use max supported refresh rate for freeform windows
+Settings: Observe auto brightness mode changes
+System: Switch Tensor feature handling to user-controlled override
+aconfig: bp4a: Enable UI affordances to put other content into a bubble
+core: Align Watchdog native dumps with crash_dump policy
+core: Avoid DeadSystemException recursion when dropbox is unavailable
+core: Dynamically inject Tensor features for Play Store compatibility
+extras: fonts: Add Recursive font
