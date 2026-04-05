@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Omar Mohamed (Coptan)",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 13 Pro 5G / Poco X6 5G",
       "filename": "EvolutionX-15.0-20250608-garnet-10.7-Official.zip",

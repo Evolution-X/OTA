@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 7",
       "filename": "EvolutionX-15.0-20250612-panther-10.7-Official.zip",

@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Apelete Seketeli",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 5",
       "filename": "EvolutionX-15.0-20251006-redfin-10.9-Official.zip",

@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi A3",
       "filename": "EvolutionX-15.0-20251013-laurel_sprout-10.9-Official.zip",

@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Anierin Bliss",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 6a",
       "filename": "EvolutionX-15.0-20250611-bluejay-10.7-Official.zip",

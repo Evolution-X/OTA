@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Oscar Mariscal",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Motorola",
       "device": "Moto Edge + 2023",
       "filename": "EvolutionX-15.0-20250316-rtwo-10.3-Official.zip",

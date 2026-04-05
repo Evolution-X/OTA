@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Giovanni (TechPanelGM)",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 10 Lite",
       "filename": "EvolutionX-15.0-20251005-monet-10.9-Official.zip",

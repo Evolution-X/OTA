@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Hexdare",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 11X Pro/Mi 11i/Redmi K40 Pro+",
       "filename": "EvolutionX-15.0-20250611-haydn-10.7-Official.zip",

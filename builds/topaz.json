@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "BaranAspect",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 12 4G",
       "filename": "EvolutionX-15.0-20250518-topaz-10.6-Official.zip",

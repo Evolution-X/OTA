@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 11S / Poco M4 Pro",
       "filename": "EvolutionX-15.0-20251020-fleur-10.10-Official.zip",

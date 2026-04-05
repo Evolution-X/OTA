@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Manidweep",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "OnePlus",
       "device": "8T",
       "filename": "EvolutionX-15.0-20250709-kebab-10.7-Official.zip",

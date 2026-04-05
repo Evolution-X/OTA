@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Provasish Nandi",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Realme",
       "device": "GT Neo 3T",
       "filename": "EvolutionX-15.0-20250904-spartan-10.8-Official.zip",

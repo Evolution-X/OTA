@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Onelots",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "OnePlus",
       "device": "7",
       "filename": "EvolutionX-15.0-20250611-guacamoleb-10.7-Official.zip",

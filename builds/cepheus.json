@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "nhansp",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 9",
       "filename": "EvolutionX-15.0-20250625-cepheus-10.7-Official.zip",
