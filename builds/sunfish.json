@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Apelete Seketeli",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 4a",
       "filename": "EvolutionX-16.0-20260207-sunfish-11.5.3-Vanilla-Official.zip",
