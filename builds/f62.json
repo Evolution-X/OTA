@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Achille (0xSharkBoy)",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Samsung",
       "device": "Galaxy F62",
       "filename": "EvolutionX-15.0-20250302-f62-10.3-Vanilla-Official.zip",

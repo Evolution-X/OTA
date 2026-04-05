@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "CSSABLACK",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 9 Lite",
       "filename": "EvolutionX-15.0-20250515-pyxis-10.6-Vanilla-Official.zip",
