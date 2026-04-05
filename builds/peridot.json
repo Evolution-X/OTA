@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "zenin1504",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Poco F6 5G / Redmi Turbo 3",
+      "filename": "EvolutionX-16.0-20260405-peridot-11.6.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/peridot/16/EvolutionX-16.0-20260405-peridot-11.6.2-Official.zip/download",
+      "timestamp": 1775387796,
+      "md5": "6f0716dcf4248c33c025e253894bf567",
+      "sha256": "f3587518afed04ec7bea9c60d5596d2f6febde8dd61a09aceec695117f17bb7b",
+      "size": 4599754868,
+      "version": "11.6.2",
+      "buildtype": "userdebug",
+      "forum": "https://t.me/zeninlounge",
+      "firmware": "",
+      "paypal": "",
+      "github": "zenin1504",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "init_boot",
+        "recovery",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
