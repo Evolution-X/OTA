@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Hexdare",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Mi 11X Pro / Mi 11i / Redmi K40 Pro+",
       "filename": "EvolutionX-16.0-20251120-haydn-11.4.1-Official.zip",
