@@ -7,7 +7,17 @@ Notes:
 
 Device changes:
 ==============================
-- Initial Official build
+- Revert back to stock GNSS
+- Drop dex2oat overridable props
+- Add option to use fscompress for F2FS
+- Force disable IORAPD
+- Use foreground uclamp for hwcomposer
+- Use foreground cpuset/uclamp for gralloc
+- Set jemalloc zero filling for camera provider
+- Import cgroup tuning from gs101
+- Manually place msm_drm and msm_kgsl_3d0 IRQs
+- Chown the cgroup.procs nodes
+- Improve OTA performance
 - Update to Evolution X 11.6.2
 
 Notable ROM changes:
