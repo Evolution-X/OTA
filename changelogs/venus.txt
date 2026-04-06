@@ -9,24 +9,52 @@ Notes:
 
 Device changes:
 ==============================
-Bring back torch light control
+None
 
 Notable ROM changes:
 ==============================
-Evolver: Add classic QS panel style for tiles
-Evolver: Add ongoing chip opacity control
-Evolver: Allow clean idle manager stats
-Evolver: Introduce cutout progress ring
-Evolver: Refactor idle manager
-Fix PlanesLockGuard buffer lock leak
-Fix PlanesLockGuard copy-assignment delete type
-Fix PlanesLockGuard::getStatus() return type
-Reland "pixel-style: config: Update SystemUIGXOverlay package name"
-StrictMode triggers a watchdog
-SystemUI: Add background to ongoing progress chip
-SystemUI: Allow disable statusbar combined signal
-SystemUI: Fix flashlight not available on boot
-audio: fix direct byte buffer not release
-config: Spoof BuildFingerprint as Pixel Beta
-config: Update pihooks to Android 17 Beta 3
-prebuilt_etc: Add prebuilt_addon_d module
+Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
+Evolver: Add lock screen toggles for lock screen dynamic bar
+Evolver: Add more classic icon shapes
+Evolver: Add proper toggle for smartspace
+Evolver: Adding statusbar dynamic bar
+Evolver: Allow disable qs media player
+Evolver: Allow toggle waveform seekbar
+Evolver: Bring back signal/wifi icon styles via AxThemeStore
+Evolver: Bring back toggle for Tensor feature override
+Evolver: Introduce nowplaying music dialog
+Evolver: Toggle to launch notification apps in bubble
+Evolver: fix crash in hideapplist
+Fix the issue of digital jitter during the countdown when using "PIN" for lock screen unlocking
+Fixed the issue where settings_secure.xml.fallback fails to generate in scenarios involving dual instances of the app
+IconProvider: fix crash when resource is missing
+LMOFreeform: Prefer highest refresh rate display mode
+LMOFreeform: Use max supported refresh rate for freeform windows
+MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
+Settings: Observe auto brightness mode changes
+Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
+System: Switch Tensor feature handling to user-controlled override
+SystemUI: Add more classic icon shapes
+SystemUI: Fix NotificationMenuRow crash on theme switch
+Update GameSpace
+Update translations
+bluetooth: Fix avrcp disconnect/connect issue
+bouncycastle: adding more providers for trickystore port
+config: Inherit Mosey impl
+core: Align Watchdog native dumps with crash_dump policy
+core: Avoid DeadSystemException recursion when dropbox is unavailable
+core: Dynamically inject Tensor features for Play Store compatibility
+core: Harden DeadSystem paths for optional services
+extras: Bring back Accord
+extras: Import ax_compose sdk
+extras: fonts: Add Recursive font
+fix StrictMode BackgroundActivityLaunchCallback leak
+sepolicy: Add mosey_app to compat mapping
+sepolicy: Enhance vold_prepare_subdirs for media storage
+sepolicy: Remove obsolete treble sepolicy tests
+soong: Fix 'date' command options
+soong: overriding lineage namespace
+vendor: drop default PIF values
+wifi: Accept operating environment values 0x01-0x06 in Country IE
+wifi: ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
+wifi: Fix Transition Disble in WifiUriParser
