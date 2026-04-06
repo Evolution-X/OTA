@@ -20,19 +20,34 @@ usb: pd: enable verify_process for raphael
 
 Notable ROM changes:
 ==============================
-Evolver: Add AxThemeStore shortcut
-Evolver: Adding statusbar dynamic bar
-Evolver: Allow toggle waveform seekbar
-Evolver: Allow user to turn off vbmeta digest update
-Evolver: Bring back toggle for Tensor feature override
-Evolver: Introduce nowplaying music dialog
-Evolver: fix crash in hideapplist
-LMOFreeform: Prefer highest refresh rate display mode
-LMOFreeform: Use max supported refresh rate for freeform windows
-Settings: Observe auto brightness mode changes
-System: Switch Tensor feature handling to user-controlled override
-aconfig: bp4a: Enable UI affordances to put other content into a bubble
-core: Align Watchdog native dumps with crash_dump policy
-core: Avoid DeadSystemException recursion when dropbox is unavailable
-core: Dynamically inject Tensor features for Play Store compatibility
-extras: fonts: Add Recursive font
+Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
+Evolver: Add lock screen toggles for lock screen dynamic bar
+Evolver: Add more classic icon shapes
+Evolver: Add proper toggle for smartspace
+Evolver: Allow disable qs media player
+Evolver: Toggle to launch notification apps in bubble
+Fix the issue of digital jitter during the countdown when using "PIN" for lock screen unlocking
+Fixed the issue where settings_secure.xml.fallback fails to generate in scenarios involving dual instances of the app
+IconProvider: fix crash when resource is missing
+MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
+Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
+SystemUI: Add more classic icon shapes
+SystemUI: Fix NotificationMenuRow crash on theme switch
+Update GameSpace
+Update translations
+bluetooth: Fix avrcp disconnect/connect issue
+bouncycastle: adding more providers for trickystore port
+config: Inherit Mosey impl
+core: Harden DeadSystem paths for optional services
+extras: Bring back Accord
+extras: Import ax_compose sdk
+fix StrictMode BackgroundActivityLaunchCallback leak
+sepolicy: Add mosey_app to compat mapping
+sepolicy: Enhance vold_prepare_subdirs for media storage
+sepolicy: Remove obsolete treble sepolicy tests
+soong: Fix 'date' command options
+soong: overriding lineage namespace
+vendor: drop default PIF values
+wifi: Accept operating environment values 0x01-0x06 in Country IE
+wifi: ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
+wifi: Fix Transition Disble in WifiUriParser
