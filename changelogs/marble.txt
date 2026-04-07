@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with March 2026 security patches
+This is Android 16 QPR2 with April 2026 security patches
 
 DIRTY FLASH FROM QPR1 NOW WORKS!
 
@@ -35,6 +35,7 @@ IconProvider: fix crash when resource is missing
 LMOFreeform: Prefer highest refresh rate display mode
 LMOFreeform: Use max supported refresh rate for freeform windows
 MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
+Merge April 2026 security patches
 Settings: Observe auto brightness mode changes
 Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
 System: Switch Tensor feature handling to user-controlled override
