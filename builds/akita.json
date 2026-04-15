@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 8a",
+      "filename": "EvolutionX-16.0-20260415-akita-11.6.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/akita/16_vanilla/EvolutionX-16.0-20260415-akita-11.6.3-Vanilla-Official.zip/download",
+      "timestamp": 1776221875,
+      "md5": "fd04b87465a811274df9e9e93e37b282",
+      "sha256": "4428b3e6ecf321556ca01c52ab5e60566d1dcd7c040d3082f1cb3a8e9b256abc",
+      "size": 1723981700,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
+      "firmware": "",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
