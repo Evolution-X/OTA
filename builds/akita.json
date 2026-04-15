@@ -1,31 +1,29 @@
 {
   "response": [
     {
-      "maintainer": "Oscar Mariscal",
+      "maintainer": "Giovanni (TechPanelGM)",
       "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 8a",
-      "filename": "EvolutionX-16.0-20251215-akita-11.4.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/akita/16/EvolutionX-16.0-20251215-akita-11.4.2-Official.zip/download",
-      "timestamp": 1765803437,
-      "md5": "2484e66fe1b3ad79e3fcc6c3c14ac5ce",
-      "sha256": "af8d810e3be4c6312356ac807c23fcef94028560a5259fc301d1bbfaede852b5",
-      "size": 3019515398,
-      "version": "11.4.2",
-      "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-25-24.4649678/",
+      "filename": "EvolutionX-16.0-20260415-akita-11.6.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/akita/16/EvolutionX-16.0-20260415-akita-11.6.3-Official.zip/download",
+      "timestamp": 1776233830,
+      "md5": "2bf042cfe6484d39cccfcd9a6cf792f1",
+      "sha256": "a6f216b4425ebf576a4b0a214b1095d79342b05554cd0c6d41fc392f8d1c7ff2",
+      "size": 2826005061,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
       "firmware": "",
-      "paypal": "https://paypal.me/osmjr1019",
-      "github": "osm1019",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_kernel_boot",
         "vendor_boot"
       ],
-      "extra_images": [
-        "init_boot"
-      ]
+      "extra_images": []
     }
   ]
 }
