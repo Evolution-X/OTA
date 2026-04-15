@@ -1,31 +1,29 @@
 {
   "response": [
     {
-      "maintainer": "Oscar Mariscal",
+      "maintainer": "Giovanni (TechPanelGM)",
       "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 8 Pro",
-      "filename": "EvolutionX-16.0-20251229-husky-11.4.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/husky/16/EvolutionX-16.0-20251229-husky-11.4.2-Official.zip/download",
-      "timestamp": 1766989921,
-      "md5": "9fc75bde926d2c5d03be3225f682e1a3",
-      "sha256": "249889ec6b3a6018531ee294a7a318255df43034088d11b6e69204cecaf875d7",
-      "size": 3056015190,
-      "version": "11.4.2",
-      "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-25-24.4649678/",
+      "filename": "EvolutionX-16.0-20260415-husky-11.6.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/husky/16/EvolutionX-16.0-20260415-husky-11.6.3-Official.zip/download",
+      "timestamp": 1776237990,
+      "md5": "769b5cc275d33360f22ae74b56d781dc",
+      "sha256": "714e9aa3cb5d84837814efade33b83acd88df7d8f407994254c78ae67e1c12a3",
+      "size": 2840947179,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
       "firmware": "",
-      "paypal": "https://paypal.me/osmjr1019",
-      "github": "osm1019",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_kernel_boot",
         "vendor_boot"
       ],
-      "extra_images": [
-        "init_boot"
-      ]
+      "extra_images": []
     }
   ]
 }
