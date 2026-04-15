@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 10",
+      "filename": "EvolutionX-16.0-20260414-frankel-11.6.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/frankel/16_vanilla/EvolutionX-16.0-20260414-frankel-11.6.3-Vanilla-Official.zip/download",
+      "timestamp": 1776199757,
+      "md5": "9b24c5048d69c175becf25a49a5cda91",
+      "sha256": "a5eb3bcba180d175694a4926c2377cdcc63e70467c70fabfb24b0a3a6afb0e1d",
+      "size": 1911718311,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
+      "firmware": "",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
