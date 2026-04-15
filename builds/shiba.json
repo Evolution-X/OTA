@@ -1,31 +1,29 @@
 {
   "response": [
     {
-      "maintainer": "Oscar Mariscal",
+      "maintainer": "Giovanni (TechPanelGM)",
       "currently_maintained": true,
       "oem": "Google",
       "device": "Pixel 8",
-      "filename": "EvolutionX-16.0-20251215-shiba-11.4.2-Official.zip",
-      "download": "https://cdn.evolution-x.org/shiba/16/EvolutionX-16.0-20251215-shiba-11.4.2-Official.zip/download",
-      "timestamp": 1765797650,
-      "md5": "bdff902a84efbec09f71ba77b5cbc04a",
-      "sha256": "718bbef623563dc58333871629f6c0ef4e372f3ae8758999ceabe5a6b9c413e8",
-      "size": 3030442301,
-      "version": "11.4.2",
-      "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-25-24.4649678/",
+      "filename": "EvolutionX-16.0-20260415-shiba-11.6.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/shiba/16/EvolutionX-16.0-20260415-shiba-11.6.3-Official.zip/download",
+      "timestamp": 1776230101,
+      "md5": "b0370d941a4523b61e888bd7f64a6081",
+      "sha256": "bbe35d2fb022360d03b261e09faac340392c9fd95ab7912748edd83736a9ffec",
+      "size": 2833040118,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
       "firmware": "",
-      "paypal": "https://paypal.me/osmjr1019",
-      "github": "osm1019",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
       "initial_installation_images": [
         "boot",
         "dtbo",
         "vendor_kernel_boot",
         "vendor_boot"
       ],
-      "extra_images": [
-        "init_boot"
-      ]
+      "extra_images": []
     }
   ]
 }
