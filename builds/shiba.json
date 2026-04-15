@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Giovanni (TechPanelGM)",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 8",
+      "filename": "EvolutionX-16.0-20260415-shiba-11.6.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/shiba/16_vanilla/EvolutionX-16.0-20260415-shiba-11.6.3-Vanilla-Official.zip/download",
+      "timestamp": 1776216474,
+      "md5": "780f0ae381c4df215f50ac9f6b777055",
+      "sha256": "7d513888b0dec43df63aef3679c64bc968c4fa8670a50b73ad92496ffebfac95",
+      "size": 1731530416,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
+      "firmware": "",
+      "paypal": "http://buymeacoffee.com/techpanelgm",
+      "github": "TechPanelGM",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
