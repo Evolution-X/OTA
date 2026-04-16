@@ -13,51 +13,42 @@ None
 
 Notable ROM changes:
 ==============================
-Add hooks for custom rom hide
-Change UserBackupSettingsActivity to extend FragmentActivity
-Evolver: Allow change notification bg color
-Evolver: Bring back ongoing progress chip
-Evolver: Bring back cutout progress ring
-Evolver: Rework spoofing features (use AxionOS impl)
-Evolver: add new clocks
-Evolver: notification app icon
-LineageParts: Replace fragment-wide listeners where possible
-LineageParts: Simplify some prefs summary handling with SummaryProvider
-LineageParts: StatusBarSettings: Set dependencies of QS brightness slider preference
-PixelPropsUtils: Drop Meizu spoof
-PixelPropsUtils: Drop PIF spoofing
-PixelPropsUtils: Update fingerprints to April 2026 release
-Set launch mode to singleTop for UserBackupSettingsActivity
-Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
-Settings: Introduce automated Sleep Mode
-Settings: ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
-SystemUI: Add Glow effect in notch ring
-SystemUI: Add new OOS clock
-SystemUI: DynamicBar: Fix chip dismiss issue
-SystemUI: DynamicBar: Improve battery icon with rounded corners and proper nub
-SystemUI: DynamicBar: Improve chip padding and size
-SystemUI: DynamicBar: Redesign media pill style
-SystemUI: Fix media album art not updating on track change in ongoing chip
-SystemUI: Fix QS classic tile style jitter during panel expansion
-SystemUI: Fix qs tile font variable
-SystemUI: Improve statusbar logo padding
-SystemUI: Update sleep mode QS tile
-[ax_custom_rom_hide] blocking untrusted app lineage service checks
-[ax_custom_rom_hide] overriding lineage namespace
-base: Always turn on sensors when disabling sleep mode
-base: Migrate to MaterialExpressiveTheme
-bootstat: Use Health HAL to retrieve battery level
-config: Add Mosey nopauth variant selection flag
-core: Adding omnijaws front end hooks
-custom_rom_hide: harden pointer validation across all entry points
-fixup! Adding dynamic font feature
-gms: Update from mustang BP4A.260205.001
-init: Prioritize bpfloader and netd startup during post-fs-data
-init.rc: fix SELinux label regression on dirty flash for adb spoofing dirs
-release: Disable redesign notification font
-release: Enable notification themed icon [Experimental]
-sepolicy: Allow perf HAL to access proc_sched as well
-sepolicy: Restrict build version props
-sepolicy: Restrict pixel props usage
-services: Fix sleep mode service initialization
-vold: Fix binder thread starvation in dump
+BLASTBufferQueue: Prevent repeated redundant syscalls
+Evolver: Add Depth wallpaper settings
+Evolver: Add Essential Apps preference
+Evolver: Add pref screens for game spoof, PIF and trickstore
+Evolver: Add steps for PIF and TrickyStore
+Evolver: Add wallpaper visual effects
+Evolver: Allow toggle single tone QS background
+Evolver: Ambient display show battery & cpu temperature
+Evolver: Drop nothing charging animation
+Evolver: Fix info preferences clipping
+Evolver: Fix potential crashes in HideAppListSettings
+Evolver: General cleanup and refactoring
+Evolver: Implement wallpaper styles
+Evolver: Improve dynamic bar guide steps layout
+Evolver: Introduce Lock glymps
+Evolver: Move custom font selection into FontsPickerPreference
+Evolver: Move trickystore, pif and game props spoof
+Evolver: Remove compact chip toggle for dynamic bar
+Evolver: Show username in ambient indicator
+Evolver: TrickyStore: restore target mode from disk on fragment resume
+Evolver: Video Wallpaper selector
+LineageParts: Add an option to take screenshot using hw keys
+Settings: Consolidate HideDeveloperStatus to reuse HideAppList resources
+SystemUI: Adapt platform hooks for dynamic bar usage only
+SystemUI: Add quicklook client
+SystemUI: Adding platform hooks
+SystemUIClocks: Update to mustang BP4A.260205.001SystemUIClocks: Update to mustang BP4A.260205.001
+ThemeIcons: Drop com.android.camera overlay
+Updater: fix NPE when update is not found in controller
+config: Build AxQuickLook service
+core: Fix json parsing non-string values in PIF
+core: Move trickystore, pif and game props spoof
+core: ThemeUtils: consolidate android and evolution variants
+core: pif: skip SDK_INT spoofing for vending process
+fonts: Update google sans flex fonts
+init: Move trickystore, pif and game props spoof
+iwlan: Fix VoLTE not reconnecting after VoWiFi handover
+sepolicy: Move trickystore, pif and game props spoof
+threadnetwork: Allow overriding apex init_rc
