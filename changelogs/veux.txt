@@ -7,8 +7,7 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.6.3
-- Changed from userdebug -> user
+- Functional Sound/Mic (Hotfix)
 
 Notable ROM changes:
 ==============================
