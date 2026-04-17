@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "CRAZY_JOKER67",
+      "currently_maintained": true,
+      "oem": "TECNO",
+      "device": "TECNO Pova 5",
+      "filename": "EvolutionX-16.0-20260417-LH7n-11.6.3-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/LH7n/16_vanilla/EvolutionX-16.0-20260417-LH7n-11.6.3-Vanilla-Official.zip/download",
+      "timestamp": 1776384826,
+      "md5": "da66074b7ae7fc0ba6c1607075d36ce2",
+      "sha256": "1fa3265e3e5ac651ca54cd6eb351e801b70a86624f255f11a5f5c996ada53e43",
+      "size": 1677320643,
+      "version": "11.6.3",
+      "buildtype": "user",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "Andreyka445",
+      "initial_installation_images": [
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
