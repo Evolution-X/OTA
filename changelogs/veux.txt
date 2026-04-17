@@ -4,10 +4,12 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
+- Fixed the sound issue
+- Fixed the hotspot & issues
 
 Device changes:
 ==============================
-- Functional Sound/Mic (Hotfix)
+- Update to Evolution X 11.6.3
 
 Notable ROM changes:
 ==============================
