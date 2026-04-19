@@ -7,8 +7,8 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.6.3
-- Initial official release
+- Update KagamiChihiro kernel 1.2 to 2.0
+- Fix issues fit audio
 
 Notable ROM changes:
 ==============================
