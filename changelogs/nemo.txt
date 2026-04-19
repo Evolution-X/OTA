@@ -1,58 +1,111 @@
-This is Android 16 QPR2 with March 2026 security patches
+This is Android 16 QPR2 with April 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Includes Dolby Atmos, ViPER4AndroidFX.
 - Credits to kardebayan, SamarV-121, elohim-etz, sarthakroy2002 and all nemo/mt6785 devs.
-- Thanks to Ansh for testing the build.
+- Thanks to Ansh, PrimeTITAN for testing the build.
 - Firmware is included.
 - Use the recovery.img.
 
 Device changes:
 ==============================
-- Synced with latest v11.6.2 changes
+- Synced with latest v11.6.3 changes
 - Compiled with Stormbreaker-LTS v4.14.366 kernel
 - Misc. Fixes and Improvements
 
 Notable ROM changes:
 ==============================
-Avoid NPE in CriticalEventLog.saveLogToFileNow()
-Evolver: Add gradients customization
-Evolver: Add ongoing action chip implementation
-Evolver: Bring back status bar clock position preference
-Evolver: Convert background clock chip fragment to preference dialog
-Evolver: Convert lockscreen clock font picker to preference dialog
-Evolver: Convert logo fragment to preference dialog
-Evolver: Convert system font picker to preference dialog
-Evolver: Disable gradient start/end colors for auto mode
-Evolver: Implement option to prevent OneSearchAimActivity from being disabled
-Evolver: Set height for custom selector preferences
-Merge March 2026 security patches
-PixelPropsUtils: Update fingerprints to March 2026 release
-Settings: Change UserBackupSettingsActivity to extend FragmentActivity
-Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
-Settings: Set launch mode to singleTop for UserBackupSettingsActivity
-SettingsTheme: Correctly theming AlertDialog with M3 colors
-StorageManagerService: pre-create Android/media app dirs
-SystemUI: Add custom gradient start/end color support
-SystemUI: Add gradient for volume buttons along with slider
-SystemUI: Clean up legacy code in ongoing action progress chip
-SystemUI: Fix NPE in affectedByWorkProfileLock when entry is null
-SystemUI: Fix notification flicker with transluency enabled
-SystemUI: Improve Ongoing Chip interactions
-SystemUI: Redesign ongoing music chip like oneui music chip
-SystemUI: Redesign ongoing music chip popup
-SystemUI: Refactor ongoing action progress chip
-SystemUI: Retain compact mode for ongoing chip during visibility changes
-SystemUI: Rework media session helper for ongoing action progress chip
-SystemUI: Rewrite stale progress check
-SystemUI: Use proper media buttons for ongoing action chip and theme it
-SystemUI: Use squiggle for seekbar in ongoing progress media panel
-VibratorInfo: Don't log error when frequency profile is absent
-base: Add method to restart SystemUI
-extras: Add more UDFPS icons
-extras: Bring back fonts and clock fonts
-fixup! audio: Allow opting out of speaker_layout_channel_mask field
-version: Uprev to 11.6.2
-vold: fix Android/media app dir ACLs and revert 777 mode
+Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
+Add hooks for custom rom hide
+base: Always turn on sensors when disabling sleep mode
+base: Migrate to MaterialExpressiveTheme
+bluetooth: Fix avrcp disconnect/connect issue
+bootstat: Use Health HAL to retrieve battery level
+bouncycastle: adding more providers for trickystore port
+Change UserBackupSettingsActivity to extend FragmentActivity
+config: Add Mosey nopauth variant selection flag
+config: Inherit Mosey impl
+core: Adding omnijaws front end hooks
+core: Align Watchdog native dumps with crash_dump policy
+core: Avoid DeadSystemException recursion when dropbox is unavailable
+core: Dynamically inject Tensor features for Play Store compatibility
+core: Harden DeadSystem paths for optional services
+custom_rom_hide: harden pointer validation across all entry points
+Evolver: Add lock screen toggles for lock screen dynamic bar
+Evolver: Add more classic icon shapes
+Evolver: add new clocks
+Evolver: Add proper toggle for smartspace
+Evolver: Adding statusbar dynamic bar
+Evolver: Allow change notification bg color
+Evolver: Allow disable qs media player
+Evolver: Allow toggle waveform seekbar
+Evolver: Bring back cutout progress ring
+Evolver: Bring back ongoing progress chip
+Evolver: Bring back signal/wifi icon styles via AxThemeStore
+Evolver: Bring back toggle for Tensor feature override
+Evolver: fix crash in hideapplist
+Evolver: Introduce nowplaying music dialog
+Evolver: notification app icon
+Evolver: Rework spoofing features (use AxionOS impl)
+Evolver: Toggle to launch notification apps in bubble
+extras: Bring back Accord
+extras: fonts: Add Recursive font
+extras: Import ax_compose sdk
+fix StrictMode BackgroundActivityLaunchCallback leak
+Fix the issue of digital jitter during the countdown when using "PIN" for lock screen unlocking
+Fixed the issue where settings_secure.xml.fallback fails to generate in scenarios involving dual instances of the app
+fixup! Adding dynamic font feature
+gms: Update from mustang BP4A.260205.001
+IconProvider: fix crash when resource is missing
+init: Prioritize bpfloader and netd startup during post-fs-data
+init.rc: fix SELinux label regression on dirty flash for adb spoofing dirs
+LineageParts: Replace fragment-wide listeners where possible
+LineageParts: Simplify some prefs summary handling with SummaryProvider
+LineageParts: StatusBarSettings: Set dependencies of QS brightness slider preference
+LMOFreeform: Prefer highest refresh rate display mode
+LMOFreeform: Use max supported refresh rate for freeform windows
+MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
+Merge April 2026 security patches
+PixelPropsUtils: Drop Meizu spoof
+PixelPropsUtils: Drop PIF spoofing
+PixelPropsUtils: Update fingerprints to April 2026 release
+release: Disable redesign notification font
+release: Enable notification themed icon [Experimental]
+sepolicy: Add mosey_app to compat mapping
+sepolicy: Allow perf HAL to access proc_sched as well
+sepolicy: Enhance vold_prepare_subdirs for media storage
+sepolicy: Remove obsolete treble sepolicy tests
+sepolicy: Restrict build version props
+sepolicy: Restrict pixel props usage
+services: Fix sleep mode service initialization
+Set launch mode to singleTop for UserBackupSettingsActivity
+Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
+Settings: Introduce automated Sleep Mode
+Settings: Observe auto brightness mode changes
+Settings: ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
+soong: Fix 'date' command options
+soong: overriding lineage namespace
+Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
+System: Switch Tensor feature handling to user-controlled override
+SystemUI: Add Glow effect in notch ring
+SystemUI: Add more classic icon shapes
+SystemUI: Add new OOS clock
+SystemUI: DynamicBar: Fix chip dismiss issue
+SystemUI: DynamicBar: Improve battery icon with rounded corners and proper nub
+SystemUI: DynamicBar: Improve chip padding and size
+SystemUI: DynamicBar: Redesign media pill style
+SystemUI: Fix media album art not updating on track change in ongoing chip
+SystemUI: Fix NotificationMenuRow crash on theme switch
+SystemUI: Fix QS classic tile style jitter during panel expansion
+SystemUI: Fix qs tile font variable
+SystemUI: Improve statusbar logo padding
+SystemUI: Update sleep mode QS tile
+Update GameSpace
+Update translations
+vendor: drop default PIF values
+vold: Fix binder thread starvation in dump
+wifi: Accept operating environment values 0x01-0x06 in Country IE
+wifi: ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
+wifi: Fix Transition Disble in WifiUriParser
