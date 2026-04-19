@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Liekoo",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 13 4G/NFC",
+      "filename": "EvolutionX-16.0-20260419-sapphire-11.6.3-Official.zip",
+      "download": "https://cdn.evolution-x.org/sapphire/16/EvolutionX-16.0-20260419-sapphire-11.6.3-Official.zip/download",
+      "timestamp": 1776580713,
+      "md5": "2c1bca1c67e5d6735f33570b95e37dfa",
+      "sha256": "300f2a5ab0a8a83647a16a70e7098f001b1e50d1a4eefc68143e01db51e1575a",
+      "size": 2734667784,
+      "version": "11.6.3",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/liekoo",
+      "github": "https://github.com/Liekoo",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
