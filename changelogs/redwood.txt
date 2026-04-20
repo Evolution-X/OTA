@@ -7,10 +7,7 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.6.3
-- Changed from userdebug -> user
-- kernel: Update to Scarlet-v4.1
-- Switch to HyperOS dolby atmos
+- kernel: Drop KernelSU support
 
 Notable ROM changes:
 ==============================
