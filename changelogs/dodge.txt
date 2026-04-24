@@ -7,23 +7,36 @@ Notes:
 
 Device changes:
 ==============================
-- Updated Device Trees to Latest F.86
-- Added Wild KSU Kernel with SUSFS 
-- Uprev AmberKErnel V2
 - More Under The Hood Improvments
 
 Notable ROM changes:
 ==============================
-Evolver: Add proper toggle for smartspace
-Evolver: Allow disable qs media player
-Evolver: Toggle to launch notification apps in bubble
-Settings: Add torch toggle for double tap power gesture
-Settings: Introduce navbar pill auto-hide
-SystemUI: Fix NotificationMenuRow crash on theme switch
-SystemUI: Fix classic tile specs in some instances
-SystemUI: Fix media album art not updating on track change in ongoing chip
-config: Spoof BuildFingerprint as Pixel Beta
-extras: Bring back Accord
-overlay: Use google-sans-text for regular font
-pixel-style: Update GlanceableHub overlays
-sepolicy: Allow perf HAL to access proc_sched as well
+Evolver: About: Add OTA-backed current maintainers section
+Evolver: Add Google Wallet to TrickyStore auto-select list
+Evolver: Add auto-select button for tricky store apps list
+Evolver: Add canary channel selection for pif
+Evolver: Add dynamic bar event for ongoing calls
+Evolver: BootAnimation: fix Google previews, hide on Pixel devices
+Evolver: Changelog: Rework with Activity
+Evolver: Fix spoofing structure
+Evolver: TrickyStore: Add security patch date management
+Evolver: VideoWallpaper: Handle storage locked state
+Settings: New logo style
+Settings: Refactor OEM/device name formatting into shared utility
+Settings: Refactor hardware info into unified card UI with OTA-backed data
+SystemUI: Adapt Bottomsheet USB dialog
+SystemUI: ClockStyle: consolidate and sync with upstream improvements
+SystemUI: DynamicBar: Add separate card for active calls
+SystemUI: DynamicBar: Fix chip dismiss issue
+SystemUI: DynamicBar: Make music chip bg more vibrant
+SystemUI: Improve notification panel boost
+SystemUI: Match circle battery style colors with landscape icon
+SystemUI: use realtime values for lockscreen charging stats
+core: Fix and remove deprecated api in certificate generator
+core: Fix spoofing structure
+core: Improve parsing keybox xml with StringBuilder
+core: PIF: Align spoofing behavior with upstream
+core: Sanitize keybox xml before loading
+core: Upgrading to m3e animation specs
+libs: Reducing redundant surface animation processing
+version: Uprev to 11.6.4
