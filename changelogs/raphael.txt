@@ -14,46 +14,46 @@ Notes:
 
 Device changes:
 ==============================
-None
+Disable EGL image tracking
+Disable default framerate for games
+Don't latch unsignal buffers
+Drop force triple frame buffers
+Enable ADPF CPU hints for improved UI performance
+Explicitly disable "Enable GL comp backpressure"
+Switch to Sony Dolby Atmos
+Treat BT.601 170M as sRGB in SurfaceFlinger
+hwc: Disable SF composition prediction model
+media: Import media_codecs.xml
 
 Notable ROM changes:
 ==============================
-BLASTBufferQueue: Prevent repeated redundant syscalls
-Evolver: Add Depth wallpaper settings
-Evolver: Add Essential Apps preference
-Evolver: Add pref screens for game spoof, PIF and trickstore
-Evolver: Add steps for PIF and TrickyStore
-Evolver: Add wallpaper visual effects
-Evolver: Allow toggle single tone QS background
-Evolver: Ambient display show battery & cpu temperature
-Evolver: Drop nothing charging animation
-Evolver: Fix info preferences clipping
-Evolver: Fix potential crashes in HideAppListSettings
-Evolver: General cleanup and refactoring
-Evolver: Implement wallpaper styles
-Evolver: Improve dynamic bar guide steps layout
-Evolver: Introduce Lock glymps
-Evolver: Move custom font selection into FontsPickerPreference
-Evolver: Move trickystore, pif and game props spoof
-Evolver: Remove compact chip toggle for dynamic bar
-Evolver: Show username in ambient indicator
-Evolver: TrickyStore: restore target mode from disk on fragment resume
-Evolver: Video Wallpaper selector
-LineageParts: Add an option to take screenshot using hw keys
-Settings: Consolidate HideDeveloperStatus to reuse HideAppList resources
-SystemUI: Adapt platform hooks for dynamic bar usage only
-SystemUI: Add quicklook client
-SystemUI: Adding platform hooks
-SystemUIClocks: Update to mustang BP4A.260205.001SystemUIClocks: Update to mustang BP4A.260205.001
-ThemeIcons: Drop com.android.camera overlay
-Updater: fix NPE when update is not found in controller
-config: Build AxQuickLook service
-core: Fix json parsing non-string values in PIF
-core: Move trickystore, pif and game props spoof
-core: ThemeUtils: consolidate android and evolution variants
-core: pif: skip SDK_INT spoofing for vending process
-fonts: Update google sans flex fonts
-init: Move trickystore, pif and game props spoof
-iwlan: Fix VoLTE not reconnecting after VoWiFi handover
-sepolicy: Move trickystore, pif and game props spoof
-threadnetwork: Allow overriding apex init_rc
+Evolver: About: Add OTA-backed current maintainers section
+Evolver: Add Google Wallet to TrickyStore auto-select list
+Evolver: Add auto-select button for tricky store apps list
+Evolver: Add canary channel selection for pif
+Evolver: Add dynamic bar event for ongoing calls
+Evolver: BootAnimation: fix Google previews, hide on Pixel devices
+Evolver: Changelog: Rework with Activity
+Evolver: Fix spoofing structure
+Evolver: TrickyStore: Add security patch date management
+Evolver: VideoWallpaper: Handle storage locked state
+Settings: New logo style
+Settings: Refactor OEM/device name formatting into shared utility
+Settings: Refactor hardware info into unified card UI with OTA-backed data
+SystemUI: Adapt Bottomsheet USB dialog
+SystemUI: ClockStyle: consolidate and sync with upstream improvements
+SystemUI: DynamicBar: Add separate card for active calls
+SystemUI: DynamicBar: Fix chip dismiss issue
+SystemUI: DynamicBar: Make music chip bg more vibrant
+SystemUI: Improve notification panel boost
+SystemUI: Match circle battery style colors with landscape icon
+SystemUI: use realtime values for lockscreen charging stats
+config: Spoof BuildFingerprint as Pixel Beta
+core: Fix and remove deprecated api in certificate generator
+core: Fix spoofing structure
+core: Improve parsing keybox xml with StringBuilder
+core: PIF: Align spoofing behavior with upstream
+core: Sanitize keybox xml before loading
+core: Upgrading to m3e animation specs
+libs: Reducing redundant surface animation processing
+version: Uprev to 11.6.4
