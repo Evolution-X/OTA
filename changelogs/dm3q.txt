@@ -1,54 +1,110 @@
-This is Android 16 QPR2 with March 2026 security patches
+This is Android 16 QPR2 with April 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 8 or lower
 
 Device changes:
 ==============================
-dm3q: Add debugcc-kalama to modules load list
-sm8550-common: init: Add workaround for broken offline charging
-Revert "fixup! sm8550-common: Build lineage health HAL"
-sm8550-common: overlay: Tune autobrightness
-sm8550-common: props: Prevent BT logspam
+- Update to Evolution X 11.6.4
+- Update firmware DYI3 > EZA1
+- Upstream kernel 5.15.202
+- Bring in SEC macloader (fixes MAC address for wifi, clean flash is recommended). Thanks to josip-k
+- Drop SF triple buffering, reduces QS lag
+- New custom kernel walt tunables for cpu throttling on battery / temperature changes. Thanks to pckotzer
+- Deep sleep issue fixed
 
 Notable ROM changes:
 ==============================
-AppOpsService: treat empty attribution tags as absent
-CameraProviderManager: ignore torch callbacks for flashless cameras
-Evolver: Add Idle manager resources
-Evolver: Add support custom color for clock chip
-Evolver: Add transparent mask clock mode for gradient chip
-Evolver: Allow toggle to kill Flash SMS messages
-Evolver: Bring back Lockscreen Weather
-Evolver: Implement DeviceConfigSwitchPreference
-Evolver: Introduce Clock face feature
-Evolver: Introduce custom spoof device support in per-apps spoofing
-Evolver: Introduce per-apps spoofing
-Evolver: Refactor per-app spoof UI
-Evolver: Remove alert slider notifications
-InsetsController: skip redundant hide(ime()) tracking
-KeyboxImitationHooks: Abandon generated certs
-Settings: Add config to display Now Playing
-Settings: Add toggle for face down detection
-Settings: Add torch toggle for double tap power gesture
-Settings: Guard against detached fragment context in hide dev settings
-Settings: Implement Idevice idle manager
-SystemUI: Add interaction boost for QS/shade animations
-SystemUI: Disable smartspace default view
-SystemUI: Fix flashlight QS direct-expand slider initialization
-SystemUI: Fix flashlight slider re-enable from 0 level
-SystemUI: Hide ongoing action chip while QS panel is expanded
-SystemUI: Make the new vertical flashlight slider compatible with the old FlashlightController implementation
-SystemUI: Update smartspace to CP1A.260305.018
-SystemUI: clear stale LogAccessDialog timeouts
-SystemUI: hide ticks on flashlight slider
-SystemUI: honor hidden FGS manager packages
-SystemUI: keep Wi-Fi QS tile subtitle Wi-Fi-specific
-aconfig: Enable flashlight strength tile supportaconfig: Enable flashlight strength tile support
-base: Empty accessibility service list when hiding app list
-config: Enable OmniJaws service
-core: Add OmniJawsClient
-extras: Build overlays for hiding clock and smartspace
-extras: Don't include prebuilt spoof
+Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
+Add hooks for custom rom hide
+base: Always turn on sensors when disabling sleep mode
+base: Migrate to MaterialExpressiveTheme
+bluetooth: Fix avrcp disconnect/connect issue
+bootstat: Use Health HAL to retrieve battery level
+bouncycastle: adding more providers for trickystore port
+Change UserBackupSettingsActivity to extend FragmentActivity
+config: Add Mosey nopauth variant selection flag
+config: Inherit Mosey impl
+core: Adding omnijaws front end hooks
+core: Align Watchdog native dumps with crash_dump policy
+core: Avoid DeadSystemException recursion when dropbox is unavailable
+core: Dynamically inject Tensor features for Play Store compatibility
+core: Harden DeadSystem paths for optional services
+custom_rom_hide: harden pointer validation across all entry points
+Evolver: Add lock screen toggles for lock screen dynamic bar
+Evolver: Add more classic icon shapes
+Evolver: add new clocks
+Evolver: Add proper toggle for smartspace
+Evolver: Adding statusbar dynamic bar
+Evolver: Allow change notification bg color
+Evolver: Allow disable qs media player
+Evolver: Allow toggle waveform seekbar
+Evolver: Bring back cutout progress ring
+Evolver: Bring back ongoing progress chip
+Evolver: Bring back signal/wifi icon styles via AxThemeStore
+Evolver: Bring back toggle for Tensor feature override
+Evolver: fix crash in hideapplist
+Evolver: Introduce nowplaying music dialog
+Evolver: notification app icon
+Evolver: Rework spoofing features (use AxionOS impl)
+Evolver: Toggle to launch notification apps in bubble
+extras: Bring back Accord
+extras: fonts: Add Recursive font
+extras: Import ax_compose sdk
+fix StrictMode BackgroundActivityLaunchCallback leak
+Fix the issue of digital jitter during the countdown when using "PIN" for lock screen unlocking
+Fixed the issue where settings_secure.xml.fallback fails to generate in scenarios involving dual instances of the app
+fixup! Adding dynamic font feature
+gms: Update from mustang BP4A.260205.001
+IconProvider: fix crash when resource is missing
+init: Prioritize bpfloader and netd startup during post-fs-data
+init.rc: fix SELinux label regression on dirty flash for adb spoofing dirs
+LineageParts: Replace fragment-wide listeners where possible
+LineageParts: Simplify some prefs summary handling with SummaryProvider
+LineageParts: StatusBarSettings: Set dependencies of QS brightness slider preference
+LMOFreeform: Prefer highest refresh rate display mode
+LMOFreeform: Use max supported refresh rate for freeform windows
+MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
+Merge April 2026 security patches
+PixelPropsUtils: Drop Meizu spoof
+PixelPropsUtils: Drop PIF spoofing
+PixelPropsUtils: Update fingerprints to April 2026 release
+release: Disable redesign notification font
+release: Enable notification themed icon [Experimental]
+sepolicy: Add mosey_app to compat mapping
+sepolicy: Allow perf HAL to access proc_sched as well
+sepolicy: Enhance vold_prepare_subdirs for media storage
+sepolicy: Remove obsolete treble sepolicy tests
+sepolicy: Restrict build version props
+sepolicy: Restrict pixel props usage
+services: Fix sleep mode service initialization
+Set launch mode to singleTop for UserBackupSettingsActivity
+Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
+Settings: Introduce automated Sleep Mode
+Settings: Observe auto brightness mode changes
+Settings: ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
+soong: Fix 'date' command options
+soong: overriding lineage namespace
+Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
+System: Switch Tensor feature handling to user-controlled override
+SystemUI: Add Glow effect in notch ring
+SystemUI: Add more classic icon shapes
+SystemUI: Add new OOS clock
+SystemUI: DynamicBar: Fix chip dismiss issue
+SystemUI: DynamicBar: Improve battery icon with rounded corners and proper nub
+SystemUI: DynamicBar: Improve chip padding and size
+SystemUI: DynamicBar: Redesign media pill style
+SystemUI: Fix media album art not updating on track change in ongoing chip
+SystemUI: Fix NotificationMenuRow crash on theme switch
+SystemUI: Fix QS classic tile style jitter during panel expansion
+SystemUI: Fix qs tile font variable
+SystemUI: Improve statusbar logo padding
+SystemUI: Update sleep mode QS tile
+Update GameSpace
+Update translations
+vendor: drop default PIF values
+vold: Fix binder thread starvation in dump
+wifi: Accept operating environment values 0x01-0x06 in Country IE
+wifi: ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
+wifi: Fix Transition Disble in WifiUriParser
