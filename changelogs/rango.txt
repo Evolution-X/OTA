@@ -7,101 +7,68 @@ Notes:
 
 Device changes:
 ==============================
-- Initial release for the Google Pixel 10 Pro Fold
-- Update to Evolution X 11.6.3
-- Changed from userdebug -> user
+- Update to Evolution X 11.6.4
+- Known bug, there is an issue with adding/removing e-sims. Issue is been looking at.
 
-Notable ROM changes:
+Notable ROM changes 04/21:
 ==============================
-Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
-Add hooks for custom rom hide
-base: Always turn on sensors when disabling sleep mode
-base: Migrate to MaterialExpressiveTheme
-bluetooth: Fix avrcp disconnect/connect issue
-bootstat: Use Health HAL to retrieve battery level
-bouncycastle: adding more providers for trickystore port
-Change UserBackupSettingsActivity to extend FragmentActivity
-config: Add Mosey nopauth variant selection flag
-config: Inherit Mosey impl
-core: Adding omnijaws front end hooks
-core: Align Watchdog native dumps with crash_dump policy
-core: Avoid DeadSystemException recursion when dropbox is unavailable
-core: Dynamically inject Tensor features for Play Store compatibility
-core: Harden DeadSystem paths for optional services
-custom_rom_hide: harden pointer validation across all entry points
-Evolver: Add lock screen toggles for lock screen dynamic bar
-Evolver: Add more classic icon shapes
-Evolver: add new clocks
-Evolver: Add proper toggle for smartspace
-Evolver: Adding statusbar dynamic bar
-Evolver: Allow change notification bg color
-Evolver: Allow disable qs media player
-Evolver: Allow toggle waveform seekbar
-Evolver: Bring back cutout progress ring
-Evolver: Bring back ongoing progress chip
-Evolver: Bring back signal/wifi icon styles via AxThemeStore
-Evolver: Bring back toggle for Tensor feature override
-Evolver: fix crash in hideapplist
-Evolver: Introduce nowplaying music dialog
-Evolver: notification app icon
-Evolver: Rework spoofing features (use AxionOS impl)
-Evolver: Toggle to launch notification apps in bubble
-extras: Bring back Accord
-extras: fonts: Add Recursive font
-extras: Import ax_compose sdk
-fix StrictMode BackgroundActivityLaunchCallback leak
-Fix the issue of digital jitter during the countdown when using "PIN" for lock screen unlocking
-Fixed the issue where settings_secure.xml.fallback fails to generate in scenarios involving dual instances of the app
-fixup! Adding dynamic font feature
-gms: Update from mustang BP4A.260205.001
-IconProvider: fix crash when resource is missing
-init: Prioritize bpfloader and netd startup during post-fs-data
-init.rc: fix SELinux label regression on dirty flash for adb spoofing dirs
-LineageParts: Replace fragment-wide listeners where possible
-LineageParts: Simplify some prefs summary handling with SummaryProvider
-LineageParts: StatusBarSettings: Set dependencies of QS brightness slider preference
-LMOFreeform: Prefer highest refresh rate display mode
-LMOFreeform: Use max supported refresh rate for freeform windows
-MediaRouterService: fix A2DP incorrectly suppressed on USB disconnect
-Merge April 2026 security patches
-PixelPropsUtils: Drop Meizu spoof
-PixelPropsUtils: Drop PIF spoofing
-PixelPropsUtils: Update fingerprints to April 2026 release
-release: Disable redesign notification font
-release: Enable notification themed icon [Experimental]
-sepolicy: Add mosey_app to compat mapping
-sepolicy: Allow perf HAL to access proc_sched as well
-sepolicy: Enhance vold_prepare_subdirs for media storage
-sepolicy: Remove obsolete treble sepolicy tests
-sepolicy: Restrict build version props
-sepolicy: Restrict pixel props usage
-services: Fix sleep mode service initialization
-Set launch mode to singleTop for UserBackupSettingsActivity
-Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
-Settings: Introduce automated Sleep Mode
-Settings: Observe auto brightness mode changes
-Settings: ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
-soong: Fix 'date' command options
-soong: overriding lineage namespace
-Switch to AxionOS spoof implementation (custom rom hide/trickystore/game spoof)
-System: Switch Tensor feature handling to user-controlled override
-SystemUI: Add Glow effect in notch ring
-SystemUI: Add more classic icon shapes
-SystemUI: Add new OOS clock
-SystemUI: DynamicBar: Fix chip dismiss issue
-SystemUI: DynamicBar: Improve battery icon with rounded corners and proper nub
-SystemUI: DynamicBar: Improve chip padding and size
-SystemUI: DynamicBar: Redesign media pill style
-SystemUI: Fix media album art not updating on track change in ongoing chip
-SystemUI: Fix NotificationMenuRow crash on theme switch
-SystemUI: Fix QS classic tile style jitter during panel expansion
-SystemUI: Fix qs tile font variable
-SystemUI: Improve statusbar logo padding
-SystemUI: Update sleep mode QS tile
-Update GameSpace
-Update translations
-vendor: drop default PIF values
-vold: Fix binder thread starvation in dump
-wifi: Accept operating environment values 0x01-0x06 in Country IE
-wifi: ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
-wifi: Fix Transition Disble in WifiUriParser
+Settings: Refactor OEM/device name formatting into shared utility
+Settings: Firmware: Resolve build maintainer from OTA metadata
+Settings: Hardware info: add OTA-backed device image card
+Changelog: Rework with Activity [1/2]
+New Crowdin updates
+Evolver: BootAnimation: fix Google previews, hide on Pixel devices
+Evolver: About: Add OTA-backed current maintainers section
+Evolver: Changelog: Rework with Activity [2/2]
+Evolver: Add auto-select button for tricky store apps list
+Evolver: Check for all versions when parsing canary releases
+Evolver: Add canary channel selection for pif
+Evolver: Fix spoofing structure
+createjson: Use changelog scraping with LATEST.txt fetch
+[ax_custom_rom_hide] overriding lineage namespace
+build: Fix reading build props on devices with legacy partition layout
+combo: Allow some core to be declared as both ARMv8-A and ARMv8-2A
+build: Erase more *_cache upon flashing
+product: Enable gestural navigation overlay to match default nav mode
+always use UTC as the time zone for build dates
+build: Turn off debug props on userdebug builds
+build: Clamp first api level to 32
+build: Do not leak lineage_ prefixes in build.prop
+Replace device_kernel_headers with generated_kernel_headers
+Replace old-style kernel headers only when building inline
+build: Automatically replace old-style kernel header includes with new header lib
+releasetools: do not remove dynamic partitions in system-only builds
+Correct logic for obtaining the path to full recovery image
+Don't make recovery patch for devices with prebuilt vendor
+Move recovery-from-boot.p from /system to /vendor
+build_image: get squashfs partition size from image size
+Exclude Camera2 for lineage builds
+envsetup: Drop the unnecessary spam_for_lunch
+Don't build QuickSearchBox
+core: sysprop: Write build display id to product prop
+Allow longer fingerprint
+evnsetup.sh: Add missing lunch commands
+disable memory tagging for surfaceflinger
+build: Erase resource-cache upon flashing
+build: Erase package_cache upon flashing
+releasetools: Don't compress with brotli
+build: dont include tasks from tests and platform_testing
+combo: Add kryo585 architecture to known v8 cores
+combo: Add kryo585|785 architectures to known v8-2a cores
+combo: Add cortex-a76 to known v8-2a cores
+core: Use $(PRODUCT_DEVICE) for auto generated RRO names
+Revert "Add DeviceAsWebcam to general handheld_system"
+envsetup.sh: Setup and enable ccache
+build: Add backuptool by default
+core: lineage-priv > evolution-priv
+extras: Drop Evo navbar overlays
+
+Notable ROM changes 04/22:
+==============================
+Settings: Refactor hardware info into unified card UI with OTA-backed data
+
+Notable ROM changes 04/23:
+==============================
+TMP RGB
+Settings: New logo style
+overlay: Update default keyguard affordance setup
