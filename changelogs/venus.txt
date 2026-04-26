@@ -9,7 +9,7 @@ Notes:
 
 Device changes:
 ==============================
-None
+Fix bootloop issue
 
 Notable ROM changes:
 ==============================
