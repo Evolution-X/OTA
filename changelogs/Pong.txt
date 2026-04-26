@@ -3,27 +3,30 @@ This is Android 16 QPR2 with April 2026 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 8 or lower
 
 Device changes:
 ==============================
-- Update to Evolution X 11.6.3
-- Enable manual high brightness mode support (LiveDisplay sunlight enhancement)
-- Glyph: Read CSV animations from internal storage (/sdcard/Glyph) (directories created on launch)
-- Glyph: Delay notification animation to better sync with audio
-- Glyph: Notify about conflicts with pulse visualizer + disable glyph visualizer when pulse is enabled
-- Glyph: Add Utilities section to read ogg/export csv/validate csv
-- Glyph: Give flip to glyph its own section and preview, allow using any notification animation
-- Glyph: Cancel pending notification animations when notification is dismissed
-- Glyph: Allow setting call animation options per-contact
-- Glyph: Add extra visualizer modes, tweak band trigger mode (default) slightly
-- Glyph: Import icons for most top-level prefs
-- Glyph: Add tile for flip to glyph
-- Glyph: Allow customizing allowed apps for media progress
-- Glyph: only play flip animation when idle
-- Glyph: Consider progress for idle status
-- Glyph: Add option to use Red LED as mic indicator
-
+- Update to Evolution X 11.6.4
+- Update vendor/firmware from NOS B4.1-260414-1749
+- Glyph: ResourceUtils: Exclude hidden files from user animations
+- Glyph: AnimationSettingsFragment: Exclude applications that cannot send notifications
+- Glyph: AnimationSettingsFragment: Null app summary if config isn't found
+- Glyph: Add quick save options on OggSettingsFragment
+- Glyph: Improve notification service dialog UX
+- Glyph: Fix top spacing on app call settings fragment
+- Glyph: Set configured animation as app summary when set
+- Glyph: SettingsManager: Base app checks on animation preference
+- Glyph: Allow customizing notification animations per-app
+- Glyph: Allow customizing call animations for third party apps
+- Glyph: Switch to InCallService for CallReceiver
+- Glyph: SettingsFragment: Switch to MultiSelectListPreference for app lists
+- Glyph: SettingsFragment: Exclude utilities from glyph main switch filter
+- Glyph: OggSettingsFragment: Show a toast after the file is saved
+- Glyph: Rework icons for all clickable preferences
+- Glyph: Fix main switch state sync for flip to glyph
+- Glyph: Split ringer mode preference in flip to glyph screen
+- Glyph: Fix edge-to-edge padding in Glyph animation preview
+- Glyph: Improve default settings
 
 Notable ROM changes:
 ==============================
