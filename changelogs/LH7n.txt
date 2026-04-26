@@ -7,8 +7,8 @@ Notes:
 
 Device changes:
 ==============================
-- Update KagamiChihiro kernel 1.2 to 2.0
-- Fix audio cracking issues
+- Update to Evolution X 11.6.3
+- fix background power drain and battery stats
 
 Notable ROM changes:
 ==============================
