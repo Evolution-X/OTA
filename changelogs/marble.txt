@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with April 2026 security patches
+This is Android 16 QPR2 with May 2026 security patches
 
 Notes:
 ==============================
@@ -11,60 +11,29 @@ Notes:
 
 Device changes:
 ==============================
-libinit: Drop fingerprint override
+None
 
 Notable ROM changes:
 ==============================
-Evolver: BootAnimation: Compose rewrite with M3 Expressive UI
-Evolver: Cleanup and preference UI consistency
-Evolver: Consolidate per-app and game spoofing UI
-Evolver: PIF: Overhaul config handling and add auto-fetch
-Evolver: Replace HideAppListSettings with HideDeveloperStatusSettings
-Evolver: Rewrite Sensor Block as Compose UI
-Evolver: TrickyStore: Rework attestation controls and per-app mode picker
-GamePropsSpoofService: absorb PerAppsPropsUtils
-GameSpace: Remove deprecated notification method
+Evolver: Add animation styles for QS tile toggle
+Evolver: Add edge light preview
+Evolver: Add particle and waveform renderer styles
+Evolver: Add subtle haptics on bass spikes
+Evolver: Allow configure bass haptics playback for pulse
+Evolver: Consolidate, clean up, and reorganize our strings
+Evolver: Misc: Overhaul app picker screens and consolidate shared UI
+Evolver: Misc cleanup and UI consistency fixes
+Evolver: PlayIntegrityFix: overhaul config handling, auto-fetch, and import guards
+Evolver: Spoofing: Restructure screen layout and clarify strings
+Evolver: TrickyStore: Add keybox revocation status check
+Merge May 2026 security patches
+Settings: Extract OEM/device name formatting into shared utility
+Settings: Fix capitalization, grammar, and wording in our strings
+Settings: Hardware info: Rework as unified card UI with OTA-backed data
 Settings: Logo: Add animated RGB glow; static outline on light theme
-Settings: ProfileSelectFragment: add clarifying comment about UserHandle#myUserId
-Settings: ProfileSelectFragment: backport 16 QPR3 changes
-Settings: ProfileSelectFragment: stop assuming tab id == tab index
-SurfaceFlinger: add isLayerCommandBatchingEnabled to Composer classes
-SurfaceFlinger: destroy Pixel HWC external display layers on disconnect if command batching
-SurfaceFlinger: fix outdated test expectation on Pixels due to HDCP
-SystemUI: Adding TaskWorkerManager
-SystemUI: Apply wifi and signal icon styles last
-SystemUI: Backport CP1A fix for getBubblePackageForLogging crash
-SystemUI: Caching tile viewmodels across qs fling
-SystemUI: Debouncing notification fade layer changes during fling
-SystemUI: Debouncing wallpaper color extraction on shade dim
-SystemUI: Deferring trimmemory on shade collapse
-SystemUI: DynamicBar: Refine charging chip layout and parsing logic
-SystemUI: DynamicBar: Stabilize and clean up charging info formatting
-SystemUI: Fixing shade gc handler leak and premature gc
-SystemUI: Shade gc and traversal last
-SystemUI: Throttling notification stack height remeasure during fling
-SystemUI: Use binder-backed UVC support checks
-TelephonyRegistry: Harden carrier roaming NTN notifications
 Update translations
-bionic: hardcode custom rom hide app white list
-config: Build AxSandbox
-core: Adding sandbox support
-core: Declare the VCN attribution tag
-core: FontController: Skip variable font role override for Google Sans Flex
-core: HideDeveloperStatusUtils: clean up and modernize
-core: Skip missing aconfigd sockets
-core: Traversal last, skip relayout and hide by cache
-init: clean up data/adb crufts
-init: strengthen spoofing and add debug toggle
-sepolicy: Add sandbox rules
-sepolicy: remove tests to ease of sepolicy addition maintenance
-services: Reducing hinge angle sensor polling from 1000hz to normal
-services: Reducing foldable sensor polling rate
-services: Skipping redundant posture estimation callbacks
-services: Throttling user activity binder calls
-telephony: SatelliteController: Harden carrier roaming NTN notifications
-telephony: SatelliteController: Make NTN nullness explicit
-telephony: services: Avoid exception-driven invalid subId user handles
-telephony: services: Cache unsupported N1 mode responses
-telephony: services: Sanitize invalid physical cell IDs from RIL
-version: Uprev to 11.7
+extras: Drop Evo navbar overlay
+pixel-style: Do not override qualified networks service
+pixel-style: Update overlays from stallion CP1A.260405.005
+release: Enable show_icon_in_empty_shade
+version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
