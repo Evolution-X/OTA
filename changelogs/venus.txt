@@ -13,24 +13,79 @@ None
 
 Notable ROM changes:
 ==============================
-Evolver: Add animation styles for QS tile toggle
-Evolver: Add edge light preview
-Evolver: Add particle and waveform renderer styles
-Evolver: Add subtle haptics on bass spikes
-Evolver: Allow configure bass haptics playback for pulse
-Evolver: Consolidate, clean up, and reorganize our strings
-Evolver: Misc: Overhaul app picker screens and consolidate shared UI
-Evolver: Misc cleanup and UI consistency fixes
-Evolver: PlayIntegrityFix: overhaul config handling, auto-fetch, and import guards
-Evolver: Spoofing: Restructure screen layout and clarify strings
-Evolver: TrickyStore: Add keybox revocation status check
-Merge May 2026 security patches
-Settings: Extract OEM/device name formatting into shared utility
-Settings: Fix capitalization, grammar, and wording in our strings
-Settings: Hardware info: Rework as unified card UI with OTA-backed data
-Update translations
-extras: Drop Evo navbar overlay
-pixel-style: Do not override qualified networks service
-pixel-style: Update overlays from stallion CP1A.260405.005
-release: Enable show_icon_in_empty_shade
-version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
+AppLocker: fixing applocker activity lifecycle issues
+Fix hidden AP remove WifiEntry during connection
+Evolver: Add 2 colon clocks
+Evolver: Add custom clock aod transition
+Evolver: Add emoji styles
+Evolver: Add seekbar navigation to clock preview
+Evolver: Add sound preview to lock/unlock sound picker
+Evolver: Add swiftui and facebook emoji
+Evolver: Allow change media player position
+Evolver: Allow switching QS tile color to pre-qpr shade
+Evolver: Drop charging animation changes
+Evolver: Implement custom color support for pulse
+Evolver: Introduce {Global,Secure,System}PrimarySwitchPreference
+Evolver: Introduce new iOS like clock styles
+Evolver: Introduce quicksettings widget
+Evolver: Reduce clock opacity min value to 0
+Evolver: Refactor Lockscreen Media art
+Evolver: Show dynamic summaries for applicable preferences
+Fix system_server deadlock between DisplayManagerService and ExternalDisplayStatsService
+InputMethodManagerService: retry IME show after dummy editor handoff
+MediaSync: fix nullptr dereference in onAbandoned_l on output death
+MediaSync: fix nullptr dereference when detachNextBuffer fails
+MediaSync: remove InputListener death recipient dead code
+Reduce blocking operation on display thread
+Sandbox: fixing auth activity lifecycle issues
+Settings: display: gate display engine category on persist prop
+Settings: fix udfps | skip button overlap issue
+SystemUI: Add 2 colon clocks
+SystemUI: Add back gesture, charging anim, battery themes support
+SystemUI: Add custom color, height control, and ambient mode support in pulse
+SystemUI: Apply gradient theming to QS widget panel sliders
+SystemUI: Apply wifi and signal icon styles last
+SystemUI: DynamicBar: Hide depth wallpaper when keyguard panel visible
+SystemUI: Fade out depth wallpaper fade out smoothly
+SystemUI: Fix QS widget brightness slider jumping after hold trigger
+SystemUI: Fix notification app lock issues
+SystemUI: Fix pulse and media art overlap
+SystemUI: Refactor Lockscreen Media art
+SystemUI: Restore launch and routing functionality for QS widgets
+SystemUI: Simplify depth wallpaper loading by removing dimming overlay
+SystemUI: charging: harden charging ripple cleanup against stale callbacks
+SystemUI: fix platform hooks regressions
+ThemeStore: fixing scaffold|top app bar issues
+Update BCR to Version v2.10
+backport fix for stuck IME input from May 2026 Pixel update
+build: Adding 8gb/12gb/16gb dalvik heap configs
+build: Fixing dalvik|art|usap tuning regressions
+build: Optimizing dalvik heap configs for lower ram tiers
+config: gate display engine category on persist prop
+disable CLOSE_QUIC_CONNECTION power optimization that bypasses VPN
+imm: guard stale IME target hide against concurrent show request
+keeping expensive rendering across blur cache hits
+sandbox: Adding secure file vault support
+sepolicy: adding usap pool rules
+services: Allow early null AxSandbox manager lookups
+services: Caching isOverlappingWithNavBar to avoid redundant rectangle math
+services: Disabling dma buff stats pull
+services: Skipping atom stats pulling on none eng builds
+services: Optimizing letterbox updates
+services: Optimizing navigation bar draws
+services: Optimizing redundant status bar top hide checks
+services: Optimizing wallpaper controller traversals
+services: Optimizing wallpaper zoom
+services: Optimizing window rounded corners updates
+services: Optimizing wms prop | settings reads
+services: optimizing sandbox call sites
+sidebar: Implement configurable slider width
+sidebar: Implement configurable swipe-to-open gesture for sidebar
+sidebar: Implement gesture setting to open sidebar drawer on tap
+sidebar: Integrate GameSpace awareness and auto-hide support
+sidebar: Refactor customization into standalone activity
+sidebar: Refactor settings navigation using NavController
+sidebar: Replace custom drawer icons with Material Icons
+sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar
+themes: Add back gesture | charging anim themes
+wifi_chip: Reduce legacy Wi-Fi HAL startup noise
