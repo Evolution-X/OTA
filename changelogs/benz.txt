@@ -9,8 +9,7 @@ Notes:
 Device changes:
 ==============================
 - Update to Evolution X 11.7
-- Update from OOS 16.0.0.5.700
-- Fix long vibrations
+- Enable bypass charging
 
 Notable ROM changes
 ==============================
