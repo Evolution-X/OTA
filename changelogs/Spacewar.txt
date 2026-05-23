@@ -4,21 +4,20 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
+- If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 
 Device changes:
 ==============================
 - Update to Evolution X 11.7
-- System Tuning: Improved overall system stability and responsiveness through rootdir refinements.
-- Power & Performance: Imported Qualcomm performance boosts into powerhint.json and removed QTI perfd for a cleaner, more efficient power management profile.
-- Optimizations: Enabled R8 optimizations for system_server and SystemUI to ensure faster execution and lower memory overhead
-- Display: Added 120 FPS support for Screen Recorder and disabled Smart Pixels on UDFPS to ensure consistent fingerprint recognition.
-- Microphone Gain: Increased ADC1 and ADC4 gain for the handset microphone to improve voice clarity during calls. (Also fixes the issue where the other person can't hear you in calls)
-- RichTap Vibrator: Improved vibration consistency and allowed remapping of AOSP effect IDs to RichTap’s internal IDs for more precise haptic feedback.
-- Vibration Tuning: Adjusted vibration strength and amplitude initialization.
-- Glyph Interface: fixed SEPolicy permissions for the Glyph app (mediaserver and trust service access).
-- Network: Disabled unnecessary NL80211 event logging to reduce system overhead.
-- Fingerprint Spoofing: Update BuildFingerprint to Pixel Beta.
-- Build Type: We are now using "user" builds 
+-Volume Steps: Increased media volume levels to 20 steps for finer control, and adjusted call volume steps to 6.
+- RCS Support: Enabled persist.rcs.supported system property for Rich Communication Services.
+- IMS Framework: Added android.hardware.radio.ims to the VINTF manifest to ensure proper IMS/VoLTE hardware interface alignment.
+- Biometrics: Opted into the legacy UDFPS enroll UI layout for better stability during fingerprint enrollment.
+- Visual Filters: Forced the Kawase2 blur filter property to improve system-wide UI blur rendering and performance.
+- Accessibility: Disabled the color inversion preference overlay.
+- Torch Fix: Prevented LED state corruption from occurring when toggling the flashlight/glyph off.
+- Graphics: Dropped the TARGET_USES_VULKAN flag configuration to streamline the rendering pipeline.
+- Log Spam Reduction: Silenced aggressive ACDB-LOADER spam and minksocket error logs to keep logcats clean and reduce CPU overhead.
 
 Notable ROM changes
 ==============================
