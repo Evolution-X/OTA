@@ -1,10 +1,10 @@
 {
   "response": [
     {
-      "maintainer": "Ansh (EvilAnsh)",
-      "currently_maintained": true,
+      "maintainer": "",
+      "currently_maintained": false,
       "oem": "Realme",
-      "device": " 6 / 6i(Indian) / 6s / Narzo",
+      "device": "6 / 6i (Indian) / 6s / Narzo",
       "filename": "EvolutionX-16.0-20260418-nemo-11.6.3-Official.zip",
       "download": "https://cdn.evolution-x.org/nemo/16/EvolutionX-16.0-20260418-nemo-11.6.3-Official.zip/download",
       "timestamp": 1776511046,
@@ -13,10 +13,10 @@
       "size": 2748339022,
       "version": "11.6.3",
       "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-16-0-nemo-official-evolution-x-09-22-25.4760492/",
+      "forum": "",
       "firmware": "",
-      "paypal": "https://buymeacoffee.com/evilansh",
-      "github": "EvilAnsh",
+      "paypal": "",
+      "github": "",
       "initial_installation_images": [
         "recovery"
       ],
