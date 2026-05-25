@@ -110,7 +110,7 @@ def webhook_send():
             },
             "color": f"{color}",
             "thumbnail": {
-                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7DK6a--HvqADA_u3mGjXSVUvxxZ5sw3x9Sw&s"
+                "url": f"{thumbnail}"
                 },
             "author": {
                 "name": f"New build available !",
