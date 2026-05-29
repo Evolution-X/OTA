@@ -11,86 +11,80 @@ Notes:
 
 Device changes:
 ==============================
-Switch to 12GB dalvik heap profile
-reduce uclamp.min value to 125
-remove debug.sf.latch_unsignaled=1
-surfaceflinger: adjust frame scheduling behavior
+init: Always use lz4 for zram
+init: Reset readahead values for 128 always
+init: Update cpuset cores
+init: update cpu cores config
+sepolicy: allow power HAL access to cpu_dma_latency
+task_profiles: optimize scheduler policies
+task-profiles: rebalance scheduling policies
+task_profiles: refine foreground window scheduling behavior
+task_profiles: remove unsupported latency_sensitive policies
 
 Notable ROM changes:
 ==============================
-AppLocker: fixing applocker activity lifecycle issues
-Fix hidden AP remove WifiEntry during connection
-Evolver: Add 2 colon clocks
-Evolver: Add custom clock aod transition
-Evolver: Add emoji styles
-Evolver: Add seekbar navigation to clock preview
-Evolver: Add sound preview to lock/unlock sound picker
-Evolver: Add swiftui and facebook emoji
-Evolver: Allow change media player position
-Evolver: Allow switching QS tile color to pre-qpr shade
-Evolver: Drop charging animation changes
-Evolver: Implement custom color support for pulse
-Evolver: Introduce {Global,Secure,System}PrimarySwitchPreference
-Evolver: Introduce new iOS like clock styles
-Evolver: Introduce quicksettings widget
-Evolver: Reduce clock opacity min value to 0
-Evolver: Refactor Lockscreen Media art
-Evolver: Show dynamic summaries for applicable preferences
-Fix system_server deadlock between DisplayManagerService and ExternalDisplayStatsService
-InputMethodManagerService: retry IME show after dummy editor handoff
-MediaSync: fix nullptr dereference in onAbandoned_l on output death
-MediaSync: fix nullptr dereference when detachNextBuffer fails
-MediaSync: remove InputListener death recipient dead code
-Reduce blocking operation on display thread
-Sandbox: fixing auth activity lifecycle issues
-Settings: display: gate display engine category on persist prop
-Settings: fix udfps | skip button overlap issue
-SystemUI: Add 2 colon clocks
-SystemUI: Add back gesture, charging anim, battery themes support
-SystemUI: Add custom color, height control, and ambient mode support in pulse
-SystemUI: Apply gradient theming to QS widget panel sliders
-SystemUI: Apply wifi and signal icon styles last
-SystemUI: DynamicBar: Hide depth wallpaper when keyguard panel visible
-SystemUI: Fade out depth wallpaper fade out smoothly
-SystemUI: Fix QS widget brightness slider jumping after hold trigger
-SystemUI: Fix notification app lock issues
-SystemUI: Fix pulse and media art overlap
-SystemUI: Refactor Lockscreen Media art
-SystemUI: Restore launch and routing functionality for QS widgets
-SystemUI: Simplify depth wallpaper loading by removing dimming overlay
-SystemUI: charging: harden charging ripple cleanup against stale callbacks
-SystemUI: fix platform hooks regressions
-ThemeStore: fixing scaffold|top app bar issues
-Update BCR to Version v2.10
-backport fix for stuck IME input from May 2026 Pixel update
-build: Adding 8gb/12gb/16gb dalvik heap configs
-build: Fixing dalvik|art|usap tuning regressions
-build: Optimizing dalvik heap configs for lower ram tiers
-config: gate display engine category on persist prop
-disable CLOSE_QUIC_CONNECTION power optimization that bypasses VPN
-imm: guard stale IME target hide against concurrent show request
-keeping expensive rendering across blur cache hits
-sandbox: Adding secure file vault support
-sepolicy: adding usap pool rules
-services: Allow early null AxSandbox manager lookups
-services: Caching isOverlappingWithNavBar to avoid redundant rectangle math
-services: Disabling dma buff stats pull
-services: Skipping atom stats pulling on none eng builds
-services: Optimizing letterbox updates
-services: Optimizing navigation bar draws
-services: Optimizing redundant status bar top hide checks
-services: Optimizing wallpaper controller traversals
-services: Optimizing wallpaper zoom
-services: Optimizing window rounded corners updates
-services: Optimizing wms prop | settings reads
-services: optimizing sandbox call sites
-sidebar: Implement configurable slider width
-sidebar: Implement configurable swipe-to-open gesture for sidebar
-sidebar: Implement gesture setting to open sidebar drawer on tap
-sidebar: Integrate GameSpace awareness and auto-hide support
-sidebar: Refactor customization into standalone activity
-sidebar: Refactor settings navigation using NavController
-sidebar: Replace custom drawer icons with Material Icons
-sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar
-themes: Add back gesture | charging anim themes
-wifi_chip: Reduce legacy Wi-Fi HAL startup noise
+Bluetooth: Add L2CAP and A2DP offload coex mechanism for MTK
+BluetoothPowerStatsCollector: Handle unsupported hardware energy info gracefully
+Evolver: Add Settings icon background customization
+Evolver: Add Sleep Mode trigger option in idlemanager
+Evolver: Add custom carrier label and location customization
+Evolver: Add more clocks
+Evolver: Allow toggling keyguard behind scrim visibility
+Evolver: Bring back status bar brightness control
+Evolver: Clean up and organize various fragments
+Evolver: Fix QS media player show switch
+Evolver: Fix UI/UX inconsistencies in lockscreen clock picker fragment
+Evolver: Fix up clock styles previews
+Evolver: Implement lockscreen clock picker fragment with UI
+Evolver: Import Skydoves color picker
+Evolver: Miscellaneous: Shared UI infrastructure and multi-screen refactors
+Evolver: Power menu: Add granular restart action toggles
+Evolver: Rework locksreen clock color picker
+Evolver: Show lockscreen wallpaper in custom clock preview
+Explicitly initialize chrono types in VirtualCameraRenderThread
+Fix Active Array Size calculation logic
+Game space: fixing performance mode issue
+OmniJawsClient: Update default icon pack
+PixelPropsUtils: activate Mosey/Quick Share via GMS spoof in PP targets
+Sandbox: Fixing auth activity lifecycle issues
+Settings: Add Settings icon background customization
+Settings: Add sleep mode deep sleep toggle
+Settings: Fix battery widget not updating in real time
+Settings: Fix resource not found issue in notification settings
+Settings: bluetooth: fix DISALLOW_CONFIG_BLUETOOTH blocking settings toggle
+SettingsLib: Force enable expressive theme
+SystemUI: Add BatteryEventService for Intelligence battery widget
+SystemUI: Add Sleep Mode trigger option in idlemanager
+SystemUI: Add custom media waveform seekbar support
+SystemUI: Add custom carrier text customization
+SystemUI: Add customization to select carrier label location
+SystemUI: Add haptic feedback to QS widget sliders
+SystemUI: Add more clocks
+SystemUI: Adding screen on wp depth animation
+SystemUI: Allow toggling keyguard behind scrim visibility
+SystemUI: DynamicBar: fixing keyguard chips ui issues
+SystemUI: EnhancedEstimatesImpl: import improvements and fixes
+SystemUI: Fix always-on haptics mode triggering visual pulse
+SystemUI: Fix and add status bar brightness control for lockscreen
+SystemUI: Fix slider widget inner slider corner radius
+SystemUI: Fix up and improve clock styles
+SystemUI: Fix volume slider fill not hiding at zero volume
+SystemUI: Follow material expressive icons for status bar tuner
+SystemUI: GlobalActions: Read restart actions from LineageSettings
+SystemUI: Import Turbo based battery estimates
+SystemUI: Refactor clock styles for perf
+SystemUI: shade perf improvements
+SystemUI: tuner: Update statusbar tuner icons
+ThemeStore: add support for dynamic media waveform themes
+Update BCR to Version v3.1
+Various OmniJaws updates
+WeatherProvider: Update import path for OmniJawsClient
+core: Add PixelDeviceRepository and migrate PixelPropsUtils to dynamic
+core: Add <locked-component> sysconfig tag with PMS enforcement
+core: Fix dispatch detach window race
+core: treat redraws and stretch effects as movement
+fixing weather icon pack updates
+sdk: Add common utils lib
+sdk: LineageSettings: Add POWER_MENU_RESTART_ACTIONS system setting
+security: harden TrickyStore keybox validation and extend PIF security patch props
+services: Optimizing redundant keyguard checks
