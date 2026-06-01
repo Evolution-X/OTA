@@ -9,15 +9,18 @@ Notes:
 Device changes:
 ==============================
 - Update to Evolution X 11.7
--Volume Steps: Increased media volume levels to 20 steps for finer control, and adjusted call volume steps to 6.
-- RCS Support: Enabled persist.rcs.supported system property for Rich Communication Services.
-- IMS Framework: Added android.hardware.radio.ims to the VINTF manifest to ensure proper IMS/VoLTE hardware interface alignment.
-- Biometrics: Opted into the legacy UDFPS enroll UI layout for better stability during fingerprint enrollment.
-- Visual Filters: Forced the Kawase2 blur filter property to improve system-wide UI blur rendering and performance.
-- Accessibility: Disabled the color inversion preference overlay.
-- Torch Fix: Prevented LED state corruption from occurring when toggling the flashlight/glyph off.
-- Graphics: Dropped the TARGET_USES_VULKAN flag configuration to streamline the rendering pipeline.
-- Log Spam Reduction: Silenced aggressive ACDB-LOADER spam and minksocket error logs to keep logcats clean and reduce CPU overhead.
+- Memory Allocation: Configured system to use 8GB Dalvik heap size properties to better optimize memory usage on higher-RAM variations.
+- CPU Scheduling: Dropped legacy sched_boost behaviors and fixed the uclamp override configuration for more efficient core utilization and better thermals.
+Scrolling: Reverted the experimental ScrollOptimizer implementation to preserve layout stability.
+- Display & Rendering
+Framework Optimization: Disabled resource-heavy, slow blur effects to smooth out UI transitions and hardware rendering.
+Buffer Management: Reduced maximum acquired frame buffers to 2 to improve display latency.
+- HDR Tuning: Reduced aggressive HDR boosting via displayconfig to provide a more natural and balanced screen contrast profile.
+Brightness: Optimized the automatic brightness adjustment curves for smoother ambient light transitions.
+- Connectivity
+5G Network: Enabled support for both 5G SA (Standalone) and NSA (Non-Standalone) networks via overlay configurations to improve cellular compatibility and speeds.
+Log Spam Reduction
+- System Logging: Silenced background logging spam from "WindowRootViewBinder", "AiAiSuggestUi", and "BaseDeptController" to keep logcats tidy and reduce unnecessary CPU wakeups.
 
 Notable ROM changes
 ==============================
