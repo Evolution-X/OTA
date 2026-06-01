@@ -4,21 +4,23 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
+- If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 
 Device changes:
 ==============================
 - Update to Evolution X 11.7
-- System Tuning: Improved overall system stability and responsiveness through rootdir refinements.
-- Power & Performance: Imported Qualcomm performance boosts into powerhint.json and removed QTI perfd for a cleaner, more efficient power management profile.
-- Optimizations: Enabled R8 optimizations for system_server and SystemUI to ensure faster execution and lower memory overhead
-- Display: Added 120 FPS support for Screen Recorder and disabled Smart Pixels on UDFPS to ensure consistent fingerprint recognition.
-- Microphone Gain: Increased ADC1 and ADC4 gain for the handset microphone to improve voice clarity during calls. (Also fixes the issue where the other person can't hear you in calls)
-- RichTap Vibrator: Improved vibration consistency and allowed remapping of AOSP effect IDs to RichTap’s internal IDs for more precise haptic feedback.
-- Vibration Tuning: Adjusted vibration strength and amplitude initialization.
-- Glyph Interface: fixed SEPolicy permissions for the Glyph app (mediaserver and trust service access).
-- Network: Disabled unnecessary NL80211 event logging to reduce system overhead.
-- Fingerprint Spoofing: Update BuildFingerprint to Pixel Beta.
-- Build Type: We are now using "user" builds 
+- Memory Allocation: Configured system to use 8GB Dalvik heap size properties to better optimize memory usage on higher-RAM variations.
+- CPU Scheduling: Dropped legacy sched_boost behaviors and fixed the uclamp override configuration for more efficient core utilization and better thermals.
+Scrolling: Reverted the experimental ScrollOptimizer implementation to preserve layout stability.
+- Display & Rendering
+Framework Optimization: Disabled resource-heavy, slow blur effects to smooth out UI transitions and hardware rendering.
+Buffer Management: Reduced maximum acquired frame buffers to 2 to improve display latency.
+- HDR Tuning: Reduced aggressive HDR boosting via displayconfig to provide a more natural and balanced screen contrast profile.
+Brightness: Optimized the automatic brightness adjustment curves for smoother ambient light transitions.
+- Connectivity
+5G Network: Enabled support for both 5G SA (Standalone) and NSA (Non-Standalone) networks via overlay configurations to improve cellular compatibility and speeds.
+Log Spam Reduction
+- System Logging: Silenced background logging spam from "WindowRootViewBinder" and "BaseDepthController" to keep logcats tidy and reduce unnecessary CPU wakeups.
 
 Notable ROM changes
 ==============================
