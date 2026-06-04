@@ -1,41 +1,46 @@
-This is Android 16 QPR2 with April 2026 security patches
+This is Android 16 QPR2 with June 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 8 or lower
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Includes Dolby Atmos.
 
 Device changes:
 ==============================
-- Update to Evolution X 11.6.4
+- Added support for GPU boost management
+- Added bypass charging support
+- Added support for Khyber I/O scheduler
+- Minor bug fixes and overall improvements
 
 Notable ROM changes:
 ==============================
-Evolver: About: Add OTA-backed current maintainers section
-Evolver: Add Google Wallet to TrickyStore auto-select list
-Evolver: Add auto-select button for tricky store apps list
-Evolver: Add canary channel selection for pif
-Evolver: Add dynamic bar event for ongoing calls
-Evolver: BootAnimation: fix Google previews, hide on Pixel devices
-Evolver: Changelog: Rework with Activity
-Evolver: Fix spoofing structure
-Evolver: TrickyStore: Add security patch date management
-Evolver: VideoWallpaper: Handle storage locked state
-Settings: New logo style
-Settings: Refactor OEM/device name formatting into shared utility
-Settings: Refactor hardware info into unified card UI with OTA-backed data
-SystemUI: Adapt Bottomsheet USB dialog
-SystemUI: ClockStyle: consolidate and sync with upstream improvements
-SystemUI: DynamicBar: Add separate card for active calls
-SystemUI: DynamicBar: Fix chip dismiss issue
-SystemUI: DynamicBar: Make music chip bg more vibrant
-SystemUI: Improve notification panel boost
-SystemUI: Match circle battery style colors with landscape icon
-SystemUI: use realtime values for lockscreen charging stats
-core: Fix and remove deprecated api in certificate generator
-core: Fix spoofing structure
-core: Improve parsing keybox xml with StringBuilder
-core: PIF: Align spoofing behavior with upstream
-core: Sanitize keybox xml before loading
-core: Upgrading to m3e animation specs
-libs: Reducing redundant surface animation processing
+Evolver: Add partial screenshot action
+Evolver: Update qs quick pulldown
+LineageParts: Add partial screenshot action
+Merge June 2026 security patches
+Settings: fixing platform apps storage info
+SystemUI: DynamicBar: fixing touch intercept issue
+SystemUI: Fix quick pulldown regression with statusbar brightness control
+SystemUI: Fix slider haptic issue
+SystemUI: blur ui integrate
+SystemUI: fixing keyguard locked rotation
+SystemUI: fixing wifi standard alignment
+SystemUI: fixing wp depth issues
+SystemUI: improving essential notifications
+SystemUI: show location indicator for OP_COARSE_LOCATION
+ThemeEngine: fixing wifi | signal icons sizing
+ThemeEngine: fixing update broadcasting crashes
+ThemeStore: integrating axion sdk components
+core: hide clone targets from regular Open with
+fixup! fixing dalvik|art|usap tuning regressions
+low latency frame drop integrate
+release: enabling enable_create_any_bubble flag
+sandbox: fixing app lock issue
+sandbox: fixing vault issues
+sandbox: improving vault file management
+sdk: Add partial screenshot action
+sdk: adding ax_blur libs
+sdk: compose: improving settings flow | adding commonized typography
+telephony: Relax default 5G NR SA SS-RSRP signal strength thresholds
+version: Uprev to 11.8
