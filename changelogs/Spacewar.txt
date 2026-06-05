@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with May 2026 security patches
+This is Android 16 QPR2 with June 2026 security patches
 
 Notes:
 ==============================
@@ -8,19 +8,8 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
-- Memory Allocation: Configured system to use 8GB Dalvik heap size properties to better optimize memory usage on higher-RAM variations.
-- CPU Scheduling: Dropped legacy sched_boost behaviors and fixed the uclamp override configuration for more efficient core utilization and better thermals.
-Scrolling: Reverted the experimental ScrollOptimizer implementation to preserve layout stability.
-- Display & Rendering
-Framework Optimization: Disabled resource-heavy, slow blur effects to smooth out UI transitions and hardware rendering.
-Buffer Management: Reduced maximum acquired frame buffers to 2 to improve display latency.
-- HDR Tuning: Reduced aggressive HDR boosting via displayconfig to provide a more natural and balanced screen contrast profile.
-Brightness: Optimized the automatic brightness adjustment curves for smoother ambient light transitions.
-- Connectivity
-5G Network: Enabled support for both 5G SA (Standalone) and NSA (Non-Standalone) networks via overlay configurations to improve cellular compatibility and speeds.
-Log Spam Reduction
-- System Logging: Silenced background logging spam from "WindowRootViewBinder" and "BaseDepthController" to keep logcats tidy and reduce unnecessary CPU wakeups.
+- Update to Evolution X 11.8
+- Small under-the-hood changes
 
 Notable ROM changes
 ==============================
