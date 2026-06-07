@@ -18,44 +18,36 @@ None
 
 Notable ROM changes:
 ==============================
-ColorDisplayService: initialize global saturation matrix before rebuild
-Evolver: Add partial screenshot action
-Evolver: Update qs quick pulldown
-LineageParts: Add partial screenshot action
-Merge June 2026 security patches
-Settings: Use color accents for biometrics enroll style
+Evolver: Add album art color override for lockscreen clock
+Evolver: Add some new ios type clocks
+Fix IME issue (drop overlay)
+GameSpace: Add toggle to disable pulse bass haptics in-game
+GameSpace: Disable statusbar brightness control with auto brightness
+Lights: Hide brightness controls when the device has none
+LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
+PixelDeviceRepository: Fix Pixel 10 series not showing in dropdown
+Settings: Use dynamic colors for UDFPS enroll style
 Settings: gestures: gate navbar button order on Launcher3 as default home
-SettingsLib: fixing platform apps storage info
-SystemUI: DynamicBar: fixing touch intercept issue
-SystemUI: Fix quick pulldown regression with statusbar brightness control
-SystemUI: Fix slider haptic issue
-SystemUI: PlatformSlider: optimizing with drawWithCache
-SystemUI: ax_blur: notification | usb bottom sheet blur integrate
-SystemUI: blur ui integrate
-SystemUI: fixing keyguard bypass issue
-SystemUI: fixing keyguard locked rotation
-SystemUI: fixing wifi standard alignment
-SystemUI: fixing wp depth issues
-SystemUI: improving essential notifications
-SystemUI: show location indicator for OP_COARSE_LOCATION
-SystemUI: usb bottomsheet dialog: resolving usb functions during prompt
-ThemeEngine: fixing waveform seekbar perf regression
-ThemeEngine: fixing wifi | signal icons sizing
-ThemeEngine: fixing update broadcasting crashes
-ThemeStore: integrating axion sdk components
+SystemUI: Add new clock styles
+SystemUI: DynamicBar: Skip biometric unlock on keyguard when disabled
+SystemUI: Fix UDFPS animation attach/detach race
+SystemUI: Fix clock container height not shrinking on scale < 100%
+SystemUI: Fix clock scale overflowing layout
+SystemUI: Fix sporadic jumps in statusbar brightness control
+SystemUI: Fix weather text not following custom clock color
+SystemUI: Match custom clock weather text with date
+SystemUI: Move weather next to clock date
+SystemUI: Reduce some clocks bottom margin
+WindowWakeUpPolicy: Don't wake from lid when LID_BEHAVIOR is disabled
 base: decouple ambient gestures from pulse-on-notification
 config: Spoof BuildFingerprint as Pixel Canary
-core: allow low_ram devices to enable multiwindow
-core: hide clone targets from regular Open with
-fixup! fixing dalvik|art|usap tuning regressions
-low latency frame drop integrate
-overlay: avoiding IME logspam during DPAD events
-release: enabling enable_create_any_bubble flag
-sandbox: fixing app lock issue
-sandbox: fixing vault issues
-sandbox: improving vault file management
-sdk: Add partial screenshot action
-sdk: adding ax_blur libs
-sdk: compose: improving settings flow | adding commonized typography
-telephony: Relax default 5G NR SA SS-RSRP signal strength thresholds
-version: Uprev to 11.8
+custom_rom_hide: additional intercepts
+fixup! Settings: Reset tether offload developer setting correctly
+input: Fix suppression of composite Bluetooth keyboards
+surfaceflinger: always show refresh/render rate in overlay
+surfaceflinger: arr: handle no vote the same as idle
+surfaceflinger: arr: use as low as kMinSupportedFrameRate from anchor list for idle rate
+surfaceflinger: extend ARR overrides to normal, add oplus anchor list
+surfaceflinger: specifically no vote status bar
+surfaceflinger: vrr: apply idle signal to vrr rate policy
+wm: DisplayRotation: Preserve locked rotation during screen state changes
