@@ -1,0 +1,18 @@
+This is Android 16 QPR2 with June 2026 security patches
+
+Notes:
+==============================
+First install:
+- Install Xiaomi_mi_a1_4GB_System.zip from (https://pixeldrain.com/u/2GpDcbGV) first.
+- Do format data in recovery.
+
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Credits to ryyaap
+
+Device changes:
+==============================
+Inital Android 16 release
+
+Notable ROM changes:
+==============================
+Inital Android 16 release with June 2026 source
