@@ -19,7 +19,6 @@
       "github": "Onelots",
       "initial_installation_images": [
         "boot",
-        "vendor_boot",
         "dtbo"
       ],
       "extra_images": []
