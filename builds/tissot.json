@@ -18,10 +18,7 @@
       "paypal": "https://linktr.ee/joeyhuab",
       "github": "joeyhuab",
       "initial_installation_images": [
-        "boot",
-        "dtbo",
-        "recovery",
-        "vendor_boot"
+        "boot"
       ],
       "extra_images": []
     }

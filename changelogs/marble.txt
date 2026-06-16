@@ -7,46 +7,46 @@ Notes:
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Visit our CDN (https://cdn.evolution-x.org/marble/16/ksu-next) for the latest KSU next root zip.
 - Includes POCO camera and Dolby Atmos.
+- This is possibly our final Android 16 build for this device as we look towards focusing on Android 17.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Update blobs from OS3.0.4.0.VMRMIXM
-Update blobs from diting OS3.0.4.0.VLFMIXM
-add auxiliary camera package exclude list
-bring back dolby vision
+None
 
 Notable ROM changes:
 ==============================
-Evolver: Add album art color override for lockscreen clock
-Evolver: Add some new ios type clocks
-GameSpace: Add toggle to disable pulse bass haptics in-game
-GameSpace: Disable statusbar brightness control with auto brightness
-Lights: Hide brightness controls when the device has none
-LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
-PixelDeviceRepository: Fix Pixel 10 series not showing in dropdown
-Settings: Use dynamic colors for UDFPS enroll style
-Settings: gestures: gate navbar button order on Launcher3 as default home
-SystemUI: Add new clock styles
-SystemUI: DynamicBar: Skip biometric unlock on keyguard when disabled
-SystemUI: Fix UDFPS animation attach/detach race
-SystemUI: Fix clock container height not shrinking on scale < 100%
-SystemUI: Fix clock scale overflowing layout
-SystemUI: Fix sporadic jumps in statusbar brightness control
-SystemUI: Fix weather text not following custom clock color
-SystemUI: Match custom clock weather text with date
-SystemUI: Move weather next to clock date
-SystemUI: Reduce some clocks bottom margin
-WindowWakeUpPolicy: Don't wake from lid when LID_BEHAVIOR is disabled
-base: decouple ambient gestures from pulse-on-notification
-config: Spoof BuildFingerprint as Pixel Canary
-custom_rom_hide: additional intercepts
-fixup! Settings: Reset tether offload developer setting correctly
-input: Fix suppression of composite Bluetooth keyboards
-surfaceflinger: always show refresh/render rate in overlay
-surfaceflinger: arr: handle no vote the same as idle
-surfaceflinger: arr: use as low as kMinSupportedFrameRate from anchor list for idle rate
-surfaceflinger: extend ARR overrides to normal, add oplus anchor list
-surfaceflinger: specifically no vote status bar
-surfaceflinger: vrr: apply idle signal to vrr rate policy
-wm: DisplayRotation: Preserve locked rotation during screen state changes
+ActionChain: Do not call collectExistenceChange if transition is null
+BatteryStatsViewer: Get matching app info from all user
+BatteryStatsViewer: Import translations from Weblate
+Evolver: Add volume slider and ringer mode in QS panel
+Evolver: Drop ongoing progress chip
+Evolver: Extend volume slider modes
+Health: poll battery on the awake interval despite epoll events
+Increase BINDER_VM_SIZE from 1MB to 4MB
+MediaProvider: Gate verbose picker DB failure logging behind isLoggable
+OmniJaws: Add HOURLY_PROJECTION constant for weather content provider
+OmniJaws: Fix concurrency issues in client
+PixelPropsUtils: Update fingerprints to June 2026 release
+Pulse: Resolve currently playing local media app
+Sandbox: Do not relock app when system sub-activity takes focus in the same task
+Settings: Hardcode Settings icon color in launcher
+Settings: Rewrite kernel version pref to replicate old behavior
+Settings: Tint icons in VolumeSliderPreference
+SystemUI: Add volume slider and ringer mode in QS panel
+SystemUI: Animate clock doze properly across transitions
+SystemUI: ClockStyles: Remove setting center layout programmatically
+SystemUI: Extend volume slider modes
+SystemUI: Fix DynamicBar auto dismiss issue
+SystemUI: Handle 0% torch strength in dynamic bar
+SystemUI: Make FlashlightListener strength callback default
+SystemUI: Remove container color background from volume slider in QS
+SystemUI: Skip time updates on lockscreen clock outside keyguard
+Upstream OmniJaws changes from crDroid
+camera: bypass roundBufferDimensionNearest for Y16
+core: AHardwareBuffer fixes for oplus camera
+sdk: Extract glyph first in IconTinterUtils
+sdk: Update IconTinterUtils
+security: pif/trickystore: align vending spoof with upstream, harden reflection and keybox validation
+sepolicy: Allow init and vendor_init to access proc_type
+thermal: increase Thermal HAL uevent buffer
