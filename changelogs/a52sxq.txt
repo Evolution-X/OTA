@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with May 2026 security patches
+This is Android 16 QPR2 with June 2026 security patches
 
 Notes:
 ==============================
@@ -310,8 +310,7 @@ treat IdentityCheck promo+notification already shown by default
 Try loading default setting value for switch
 Updater: Make it REUSE compatible
 version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
-version: Uprev to 11.6.4
-version: Uprev to 11.7
+version: Uprev to 11.8
 Video wallpaper selector [2/2]
 Wi-Fi timeout feature
 wifi_chip: Reduce legacy Wi-Fi HAL startup noise
