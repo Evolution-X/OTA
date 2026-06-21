@@ -18,37 +18,11 @@ None
 
 Notable ROM changes:
 ==============================
-ActionChain: Do not call collectExistenceChange if transition is null
-BatteryStatsViewer: Get matching app info from all user
-BatteryStatsViewer: Import translations from Weblate
-Evolver: Add volume slider and ringer mode in QS panel
-Evolver: Drop ongoing progress chip
-Evolver: Extend volume slider modes
-Health: poll battery on the awake interval despite epoll events
-Increase BINDER_VM_SIZE from 1MB to 4MB
-MediaProvider: Gate verbose picker DB failure logging behind isLoggable
-OmniJaws: Add HOURLY_PROJECTION constant for weather content provider
-OmniJaws: Fix concurrency issues in client
-PixelPropsUtils: Update fingerprints to June 2026 release
-Pulse: Resolve currently playing local media app
-Sandbox: Do not relock app when system sub-activity takes focus in the same task
-Settings: Hardcode Settings icon color in launcher
-Settings: Rewrite kernel version pref to replicate old behavior
-Settings: Tint icons in VolumeSliderPreference
-SystemUI: Add volume slider and ringer mode in QS panel
-SystemUI: Animate clock doze properly across transitions
-SystemUI: ClockStyles: Remove setting center layout programmatically
-SystemUI: Extend volume slider modes
-SystemUI: Fix DynamicBar auto dismiss issue
-SystemUI: Handle 0% torch strength in dynamic bar
-SystemUI: Make FlashlightListener strength callback default
-SystemUI: Remove container color background from volume slider in QS
-SystemUI: Skip time updates on lockscreen clock outside keyguard
-Upstream OmniJaws changes from crDroid
-camera: bypass roundBufferDimensionNearest for Y16
-core: AHardwareBuffer fixes for oplus camera
-sdk: Extract glyph first in IconTinterUtils
-sdk: Update IconTinterUtils
-security: pif/trickystore: align vending spoof with upstream, harden reflection and keybox validation
-sepolicy: Allow init and vendor_init to access proc_type
-thermal: increase Thermal HAL uevent buffer
+Evolver: Remove certificate chain status
+SystemUI: DynamicBar: Add kill-app action from Recents grid
+SystemUI: DynamicBar: Fix text clipping in recents card
+SystemUI: DynamicBar: Make close icon in recents card more distinct
+Update BCR to Version v3.2
+config: Drop memtag props
+services: Add jit warmup threshold params
+services: Disable wm debug cpu hotspots
