@@ -6,11 +6,16 @@ Notes:
 - If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 - Firmware based on EZA1
 - First installation requires OneUI 7 with an unlocked bootloader. Devices with fused Global (B) 9+ / Chinese (0) 7+ BL bit are not supported
+- Some refresh rate issues may be expected on boot
+- If you have issues with experimental IMS, you can disable it via adb shell or else: "adb shell pm disable-user --user 0 me.phh.ims"
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
-- Disable Spectre branch history mitigation. Increase perfomance
+- Update to Evolution X 11.8
+- Fixed vibration intensity
+- Dropped some unused services
+- Replaced Samsung thermal HAL with Pixel thermal HAL. Decreases overheat
+- Experimental IMS included by krazey to fix VoLTE related issues
 
 Notable ROM changes
 ==============================
