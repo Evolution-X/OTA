@@ -1,0 +1,30 @@
+This is Android 16 QPR2 with May 2026 security patches
+
+Notes:
+==============================
+-Clean flash is mandatory if you are coming from Evolution X 11.6.2 UNOFFICIAL
+
+-Dirty flashing from the previous unofficial build is not supported
+
+-Back up all your data before flashing
+
+
+Device changelog:
+==============================
+-Initial official Evolution X build for CMF Phone 1
+-Tuned sustained performance and GPU/MEM behavior
+-Updated CPU set parameters
+-Reduced SurfaceFlinger uclamp.min to 125
+-Tuned LMK parameters for better memory handling
+-Improved auto-brightness consistency after wake
+-Tuned GPU rendering and interaction boosts
+-Disabled EGL image tracking in SurfaceFlinger
+-Opted out of speaker_layout_channel_mask
+-Optimized app launch and interaction boosts
+-Increased cached app limit in the background
+-Forced triple frame buffers
+-Optimized dex2oat CPU affinity
+-Allowed games to use 120 FPS
+-Removed duplicate HWC VDS property
+-Tuned powerhint behavior for blur
+-Ended INTERACTION hint on EXPENSIVE_RENDERING
