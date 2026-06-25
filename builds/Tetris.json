@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "SODA",
+      "currently_maintained": true,
+      "oem": "Nothing",
+      "device": "CMF Phone 1",
+      "filename": "EvolutionX-16.0-20260624-Tetris-11.8-Official.zip",
+      "download": "https://cdn.evolution-x.org/Tetris/16/EvolutionX-16.0-20260624-Tetris-11.8-Official.zip/download",
+      "timestamp": 1782308668,
+      "md5": "6c7845d965c200367938a83b5bfda769",
+      "sha256": "fd8759f87259a3eb123bc5f4a2b6ef9ddd433684d62ebcaa3675bcaea53f5ce3",
+      "size": 3781173735,
+      "version": "11.8",
+      "buildtype": "user",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "S-O-D-A",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot",
+        "super_empty"
+      ],
+      "extra_images": []
+    }
+  ]
+}
