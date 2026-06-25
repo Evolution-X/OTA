@@ -1,21 +1,12 @@
-This is Android 16 QPR2 with May 2026 security patches
+This is Android 16 QPR2 with June 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
-- Glyph: MusicVisualizerTileService: Use STATE_UNAVAILABLE when not available
-- Glyph: SettingsActivity: Launch Flip to glyph settings if called from the tile
-- Glyph: FlipToGlyphTileService: Observe main glyph setting (ignoring schedule)
-- Glyph: Decouple torch services from Glyph toggle
-- Glyph: TorchTileService: Stop TorchService when tile is removed from panel
-- Glyph: TorchTileService: Use unavailable string instead of disabled when not ready
-- Glyph: Import ToneHelperService for notifications
-- Glyph: Fix Red LED category state handling on launch
+- Update to Evolution X 11.8
 
 Notable ROM changes
 ==============================
