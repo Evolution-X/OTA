@@ -3,25 +3,14 @@ This is Android 16 QPR2 with May 2026 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 11.5.x or lower
+- Clean flash mandatory when your build is from Evolution X 8 or lower
 - If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
-- Drop c2 input surface
-- R8 optimizations for SystemUI & system_server
-- Update dalvik vm for 8GB RAM
-- Update dalvik vm for 6GB RAM
-- Update dalvik vm for 4GB RAM
-- Now using QCOM SM8250 HALs
-- Latest May 2026 Vendor Security Patch
-- Updated some graphics settings
-- Added sysfs node for trigger wake up early
-- Merge branch 'lineage-20' of https://github.com/LineageOS/android_kernel_qcom_sm8250 into bka 
-- Cherry Kernel Returns!
-- Some other optimizations!
-- Some more bug fixes!
+- Update to Evolution X 11.8
+- Minor optimizations
+- Bug fixes
 
 Notable ROM changes
 ==============================
