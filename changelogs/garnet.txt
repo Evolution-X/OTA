@@ -8,12 +8,8 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
-- Upstreamed Kernel.
-- Add ThermalUtils.
-- Add XiaomiParts.
-- Update sf duration to 12.3ms.
-- Fixed Flashlight QS Tile greyed out sometimes.
+- Update to Evolution X 11.8
+- Update blobs from HOS3
 
 Notable ROM changes
 ==============================
