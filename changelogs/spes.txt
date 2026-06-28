@@ -1,5 +1,17 @@
-August 6, 2025
-- Upgraded security patch
-- Latest 10.8
-- Initial 10.x Official Release
-- Various bug fixes
+This is Android 15 QPR2 with July 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 10.18
+- Changed from userdebug -> user
+- YogratBuilds resources v0.2, feel smoother than ever!
+- Massive bug fixes!
+
+Notable ROM changes:
+==============================
+Not available as of 04/14/2026
