@@ -1,2 +1,17 @@
-August 8, 2025
-- Initial Vanilla Build
+This is Android 15 QPR2 with July 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 10.18
+- Changed from userdebug -> user
+- YogratBuilds resources v0.2, feel smoother than ever!
+- Massive bug fixes!
+
+Notable ROM changes:
+==============================
+Not available as of 04/14/2026
