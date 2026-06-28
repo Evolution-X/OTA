@@ -8,7 +8,7 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.7
+- Update to Evolution X 11.8
 
 Notable ROM changes
 ==============================
