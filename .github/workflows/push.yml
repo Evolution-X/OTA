@@ -1,0 +1,72 @@
+name: Send message to proper discord channel when a PR is merged.
+
+on:
+  push:
+    branches:
+      - cnb
+      - bka
+      - udc
+      - vic
+      - cnb-vanilla
+      - bka-vanilla
+      - udc-vanilla
+      - vic-vanilla
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  process-json-files:
+    if: github.repository == 'Evolution-X/OTA'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get changed files in the builds folder
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            builds/*.json
+            changelogs/*.txt
+
+      - name: Process JSON files if files changed in builds folder.
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        env:
+          TELEGRAM_WEBHOOK: ${{ secrets.TELEGRAM_WEBHOOK }}
+          CNB_WEBHOOK: ${{ secrets.CNB_WEBHOOK }}
+          BKA_WEBHOOK: ${{ secrets.BKA_WEBHOOK }}
+          VIC_WEBHOOK: ${{ secrets.VIC_WEBHOOK }}
+          UDC_WEBHOOK: ${{ secrets.UDC_WEBHOOK }}
+          CNB_VANILLA_WEBHOOK: ${{ secrets.CNB_VANILLA_WEBHOOK }}
+          BKA_VANILLA_WEBHOOK: ${{ secrets.BKA_VANILLA_WEBHOOK }}
+          VIC_VANILLA_WEBHOOK: ${{ secrets.VIC_VANILLA_WEBHOOK }}
+          UDC_VANILLA_WEBHOOK: ${{ secrets.UDC_VANILLA_WEBHOOK }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
+        run: |
+          echo "Checking if JSON and TXT files are matching..."
+
+          json_list=()
+
+          for json in $ALL_CHANGED_FILES; do
+            if [[ "$json" == *.json ]]; then
+              json_basename=$(basename "$json")
+              txt_file="${json_basename%.json}.txt"
+
+              for txt in $ALL_CHANGED_FILES; do
+                txt_basename=$(basename "$txt")
+                if [[ "$txt_basename" == "$txt_file" ]]; then
+                  echo "Found matching TXT file for $json_basename"
+                  json_list+=("$json")
+                  break
+                fi
+              done
+            fi
+          done
+
+          for json in "${json_list[@]}"; do
+            echo "Processing file: $json"
+            python3 .github/push.py "$json"
+          done
