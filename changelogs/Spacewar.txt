@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with June 2026 security patches
+This is Android 16 QPR2 with July 2026 security patches
 
 Notes:
 ==============================
@@ -8,8 +8,29 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.8
-- Small under-the-hood changes
+- Update to Evolution X 11.9
+Audio & Multimedia:
+Built and integrated Dolby Atmos and LunarisDolbyUI.
+Synced system configuration with Spatial Audio.
+Lowered the maximum earpiece volume threshold for better comfort.
+Imported stock c2_manifest_vendor.xml media component configurations.
+Bluetooth & Connectivity:
+LE Audio: Enabled LE Audio by default for all Android-V upgrades.
+Profiles & Services:
+Set bluetooth.auto_connect_profiles.enabled to true for seamless reconnects.
+Enabled Bluetooth Battery Service Profile (BAS) to report connected device battery levels.
+Enabled Bluetooth AVRCP controller profile and SAP (SIM Access Profile) server profile.
+Moved the SAP server property configuration over to system_ext.
+Disabled HID (Human Interface Device) profile.
+BLE & Tuning: Increased maximum GATT connections as a central device to 10.
+Device Identity: Changed the vendor ID to QTI for the Device ID Profile.
+Audio Codecs:
+Disabled the aptX voice codec.
+Refined ASHA (Audio Streaming for Hearing Aids) handling: Enabled the Bluetooth ASHA central profile from vendor.prop while ensuring it is no longer enabled blindly for all chipsets.
+System UI & Performance:
+Disabled high-performance window/screen transitions to improve efficiency.
+Security Policy (SELinux):
+Properly labeled device wakeup nodes as sysfs_wakeup in sepolicy.
 
 Notable ROM changes
 ==============================
