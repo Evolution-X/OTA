@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Joey",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Poco F5 / Redmi Note 12 Turbo",
+      "filename": "EvolutionX-17.0-20260714-marble-12.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/marble/17/EvolutionX-17.0-20260714-marble-12.0-Official.zip/download",
+      "timestamp": 1784033336,
+      "md5": "19a3664ed77517f47dcb17bdb0eddc2c",
+      "sha256": "5aa6b36dc8afb199981c4e716160ea1f17b6b71ee2ea3bfae6fb2b2c6ed7d8b0",
+      "size": 3376225227,
+      "version": "12.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-16-qpr2-marble-official-evolution-x-06-02-26.4709959/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/marble",
+      "paypal": "https://linktr.ee/joeyhuab",
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}

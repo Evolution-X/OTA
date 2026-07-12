@@ -1,0 +1,20 @@
+This is Android 17 QPR0 with July 2026 security patches
+
+Notes:
+==============================
+- Install the latest HyperOS 3 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
+- Use OFRP-R11.1_7-Beta-marble.zip as recovery.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Visit our CDN (https://cdn.evolution-x.org/marble/17/ksu-next) for the latest KSU next root zip.
+- Includes POCO camera and Dolby Atmos.
+- Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
+
+Device changes:
+==============================
+Bring back device-side per-app refresh rate
+
+Notable ROM changes:
+==============================
+Bring back advance restart menu
+Bring back custom QS tiles
+Bring back more DNS providers
