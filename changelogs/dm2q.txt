@@ -1,21 +1,25 @@
-This is Android 16 QPR2 with June 2026 security patches
+This is Android 16 QPR2 with July 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
+- Clean flash is recommended
 - If you encounter screen freezes on incoming call, disable bluetooth if you don't use it. We are looking for the cause and solution yet
 - Firmware based on EZA1
 - First installation requires OneUI 7 with an unlocked bootloader. Devices with fused Global (B) 9+ / Chinese (0) 7+ BL bit are not supported
-- Some refresh rate issues may be expected on boot
 - If you have issues with experimental IMS, you can disable it via adb shell or else: "adb shell pm disable-user --user 0 me.phh.ims"
 
 Device changes:
 ==============================
-- Update to Evolution X 11.8
-- Fixed vibration intensity
-- Dropped some unused services
-- Replaced Samsung thermal HAL with Pixel thermal HAL. Decreases overheat
-- Experimental IMS included by krazey to fix VoLTE related issues
+- Update to Evolution X 11.9
+- Upstream kernel to 5.15.208
+- Fixed auto-brightness
+- Switched to OSS audio (thanks to krazey)
+- Switched to ext4 builds
+- Switched to userdebug builds
+- Updated IMS to version 9b2058ad4c8b98b06aa5639d8309041b82469152
+- Enabled haptics on text selection editing
+- Various fixes
 
 Notable ROM changes
 ==============================
