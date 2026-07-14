@@ -6,5 +6,4 @@ Notes:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.9
-- Implement workaround to disable ANGLE for all whitelisted apps
+- [HOTFIX] Fix Dolby services
