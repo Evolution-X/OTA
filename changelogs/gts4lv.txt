@@ -1,14 +1,19 @@
-This is Android 15 with February 2025 security patches
+This is Android 15 with July 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
 
+Known Bugs:
+==============================
+
 Device changes:
 ==============================
-- Update Evolution X 10.14
+- Update to Evolution X 10.19
 
-Notable ROM changes:
+Notable ROM changes
 ==============================
-Not available as of 03/24/2026
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/vic/changelogs
