@@ -2,7 +2,7 @@ This is Android 17 QPR0 with July 2026 security patches
 
 Notes:
 ==============================
-- Install the latest HyperOS 3 FW according to your region (https://xmfirmwareupdater.com/firmware/marble)
+- Firmware is now pre-included.
 - Use OFRP-R11.1_7-Beta-marble.zip as recovery.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Visit our CDN (https://cdn.evolution-x.org/marble/17/ksu-next) for the latest KSU next root zip.
@@ -11,10 +11,32 @@ Notes:
 
 Device changes:
 ==============================
-Bring back device-side per-app refresh rate
+Include firmware
 
 Notable ROM changes:
 ==============================
-Bring back advance restart menu
-Bring back custom QS tiles
-Bring back more DNS providers
+Evolver: Bring back carrier text customization
+Evolver: Bring back refactored network traffic
+Evolver: Bring back hide power menu on secure lockscreen
+Evolver: Bring back lockscreen charging info
+Evolver: Bring back QS auto brightness button
+Evolver: Bring back status bar clock customizations
+ProcessList: fix isolated UID allocation for app zygotes (browser fix)
+Settings: Bring back pocket mode
+Settings: Bring back back gesture height
+Settings: Bring back hide arrow for back gesture
+Settings: Bring back haptic feedback on back gesture
+Settings: Bring back Hide ADB and developer setting enable status
+Settings: Implement reverse-engineered system updates page
+Settings: Show device market name in software update header
+Settings: Support hiding gesture hint in NexusLauncher
+Settings: hardwareinfo: Prioritize CNB branch for OTA maintainer lookup
+SystemUI: Allow ambient wallpaper on pulsing
+SystemUI: Fix volume panel dismissing when a Bluetooth device connects
+SystemUI: keyguard: fix pattern size cache and scramble PIN on Compose bouncer
+SystemUI: keyguard: fix SIM PIN confirm button and auto-confirm on Compose bouncer
+config: Build LMO Freeform app and sidebar
+fixing custom rom hide sysprop | crash issues
+pixel-style: Drop ANGLE allowlist
+release: Disable native app zygote prototype flags in cp2a
+[Flexiglass] NSSL Dispatches complete event streams to Compose
