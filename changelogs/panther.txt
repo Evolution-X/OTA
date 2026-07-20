@@ -6,14 +6,13 @@ Notes:
 
 Known Bugs:
 ==============================
-- Photo Sphere in Google Camera may be broken
+- None? You tell me
 
 Device changes:
 ==============================
-None
+- Photo Sphere should be functional
+- Overridden platform AiAi packages with device versions
 
 Notable ROM changes
 ==============================
-Platform upstream to 11.9
-
-https://github.com/Evolution-X/changelog/blob/bka/changelogs/2026-07-15.txt
+https://github.com/Evolution-X/changelog/blob/bka/changelogs/LATEST.txt
