@@ -1,0 +1,24 @@
+This is Android 17 QPR0 with July 2026 security patches
+
+CAUTION!!! DIRTY FLASH FROM ANDROID 16
+MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
+
+Notes:
+==============================
+- LineageOS-based source. crDroid trees. Signed build.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Kernel is already pre-rooted with KSU Next. Just install the latest KSU Next app (spoofed).
+
+Device changes:
+==============================
+Add libaudiobase dependency to libwfdmmsrc_system
+Patch libwfdservice to load android.media.audio.common.types-V5-cpp
+Patch wfdservice with libaudiobase
+Stop disabling configstore
+Upstream kernel changes from crDroid
+Use legacy libion implementation
+power-libperfmgr: Update included soong namespaces
+
+Notable ROM changes:
+==============================
+Initial Android 16 release

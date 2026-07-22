@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Joey",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi 9T Pro / Redmi K20 Pro",
+      "filename": "EvolutionX-17.0-20260722-raphael-12.0-Official.zip",
+      "download": "https://cdn.evolution-x.org/raphael/17/EvolutionX-17.0-20260722-raphael-12.0-Official.zip/download",
+      "timestamp": 1784698349,
+      "md5": "77f00c5498302622e3187d92f6ff3a24",
+      "sha256": "770a590742e43b65d253ce009d2c38add9de3e4413a746e58fc40d891fab9ed3",
+      "size": 3486887897,
+      "version": "12.0",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-16-qpr2-raphael-official-evolution-x-04-28-26.4710167/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/",
+      "paypal": "https://linktr.ee/joeyhuab",
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
