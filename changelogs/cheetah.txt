@@ -10,10 +10,12 @@ Known Bugs:
 
 Device changes:
 ==============================
-- Upstream to 11.9
-- Photo Sphere should be functional
+- [HOTFIX] Fix booting by replacing Pixel RROs with device variants
+- Exclude Accord and BCR
+- Opt out of build fingerprint spoofing
+- Expose `Flip camera for selfie` gesture (in Settings > System > Gestures)
+
 
 Notable ROM changes
 ==============================
-
-https://github.com/Evolution-X/changelog/blob/bka/changelogs/LATEST.txt
+https://github.com/Evolution-X/changelog/raw/refs/heads/bka/changelogs/LATEST.txt
