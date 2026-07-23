@@ -1,3 +1,5 @@
+This is no longer maintained, kindly update to Android 17
+
 This is Android 16 QPR2 with June 2026 security patches
 
 Notes:

@@ -1,3 +1,5 @@
+This is no longer maintained, kindly update to Android 17
+
 This is Android 16 QPR2 with July 2026 security patches
 
 CAUTION!!! DIRTY FLASH FROM QPR0/QPR1 DEPENDS PER USER
