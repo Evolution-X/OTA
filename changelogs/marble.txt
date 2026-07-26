@@ -11,32 +11,34 @@ Notes:
 
 Device changes:
 ==============================
-Include firmware
+None
 
 Notable ROM changes:
 ==============================
-Evolver: Bring back carrier text customization
-Evolver: Bring back refactored network traffic
-Evolver: Bring back hide power menu on secure lockscreen
-Evolver: Bring back lockscreen charging info
-Evolver: Bring back QS auto brightness button
-Evolver: Bring back status bar clock customizations
-ProcessList: fix isolated UID allocation for app zygotes (browser fix)
-Settings: Bring back pocket mode
-Settings: Bring back back gesture height
-Settings: Bring back hide arrow for back gesture
-Settings: Bring back haptic feedback on back gesture
-Settings: Bring back Hide ADB and developer setting enable status
-Settings: Implement reverse-engineered system updates page
-Settings: Show device market name in software update header
-Settings: Support hiding gesture hint in NexusLauncher
-Settings: hardwareinfo: Prioritize CNB branch for OTA maintainer lookup
-SystemUI: Allow ambient wallpaper on pulsing
-SystemUI: Fix volume panel dismissing when a Bluetooth device connects
-SystemUI: keyguard: fix pattern size cache and scramble PIN on Compose bouncer
-SystemUI: keyguard: fix SIM PIN confirm button and auto-confirm on Compose bouncer
-config: Build LMO Freeform app and sidebar
-fixing custom rom hide sysprop | crash issues
-pixel-style: Drop ANGLE allowlist
-release: Disable native app zygote prototype flags in cp2a
-[Flexiglass] NSSL Dispatches complete event streams to Compose
+Bring back Game space
+Disable Google Play system updates
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Enable new blur UI except lockscreen notifications
+Evolver: Bring back smart pixels support
+Evolver: Bring back Shake Gesture actions
+Evolver: Bring back three fingers swipe actions
+Evolver: Bring back disable quicksettings on keyguard toggle
+Evolver: Bring back lockscreen media art options
+Evolver: Bring back pulse visualizer options
+Evolver: Bring back edge light options
+Evolver: Bring back ripple effect on unlock toggle
+Evolver: Bring back Fingerprint authentication vibration toggle
+Evolver: Bring back status bar brightness control
+Evolver: Bring back status bar brightness control for lockscreen
+Fix changing QS brightness slider visibility and position
+Fix double tap to sleep on status bar
+Fix toggling privacy indicators
+Settings: Align device info page with CP41.260701.006
+Settings: Bring back per-app volume
+Settings: Bring back Force LTE_CA
+Settings: Bring back in-call vibration options
+Settings: Bring back vibration patterns
+Settings: Bring back toggle for 60Hz refresh rate on battery saver
+Settings: Bring back toggle for Smart 5G
+gms: Patch Android Developer Verifier app with Morphe
+release: aconfig: Disable Dual Shade Preference (brings back combined QS)
