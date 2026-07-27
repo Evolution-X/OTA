@@ -11,14 +11,35 @@ Notes:
 
 Device changes:
 ==============================
-Add libaudiobase dependency to libwfdmmsrc_system
-Patch libwfdservice to load android.media.audio.common.types-V5-cpp
-Patch wfdservice with libaudiobase
-Stop disabling configstore
-Upstream kernel changes from crDroid
-Use legacy libion implementation
-power-libperfmgr: Update included soong namespaces
+None
 
 Notable ROM changes:
 ==============================
-Initial Android 16 release
+Bring back Game space
+Disable Google Play system updates
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Enable new blur UI except lockscreen notifications
+Evolver: Bring back smart pixels support
+Evolver: Bring back Shake Gesture actions
+Evolver: Bring back three fingers swipe actions
+Evolver: Bring back disable quicksettings on keyguard toggle
+Evolver: Bring back lockscreen media art options
+Evolver: Bring back pulse visualizer options
+Evolver: Bring back edge light options
+Evolver: Bring back ripple effect on unlock toggle
+Evolver: Bring back Fingerprint authentication vibration toggle
+Evolver: Bring back status bar brightness control
+Evolver: Bring back status bar brightness control for lockscreen
+Evolver: Bring back UDFPS animations
+Fix changing QS brightness slider visibility and position
+Fix double tap to sleep on status bar
+Fix toggling privacy indicators
+Settings: Align device info page with CP41.260701.006
+Settings: Bring back per-app volume
+Settings: Bring back Force LTE_CA
+Settings: Bring back in-call vibration options
+Settings: Bring back vibration patterns
+Settings: Bring back toggle for 60Hz refresh rate on battery saver
+Settings: Bring back toggle for Smart 5G
+gms: Patch Android Developer Verifier app with Morphe
+release: aconfig: Disable Dual Shade Preference (brings back combined QS)
