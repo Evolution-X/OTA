@@ -1,0 +1,22 @@
+This is Android 16 with July 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+- OnePlus Camera and Gallery included
+
+Known Bugs:
+==============================
+- HDR content may not render correctly in some cases
+
+Device changes:
+==============================
+- Update to Evolution X 11.9
+- Initial Official release
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/bka/changelogs
