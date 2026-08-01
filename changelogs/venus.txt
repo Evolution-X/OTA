@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with July 2026 security patches
+This is Android 16 QPR2 with August 2026 security patches
 
 Notes:
 ==============================
@@ -10,9 +10,8 @@ Notes:
 
 Device changes:
 ==============================
-Remove fwk-detect lib from PRODUCT_PACKAGES
-Update kernel
+None
 
 Notable ROM changes:
 ==============================
-Upstream final A16 source changes
+Update security patch to August 2026
