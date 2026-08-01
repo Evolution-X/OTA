@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "ZaraKnYu",
+      "currently_maintained": true,
+      "oem": "motorola",
+      "device": "Motorola G57 Power / Motorola G100s CN",
+      "filename": "EvolutionX-16.0-20260801-mumba-11.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/mumba/16/EvolutionX-16.0-20260801-mumba-11.9-Official.zip/download",
+      "timestamp": 1785568109,
+      "md5": "92dd0514e1286a8d643f8a1fb4e7c9dc",
+      "sha256": "0840c59b63270644ccc6a28afe2895e2a816c76ebfc53099af5be5ee5796eb83",
+      "size": 2732674032,
+      "version": "11.9",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "zaraknyu",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
