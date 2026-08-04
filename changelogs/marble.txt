@@ -1,4 +1,4 @@
-This is Android 17 QPR0 with July 2026 security patches
+This is Android 17 QPR0 with August 2026 security patches
 
 Notes:
 ==============================
@@ -15,30 +15,21 @@ None
 
 Notable ROM changes:
 ==============================
-Bring back Game space
-Disable Google Play system updates
-DisplayModeDirector: Make sure we apply refresh rate on startup
-Enable new blur UI except lockscreen notifications
-Evolver: Bring back smart pixels support
-Evolver: Bring back Shake Gesture actions
-Evolver: Bring back three fingers swipe actions
-Evolver: Bring back disable quicksettings on keyguard toggle
-Evolver: Bring back lockscreen media art options
-Evolver: Bring back pulse visualizer options
-Evolver: Bring back edge light options
-Evolver: Bring back ripple effect on unlock toggle
-Evolver: Bring back Fingerprint authentication vibration toggle
-Evolver: Bring back status bar brightness control
-Evolver: Bring back status bar brightness control for lockscreen
-Fix changing QS brightness slider visibility and position
-Fix double tap to sleep on status bar
-Fix toggling privacy indicators
-Settings: Align device info page with CP41.260701.006
-Settings: Bring back per-app volume
-Settings: Bring back Force LTE_CA
-Settings: Bring back in-call vibration options
-Settings: Bring back vibration patterns
-Settings: Bring back toggle for 60Hz refresh rate on battery saver
-Settings: Bring back toggle for Smart 5G
-gms: Patch Android Developer Verifier app with Morphe
-release: aconfig: Disable Dual Shade Preference (brings back combined QS)
+Bring back axion sandbox and app locker
+CachedAppOptimizer: Fix FULL memcg compaction validation
+Evolver: trickystore: add SKIP mode to app target picker
+GameSpace: updating persist system properties
+GameSpace: updating service infra
+SystemUI: Fix doze sensor check for screen-off long press
+base: GameProps: Treat empty config as loaded
+base: Never show the pseudo locales
+base: Serialize fixupAppDir calls from AppDataHelper
+extras: ax_blur: blur enhancements from android 17
+extras: sdk: material3: Update Material 3 library to v1.5.0-alpha23
+extras: syncing corner radius with SettingsTheme expressive
+libion: Make available to com.android.npumanager
+overlay: Update default keyguard affordance setup
+sepolicy: Move Mosey policy to system_ext for CP2A
+services: fixing force full screen feature
+trickystore: persist boot key/hash and add SKIP target mode
+upgrading force full screen to compose
