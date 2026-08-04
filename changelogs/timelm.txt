@@ -1,0 +1,21 @@
+This is Android 16 with July 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+- Dirty Flash from EvolutionX-16.0-20260723-timelm-11.9-Unofficial is possible but we'll not be responsible in-case of data loss.
+
+Known Bugs:
+==============================
+- Wrong Signal Strength (Just UI)
+
+Device changes:
+==============================
+- Update to Evolution X 11.9
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/bka/changelogs
