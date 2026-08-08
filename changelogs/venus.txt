@@ -1,3 +1,5 @@
+This is no longer maintained, kindly update to Android 17
+
 This is Android 16 QPR2 with August 2026 security patches
 
 Notes:
@@ -5,7 +7,6 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Includes Dolby Atmos and Leica camera.
-- This is possibly our final Android 16 build for this device as we look towards focusing on Android 17.
 - Credits to ItsVixano, Arian16k, FlowerSea, GR, ralph20060412, RobertGarciaa.
 
 Device changes:
