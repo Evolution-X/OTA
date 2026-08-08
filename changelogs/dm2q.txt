@@ -1,24 +1,27 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with August 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
 - Firmware based on EZA1
-- First installation requires OneUI 7 with an unlocked bootloader. Devices with fused 9+ (Global) / 7+ (Chinese) bit are not supported
-- If you have issues with VoLTE / VoWiFi, you can disable it via toggle in settings or using adb shell: "adb shell pm disable-user --user 0 me.phh.ims"
+- First installation requires Android 15 version with an unlocked bootloader
+- If you have issues with VoLTE / VoWiFi, you can disable it via toggle in settings
 
 Known Bugs:
 ==============================
-- eSIM registration
 - HDMI output over USB-C
+- Echo on IMS calls when using loudspeaker
+- Recording IMS calls
 
 Device changes:
 ==============================
-- Fixed volume control on calls (thanks to krazey)
-- Fixed echo on VoIP calls when using loudspeaker (thanks to krazey)
-- Fixed some apps that use audio MMAP being mute
-- Updated IMS to version a3fec01ebc4f51c39026565c4a451fef454637fa
+- Update to Evolution X 11.10
+- New ImsStack (thanks to krazey)
+- Switch to displayconfig (thanks to josip-k)
+- eSIM support (thanks to josip-k)
+- Korean models (SM-S91xN) support
+- Update Dolby
 
 Notable ROM changes
 ==============================
