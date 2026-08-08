@@ -1,4 +1,4 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with August 2026 security patches
 
 Notes:
 ==============================
@@ -6,13 +6,14 @@ Notes:
 
 Known Bugs:
 ==============================
-- None? You tell me
+None? You tell me
 
 Device changes:
 ==============================
-- Photo Sphere should be functional
-- Overridden platform AiAi packages with device versions
+- Upstream to 11.10
 
 Notable ROM changes
 ==============================
-https://github.com/Evolution-X/changelog/blob/bka/changelogs/LATEST.txt
+Notable ROM changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/bka/changelogs
