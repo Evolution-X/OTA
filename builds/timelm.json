@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "kiy017",
+      "currently_maintained": true,
+      "oem": "LG",
+      "device": "V60 ThinQ 5G",
+      "filename": "EvolutionX-16.0-20260803-timelm-11.9-Official.zip",
+      "download": "https://cdn.evolution-x.org/timelm/16/EvolutionX-16.0-20260803-timelm-11.9-Official.zip/download",
+      "timestamp": 1785792268,
+      "md5": "f679567b7496f9965fdac53775f9b088",
+      "sha256": "703ad50868025bc017f351c1fa2f813f98ff35c179383ef6e6285cf2eb1619a4",
+      "size": 2694350243,
+      "version": "11.9",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-resukisu-evolution-x-11-9-for-lg-v60-thinq-5g.4797977/",
+      "firmware": "https://lgrom.com/firmware/LMV600EA/SWC/V600EA40G_00/11401",
+      "paypal": "",
+      "github": "kiy017",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
