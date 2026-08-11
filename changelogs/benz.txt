@@ -1,4 +1,4 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with August 2026 security patches
 
 Notes:
 ==============================
@@ -7,11 +7,10 @@ Notes:
 
 Known Bugs:
 ==============================
-- D2W
 
 Device changes:
 ==============================
-- Update to Evolution X 11.9
+- Update to Evolution X 11.10
 
 Notable ROM changes
 ==============================
