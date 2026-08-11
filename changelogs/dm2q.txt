@@ -22,6 +22,7 @@ Device changes:
 - eSIM support (thanks to josip-k)
 - Korean models (SM-S91xN) support
 - Update Dolby
+- Hotfix: Switch to EuiccGoogle, fixes eSIM registation
 
 Notable ROM changes
 ==============================
