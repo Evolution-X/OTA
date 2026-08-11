@@ -1,14 +1,24 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with August 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory
-- Initial EvolutionX official
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Known Bugs:
+==============================
 
 Device changes:
 ==============================
-- Update to Evolution X 11.9
+- Update to Evolution X 11.10
+- Enable HWUI Perf
+- Use libvmmem from stock
+- fixed random reboots
+- Enable suspend to RAM mem_sleep to deep
+- Optimize native executables for Cortex-A76 CPU
+- Set SF idle timeout to 750ms
+- Set composition_cache to 0
+- Make it more stable
 
 Notable ROM changes
 ==============================
