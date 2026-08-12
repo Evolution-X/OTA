@@ -11,10 +11,22 @@ Notes:
 
 Device changes:
 ==============================
-Drop system WFD blobs
+Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
 
 Notable ROM changes:
 ==============================
-Pulse: Fade view on visibility changes
-config: Disable Updater app for now
-release: Disable lhdc
+BroadcastRadio:Fix the issue of duplicate radio stations
+Evolver: Add status bar logo color options
+Evolver: Add user selected custom status bar logo
+Evolver: Bring back edge light
+Evolver: Bring back Depth wallpaper
+Evolver: Bring back Dynamic bar
+Evolver: Bring back Lockscreen Now playing
+Evolver: Bring back QS Header Image customization
+Evolver: Bring back status bar clock chip
+Evolver: Bring back status bar extra padding feature
+Evolver: Bring back status bar logo customizations
+Evolver: Bring back status bar lyrics
+Evolver: Bring back wallpaper effects
+Evolver: Bring back waveform seekbar
+ax_blur: improve blur
