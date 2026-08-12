@@ -11,34 +11,22 @@ Notes:
 
 Device changes:
 ==============================
-Refactor thermal settings fragments
-Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
-add back L3MinFreq under INTERACTION
-overlay: Set default pin amount for home app
-restructuring powerhint
+None
 
 Notable ROM changes:
 ==============================
-Evolver: Bring back On-The-Go Mode power menu toggle
-Evolver: Pulse: Implement waveform (amplitude) capture mode
-Evolver: Update compose UI
-LineageParts: Add more device key actions
-Pulse: Add height control option
-Pulse: Fade view on visibility changes
-Pulse: Implement waveform (amplitude) capture mode
-Sandbox: Add custom successful restoration popup indicating path
-Settings: Add "Vehicle Motion Cues"
-Settings: Adding multi-media focus support
-Settings: Implement RefreshRateManager
-Settings: adding blur level settings
-Settings: backport 17 QPR1 fix for Bluetooth dev settings confirmation
-Settings: doze brightness customization
-SystemUI: Switch glance-hub to swipe-right
-SystemUI: Use binder-backed UVC support checks
-SystemUI: adding usb prompt bottomsheet
-libmediaplayerservice: fix thumbnail property read
-release: Disable lhdc
-sepolicy: Remove neverallow for system server setting boot prop
-sepolicy: allow bootstat to query health HAL
-update_engine: Allow backup tool to run in user builds
-update_engine: Always disable signature and downgrade checks
+BroadcastRadio:Fix the issue of duplicate radio stations
+Evolver: Add status bar logo color options
+Evolver: Add user selected custom status bar logo
+Evolver: Bring back edge light
+Evolver: Bring back Depth wallpaper
+Evolver: Bring back Dynamic bar
+Evolver: Bring back Lockscreen Now playing
+Evolver: Bring back QS Header Image customization
+Evolver: Bring back status bar clock chip
+Evolver: Bring back status bar extra padding feature
+Evolver: Bring back status bar logo customizations
+Evolver: Bring back status bar lyrics
+Evolver: Bring back wallpaper effects
+Evolver: Bring back waveform seekbar
+ax_blur: improve blur
