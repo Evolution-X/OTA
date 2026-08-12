@@ -9,20 +9,22 @@ Notes:
 
 Device changes:
 ==============================
-Add dual AP/STA to wifi hal interface combinations
-CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX
-Enable asynchronous library events in WPA supplicant
-Enable concurrent restricted connectivity
-Enable support for IEEE80211AX
-Remove SetClamps actions from task profiles
-Remove fwk-detect lib from PRODUCT_PACKAGES
-Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
-Use Clang r563880c for kernel build
-Use legacy libion implementation
-power-libperfmgr: Update included soong namespaces
-rro_overlays: Update Wifi overlays from redwood OS2.0.17.0.UMSMIXM
-sepolicy: Replace vendor_sysfs_usb_c with sysfs_typec
+None
 
 Notable ROM changes:
 ==============================
-Initial Android 17 release
+BroadcastRadio:Fix the issue of duplicate radio stations
+Evolver: Add status bar logo color options
+Evolver: Add user selected custom status bar logo
+Evolver: Bring back edge light
+Evolver: Bring back Depth wallpaper
+Evolver: Bring back Dynamic bar
+Evolver: Bring back Lockscreen Now playing
+Evolver: Bring back QS Header Image customization
+Evolver: Bring back status bar clock chip
+Evolver: Bring back status bar extra padding feature
+Evolver: Bring back status bar logo customizations
+Evolver: Bring back status bar lyrics
+Evolver: Bring back wallpaper effects
+Evolver: Bring back waveform seekbar
+ax_blur: improve blur
