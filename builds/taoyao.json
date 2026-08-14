@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "skglab-dev x ./a.labs",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "12 Lite",
+      "filename": "EvolutionX-16.0-20260814-taoyao-11.10-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/taoyao/16_vanilla/EvolutionX-16.0-20260814-taoyao-11.10-Vanilla-Official.zip/download",
+      "timestamp": 1786666554,
+      "md5": "d032c167a95310ee528340c3c1ab1d37",
+      "sha256": "3c87dcdb4bd6ff742533e366c494342e8f5f722eff2ef4fb4be4c8ed9815ecff",
+      "size": 2420797767,
+      "version": "11.10",
+      "buildtype": "userdebug",
+      "forum": "https://t.me/taoyaolabs",
+      "firmware": "https://xmfirmwareupdater.com/hyperos/taoyao/stable/OS1.0.39.0.ULIEUXM/",
+      "paypal": "https://t.me/taoyaolabs/15842",
+      "github": "ammarbahtiarasli",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
