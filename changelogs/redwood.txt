@@ -7,11 +7,10 @@ Notes:
 
 Known Bugs:
 ==============================
-- None 
 
 Device changes:
 ==============================
-- Update to Evolution X 11.10
+- Switch to vendor-defined color modes
 
 Notable ROM changes
 ==============================
