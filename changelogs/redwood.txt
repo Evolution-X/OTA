@@ -1,0 +1,19 @@
+This is Android 16 with August 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Known Bugs:
+==============================
+
+Device changes:
+==============================
+- Initial vanilla variant release of Evolution X 11.10
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/bka/changelogs
