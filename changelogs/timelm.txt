@@ -7,11 +7,11 @@ Notes:
 
 Known Bugs:
 ==============================
-- Incorrect Signal Display in Status Bar
-
+- Incoreect Signal Display
 Device changes:
 ==============================
 - Update to Evolution X 11.10
+- Integrate LG 3D Sound Engine
 
 Notable ROM changes
 ==============================
