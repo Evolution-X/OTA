@@ -1,4 +1,4 @@
-This is Android 15 with July 2026 security patches
+This is Android 15 with August 2026 security patches
 
 Notes:
 ==============================
@@ -10,7 +10,7 @@ Known Bugs:
 
 Device changes:
 ==============================
-- Update to Evolution X 10.19
+- Update to Evolution X 10.20
 
 Notable ROM changes
 ==============================
