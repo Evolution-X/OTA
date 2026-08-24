@@ -15,18 +15,56 @@ None
 
 Notable ROM changes:
 ==============================
-BroadcastRadio:Fix the issue of duplicate radio stations
-Evolver: Add status bar logo color options
-Evolver: Add user selected custom status bar logo
-Evolver: Bring back edge light
-Evolver: Bring back Depth wallpaper
-Evolver: Bring back Dynamic bar
-Evolver: Bring back Lockscreen Now playing
-Evolver: Bring back QS Header Image customization
-Evolver: Bring back status bar clock chip
-Evolver: Bring back status bar extra padding feature
-Evolver: Bring back status bar logo customizations
-Evolver: Bring back status bar lyrics
-Evolver: Bring back wallpaper effects
-Evolver: Bring back waveform seekbar
-ax_blur: improve blur
+AppDataBackup: batch restore, system progress notifications, other improvements
+Camera: Avoid OOB when filtering aux cameras
+Evolver: Add model based auto depth wallpaper
+Evolver: Adjust clock setting visibility based on selected clock
+Evolver: Restore charging effects
+Evolver: Restore custom lock screen clock styles
+Evolver: Restore daily data usage in QS footer
+Evolver: Restore Lock glymps
+Evolver: Restore lock screen widgets
+Evolver: Restore no storage restrict
+Evolver: Restore QS header clock styles
+Evolver: Dedupe canary fetch pipeline and confirm Play Store data wipe
+Evolver: Hide custom clock color picker preference when not in custom mode
+Evolver: PixelProps/PlayIntegrityFix: consume isCanary, gate canary metadata
+Evolver: Replace Pixel 10 Pro XL spoof profile with Pixel 11 Pro XL
+Fix duplicate callbacks during app-op mode reset
+Fix transitions to black screen due to system_server anr when performing app preference Reset
+FusedLocation: Use GPS when NLP is not available
+GamePropsSpoofService: Replace Pixel 10 Pro XL spoof profile with Pixel 11 Pro XL
+PixelDeviceRepository: add Pixel 11 Pro XL (kodiak) support
+PixelDeviceRepository: Dedupe fallback data and unblock future Pixels
+PixelDeviceRepository: fall back to stable builds when no canary is published
+Settings: Introduce a native backup/restore solution
+Settings: Restore OG App Lock features
+Settings: Restore always on display while charging
+SystemUI: Add lockscreen widgets to burn in protection movement
+SystemUI: Add non-Pixel ambient Now Playing indicator, fall back to native on Pixel
+SystemUI: Clone deviceEntryBackgroundViewAlpha for ALTERNATE_BOUNCER -> GONE
+SystemUI: Clone deviceEntryBackgroundViewAlpha for PRIMARY_BOUNCER -> GONE
+SystemUI: Defer rotation to predraw to avoid transform OOB crash
+SystemUI: DynamicBar: Fix Compose Height making event passthrough instead of consuming all taps like before
+SystemUI: DynamicBar: Port MusicPillBlurHost to BlurEngine API
+SystemUI: Don't process stale network requests for lyric fetching
+SystemUI: Don't register LyricFetcher callback until setEnabled call
+SystemUI: Fetch lyrics on background thread
+SystemUI: Fix UI freeze on Bluetooth state changes
+SystemUI: Follow shortcutsAlpha for deviceEntryBackgroundViewAlpha when LOCKSCREEN -> PRIMARY_BOUNCER
+SystemUI: Implement flashlight fade-in/fade-out
+SystemUI: Make deviceEntryBackgroundView follow keyguardAlpha for LOCKSCREEN->GLANCEABLE_HUB transitions
+SystemUI: Observe global widget toggle for device info widgets
+SystemUI: Pass a deviceEntryBackgroundViewAlpha from lockscreenToGone
+SystemUI: Port Pixel Lockscreen Now Playing
+SystemUI: Pulse: Factor height by 0.6 for amplitude mode
+SystemUI: Pulse: Fix flicker on hide transitions
+SystemUI: Remove confirmation dialog on mobile data toggle
+SystemUI: Rework keyguard element ordering and clock barrier handling
+SystemUIClocks: Update from kodiak CD1A.260714.001.A9
+Update BCR to Version v3.7
+WindowManager/Shell: fix bubbles-user-model error
+animation: Fix incorrect glyph index in TextInterpolator run check
+config: Build AppDataBackup
+config: Relax library check for gms builds
+gms: Update from kodiak CD1A.260714.001.A9
