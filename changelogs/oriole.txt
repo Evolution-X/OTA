@@ -11,6 +11,7 @@ Known Bugs:
 Device changes:
 ==============================
 - Update to Evolution X 11.10
+- Freeze on incoming call when bluetooth enabled has been resolved
 
 Notable ROM changes
 ==============================
