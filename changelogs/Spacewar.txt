@@ -1,4 +1,4 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with August 2026 security patches
 
 Notes:
 ==============================
@@ -6,25 +6,33 @@ Notes:
 - Clean flash mandatory when your build is from Evolution X 8 or lower
 
 Known Bugs:
-============================== 
--None. Let me know if you find any
+==============================
 
 Device changes:
 ==============================
-- Switched to OSS Sony Dolby sound processing
-- Replaced Accord with Gramophone as the default music player
-- Lowered maximum earpiece volume for calls
-- Removed redundant voice call listener (dlb_voice_call_listener)
-- Optimized system powerhints (yupik adaptation & fine-tuning)
-- Boosted CPU and GPU frequencies during heavy rendering for smoother performance
-- Reduced app launch boost duration to 3 seconds and removed unnecessary power boosts
-- Configured screen-off CPU scheduling limits to conserve battery life
-- Optimized IRQ balancing for graphics and display drivers (msm_drm & kgsl_3d0)
-- Enabled HW-accelerated color transformations (setColorTransform)
-- Enabled FadingMarquee text effects across the system UI
-- Disabled automatic screen rotation by default
-- Disabled high-performance transition animations for a cleaner feel
-- Cleaned up obsolete/useless code
+- Update to Evolution X 11.10
+Audio & Haptics
+- Dolby Config: Included dax configuration for Dolby Audio processing.
+- Haptic Tuning: Fine-tuned - RichTap haptics for faster transients and crisper feedback.
+- Audio Pinning: Pinned audio service to audio-app and assigned the little CPU cluster for background and audio-app cpusets.
+
+Kernel, Power & Performance
+- Kernel Architecture: Built all kernel modules directly into the kernel and 
+conditionally switched to the EROFS file system for dynamic partitions.
+- CPU & Scheduling: Imported performance tuning from aospa-lisa, assigned foreground cpuset/uclamp for gralloc and hwcomposer, and dynamically set IRQ affinity for KGSL and MSM_DRM.
+- Memory & Storage: Configured /metadata with data=journal,commit=1, enabled sync, and added metadata_csum. Set UFS auto-hibernate timer to 1 ms and removed BFQ/discard command tuning.
+- 64-Bit Pure Execution: Stopped shipping 32-bit Zygote to streamline system architecture.
+
+Display & Graphics
+- Rendering Pipeline: Switched to the skiaglthreaded renderthread backend and updated SurfaceFlinger durations from kalama.
+- Display Tuning: Allocated 6 buffers for SurfaceFlinger in FrameBufferSurface, increased frequency of sampling regions, and enabled config_sf_limitedAlpha.
+- EGL & Refresh Rate: Configured EGL multifile cache, capped its blobcache limit to 32MB, and tuned refresh rate properties from coral.
+
+System & Connectivity
+- Wi-Fi & Network: Added dual AP/STA support to Wi-Fi HAL interface combinations and updated the default preferred network mode value.
+- Pixel Features: Spoofed supported Pixel features for expanded software compatibility.
+- Debugging & Cleanups: Disabled serial console, native stats collection service, RescueParty, and ART/dex2oat debugging.
+- Fastboot: Unmounted /firmware automatically after fastbootd starts.
 
 Notable ROM changes
 ==============================
