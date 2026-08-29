@@ -7,12 +7,14 @@ Notes:
 
 Known Bugs:
 ==============================
-- None
+- LG Camera: 64MP and slow-motion doesnt work.
 
 Device changes:
 ==============================
 - Update to Evolution X 11.10
-- Fixed Incorrect Signals Display 
+- Freeze on incoming call when bluetooth enabled has been resolved
+- Added LG Camera
+- Fixed Incorrect Signals Display
 
 Notable ROM changes
 ==============================
