@@ -11,10 +11,11 @@ Known Bugs:
 
 Device changes:
 ==============================
-- Update to Evolution X 11.10
+- Update to Evolution X 11.10 Latest
+- Added Dolby Atmos/Vision using LunarisDolby UI
 - Included Mi Camera
 - Use OSS Kernel
-- Screen Off FOD working
+- Screen Off FOD worked
 
 Notable ROM changes
 ==============================
