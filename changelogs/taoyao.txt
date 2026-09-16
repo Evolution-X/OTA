@@ -1,20 +1,17 @@
-This is Android 16 with August 2026 security patches
+This is Android 16 with September 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash mandatory when your build is from Evolution X 10 or lower
+- Clean flash mandatory when your build is from Evolution X 8 or lower
 
 Known Bugs:
 ==============================
-- find by yourself and report
+- Incorrect battery health/capacity calibrate
 
 Device changes:
 ==============================
-- Update to Evolution X 11.10
-- Included Mi Camera
-- Use OSS Kernel
-- Screen Off FOD working
+- Update to Evolution X 11.11
 
 Notable ROM changes
 ==============================
