@@ -1,14 +1,16 @@
-This is Android 16 with July 2026 security patches
+This is Android 16 with September 2026 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 
+Known Bugs:
+==============================
+
 Device changes:
 ==============================
-- Dolby: Allow setting profiles per-device
-- Dolby: Enable swiping between tabs
-- Disable unsupported aptX voice codec
+- Update to Evolution X 11.11
+- Fix some potential crashes in glyph interface
 
 Notable ROM changes
 ==============================
