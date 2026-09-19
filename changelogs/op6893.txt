@@ -4,7 +4,6 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Clean flash mandatory when your build is from Evolution X 8 or lower
-- OnePlus Camera and Gallery included
 
 Known Bugs:
 ==============================
@@ -13,7 +12,7 @@ Known Bugs:
 Device changes:
 ==============================
 - Update to Evolution X 11.11
-- Minor improvements
+- Fixed ims functionality caused by a change on lineage’s side
 
 Notable ROM changes
 ==============================
