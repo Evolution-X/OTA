@@ -11,96 +11,20 @@ Notes:
 
 Device changes:
 ==============================
-Clean up powerhint
-Clean up vendor props (fix lag with blurs on)
-Let some qcom stuff use lseek syscall
-Optimizing dalvik heap configs
-Update WFD system blobs from marvel_g A171WEH.20
-init: Configure uclamp defaults
+Update device tree to latest LineageOS upstream
+Update stock kernel to latest LineageOS upstream
 
 Notable ROM changes:
 ==============================
-ActivityThread: Expect no connectivity service in isolated processes
-AlarmManager: Drain deferred alarms before interactive delivery
-AppOps: clean up async noted watchers with their registered UID
-AudioService: Make audio event wake locks independent of displays
-Battery: Restore charger detection and live lockscreen measurements
-BootReceiver: Honor the tracing instance enable property
-Core: Parcel: harden EX_PARCELABLE exception decoding against malformed remote payloads (development)
-CoreSettingsObserver: Defer virtual device lookup until service publication
-DisplayDeviceRepository: Gate the render-timings log on DEBUG
-DisplayManager: Avoid looking up UserManager for the system user
-Fix Bluetooth tile dialog subtitle alignment
-GameManager: Apply settings permissions to the backing file
-GoogleConfigOverlay: Use the platform DeviceLock controller
-GoogleHealthConnectOverlay: Use the explicit resource map
-GoogleSettingsOverlay: Suppress injected Backup & Restore dashboard tile
-JobScheduler: Aggregate quota alarms for tracked jobs
-JobScheduler: Report unavailable services after user unlock
-JobScheduler: Stop treating active UIDs in NEVER as an invariant failure
-JobScheduler: Use the actual standby bucket for EJ recovery alarms
-Keyguard: 8dp clock-to-date gap, matched in the wallpaper picker preview
-Keyguard: align the picker preview date row with the real lock screen
-Keyguard: hide the weather-clock at-a-glance while notifications are present
-Keyguard: reset the date/weather bias when switching clocks
-ManagedServices: Defer automatic binding until ActivityManager is ready
-OmniJaws: Add column names for parsing for better readability
-PackageManager: Defer supervision lookup during provider installation
-PhoneWindowManager: Initialize pending display groups as invalid
-PixelDeviceRepository: Update fingerprints to September 2026 release
-PixelDocumentsUIGoogleOverlay: Override the AOSP overlay
-PixelPropsUtils: Use Unsafe to bypass final field write restrictions
-SensorService: avoid errors for unavailable Binder freeze notifications
-Settings: Label additional battery power components
-Settings: Skip no-op satellite tile state writes
-Settings: Stop uninstall after showing administrator restrictions
-SettingsProvider: Check JobScheduler availability before fetching its wrapper
-StorageManager: Allow devices to retain traditional idle maintenance
-SystemUI: Allow toggling rotation button suggestion [1/2]
-SystemUI: DynamicBar: crop album art before scaling to maintain aspect ratio
-SystemUI: Fade lockscreen blur regions with the views that carry them
-SystemUI: Fade the keyguard slice view through clock size changes
-SystemUI: Fix AmbientIndicationCoreStartable re-entry guard
-SystemUI: Fix string in AxPlatformFeatureMapper
-SystemUI: Implement reverse-engineered mobile data confirmation dialog
-SystemUI: Keep the small clock in step with smartspace in both directions
-SystemUI: Never leave the burn-in scale on a clock that only translates
-SystemUI: Size the keyguard clock from what the lockscreen will show
-SystemUI: Skip notification state errors when the state is unchanged
-SystemUI: Skip stale showKeyguard requests from GONE
-SystemUI: Synchronize classic flag caches
-SystemUI: fix NPE in RemoteSelectionToolbar on cached reshow
-SystemUI: honor hidden FGS manager packages
-SystemUI: scale shade blur radius down at high refresh rate
-SystemUI: scene: apply refresh-rate-scaled max blur radius
-SystemUI: update smartspace from Pixel 11
-TimeZoneDetector: Resolve KeyguardManager when evaluating changes
-Update BCR to Version v3.8
-Update SystemUIClocks from kodiak CD1A.260714.001.A9
-UriGrants: Stop probing EXTRA_STREAM after reading its format
-UsbDeviceManager: Retry Trust restrictions after service publication
-UserManager: Avoid reading debug emulation property on user builds
-WallpaperManagerService: Recover missing static wallpaper colors
-WindowManager: Acquire the single queued snapshot image directly
-ax_blur: scale ratio locked blur
-backport 17 QPR1 Beta 5 fix for widgets disappearing after reboot
-bootanimation: Request a high priority EGL context
-config: add surfaceflinger boost prop
-display: Honor display white balance availability
-dumpstate: fall back to P_PID when waitid rejects P_PIDFD
-framework: protect the background user info changed broadcast
-gms: Update from mustang CP3A.260905.009
-healthd: Restore charger limits in HealthInfo
-input: Restore composite controllers after Bluetooth pointer suppression
-libgui: Make BufferItemConsumer abandon idempotent
-notification: Normalize USER_ALL for per-user metadata
-overlay: Apply shared library resources at build time
-overlays: Stop including the unsupported SystemUI VPN overlay
-overlays: Target the shipped modular system packages
-pixel-style: Update from CP3A.260905.009
-release: turn on the Android 17 blur features cp2a keeps behind read-only flags
-services: Apply DeviceConfig defaults before consumers start
-services: Drop two per-event info logs from system_server
-voiceinteraction: fix assistant gesture reset without gms/overlays
-wm: Allow the signed PixelSystemService to observe tasks
-wm: Restrict status bar touch transfer to the control window
+Evolver: Revert font picker selection when the overlay fails
+Evolver: Spoofing: Add reset, live attestation roots, a-series pick
+Evolver: TrickyStoreAppSettings: Read default targets from framework
+Evolver: Update secure QS tile string
+Evolver: add complete Arabic localization
+Evolver: harden lifecycle and I/O handling, fix RTL layout attrs
+SystemUI: harden Dynamic Bar clipboard handling for multi-user
+bionic: Keep dynamic property overrides out of loader ELF TLS
+custom_rom_hide: Mirror staged PIF product props
+fixup! [ax_custom_rom_hide] adding apps filter hooks
+gms: Drop RecorderPrebuilt
+spoof: Add native auto-refresh, union OTA/FI lists
