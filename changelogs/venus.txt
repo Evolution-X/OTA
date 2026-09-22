@@ -9,14 +9,19 @@ Notes:
 
 Device changes:
 ==============================
-disable MFNR for Venus macro camera
+Update device tree to latest LineageOS upstream
 
 Notable ROM changes:
 ==============================
-Add ImeNavBarSpaceOverlay
-FaceSense: Support private space enrollment
-GameSpace: Follow interruption filter for Danmaku notifications
-Other ROM fixes/optimization
-Merge September 2026 patches
-apex: Drop com.google.android.webapp
-version: Uprev to 12.2
+Evolver: Revert font picker selection when the overlay fails
+Evolver: Spoofing: Add reset, live attestation roots, a-series pick
+Evolver: TrickyStoreAppSettings: Read default targets from framework
+Evolver: Update secure QS tile string
+Evolver: add complete Arabic localization
+Evolver: harden lifecycle and I/O handling, fix RTL layout attrs
+SystemUI: harden Dynamic Bar clipboard handling for multi-user
+bionic: Keep dynamic property overrides out of loader ELF TLS
+custom_rom_hide: Mirror staged PIF product props
+fixup! [ax_custom_rom_hide] adding apps filter hooks
+gms: Drop RecorderPrebuilt
+spoof: Add native auto-refresh, union OTA/FI lists
