@@ -8,8 +8,7 @@ Notes:
 Device changes:
 ==============================
 - Updated Device Tree To latest
-- Updated to Evolution X 11.10
-- Added stock auto brightness configs and service (fusionlight)
+- Updated to Evolution X 11.11
 - Fix mostly all Camera port bugs
 - lots of Fixes and improvements device side
 
