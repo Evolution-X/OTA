@@ -7,11 +7,13 @@ Notes:
 
 Known Bugs:
 ==============================
-- Incorrect battery health/capacity calibrate
+- none
 
 Device changes:
 ==============================
 - Update to Evolution X 11.11
+- Fixed incorrect battery calibration
+- Fixed screen flickering when the battery is low
 
 Notable ROM changes
 ==============================
