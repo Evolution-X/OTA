@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Joey",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Mi A1",
+      "filename": "EvolutionX-17.0-20260928-tissot-12.2-Official.zip",
+      "download": "https://cdn.evolution-x.org/tissot/17/EvolutionX-17.0-20260928-tissot-12.2-Official.zip/download",
+      "timestamp": 1790624891,
+      "md5": "3273987aba9ca35dc7150751961b6119",
+      "sha256": "909b3b7ea593279f804986807321c69a03c219f6fac57730d628c60f8453afe0",
+      "size": 1916209934,
+      "version": "12.2",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/rom-16-qpr2-tissot-official-evolution-x-06-13-26.4666390/",
+      "firmware": "https://xmfirmwareupdater.com/miui/tissot/stable/V10.0.24.0.PDHMIXM",
+      "paypal": "https://linktr.ee/joeyhuab",
+      "github": "joeyhuab",
+      "initial_installation_images": [
+        "boot",
+        "system"
+      ],
+      "extra_images": []
+    }
+  ]
+}

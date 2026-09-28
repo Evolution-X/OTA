@@ -1,0 +1,18 @@
+This is Android 17 QPR0 with September 2026 security patches
+
+Notes:
+==============================
+First install:
+- Install Xiaomi_mi_a1_4GB_System.zip from (https://pixeldrain.com/u/2GpDcbGV) first.
+- Do format data in recovery.
+
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Credits to ryyaap
+
+Device changes:
+==============================
+Initial Android 17 trees
+
+Notable ROM changes:
+==============================
+Initial Android 17 release for Xiaomi Mi A1
