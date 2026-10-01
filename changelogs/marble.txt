@@ -11,20 +11,52 @@ Notes:
 
 Device changes:
 ==============================
-Update device tree to latest LineageOS upstream
-Update stock kernel to latest LineageOS upstream
+Silence libssc spam when light sensor is enabled
+overlay: CarrierConfig: Fix China 5G SA policy conflict
 
 Notable ROM changes:
 ==============================
-Evolver: Revert font picker selection when the overlay fails
-Evolver: Spoofing: Add reset, live attestation roots, a-series pick
-Evolver: TrickyStoreAppSettings: Read default targets from framework
-Evolver: Update secure QS tile string
-Evolver: add complete Arabic localization
-Evolver: harden lifecycle and I/O handling, fix RTL layout attrs
-SystemUI: harden Dynamic Bar clipboard handling for multi-user
-bionic: Keep dynamic property overrides out of loader ELF TLS
-custom_rom_hide: Mirror staged PIF product props
-fixup! [ax_custom_rom_hide] adding apps filter hooks
-gms: Drop RecorderPrebuilt
-spoof: Add native auto-refresh, union OTA/FI lists
+AxSandbox: Coalesce package-changed broadcasts
+Bluetooth: accept proprietary L2CAP option 0x7F on config
+Evolver: Add option to disable wallpaper zoom
+Evolver: Drop stale PIF device fields on edit
+Evolver: Move PIF/TrickyStore to framework backends, add reset
+Evolver: TrickyStore: Fix the keybox revocation check
+Evolver: TrickyStore: Keep the keybox until a replacement is validated
+Fully switch to SettingsGoogle/SystemUIGoogle usage
+Fully switch to open source SystemUIClocks
+Keep Binder-dispatched methods in standalone system server jars
+LineageParts: KeyHandler: Eat key events regardless of their action
+Settings: Allow disabling clipboard overlay
+Settings: Expose radio info (*#*#4636#*#*)
+Settings: Fix manual network scan failure and add fallback to visible cells
+Settings: Hide radio info if device don't support voice
+Settings: location: Allow to override Mock Location restriction
+SettingsGoogle: Sync remaining preferences
+SliderPreference: Tune expressive slider proportions
+SystemUI: Avoid reloading custom header on screen on
+SystemUI: DynamicBar: Complete redesign
+SystemUI: Know the Words clock package in ClockRegistry
+SystemUI: Map the handwritten clock package to the Words clock
+SystemUI: Reduce redundant shade blur update work
+SystemUI: Preserve pure black theme preference
+SystemUI: declare Google smartspace view IDs
+SystemUI: media: Fix NPE when there is no artwork
+SystemUI: media: Fix memory leak in media control panel
+TrickyStoreService: Match revocation list serials
+WallpaperManagerService: Fix boot delay when wallpaper colors are cached
+WifiTrackerLib: Prefer SAE/OWE over PSK/Open in transition-mode pair
+custom_rom_hide: Serve PIF props to DroidGuard only
+custom_rom_hide: Serve build description, type and tags to DroidGuard
+extras: Move out SystemUIClocks
+fonts: Add selectable Oh My Font with SF Arabic
+gms: Drop prebuilt Theme packs
+gpuservice: Allow querying pinned BPF map metadata
+libdmabufinfo: Avoid error spam when the optional BPF iterator is absent
+pixel-style: Rip out synthetic overlays
+sepolicy: Label the Play Integrity staging props
+sepolicy: Label the legacy product fingerprint as build metadata
+spoof: Rework PIF and TrickyStore, add native refresh
+spoof: Stage build type, tags, description and flavor for DroidGuard
+telephony: Handle scan rejection and fall back to visible cell infos
+trickystore: fix KeyMint 3+ detection vectors in GENERATE mode
