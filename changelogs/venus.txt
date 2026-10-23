@@ -9,185 +9,83 @@ Notes:
 
 Device changes:
 ==============================
-Pin SystemUIGoogle
-Update kernel
-hidl: Set FCM level to 7
+Update kernel from latest Lineage-24.0 upstream
+kernel: techpack: ASoC: msm-lsm-client: Fix LSM session leak in msm_lsm_close()
 
 Notable ROM changes:
 ==============================
-A2dpProfile: Expose the codec status and the codec choice
-Accept operating environment values 0x01-0x06 in Country IE
-Add kill button to notification guts
-Add the rest of Cloudflare and Quad9 Private DNS options
-Add toggle to enable brightness slider haptic feedback
-Adding theme engine interface
-Allow to suppress notifications sound/vibration if screen is ON
-AudioService: Cancel old toasts when switching ringer mode
-AutoAODService: Add null checks to mSharedPreferences
-AutoAODService: Do not bind observer on the main thread
-Bluetooth: Disable Bluetooth auto-on feature by default
-BondStateMachine: Allow skipping confirm for some remotes
-Bring back Bluetooth timeout feature
-Bring back QS footer icon visibilities
-Bring back Wi-Fi timeout feature
-ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
-Drawables: Dark mode support for app installation restriction icon
-Evolver: Add customization for bold clock and period separator
-Evolver: Add option to set volume slider below brightness slider
-Evolver: Recommend only the Pixel 6a for PIF
-Fix SimPhonebookProviderTest flakiness and leaks
-Fix Wi-Fi hotspot freeze on driver failure
-HeadsUp: add timeout option
-Increase 5 GHz network signal tolerance
-Move Bluetooth timeout back to AOSP settings
-NSSLC: Prevent possible memory leak
-Open app when clicking on icon in App Info
-PIF: Default to the Pixel 6a canary fingerprint
-QSFooter: Launch The Evolver Settings when long clicking settings
-Reapply "aconfig: Disable FRP enforcement"
-Ringer: There should really not be an observer here
-RingtoneManager: Set an default ringtone for the SIM 2
-RunningServices: Remove DeveloperOptionAwareMixin interface
-Settings: Add icon for 'WiFi cellular data fallback'
-Settings: Add icon for 'WiFi direct'
-Settings: Add icon for 'WiFi timeout'
-Settings: Add icon for WEP in wifi network settings
-Settings: Add icon for WiFi -> Install certificates
-Settings: Add icon for emergency broadcasts
-Settings: Add missing icon for media output
-Settings: Add option to cycle through ringer modes
-Settings: Address a memory leak
-Settings: Allow dismissing suggestions
-Settings: Allow scheduling always on display
-Settings: Backport app icon from CP31.260618.005
-Settings: Expose clipboard auto clear setting
-Settings: Fix rest of the edit menu icon tint
-Settings: Fix slice data illegal state in credentials
-Settings: Give the About phone logo a K-pop holographic look
-Settings: Phone ringtone setting for Multi SIM device
-Settings: Prevent IllegalArgumentException in storage settings
-Settings: Put the audio codec on the device details page
-Settings: Remove remaining hardcoded fonts
-Settings: Skip auth for WiFi net share when unlocked in the last 60s
-Settings: Use font configs instead fonts directly
-Settings: gestures: Enable Cycle through ringer modes for all
-SharedConnectivityManager: Don't crash on service registerCallback failure
-StatusBarIconController: Don't crash at boot
-SystemUI: Add QS tile layout settings
-SystemUI: Add affordance shorcut for AI Voice Assistant
-SystemUI: Add animation styles for QS tile toggle
-SystemUI: Add back gesture, charging anim, battery themes support
-SystemUI: Add blur QS tile
-SystemUI: Add brightness slider shapes
-SystemUI: Add charging bolt indicator for text-only battery style
-SystemUI: Add classic QS panel style for tiles
-SystemUI: Add customization for bold clock and period separator
-SystemUI: Add customization for proper circle QS tile shape
-SystemUI: Add customization to select QS tile shape
-SystemUI: Add gradient customization
-SystemUI: Add haptic feedback for qs footer actions
-SystemUI: Add less boring heads up option
-SystemUI: Add missing check for lens button in screenshot actions
-SystemUI: Add more QS tile animation styles
-SystemUI: Add more indicators for text-only battery style
-SystemUI: Add notification row transluency toggle
-SystemUI: Add switch for compact HUN
-SystemUI: Add toggle for QS tile haptic feedback
-SystemUI: Add toggle for media squiggle animation
-SystemUI: Add toggle for translucent notifications on lockscreen
-SystemUI: Add volume slider and ringer mode in QS panel
-SystemUI: Align keyguard carrier text with status bar
-SystemUI: Apply colored icons and notification count to new icon area controller
-SystemUI: Apply wifi and signal icon styles last
-SystemUI: ConfigurationControllerImpl: Avoid NullPointerException
-SystemUI: DynamicBar: Do not tie notification alert with global heads up
-SystemUI: DynamicBar: Fix dismiss suppression for reused event ids
-SystemUI: DynamicBar: Fix duplicate media card
-SystemUI: DynamicBar: Fix issues with message notifications
-SystemUI: DynamicBar: Fix timer/stopwatch time mismatch with Clock
-SystemUI: DynamicBar: Show Fast Pair artwork and per-bud battery on the dynamic bar
-SystemUI: DynamicBar: Show app actions and dismiss on alert card
-SystemUI: DynamicBar: Source Clock timer/stopwatch from AOSP chip
-SystemUI: DynamicBar: Toggle expanded panel on chip tap
-SystemUI: Extend brightness slider haptic toggle for auto brightness button
-SystemUI: Fix NPE when IMS is not available
-SystemUI: Fix bluetooth battery level icon in status bar
-SystemUI: Fix colored icons going blank
-SystemUI: Fix concurrent modification exception on config change
-SystemUI: Fix connectivity callbackhandler regressions
-SystemUI: Fix imageloader spam in BrightnessSliderViewModel
-SystemUI: Fix logspam in NotificationMenuRow
-SystemUI: Fix notification count not working after a reboot
-SystemUI: Fix notification flicker with transluency enabled
-SystemUI: Fix notification transparency issues
-SystemUI: Fix scramble pin layout for A17
-SystemUI: Fix slider haptic issue
-SystemUI: Fix stale colors on power menu after UI mode change
-SystemUI: Fixup applying statusbar extra padding
-SystemUI: Forward-port notification counters
-SystemUI: Implement biometric fallback scramble pin support
-SystemUI: Improve captions button disabled state background in volume dialog
-SystemUI: Inflate QS on orientation change
-SystemUI: Integrate Google Lens into Screenshot UI
-SystemUI: Launch power menu from QS only if enabled
-SystemUI: Move right logo in statusbar to extreme right
-SystemUI: NetworkNameModel: Fall back to SPN if DATA_SPN is null
-SystemUI: OnTheGo: Update tile more dynamically
-SystemUI: Prevent NotifCollection illegal state on notification dump
-SystemUI: Prevent ShadeListBuilder illegal state on notification dump
-SystemUI: Prevent UDFPS screen flash during sleep transition
-SystemUI: Prevent building empty keyguard indications to avoid potential crashes
-SystemUI: Prevent indicator text cutting off in biometric prompt
-SystemUI: Re-add padding for left custom logo in statusbar
-SystemUI: Refresh system icons on theme change
-SystemUI: Remove existing icon group if its overriding
-SystemUI: Skip doze brightness clamp in automatic brightness mode
-SystemUI: SliderHaptics: Tune the primitives
-SystemUI: Update ChatGPT quickaffordance activity
-SystemUI: Use app icons for notifications in statusbar
-SystemUI: Use internal method for systemui restart
-SystemUI: VolumeDialog: Add toggle for haptic feedback
-Telecomm: Adapt custom settings to A17
-Telecomm: Add Flashlight blink on incoming calls
-Telecomm: Remove legacy default ring vibration loading methods
-VolumeHaptics: Tune the primitives
-Wifi: Remove random text on ssid
-WifiSettingsConfigStore: Disallow WEP networks by default
-a2dp: Add LHDC V3 source codec
-a2dp: Remember the codec chosen for a device
-aconfig: Enable cloud search and album features in media picker
-aconfig: Enable iconshapes and theme packs
-aconfig: Enable new reveal animation for QS tiles
-base: Add DND & Rate settings to flash on call
-base: Add Flashlight blink on incoming calls
-base: Add option to cycle through ringer modes
-base: Add readable annotation for Ringtone2
-base: Allow scheduling always on display
-base: Fix themed battery state colors
-base: Phone ringtone setting for Multi SIM device
-core: Make CHARGE_OPTIMIZATION_MODE readable for pixel agent
-custom_rom_hide: Adding apps filter hooks
-custom_rom_hide: Exempt zygotes for custom rom path
-custom_rom_hide: Fix custom rom artifacts detection
-custom_rom_hide: Hide ROM packages on core UIDs from unprivileged apps
-fixing ShadeDialogContextRepo crash
-fixup! SystemUI: Add auto brightness toggle in brightness slider in new compose QS
-fixup! le_audio: Allow overriding the bit depth
-fixup: Forward port CM Screen Security settings
-gms: Disable Pixel haptics components completely
-gms: Update from grizzly CD1A.261005.003
-hwui: Fix Paint.getFillPath when src and dst alias
-init: Preserve ENOENT for absent kernel attributes
-init: Remove sys property triggering custom rom detect
-location: Allow to override Mock Location restriction
-location: Move mock location app picker to Location settings
-location: gray out mock override toggle until app is selected
-offload: Make visible to device
-phone JE when select image from phone in FDNList interface.
-pixel-style: Update Pixel charger from mustang CP2A.260805.005
-power/policy: Make wake and doze double-tap toggles independent
-sandbox: Adding multi user support
-sandbox: Refactor for sdk migration
-stagefright: Hide emitting non-AOSP symbol
-telephony: Allow toggle to kill Flash SMS messages
-version: Uprev to 12.3
+BatteryService: Cache OEM fast charger config strings
+Evolver: Add face unlock animation toggle
+Evolver: Add master switch to hide screen capture status from apps
+Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
+Evolver: lockscreen: add Now Playing saved songs list with album art
+Evolver: lockscreen: Add option to show the status bar above media art
+Evolver: lockscreen: Replace custom Now Playing with system switches
+PhoneWindowManager: pick the same torch camera id as SystemUI
+PhoneWindowManager: turn torch on at the saved strength on long press power
+PixelConfigOverlay2021: Don't disable the volume hush gesture
+Settings: Add cellular security network internet icon
+Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
+Settings: AppLock: use Expressive dialogs, text fields and focus ring
+Settings: Fix NFC payment settings activity
+Settings: Fix resource not found issue in notification settings
+Settings: firmwareversion: convert Evolution X entries to Catalyst
+Settings: firmwareversion: give the About phone logo a holographic look
+Settings: gestures: Restart current IME on IME space toggle
+Settings: gestures: raise IME nav bar space overlay priority
+Settings: network: scan: share pending legacy network query
+Settings: redesign model page with Material 3 Expressive
+SettingsGoogle: Clean up decompiled locale picker
+SettingsGoogle: Drop commented-out touch category
+SettingsGoogle: Fix locale picker header color
+SettingsGoogle: Index Google search providers
+SettingsGoogle: Match stock battery saver screens
+SettingsGoogle: Match stock experiment proxies
+SettingsGoogle: Match stock R class choices
+SettingsGoogle: Match stock simple mode
+SettingsGoogle: Match stock software update screen
+SystemFonts: Drop the redundant stock emoji check
+SystemFonts: Fall back to stock emoji for unknown styles
+SystemUI: DynamicBar: Complete redesign with blur surfaces
+SystemUI: DynamicBar: Track the primary media session correctly
+SystemUI: DynamicBar: Update blur background implementation
+SystemUI: DynamicBar: Use system theme for media output dialog
+SystemUI: Fix lockscreen album art vanishing while swiping up
+SystemUI: Fix unreadable clock text on light clock chip styles
+SystemUI: Make per-app volume panel surfaces blur-aware
+SystemUI: Make the Wi-Fi standard icon event driven
+SystemUI: Remove custom Now Playing
+SystemUI: Require unlocking to use Wi-Fi and Mobile Data QS tiles
+SystemUI: Stop inverting back arrow on left edge
+SystemUI: Stop polling lockscreen info widgets in the background
+SystemUI: keyguard: lay out ambient card and chip in scene lockscreen
+SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
+SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
+SystemUIGoogle: ambientmusic: Add lyrics mode
+SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
+SystemUIGoogle: ambientmusic: load remote album art
+SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
+SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
+SystemUIGoogle: smartspace: port fixes for decompile regressions
+UpdatableFontDir: Allow older emoji fonts when custom fonts are enabled
+Utils: Add toggleOverlay variant that raises overlay priority
+base: ApplicationPackageManager: don't hide Pixel features from Photos on Tensor devices
+base: Typeface: Let the Material 3 Expressive fonts follow the selected font
+base: Typeface: don't remap variable-* on the default font
+base: fonts: FontController - stop skipping the selected font
+base: fonts: fix null application NPE and TextView typeface reset
+bionic: ifaddrs: don't require inet sockets for name/flag resolution
+bootanimation: Select the style by name instead of index
+bootanimation: add prism and prism_dynamic, ship default as prebuilt
+core: pif: Fix writes to static final Build fields
+core: pif: Log early config fetch failure once without a stack
+custom_rom_hide: Do not spoof /data/local/tmp
+custom_rom_hide: Hide ROM-named RRO overlays from apps
+custom_rom_hide: Only hide ROM-named overlays from listings
+dumpstate: Always include full dmesg in bugreports
+extras: Add new fonts
+extras: Update BCR to Version v3.11
+fix integer overflow in ZipFileRO.cpp
+overlay: dps: update device config overrides
+release: Enable android.os flags
+sepolicy: label the boot animation name property
