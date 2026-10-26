@@ -11,82 +11,52 @@ Notes:
 
 Device changes:
 ==============================
-Drop Secure Element HAL
+A17 userspace fixes
+Add high-speed video profiles for camera 0 and bump maxHFRMode to 240
+Drop UFFD flag and fastbootd package
+Match the framework's HFR batches to CamX
+Pad ArcSoft's large allocations for Portrait capture
+Remap camera ids to the Xiaomi role ids
+Route libmpbase's allocations through libmpbase_shim
+Switch to fully fixed Leica camera
+Use KawaseDarkmoon blur algorithm
+add blob fixup for sscrpcd ADSP_LIBRARY_PATH
+audio: Drop the direct VoIP output
+audio: Drop the voip_rx output from audio_io_policy.conf
+carrierconfig: Add Airtel India with VoLTE and Wi-Fi calling on
+carrierconfig: Turn Wi-Fi calling on by default for Jio
+overlay: Hide the venus codec nodes from DeviceAsWebcam
+parts: Add display saturation control and QS tile
+parts: add Bypass charging
+parts: add DC dimming QS tile
+parts: Add per-app thermal profiles
+parts: add shared Material 3 Expressive UI layer
+parts: Introduce per-app aux camera access controls
+parts: move every screen to the shared Expressive UI
+rootdir: Set the Bluetooth MAC address from nv_mac
+sepolicy: Fix stale dc_enable label in file_contexts
+set ADSP_LIBRARY_PATH for vendor.sensors (sscrpcd)
+set natural as a default color mode (WIP)
+vendor.prop: Disable the PCM VoIP voice path
 
 Notable ROM changes:
 ==============================
-BatteryService: Cache OEM fast charger config strings
-Evolver: Add face unlock animation toggle
-Evolver: Add master switch to hide screen capture status from apps
-Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
-Evolver: lockscreen: add Now Playing saved songs list with album art
-Evolver: lockscreen: Add option to show the status bar above media art
-Evolver: lockscreen: Replace custom Now Playing with system switches
-PhoneWindowManager: pick the same torch camera id as SystemUI
-PhoneWindowManager: turn torch on at the saved strength on long press power
-PixelConfigOverlay2021: Don't disable the volume hush gesture
-Settings: Add cellular security network internet icon
-Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
-Settings: AppLock: use Expressive dialogs, text fields and focus ring
-Settings: Fix NFC payment settings activity
-Settings: Fix resource not found issue in notification settings
-Settings: firmwareversion: convert Evolution X entries to Catalyst
-Settings: firmwareversion: give the About phone logo a holographic look
-Settings: gestures: Restart current IME on IME space toggle
-Settings: gestures: raise IME nav bar space overlay priority
-Settings: network: scan: share pending legacy network query
-Settings: redesign model page with Material 3 Expressive
-SettingsGoogle: Clean up decompiled locale picker
-SettingsGoogle: Drop commented-out touch category
-SettingsGoogle: Fix locale picker header color
-SettingsGoogle: Index Google search providers
-SettingsGoogle: Match stock battery saver screens
-SettingsGoogle: Match stock experiment proxies
-SettingsGoogle: Match stock R class choices
-SettingsGoogle: Match stock simple mode
-SettingsGoogle: Match stock software update screen
-SystemFonts: Drop the redundant stock emoji check
-SystemFonts: Fall back to stock emoji for unknown styles
-SystemUI: DynamicBar: Complete redesign with blur surfaces
-SystemUI: DynamicBar: Track the primary media session correctly
-SystemUI: DynamicBar: Update blur background implementation
-SystemUI: DynamicBar: Use system theme for media output dialog
-SystemUI: Fix lockscreen album art vanishing while swiping up
-SystemUI: Fix unreadable clock text on light clock chip styles
-SystemUI: Make per-app volume panel surfaces blur-aware
-SystemUI: Make the Wi-Fi standard icon event driven
-SystemUI: Remove custom Now Playing
-SystemUI: Require unlocking to use Wi-Fi and Mobile Data QS tiles
-SystemUI: Stop inverting back arrow on left edge
-SystemUI: Stop polling lockscreen info widgets in the background
-SystemUI: keyguard: lay out ambient card and chip in scene lockscreen
-SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
-SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
-SystemUIGoogle: ambientmusic: Add lyrics mode
-SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
-SystemUIGoogle: ambientmusic: load remote album art
-SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
-SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
-SystemUIGoogle: smartspace: port fixes for decompile regressions
-UpdatableFontDir: Allow older emoji fonts when custom fonts are enabled
-Utils: Add toggleOverlay variant that raises overlay priority
-base: ApplicationPackageManager: don't hide Pixel features from Photos on Tensor devices
-base: Typeface: Let the Material 3 Expressive fonts follow the selected font
-base: Typeface: don't remap variable-* on the default font
-base: fonts: FontController - stop skipping the selected font
-base: fonts: fix null application NPE and TextView typeface reset
-bionic: ifaddrs: don't require inet sockets for name/flag resolution
-bootanimation: Select the style by name instead of index
-bootanimation: add prism and prism_dynamic, ship default as prebuilt
-core: pif: Fix writes to static final Build fields
-core: pif: Log early config fetch failure once without a stack
-custom_rom_hide: Do not spoof /data/local/tmp
-custom_rom_hide: Hide ROM-named RRO overlays from apps
-custom_rom_hide: Only hide ROM-named overlays from listings
-dumpstate: Always include full dmesg in bugreports
-extras: Add new fonts
-extras: Update BCR to Version v3.11
-fix integer overflow in ZipFileRO.cpp
-overlay: dps: update device config overrides
-release: Enable android.os flags
-sepolicy: label the boot animation name property
+Evolver: Add Triple tap to launch freeform
+Evolver: Implement 3D Spatial Effect for Depth Wallpaper
+Evolver: Introduce Dynamic Island
+Evolver: Introduce Music ticker
+InputConsumer: Add empty check before erasing mBatches
+InputConsumer: Check consume time before sending finished signal
+InputConsumer: Store it early and return OK status when failed
+SystemUI: Remove dead code for data roaming and 4G icon
+WallpaperPicker2: Fix Google dynamic wallpaper previews
+WallpaperPicker2: Implement Pixel wallpaper integration
+WallpaperPicker2: Support downloadable Pixel live wallpapers
+WallpaperPicker2: Use config_clockFontFamily for lockscreen preview
+camera: common: Optionally advertise a 60 fps high speed preview
+camera: device@3.2-impl: Allow returning HFR video buffers per frame
+core: trickystore: Fix certificate post-processing warning
+libgui: Allow Num Buffer slots to be increased
+nativewindow: Recognize Qualcomm vendor YUV formats in formatIsYuv
+sdk: ConnectionSettings: Set attribution tag for BluetoothAdapter
+tuner: Refresh status bar icons and apply theme tint
