@@ -11,90 +11,112 @@ Notes:
 
 Device changes:
 ==============================
-DEVICE_HOST_WHITE_LIST -> DEVICE_HOST_ALLOW_LIST
-Enable Xiaomi face unlock
-Enable parallel module loading for first stage
-Remove HIDL Secure Processor from manifest
-Remove unused WiFi symlink
-Remove wifilearner HIDL entry from manifest
-sepolicy: Label face unlock HAL
+Configure powerkey input boost
+Introduce double tap on fingerprint sensor gesture
+Load goodix_3626 module for Goodix fingerprint
+Set shipping API level to 33
+Setup DeviceAsWebcam
+keyhandler: Support fingerprint double tap with the screen off
+parts: Add fingerprint double tap gesture settings
+parts: Add screen off option to fingerprint gestures
+parts: Introduce Charge Boost
+parts: Introduce Performance Monitor
+parts: Introduce per-app aux camera access controls
+parts: add shared Material 3 Expressive UI layer
+parts: guard aux camera list against the property limit
+parts: keep default aux camera exclude list
+parts: move every screen to the shared Expressive UI
+parts: refactor aux camera control state handling
+sepolicy: Allow Parts to write the charge nodes
+sepolicy: Allow batterysecret to swap the typec data role
 
 Notable ROM changes:
 ==============================
-BatteryService: Cache OEM fast charger config strings
-Evolver: Add face unlock animation toggle
-Evolver: Add master switch to hide screen capture status from apps
-Evolver: Add Triple tap to launch freeform
-Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
-Evolver: Update keybox repo URL
-Evolver: lockscreen: add Now Playing saved songs list with album art
-Evolver: lockscreen: Add option to show the status bar above media art
-Evolver: lockscreen: Replace custom Now Playing with system switches
-PhoneWindowManager: pick the same torch camera id as SystemUI
-PhoneWindowManager: turn torch on at the saved strength on long press power
-PixelConfigOverlay2021: Don't disable the volume hush gesture
-Settings: Add cellular security network internet icon
-Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
-Settings: AppLock: use Expressive dialogs, text fields and focus ring
-Settings: Fix NFC payment settings activity
-Settings: Fix resource not found issue in notification settings
-Settings: firmwareversion: convert Evolution X entries to Catalyst
-Settings: firmwareversion: give the About phone logo a holographic look
-Settings: gestures: Restart current IME on IME space toggle
-Settings: gestures: raise IME nav bar space overlay priority
-Settings: network: scan: share pending legacy network query
-Settings: redesign model page with Material 3 Expressive
-SettingsGoogle: Clean up decompiled locale picker
-SettingsGoogle: Drop commented-out touch category
-SettingsGoogle: Fix locale picker header color
-SettingsGoogle: Index Google search providers
-SettingsGoogle: Match stock battery saver screens
-SettingsGoogle: Match stock experiment proxies
-SettingsGoogle: Match stock R class choices
-SettingsGoogle: Match stock simple mode
-SettingsGoogle: Match stock software update screen
-SystemFonts: Drop the redundant stock emoji check
-SystemFonts: Fall back to stock emoji for unknown styles
-SystemUI: DynamicBar: Complete redesign with blur surfaces
-SystemUI: DynamicBar: Track the primary media session correctly
-SystemUI: DynamicBar: Update blur background implementation
-SystemUI: DynamicBar: Use system theme for media output dialog
-SystemUI: Fix lockscreen album art vanishing while swiping up
-SystemUI: Fix unreadable clock text on light clock chip styles
-SystemUI: Make per-app volume panel surfaces blur-aware
-SystemUI: Make the Wi-Fi standard icon event driven
-SystemUI: Remove custom Now Playing
-SystemUI: Require unlocking to use Wi-Fi and Mobile Data QS tiles
-SystemUI: Stop inverting back arrow on left edge
-SystemUI: Stop polling lockscreen info widgets in the background
-SystemUI: keyguard: lay out ambient card and chip in scene lockscreen
-SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
-SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
-SystemUIGoogle: ambientmusic: Add lyrics mode
-SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
-SystemUIGoogle: ambientmusic: load remote album art
-SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
-SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
-SystemUIGoogle: smartspace: port fixes for decompile regressions
-UpdatableFontDir: Allow older emoji fonts when custom fonts are enabled
-Utils: Add toggleOverlay variant that raises overlay priority
-base: ApplicationPackageManager: don't hide Pixel features from Photos on Tensor devices
-base: Typeface: Let the Material 3 Expressive fonts follow the selected font
-base: Typeface: don't remap variable-* on the default font
-base: fonts: FontController - stop skipping the selected font
-base: fonts: fix null application NPE and TextView typeface reset
-bionic: ifaddrs: don't require inet sockets for name/flag resolution
-bootanimation: Select the style by name instead of index
-bootanimation: add prism and prism_dynamic, ship default as prebuilt
-core: pif: Fix writes to static final Build fields
-core: pif: Log early config fetch failure once without a stack
-custom_rom_hide: Do not spoof /data/local/tmp
-custom_rom_hide: Hide ROM-named RRO overlays from apps
-custom_rom_hide: Only hide ROM-named overlays from listings
-dumpstate: Always include full dmesg in bugreports
-extras: Add new fonts
-extras: Update BCR to Version v3.11
-fix integer overflow in ZipFileRO.cpp
-overlay: dps: update device config overrides
-release: Enable android.os flags
-sepolicy: label the boot animation name property
+AppDataBackup: Adapt Material 3 Expressive UI and animations
+DisplayDeviceConfig: Load light debounces from config.xml without a ddc
+Don't show serial number in recovery
+Evolver: Add Dynamic Island features
+Evolver: Add dynamic island X/Y offset preferences
+Evolver: Add glass and tinted shade color styles
+Evolver: Allow disabling clipboard overlay
+Evolver: DynamicIsland: Add a charging chip toggle
+Evolver: DynamicIsland: Add a switch for calls
+Evolver: DynamicIsland: Add popup menu bg style
+Evolver: DynamicIsland: Add switches for system events
+Evolver: DynamicIsland: Allow adjust height and width
+Evolver: Fix QS header image settings
+Evolver: Fix preview of OOS clock 2
+Evolver: Implement 3D Spatial Effect for Depth Wallpaper
+Evolver: PIF/TrickyStore: per-device initial SDK, wipe prompt after keybox import
+Evolver: QS: Show the ColorOS options for the ColorOS panel style
+Evolver: TrickyStore: Accept JSON and check keys in patch levels
+Evolver: TrickyStore: Add Deselect unnecessary to the app picker
+Evolver: TrickyStore: Show what a patch date template resolves to
+Evolver: TrickyStore: Use the framework keybox and patch validators
+Evolver: fonts: Install custom fonts with FontManager#installCustomFont
+Evolver: quicksettings: add ColorOS to QS panel style
+Evolver: spoofing: Validate imports and fix TrickyStore target counts
+Harden LineageHardwareManager against HAL errors
+Keep the Sensors permission for custom sensors without a permission
+LineageParts: Add a cycle ringer mode button action
+LineageParts: Use the configured assist short/long press action
+LiveDisplay: Don't let HAL failures crash system_server
+OmniStyle: Drop online mode and revamp header picker in Material 3
+OmniStyle: Open header browser on pack passed by Settings
+OmniStyle: Remove picasso lib
+OmniStyle: Remove unused wallpaper cropper
+Settings: Fix per-SIM ringtone availability with eSIM / empty slots
+SystemUI: Add case to quick pull down status bar anywhere
+SystemUI: Add glass and tinted shade color styles
+SystemUI: Allow disabling HWC screen decoration per device
+SystemUI: DynamicBar: Fix media notification overlap in split keyguard screen
+SystemUI: DynamicBar: Fix notification text extras
+SystemUI: DynamicIsland: Add a switch to keep the island on top in landscape
+SystemUI: DynamicIsland: Let the Answer button open the call
+SystemUI: Fix and harden QS header image providers
+SystemUI: Fix leak in setNotificationPanelHeaderBackground
+SystemUI: Implement double tap to sleep for Pixel Launcher
+SystemUI: Improve performance for shade colors customization
+SystemUI: Keep the display on when a biometric unlock ends a pulse
+SystemUI: Keyguard: Rebuild weather sections when weather source changes
+SystemUI: Lockscreen: keep Now Playing above the indication area
+SystemUI: NetworkTraffic: Request explicit bold weight and re-apply on config change
+SystemUI: Remove dead code for data roaming and 4G icon
+SystemUI: ShadeHeader: Update the network traffic color with the theme
+SystemUI: dt2s: Only handle focused Pixel Launcher home and skip widget areas
+SystemUI: dt2s: ignore touches on windows drawn over the launcher
+SystemUI: fix dt2s on App Drawer Search Bar
+SystemUIGoogle: ambientmusic: nonpixel: don't auto-listen in on-demand mode
+Telecomm: Phone ringtone setting for Multi SIM device
+WapPush: validate WSP header length before allocation
+add missing flag check for AppFunctionAccess safety source
+am: Skip zram writeback for processes gone since their compaction
+base: Kill SystemUI from system_server on restart and coalesce requests
+delay activation of Allow button(s) in runtime permission dialog
+disable CLOSE_QUIC_CONNECTION power optimization that bypasses VPN
+don't enable the "send DHCP hostname" option by default
+core: Update shade panel colors
+core: spoof: Port TrickyStore, PIF and canary fetch fixes
+core: trickystore: Add MODULE_HASH support for KeyMint v4+ attestation
+core: trickystore: Align attestation version with KeyMint HAL
+core: trickystore: Fix certificate post-processing warning
+core: trickystore: Replace zeroed boot key with generated key
+core: trickystore: Treat zeroed boot hash as missing
+extras: Drop SansSerifPro Font
+extras: Remove google sans flex font package which is default
+extras: Unify nothingdot font overlays
+fastbootd: Always return false for GetDeviceLockStatus()
+fix DNS leak in VPN lockdown mode when VPN is down
+fix multi-user handling bug in WifiService package state listener
+init: Check before assuming property set is successful
+make persist.adb.tls_server.enable system property non-persistent
+sepolicy: Allow the updater to publish its status to SystemUpdateManager
+sepolicy: label protected_{fifos,regular} as proc_security
+spoof: Don't auto-target new apps while TrickyStore is off
+trickystore: Add a list of packages that don't need targeting
+trickystore: Expose keybox and patch level validators
+trickystore: Fix patch level template and date handling
+trickystore: Harden keybox parsing
+trickystore: Keep the loaded keyboxes when none is usable
+tuner: Refresh status bar icons and apply theme tint
+wm: ActivityTaskSupervisor: don't start a detached activity in realStart
