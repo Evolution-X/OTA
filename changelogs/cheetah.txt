@@ -1,0 +1,17 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+
+Known Bugs:
+==============================
+- None as of now
+
+Device changes:
+==============================
+- Update to Evolution X 12.4
+
+Notable ROM changes:
+==============================
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs
