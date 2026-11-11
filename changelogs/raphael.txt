@@ -1,4 +1,4 @@
-This is Android 17 QPR0 with October 2026 security patches
+This is Android 17 QPR0 with November 2026 security patches
 
 CAUTION!!! DIRTY FLASH FROM ANDROID 16
 MAKE A BACKUP NOW IF YOU WANT TO MOVE TO THIS BUILD
@@ -11,52 +11,12 @@ Notes:
 
 Device changes:
 ==============================
-A17 userspace fixes
-Add high-speed video profiles for camera 0 and bump maxHFRMode to 240
-Drop UFFD flag and fastbootd package
-Match the framework's HFR batches to CamX
-Pad ArcSoft's large allocations for Portrait capture
-Remap camera ids to the Xiaomi role ids
-Route libmpbase's allocations through libmpbase_shim
-Switch to fully fixed Leica camera
-Use KawaseDarkmoon blur algorithm
-add blob fixup for sscrpcd ADSP_LIBRARY_PATH
-audio: Drop the direct VoIP output
-audio: Drop the voip_rx output from audio_io_policy.conf
-carrierconfig: Add Airtel India with VoLTE and Wi-Fi calling on
-carrierconfig: Turn Wi-Fi calling on by default for Jio
-overlay: Hide the venus codec nodes from DeviceAsWebcam
-parts: Add display saturation control and QS tile
-parts: add Bypass charging
-parts: add DC dimming QS tile
-parts: Add per-app thermal profiles
-parts: add shared Material 3 Expressive UI layer
-parts: Introduce per-app aux camera access controls
-parts: move every screen to the shared Expressive UI
-rootdir: Set the Bluetooth MAC address from nv_mac
-sepolicy: Fix stale dc_enable label in file_contexts
-set ADSP_LIBRARY_PATH for vendor.sensors (sscrpcd)
-set natural as a default color mode (WIP)
-vendor.prop: Disable the PCM VoIP voice path
+Don't build prebuilt gallery
 
 Notable ROM changes:
 ==============================
-Evolver: Add Triple tap to launch freeform
-Evolver: Implement 3D Spatial Effect for Depth Wallpaper
-Evolver: Introduce Dynamic Island
-Evolver: Introduce Music ticker
-InputConsumer: Add empty check before erasing mBatches
-InputConsumer: Check consume time before sending finished signal
-InputConsumer: Store it early and return OK status when failed
-SystemUI: Remove dead code for data roaming and 4G icon
-WallpaperPicker2: Fix Google dynamic wallpaper previews
-WallpaperPicker2: Implement Pixel wallpaper integration
-WallpaperPicker2: Support downloadable Pixel live wallpapers
-WallpaperPicker2: Use config_clockFontFamily for lockscreen preview
-camera: common: Optionally advertise a 60 fps high speed preview
-camera: device@3.2-impl: Allow returning HFR video buffers per frame
-core: trickystore: Fix certificate post-processing warning
-libgui: Allow Num Buffer slots to be increased
-nativewindow: Recognize Qualcomm vendor YUV formats in formatIsYuv
-sdk: ConnectionSettings: Set attribution tag for BluetoothAdapter
-tuner: Refresh status bar icons and apply theme tint
+Improve keybox and PIF
+Introduce ColorOS and Nothing QS panel styles
+Introduce Dynamic Island and ColorOS style
+Merge November 2026 security patches
+
