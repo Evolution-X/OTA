@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "hiroshi. (Superuser)",
+      "currently_maintained": true,
+      "oem": "nubia",
+      "device": "Z60 Ultra",
+      "filename": "EvolutionX-17.0-20261111-cerro-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/cerro/17/EvolutionX-17.0-20261111-cerro-12.4-Official.zip/download",
+      "timestamp": 1794364943,
+      "md5": "b3ac1f0cc9cc5a69325695de0a8f73a1",
+      "sha256": "e9756a6b670dadf277b8728f5d741cac65ec1544b19c6b180b20e8a14790d8e6",
+      "size": 4264211813,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://paypal.me/zerotohiro",
+      "github": "joshuah345",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": [
+        "super_empty"
+      ]
+    }
+  ]
+}
