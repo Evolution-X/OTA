@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 7",
+      "filename": "EvolutionX-17.0-20261110-panther-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/panther/17/EvolutionX-17.0-20261110-panther-12.4-Official.zip/download",
+      "timestamp": 1794320746,
+      "md5": "d3b67b7bc263822f21119c3fb020de1d",
+      "sha256": "f689b78b273f3ad7aacb4172abd7a7d41f36a31a434dda78e13e4e9172c47057",
+      "size": 3476719737,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
