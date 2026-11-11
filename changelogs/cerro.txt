@@ -1,0 +1,21 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Known Bugs:
+==============================
+- Bypass charging and charging control in battery settings control the same thing internally, only use one at a time!
+- NubiaParts may show bypass charging as enabled when it isn't, you will always have a notifcation if it's actually enabled.
+
+Device changes:
+==============================
+- Initial Official build
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs
