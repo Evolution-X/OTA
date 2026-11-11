@@ -5,19 +5,22 @@
       "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "Redmi Note 11",
-      "filename": "EvolutionX-15.0-20260916-spes-10.20-Vanilla-Official.zip",
-      "download": "https://cdn.evolution-x.org/spes/15_vanilla/EvolutionX-15.0-20260916-spes-10.20-Vanilla-Official.zip/download",
-      "timestamp": 1789572744,
-      "md5": "5639957febeed6c3f640d435a82c1f07",
-      "sha256": "350ede124085d7c43e3a0f74789bdefccdab49a02ecf44f324c16631d4802c5b",
-      "size": 1586427925,
-      "version": "10.20",
+      "filename": "EvolutionX-15.0-20261110-spes-10.22-Vanilla-Official.zip",
+      "download": "https://cdn.evolution-x.org/spes/15_vanilla/EvolutionX-15.0-20261110-spes-10.22-Vanilla-Official.zip/download",
+      "timestamp": 1794285833,
+      "md5": "08966507263ac493cc58e4c4d1a00301",
+      "sha256": "e29495d168b90a57a3d7f86e5805aa626d428af2121c04be9c46a2cf101fa18e",
+      "size": 1582936008,
+      "version": "10.22",
       "buildtype": "user",
       "forum": "https://xdaforums.com/t/evolutionx-official-yogratbuilds-spes-spesn.4756101/",
       "firmware": "",
       "paypal": "",
-      "github": "yograts-playground",
-      "initial_installation_images": [],
+      "github": "yograt",
+      "initial_installation_images": [
+        "boot",
+        "vendor_boot"
+      ],
       "extra_images": []
     }
   ]
