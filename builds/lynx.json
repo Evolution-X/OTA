@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel 7a",
+      "filename": "EvolutionX-17.0-20261110-lynx-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/lynx/17/EvolutionX-17.0-20261110-lynx-12.4-Official.zip/download",
+      "timestamp": 1794343771,
+      "md5": "50a035ee82a09317d6ba33f4ddb7642e",
+      "sha256": "b9552b2df809510208abd9d101a21106e31c1cf51524e9253bdd5f50d5f8df3c",
+      "size": 3465047766,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
