@@ -1,0 +1,31 @@
+{
+  "response": [
+    {
+      "maintainer": "nhansp",
+      "currently_maintained": true,
+      "oem": "Google",
+      "device": "Pixel Fold",
+      "filename": "EvolutionX-17.0-20261110-felix-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/felix/17/EvolutionX-17.0-20261110-felix-12.4-Official.zip/download",
+      "timestamp": 1794351216,
+      "md5": "7bfa61baa4a5eddf45103ade18517eac",
+      "sha256": "f9d3a3e324f572123400598c1d5b112b4bb0dca721abba6cb66e549ede29a535",
+      "size": 3330698112,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "",
+      "github": "nhansp",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ],
+      "extra_images": [
+        "init_boot"
+      ]
+    }
+  ]
+}
