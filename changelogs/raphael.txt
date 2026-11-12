@@ -11,12 +11,36 @@ Notes:
 
 Device changes:
 ==============================
-Don't build prebuilt gallery
+Fix issue with modules needing soft reboot
+Include upstream kernel fixes/improvements
+Update KSU-Next to latest v3.4.0-legacy
 
 Notable ROM changes:
 ==============================
+CameraProviderManager: Propagate HAL failures in torch strength control path
+Evolver: Emoji: Move the app reset to the picker's button row
+Evolver: Emoji: Use the framework emoji API and restart SystemUI
+Evolver: themes: Add dialog and toast blur toggle
+GamePropsSpoof: Fix static final Build field writes
 Improve keybox and PIF
-Introduce ColorOS and Nothing QS panel styles
-Introduce Dynamic Island and ColorOS style
-Merge November 2026 security patches
-
+Introduce Nothing QS panel styles
+Introduce Dynamic Island ColorOS style
+Settings: Add missing adaptive connectivity icon
+Settings: Add permissions to update emoji/fonts
+Settings: AppDataUsage: Fix NPE when package name is null
+SystemUI: Add haptic feedback to the auto brightness button
+SystemUI: Add more blur support in system
+SystemUI: DynamicBar: Fix notification re-add and signature map races
+SystemUI: NetworkTraffic: Fix sampling bugs and share one monitor
+SystemUI: Option to keep the screen awake while screen recording
+SystemUI: Preserve clock typography when showing seconds
+SystemUI: QS: ColorOS: Fill free QQS columns with the last icon tile
+SystemUI: Show a front-camera bubble during fullscreen screen recording
+SystemUI: Use 6 NothingOS QS columns on large portrait screens
+base: Add priv-app permissions allowing Settings update emoji/fonts
+core: AxDialogBlurController: Add toggle for dialog and toast blur
+fonts: Add user-supplied system emoji font
+fonts: Harden user-supplied emoji font handling
+gms: sysconfig: google: allow PCS to bind back to ASI
+renderengine: Keep a circle's rim flare still as its bounds round
+renderengine: Refract what lies beyond a glass slab rim
