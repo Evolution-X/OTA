@@ -5,22 +5,22 @@
       "currently_maintained": true,
       "oem": "Xiaomi",
       "device": "12 Lite",
-      "filename": "EvolutionX-16.0-20261110-taoyao-11.12-Official.zip",
-      "download": "https://cdn.evolution-x.org/taoyao/16/EvolutionX-16.0-20261110-taoyao-11.12-Official.zip/download",
-      "timestamp": 1794306609,
-      "md5": "050496d11e1a4721904104695981fff7",
-      "sha256": "75fec748d095b505826295c33d12bf7b93dbdd4172fda116b8cc8f873a782383",
-      "size": 3567217230,
-      "version": "11.12",
+      "filename": "EvolutionX-17.0-20261112-taoyao-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/taoyao/17/EvolutionX-17.0-20261112-taoyao-12.4-Official.zip/download",
+      "timestamp": 1794441424,
+      "md5": "2bb2b36708d47f24b903f231f72a420a",
+      "sha256": "b6f7db89b6267799534de65f4b6cecfb61410ecaea67d341124d5869c2200d5b",
+      "size": 3629427987,
+      "version": "12.4",
       "buildtype": "user",
       "forum": "https://xdaforums.com/f/xiaomi-12-lite.13012/",
       "firmware": "https://xmfirmwareupdater.com/hyperos/taoyao/stable/OS1.0.39.0.ULIEUXM/",
       "paypal": "paypal.me/ammarbahtiarasli",
       "github": "ammarbahtiarasli",
       "initial_installation_images": [
-        "boot",
-        "dtbo",
-        "vendor_boot"
+        "boot.img",
+        "vendor_boot.img",
+        "dtbo.img"
       ],
       "extra_images": []
     }
