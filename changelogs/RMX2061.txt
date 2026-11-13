@@ -1,0 +1,27 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Known Bugs:
+==============================
+
+Device changes:
+==============================
+- Update to Evolution X 12.4
+- Added built-in Dolby Atmos with the updated software DAP engine and 64-bit audio HAL.
+- Updated the Astra kernel with MGLRU memory management.
+- Added ZRAM recompression support with LZ4 as the primary compressor and optional ZSTD recompression.
+- Backported Binder fixes for memory handling, locking, and stability.
+- Enabled task-group uclamp and tuned foreground/UI scheduling.
+- Added CPU ADPF support and refined interaction-boost handling.
+- Added manual KProfiles controls in Realme Parts.
+- Fixed DMA-buffer and GPU memory accounting.
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs
