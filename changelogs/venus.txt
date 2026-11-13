@@ -1,4 +1,4 @@
-This is Android 17 QPR0 with October 2026 security patches
+This is Android 17 QPR0 with November 2026 security patches
 
 Notes:
 ==============================
@@ -9,83 +9,55 @@ Notes:
 
 Device changes:
 ==============================
-Update kernel from latest Lineage-24.0 upstream
-kernel: techpack: ASoC: msm-lsm-client: Fix LSM session leak in msm_lsm_close()
+Bind mount the device audio HAL over audio.primary.lahaina
+Replace citsensorservice with sensor-notifier
+kernel: fuse: reject readahead before locking pages when the daemon has no nodeid
+update KernelSU-Next legacy to e5f5ec99
 
 Notable ROM changes:
 ==============================
-BatteryService: Cache OEM fast charger config strings
-Evolver: Add face unlock animation toggle
-Evolver: Add master switch to hide screen capture status from apps
-Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
-Evolver: lockscreen: add Now Playing saved songs list with album art
-Evolver: lockscreen: Add option to show the status bar above media art
-Evolver: lockscreen: Replace custom Now Playing with system switches
-PhoneWindowManager: pick the same torch camera id as SystemUI
-PhoneWindowManager: turn torch on at the saved strength on long press power
-PixelConfigOverlay2021: Don't disable the volume hush gesture
-Settings: Add cellular security network internet icon
-Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
-Settings: AppLock: use Expressive dialogs, text fields and focus ring
-Settings: Fix NFC payment settings activity
-Settings: Fix resource not found issue in notification settings
-Settings: firmwareversion: convert Evolution X entries to Catalyst
-Settings: firmwareversion: give the About phone logo a holographic look
-Settings: gestures: Restart current IME on IME space toggle
-Settings: gestures: raise IME nav bar space overlay priority
-Settings: network: scan: share pending legacy network query
-Settings: redesign model page with Material 3 Expressive
-SettingsGoogle: Clean up decompiled locale picker
-SettingsGoogle: Drop commented-out touch category
-SettingsGoogle: Fix locale picker header color
-SettingsGoogle: Index Google search providers
-SettingsGoogle: Match stock battery saver screens
-SettingsGoogle: Match stock experiment proxies
-SettingsGoogle: Match stock R class choices
-SettingsGoogle: Match stock simple mode
-SettingsGoogle: Match stock software update screen
-SystemFonts: Drop the redundant stock emoji check
-SystemFonts: Fall back to stock emoji for unknown styles
-SystemUI: DynamicBar: Complete redesign with blur surfaces
-SystemUI: DynamicBar: Track the primary media session correctly
-SystemUI: DynamicBar: Update blur background implementation
-SystemUI: DynamicBar: Use system theme for media output dialog
-SystemUI: Fix lockscreen album art vanishing while swiping up
-SystemUI: Fix unreadable clock text on light clock chip styles
-SystemUI: Make per-app volume panel surfaces blur-aware
-SystemUI: Make the Wi-Fi standard icon event driven
-SystemUI: Remove custom Now Playing
-SystemUI: Require unlocking to use Wi-Fi and Mobile Data QS tiles
-SystemUI: Stop inverting back arrow on left edge
-SystemUI: Stop polling lockscreen info widgets in the background
-SystemUI: keyguard: lay out ambient card and chip in scene lockscreen
-SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
-SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
-SystemUIGoogle: ambientmusic: Add lyrics mode
-SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
-SystemUIGoogle: ambientmusic: load remote album art
-SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
-SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
-SystemUIGoogle: smartspace: port fixes for decompile regressions
-UpdatableFontDir: Allow older emoji fonts when custom fonts are enabled
-Utils: Add toggleOverlay variant that raises overlay priority
-base: ApplicationPackageManager: don't hide Pixel features from Photos on Tensor devices
-base: Typeface: Let the Material 3 Expressive fonts follow the selected font
-base: Typeface: don't remap variable-* on the default font
-base: fonts: FontController - stop skipping the selected font
-base: fonts: fix null application NPE and TextView typeface reset
-bionic: ifaddrs: don't require inet sockets for name/flag resolution
-bootanimation: Select the style by name instead of index
-bootanimation: add prism and prism_dynamic, ship default as prebuilt
-core: pif: Fix writes to static final Build fields
-core: pif: Log early config fetch failure once without a stack
-custom_rom_hide: Do not spoof /data/local/tmp
-custom_rom_hide: Hide ROM-named RRO overlays from apps
-custom_rom_hide: Only hide ROM-named overlays from listings
-dumpstate: Always include full dmesg in bugreports
-extras: Add new fonts
-extras: Update BCR to Version v3.11
-fix integer overflow in ZipFileRO.cpp
-overlay: dps: update device config overrides
-release: Enable android.os flags
-sepolicy: label the boot animation name property
+AppDataBackup: add call log, message, and Wi-Fi backups with Swift imports
+AppDataBackup: Fix Swift imports and support large backups
+CameraProviderManager: Propagate HAL failures in torch strength control path
+CompositionEngine: Report expensive rendering only for blur
+Evolver: Add advanced edge lighting designs
+Evolver: Emoji: Move the app reset to the picker's button row
+Evolver: Emoji: Use the framework emoji API and restart SystemUI
+Evolver: Extend edge lighting to unlocked device
+Evolver: themes: Add dialog and toast blur toggle
+GamePropsSpoof: Fix static final Build field writes
+Improve keybox and PIF
+Introduce Nothing QS panel styles
+Introduce Dynamic Island ColorOS style
+Merge November 20026 security patches
+PhoneWindowManager: Fix deadlock when toggling three fingers swipe
+Settings: Add a lock screen display timeout
+Settings: Add missing adaptive connectivity icon
+Settings: Add permissions to update emoji/fonts
+Settings: AppDataUsage: Fix NPE when package name is null
+SystemUI: Add haptic feedback to the auto brightness button
+SystemUI: Add more blur support in system
+SystemUI: ColorOS island: Apply the island height scale
+SystemUI: DynamicBar: Fix focus steal and keyboard races in reply
+SystemUI: DynamicBar: Fix notification re-add and signature map races
+SystemUI: NetworkTraffic: Fix sampling bugs and share one monitor
+SystemUI: NetworkTraffic: refresh paint density on configuration change
+SystemUI: Option to keep the screen awake while screen recording
+SystemUI: Preserve clock typography when showing seconds
+SystemUI: QS: ColorOS: Fill free QQS columns with the last icon tile
+SystemUI: Show a front-camera bubble during fullscreen screen recording
+SystemUI: Use 6 NothingOS QS columns on large portrait screens
+SystemUI: WallpaperDepthUtils: sync lifecycle and loading fixes from Lunaris
+audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+base: Add Swift Backup import and export support
+base: Add priv-app permissions allowing Settings update emoji/fonts
+core: AxDialogBlurController: Add toggle for dialog and toast blur
+core: res: Pin private material colors to Pixel resource IDs
+fonts: Add user-supplied system emoji font
+fonts: Harden user-supplied emoji font handling
+gms: sysconfig: google: allow PCS to bind back to ASI
+installd: report incomplete app backup and restore failures
+installd: support large app backup and restore payloads
+renderengine: Keep a circle's rim flare still as its bounds round
+renderengine: Refract what lies beyond a glass slab rim
+renderengine: Reuse the blur composition surface across frames
