@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Priyanshu Jangid",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Poco X5 Pro / Redmi Note 12 Pro Speed",
+      "filename": "EvolutionX-17.0-20261116-redwood-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/redwood/17/EvolutionX-17.0-20261116-redwood-12.4-Official.zip/download",
+      "timestamp": 1794833991,
+      "md5": "047db379460c3869e39b268b0a011e24",
+      "sha256": "baa58d3114a8d3115917f313f1fc5772ded776c901f1e4b338ddc8e0961f54ec",
+      "size": 3261871728,
+      "version": "12.4",
+      "buildtype": "user",
+      "forum": "https://discord.com/channels/670512508871639041/1210222493403709453",
+      "firmware": "https://xmfirmwareupdater.com/firmware/redwood/",
+      "paypal": "https://paypal.me/thepriyanshujangid",
+      "github": "thepriyanshujangid",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
