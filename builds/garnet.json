@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Omar Mohamed (Coptan)",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Redmi Note 13 Pro 5G / Poco X6 5G",
+      "filename": "EvolutionX-17.0-20261117-garnet-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/garnet/17/EvolutionX-17.0-20261117-garnet-12.4-Official.zip/download",
+      "timestamp": 1794874647,
+      "md5": "042343d451bf3b3a7916f38cd383f982",
+      "sha256": "4ffeea92cf430f4b995a968970ee9c5a8c97a7c605212b1610deb5640cd6b234",
+      "size": 3489914887,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-17-0-garnet-official-evolution-x-11-17-26.4809094/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/garnet/stable/OS3.0.304.0.WNRMIXM/",
+      "paypal": "https://paypal.me/OmarCoptan",
+      "github": "c0pt4n",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
