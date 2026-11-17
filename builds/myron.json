@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "NullCode1337",
+      "currently_maintained": true,
+      "oem": "REDMI",
+      "device": "K90 Pro Max / POCO F8 Ultra",
+      "filename": "EvolutionX-17.0-20261116-myron-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/myron/17/EvolutionX-17.0-20261116-myron-12.4-Official.zip/download",
+      "timestamp": 1794850485,
+      "md5": "10e84afe79a65b923f7f22e7f2884284",
+      "sha256": "4946f03f721dc9827d108eea33c06ecf25609a82b4e57680f22b4f5a37e90a27",
+      "size": 6014996882,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-official-17-myron-evolutionx-12-4-for-redmi-k90-pro-max-poco-f8-ultra.4798512/",
+      "firmware": "OS3.0.303",
+      "paypal": "https://donate.null.sarl/",
+      "github": "NullCode1337",
+      "initial_installation_images": [
+        "recovery.img"
+      ],
+      "extra_images": []
+    }
+  ]
+}
