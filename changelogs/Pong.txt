@@ -1,0 +1,24 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+
+
+Device changes:
+==============================
+- Update to Evolution X 12.4
+- Improve fingerprint reliability
+- Glyph: Implement rule-based essential notifications
+- Glyph: Allow setting animations on a per notification channel
+- Glyph: Cache applications for quicker launching
+(App list will be incomplete on first boot!, restart once or force stop the app!)
+- Glyph: Fix initial state of animation when option is disabled
+- Glyph: Preview brightness on change
+- Implement Duck RKP HAL
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs

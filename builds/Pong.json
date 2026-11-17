@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "hiroshi. (Superuser)",
+      "currently_maintained": true,
+      "oem": "Nothing",
+      "device": "Phone (2)",
+      "filename": "EvolutionX-17.0-20261117-Pong-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/Pong/17/EvolutionX-17.0-20261117-Pong-12.4-Official.zip/download",
+      "timestamp": 1794894104,
+      "md5": "09fd6490374f132e18da85b02c9f5ac6",
+      "sha256": "5bcb8b58b23105b2b9989af4d538e1c6ed2d76f6d4c493608b874cafae0e54b5",
+      "size": 3776735753,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://paypal.me/zerotohiro",
+      "github": "joshuah345",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": []
+    }
+  ]
+}
