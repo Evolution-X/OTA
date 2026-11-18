@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Yogratdesuyo",
+      "currently_maintained": true,
+      "oem": "Xiaomi",
+      "device": "Reemi Note 11",
+      "filename": "EvolutionX-17.0-20261117-spes-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/spes/17/EvolutionX-17.0-20261117-spes-12.4-Official.zip/download",
+      "timestamp": 1794925983,
+      "md5": "02578b8cacdbe6063fa18edd2cf16792",
+      "sha256": "9738def090e0ec1ea573c6465f33b205af9f8d5b417f16fe068e8a32e5108359",
+      "size": 2879132702,
+      "version": "12.4",
+      "buildtype": "user",
+      "forum": "https://xdaforums.com/t/evolutionx-official-yogratbuilds-spes-spesn.4756101/",
+      "firmware": "",
+      "paypal": "",
+      "github": "Yograt",
+      "initial_installation_images": [
+        "boot",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}

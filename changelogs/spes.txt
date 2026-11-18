@@ -1,0 +1,27 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 12.1 or lower
+
+Known Bugs:
+==============================
+- Always On Display issue, reboot to fix if triggered. 
+
+Device changes:
+==============================
+- Update to Evolution X 12.4
+- Angelo based device sources
+- Using YogratBuilds brand new Glossy kernel
+- Optimized for day to day use
+- Blur enabled
+- Fix some graphical issues
+- Upgrade to Android 17
+- Deep Sleep fixed
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs
