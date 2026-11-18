@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "hiroshi. (Superuser)",
+      "currently_maintained": true,
+      "oem": "Nothing",
+      "device": "Phone (3a) / (3a) Pro",
+      "filename": "EvolutionX-17.0-20261118-Asteroids-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/Asteroids/17/EvolutionX-17.0-20261118-Asteroids-12.4-Official.zip/download",
+      "timestamp": 1795002489,
+      "md5": "9a64e9f94b67b06ab20ab27959a0ef1f",
+      "sha256": "a37ef6889b9a96015fd031f9f4afc2ee4dce7b42b6e26dc883c61bb2057a4d38",
+      "size": 3552817070,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://paypal.me/zerotohiro",
+      "github": "joshuah345",
+      "initial_installation_images": [
+        "recovery"
+      ],
+      "extra_images": [
+        "super_empty"
+      ]
+    }
+  ]
+}
