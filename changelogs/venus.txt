@@ -9,55 +9,198 @@ Notes:
 
 Device changes:
 ==============================
-Bind mount the device audio HAL over audio.primary.lahaina
-Replace citsensorservice with sensor-notifier
-kernel: fuse: reject readahead before locking pages when the daemon has no nodeid
-update KernelSU-Next legacy to e5f5ec99
+None
 
 Notable ROM changes:
 ==============================
-AppDataBackup: add call log, message, and Wi-Fi backups with Swift imports
+Add QS Header Clock styles
 AppDataBackup: Fix Swift imports and support large backups
-CameraProviderManager: Propagate HAL failures in torch strength control path
+AppDataBackup: add call log, message, and Wi-Fi backups with Swift imports
+CompositionEngine: Drop stale render of flattened single-layer sets
 CompositionEngine: Report expensive rendering only for blur
+Conditionally default to max resolution on first boot
+Evolver: Add a Liquid Glass settings screen
+Evolver: Add a one-hour timed mode to Tensor spoofing
 Evolver: Add advanced edge lighting designs
-Evolver: Emoji: Move the app reset to the picker's button row
-Evolver: Emoji: Use the framework emoji API and restart SystemUI
+Evolver: Add apply feedback to custom clock style screens
+Evolver: Add click sound and ripple for compose switches in spoofing UI
+Evolver: Add custom gradient angle customization
+Evolver: Add option to hide lockscreen lock icon
+Evolver: Add qs header interactive preview with zoom and position controls
+Evolver: Add support custom color for clock chip
+Evolver: Add the Liquid Glass tab bars
+Evolver: Apply lock clock font without restarting SystemUI
+Evolver: Clock: Add dynamic size switch for custom clock styles
+Evolver: Clock: Apply custom clock style without restarting SystemUI
+Evolver: Disable smartspace toggle while a custom clock style is enabled
+Evolver: DynamicIsland: Default the ColorOS style switch to on
+Evolver: EmojiStyle: Restore app emoji and serialize operations
 Evolver: Extend edge lighting to unlocked device
-Evolver: themes: Add dialog and toast blur toggle
-GamePropsSpoof: Fix static final Build field writes
-Improve keybox and PIF
-Introduce Nothing QS panel styles
-Introduce Dynamic Island ColorOS style
-Merge November 20026 security patches
+Evolver: Fix 24-hour formats of custom clock styles
+Evolver: Fix clock chip gradient angle summary
+Evolver: Fix custom gradient preview in clock chip picker
+Evolver: Group screen capture settings and clarify secure capture
+Evolver: Keep clock picker Apply button on screen
+Evolver: Lay out browsed clock previews like the main preview
+Evolver: QuickSettings: Bring back QS header clock styles
+Evolver: Sync clock preview with clock applied from browser
+Evolver: Toggle smartspace and lockscreen weather without restarting SystemUI
+Evolver: extend CutoutProgress ring gap range below cutout bounds
+Evolver: relocate double tap to sleep into Miscellaneous gestures
+Float Compose bottom bars as glass over the page
+Frost glass tab bars as heavily as the App Store's
+Give Compose bottom bars the glass capsule too
+Give apps' bottom bars iOS Liquid Glass
+Give glass tab bars iOS liquid motion
+OmniJaws: Add air quality index
+OmniJaws: Make reverse geocoding more reliable
+OmniJaws: Show snow near freezing and use API dates for Open-Meteo
+OmniJaws: Show sub-locality when available
+OmniJaws: Use XML extendedFindNearby for reverse geocoding
+OmniJawsClient: Add air quality index
 PhoneWindowManager: Fix deadlock when toggling three fingers swipe
+PowerAdvisor: Hold expensive rendering between nearby composites
+QS Clocks: Update OOS clock style
+QS: show Caffeine remaining time by adding it to default large tiles
+RegionSamplingThread: Skip sampling unchanged content
+Remove access point callback from AxPlatformObservers
 Settings: Add a lock screen display timeout
-Settings: Add missing adaptive connectivity icon
-Settings: Add permissions to update emoji/fonts
-Settings: AppDataUsage: Fix NPE when package name is null
-SystemUI: Add haptic feedback to the auto brightness button
-SystemUI: Add more blur support in system
+Settings: Use GTA VI sunset gradient for the Evolution X logo
+Settings: reset_network: Lift reset button to the top and enable scrolling
+SystemUI: Add a dual tone shade option for Liquid Glass
+SystemUI: Add a lock screen display timeout [1/2]
+SystemUI: Add advanced edge lighting designs [1/2]
+SystemUI: Add option to hide lockscreen lock icon [1/2]
+SystemUI: Add qs header interactive preview [1/2]
+SystemUI: Align gradient color for clock with other elements
+SystemUI: Allow secure content capture when hiding screen capture status
+SystemUI: Apply custom clock style toggle without restart
+SystemUI: Clear stale Smartspace anchor for the small clock
+SystemUI: Clip the header glass to what the notification scrim leaves
+SystemUI: ClockStyle: Fix content bounds of scrolling text
+SystemUI: ClockStyle: Measure scrolling text where it is drawn
+SystemUI: ClockStyle: Reinflate the clock on configuration change
 SystemUI: ColorOS island: Apply the island height scale
+SystemUI: CutoutProgress: Stop the charging pulse redrawing every frame
+SystemUI: Draw the QS edit button white on ColorOS glass
+SystemUI: Draw the notification shade with Liquid Glass
+SystemUI: Draw the shade overlay volume slider with Liquid Glass
+SystemUI: Drop notification blur for shelved and hidden rows
+SystemUI: Drop notification blur regions when the stack is hidden
+SystemUI: Drop notification blur regions while the stack is hidden
 SystemUI: DynamicBar: Fix focus steal and keyboard races in reply
-SystemUI: DynamicBar: Fix notification re-add and signature map races
-SystemUI: NetworkTraffic: Fix sampling bugs and share one monitor
+SystemUI: DynamicBar: Hide notification icons while the chip shows
+SystemUI: DynamicBar: Open the app's screen when an expanded card is tapped
+SystemUI: DynamicBar: Skip silent notifications
+SystemUI: DynamicIsland: Default to the ColorOS style
+SystemUI: DynamicIsland: Draw the island glass with Liquid Glass
+SystemUI: DynamicIsland: Open popups below the camera cutout
+SystemUI: DynamicIsland: Open the call card when a call first shows
+SystemUI: DynamicIsland: Taller pill for calls and tinted media pill
+SystemUI: Exclude QS contacts from lockscreen sleep gestures
+SystemUI: Extend edge lighting to unlocked device [1/2]
+SystemUI: Fade the QQS tile glass with its tile
+SystemUI: Fade the notification stack with the bouncer blur on Liquid Glass
+SystemUI: Fit compact QS tiles to dense grids
+SystemUI: Fix 24-hour formats of custom clock styles
+SystemUI: Fix and refine custom gradient clock chip
+SystemUI: Fix and refine custom gradient clock chip  
+SystemUI: Fix blur surface settling before shade expansion
+SystemUI: Fix blurred background in activatable notification view
+SystemUI: Fix custom clock visibility during AOD animation
+SystemUI: Fix depth wallpaper covering lockscreen status bar
+SystemUI: Fix inactive icon color on Nothing style circle tiles
+SystemUI: Fix lingering blur after closing the locked shade
+SystemUI: Fix missing weather icons in custom lockscreen clocks
+SystemUI: Fix notifications flickering over bouncer
+SystemUI: Fix statusbar brightness control gesture conflicts
+SystemUI: Give the ColorOS Liquid Glass style frosted notification cards
+SystemUI: GlobalActions: Honor the dialog blur toggle
+SystemUI: Handle storage locked state for header image
+SystemUI: Header Clocks Fix for light theme
+SystemUI: Ignore shade touches in home double-tap sleep
+SystemUI: Improve OOS clock design
+SystemUI: Keep the Liquid Glass bouncer readable in the light theme
+SystemUI: Keep the PIN pad glass off until the bouncer content shows
+SystemUI: Keep the UDFPS overlay above the framework dim layer
+SystemUI: Keep the UDFPS overlay above the framework dim layer  
+SystemUI: Keep the lock screen pill icons white on Liquid Glass
+SystemUI: Keep unavailable ColorOS tiles readable, drop island popup shadow
+SystemUI: Let Liquid Glass follow its switch under the ColorOS panel
+SystemUI: Liquid Glass PIN keys with the Quick Settings press
+SystemUI: Make Liquid Glass notifications read like iOS
+SystemUI: NetworkTraffic: Avoid requestLayout() during layout
+SystemUI: NetworkTraffic: Drop the dead synthetic bold fallback
 SystemUI: NetworkTraffic: refresh paint density on configuration change
-SystemUI: Option to keep the screen awake while screen recording
-SystemUI: Preserve clock typography when showing seconds
-SystemUI: QS: ColorOS: Fill free QQS columns with the last icon tile
-SystemUI: Show a front-camera bubble during fullscreen screen recording
-SystemUI: Use 6 NothingOS QS columns on large portrait screens
+SystemUI: NotificationBackgroundView: Drop a stale COS material so shade cards keep their fill
+SystemUI: QS: ColorOS: Add long press actions to the header buttons
+SystemUI: QS: ColorOS: Keep the round tile grid on 4 columns
+SystemUI: Recreate lockscreen clock when its font changes
+SystemUI: Release the glass press when a touch turns into a drag
+SystemUI: Remove redundant fling for status bar brightness control
+SystemUI: Set up notification blur on the UI thread
+SystemUI: Show UDFPS dim layer during more doze states
+SystemUI: Spring pressed notifications under Liquid Glass
+SystemUI: Support dynamic clock size for custom clock styles
+SystemUI: Toggle smartspace and OmniJaws weather without restart
+SystemUI: Tune qs clocks layout
+SystemUI: UdfpsHelper: Keep the peak refresh rate while dimming
+SystemUI: UdfpsHelper: Keep the peak refresh rate while dimming  
+SystemUI: Update long click intent for the locale tile
+SystemUI: Update the shade when the Liquid Glass settings change
+SystemUI: Use a Liquid Glass background on the compact media card
+SystemUI: Use shade display context for clock style and weather sections
+SystemUI: Use theme colors for new privacy chips
 SystemUI: WallpaperDepthUtils: sync lifecycle and loading fixes from Lunaris
-audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+SystemUI: brightness: Draw the auto brightness button with Liquid Glass
+SystemUI: doze: Show the UDFPS icon on quick pickup
+SystemUI: gradient: Add customizable gradient angle
+SystemUI: notification: Add the light ColorOS frost to cards and footer
+SystemUI: notification: Fade the card blur regions with the stack
+SystemUI: notification: Give pinned heads-ups their own glass
+SystemUI: notification: Move heads-ups into the stack as the shade opens
+SystemUI: qs: Add LiquidGlass.isOnShade for the shade surfaces
+SystemUI: qs: Add the Liquid Glass base from PenguinOS
+SystemUI: qs: Add the missing GlassBackdrop
+SystemUI: qs: Draw the stock sliders with Liquid Glass
+SystemUI: qs: Keep the Monet colors on the Liquid Glass sliders
+SystemUI: qs: PreferredNetworkTile: drop 2G and 3G
+SystemUI: qs: Read the Liquid Glass switches from Evolver
+SystemUI: qs: Unfold the ColorOS panel as a cascade
+SystemUI: screenshot: Fix stale UI after partial screenshot
+SystemUI: shade: draw COS glass behind the shade overlays
+SystemUI: tighten CutoutProgress ring default fit to the cutout
+SystemUI: tighten CutoutProgress ring default fit to the cutout   
+ThreeFingersSwipe: Use a gesture monitor instead of per-event IPC
+Update translations
+Updater: Move update_engine perf mode IPC off the main thread
+WindowManager: Hand the Liquid Glass switches to SurfaceFlinger
+WindowManager: Keep the Liquid Glass property off under the ColorOS panel
 base: Add Swift Backup import and export support
-base: Add priv-app permissions allowing Settings update emoji/fonts
-core: AxDialogBlurController: Add toggle for dialog and toast blur
+base: Complete missing Arabic translations
+base: End Tensor spoofing when its timed deadline passes
+core: Exclude selected apps from automatic dialog and toast blur
+core: Exclude selected apps from automatic dialog and toast blur 
 core: res: Pin private material colors to Pixel resource IDs
-fonts: Add user-supplied system emoji font
-fonts: Harden user-supplied emoji font handling
-gms: sysconfig: google: allow PCS to bind back to ASI
-installd: report incomplete app backup and restore failures
-installd: support large app backup and restore payloads
-renderengine: Keep a circle's rim flare still as its bounds round
-renderengine: Refract what lies beyond a glass slab rim
+core: trickystore: Derive attestation version from the spoofed first API level
+custom_rom_hide: Avoid dereferencing caller pathnames in custom ROM hide filters
+custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
+custom_rom_hide: Harden post-syscall pathname spoofing against concurrent unmap
+display: Don't update flicker refresh rate votes while display is off
+extras: BCR: Auto-update to version 3.12
+extras: Drop HideSmartSpace overlay
+extras: Unify nothingdot font overlays
+extras: Update Gramophone to 1.1.2
+extras: sdk: Use system strings for cancel and ok
+extras: sdk: compose: Add AxAlertDialog with shape-aware blur  
+fonts: Only drop emoji caches when restore removed something
+fonts: Restore app emoji fonts when clearing custom emoji
+gms: Bring back AmbientStreaming
+lineage-sdk: Harden LineageHardwareManager against HAL errors
+lineage-sdk: LiveDisplay: Don't let HAL failures crash system_server
+pixel-style: Disable satellite SOS in Setup Wizard
+pixel-style: Give Pixelframework-res a higher priority
+pixel-style: Suffix the clashing Google overlays with GMS
 renderengine: Reuse the blur composition surface across frames
+renderengine: Stop allocating blur textures every frame  
+renderengine: Use a denser frost for Liquid Glass notification cards
