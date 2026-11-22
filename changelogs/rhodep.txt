@@ -1,0 +1,23 @@
+Changes:
+
+• Update to Evolution X 12.4 / Android 17
+• November 2026 Security Patch.
+• Linux Kernel 5.4.302
+
+Common Side:
+
+• Switch filesystem type to EROFS.
+• Build odm partition.
+• Increase dalvik-heap memory limits.
+• Init: rm package cache on early boot.
+• Directly inherit from CAF vibrator makefile.
+• Remove recovery.wipe.
+
+Device Side:
+
+• Build MotCamera4-sm6375 from prebuilt source.
+• Add missing camera libraries.
+• Set screen density to 420.
+• Add proper overlays and properties for rhodep variants.
+• Add more sampling rates to VoIP audio.
+• Drop libgui shim fixup for libmot_chi_desktop_helper.
