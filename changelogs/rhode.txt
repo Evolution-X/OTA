@@ -1,0 +1,30 @@
+Changes:
+
+• Update to Evolution X 12.4 / Android 17
+• November 2026 Security Patch.
+• Linux Kernel 4.19.325-cip136
+• Fix screen sometimes staying black and not turning off properly after locking the device.
+
+Common Side:
+
+• Switch filesystem type to EROFS.
+• Build odm partition.
+• Decommonize super partition size.
+• Decommonize perf configs blobs.
+• Increase dalvik-heap memory limits.
+• Add dalvik props for 3GB RAM devices.
+• Init: rm package cache on early boot.
+• Enable blurs (disabled by default).
+• Directly inherit from CAF vibrator makefile.
+
+Device Side:
+
+• Add EROFS mount points.
+• Add odm partition to fstab.
+• Decommonize super partition size.
+• Decommonize perf configs blobs.
+• Build MotCamera4-bengal from prebuilt source.
+• Add missing camera libraries (aidenoiser, remosaic).
+• Set screen density to 420.
+• Fix build fingerprint.
+• Update recovery modules list.
