@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G9 & G9 Play / Lenovo K12 Note",
+      "filename": "EvolutionX-17.0-20261120-guamp-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/guamp/17/EvolutionX-17.0-20261120-guamp-12.4-Official.zip/download",
+      "timestamp": 1795215889,
+      "md5": "1b468633f046350973a8973716cd265f",
+      "sha256": "908e3355da5bc08b4fef233108810fd2ab7d8d964e92af6d65e71e5dfb3e313b",
+      "size": 2854906548,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g9-g9-play-guamp-20250601.4741428/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta"
+      ],
+      "extra_images": []
+    }
+  ]
+}
