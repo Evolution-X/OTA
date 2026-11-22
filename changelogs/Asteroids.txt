@@ -3,17 +3,18 @@ This is Android 17 with November 2026 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
 
+Known Bugs:
+==============================
+- App lists in glyph interface may be outdated at first boot, either reboot or force stop the app for it to reload
 
 Device changes:
 ==============================
-- Update to Evolution X 12.4
-- Switch to Kernel 6.1
-- Update firmware/vendor Asteroids_C5.0-261023-2146
-- Merge upstream dolby changes
+- Revert broken suspend change in kernel
 
 Notable ROM changes
 ==============================
-Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+Notable rom changes are automatically generated and can be found in the repository below for Android 17
 
 https://github.com/Evolution-X/changelog/tree/cnb/changelogs
