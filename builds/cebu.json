@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G9 Power / Lenovo K12 Pro",
+      "filename": "EvolutionX-17.0-20261121-cebu-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/cebu/17/EvolutionX-17.0-20261121-cebu-12.4-Official.zip/download",
+      "timestamp": 1795222097,
+      "md5": "f00ec992fd72eb1a16f5d7f69b5c2078",
+      "sha256": "6e97dac38d341e5c1179ff633e0c010b6524ede493c0e764fcd8c3821ec225fa",
+      "size": 2867148125,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g9-power-cebu-20250601.4741426/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta"
+      ],
+      "extra_images": []
+    }
+  ]
+}
