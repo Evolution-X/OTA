@@ -1,0 +1,33 @@
+Changes:
+
+• Update to Evolution X 12.4 / Android 17
+• November 2026 Security Patch.
+• Linux Kernel 4.19.325-cip136
+• Fix screen sometimes staying black and not turning off properly after locking the device.
+• Fix Novatek touchscreen module delay.
+
+Common Side:
+
+• Switch filesystem type to EROFS.
+• Build odm partition.
+• Decommonize super partition size.
+• Decommonize perf configs blobs.
+• Increase dalvik-heap memory limits.
+• Add dalvik props for 3GB RAM devices.
+• Init: rm package cache on early boot.
+• Enable blurs (disabled by default).
+• Directly inherit from CAF vibrator makefile.
+
+Device Side:
+
+• Add EROFS mount points.
+• Add odm partition to fstab.
+• Decommonize perf configs blobs.
+• Build MotCamera2 from prebuilt source.
+• Add libaidenoiser for camera.
+• Update camera blobs from guamna_retail RZA31.Q2-146-14-22-2.
+• Update overlay configs from guamp_retail.
+• Move SKU specific properties to product partition.
+• Load missing sensors_class module on init.
+• Update recovery modules list.
+• Drop init.recovery.touch.rc.
