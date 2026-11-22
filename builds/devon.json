@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G32",
+      "filename": "EvolutionX-17.0-20261121-devon-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/devon/17/EvolutionX-17.0-20261121-devon-12.4-Official.zip/download",
+      "timestamp": 1795241649,
+      "md5": "7ee9213b7c5058cf324db880a91ab041",
+      "sha256": "a9dd260e1658478e01562a072424a3d3314a09e9f56bbad817cba3362588a15e",
+      "size": 2822012798,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g32-devon-20250602.4741438/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
