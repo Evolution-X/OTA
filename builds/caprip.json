@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Deivid Ignacio Parra (Deivid21)",
+      "currently_maintained": true,
+      "oem": "Motorola",
+      "device": "Moto G30 / Lenovo K13 Pro",
+      "filename": "EvolutionX-17.0-20261121-caprip-12.4-Official.zip",
+      "download": "https://cdn.evolution-x.org/caprip/17/EvolutionX-17.0-20261121-caprip-12.4-Official.zip/download",
+      "timestamp": 1795235478,
+      "md5": "74311545e38a22ef79fb477f9bfff08c",
+      "sha256": "8f8abc4541c3202e789c82c3805538234ca56c8c8a26bff66c226f7f7ecc206b",
+      "size": 2818763962,
+      "version": "12.4",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-v10-6-for-moto-g30-caprip-20250602.4741437/",
+      "firmware": "",
+      "paypal": "https://www.paypal.me/Deivid21",
+      "github": "Deivid21",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vbmeta",
+        "vbmeta_system",
+        "vendor_boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}
