@@ -1,0 +1,30 @@
+This is Android 17 with November 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Known Bugs:
+==============================
+- LGCamera: 64MP doest work
+- DualSim: VoLTE doesnt work
+
+Device changes:
+==============================
+- Update to Evolution X 12.4
+- Synced Latest Kernel Source from upstream
+- Integrate LG 3D Sound sytemwide
+- LGCamera: Fixed Slow-mo thanks to gluke
+- Set Vulkan as the Default UI Renderer
+- Added Dualsim Support
+- Added VoLTE and VoWifi Support for all countries
+- Fixed Logical Cameras thanks to gluke
+- Migrate to LGE AIDL Fingerprint, Radio and Camera thanks to pnguyen879, rainbowdash and lifehackerhansol
+- Fixed Fingerprint Flashbang thanks to pnguyen879, rainbowdash and lifehackerhansol
+
+Notable ROM changes
+==============================
+Notable rom changes are automatically generated and can be found in the repository below for Android 16 (14, 15, 17 will follow)
+
+https://github.com/Evolution-X/changelog/tree/cnb/changelogs
