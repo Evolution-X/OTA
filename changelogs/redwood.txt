@@ -10,9 +10,7 @@ Known Bugs:
 
 Device changes:
 ==============================
-- Update to Evolution X 12.4
-- Initial android seventeen release
-- Updated kernel to Scarlet v7
+- No changes
 
 Notable ROM changes
 ==============================
