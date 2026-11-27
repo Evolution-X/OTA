@@ -11,214 +11,183 @@ Notes:
 
 Device changes:
 ==============================
-Add f2fs fallback entries for /cache partition
-Build DeviceAsWebcam service
-CarrierConfigOverlay: Enable VoWiFi for 1&1 (26223)
-Clean up IMS overlays and data props
-K20: add monitor-mode frame injection support (Add support for AirDrop)
-Restore IWLAN in assisted mode
-overlay: set HQ mode as default for device webcam
-power: supply: Expose state_of_health on the battery supply
-rootdir: Set ro.boot.hardware.revision property
-soc: qcom: subsystem_restart: Prevent kernel panic caused by modem crash
-sepolicy: Address FP denial spam
-sepolicy: Allow binder call for hal_camera_default
-sepolicy: Allow hal_bluetooth_default to r/w files in vendor_bt_data_file
-sepolicy: Allow system_server to read fastcharge node
-sepolicy: Allow vendor_hal_usb_qti to acess vendor_sysfs_usb_controller
-sepolicy: Do not audit surfaceflinger denials
-sepolicy: fix hal_power_default denial
+None
 
 Notable ROM changes:
 ==============================
-Add QS Header Clock styles
-AppDataBackup: Fix Swift imports and support large backups
-AppDataBackup: add call log, message, and Wi-Fi backups with Swift imports
-CompositionEngine: Drop stale render of flattened single-layer sets
-CompositionEngine: Report expensive rendering only for blur
-Conditionally default to max resolution on first boot
-Evolver: Add a Liquid Glass settings screen
-Evolver: Add a one-hour timed mode to Tensor spoofing
-Evolver: Add advanced edge lighting designs
-Evolver: Add apply feedback to custom clock style screens
-Evolver: Add click sound and ripple for compose switches in spoofing UI
-Evolver: Add custom gradient angle customization
-Evolver: Add option to hide lockscreen lock icon
-Evolver: Add qs header interactive preview with zoom and position controls
-Evolver: Add support custom color for clock chip
-Evolver: Add the Liquid Glass tab bars
-Evolver: Apply lock clock font without restarting SystemUI
-Evolver: Clock: Add dynamic size switch for custom clock styles
-Evolver: Clock: Apply custom clock style without restarting SystemUI
-Evolver: Disable smartspace toggle while a custom clock style is enabled
-Evolver: DynamicIsland: Default the ColorOS style switch to on
-Evolver: EmojiStyle: Restore app emoji and serialize operations
-Evolver: Extend edge lighting to unlocked device
-Evolver: Fix 24-hour formats of custom clock styles
-Evolver: Fix clock chip gradient angle summary
-Evolver: Fix custom gradient preview in clock chip picker
-Evolver: Group screen capture settings and clarify secure capture
-Evolver: Keep clock picker Apply button on screen
-Evolver: Lay out browsed clock previews like the main preview
-Evolver: QuickSettings: Bring back QS header clock styles
-Evolver: Sync clock preview with clock applied from browser
-Evolver: Toggle smartspace and lockscreen weather without restarting SystemUI
-Evolver: extend CutoutProgress ring gap range below cutout bounds
-Evolver: relocate double tap to sleep into Miscellaneous gestures
-Float Compose bottom bars as glass over the page
-Frost glass tab bars as heavily as the App Store's
-Give Compose bottom bars the glass capsule too
-Give apps' bottom bars iOS Liquid Glass
-Give glass tab bars iOS liquid motion
-OmniJaws: Add air quality index
-OmniJaws: Make reverse geocoding more reliable
-OmniJaws: Show snow near freezing and use API dates for Open-Meteo
-OmniJaws: Show sub-locality when available
-OmniJaws: Use XML extendedFindNearby for reverse geocoding
-OmniJawsClient: Add air quality index
-PhoneWindowManager: Fix deadlock when toggling three fingers swipe
-PowerAdvisor: Hold expensive rendering between nearby composites
-QS Clocks: Update OOS clock style
-QS: show Caffeine remaining time by adding it to default large tiles
-RegionSamplingThread: Skip sampling unchanged content
-Remove access point callback from AxPlatformObservers
-Settings: Add a lock screen display timeout
-Settings: Use GTA VI sunset gradient for the Evolution X logo
-Settings: reset_network: Lift reset button to the top and enable scrolling
-SystemUI: Add a dual tone shade option for Liquid Glass
-SystemUI: Add a lock screen display timeout [1/2]
-SystemUI: Add advanced edge lighting designs [1/2]
-SystemUI: Add option to hide lockscreen lock icon [1/2]
-SystemUI: Add qs header interactive preview [1/2]
-SystemUI: Align gradient color for clock with other elements
-SystemUI: Allow secure content capture when hiding screen capture status
-SystemUI: Apply custom clock style toggle without restart
-SystemUI: Clear stale Smartspace anchor for the small clock
-SystemUI: Clip the header glass to what the notification scrim leaves
-SystemUI: ClockStyle: Fix content bounds of scrolling text
-SystemUI: ClockStyle: Measure scrolling text where it is drawn
-SystemUI: ClockStyle: Reinflate the clock on configuration change
-SystemUI: ColorOS island: Apply the island height scale
-SystemUI: CutoutProgress: Stop the charging pulse redrawing every frame
-SystemUI: Draw the QS edit button white on ColorOS glass
-SystemUI: Draw the notification shade with Liquid Glass
-SystemUI: Draw the shade overlay volume slider with Liquid Glass
-SystemUI: Drop notification blur for shelved and hidden rows
-SystemUI: Drop notification blur regions when the stack is hidden
-SystemUI: Drop notification blur regions while the stack is hidden
-SystemUI: DynamicBar: Fix focus steal and keyboard races in reply
-SystemUI: DynamicBar: Hide notification icons while the chip shows
-SystemUI: DynamicBar: Open the app's screen when an expanded card is tapped
-SystemUI: DynamicBar: Skip silent notifications
-SystemUI: DynamicIsland: Default to the ColorOS style
-SystemUI: DynamicIsland: Draw the island glass with Liquid Glass
-SystemUI: DynamicIsland: Open popups below the camera cutout
-SystemUI: DynamicIsland: Open the call card when a call first shows
-SystemUI: DynamicIsland: Taller pill for calls and tinted media pill
-SystemUI: Exclude QS contacts from lockscreen sleep gestures
-SystemUI: Extend edge lighting to unlocked device [1/2]
-SystemUI: Fade the QQS tile glass with its tile
-SystemUI: Fade the notification stack with the bouncer blur on Liquid Glass
-SystemUI: Fit compact QS tiles to dense grids
-SystemUI: Fix 24-hour formats of custom clock styles
-SystemUI: Fix and refine custom gradient clock chip
-SystemUI: Fix and refine custom gradient clock chip  
-SystemUI: Fix blur surface settling before shade expansion
-SystemUI: Fix blurred background in activatable notification view
-SystemUI: Fix custom clock visibility during AOD animation
-SystemUI: Fix depth wallpaper covering lockscreen status bar
-SystemUI: Fix inactive icon color on Nothing style circle tiles
-SystemUI: Fix lingering blur after closing the locked shade
-SystemUI: Fix missing weather icons in custom lockscreen clocks
-SystemUI: Fix notifications flickering over bouncer
-SystemUI: Fix statusbar brightness control gesture conflicts
-SystemUI: Give the ColorOS Liquid Glass style frosted notification cards
-SystemUI: GlobalActions: Honor the dialog blur toggle
-SystemUI: Handle storage locked state for header image
-SystemUI: Header Clocks Fix for light theme
-SystemUI: Ignore shade touches in home double-tap sleep
-SystemUI: Improve OOS clock design
-SystemUI: Keep the Liquid Glass bouncer readable in the light theme
-SystemUI: Keep the PIN pad glass off until the bouncer content shows
-SystemUI: Keep the UDFPS overlay above the framework dim layer
-SystemUI: Keep the UDFPS overlay above the framework dim layer  
-SystemUI: Keep the lock screen pill icons white on Liquid Glass
-SystemUI: Keep unavailable ColorOS tiles readable, drop island popup shadow
-SystemUI: Let Liquid Glass follow its switch under the ColorOS panel
-SystemUI: Liquid Glass PIN keys with the Quick Settings press
-SystemUI: Make Liquid Glass notifications read like iOS
-SystemUI: NetworkTraffic: Avoid requestLayout() during layout
-SystemUI: NetworkTraffic: Drop the dead synthetic bold fallback
-SystemUI: NetworkTraffic: refresh paint density on configuration change
-SystemUI: NotificationBackgroundView: Drop a stale COS material so shade cards keep their fill
-SystemUI: QS: ColorOS: Add long press actions to the header buttons
-SystemUI: QS: ColorOS: Keep the round tile grid on 4 columns
-SystemUI: Recreate lockscreen clock when its font changes
-SystemUI: Release the glass press when a touch turns into a drag
-SystemUI: Remove redundant fling for status bar brightness control
-SystemUI: Set up notification blur on the UI thread
-SystemUI: Show UDFPS dim layer during more doze states
-SystemUI: Spring pressed notifications under Liquid Glass
-SystemUI: Support dynamic clock size for custom clock styles
-SystemUI: Toggle smartspace and OmniJaws weather without restart
-SystemUI: Tune qs clocks layout
-SystemUI: UdfpsHelper: Keep the peak refresh rate while dimming
-SystemUI: UdfpsHelper: Keep the peak refresh rate while dimming  
-SystemUI: Update long click intent for the locale tile
-SystemUI: Update the shade when the Liquid Glass settings change
-SystemUI: Use a Liquid Glass background on the compact media card
-SystemUI: Use shade display context for clock style and weather sections
-SystemUI: Use theme colors for new privacy chips
-SystemUI: WallpaperDepthUtils: sync lifecycle and loading fixes from Lunaris
-SystemUI: brightness: Draw the auto brightness button with Liquid Glass
-SystemUI: doze: Show the UDFPS icon on quick pickup
-SystemUI: gradient: Add customizable gradient angle
-SystemUI: notification: Add the light ColorOS frost to cards and footer
-SystemUI: notification: Fade the card blur regions with the stack
-SystemUI: notification: Give pinned heads-ups their own glass
-SystemUI: notification: Move heads-ups into the stack as the shade opens
-SystemUI: qs: Add LiquidGlass.isOnShade for the shade surfaces
-SystemUI: qs: Add the Liquid Glass base from PenguinOS
-SystemUI: qs: Add the missing GlassBackdrop
-SystemUI: qs: Draw the stock sliders with Liquid Glass
-SystemUI: qs: Keep the Monet colors on the Liquid Glass sliders
-SystemUI: qs: PreferredNetworkTile: drop 2G and 3G
-SystemUI: qs: Read the Liquid Glass switches from Evolver
-SystemUI: qs: Unfold the ColorOS panel as a cascade
-SystemUI: screenshot: Fix stale UI after partial screenshot
-SystemUI: shade: draw COS glass behind the shade overlays
-SystemUI: tighten CutoutProgress ring default fit to the cutout
-SystemUI: tighten CutoutProgress ring default fit to the cutout   
-ThreeFingersSwipe: Use a gesture monitor instead of per-event IPC
-Update translations
-Updater: Move update_engine perf mode IPC off the main thread
-WindowManager: Hand the Liquid Glass switches to SurfaceFlinger
-WindowManager: Keep the Liquid Glass property off under the ColorOS panel
-base: Add Swift Backup import and export support
-base: Complete missing Arabic translations
-base: End Tensor spoofing when its timed deadline passes
-core: Exclude selected apps from automatic dialog and toast blur
-core: Exclude selected apps from automatic dialog and toast blur 
-core: res: Pin private material colors to Pixel resource IDs
-core: trickystore: Derive attestation version from the spoofed first API level
-custom_rom_hide: Avoid dereferencing caller pathnames in custom ROM hide filters
-custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
-custom_rom_hide: Harden post-syscall pathname spoofing against concurrent unmap
-display: Don't update flicker refresh rate votes while display is off
-extras: BCR: Auto-update to version 3.12
-extras: Drop HideSmartSpace overlay
-extras: Unify nothingdot font overlays
-extras: Update Gramophone to 1.1.2
-extras: sdk: Use system strings for cancel and ok
-extras: sdk: compose: Add AxAlertDialog with shape-aware blur  
-fonts: Only drop emoji caches when restore removed something
-fonts: Restore app emoji fonts when clearing custom emoji
-gms: Bring back AmbientStreaming
-lineage-sdk: Harden LineageHardwareManager against HAL errors
-lineage-sdk: LiveDisplay: Don't let HAL failures crash system_server
-pixel-style: Disable satellite SOS in Setup Wizard
-pixel-style: Give Pixelframework-res a higher priority
-pixel-style: Suffix the clashing Google overlays with GMS
-renderengine: Reuse the blur composition surface across frames
-renderengine: Stop allocating blur textures every frame  
-renderengine: Use a denser frost for Liquid Glass notification cards
+Allow signature spoofing for ReVanced GmsCore
+ColumbusService: Drop SystemUISharedLib dependency
+ColumbusService: Let the system play quick tap haptics
+ColumbusService: Use lineage-sdk key actions
+ContextualSearch: Allow in-process callers from system_server
+Evolver: BootAnimation: Download the larger styles from the online catalog
+Evolver: BootAnimation: Pin the preview above the styles
+Evolver: Charging animation: Add a live preview
+Evolver: Charging animation: Convert the page's files to LF
+Evolver: Charging animation: Draw the chips as plain views
+Evolver: Charging animation: Pick the plug-in animation
+Evolver: Charging animation: Pin a style strip and preview the plug-in animations
+Evolver: Charging animation: Preview the effect on a scaled lock screen
+Evolver: ClockStyle: Draw the clock preview phone shell as a plain view
+Evolver: ClockStyle: switch to Lastochka font from astthillabeltaden
+Evolver: DynamicBar: Add morph animation toggle
+Evolver: DynamicBar: Add tap haptics toggle
+Evolver: DynamicBar: Use Settings.Secure setting keys
+Evolver: Extract a keybox on import
+Evolver: Fall back to the expiry when no renewal time is set
+Evolver: Fonts: Add a help footer to the font and emoji pages
+Evolver: Fonts: Add an emoji tab to the font preview page  
+Evolver: Fonts: Add downloadable Google Fonts
+Evolver: Fonts: Allow font files up to 64 MB
+Evolver: Fonts: Download emoji styles instead of bundling them
+Evolver: Fonts: Explain install failures and show apply progress
+Evolver: Fonts: Filter the font grid by look
+Evolver: Fonts: Pick the system font from a page with a live preview
+Evolver: Fonts: Preview fonts straight from the font map
+Evolver: Fonts: Remember a pending emoji restart or reboot
+Evolver: Fonts: Remember a pending reboot after a bundled emoji style
+Evolver: Fonts: Remember a pending restart, replace or remove a custom font
+Evolver: Fonts: Remove a duplicate typefaceOf from EmojiController
+Evolver: Fonts: Remove strings the font and emoji pages no longer use
+Evolver: Fonts: Save Google Fonts styles for offline use
+Evolver: Fonts: Show the stock font on the Default card
+Evolver: Fonts: Shrink the preview on scroll, try your own text
+Evolver: Fonts: Sort the Google Fonts list A to Z
+Evolver: Keep an empty PixelProps target list empty
+Evolver: Keep saved slider values on their steps
+Evolver: Load the font previews off the main thread
+Evolver: Lock clock: Load the font previews off the main thread
+Evolver: Move "Browse All Clocks" to strings
+Evolver: Previews: Add a shared stage view and height tiers
+Evolver: Previews: Draw the lock wallpaper behind the charging and pulse stages
+Evolver: Previews: Share the phone shell dimens and the small preview radius
+Evolver: Previews: Share the stage radius and padding
+Evolver: Pulse: Add a live preview
+Evolver: QuickSettings: Add a QS panel style preview  
+Evolver: QuickSettings: Add the Remix panel style and its look picker
+Evolver: QuickSettings: Draw the Remix looks in the panel style preview
+Evolver: QuickSettings: Draw the header preview reset as a plain button
+Evolver: QuickSettings: List the Remix looks as rows with previews
+Evolver: QuickSettings: Move the QS panel style to its own page
+Evolver: Save the keybox for another phone
+Evolver: Themes: Load the navbar and shape previews off the main thread
+Evolver: TrickyStore: Add an auto-add switch for new apps
+Evolver: TrickyStore: Add keybox details
+Evolver: TrickyStore: Export the generated Duck RKP keybox
+Evolver: UDFPS: Load icon and animation previews off the main thread
+Evolver: Use the default_value string for the Default array items
+Evolver: quicksettings: Stop restarting SystemUI on QS style changes 
+GameSpace: Add refresh rate lock and QS tile
+Keybox: Extract a keybox from a capture
+PhoneWindowManager: Add open app key action
+PhoneWindowManager: Add power menu, contextual search and silence call key actions
+PhoneWindowManager: Handle quick tap key action
+PhoneWindowManager: Play quick tap haptic feedback
+Sandbox: Take over the app lock unlock prompt from AppLocker
+Settings: Allow customizing volume stream steps  
+Settings: Guard volume sliders against an empty range
+SettingsLib: SliderPreference: Handle min equal to max
+SystemFonts: Drop the prebuilt emoji styles
+SystemUI: Add a base view for drawn charging animations
+SystemUI: Choose the plug-in charging animation
+SystemUI: ClockStyle: Re-evaluate large clock size after relayout
+SystemUI: ClockStyle: switch to Lastochka font from astthillabeltaden
+SystemUI: Draw charging animations in other makers' styles
+SystemUI: DynamicBar: Add call speaker and mute toggles
+SystemUI: DynamicBar: Add haptic feedback on chip tap
+SystemUI: DynamicBar: Add haptic tick to panel buttons
+SystemUI: DynamicBar: Add press scale to panel buttons
+SystemUI: DynamicBar: Collapse keyguard panel on outside taps
+SystemUI: DynamicBar: Define setting keys in Settings.Secure
+SystemUI: DynamicBar: Drop AxQuickLook dependency
+SystemUI: DynamicBar: Drop tilt from swipe to dismiss
+SystemUI: DynamicBar: Morph chip into expanded panel
+SystemUI: DynamicBar: Morph keyguard chip into expanded panel
+SystemUI: DynamicBar: Morph notification alert card into chip
+SystemUI: DynamicBar: Remove unused Now Bar
+SystemUI: DynamicBar: Show live charging details
+SystemUI: DynamicBar: Stagger expanded cards like a stack
+SystemUI: Fix custom lockscreen clocks across rotation
+SystemUI: Fix statusbar logo visibility alongside DynamicBar
+SystemUI: Hide network traffic first when status icons run out of room
+SystemUI: Keep the QS slider tile sizes picked by dragging
+SystemUI: Optimize statusbar logo and follow user switches
+SystemUI: Pick the QS slider layout and look from edit mode
+SystemUI: Put Circles brightness and volume sliders by the media card
+SystemUI: QS: Fix edit mode crash on non-vector tile icons
+SystemUI: Save the QS slider place with the theme's changes
+SystemUI: Share slice and weather sections across blueprints
+SystemUI: Squish ongoing activity chips after refining
+SystemUI: qs: Add a repository for the QS panel style
+SystemUI: qs: Add my themes to the Remix customizer's Theme tab
+SystemUI: qs: Add my themes to the Remix panel style repository
+SystemUI: qs: Add the Add tab to the Remix customizer
+SystemUI: qs: Add the By the player place to the Remix Sliders tab
+SystemUI: qs: Add the Color and Mix tabs to the Remix customizer
+SystemUI: qs: Add the Remix QS editor
+SystemUI: qs: Add the Remix customizer dock
+SystemUI: qs: Add the Remix panel style ported from ResurrectedRemix
+SystemUI: qs: Add the Remix tiles when the Remix panel style is first picked
+SystemUI: qs: Add the footer chip to the Remix customizer's Mix tab
+SystemUI: qs: Add the media and volume sheets to the Remix customizer
+SystemUI: qs: Add the sheet of a picked tile to the Remix customizer
+SystemUI: qs: Add the tile preview host of the Remix customizer
+SystemUI: qs: Draw the Remix Media tile from the legacy media pipeline
+SystemUI: qs: Follow one QS panel style state
+SystemUI: qs: Pick, move, remove and add tiles in the Remix editor
+SystemUI: qs: Resize tiles by dragging in the Remix editor
+SystemUI: qs: Style the footer buttons of the Remix panel
+SystemUI: qs: Take the Remix tiles out of the default tile lists
+SystemUI: qs: Take the classic style from the style repository
+SystemUIGoogle: ambientmusic: Feed Now Playing to the dynamic island
+ThreeFingersSwipe: Harden gesture monitor lifecycle
+TrickyStore: Add an auto-target switch and wider exclusions
+TrickyStore: Check keybox revocation once a day in system_server only
+TrickyStore: Leave oversized attestation challenges to Keystore
+TrickyStore: Stop serving apps while switched off
+base: Allow customizing volume stream steps [1/2]
+base: Generate a certificate when attestation keys are missing
+base: TextView: Keep resolved fonts across configuration changes
+biometrics: Handle HIDL fingerprint HAL death on scheduler handler
+bootanimation: Play styles downloaded from Settings
+codec2: client: Retry when the service dies during client creation
+codec2: vndk: Allow a process to force HIDL bufferpool block pools
+common: Replace AppLocker from speed dexpreopt apps
+core: pif: Spoof signature of all platform-signed packages for GMS
+core: pif: Spoof the ATTESTATION fields and vendor device-id props
+core: trickystore: Do not keep vbmeta digest empty
+core: trickystore: Further harden boot key/hash
+core: trickystore: Prefer vendor patch prop
+custom_rom_hide: Allow hidden packages for explicitly granted apps
+extras: Drop Sans Serif overlays
+extras: Drop the prebuilt emoji styles
+extras: fonts: Add missing HarmonyOS Sans weight aliases
+extras: fonts: Define google-sans-flex-medium alias
+extras: fonts: Fix IBM Plex Sans weights
+extras: fonts: Fix NothingDot alias targets
+extras: fonts: Use google-sans as google-sans-flex fallback
+extras: sdk: Allow locking Settings with app lock
+extras: sdk: Honor app lock timeout after leaving an app
+extras: sdk: Play click sound on switch toggles
+extras: sdk: Use Sandbox's unlock prompt for app lock
+extras: sdk: compose: Add AxAlertDialog with shape-aware blur
+init: Create custom emoji font dir
+init: Report real vbmeta size
+init: Update safety net props
+installd: Add call to remove replaced emoji fonts
+installd: report incomplete app backup and restore failures
+installd: support large app backup and restore payloads
+libmedia: Search odm/etc/camera for media profiles
+lineage-sdk: Add open app key action
+lineage-sdk: Add power menu, contextual search and silence call key actions
+lineage-sdk: Add quick tap haptic effect extra
+lineage-sdk: Add quick tap key action
+overlay: Use google-sans-flex-medium for body medium font
+renderengine: Reshape Dolby Vision layers in client composition
+sepolicy: Add rules for custom emoji font
+sepolicy: Address denial for setting vbmeta prop   
+spoof: Honor empty PixelProps targets
+themes: Add Fluent UI to the downloadable emoji
+themes: Add Twemoji to the downloadable emoji
+themes: Add a catalog for downloadable emoji
+themes: Add the online boot animation catalog
